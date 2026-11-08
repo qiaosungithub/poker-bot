@@ -1,7 +1,8 @@
 # Repository and artifact boundaries
 
-Initialized locally on 2026-11-08, branch `main`. No remote was configured and
-nothing was pushed. The initial commit uses the automation identity
+Initialized locally on 2026-11-08, branch `main`. The GitHub destination is
+[qiaosungithub/poker-bot](https://github.com/qiaosungithub/poker-bot), configured
+as `origin` after the user explicitly requested the first push. The initial commit uses the automation identity
 `Codex <codex@localhost>` because no Git author identity was configured; no global
 Git settings were changed.
 
