@@ -1,0 +1,12 @@
+{
+  "n_iterations": 4,
+  "n_traversals": 2000,
+  "buffer_capacity": 5000,
+  "train_steps": 500,
+  "strategy_train_steps": 250,
+  "batch_size": 1024,
+  "checkpoint_every": 2,
+  "strategy_buffer_capacity": 5000,
+  "run_dir": "runs/smoke",
+  "devices": {"trav": "cuda:1", "fit": "cuda:3", "strat": "cuda:2"}
+}

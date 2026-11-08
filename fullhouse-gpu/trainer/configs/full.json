@@ -1,0 +1,25 @@
+{
+  "n_iterations": 250,
+  "n_traversals": 30000,
+  "buffer_capacity": 5000000,
+  "train_steps": 10000,
+  "strategy_train_steps": 3000,
+  "batch_size": 8192,
+  "lr": 0.001,
+  "checkpoint_every": 10,
+  "seed": 20261107,
+  "strategy_buffer_capacity": 5000000,
+  "opponent_exploration_start": 0.1,
+  "opponent_exploration_end": 0.02,
+  "opponent_exploration_decay_iters": 250,
+  "randomize_stacks": true,
+  "run_dir": "runs/full",
+  "devices": {
+    "trav": "cuda:1",
+    "fit": "cuda:2",
+    "strat": "cuda:3"
+  },
+  "trav_precision": "highest",
+  "fit_backend": "cuda",
+  "save_final_buffers": true
+}

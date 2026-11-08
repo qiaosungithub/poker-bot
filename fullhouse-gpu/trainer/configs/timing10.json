@@ -1,0 +1,12 @@
+{
+  "n_iterations": 250,
+  "n_traversals": 30000,
+  "checkpoint_every": 10,
+  "run_dir": "runs/timing10",
+  "devices": {
+    "trav": "cuda:1",
+    "fit": "cuda:3",
+    "strat": "cuda:2"
+  },
+  "stop_after": 10
+}

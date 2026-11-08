@@ -1,0 +1,6 @@
+# Runtime caches (numba / inductor / triton), the fit CUDA-extension build and test outputs.
+.runtime/
+# Training outputs: checkpoints, exports and 9 GB replay buffers stay outside Git.
+trainer/runs/
+# The repository root ignores *.log; the committed run and test logs are records.
+!results/**/*.log
