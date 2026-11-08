@@ -1,0 +1,374 @@
+{
+  "metadata": {
+    "config": {
+      "opponents": "cfr_lite,solver_hybrid,solver_like,station",
+      "pairs": 512,
+      "hands": 200,
+      "seed": 120000,
+      "workers": 24,
+      "output": "pilot2.json"
+    },
+    "protocol": "Paired heads-up tournament evaluation of the frozen Fullhouse policy.\n\n100 BB each, 0.5/1 BB fixed blinds, up to 200 hands; payout [100, 0].\nUnfinished games receive exact two-player ICM = final chip share * 100.\nIndependent sampling units are two games with the same decks and swapped bots.\nNo time limit; no policy training. Pilot and confirmation use disjoint seeds.\n",
+    "hashes": {
+      "bot/bot.py": "f721b16e0cab72d0c40fae2e94d1ec655a94025fc20addfc689c718fb8f10845",
+      "bot/features.py": "b43361365ed911f358b3588f0c487614029158bf1420c5ffec8260bd427475c8",
+      "data/deep_cfr_model.npz": "1102326b68da95564de147106612df71cb891b42f0726ba0212d3b9a5bcae295",
+      "engine_vendored/engine/game.py": "95c87ade625041f7cc6221d6cc36eac11f89f3f452753b20a402126c31f7e9c2",
+      "bots/competitors/cfr_lite/bot.py": "7eb3e3dc75333b2a940fa9784dc130e6c3936f4605f56f7b76bc94b3a6b0d231",
+      "bots/competitors/solver_hybrid/bot.py": "115656f4638d012a60c74ca8732c2e482c9fc12d3790f8ed10a40ee04c391550",
+      "bots/adversarial/solver_like.py": "76ef638a9a7e9762316ba34d54eca435bd37086afd9bb30433423346282a5240",
+      "bots/adversarial/station.py": "d73a65b481063fa813d6ba92ff88aed0cf8359407f0da234246401080c03774f"
+    },
+    "script_sha256": "822a02e9a9d5a44ddf320349207a886acf100536ad7c9bcb0fc3561cbb29570d",
+    "model_sha256": "7b52be99fbb20806669cba91deac58e3f0a03ec8a2169720e273ac08a67e1ef1"
+  },
+  "elapsed_seconds": 44.99702434288338,
+  "results": {
+    "cfr_lite": {
+      "pairs": 512,
+      "games": 1024,
+      "errors": 0,
+      "hands": 51091,
+      "score": {
+        "mean": 49.40265625,
+        "se": 1.4124965960727498,
+        "ci95": [
+          46.63416292169741,
+          52.17114957830259
+        ]
+      },
+      "corrections": {},
+      "actions": {
+        "hero_preflop_call": 10011,
+        "opponent_preflop_raise": 19355,
+        "hero_preflop_raise": 24463,
+        "opponent_preflop_call": 8301,
+        "opponent_flop_raise": 6524,
+        "hero_flop_raise": 7459,
+        "hero_flop_call": 2336,
+        "opponent_turn_all_in": 402,
+        "hero_turn_call": 1619,
+        "opponent_preflop_all_in": 288,
+        "hero_preflop_fold": 9914,
+        "opponent_preflop_fold": 23326,
+        "opponent_flop_call": 5522,
+        "hero_turn_fold": 2214,
+        "opponent_turn_raise": 4753,
+        "hero_turn_all_in": 408,
+        "opponent_turn_call": 3803,
+        "opponent_river_raise": 3122,
+        "opponent_flop_check": 9706,
+        "hero_turn_raise": 5486,
+        "opponent_river_check": 5636,
+        "opponent_preflop_check": 2924,
+        "hero_flop_check": 7514,
+        "opponent_turn_check": 7995,
+        "hero_turn_check": 5841,
+        "hero_river_check": 3653,
+        "hero_river_raise": 3906,
+        "opponent_river_fold": 2279,
+        "opponent_river_call": 1841,
+        "hero_river_call": 1168,
+        "hero_river_fold": 1585,
+        "hero_preflop_all_in": 692,
+        "hero_flop_fold": 2516,
+        "opponent_flop_all_in": 158,
+        "hero_river_all_in": 745,
+        "opponent_turn_fold": 1001,
+        "opponent_flop_fold": 860,
+        "opponent_river_all_in": 538,
+        "hero_flop_all_in": 323,
+        "hero_preflop_check": 1
+      },
+      "eliminated": {
+        "mean": 50.0,
+        "se": 1.4165575434738267,
+        "ci95": [
+          47.2235472147913,
+          52.7764527852087
+        ]
+      },
+      "opponent_eliminated": {
+        "mean": 48.92578125,
+        "se": 1.4055998166525476,
+        "ci95": [
+          46.170805609361004,
+          51.680756890638996
+        ]
+      },
+      "ahead": {
+        "mean": 49.4140625,
+        "se": 1.4230510256546045,
+        "ci95": [
+          46.624882489716974,
+          52.203242510283026
+        ]
+      },
+      "tied": {
+        "mean": 0.0,
+        "se": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "tournament_bb100": -2.3944726076999863
+    },
+    "solver_hybrid": {
+      "pairs": 512,
+      "games": 1024,
+      "errors": 0,
+      "hands": 77072,
+      "score": {
+        "mean": 48.2896875,
+        "se": 1.4011218645848245,
+        "ci95": [
+          45.543488645413746,
+          51.03588635458625
+        ]
+      },
+      "corrections": {},
+      "actions": {
+        "hero_preflop_raise": 35205,
+        "opponent_preflop_call": 10925,
+        "opponent_flop_check": 9227,
+        "hero_flop_check": 10084,
+        "opponent_turn_check": 13393,
+        "hero_turn_check": 9373,
+        "opponent_river_check": 10152,
+        "hero_river_raise": 6633,
+        "opponent_river_fold": 4173,
+        "opponent_preflop_raise": 28535,
+        "hero_preflop_fold": 15662,
+        "hero_preflop_call": 15753,
+        "opponent_preflop_check": 4544,
+        "opponent_flop_raise": 12542,
+        "hero_flop_fold": 3792,
+        "opponent_preflop_fold": 35418,
+        "hero_flop_call": 5694,
+        "hero_turn_raise": 8585,
+        "opponent_turn_raise": 4037,
+        "opponent_turn_all_in": 373,
+        "hero_river_all_in": 1100,
+        "hero_flop_raise": 9900,
+        "opponent_flop_call": 8706,
+        "opponent_turn_call": 6445,
+        "opponent_river_call": 2983,
+        "opponent_turn_fold": 1957,
+        "opponent_river_raise": 3252,
+        "hero_river_check": 6457,
+        "opponent_preflop_all_in": 970,
+        "hero_turn_fold": 2001,
+        "hero_turn_all_in": 312,
+        "hero_turn_call": 1443,
+        "hero_river_fold": 1716,
+        "hero_preflop_all_in": 1252,
+        "hero_preflop_check": 263,
+        "opponent_flop_fold": 1102,
+        "hero_flop_all_in": 327,
+        "hero_river_call": 1243,
+        "opponent_river_all_in": 529,
+        "opponent_flop_all_in": 75
+      },
+      "eliminated": {
+        "mean": 49.4140625,
+        "se": 1.4163203767098562,
+        "ci95": [
+          46.63807456164868,
+          52.19005043835132
+        ]
+      },
+      "opponent_eliminated": {
+        "mean": 43.9453125,
+        "se": 1.4449157670702695,
+        "ci95": [
+          41.113277596542275,
+          46.777347403457725
+        ]
+      },
+      "ahead": {
+        "mean": 48.73046875,
+        "se": 1.425534096980551,
+        "ci95": [
+          45.93642191991812,
+          51.52451558008188
+        ]
+      },
+      "tied": {
+        "mean": 0.0,
+        "se": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "tournament_bb100": -4.544737388416027
+    },
+    "solver_like": {
+      "pairs": 512,
+      "games": 1024,
+      "errors": 0,
+      "hands": 122099,
+      "score": {
+        "mean": 75.427568359375,
+        "se": 1.1688823909369688,
+        "ci95": [
+          73.13655887313854,
+          77.71857784561146
+        ]
+      },
+      "corrections": {},
+      "actions": {
+        "hero_preflop_raise": 45034,
+        "opponent_preflop_fold": 84025,
+        "hero_preflop_call": 15767,
+        "opponent_preflop_check": 7582,
+        "opponent_flop_raise": 10616,
+        "hero_flop_call": 5124,
+        "opponent_turn_check": 10086,
+        "hero_turn_check": 6460,
+        "opponent_river_check": 6858,
+        "hero_river_raise": 5214,
+        "opponent_river_fold": 2286,
+        "opponent_flop_check": 9189,
+        "hero_flop_check": 7242,
+        "hero_river_check": 3775,
+        "opponent_preflop_raise": 17367,
+        "hero_flop_raise": 8689,
+        "opponent_flop_call": 5659,
+        "opponent_preflop_call": 7602,
+        "opponent_turn_raise": 4473,
+        "hero_turn_call": 1752,
+        "opponent_river_raise": 3562,
+        "hero_river_call": 1444,
+        "hero_turn_raise": 6606,
+        "opponent_turn_call": 4649,
+        "hero_river_all_in": 683,
+        "opponent_river_call": 3406,
+        "hero_preflop_fold": 15916,
+        "hero_flop_fold": 2810,
+        "opponent_flop_fold": 2900,
+        "hero_turn_fold": 1941,
+        "opponent_preflop_all_in": 292,
+        "hero_preflop_all_in": 1840,
+        "opponent_turn_fold": 1788,
+        "opponent_river_all_in": 291,
+        "hero_flop_all_in": 290,
+        "opponent_flop_all_in": 127,
+        "hero_turn_all_in": 304,
+        "opponent_turn_all_in": 308,
+        "hero_river_fold": 1541,
+        "hero_preflop_check": 6
+      },
+      "eliminated": {
+        "mean": 18.26171875,
+        "se": 1.1429064734425924,
+        "ci95": [
+          16.02162206205252,
+          20.50181543794748
+        ]
+      },
+      "opponent_eliminated": {
+        "mean": 53.80859375,
+        "se": 1.527022928371391,
+        "ci95": [
+          50.81562881039207,
+          56.80155868960793
+        ]
+      },
+      "ahead": {
+        "mean": 76.953125,
+        "se": 1.2488480427667954,
+        "ci95": [
+          74.50538283617708,
+          79.40086716382292
+        ]
+      },
+      "tied": {
+        "mean": 0.0,
+        "se": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "tournament_bb100": 42.6503574967854
+    },
+    "station": {
+      "pairs": 512,
+      "games": 1024,
+      "errors": 0,
+      "hands": 61657,
+      "score": {
+        "mean": 80.10693359375,
+        "se": 1.1744142241060123,
+        "ci95": [
+          77.80508171450222,
+          82.40878547299778
+        ]
+      },
+      "corrections": {},
+      "actions": {
+        "hero_preflop_call": 4709,
+        "opponent_preflop_check": 4704,
+        "opponent_flop_check": 45747,
+        "hero_flop_raise": 23720,
+        "opponent_flop_call": 22751,
+        "opponent_turn_check": 45880,
+        "hero_turn_raise": 24680,
+        "opponent_turn_call": 22546,
+        "opponent_river_check": 42501,
+        "hero_river_raise": 26683,
+        "opponent_river_call": 23538,
+        "opponent_preflop_call": 61321,
+        "hero_preflop_check": 21725,
+        "hero_flop_check": 31951,
+        "hero_turn_check": 29990,
+        "hero_river_check": 23541,
+        "hero_preflop_raise": 29313,
+        "opponent_turn_fold": 2147,
+        "opponent_river_fold": 5452,
+        "hero_preflop_all_in": 1828,
+        "hero_preflop_fold": 3897,
+        "opponent_preflop_fold": 600,
+        "hero_river_all_in": 2323,
+        "opponent_flop_fold": 1037,
+        "hero_flop_all_in": 76,
+        "hero_turn_all_in": 28
+      },
+      "eliminated": {
+        "mean": 19.82421875,
+        "se": 1.1751114061789194,
+        "ci95": [
+          17.521000393889317,
+          22.127437106110683
+        ]
+      },
+      "opponent_eliminated": {
+        "mean": 79.78515625,
+        "se": 1.178346842462383,
+        "ci95": [
+          77.47559643877374,
+          82.09471606122626
+        ]
+      },
+      "ahead": {
+        "mean": 80.078125,
+        "se": 1.175944905891231,
+        "ci95": [
+          77.77327298445319,
+          82.38297701554681
+        ]
+      },
+      "tied": {
+        "mean": 0.0,
+        "se": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "tournament_bb100": 100.00324375172325
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "candidate": "Talibus released 6-max strategy_shared_best_ring.onnx",
+  "model_bytes": 16854867,
+  "sha256": "b3473f08c0dda9611babaa14f646b2ec5bb0d28b225fc10f599a45b472842af2",
+  "cpu": "AMD EPYC 7B12",
+  "affinity": [
+    6
+  ],
+  "onnxruntime": "1.23.2",
+  "numpy": "2.2.6",
+  "threads": 1,
+  "batch": 1,
+  "warmup": 1000,
+  "corpus": "2048 seeded synthetic structured observations covering 4 streets, 2-6 active players, 0-48 history events; not engine-generated games",
+  "timed_scope": "Python raw-state feature encoding + abstract legal action enumeration + mask + existing ONNX strategy forward + probability sampling + concrete action dict; no search",
+  "wall": {
+    "p50_ms": 1.2572695,
+    "p95_ms": 1.3458539999999999,
+    "p99_ms": 1.44843469,
+    "p999_ms": 2.4768664190000056,
+    "max_ms": 2.811239,
+    "over_1ms": 10000,
+    "samples": 10000
+  },
+  "thread_cpu": {
+    "p50_ms": 1.25184,
+    "p95_ms": 1.3350739999999999,
+    "p99_ms": 1.4147548900000004,
+    "p999_ms": 2.4721171190000053,
+    "max_ms": 2.69617,
+    "over_1ms": 10000,
+    "samples": 10000
+  },
+  "action_counts": {
+    "fold": 2525,
+    "raise": 3703,
+    "allin": 1752,
+    "bet": 926,
+    "check": 785,
+    "call": 309
+  },
+  "limitations": [
+    "Not a strength evaluation",
+    "Python translation not cross-validated against Rust engine; cargo absent",
+    "Published strength metrics include 2000ms search and do not apply to this policy-only path",
+    "Does not support 8-player inputs"
+  ]
+}

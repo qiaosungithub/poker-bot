@@ -1,0 +1,19 @@
+{
+  "python": "3.10.12",
+  "platform": "Linux-5.19.0-1022-gcp-x86_64-with-glibc2.35",
+  "cpu_model": "AMD EPYC 7B12",
+  "logical_cpus_available": 240,
+  "inference_provider": "CPUExecutionProvider",
+  "threads_per_onnx_session": 1,
+  "packages": {
+    "numpy": "2.2.6",
+    "onnx": "1.23.2",
+    "onnxruntime": "1.23.2",
+    "eval7": "0.1.11"
+  },
+  "requirements_file": "requirements-benchmark.txt",
+  "validation_environment": {
+    "python": "3.11",
+    "pokerkit": "0.7.7"
+  }
+}

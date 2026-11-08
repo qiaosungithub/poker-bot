@@ -1,0 +1,64 @@
+{
+  "checked_at_utc": "2026-11-08T18:22:19.158099+00:00",
+  "repository": "https://github.com/nnicholas-c/poker_sequoia",
+  "commit": "e6e68a1aa7c71f78fec17bd7ead813687689fc61",
+  "source_status": "Participant-published kit copy, not organizer-owned release; rules compared against included engine.",
+  "sources": [
+    {
+      "url": "https://github.com/nnicholas-c/poker_sequoia/blob/e6e68a1aa7c71f78fec17bd7ead813687689fc61/kit/RULES.md",
+      "raw_url": "https://raw.githubusercontent.com/nnicholas-c/poker_sequoia/e6e68a1aa7c71f78fec17bd7ead813687689fc61/kit/RULES.md",
+      "local_capture": ".runtime/private-web/bay-area-kit__RULES.md",
+      "sha256": "0c980b250573860b3490e86630a1fd5c10f17daa02ec7c785ec32cf55bf17d81"
+    },
+    {
+      "url": "https://github.com/nnicholas-c/poker_sequoia/blob/e6e68a1aa7c71f78fec17bd7ead813687689fc61/kit/README.md",
+      "raw_url": "https://raw.githubusercontent.com/nnicholas-c/poker_sequoia/e6e68a1aa7c71f78fec17bd7ead813687689fc61/kit/README.md",
+      "local_capture": ".runtime/private-web/bay-area-kit__README.md",
+      "sha256": "5aaceb2db70785857d11ceea64bdcf28e5558f681bf580d513ab36cead8ab06a"
+    },
+    {
+      "url": "https://github.com/nnicholas-c/poker_sequoia/blob/e6e68a1aa7c71f78fec17bd7ead813687689fc61/kit/sdk/engine/src/poker_engine/variants/flop_discard_reveal.py",
+      "raw_url": "https://raw.githubusercontent.com/nnicholas-c/poker_sequoia/e6e68a1aa7c71f78fec17bd7ead813687689fc61/kit/sdk/engine/src/poker_engine/variants/flop_discard_reveal.py",
+      "local_capture": ".runtime/private-web/bay-area-kit__sdk__engine__src__poker_engine__variants__flop_discard_reveal.py",
+      "sha256": "308a2fa00f59af1b1111f775e32a7ae2013b2b913463fe135f48bfa3a2dc193a"
+    },
+    {
+      "url": "https://github.com/nnicholas-c/poker_sequoia/blob/e6e68a1aa7c71f78fec17bd7ead813687689fc61/bots/gto_supplied/agent.py",
+      "raw_url": "https://raw.githubusercontent.com/nnicholas-c/poker_sequoia/e6e68a1aa7c71f78fec17bd7ead813687689fc61/bots/gto_supplied/agent.py",
+      "local_capture": ".runtime/private-web/bay-area-bots__gto_supplied__agent.py",
+      "sha256": "1d388d34699a5a93874534b3d61a74f1fffa9376b42ebf2b57edd2f8f01b5e06"
+    },
+    {
+      "url": "https://github.com/nnicholas-c/poker_sequoia/blob/e6e68a1aa7c71f78fec17bd7ead813687689fc61/arena/benchmarks/gto-first-place/README.md",
+      "raw_url": "https://raw.githubusercontent.com/nnicholas-c/poker_sequoia/e6e68a1aa7c71f78fec17bd7ead813687689fc61/arena/benchmarks/gto-first-place/README.md",
+      "local_capture": ".runtime/private-web/bay-area-arena__benchmarks__gto-first-place__README.md",
+      "sha256": "f47d17cf69030de8c8b2572def1376eab196f5f01ac93dd1cdd1efc7b616dc6f"
+    }
+  ],
+  "search_scope": [
+    "Official public homepage and rules",
+    "Authenticated competition listing: only Boston visible",
+    "Web searches for Sequoia / No Limit / Bay Area / Stanford winners and variant",
+    "GitHub repository search for poker sequoia and related README matches",
+    "Participant repository recursive tree and Releases endpoint"
+  ],
+  "not_found": [
+    "Verifiable official Bay Area champion identity or standings",
+    "A verifiable champion checkpoint"
+  ],
+  "checkpoint_scan": {
+    "repo": "nnicholas-c/poker_sequoia",
+    "commit": "e6e68a1aa7c71f78fec17bd7ead813687689fc61",
+    "extensions": [
+      ".pt",
+      ".pth",
+      ".onnx",
+      ".npz",
+      ".ckpt",
+      ".safetensors"
+    ],
+    "matches": [],
+    "releases": []
+  },
+  "scope_limit": "These negative findings cover the inspected sources at this time, not the entire web."
+}

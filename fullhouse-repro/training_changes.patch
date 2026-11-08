@@ -1,0 +1,49 @@
+diff --git a/training/train.py b/training/train.py
+index 7fa89f9..e570794 100644
+--- a/training/train.py
++++ b/training/train.py
+@@ -207,7 +207,8 @@ def _run_parallel_traversals(
+     import multiprocessing as mp
+ 
+     counts = _worker_counts(n_traversals, n_workers)
+-    ctx = mp.get_context("fork")
++    # A TPU runtime owns threads; never fork it into traversal workers.
++    ctx = mp.get_context("spawn")
+ 
+     if _USE_NUMBA:
+         flush_lut, nf_keys, nf_vals = _NUMBA_LUTS
+@@ -534,6 +535,11 @@ def train_deep_cfr(
+         if "strategy_net" in checkpoint:
+             strategy_net.load_state_dict(checkpoint["strategy_net"])
+         resume_iter = checkpoint["iteration"]
++        if "rng_states" not in checkpoint:
++            raise RuntimeError("Reproduction resume requires saved RNG states")
++        np.random.set_state(checkpoint["rng_states"]["numpy"])
++        torch.set_rng_state(checkpoint["rng_states"]["torch"])
++        rng.bit_generator.state = checkpoint["rng_states"]["generator"]
+         if "buffers" in checkpoint:
+             for buf, state_dict in zip(buffers, checkpoint["buffers"]):
+                 buf.load_state_dict(state_dict)
+@@ -682,6 +688,11 @@ def train_deep_cfr(
+         if iteration % checkpoint_every == 0 or iteration == n_iterations:
+             save_path = ckpt_path / f"iter_{iteration:05d}.pt"
+             ckpt_data = {
++                "rng_states": {
++                    "numpy": np.random.get_state(),
++                    "torch": torch.get_rng_state(),
++                    "generator": rng.bit_generator.state,
++                },
+                 "net": net.state_dict(),
+                 "strategy_net": strategy_net.state_dict(),
+                 "iteration": iteration,
+@@ -716,7 +727,9 @@ def train_deep_cfr(
+                 latest_data = dict(ckpt_data)
+                 latest_data["buffers"] = [b.state_dict() for b in buffers]
+                 latest_data["strategy_buffer"] = strategy_buffer.state_dict()
+-            torch.save(latest_data, resume_file)
++            tmp_resume = resume_file.with_suffix(".pt.tmp")
++            torch.save(latest_data, tmp_resume)
++            tmp_resume.replace(resume_file)
+ 
+             exported: list[str] = []
+             for vname, _vsteps, _vtrunk in variants:

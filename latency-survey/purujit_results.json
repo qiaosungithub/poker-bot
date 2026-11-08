@@ -1,0 +1,140 @@
+{
+  "platform": "Linux-5.19.0-1022-gcp-x86_64-with-glibc2.35",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "affinity": [
+    4
+  ],
+  "import_ms": 826.6836490947753,
+  "samples": [
+    {
+      "street": "preflop",
+      "active_players": 6,
+      "n": 20,
+      "median_ms": 0.05383,
+      "p95_ms": 0.06353,
+      "max_ms": 0.15152,
+      "over1ms": 0,
+      "actions": [
+        {
+          "action": "fold"
+        },
+        {
+          "action": "fold"
+        },
+        {
+          "action": "fold"
+        }
+      ]
+    },
+    {
+      "street": "flop",
+      "active_players": 2,
+      "n": 20,
+      "median_ms": 33.796967,
+      "p95_ms": 34.748858,
+      "max_ms": 34.988948,
+      "over1ms": 20,
+      "actions": [
+        {
+          "action": "fold"
+        },
+        {
+          "action": "fold"
+        },
+        {
+          "action": "raise",
+          "amount": 8000
+        }
+      ]
+    },
+    {
+      "street": "flop",
+      "active_players": 3,
+      "n": 20,
+      "median_ms": 165.079979,
+      "p95_ms": 180.933429,
+      "max_ms": 214.685097,
+      "over1ms": 20,
+      "actions": [
+        {
+          "action": "fold"
+        },
+        {
+          "action": "call"
+        },
+        {
+          "action": "call"
+        }
+      ]
+    },
+    {
+      "street": "flop",
+      "active_players": 4,
+      "n": 20,
+      "median_ms": 230.013136,
+      "p95_ms": 252.967284,
+      "max_ms": 256.838404,
+      "over1ms": 20,
+      "actions": [
+        {
+          "action": "raise",
+          "amount": 4750
+        },
+        {
+          "action": "call"
+        },
+        {
+          "action": "call"
+        }
+      ]
+    },
+    {
+      "street": "flop",
+      "active_players": 6,
+      "n": 20,
+      "median_ms": 404.516575,
+      "p95_ms": 440.903003,
+      "max_ms": 458.358732,
+      "over1ms": 20,
+      "actions": [
+        {
+          "action": "fold"
+        },
+        {
+          "action": "raise",
+          "amount": 8000
+        },
+        {
+          "action": "fold"
+        }
+      ]
+    },
+    {
+      "street": "river",
+      "active_players": 6,
+      "n": 20,
+      "median_ms": 385.606767,
+      "p95_ms": 420.790774,
+      "max_ms": 426.832514,
+      "over1ms": 20,
+      "actions": [
+        {
+          "action": "fold"
+        },
+        {
+          "action": "fold"
+        },
+        {
+          "action": "raise",
+          "amount": 8000
+        }
+      ]
+    }
+  ],
+  "fallback_count": 0,
+  "fallback_reasons": [],
+  "source_commit": "d96c04fd36226d6a4ec39df5ef87843591173022",
+  "cpu": "AMD EPYC 7B12",
+  "eval7": "0.1.11",
+  "timing_scope": "Original bot.decide full call; preloaded strategies, prebuilt author-style state dict, not JSON IPC; 20 random hands per scenario; no strategy edits"
+}

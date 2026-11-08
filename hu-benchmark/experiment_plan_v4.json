@@ -1,0 +1,103 @@
+{
+  "created_utc": "2026-11-06T20:33:23.904007+00:00",
+  "objective": "Calibrate fixed Fullhouse policy against near-zero, near-50 and near-80 score opponents.",
+  "score": "100 * final_hero_chips / total_chips, equal to 2-player ICM payouts [100,0]; bust gives 0 or 100.",
+  "rules": {
+    "players": 2,
+    "starting_stack_bb": 100,
+    "fixed_blinds_chips": [
+      50,
+      100
+    ],
+    "max_hands": 200,
+    "time_penalty": false
+  },
+  "target": "Original released Fullhouse weights and decisions; previously validated FP32 ONNX execution.",
+  "sampling": "One independent unit = two matches with identical seed-driven decks and swapped bot seats. Separate policy RNG and deck RNG. Opponent memory resets per match.",
+  "selected": {
+    "hard": "lbr_cautious25",
+    "medium": "cfr_lite",
+    "easy": "station"
+  },
+  "hard_is_whitebox": true,
+  "hard_implementation": "Local implementation inspired by LBR; full 1225-combo initial range, public action Bayesian updates, 16 runouts per combo, utility stack**0.25, bet grid 0.125/0.25/0.5/1/2 pots plus all-in. Knows fixed policy, no actual opponent private cards or deck.",
+  "hard_selection": {
+    "file": "pilot_lbr_cautious.json",
+    "scores": {
+      "lbr_cautious": {
+        "mean": 9.33359375,
+        "se": 1.7056831539883492,
+        "ci95": [
+          5.990454768182836,
+          12.676732731817165
+        ]
+      },
+      "lbr_cautious10": {
+        "mean": 7.22046875,
+        "se": 1.4663391816839555,
+        "ci95": [
+          4.346443953899447,
+          10.094493546100553
+        ]
+      },
+      "lbr_cautious25": {
+        "mean": 6.69693359375,
+        "se": 1.5722318245137623,
+        "ci95": [
+          3.6153592177030256,
+          9.778507969796975
+        ]
+      }
+    },
+    "risk_power": 0.25
+  },
+  "confirmation": {
+    "hard": {
+      "pairs": 1024,
+      "seed_start": 7000000,
+      "workers": 64,
+      "output": "final_hard_v4.json"
+    },
+    "medium_easy": {
+      "pairs_each": 4096,
+      "seed_start": 6000000,
+      "workers": 16,
+      "output": "final_medium_easy_v4.json"
+    }
+  },
+  "precision": "Report 95% confidence interval on independent paired-match mean; hard planned sample fixed before confirmation, aiming for about 1-2 point half-width, not zero variance.",
+  "engine_adapter": "Correct forced blind all-ins and run out matched all-ins when <=1 player can act; original third-party files unchanged. Also require call/fold after short all-in increments, without assuming a full raise. Run out immediately after matched all-in calls, including short small-blind all-in calls.",
+  "tests_passed": 11,
+  "superseded": [
+    "smoke.json: harness method typo, invalid",
+    "confirm_medium_easy.json: before matched-all-in engine correction; use final_medium_easy.json",
+    "final_medium_easy.json: before short-all-in response fix",
+    "final_hard.jsonl: incomplete run terminated after reproducing short-all-in response bug",
+    "final_medium_easy_v3.json: before matched-all-in-call forced-action correction",
+    "final_hard_v3.jsonl: incomplete run stopped after reproducing matched-all-in-call forced-action bug"
+  ],
+  "hashes": {
+    "run_benchmark.py": "4194d5f0fde1c9abe16fcf8c8f0dc0b41505b03f3100c70b970ca783db384f38",
+    "engine_adapter.py": "66026b161e2005f10738f74ff40c4b94dab975088e3fc40d224343de1ab1f1b9",
+    "lbr_baseline.py": "b7c00649c077565f0339f363f50ca6b45b9d3946add523cc9603e0fec2b30d15",
+    "test_benchmark.py": "68e0c70f22cd79f84954c9580e669ed5f81cc8233eea1dfa21124cbf500eb1c8",
+    "test_lbr.py": "115686b08a074e122c802a61c9c658434dc933b7110975bd8aae33ccfc34f865",
+    "validate_against_pokerkit.py": "e50cb35e7da02369bca9f380ff4f8c9ca327264a677168568b8cd56f8a83f3cc",
+    "engine_differential_validation.json": "70abbad365f6b2eafe1b30eaeb95f5ad36e31c350d6845755df7b0a739b9d01a",
+    "fullhouse_batch.onnx": "8abf85f7a1f5cc08ede087fa7663ba9cffb5676224eb00339387a5fb9107b16c"
+  },
+  "independent_validation": {
+    "reference": "PokerKit 0.7.7",
+    "hands": 2000,
+    "actions": 7572,
+    "mismatches": 0,
+    "seconds": 4.6391844030003995,
+    "checks": [
+      "actor order",
+      "amount to call",
+      "stack before actions",
+      "final stacks",
+      "independent hand evaluator"
+    ]
+  }
+}

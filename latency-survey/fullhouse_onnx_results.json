@@ -1,0 +1,444 @@
+{
+  "source": "https://github.com/advitrocks9/fullhouse-bot",
+  "commit": "e504793d480b1b975f25258d25939b45c6dbd5a4",
+  "cpu_model": "AMD EPYC 7B12",
+  "cpu_affinity": [
+    2
+  ],
+  "numpy": "2.2.6",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "threads": 1,
+  "seed": 19073,
+  "cyclic_gc_enabled": true,
+  "onnx_parity": {
+    "model_bytes": 588622,
+    "parity_states": 10000,
+    "max_probability_abs_error": 2.968311309814453e-05,
+    "mean_total_variation": 1.2345908298811992e-07,
+    "argmax_agreement": 1.0,
+    "changes": "FP32 ONNX inference only; released weights, feature encoder, legal mask, sampling and short-stack rules preserved"
+  },
+  "players": 6,
+  "generated_hands": 1097,
+  "unique_states": 10000,
+  "stack_bb_choices": [
+    5,
+    10,
+    20,
+    50,
+    100,
+    200
+  ],
+  "max_action_history": 30,
+  "measurement": "Warm state-dict -> original decide -> action-dict; model loaded before timing; original fallback replaced by raising assertion; policy unchanged",
+  "wall": {
+    "n": 30000,
+    "mean_ms": 0.23434261569999998,
+    "p50_ms": 0.24611,
+    "p95_ms": 0.3325705,
+    "p99_ms": 0.36295029999999995,
+    "p999_ms": 0.42314103000000025,
+    "max_ms": 1.91499,
+    "over_1ms": 1
+  },
+  "thread_cpu": {
+    "n": 30000,
+    "mean_ms": 0.23565424036666666,
+    "p50_ms": 0.24773,
+    "p95_ms": 0.33368,
+    "p99_ms": 0.36275129999999983,
+    "p999_ms": 0.38679008000000004,
+    "max_ms": 1.91745,
+    "over_1ms": 1
+  },
+  "runs": [
+    {
+      "n": 10000,
+      "mean_ms": 0.2334241548,
+      "p50_ms": 0.245315,
+      "p95_ms": 0.3306479999999999,
+      "p99_ms": 0.36125039000000003,
+      "p999_ms": 0.43114697000000346,
+      "max_ms": 0.62626,
+      "over_1ms": 0
+    },
+    {
+      "n": 10000,
+      "mean_ms": 0.23467321199999996,
+      "p50_ms": 0.246245,
+      "p95_ms": 0.334041,
+      "p99_ms": 0.3632405,
+      "p999_ms": 0.41120256000000055,
+      "max_ms": 0.84071,
+      "over_1ms": 0
+    },
+    {
+      "n": 10000,
+      "mean_ms": 0.2349304803,
+      "p50_ms": 0.246725,
+      "p95_ms": 0.33315349999999994,
+      "p99_ms": 0.3636006,
+      "p999_ms": 0.42315340000000273,
+      "max_ms": 1.91499,
+      "over_1ms": 1
+    }
+  ],
+  "by_street_wall": {
+    "flop": {
+      "n": 7500,
+      "mean_ms": 0.26354985373333334,
+      "p50_ms": 0.2451,
+      "p95_ms": 0.33293005,
+      "p99_ms": 0.3533822900000001,
+      "p999_ms": 0.47041675100000047,
+      "max_ms": 0.84071,
+      "over_1ms": 0
+    },
+    "turn": {
+      "n": 7500,
+      "mean_ms": 0.26400039333333336,
+      "p50_ms": 0.25171,
+      "p95_ms": 0.3462805,
+      "p99_ms": 0.36996,
+      "p999_ms": 0.42714299000000167,
+      "max_ms": 0.534449,
+      "over_1ms": 0
+    },
+    "preflop": {
+      "n": 7500,
+      "mean_ms": 0.1532647628,
+      "p50_ms": 0.19932,
+      "p95_ms": 0.27429145,
+      "p99_ms": 0.29602210000000007,
+      "p999_ms": 0.3303626390000006,
+      "max_ms": 0.47112,
+      "over_1ms": 0
+    },
+    "river": {
+      "n": 7500,
+      "mean_ms": 0.25655545293333337,
+      "p50_ms": 0.24765,
+      "p95_ms": 0.3380694999999999,
+      "p99_ms": 0.3713909100000001,
+      "p999_ms": 0.40932376000000076,
+      "max_ms": 1.91499,
+      "over_1ms": 1
+    }
+  },
+  "json_decode_decide_encode_wall": {
+    "n": 10000,
+    "mean_ms": 0.2676949255,
+    "p50_ms": 0.28152,
+    "p95_ms": 0.3690975499999999,
+    "p99_ms": 0.4052309,
+    "p999_ms": 0.4593780000000016,
+    "max_ms": 1.073679,
+    "over_1ms": 1
+  },
+  "fallback_count": 0,
+  "legal_failure_count": 0,
+  "slow_calls": [
+    {
+      "repeat": 2,
+      "index": 7968,
+      "wall_ms": 1.91499,
+      "cpu_ms": 1.91745,
+      "state": {
+        "type": "action_request",
+        "hand_id": "bench_19073_525",
+        "street": "river",
+        "seat_to_act": 3,
+        "pot": 2550,
+        "community_cards": [
+          "3d",
+          "9d",
+          "5h",
+          "Qd",
+          "4c"
+        ],
+        "current_bet": 0,
+        "min_raise_to": 100,
+        "amount_owed": 0,
+        "can_check": true,
+        "your_cards": [
+          "5c",
+          "Qc"
+        ],
+        "your_stack": 18800,
+        "your_bet_this_street": 0,
+        "players": [
+          {
+            "seat": 0,
+            "bot_id": "p0",
+            "stack": 1000,
+            "state": "folded",
+            "is_folded": true,
+            "is_all_in": false,
+            "bet_this_street": 0,
+            "hole_cards": null
+          },
+          {
+            "seat": 1,
+            "bot_id": "p1",
+            "stack": 8800,
+            "state": "active",
+            "is_folded": false,
+            "is_all_in": false,
+            "bet_this_street": 0,
+            "hole_cards": null
+          },
+          {
+            "seat": 2,
+            "bot_id": "p2",
+            "stack": 2000,
+            "state": "folded",
+            "is_folded": true,
+            "is_all_in": false,
+            "bet_this_street": 0,
+            "hole_cards": null
+          },
+          {
+            "seat": 3,
+            "bot_id": "p3",
+            "stack": 18800,
+            "state": "active",
+            "is_folded": false,
+            "is_all_in": false,
+            "bet_this_street": 0,
+            "hole_cards": null
+          },
+          {
+            "seat": 4,
+            "bot_id": "p4",
+            "stack": 950,
+            "state": "folded",
+            "is_folded": true,
+            "is_all_in": false,
+            "bet_this_street": 0,
+            "hole_cards": null
+          },
+          {
+            "seat": 5,
+            "bot_id": "p5",
+            "stack": 1900,
+            "state": "folded",
+            "is_folded": true,
+            "is_all_in": false,
+            "bet_this_street": 0,
+            "hole_cards": null
+          }
+        ],
+        "action_log": [
+          {
+            "seat": 4,
+            "action": "small_blind",
+            "amount": 50
+          },
+          {
+            "seat": 5,
+            "action": "big_blind",
+            "amount": 100
+          },
+          {
+            "seat": 0,
+            "action": "fold",
+            "amount": 0
+          },
+          {
+            "seat": 1,
+            "action": "raise",
+            "amount": 350
+          },
+          {
+            "seat": 2,
+            "action": "fold",
+            "amount": 0
+          },
+          {
+            "seat": 3,
+            "action": "call",
+            "amount": 350
+          },
+          {
+            "seat": 4,
+            "action": "fold",
+            "amount": 0
+          },
+          {
+            "seat": 5,
+            "action": "fold",
+            "amount": 0
+          },
+          {
+            "seat": 1,
+            "action": "check",
+            "amount": 0
+          },
+          {
+            "seat": 3,
+            "action": "check",
+            "amount": 0
+          },
+          {
+            "seat": 1,
+            "action": "raise",
+            "amount": 850
+          },
+          {
+            "seat": 3,
+            "action": "call",
+            "amount": 850
+          },
+          {
+            "seat": 1,
+            "action": "check",
+            "amount": 0
+          }
+        ]
+      }
+    }
+  ],
+  "action_counts": {
+    "check": 14733,
+    "raise": 4077,
+    "fold": 9392,
+    "all_in": 1088,
+    "call": 710
+  },
+  "models": {
+    "preflop_equity.npz": {
+      "bytes": 2160,
+      "sha256": "6b3b74778854fcebcd3179753c0252392e5f4118e6b623375c98fafa372863b3",
+      "arrays": {
+        "paired": {
+          "shape": [
+            13
+          ],
+          "dtype": "float32"
+        },
+        "suited": {
+          "shape": [
+            13,
+            13
+          ],
+          "dtype": "float32"
+        },
+        "offsuit": {
+          "shape": [
+            13,
+            13
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    "deep_cfr_model.npz": {
+      "bytes": 590758,
+      "sha256": "1102326b68da95564de147106612df71cb891b42f0726ba0212d3b9a5bcae295",
+      "arrays": {
+        "trunk_w0": {
+          "shape": [
+            256,
+            51
+          ],
+          "dtype": "float32"
+        },
+        "trunk_b0": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln0_g": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln0_b": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_w1": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_b1": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln1_g": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln1_b": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "val_w0": {
+          "shape": [
+            128,
+            256
+          ],
+          "dtype": "float32"
+        },
+        "val_b0": {
+          "shape": [
+            128
+          ],
+          "dtype": "float32"
+        },
+        "val_w1": {
+          "shape": [
+            1,
+            128
+          ],
+          "dtype": "float32"
+        },
+        "val_b1": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "adv_w0": {
+          "shape": [
+            128,
+            256
+          ],
+          "dtype": "float32"
+        },
+        "adv_b0": {
+          "shape": [
+            128
+          ],
+          "dtype": "float32"
+        },
+        "adv_w1": {
+          "shape": [
+            5,
+            128
+          ],
+          "dtype": "float32"
+        },
+        "adv_b1": {
+          "shape": [
+            5
+          ],
+          "dtype": "float32"
+        }
+      }
+    }
+  }
+}

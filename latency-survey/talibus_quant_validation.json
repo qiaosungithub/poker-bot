@@ -1,0 +1,9 @@
+{
+  "n_states": 2048,
+  "mean_absolute_probability_error": 0.006742815021425486,
+  "max_absolute_probability_error": 0.336615651845932,
+  "mean_total_variation": 0.04382829740643501,
+  "p99_total_variation": 0.17569948732852936,
+  "argmax_agreement": 0.89990234375,
+  "note": "Input-output closeness only; not a poker-strength validation."
+}

@@ -1,0 +1,33 @@
+# Private sessions, environments, caches and temporary data live here.
+/.runtime/
+/.no-limit-2026/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python/generated runtime files.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.log
+.DS_Store
+
+# Checkpoints and exports stay on the work filesystem, outside Git.
+/fullhouse-repro/runs/
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.safetensors
+*.npz
+# Raw timing measurements are evidence, not model parameters.
+!/fullhouse-repro/latency/**/timings.npz
+
+# Linked worktree: upstream commit + tracked training_changes.patch reconstruct it.
+/fullhouse-repro/source/
+
+# Keep benchmark JSON/JSONL, state corpora and frozen source ZIPs versioned.

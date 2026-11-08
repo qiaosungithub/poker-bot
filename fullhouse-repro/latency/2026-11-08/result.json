@@ -1,0 +1,159 @@
+{
+  "measured_at": "2026-11-08T17:37:08.749168+00:00",
+  "elapsed_seconds": 13.904453415889293,
+  "environment": {
+    "cpu_model": "AMD EPYC 7B12",
+    "logical_cpu": 2,
+    "python": "3.11.0rc1 (main, Aug 12 2022, 10:02:14) [GCC 11.2.0]",
+    "platform": "Linux-5.19.0-1022-gcp-x86_64-with-glibc2.35",
+    "load_average": [
+      2.6787109375,
+      2.96142578125,
+      3.1279296875
+    ],
+    "packages": {
+      "numpy": "2.2.6",
+      "onnxruntime": "1.23.2",
+      "eval7": "0.1.11",
+      "pokerkit": "0.7.7"
+    }
+  },
+  "protocol": {
+    "states": 10000,
+    "street_counts": {
+      "turn": 2500,
+      "river": 2500,
+      "flop": 2500,
+      "preflop": 2500
+    },
+    "repeats": 3,
+    "warmup_per_pass": 200,
+    "gc_enabled_during_timing": false,
+    "ort_intra_threads": 1,
+    "ort_inter_threads": 1,
+    "alternating_model_order": true,
+    "scope": "Warm state-dict to action-dict: feature construction, FP32 inference, policy/action logic. No official SDK, memory serialization, JSON, IPC, startup, game simulation or deadline penalties.",
+    "legality": "Only action-kind validation; the frozen strength adapter handles action bounds. Not an official legality/timeout acceptance test."
+  },
+  "corpus": {
+    "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/hu-benchmark/multiway_latency_states.jsonl.gz",
+    "sha256": "bbd903aa73d056ce9e4bff6f4762379b18e23fc6782707db95a43ebc76013d8d"
+  },
+  "source_hashes": {
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/fullhouse-repro/measure_latency.py": "d3d8f9eaed4c35c74f7335238490398e0478619043bd2a48951dde621e1c0b5b",
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/hu-benchmark/run_benchmark.py": "4194d5f0fde1c9abe16fcf8c8f0dc0b41505b03f3100c70b970ca783db384f38",
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/latency-survey/fullhouse_onnx.py": "8ada59c184650627a841559edc3b21e65af913e69336bd45f6c6505b68dfb18c",
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/latency-survey/fullhouse-bot/bot/bot.py": "f721b16e0cab72d0c40fae2e94d1ec655a94025fc20addfc689c718fb8f10845",
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/latency-survey/fullhouse-bot/bot/features.py": "b43361365ed911f358b3588f0c487614029158bf1420c5ffec8260bd427475c8"
+  },
+  "results": {
+    "released": {
+      "model": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/latency-survey/fullhouse_fp32.onnx",
+      "model_sha256": "7b52be99fbb20806669cba91deac58e3f0a03ec8a2169720e273ac08a67e1ef1",
+      "wall": {
+        "n": 30000,
+        "p50_ms": 0.224851,
+        "p99_ms": 0.33235079999999984,
+        "p999_ms": 0.3974319700000004,
+        "max_ms": 6.117509,
+        "over_1ms": 2
+      },
+      "thread_cpu": {
+        "n": 30000,
+        "p50_ms": 0.223271,
+        "p99_ms": 0.32842911,
+        "p999_ms": 0.36257119000000027,
+        "max_ms": 6.114989,
+        "over_1ms": 2
+      },
+      "by_street": {
+        "turn": {
+          "n": 7500,
+          "p50_ms": 0.22968,
+          "p99_ms": 0.3413931000000001,
+          "p999_ms": 0.4004320600000004,
+          "max_ms": 0.893451,
+          "over_1ms": 0
+        },
+        "river": {
+          "n": 7500,
+          "p50_ms": 0.22624,
+          "p99_ms": 0.3388105,
+          "p999_ms": 0.38718513100000196,
+          "max_ms": 3.50734,
+          "over_1ms": 1
+        },
+        "flop": {
+          "n": 7500,
+          "p50_ms": 0.2240105,
+          "p99_ms": 0.3252925000000001,
+          "p999_ms": 0.4089303000000021,
+          "max_ms": 6.117509,
+          "over_1ms": 1
+        },
+        "preflop": {
+          "n": 7500,
+          "p50_ms": 0.1846395,
+          "p99_ms": 0.2748401,
+          "p999_ms": 0.3684958800000032,
+          "max_ms": 0.506,
+          "over_1ms": 0
+        }
+      }
+    },
+    "reproduced_iter210": {
+      "model": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/fullhouse-repro/eval/iter_00210.onnx",
+      "model_sha256": "2f2455adf06f22a3a6d87bef1b330e4ea80438a6567943abfab2762d6cf0db32",
+      "wall": {
+        "n": 30000,
+        "p50_ms": 0.2242,
+        "p99_ms": 0.3311,
+        "p999_ms": 0.39365181900000035,
+        "max_ms": 3.50133,
+        "over_1ms": 1
+      },
+      "thread_cpu": {
+        "n": 30000,
+        "p50_ms": 0.222615,
+        "p99_ms": 0.32752911,
+        "p999_ms": 0.35716057000000007,
+        "max_ms": 3.4988,
+        "over_1ms": 1
+      },
+      "by_street": {
+        "turn": {
+          "n": 7500,
+          "p50_ms": 0.22865,
+          "p99_ms": 0.3386032000000001,
+          "p999_ms": 0.4128770600000014,
+          "max_ms": 0.79802,
+          "over_1ms": 0
+        },
+        "river": {
+          "n": 7500,
+          "p50_ms": 0.22532,
+          "p99_ms": 0.3390029000000001,
+          "p999_ms": 0.39499376000000075,
+          "max_ms": 0.49606,
+          "over_1ms": 0
+        },
+        "flop": {
+          "n": 7500,
+          "p50_ms": 0.22360449999999998,
+          "p99_ms": 0.32355100000000003,
+          "p999_ms": 0.3937130190000007,
+          "max_ms": 3.50133,
+          "over_1ms": 1
+        },
+        "preflop": {
+          "n": 7500,
+          "p50_ms": 0.1841,
+          "p99_ms": 0.27436,
+          "p999_ms": 0.30077651000000033,
+          "max_ms": 0.418,
+          "over_1ms": 0
+        }
+      }
+    }
+  }
+}

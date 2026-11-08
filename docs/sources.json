@@ -1,0 +1,61 @@
+{
+  "documented_at": "2026-11-08T17:42:11.907998+00:00",
+  "scope": "Boston pre-reveal documentation; recheck event configuration before use",
+  "sources": [
+    {
+      "id": "portal_getting_started",
+      "url": "https://pokerbot.sequoiacap.com/tournament/competitions/abb5539f-60ce-48b6-8925-c0c56a3102e3/start",
+      "captured_at": "2026-11-08T17:07:29.224205+00:00",
+      "capture_path": ".runtime/private-web/start-rendered.txt",
+      "sha256": "aba4b83b2d02531af4f95750ca1ca82653885c0334e0f3486ce57fb13e607c75",
+      "access": "authenticated read; snapshot contains no credential values"
+    },
+    {
+      "id": "portal_format",
+      "url": "https://pokerbot.sequoiacap.com/tournament/competitions/abb5539f-60ce-48b6-8925-c0c56a3102e3/format",
+      "captured_at": "2026-11-08T17:07:56.084526+00:00",
+      "capture_path": ".runtime/private-web/format-rendered.txt",
+      "sha256": "143d82083205ad2c2d8cd888988fa805dc9b942a83d2c12fb527c01eedf348de",
+      "access": "authenticated read; snapshot contains no credential values"
+    },
+    {
+      "id": "competition_metadata",
+      "url": "https://pokerbot.sequoiacap.com/tournament/api/competitions/abb5539f-60ce-48b6-8925-c0c56a3102e3",
+      "captured_at": "2026-11-08T17:08:35.861964+00:00",
+      "capture_path": ".runtime/private-web/competition.json",
+      "sha256": "79f4cce87dbb72d8c3b6422c6aa43b5d52589ad4aa172ef28f5e51dce92c529a",
+      "access": "authenticated read; snapshot contains no credential values"
+    },
+    {
+      "id": "public_rules",
+      "url": "https://pokerbot.sequoiacap.com/rules.html",
+      "captured_at": "2026-11-08T17:42:11.907998+00:00",
+      "capture_path": ".runtime/private-web/official-rules-20261108.html",
+      "sha256": "230441cb6e11bd499ba66660320f97a184d3ea97c86bf856f12835221d4ee3c3",
+      "access": "public; read as source, not invoked"
+    },
+    {
+      "id": "setup_guide",
+      "url": "https://pokerbot.sequoiacap.com/tournament/no-limit-2026-setup/SKILL.md",
+      "captured_at": "2026-11-08T17:42:11.907998+00:00",
+      "capture_path": ".runtime/private-web/official-setup-skill-20261108.txt",
+      "sha256": "1070831bce7c0df4fc5c8d303ef43106c5b7caec7da4dbd0056ca386cfd1167e",
+      "access": "public; read as source, not invoked"
+    },
+    {
+      "id": "organizer_email",
+      "subject": "[IMPORTANT] No Limit: Boston Regionals Know Before You Go",
+      "sender": "pokerbot@sequoiacap.com",
+      "received_at": "2026-11-08T15:28:32Z",
+      "access": "Outlook connector, full message read on 2026-11-08",
+      "message_id": "AAMkAGY0NWNmZDc4LTgyYzYtNGUwMy1hZjNkLTU2MzQyNjQwNjM1NQBGAAAAAADpAPAyYg2iSITiI2BjKxzLBwCAoqj8CML5QqKbUzUY8-eZAAAAAAEMAACAoqj8CML5QqKbUzUY8-eZAAJoahZZAAA=",
+      "facts": [
+        "Register team, claim credits and prepare remote machine before arrival.",
+        "All competing code must be written during the event; pre-written code/bots prohibited.",
+        "All AI tools allowed; Codex optional.",
+        "Help desk 16:30 ET; check-in/dinner 17:00-18:00 ET; kickoff 18:00 ET on 2026-11-09.",
+        "David Rubenstein Treehouse, Harvard University, 20 Western Ave, Boston, MA 02134."
+      ]
+    }
+  ]
+}

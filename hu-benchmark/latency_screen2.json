@@ -1,0 +1,459 @@
+{
+  "config": {
+    "mode": "latency",
+    "names": "equity_table,cfr_equity_v28,cfr_opp_profiler,cfr_variance_guard,nit,maniac,station",
+    "per_street": 100,
+    "repeats": 1,
+    "cpu": 2,
+    "seed": 8200000,
+    "pairs": 64,
+    "hands": 200,
+    "workers": 16,
+    "output": "latency_screen2.json"
+  },
+  "cpu_model": "AMD EPYC 7B12",
+  "gc_enabled": false,
+  "scope": "Warm complete state-dict to action-dict, one CPU core, one ORT thread; JSON measured separately; no IPC or process startup.",
+  "corpus": "Legal engine-generated heads-up states, equal street counts, 5-200 BB stacks",
+  "results": {
+    "equity_table": {
+      "wall": {
+        "n": 400,
+        "p50_ms": 0.40149,
+        "p99_ms": 62.47326948999994,
+        "p999_ms": 74.773945021,
+        "max_ms": 75.682636,
+        "over_1ms": 36
+      },
+      "thread_cpu": {
+        "n": 400,
+        "p50_ms": 0.400545,
+        "p99_ms": 62.47180060999994,
+        "p999_ms": 74.669174449,
+        "max_ms": 75.668689,
+        "over_1ms": 36
+      },
+      "by_street": {
+        "preflop": {
+          "n": 100,
+          "p50_ms": 0.3795455,
+          "p99_ms": 0.47834119999999997,
+          "p999_ms": 0.47844812,
+          "max_ms": 0.47846,
+          "over_1ms": 0
+        },
+        "flop": {
+          "n": 100,
+          "p50_ms": 0.40298,
+          "p99_ms": 73.42798921,
+          "p999_ms": 75.45717132099999,
+          "max_ms": 75.682636,
+          "over_1ms": 11
+        },
+        "turn": {
+          "n": 100,
+          "p50_ms": 0.4067805,
+          "p99_ms": 68.51296400000001,
+          "p999_ms": 70.5728669,
+          "max_ms": 70.801745,
+          "over_1ms": 14
+        },
+        "river": {
+          "n": 100,
+          "p50_ms": 0.42228,
+          "p99_ms": 62.3876074,
+          "p999_ms": 62.41000714,
+          "max_ms": 62.412496,
+          "over_1ms": 11
+        }
+      },
+      "json_roundtrip": {
+        "n": 400,
+        "p50_ms": 0.5022500000000001,
+        "p99_ms": 63.09574948999994,
+        "p999_ms": 75.230741581,
+        "max_ms": 76.239406,
+        "over_1ms": 36
+      },
+      "errors": []
+    },
+    "cfr_equity_v28": {
+      "wall": {
+        "n": 400,
+        "p50_ms": 11.78756,
+        "p99_ms": 72.1898318,
+        "p999_ms": 76.765361149,
+        "max_ms": 76.947205,
+        "over_1ms": 300
+      },
+      "thread_cpu": {
+        "n": 400,
+        "p50_ms": 11.74739,
+        "p99_ms": 71.87346348999999,
+        "p999_ms": 76.48006794,
+        "max_ms": 76.56942,
+        "over_1ms": 300
+      },
+      "by_street": {
+        "preflop": {
+          "n": 100,
+          "p50_ms": 0.185255,
+          "p99_ms": 0.5657535000000002,
+          "p999_ms": 0.6079423499999999,
+          "max_ms": 0.61263,
+          "over_1ms": 0
+        },
+        "flop": {
+          "n": 100,
+          "p50_ms": 12.840659500000001,
+          "p99_ms": 76.49601349,
+          "p999_ms": 76.902085849,
+          "max_ms": 76.947205,
+          "over_1ms": 100
+        },
+        "turn": {
+          "n": 100,
+          "p50_ms": 12.159963999999999,
+          "p99_ms": 72.18983180000001,
+          "p999_ms": 72.64930268,
+          "max_ms": 72.700355,
+          "over_1ms": 100
+        },
+        "river": {
+          "n": 100,
+          "p50_ms": 11.285388999999999,
+          "p99_ms": 64.90529099000001,
+          "p999_ms": 66.086310599,
+          "max_ms": 66.217535,
+          "over_1ms": 100
+        }
+      },
+      "json_roundtrip": {
+        "n": 400,
+        "p50_ms": 11.827148999999999,
+        "p99_ms": 72.59699349,
+        "p999_ms": 77.052571251,
+        "max_ms": 77.214426,
+        "over_1ms": 300
+      },
+      "errors": []
+    },
+    "cfr_opp_profiler": {
+      "wall": {
+        "n": 400,
+        "p50_ms": 11.74435,
+        "p99_ms": 72.31476769999999,
+        "p999_ms": 76.44142267,
+        "max_ms": 76.762885,
+        "over_1ms": 300
+      },
+      "thread_cpu": {
+        "n": 400,
+        "p50_ms": 11.722605,
+        "p99_ms": 72.13894298,
+        "p999_ms": 76.193845981,
+        "max_ms": 76.396291,
+        "over_1ms": 300
+      },
+      "by_street": {
+        "preflop": {
+          "n": 100,
+          "p50_ms": 0.177745,
+          "p99_ms": 0.5234288000000002,
+          "p999_ms": 0.5678718799999999,
+          "max_ms": 0.57281,
+          "over_1ms": 0
+        },
+        "flop": {
+          "n": 100,
+          "p50_ms": 12.6837345,
+          "p99_ms": 75.9652717,
+          "p999_ms": 76.68312367,
+          "max_ms": 76.762885,
+          "over_1ms": 100
+        },
+        "turn": {
+          "n": 100,
+          "p50_ms": 11.991089,
+          "p99_ms": 72.3147677,
+          "p999_ms": 72.89941517,
+          "max_ms": 72.964376,
+          "over_1ms": 100
+        },
+        "river": {
+          "n": 100,
+          "p50_ms": 11.1746695,
+          "p99_ms": 64.4294527,
+          "p999_ms": 64.68398467,
+          "max_ms": 64.712266,
+          "over_1ms": 100
+        }
+      },
+      "json_roundtrip": {
+        "n": 400,
+        "p50_ms": 11.7639845,
+        "p99_ms": 72.7251335,
+        "p999_ms": 76.69987948,
+        "max_ms": 76.893985,
+        "over_1ms": 300
+      },
+      "errors": []
+    },
+    "cfr_variance_guard": {
+      "wall": {
+        "n": 400,
+        "p50_ms": 11.806514,
+        "p99_ms": 72.2872944,
+        "p999_ms": 76.83420249,
+        "max_ms": 76.851555,
+        "over_1ms": 300
+      },
+      "thread_cpu": {
+        "n": 400,
+        "p50_ms": 11.791220500000001,
+        "p99_ms": 72.28457211,
+        "p999_ms": 76.772876418,
+        "max_ms": 76.80624,
+        "over_1ms": 300
+      },
+      "by_street": {
+        "preflop": {
+          "n": 100,
+          "p50_ms": 0.17775000000000002,
+          "p99_ms": 0.5796188000000001,
+          "p999_ms": 0.58663988,
+          "max_ms": 0.58742,
+          "over_1ms": 0
+        },
+        "flop": {
+          "n": 100,
+          "p50_ms": 12.9263545,
+          "p99_ms": 76.8084999,
+          "p999_ms": 76.84724949000001,
+          "max_ms": 76.851555,
+          "over_1ms": 100
+        },
+        "turn": {
+          "n": 100,
+          "p50_ms": 12.124573999999999,
+          "p99_ms": 72.2872944,
+          "p999_ms": 72.73799784,
+          "max_ms": 72.788076,
+          "over_1ms": 100
+        },
+        "river": {
+          "n": 100,
+          "p50_ms": 11.2336995,
+          "p99_ms": 64.62191311000001,
+          "p999_ms": 64.757176711,
+          "max_ms": 64.772206,
+          "over_1ms": 100
+        }
+      },
+      "json_roundtrip": {
+        "n": 400,
+        "p50_ms": 11.776459,
+        "p99_ms": 72.07545930999999,
+        "p999_ms": 77.03055055,
+        "max_ms": 77.172016,
+        "over_1ms": 300
+      },
+      "errors": []
+    },
+    "nit": {
+      "wall": {
+        "n": 400,
+        "p50_ms": 0.00273,
+        "p99_ms": 0.006937099999999994,
+        "p999_ms": 0.027326579999999993,
+        "max_ms": 0.03075,
+        "over_1ms": 0
+      },
+      "thread_cpu": {
+        "n": 400,
+        "p50_ms": 0.0020355,
+        "p99_ms": 0.006197199999999994,
+        "p999_ms": 0.02497315099999999,
+        "max_ms": 0.029981,
+        "over_1ms": 0
+      },
+      "by_street": {
+        "preflop": {
+          "n": 100,
+          "p50_ms": 0.00305,
+          "p99_ms": 0.007785300000000075,
+          "p999_ms": 0.020731529999999946,
+          "max_ms": 0.02217,
+          "over_1ms": 0
+        },
+        "flop": {
+          "n": 100,
+          "p50_ms": 0.002635,
+          "p99_ms": 0.0034155000000000183,
+          "p999_ms": 0.006578549999999987,
+          "max_ms": 0.00693,
+          "over_1ms": 0
+        },
+        "turn": {
+          "n": 100,
+          "p50_ms": 0.00266,
+          "p99_ms": 0.004757500000000034,
+          "p999_ms": 0.010771749999999976,
+          "max_ms": 0.01144,
+          "over_1ms": 0
+        },
+        "river": {
+          "n": 100,
+          "p50_ms": 0.002745,
+          "p99_ms": 0.004594200000000135,
+          "p999_ms": 0.0281344199999999,
+          "max_ms": 0.03075,
+          "over_1ms": 0
+        }
+      },
+      "json_roundtrip": {
+        "n": 400,
+        "p50_ms": 0.02336,
+        "p99_ms": 0.04059819999999997,
+        "p999_ms": 0.054103809999999995,
+        "max_ms": 0.05722,
+        "over_1ms": 0
+      },
+      "errors": []
+    },
+    "maniac": {
+      "wall": {
+        "n": 400,
+        "p50_ms": 0.00337,
+        "p99_ms": 0.00449019999999999,
+        "p999_ms": 0.017412629999999985,
+        "max_ms": 0.02325,
+        "over_1ms": 0
+      },
+      "thread_cpu": {
+        "n": 400,
+        "p50_ms": 0.00267,
+        "p99_ms": 0.0037402999999999902,
+        "p999_ms": 0.014131970999999991,
+        "max_ms": 0.01827,
+        "over_1ms": 0
+      },
+      "by_street": {
+        "preflop": {
+          "n": 100,
+          "p50_ms": 0.00336,
+          "p99_ms": 0.004667700000000096,
+          "p999_ms": 0.021391769999999928,
+          "max_ms": 0.02325,
+          "over_1ms": 0
+        },
+        "flop": {
+          "n": 100,
+          "p50_ms": 0.00336,
+          "p99_ms": 0.005502300000000001,
+          "p999_ms": 0.005707229999999999,
+          "max_ms": 0.00573,
+          "over_1ms": 0
+        },
+        "turn": {
+          "n": 100,
+          "p50_ms": 0.00338,
+          "p99_ms": 0.0037262000000000033,
+          "p999_ms": 0.004278619999999998,
+          "max_ms": 0.00434,
+          "over_1ms": 0
+        },
+        "river": {
+          "n": 100,
+          "p50_ms": 0.00338,
+          "p99_ms": 0.004273900000000022,
+          "p999_ms": 0.008185389999999983,
+          "max_ms": 0.00862,
+          "over_1ms": 0
+        }
+      },
+      "json_roundtrip": {
+        "n": 400,
+        "p50_ms": 0.025099499999999997,
+        "p99_ms": 0.04287969999999992,
+        "p999_ms": 0.06979106999999998,
+        "max_ms": 0.08139,
+        "over_1ms": 0
+      },
+      "errors": []
+    },
+    "station": {
+      "wall": {
+        "n": 400,
+        "p50_ms": 0.00149,
+        "p99_ms": 0.010191399999999998,
+        "p999_ms": 0.015055229999999994,
+        "max_ms": 0.01794,
+        "over_1ms": 0
+      },
+      "thread_cpu": {
+        "n": 400,
+        "p50_ms": 0.000819,
+        "p99_ms": 0.00948099,
+        "p999_ms": 0.014317598999999993,
+        "max_ms": 0.01719,
+        "over_1ms": 0
+      },
+      "by_street": {
+        "preflop": {
+          "n": 100,
+          "p50_ms": 0.002855,
+          "p99_ms": 0.009767700000000004,
+          "p999_ms": 0.010453769999999996,
+          "max_ms": 0.01053,
+          "over_1ms": 0
+        },
+        "flop": {
+          "n": 100,
+          "p50_ms": 0.00148,
+          "p99_ms": 0.009426000000000044,
+          "p999_ms": 0.017088599999999968,
+          "max_ms": 0.01794,
+          "over_1ms": 0
+        },
+        "turn": {
+          "n": 100,
+          "p50_ms": 0.00148,
+          "p99_ms": 0.009864700000000002,
+          "p999_ms": 0.01028347,
+          "max_ms": 0.01033,
+          "over_1ms": 0
+        },
+        "river": {
+          "n": 100,
+          "p50_ms": 0.00148,
+          "p99_ms": 0.010195200000000001,
+          "p999_ms": 0.01065852,
+          "max_ms": 0.01071,
+          "over_1ms": 0
+        }
+      },
+      "json_roundtrip": {
+        "n": 400,
+        "p50_ms": 0.02258,
+        "p99_ms": 0.041867599999999984,
+        "p999_ms": 0.053236219999999994,
+        "max_ms": 0.05492,
+        "over_1ms": 0
+      },
+      "errors": []
+    }
+  },
+  "source_hashes": {
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/hu-benchmark/low_latency_compare.py": "2a7ad3e8a135ffc7b158888fe745a93926f73aa92b157b31d07cab5c367d4fc8",
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/hu-benchmark/engine_adapter.py": "66026b161e2005f10738f74ff40c4b94dab975088e3fc40d224343de1ab1f1b9",
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/hu-benchmark/run_benchmark.py": "4194d5f0fde1c9abe16fcf8c8f0dc0b41505b03f3100c70b970ca783db384f38",
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/latency-survey/fullhouse-bot/bots/competitors/equity_table/bot.py": "7ad40a835c6192ee2573290a5c79f660704ca8149a63c374bbdf56a48e4f6b66",
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/latency-survey/fullhouse-bot/bots/competitors/cfr_equity_v28/bot.py": "421ce24e99b330c089ad95431bed1aedb3ac19fd0312a5366b51aada50e3352b",
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/latency-survey/fullhouse-bot/bots/extra/cfr_opp_profiler/bot.py": "95bb9e5fc7abb7cfdc8b02d9e9b82e17f0cf28e0d9ff6ec3128d7579571b75e1",
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/latency-survey/fullhouse-bot/bots/extra/cfr_variance_guard/bot.py": "f9b4419abbd486a36010a15caa3887debf611691b8df37c9fcf63c9f74adb712",
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/latency-survey/fullhouse-bot/bots/adversarial/nit.py": "be1f3e8682bf2a26d729bfacd83eeb84421d3f14b1a576164dae2cb808598eeb",
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/latency-survey/fullhouse-bot/bots/adversarial/maniac.py": "21a3d59d8993d3ad0cb15ec75fd46524f91598ab87846d3e4f4e677cc028e2d6",
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/latency-survey/fullhouse-bot/bots/adversarial/station.py": "d73a65b481063fa813d6ba92ff88aed0cf8359407f0da234246401080c03774f"
+  }
+}

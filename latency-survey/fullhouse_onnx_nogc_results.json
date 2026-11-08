@@ -1,0 +1,385 @@
+{
+  "source": "https://github.com/advitrocks9/fullhouse-bot",
+  "commit": "e504793d480b1b975f25258d25939b45c6dbd5a4",
+  "cpu_model": "AMD EPYC 7B12",
+  "cpu_affinity": [
+    2
+  ],
+  "numpy": "2.2.6",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "threads": 1,
+  "seed": 29173,
+  "cyclic_gc_enabled": false,
+  "onnx_parity": {
+    "model_bytes": 588622,
+    "parity_states": 10000,
+    "max_probability_abs_error": 5.507469177246094e-05,
+    "max_total_variation": 5.507376044988632e-05,
+    "strict_allclose_failures": 1,
+    "mean_total_variation": 1.1675070491037331e-07,
+    "argmax_agreement": 1.0,
+    "changes": "FP32 ONNX inference only; released weights, feature encoder, legal mask, sampling and short-stack rules preserved"
+  },
+  "players": 6,
+  "generated_hands": 1173,
+  "unique_states": 10000,
+  "stack_bb_choices": [
+    5,
+    10,
+    20,
+    50,
+    100,
+    200
+  ],
+  "max_action_history": 28,
+  "measurement": "Warm state-dict -> original decide -> action-dict; model loaded before timing; original fallback replaced by raising assertion; policy unchanged",
+  "wall": {
+    "n": 30000,
+    "mean_ms": 0.2311816666,
+    "p50_ms": 0.24335,
+    "p95_ms": 0.32626055,
+    "p99_ms": 0.3590706999999999,
+    "p999_ms": 0.4154510700000002,
+    "max_ms": 1.78921,
+    "over_1ms": 1
+  },
+  "thread_cpu": {
+    "n": 30000,
+    "mean_ms": 0.23247146373333333,
+    "p50_ms": 0.245,
+    "p95_ms": 0.3270305,
+    "p99_ms": 0.35807109,
+    "p999_ms": 0.38435052000000014,
+    "max_ms": 1.79093,
+    "over_1ms": 1
+  },
+  "runs": [
+    {
+      "n": 10000,
+      "mean_ms": 0.23001368030000002,
+      "p50_ms": 0.24221,
+      "p95_ms": 0.3246540499999999,
+      "p99_ms": 0.35648180000000007,
+      "p999_ms": 0.4007773000000015,
+      "max_ms": 0.5406,
+      "over_1ms": 0
+    },
+    {
+      "n": 10000,
+      "mean_ms": 0.23191695920000002,
+      "p50_ms": 0.24409,
+      "p95_ms": 0.326682,
+      "p99_ms": 0.3617767900000001,
+      "p999_ms": 0.41654127000000435,
+      "max_ms": 0.61602,
+      "over_1ms": 0
+    },
+    {
+      "n": 10000,
+      "mean_ms": 0.2316143603,
+      "p50_ms": 0.24379,
+      "p95_ms": 0.327291,
+      "p99_ms": 0.3585602,
+      "p999_ms": 0.41545468000000096,
+      "max_ms": 1.78921,
+      "over_1ms": 1
+    }
+  ],
+  "by_street_wall": {
+    "preflop": {
+      "n": 7500,
+      "mean_ms": 0.15095616679999999,
+      "p50_ms": 0.19724,
+      "p95_ms": 0.27697399999999994,
+      "p99_ms": 0.29939179000000005,
+      "p999_ms": 0.3693152700000021,
+      "max_ms": 1.78921,
+      "over_1ms": 1
+    },
+    "river": {
+      "n": 7500,
+      "mean_ms": 0.25122366226666665,
+      "p50_ms": 0.2445,
+      "p95_ms": 0.31429599999999946,
+      "p99_ms": 0.358881,
+      "p999_ms": 0.41173135000000133,
+      "max_ms": 0.48962,
+      "over_1ms": 0
+    },
+    "flop": {
+      "n": 7500,
+      "mean_ms": 0.26069597973333336,
+      "p50_ms": 0.2423795,
+      "p95_ms": 0.33330099999999996,
+      "p99_ms": 0.35914110000000005,
+      "p999_ms": 0.4245437290000039,
+      "max_ms": 0.51671,
+      "over_1ms": 0
+    },
+    "turn": {
+      "n": 7500,
+      "mean_ms": 0.26185085760000004,
+      "p50_ms": 0.24848,
+      "p95_ms": 0.34091249999999995,
+      "p99_ms": 0.3683140000000001,
+      "p999_ms": 0.42969840000000376,
+      "max_ms": 0.61602,
+      "over_1ms": 0
+    }
+  },
+  "json_decode_decide_encode_wall": {
+    "n": 10000,
+    "mean_ms": 0.2653889234,
+    "p50_ms": 0.27973,
+    "p95_ms": 0.36344245,
+    "p99_ms": 0.3988608,
+    "p999_ms": 0.44735205000000045,
+    "max_ms": 0.63516,
+    "over_1ms": 0
+  },
+  "fallback_count": 0,
+  "legal_failure_count": 0,
+  "slow_calls": [
+    {
+      "repeat": 2,
+      "index": 2385,
+      "wall_ms": 1.78921,
+      "cpu_ms": 1.79093,
+      "state": {
+        "type": "action_request",
+        "hand_id": "bench_29173_13",
+        "street": "preflop",
+        "seat_to_act": 4,
+        "pot": 150,
+        "community_cards": [],
+        "current_bet": 100,
+        "min_raise_to": 200,
+        "amount_owed": 100,
+        "can_check": false,
+        "your_cards": [
+          "Ks",
+          "5h"
+        ],
+        "your_stack": 10000,
+        "your_bet_this_street": 0,
+        "players": [
+          {
+            "seat": 0,
+            "bot_id": "p0",
+            "stack": 2000,
+            "state": "active",
+            "is_folded": false,
+            "is_all_in": false,
+            "bet_this_street": 0,
+            "hole_cards": null
+          },
+          {
+            "seat": 1,
+            "bot_id": "p1",
+            "stack": 2000,
+            "state": "active",
+            "is_folded": false,
+            "is_all_in": false,
+            "bet_this_street": 0,
+            "hole_cards": null
+          },
+          {
+            "seat": 2,
+            "bot_id": "p2",
+            "stack": 450,
+            "state": "active",
+            "is_folded": false,
+            "is_all_in": false,
+            "bet_this_street": 50,
+            "hole_cards": null
+          },
+          {
+            "seat": 3,
+            "bot_id": "p3",
+            "stack": 1900,
+            "state": "active",
+            "is_folded": false,
+            "is_all_in": false,
+            "bet_this_street": 100,
+            "hole_cards": null
+          },
+          {
+            "seat": 4,
+            "bot_id": "p4",
+            "stack": 10000,
+            "state": "active",
+            "is_folded": false,
+            "is_all_in": false,
+            "bet_this_street": 0,
+            "hole_cards": null
+          },
+          {
+            "seat": 5,
+            "bot_id": "p5",
+            "stack": 1000,
+            "state": "active",
+            "is_folded": false,
+            "is_all_in": false,
+            "bet_this_street": 0,
+            "hole_cards": null
+          }
+        ],
+        "action_log": [
+          {
+            "seat": 2,
+            "action": "small_blind",
+            "amount": 50
+          },
+          {
+            "seat": 3,
+            "action": "big_blind",
+            "amount": 100
+          }
+        ]
+      }
+    }
+  ],
+  "action_counts": {
+    "check": 15060,
+    "raise": 3969,
+    "fold": 9314,
+    "call": 660,
+    "all_in": 997
+  },
+  "models": {
+    "preflop_equity.npz": {
+      "bytes": 2160,
+      "sha256": "6b3b74778854fcebcd3179753c0252392e5f4118e6b623375c98fafa372863b3",
+      "arrays": {
+        "paired": {
+          "shape": [
+            13
+          ],
+          "dtype": "float32"
+        },
+        "suited": {
+          "shape": [
+            13,
+            13
+          ],
+          "dtype": "float32"
+        },
+        "offsuit": {
+          "shape": [
+            13,
+            13
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    "deep_cfr_model.npz": {
+      "bytes": 590758,
+      "sha256": "1102326b68da95564de147106612df71cb891b42f0726ba0212d3b9a5bcae295",
+      "arrays": {
+        "trunk_w0": {
+          "shape": [
+            256,
+            51
+          ],
+          "dtype": "float32"
+        },
+        "trunk_b0": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln0_g": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln0_b": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_w1": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_b1": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln1_g": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln1_b": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "val_w0": {
+          "shape": [
+            128,
+            256
+          ],
+          "dtype": "float32"
+        },
+        "val_b0": {
+          "shape": [
+            128
+          ],
+          "dtype": "float32"
+        },
+        "val_w1": {
+          "shape": [
+            1,
+            128
+          ],
+          "dtype": "float32"
+        },
+        "val_b1": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "adv_w0": {
+          "shape": [
+            128,
+            256
+          ],
+          "dtype": "float32"
+        },
+        "adv_b0": {
+          "shape": [
+            128
+          ],
+          "dtype": "float32"
+        },
+        "adv_w1": {
+          "shape": [
+            5,
+            128
+          ],
+          "dtype": "float32"
+        },
+        "adv_b1": {
+          "shape": [
+            5
+          ],
+          "dtype": "float32"
+        }
+      }
+    }
+  }
+}

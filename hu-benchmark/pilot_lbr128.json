@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "config": {
+      "opponents": "lbr_fullhouse",
+      "pairs": 128,
+      "hands": 200,
+      "seed": 150000,
+      "workers": 32,
+      "output": "pilot_lbr128.json"
+    },
+    "protocol": "Paired heads-up tournament evaluation of the frozen Fullhouse policy.\n\n100 BB each, 0.5/1 BB fixed blinds, up to 200 hands; payout [100, 0].\nUnfinished games receive exact two-player ICM = final chip share * 100.\nIndependent sampling units are two games with the same decks and swapped bots.\nNo time limit; no policy training. Pilot and confirmation use disjoint seeds.\n",
+    "hashes": {
+      "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/latency-survey/fullhouse-bot/bot/bot.py": "f721b16e0cab72d0c40fae2e94d1ec655a94025fc20addfc689c718fb8f10845",
+      "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/latency-survey/fullhouse-bot/bot/features.py": "b43361365ed911f358b3588f0c487614029158bf1420c5ffec8260bd427475c8",
+      "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/latency-survey/fullhouse-bot/data/deep_cfr_model.npz": "1102326b68da95564de147106612df71cb891b42f0726ba0212d3b9a5bcae295",
+      "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/latency-survey/fullhouse-bot/engine_vendored/engine/game.py": "95c87ade625041f7cc6221d6cc36eac11f89f3f452753b20a402126c31f7e9c2"
+    },
+    "script_sha256": "5d57469fdfd05bb2142346744b3652d7d510e09c6d982bb4630408173acff0e0",
+    "engine_adapter_sha256": "2ee9e86710c85ca0aa0b0acc2daf3e52f525a2b853029fa9861822a8f4402cbd",
+    "model_sha256": "7b52be99fbb20806669cba91deac58e3f0a03ec8a2169720e273ac08a67e1ef1",
+    "local_sources": {
+      "test_benchmark.py": "dceef2c1f52e2db843ed82907ccbbf98f4b6bd13188ee4b17550e6bb3fde7d03",
+      "engine_adapter.py": "2ee9e86710c85ca0aa0b0acc2daf3e52f525a2b853029fa9861822a8f4402cbd",
+      "run_benchmark.py": "5d57469fdfd05bb2142346744b3652d7d510e09c6d982bb4630408173acff0e0",
+      "lbr_baseline.py": "beeafba0d5cd5a8be637009443f61de0546add9b1acc6dfe39cd86a52c50e861"
+    }
+  },
+  "elapsed_seconds": 49.742355910129845,
+  "results": {
+    "lbr_fullhouse": {
+      "pairs": 128,
+      "games": 256,
+      "errors": 0,
+      "hands": 6463,
+      "score": {
+        "mean": 30.46875,
+        "se": 2.8942554744659943,
+        "ci95": [
+          24.796009270046653,
+          36.14149072995335
+        ]
+      },
+      "corrections": {},
+      "actions": {
+        "hero_preflop_raise": 2981,
+        "opponent_preflop_all_in": 101,
+        "hero_preflop_all_in": 360,
+        "opponent_preflop_raise": 5803,
+        "hero_preflop_call": 1599,
+        "opponent_flop_raise": 1233,
+        "hero_flop_all_in": 115,
+        "opponent_flop_call": 217,
+        "hero_flop_check": 795,
+        "opponent_flop_all_in": 63,
+        "hero_flop_call": 295,
+        "hero_preflop_fold": 4311,
+        "hero_flop_fold": 728,
+        "opponent_preflop_call": 765,
+        "hero_flop_raise": 627,
+        "opponent_flop_check": 350,
+        "hero_turn_check": 247,
+        "opponent_turn_raise": 311,
+        "hero_turn_fold": 231,
+        "hero_preflop_check": 321,
+        "opponent_flop_fold": 148,
+        "opponent_turn_check": 169,
+        "hero_turn_raise": 175,
+        "opponent_turn_call": 60,
+        "opponent_river_raise": 91,
+        "hero_river_call": 18,
+        "hero_river_check": 75,
+        "opponent_river_check": 64,
+        "opponent_river_all_in": 24,
+        "hero_river_fold": 90,
+        "opponent_preflop_fold": 172,
+        "opponent_turn_all_in": 19,
+        "hero_river_all_in": 39,
+        "opponent_river_call": 28,
+        "hero_turn_call": 44,
+        "opponent_turn_fold": 79,
+        "opponent_river_fold": 26,
+        "opponent_preflop_check": 51,
+        "hero_river_raise": 35,
+        "hero_turn_all_in": 37
+      },
+      "eliminated": {
+        "mean": 69.53125,
+        "se": 2.8942554744659943,
+        "ci95": [
+          63.85850927004665,
+          75.20399072995335
+        ]
+      },
+      "opponent_eliminated": {
+        "mean": 30.46875,
+        "se": 2.8942554744659943,
+        "ci95": [
+          24.796009270046653,
+          36.14149072995335
+        ]
+      },
+      "ahead": {
+        "mean": 30.46875,
+        "se": 2.8942554744659943,
+        "ci95": [
+          24.796009270046653,
+          36.14149072995335
+        ]
+      },
+      "tied": {
+        "mean": 0.0,
+        "se": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "tournament_bb100": -154.7269070091289
+    }
+  }
+}

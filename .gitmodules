@@ -1,0 +1,9 @@
+[submodule "latency-survey/fullhouse-bot"]
+	path = latency-survey/fullhouse-bot
+	url = https://github.com/advitrocks9/fullhouse-bot.git
+[submodule "holdem-ppo"]
+	path = holdem-ppo
+	url = https://github.com/JishnuJetwani/HoldemBot.git
+[submodule "txnujk-bot"]
+	path = txnujk-bot
+	url = https://github.com/txnujk09/fullhouse-poker-bot.git

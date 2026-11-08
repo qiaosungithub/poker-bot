@@ -1,0 +1,12 @@
+{
+  "verified_at": "2026-11-08T17:43:08.493615+00:00",
+  "confirmation_models": 3,
+  "blocks_per_model": 1024,
+  "tournaments_per_model": 6144,
+  "raw_scores_and_paired_intervals_verified": true,
+  "raw_latency_arrays_and_percentiles_verified": true,
+  "source_hashes_verified": true,
+  "local_markdown_links_checked": 23,
+  "credential_values_absent_from_docs": true,
+  "negative_controls_passed": true
+}

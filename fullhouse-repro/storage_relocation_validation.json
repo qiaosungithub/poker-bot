@@ -1,0 +1,38 @@
+{
+  "poker-fullhouse-train": {
+    "executable": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/envs/poker-fullhouse-train/bin/python",
+    "prefix": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/envs/poker-fullhouse-train",
+    "base_prefix": "/usr",
+    "numpy": "2.2.6"
+  },
+  "poker-fullhouse-train312": {
+    "executable": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/envs/poker-fullhouse-train312/bin/python",
+    "prefix": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/envs/poker-fullhouse-train312",
+    "base_prefix": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/python/cpython-3.12.16-linux-x86_64-gnu",
+    "numpy": "2.2.6"
+  },
+  "poker-fullhouse-venv": {
+    "executable": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/envs/poker-fullhouse-venv/bin/python",
+    "prefix": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/envs/poker-fullhouse-venv",
+    "base_prefix": "/usr",
+    "numpy": "2.2.6"
+  },
+  "poker-hu-validation": {
+    "executable": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/envs/poker-hu-validation/bin/python",
+    "prefix": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/envs/poker-hu-validation",
+    "base_prefix": "/usr",
+    "numpy": "2.2.6"
+  },
+  "training_imports": "2.15.0+cpu 0.12.0.1 1.23.2 /kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/tmp",
+  "export": {
+    "states": 1024,
+    "max_abs_error": 1.0728836059570312e-05,
+    "mean_abs_error": 1.0133629757547169e-07
+  },
+  "arena": {
+    "errors": 0,
+    "matches": 48
+  },
+  "selected_checkpoint_sha256": "c476a83f39c4840b54e9599324f6c8b9f43a917d870412bf5325d24193ff57cd",
+  "passed": true
+}

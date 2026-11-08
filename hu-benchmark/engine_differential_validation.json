@@ -1,0 +1,14 @@
+{
+  "reference": "PokerKit 0.7.7",
+  "hands": 2000,
+  "actions": 7572,
+  "mismatches": 0,
+  "seconds": 4.6391844030003995,
+  "checks": [
+    "actor order",
+    "amount to call",
+    "stack before actions",
+    "final stacks",
+    "independent hand evaluator"
+  ]
+}

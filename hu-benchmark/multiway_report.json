@@ -1,0 +1,192 @@
+{
+  "table": {
+    "fullhouse": {
+      "multiplayer_support": "Six-player table; remaining table shrinks to 2-5 after eliminations.",
+      "mean_score": 58.623543676208975,
+      "ci95": [
+        57.846435764587795,
+        59.400651587830154
+      ],
+      "latency_p99_ms": 0.3427501,
+      "latency_max_ms": 5.0179,
+      "over_1ms": 1,
+      "latency_samples": 30000,
+      "decisions": 937243
+    },
+    "cfr_lite64": {
+      "multiplayer_support": "Six-player table; remaining table shrinks to 2-5 after eliminations.",
+      "mean_score": 48.82828823418592,
+      "ci95": [
+        48.03201718403234,
+        49.6245592843395
+      ],
+      "latency_p99_ms": 0.6852701,
+      "latency_max_ms": 1.00025,
+      "over_1ms": 1,
+      "latency_samples": 30000,
+      "decisions": 803680
+    },
+    "hydra32": {
+      "multiplayer_support": "Six-player table; remaining table shrinks to 2-5 after eliminations.",
+      "mean_score": 42.91403238541756,
+      "ci95": [
+        42.01097960819647,
+        43.817085162638655
+      ],
+      "latency_p99_ms": 0.6706101,
+      "latency_max_ms": 1.32903,
+      "over_1ms": 2,
+      "latency_samples": 30000,
+      "decisions": 784991
+    },
+    "solver_like": {
+      "multiplayer_support": "Six-player table; remaining table shrinks to 2-5 after eliminations.",
+      "mean_score": 52.6906505851894,
+      "ci95": [
+        52.03458659766797,
+        53.34671457271084
+      ],
+      "latency_p99_ms": 0.03603108999999999,
+      "latency_max_ms": 0.207,
+      "over_1ms": 0,
+      "latency_samples": 30000,
+      "decisions": 966082
+    },
+    "maniac": {
+      "multiplayer_support": "Six-player table; remaining table shrinks to 2-5 after eliminations.",
+      "mean_score": 15.245196180555556,
+      "ci95": [
+        14.618601099313736,
+        15.871791261797377
+      ],
+      "latency_p99_ms": 0.00379,
+      "latency_max_ms": 0.284129,
+      "over_1ms": 0,
+      "latency_samples": 30000,
+      "decisions": 231727
+    },
+    "station": {
+      "multiplayer_support": "Six-player table; remaining table shrinks to 2-5 after eliminations.",
+      "mean_score": 16.698288938442587,
+      "ci95": [
+        16.32944683295087,
+        17.067131043934303
+      ],
+      "latency_p99_ms": 0.00978,
+      "latency_max_ms": 0.05667,
+      "over_1ms": 0,
+      "latency_samples": 30000,
+      "decisions": 517996
+    }
+  },
+  "protocol": {
+    "created_utc": "2026-11-06T21:52:31.398215+00:00",
+    "objective": "Replace heads-up opponent-pool averages with six policies playing simultaneously at one table.",
+    "names": [
+      "fullhouse",
+      "cfr_lite64",
+      "hydra32",
+      "solver_like",
+      "maniac",
+      "station"
+    ],
+    "payouts": [
+      100,
+      60,
+      40,
+      25,
+      10,
+      0
+    ],
+    "players": 6,
+    "initial_stack_bb": 100,
+    "fixed_blinds": [
+      50,
+      100
+    ],
+    "max_hands": 200,
+    "scoring": "Actual payouts on elimination; larger stack at start of same hand takes higher rank; equal starting stacks split tied payouts. Exact recursive ICM on positive stacks distributes remaining top payouts at cutoff.",
+    "rules_engine": "PokerKit 0.7.7; independent eval7 side-pot validation over 200 all-in deals with 2-6 players.",
+    "adapter": "Original public bot interface. No-raise-rights signaled by min_raise_to=0 and can_raise=false; an unavailable requested raise maps to check/call. Raise totals are clamped to PokerKit legal bounds. All normalization counts recorded. No opponent private cards exposed.",
+    "confirmation": {
+      "blocks": 1024,
+      "rotations_per_block": 6,
+      "total_matches": 6144,
+      "seed_start": 9300000,
+      "workers": 32,
+      "sampling": "Random roster for every independent seed; six cyclic seat rotations with the same per-hand deck seeds; block mean is the statistical unit.",
+      "timeout_penalties": false
+    },
+    "latency": "Separate 30000 complete decision calls per bot on 10000 legal six-seat states, balanced by street, 5-200BB stacks; single EPYC7B12 core, warm models, GC disabled; no JSON or IPC.",
+    "strategy_modifications": {
+      "cfr_lite64": "Original rules and action sizing, 64 Monte Carlo rollouts each postflop street instead of original configured counts. Changes stochastic approximation, not a strategy-equivalence claim.",
+      "hydra32": "Original adaptive_hydra, max_iters=32 instead of 300 in _mc_equity; no other strategic changes.",
+      "fullhouse": "Previously validated FP32 ONNX export, original released weights."
+    },
+    "validation": "7 tests passed: 200 independent side-pot settlements, all 2-6 player dealer/actor mappings, hidden-card boundaries, non-reopening short raises, simultaneous eliminations, exhaustive-permutation ICM reference, and six-seat identical-policy mirror control.",
+    "inherited_source_hashes": {
+      "low_latency_compare.py": "371410231304b0fbbdf68ed679441c31ff41914c9cf9fb303f6b0930472e3b17",
+      "run_benchmark.py": "4194d5f0fde1c9abe16fcf8c8f0dc0b41505b03f3100c70b970ca783db384f38",
+      "engine_adapter.py": "66026b161e2005f10738f74ff40c4b94dab975088e3fc40d224343de1ab1f1b9",
+      "latency_confirm.json": "92c2bea85d75648676cd52b8f6b909e8ee74e72f57d725f03e0947c64e334141",
+      "../latency-survey/fullhouse-bot/bots/competitors/cfr_lite/bot.py": "7eb3e3dc75333b2a940fa9784dc130e6c3936f4605f56f7b76bc94b3a6b0d231",
+      "../latency-survey/fullhouse-bot/bots/competitors/adaptive_hydra/bot.py": "eb5280b4d757ded435cf0b8dc5ae9b006bb3be0df822910e0e5777e9f018b25e",
+      "../latency-survey/fullhouse-bot/bots/adversarial/solver_like.py": "76ef638a9a7e9762316ba34d54eca435bd37086afd9bb30433423346282a5240",
+      "../latency-survey/fullhouse-bot/bots/adversarial/maniac.py": "21a3d59d8993d3ad0cb15ec75fd46524f91598ab87846d3e4f4e677cc028e2d6",
+      "../latency-survey/fullhouse-bot/bots/adversarial/station.py": "d73a65b481063fa813d6ba92ff88aed0cf8359407f0da234246401080c03774f",
+      "../latency-survey/fullhouse-bot/bot/bot.py": "f721b16e0cab72d0c40fae2e94d1ec655a94025fc20addfc689c718fb8f10845",
+      "../latency-survey/fullhouse-bot/bot/features.py": "b43361365ed911f358b3588f0c487614029158bf1420c5ffec8260bd427475c8",
+      "../latency-survey/fullhouse-bot/data/deep_cfr_model.npz": "1102326b68da95564de147106612df71cb891b42f0726ba0212d3b9a5bcae295",
+      "../latency-survey/fullhouse_fp32.onnx": "7b52be99fbb20806669cba91deac58e3f0a03ec8a2169720e273ac08a67e1ef1"
+    },
+    "source_hashes": {
+      "multiway_benchmark.py": "43030570ef882452eb121170fe940dd01649bf0893428c3a3f0505ae788c83d8",
+      "test_multiway.py": "b46a1e3d8571945e733e86e778c1bc37b28ef76df05991f362dafe8fd826f238",
+      "low_latency_compare.py": "371410231304b0fbbdf68ed679441c31ff41914c9cf9fb303f6b0930472e3b17",
+      "run_benchmark.py": "4194d5f0fde1c9abe16fcf8c8f0dc0b41505b03f3100c70b970ca783db384f38",
+      "multiway_validation.log": "af23aa7c6bdf973899b668c1137b7307daec6fb70737ef3a02604c7138c32011"
+    }
+  },
+  "matches": 6144,
+  "hands": 830073,
+  "environment": {
+    "python": "3.11.0rc1",
+    "cpu": "AMD EPYC 7B12",
+    "packages": {
+      "pokerkit": "0.7.7",
+      "eval7": "0.1.11",
+      "numpy": "2.2.6",
+      "onnxruntime": "1.23.2"
+    },
+    "latency_affinity": [
+      2
+    ],
+    "latency_threads": 1,
+    "match_workers": 32
+  },
+  "elapsed_seconds": 66.81813705782406,
+  "independent_blocks": 1024,
+  "normalizations": {
+    "maniac_raise_not_reopened_to_call": 2266,
+    "hydra32_raise_not_reopened_to_call": 2503,
+    "cfr_lite64_raise_not_reopened_to_call": 1672,
+    "fullhouse_raise_not_reopened_to_call": 554,
+    "solver_like_raise_not_reopened_to_call": 344
+  },
+  "total_decisions": 4241719,
+  "survivors_at_end": {
+    "2": 2041,
+    "1": 4046,
+    "3": 57
+  },
+  "raw_sha256": "157e94cc6ea6164f7cc1e05f445c0ddc965b8c652a4732db5c2d4b03dcd9230a",
+  "audit": "All raw match totals and block means checked; every surviving-player ICM score independently recomputed by enumerating all finish permutations.",
+  "limitations": [
+    "Custom six-place payout table, not the official unpublished payout table.",
+    "Only six-seat support is established; Fullhouse is a six-max model, not an eight-player model.",
+    "Warm single-core CPU latency, no process startup, JSON or IPC; P99 is not a hard worst-case guarantee.",
+    "Strength matches have no time penalties. Policy versions and weights unchanged from the low-latency comparison.",
+    "PokerKit adapter corrects unavailable requested actions consistently for every policy; counts are reported.",
+    "All ranked policies derive from the same public repository. Scores depend on this lineup and payout table."
+  ]
+}

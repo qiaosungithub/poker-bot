@@ -1,0 +1,77 @@
+{
+  "created_utc": "2026-11-06T20:25:11.998029+00:00",
+  "objective": "Calibrate fixed Fullhouse policy against near-zero, near-50 and near-80 score opponents.",
+  "score": "100 * final_hero_chips / total_chips, equal to 2-player ICM payouts [100,0]; bust gives 0 or 100.",
+  "rules": {
+    "players": 2,
+    "starting_stack_bb": 100,
+    "fixed_blinds_chips": [
+      50,
+      100
+    ],
+    "max_hands": 200,
+    "time_penalty": false
+  },
+  "target": "Original released Fullhouse weights and decisions; previously validated FP32 ONNX execution.",
+  "sampling": "One independent unit = two matches with identical seed-driven decks and swapped bot seats. Separate policy RNG and deck RNG. Opponent memory resets per match.",
+  "selected": {
+    "hard": "lbr_cautious25",
+    "medium": "cfr_lite",
+    "easy": "station"
+  },
+  "hard_is_whitebox": true,
+  "hard_implementation": "Local implementation inspired by LBR; full 1225-combo initial range, public action Bayesian updates, 16 runouts per combo, utility stack**0.25, bet grid 0.125/0.25/0.5/1/2 pots plus all-in. Knows fixed policy, no actual opponent private cards or deck.",
+  "hard_selection": {
+    "file": "pilot_lbr_cautious.json",
+    "scores": {
+      "lbr_cautious": {
+        "mean": 9.33359375,
+        "se": 1.7056831539883492,
+        "ci95": [
+          5.990454768182836,
+          12.676732731817165
+        ]
+      },
+      "lbr_cautious10": {
+        "mean": 7.22046875,
+        "se": 1.4663391816839555,
+        "ci95": [
+          4.346443953899447,
+          10.094493546100553
+        ]
+      },
+      "lbr_cautious25": {
+        "mean": 6.69693359375,
+        "se": 1.5722318245137623,
+        "ci95": [
+          3.6153592177030256,
+          9.778507969796975
+        ]
+      }
+    },
+    "risk_power": 0.25
+  },
+  "confirmation": {
+    "hard": {
+      "pairs": 1024,
+      "seed_start": 3000000,
+      "workers": 64,
+      "output": "final_hard.json"
+    },
+    "medium_easy": "final_medium_easy.json"
+  },
+  "precision": "Report 95% confidence interval on independent paired-match mean; hard planned sample fixed before confirmation, aiming for about 1-2 point half-width, not zero variance.",
+  "engine_adapter": "Correct forced blind all-ins and run out matched all-ins when <=1 player can act; original third-party files unchanged.",
+  "tests_passed": 9,
+  "superseded": [
+    "smoke.json: harness method typo, invalid",
+    "confirm_medium_easy.json: before matched-all-in engine correction; use final_medium_easy.json"
+  ],
+  "hashes": {
+    "test_benchmark.py": "dceef2c1f52e2db843ed82907ccbbf98f4b6bd13188ee4b17550e6bb3fde7d03",
+    "engine_adapter.py": "2ee9e86710c85ca0aa0b0acc2daf3e52f525a2b853029fa9861822a8f4402cbd",
+    "run_benchmark.py": "4194d5f0fde1c9abe16fcf8c8f0dc0b41505b03f3100c70b970ca783db384f38",
+    "test_lbr.py": "115686b08a074e122c802a61c9c658434dc933b7110975bd8aae33ccfc34f865",
+    "lbr_baseline.py": "b7c00649c077565f0339f363f50ca6b45b9d3946add523cc9603e0fec2b30d15"
+  }
+}

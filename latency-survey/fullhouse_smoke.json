@@ -1,0 +1,254 @@
+{
+  "source": "https://github.com/advitrocks9/fullhouse-bot",
+  "commit": "e504793d480b1b975f25258d25939b45c6dbd5a4",
+  "cpu_model": "AMD EPYC 7B12",
+  "cpu_affinity": [
+    2
+  ],
+  "numpy": "2.2.6",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "threads": 1,
+  "seed": 19073,
+  "players": 6,
+  "generated_hands": 215,
+  "unique_states": 2000,
+  "stack_bb_choices": [
+    5,
+    10,
+    20,
+    50,
+    100,
+    200
+  ],
+  "max_action_history": 30,
+  "measurement": "Warm state-dict -> original decide -> action-dict; model loaded before timing; original fallback replaced by raising assertion; policy unchanged",
+  "wall": {
+    "n": 2000,
+    "mean_ms": 0.337353691,
+    "p50_ms": 0.35945550000000004,
+    "p95_ms": 0.44434255,
+    "p99_ms": 0.47052109,
+    "p999_ms": 0.4903046199999999,
+    "max_ms": 0.510169,
+    "over_1ms": 0
+  },
+  "thread_cpu": {
+    "n": 2000,
+    "mean_ms": 0.3389650785,
+    "p50_ms": 0.3611295,
+    "p95_ms": 0.4460649,
+    "p99_ms": 0.4722805,
+    "p999_ms": 0.4920145499999999,
+    "max_ms": 0.51188,
+    "over_1ms": 0
+  },
+  "runs": [
+    {
+      "n": 2000,
+      "mean_ms": 0.337353691,
+      "p50_ms": 0.35945550000000004,
+      "p95_ms": 0.44434255,
+      "p99_ms": 0.47052109,
+      "p999_ms": 0.4903046199999999,
+      "max_ms": 0.510169,
+      "over_1ms": 0
+    }
+  ],
+  "by_street_wall": {
+    "flop": {
+      "n": 500,
+      "mean_ms": 0.376444928,
+      "p50_ms": 0.35955,
+      "p95_ms": 0.446986,
+      "p99_ms": 0.46428330999999995,
+      "p999_ms": 0.4791349599999996,
+      "max_ms": 0.4866,
+      "over_1ms": 0
+    },
+    "preflop": {
+      "n": 500,
+      "mean_ms": 0.228318024,
+      "p50_ms": 0.31399,
+      "p95_ms": 0.3910234999999999,
+      "p99_ms": 0.41230649999999996,
+      "p999_ms": 0.42971517999999986,
+      "max_ms": 0.4323,
+      "over_1ms": 0
+    },
+    "turn": {
+      "n": 500,
+      "mean_ms": 0.375413694,
+      "p50_ms": 0.36522,
+      "p95_ms": 0.4534634999999999,
+      "p99_ms": 0.4768991,
+      "p999_ms": 0.5002543689999995,
+      "max_ms": 0.510169,
+      "over_1ms": 0
+    },
+    "river": {
+      "n": 500,
+      "mean_ms": 0.369238118,
+      "p50_ms": 0.36063500000000004,
+      "p95_ms": 0.44991105,
+      "p99_ms": 0.47259281,
+      "p999_ms": 0.48720046999999966,
+      "max_ms": 0.49492,
+      "over_1ms": 0
+    }
+  },
+  "json_decode_decide_encode_wall": {
+    "n": 2000,
+    "mean_ms": 0.369423336,
+    "p50_ms": 0.39214,
+    "p95_ms": 0.4803155,
+    "p99_ms": 0.5168240999999999,
+    "p999_ms": 0.6108390209999969,
+    "max_ms": 1.190409,
+    "over_1ms": 1
+  },
+  "fallback_count": 0,
+  "legal_failure_count": 0,
+  "action_counts": {
+    "fold": 608,
+    "check": 1027,
+    "raise": 258,
+    "call": 46,
+    "all_in": 61
+  },
+  "models": {
+    "preflop_equity.npz": {
+      "bytes": 2160,
+      "sha256": "6b3b74778854fcebcd3179753c0252392e5f4118e6b623375c98fafa372863b3",
+      "arrays": {
+        "paired": {
+          "shape": [
+            13
+          ],
+          "dtype": "float32"
+        },
+        "suited": {
+          "shape": [
+            13,
+            13
+          ],
+          "dtype": "float32"
+        },
+        "offsuit": {
+          "shape": [
+            13,
+            13
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    "deep_cfr_model.npz": {
+      "bytes": 590758,
+      "sha256": "1102326b68da95564de147106612df71cb891b42f0726ba0212d3b9a5bcae295",
+      "arrays": {
+        "trunk_w0": {
+          "shape": [
+            256,
+            51
+          ],
+          "dtype": "float32"
+        },
+        "trunk_b0": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln0_g": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln0_b": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_w1": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_b1": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln1_g": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln1_b": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "val_w0": {
+          "shape": [
+            128,
+            256
+          ],
+          "dtype": "float32"
+        },
+        "val_b0": {
+          "shape": [
+            128
+          ],
+          "dtype": "float32"
+        },
+        "val_w1": {
+          "shape": [
+            1,
+            128
+          ],
+          "dtype": "float32"
+        },
+        "val_b1": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "adv_w0": {
+          "shape": [
+            128,
+            256
+          ],
+          "dtype": "float32"
+        },
+        "adv_b0": {
+          "shape": [
+            128
+          ],
+          "dtype": "float32"
+        },
+        "adv_w1": {
+          "shape": [
+            5,
+            128
+          ],
+          "dtype": "float32"
+        },
+        "adv_b1": {
+          "shape": [
+            5
+          ],
+          "dtype": "float32"
+        }
+      }
+    }
+  }
+}

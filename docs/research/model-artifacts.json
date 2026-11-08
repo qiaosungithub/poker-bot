@@ -1,0 +1,30 @@
+{
+  "observed_at_utc": "2026-11-08",
+  "purpose": "Identify model files retained locally, outside parent Git. Not a backup or download manifest.",
+  "artifacts": [
+    {
+      "path": "fullhouse-repro/runs/main_adv/iter_00210.npz",
+      "size_bytes": 590758,
+      "sha256": "c476a83f39c4840b54e9599324f6c8b9f43a917d870412bf5325d24193ff57cd",
+      "tracked_by_parent_git": false
+    },
+    {
+      "path": "fullhouse-repro/eval/iter_00210.onnx",
+      "size_bytes": 588622,
+      "sha256": "2f2455adf06f22a3a6d87bef1b330e4ea80438a6567943abfab2762d6cf0db32",
+      "tracked_by_parent_git": false
+    },
+    {
+      "path": "fullhouse-repro/runs/main/iter_00210.pt",
+      "size_bytes": 931829,
+      "sha256": "d0363acd624920e170cde89478b9f610f6302794223b3ba50d27aea456e2fc77",
+      "tracked_by_parent_git": false
+    },
+    {
+      "path": "latency-survey/fullhouse_fp32.onnx",
+      "size_bytes": 588622,
+      "sha256": "7b52be99fbb20806669cba91deac58e3f0a03ec8a2169720e273ac08a67e1ef1",
+      "tracked_by_parent_git": false
+    }
+  ]
+}

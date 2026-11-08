@@ -1,0 +1,24 @@
+{
+  "objective": "Train Fullhouse from scratch by self-play and compare to released checkpoint under the frozen six-player protocol.",
+  "reference_sha256": "1102326b68da95564de147106612df71cb891b42f0726ba0212d3b9a5bcae295",
+  "upstream_commit": "e504793d480b1b975f25258d25939b45c6dbd5a4",
+  "training_data": "Self-play only. Released weights are evaluation reference, never training initialization or targets.",
+  "selection": {
+    "seed": 11300000,
+    "blocks": 256,
+    "checkpoint_every": 10
+  },
+  "confirmation": {
+    "seed": 12300000,
+    "blocks": 1024,
+    "protocol": "../benchmarks/six_player_2026-11-06/protocol.txt",
+    "comparison": "Replace only the Fullhouse slot with candidate; pair with reference on identical seed blocks.",
+    "criterion": "Predeclared practical non-inferiority: lower 95% confidence bound for candidate minus reference exceeds -2 points. Report selected and final-budget checkpoints separately."
+  },
+  "constraints": [
+    "Preserve 51 features / 5 actions / 146694-parameter advantage architecture.",
+    "Preserve original short-stack overlay and FP32 ONNX serving.",
+    "Do not claim exact historical training reproduction: checkpoint training manifest was not published."
+  ],
+  "status": "Validating backend and restart before main training"
+}

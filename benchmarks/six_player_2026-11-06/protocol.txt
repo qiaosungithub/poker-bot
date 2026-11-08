@@ -1,0 +1,137 @@
+SIX-PLAYER POKER BENCHMARK PROTOCOL
+
+Result: table.csv contains only the six-player comparison table, rounded as displayed.
+This protocol describes the experiment actually run; no training-method notes are included.
+Full-precision results and raw records remain in ../../hu-benchmark/.
+
+1. Policies and source identity
+All six policies play simultaneously, one instance of each per tournament:
+fullhouse, solver_like, cfr_lite64, hydra32, station, maniac.
+Source: https://github.com/advitrocks9/fullhouse-bot
+Commit: e504793d480b1b975f25258d25939b45c6dbd5a4
+Fullhouse: released deep_cfr_model.npz, original feature encoding and decision policy,
+including the <=12BB preflop push/fold overlay; FP32 ONNX execution, no quantization.
+CFR Lite-64: existing cfr_lite policy with flop/turn/river simulations set to 64;
+heads_up_bonus=0, multiway_penalty=0, multiway_floor=64. Other rules unchanged.
+Hydra-32: existing adaptive_hydra policy; _mc_equity max_iters changed from 300 to 32.
+Solver-like, Station and Maniac: existing policies without strategic modifications.
+Source checkout and released weights were not edited. Version-specific hashes follow below.
+
+2. Poker rules and tournament format
+Standard no-limit Texas Hold'em, implemented by PokerKit 0.7.7.
+Six players start with 10,000 chips each (100 big blinds); total chips = 60,000.
+Fixed small/big blinds of 50/100; no antes, blind increases, rebuys, or rake.
+Chips carry between hands. Stop after 200 hands or when one player remains.
+Eliminated players leave the table; bots continue with the remaining 2-5 players.
+The button advances clockwise to a surviving player. Standard heads-up button/SB rules apply.
+Only own hole cards, public board, stacks and public action history are exposed to a bot.
+Public cross-hand history is limited to the latest 200 actions, matching the source interface.
+
+3. Score (custom experimental payout table, NOT official contest payouts)
+Finish payouts, first through sixth: [100, 60, 40, 25, 10, 0].
+Elimination locks in the corresponding payout. Among players eliminated on the same hand,
+the larger stack at the beginning of that hand finishes higher. Equal starting stacks
+split the payouts for the tied positions equally.
+At the 200-hand cutoff, survivors receive exact ICM expectations for the remaining top payouts.
+ICM: P(i finishes first among survivors) = c_i / sum(c). Recursively remove that winner
+and assign the next payout using remaining chip proportions. Sum over all finish orders.
+All six scores sum to 235 in each tournament. Equal-strength symmetry gives 235/6 = 39.1667
+points per bot. A score of 50 is NOT a 50% win rate. Do not directly compare these numbers
+with the earlier heads-up scores or heads-up opponent-pool averages.
+
+4. Sampling and uncertainty
+1,024 independent seed blocks, seeds 9,300,000 through 9,301,023 inclusive.
+Each block starts with a seeded random permutation of the six bots and plays all six cyclic
+seat rotations. Each bot occupies each seat once. Rotations use the same per-hand deck seeds.
+Hand deck seed = block_seed * 1,000,003 + zero_based_hand_index.
+Policy randomness is separate from deck randomness and assigned reproducibly by physical seat.
+Bot memory resets per tournament and persists between hands within that tournament.
+For each bot, first average its six scores within a block; then average 1,024 block means.
+95% CI = mean +/- 1.96 * sample_stddev(block_means) / sqrt(1024).
+The independent statistical unit is a six-rotation block, not a hand or an individual tournament.
+Fixed sample size was declared before confirmation. No post-result policy tuning occurred.
+Observed totals: 6,144 tournaments, 830,073 hands, 4,241,719 decisions; zero runtime errors.
+Strength run: 32 CPU worker processes, 66.818 seconds wall time, no GPU.
+No per-action clock penalties were applied in strength matches.
+
+5. Action compatibility and accounting
+PokerKit owns side pots, short all-ins, legal raise bounds and settlement.
+No raise rights: can_raise=false and min_raise_to=0 are passed to the bot.
+A requested unavailable raise maps to check/call; requested raise totals are clamped to legal bounds.
+This shared adapter is part of the benchmark protocol, not an assertion that every raw bot action
+was legal. All such adjustments are counted in the raw records and report.
+Observed unavailable-raise conversions: 7,339 / 4,241,719 decisions (about 0.173%).
+By bot: Maniac 2,266; Hydra-32 2,503; CFR Lite-64 1,672; Fullhouse 554; Solver-like 344; Station 0.
+No other action normalization categories were observed in this run.
+
+6. Latency measurement (separate from parallel strength matches)
+Hardware: AMD EPYC 7B12. Process pinned to logical CPU 2. ONNX intra/inter-op threads = 1.
+Environment: Python 3.11.0rc1, numpy 2.2.6, onnxruntime 1.23.2, eval7 0.1.11, pokerkit 0.7.7.
+10,000 legal six-seat PokerKit states: 2,500 each for preflop/flop/turn/river, shuffled.
+Starting stacks vary over [5,10,20,50,100,200] BB. Mixture of passive and randomized trajectories.
+Corpus seed = 9,200,000. Six seats may include players folded or all-in within the hand.
+Each bot receives 200 untimed warm-up calls. Garbage collector disabled for timed loops.
+Three passes over the 10,000 states = 30,000 complete decision calls per bot.
+Timed scope: public state dictionary -> preprocessing/features -> inference or simulations ->
+action dictionary. Includes the whole decision function, not just neural network inference.
+Excludes model import/loading, process startup, JSON encoding/decoding, IPC and game simulation.
+Wall-clock P99 uses numpy quantile across all 30,000 timings. Thread CPU times are also saved.
+Above-1ms wall calls: Fullhouse 1, CFR Lite-64 1, Hydra-32 2, all other bots 0.
+Observed maxima: Fullhouse 5.018ms, CFR Lite-64 1.00025ms, Hydra-32 1.329ms.
+P99 below 1ms is NOT a hard worst-case latency guarantee.
+
+7. Validation and artifacts
+Seven tests passed: seat/actor mapping for 2-6 players; hidden-card boundaries;
+short raises that do not reopen action; simultaneous elimination ordering and ties;
+symmetric ICM; ICM checked against all finish permutations; six-seat identical-policy mirror.
+The tests also check 200 all-in side-pot settlements against independent eval7 hand evaluation.
+Every survivor ICM score in the final raw records was independently recomputed by enumerating
+finish permutations. All chip totals, score totals, block means and reported CIs were audited.
+Authoritative artifacts under ../../hu-benchmark/:
+  multiway_benchmark.py       complete game adapter, scoring and experiment runner
+  low_latency_compare.py     exact policy loading and sampling-budget modifications
+  run_benchmark.py            original policy loader and FP32 ONNX initialization
+  test_multiway.py            validation tests
+  analyze_multiway.py         independent final-record audit
+  multiway_plan.json          frozen protocol and source hashes
+  multiway_sources.zip        frozen local source snapshot
+  low_latency_sources.zip     inherited bot/model source snapshot
+  multiway_arena.jsonl        raw blocks and all six tournament results per block
+  multiway_arena.json         primary summary
+  multiway_latency.json       full latency statistics
+  multiway_latency_states.jsonl.gz  retained input corpus
+  multiway_report.json        independent audit and combined full-precision report
+  multiway_environment.json   exact runtime environment
+  multiway_validation.log     test output
+
+8. Reproduction
+Use Python >=3.11 with the exact package versions above. The original environment is
+/tmp/poker-hu-validation/bin/python. Preserve the poker-bot directory layout and original
+latency-survey/fullhouse-bot plus latency-survey/fullhouse_fp32.onnx.
+Run from a fresh hu-benchmark working directory containing the original scripts, with
+../latency-survey pointing to those frozen assets. Existing output files are deliberately
+not overwritten. The fixed latency corpus filename must also be absent in the fresh directory.
+Commands used, from that working directory:
+  python -m unittest -v test_multiway
+  python multiway_benchmark.py latency --seed 9200000 --per-street 2500 --repeats 3 --output multiway_latency.json
+  python multiway_benchmark.py arena --blocks 1024 --workers 32 --seed 9300000 --output multiway_arena.json
+For identical latency comparison, do not run parallel strength matches at the same time.
+Different CPUs, Python versions, process load and scheduling can change timings.
+The frozen plan and hash-verified inputs identify the strategy and experiment being reproduced.
+
+9. Scope
+These results establish six-player table behavior and relative strength in this exact lineup,
+payout schedule and fixed-blind protocol. They do not establish eight-player compatibility,
+a global poker ranking, official contest performance, or deadline compliance under official infra.
+
+10. Source and result fingerprints
+Fullhouse weight SHA256: 1102326b68da95564de147106612df71cb891b42f0726ba0212d3b9a5bcae295
+FP32 ONNX SHA256: 7b52be99fbb20806669cba91deac58e3f0a03ec8a2169720e273ac08a67e1ef1
+multiway_benchmark.py SHA256: 43030570ef882452eb121170fe940dd01649bf0893428c3a3f0505ae788c83d8
+low_latency_compare.py SHA256: 371410231304b0fbbdf68ed679441c31ff41914c9cf9fb303f6b0930472e3b17
+run_benchmark.py SHA256: 4194d5f0fde1c9abe16fcf8c8f0dc0b41505b03f3100c70b970ca783db384f38
+multiway_plan.json SHA256: d69fb08e34f928494e5ba760180ef6bdc581d00f779cfdecba2188d061449da0
+multiway_arena.jsonl SHA256: 157e94cc6ea6164f7cc1e05f445c0ddc965b8c652a4732db5c2d4b03dcd9230a
+multiway_arena.json SHA256: 80803f5643a50f1798edd8d969d9835eb3ed591d6da432d1a5c105ee5c15f7a1
+multiway_latency.json SHA256: a5699871f4fea4154f725b648606c63f00961ba6070648fe908db0b886f2f304
+multiway_report.json SHA256: e17879d270a25b342569268f9c5a5b3139a4d4d9e8c5a1498adadb38c4b9b77d

@@ -1,0 +1,17 @@
+{
+  "source": "https://github.com/AI-Decision/DecisionHoldem/issues/2#issuecomment-1297617945",
+  "mirror": "https://drive.google.com/drive/folders/1zTAm0AyRCoxP61cMJNUdt9CCMHevWOCz",
+  "metadata_source": "connected Google Drive fetch folder",
+  "files_bytes": {
+    "blueprint_stgy.dat": 16123074125,
+    "river_hand_cluster.bin": 16856854560,
+    "turn_hand_cluster.bin": 2443022400,
+    "sevencards_strength.bin": 1337845600,
+    "flop_hand_cluster.bin": 207916800,
+    "preflop_hand_cluster.bin": 10608
+  },
+  "total_bytes": 36968724093,
+  "data_downloaded": false,
+  "reason": "37GB data excluded; no latency claim",
+  "baidu_result": "HTTP 403 from direct request"
+}

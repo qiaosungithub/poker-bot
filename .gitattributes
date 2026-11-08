@@ -1,0 +1,8 @@
+# Preserve frozen evidence byte-for-byte, including CSV CRLF line endings.
+*.csv -text whitespace=cr-at-eol
+*.jsonl -text
+*.jsonl.gz binary
+*.npz binary
+*.zip binary
+# Blank context lines in unified patches intentionally contain one space.
+*.patch -text whitespace=-blank-at-eol

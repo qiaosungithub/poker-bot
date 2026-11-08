@@ -1,0 +1,328 @@
+{
+  "source_commit": "9a94b530251cf71db711baaa03cba9402f1c3c73",
+  "node": "v24.22.2",
+  "warmup": 2000,
+  "all": {
+    "n": 64352,
+    "p50_us": 28.88,
+    "p99_us": 205.5,
+    "p999_us": 8173.379,
+    "max_us": 22668.179,
+    "over_1ms": 200,
+    "over_1ms_pct": 0.31079065141720535
+  },
+  "byPhase": {
+    "preflop": {
+      "n": 44836,
+      "p50_us": 22.87,
+      "p99_us": 59.96,
+      "p999_us": 2897.01,
+      "max_us": 20591.949,
+      "over_1ms": 70,
+      "over_1ms_pct": 0.1561245427781247
+    },
+    "flop": {
+      "n": 9782,
+      "p50_us": 126.13,
+      "p99_us": 392.389,
+      "p999_us": 13088.539,
+      "max_us": 16423.299,
+      "over_1ms": 63,
+      "over_1ms_pct": 0.6440400736045798
+    },
+    "turn": {
+      "n": 6018,
+      "p50_us": 128.7,
+      "p99_us": 543.17,
+      "p999_us": 16164.579,
+      "max_us": 22668.179,
+      "over_1ms": 44,
+      "over_1ms_pct": 0.7311399135925557
+    },
+    "river": {
+      "n": 3716,
+      "p50_us": 129.97,
+      "p99_us": 257.44,
+      "p999_us": 9741.479,
+      "max_us": 16153.308,
+      "over_1ms": 23,
+      "over_1ms_pct": 0.6189451022604952
+    }
+  },
+  "byPlayers": {
+    "2": {
+      "n": 22674,
+      "p50_us": 49.85,
+      "p99_us": 221.25,
+      "p999_us": 8348.48,
+      "max_us": 19541.738,
+      "over_1ms": 75,
+      "over_1ms_pct": 0.33077533739084414
+    },
+    "3": {
+      "n": 14993,
+      "p50_us": 28.909,
+      "p99_us": 210.74,
+      "p999_us": 9397.8,
+      "max_us": 22668.179,
+      "over_1ms": 61,
+      "over_1ms_pct": 0.4068565330487561
+    },
+    "4": {
+      "n": 9556,
+      "p50_us": 24.89,
+      "p99_us": 191.31,
+      "p999_us": 6685.239,
+      "max_us": 16144.499,
+      "over_1ms": 34,
+      "over_1ms_pct": 0.35579740477187105
+    },
+    "5": {
+      "n": 6762,
+      "p50_us": 23.809,
+      "p99_us": 156.75,
+      "p999_us": 5498.34,
+      "max_us": 16269.229,
+      "over_1ms": 12,
+      "over_1ms_pct": 0.1774622892635315
+    },
+    "6": {
+      "n": 4916,
+      "p50_us": 24.54,
+      "p99_us": 148.85,
+      "p999_us": 4727.19,
+      "max_us": 16076.809,
+      "over_1ms": 9,
+      "over_1ms_pct": 0.18307567127746135
+    },
+    "7": {
+      "n": 3412,
+      "p50_us": 26.81,
+      "p99_us": 142.28,
+      "p999_us": 3910.41,
+      "max_us": 20591.949,
+      "over_1ms": 5,
+      "over_1ms_pct": 0.14654161781946073
+    },
+    "8": {
+      "n": 2039,
+      "p50_us": 34.389,
+      "p99_us": 126.05,
+      "p999_us": 7860.16,
+      "max_us": 10416.97,
+      "over_1ms": 4,
+      "over_1ms_pct": 0.196174595389897
+    }
+  },
+  "outcomes": {
+    "game-over": 120
+  },
+  "invalid": 0,
+  "samples": [
+    {
+      "street": "preflop",
+      "n": 8,
+      "hand": [
+        "2D",
+        "5H"
+      ],
+      "board": [],
+      "pot": 30,
+      "call": 20,
+      "stack": 2000,
+      "action": {
+        "action": "fold"
+      }
+    },
+    {
+      "street": "preflop",
+      "n": 7,
+      "hand": [
+        "TC",
+        "7D"
+      ],
+      "board": [],
+      "pot": 30,
+      "call": 20,
+      "stack": 2000,
+      "action": {
+        "action": "fold"
+      }
+    },
+    {
+      "street": "preflop",
+      "n": 6,
+      "hand": [
+        "3C",
+        "5C"
+      ],
+      "board": [],
+      "pot": 30,
+      "call": 20,
+      "stack": 2000,
+      "action": {
+        "action": "fold"
+      }
+    },
+    {
+      "street": "preflop",
+      "n": 5,
+      "hand": [
+        "JC",
+        "5S"
+      ],
+      "board": [],
+      "pot": 30,
+      "call": 20,
+      "stack": 2000,
+      "action": {
+        "action": "fold"
+      }
+    },
+    {
+      "street": "preflop",
+      "n": 4,
+      "hand": [
+        "9D",
+        "7H"
+      ],
+      "board": [],
+      "pot": 30,
+      "call": 20,
+      "stack": 2000,
+      "action": {
+        "action": "fold"
+      }
+    },
+    {
+      "street": "preflop",
+      "n": 3,
+      "hand": [
+        "8S",
+        "7C"
+      ],
+      "board": [],
+      "pot": 30,
+      "call": 20,
+      "stack": 2000,
+      "action": {
+        "action": "fold"
+      }
+    },
+    {
+      "street": "preflop",
+      "n": 2,
+      "hand": [
+        "2S",
+        "2H"
+      ],
+      "board": [],
+      "pot": 30,
+      "call": 10,
+      "stack": 1990,
+      "action": {
+        "action": "raise",
+        "amount": 40
+      }
+    },
+    {
+      "street": "flop",
+      "n": 2,
+      "hand": [
+        "2S",
+        "2H"
+      ],
+      "board": [
+        "TH",
+        "4C",
+        "JH"
+      ],
+      "pot": 100,
+      "call": 0,
+      "stack": 1950,
+      "action": {
+        "action": "check"
+      }
+    },
+    {
+      "street": "turn",
+      "n": 2,
+      "hand": [
+        "2S",
+        "2H"
+      ],
+      "board": [
+        "TH",
+        "4C",
+        "JH",
+        "QH"
+      ],
+      "pot": 200,
+      "call": 0,
+      "stack": 1900,
+      "action": {
+        "action": "check"
+      }
+    },
+    {
+      "street": "flop",
+      "n": 4,
+      "hand": [
+        "3S",
+        "JD"
+      ],
+      "board": [
+        "AS",
+        "JH",
+        "3D"
+      ],
+      "pot": 90,
+      "call": 0,
+      "stack": 1980,
+      "action": {
+        "action": "raise",
+        "amount": 40
+      }
+    },
+    {
+      "street": "flop",
+      "n": 3,
+      "hand": [
+        "9H",
+        "JS"
+      ],
+      "board": [
+        "AS",
+        "JH",
+        "3D"
+      ],
+      "pot": 170,
+      "call": 40,
+      "stack": 1880,
+      "action": {
+        "action": "call"
+      }
+    },
+    {
+      "street": "turn",
+      "n": 3,
+      "hand": [
+        "3S",
+        "JD"
+      ],
+      "board": [
+        "AS",
+        "JH",
+        "3D",
+        "3H"
+      ],
+      "pot": 210,
+      "call": 0,
+      "stack": 1940,
+      "action": {
+        "action": "raise",
+        "amount": 150
+      }
+    }
+  ]
+}

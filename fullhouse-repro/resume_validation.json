@@ -1,0 +1,10 @@
+{
+  "strategy": {
+    "max_weight_difference": 0.0,
+    "arrays": 10
+  },
+  "_adv": {
+    "max_weight_difference": 0.0,
+    "arrays": 16
+  }
+}

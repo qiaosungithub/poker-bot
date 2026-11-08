@@ -1,0 +1,15 @@
+{
+  "python": "3.11.0rc1",
+  "cpu": "AMD EPYC 7B12",
+  "packages": {
+    "pokerkit": "0.7.7",
+    "eval7": "0.1.11",
+    "numpy": "2.2.6",
+    "onnxruntime": "1.23.2"
+  },
+  "latency_affinity": [
+    2
+  ],
+  "latency_threads": 1,
+  "match_workers": 32
+}

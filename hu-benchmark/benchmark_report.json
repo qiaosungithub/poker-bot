@@ -1,0 +1,162 @@
+{
+  "target": "Released Fullhouse checkpoint, original decision policy with FP32 ONNX CPU inference",
+  "target_repository": "https://github.com/advitrocks9/fullhouse-bot",
+  "target_commit": "e504793d480b1b975f25258d25939b45c6dbd5a4",
+  "protocol": {
+    "players": 2,
+    "starting_stack_bb": 100,
+    "fixed_blinds_chips": [
+      50,
+      100
+    ],
+    "max_hands": 200,
+    "time_penalty": false
+  },
+  "score": "100 * final_hero_chips / total_chips, equal to 2-player ICM payouts [100,0]; bust gives 0 or 100.",
+  "sampling": "One independent unit = two matches with identical seed-driven decks and swapped bot seats. Separate policy RNG and deck RNG. Opponent memory resets per match.",
+  "public_match_history": "Last 200 public actions, matching the upstream sandbox contract.",
+  "environment": {
+    "python": "3.10.12",
+    "platform": "Linux-5.19.0-1022-gcp-x86_64-with-glibc2.35",
+    "cpu_model": "AMD EPYC 7B12",
+    "logical_cpus_available": 240,
+    "inference_provider": "CPUExecutionProvider",
+    "threads_per_onnx_session": 1,
+    "packages": {
+      "numpy": "2.2.6",
+      "onnx": "1.23.2",
+      "onnxruntime": "1.23.2",
+      "eval7": "0.1.11"
+    },
+    "requirements_file": "requirements-benchmark.txt",
+    "validation_environment": {
+      "python": "3.11",
+      "pokerkit": "0.7.7"
+    }
+  },
+  "results": {
+    "lbr_cautious25": {
+      "mean_score": 7.19427978515625,
+      "ci95": [
+        6.12103637977981,
+        8.26752319053269
+      ],
+      "ci95_half_width": 1.07324340537644,
+      "independent_pairs": 1024,
+      "matches": 2048,
+      "hands": 90875,
+      "hero_busted": 1889,
+      "opponent_busted": 123,
+      "reached_cutoff_without_bust": 36,
+      "ahead_at_end": 149,
+      "mean_hands_per_match": 44.37255859375,
+      "mean_pair_worker_seconds": 21.280063993084923,
+      "runtime_errors": 0,
+      "action_corrections": 0,
+      "zero_posterior_errors": 0,
+      "result_file": "final_hard_v4.json",
+      "raw_file": "final_hard_v4.jsonl"
+    },
+    "cfr_lite": {
+      "mean_score": 48.190580444335936,
+      "ci95": [
+        47.21091707139177,
+        49.1702438172801
+      ],
+      "ci95_half_width": 0.9796633729441688,
+      "independent_pairs": 4096,
+      "matches": 8192,
+      "hands": 399099,
+      "hero_busted": 4195,
+      "opponent_busted": 3898,
+      "reached_cutoff_without_bust": 99,
+      "ahead_at_end": 3948,
+      "mean_hands_per_match": 48.7181396484375,
+      "mean_pair_worker_seconds": 0.2252898338573459,
+      "runtime_errors": 0,
+      "action_corrections": 0,
+      "zero_posterior_errors": 0,
+      "result_file": "final_medium_easy_v4.json",
+      "raw_file": "final_medium_easy_v4.jsonl"
+    },
+    "station": {
+      "mean_score": 79.49911499023438,
+      "ci95": [
+        78.68947487332002,
+        80.30875510714873
+      ],
+      "ci95_half_width": 0.8096401169143514,
+      "independent_pairs": 4096,
+      "matches": 8192,
+      "hands": 476950,
+      "hero_busted": 1674,
+      "opponent_busted": 6491,
+      "reached_cutoff_without_bust": 27,
+      "ahead_at_end": 6515,
+      "mean_hands_per_match": 58.221435546875,
+      "mean_pair_worker_seconds": 0.15443539995288802,
+      "runtime_errors": 0,
+      "action_corrections": 0,
+      "zero_posterior_errors": 0,
+      "result_file": "final_medium_easy_v4.json",
+      "raw_file": "final_medium_easy_v4.jsonl"
+    }
+  },
+  "total_matches": 18432,
+  "total_hands": 966924,
+  "runs": [
+    {
+      "file": "final_medium_easy_v4.json",
+      "raw_sha256": "00a1c43bd69090b87d927258dda99e525e405368e2cd0733f77488025d9cb80c",
+      "result_sha256": "db77316842a1085d70609c9e23a7efd512cac89d54fa4b42da8a54b1a0018e74",
+      "elapsed_seconds": 97.78242244315334,
+      "workers": 16
+    },
+    {
+      "file": "final_hard_v4.json",
+      "raw_sha256": "002bb70890fc4395edb5a353fd8ab5282ea0762e0c8d3efdafcece7eaf2a74c5",
+      "result_sha256": "17b993743529cfeca21e7e6611d9369aaaa609df1045301d58dabd470b7b2b81",
+      "elapsed_seconds": 398.0568632951472,
+      "workers": 64
+    }
+  ],
+  "opponent_descriptions": {
+    "lbr_cautious25": "Locally implemented targeted white-box stress test inspired by Local Best Response; Bayesian hand-range updates, known target policy, 16 sampled runouts per combination, utility stack**0.25. No access to actual opponent cards or future deck. Not a released champion or an exact best response.",
+    "cfr_lite": "Unmodified existing rule/equity hybrid from the Fullhouse repository; name does not establish equilibrium play.",
+    "station": "Unmodified existing loose-calling baseline from the Fullhouse repository."
+  },
+  "sources": {
+    "lbr_method": "https://poker.cs.ualberta.ca/publications/aaai17ws-lisy-lbr.pdf",
+    "cfr_lite": "https://github.com/advitrocks9/fullhouse-bot/blob/e504793d480b1b975f25258d25939b45c6dbd5a4/bots/competitors/cfr_lite/bot.py",
+    "station": "https://github.com/advitrocks9/fullhouse-bot/blob/e504793d480b1b975f25258d25939b45c6dbd5a4/bots/adversarial/station.py"
+  },
+  "validation": {
+    "reference": "PokerKit 0.7.7",
+    "hands": 2000,
+    "actions": 7572,
+    "mismatches": 0,
+    "seconds": 4.6391844030003995,
+    "checks": [
+      "actor order",
+      "amount to call",
+      "stack before actions",
+      "final stacks",
+      "independent hand evaluator"
+    ]
+  },
+  "unit_tests_passed": 11,
+  "limitations": [
+    "This is a custom heads-up ICM-like scoring protocol, not the unpublished official payout table.",
+    "No wall-clock action penalties; this experiment measures strength, not compliance with a 1 ms deadline.",
+    "The hard opponent knows the frozen target policy and was selected using separate pilot matches; it is a targeted exploitability stress test.",
+    "Medium and easy baselines share the target repository provenance; this is not an independent champion-level ranking.",
+    "Confidence intervals quantify sampling uncertainty for this fixed protocol and these opponents; they do not prove eight-player tournament performance.",
+    "Original vendor engine all-in handling was corrected in engine_adapter.py; the upstream checkout and target weights remain unmodified."
+  ],
+  "frozen_plan": "experiment_plan_v4.json",
+  "frozen_sources": "frozen_sources_v4.zip",
+  "reproduction_commands": [
+    "python run_benchmark.py --opponents cfr_lite,station --pairs 4096 --workers 16 --seed 6000000 --output reproduction_medium_easy.json",
+    "python run_benchmark.py --opponents lbr_cautious25 --pairs 1024 --workers 64 --seed 7000000 --output reproduction_hard.json"
+  ]
+}

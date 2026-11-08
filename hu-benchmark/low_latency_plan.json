@@ -1,0 +1,62 @@
+{
+  "created_utc": "2026-11-06T20:50:54.354965+00:00",
+  "objective": "Compare speed and heads-up strength of existing low-latency poker policies and explicitly marked sampling-budget variants.",
+  "candidates": [
+    "fullhouse",
+    "cfr_lite64",
+    "hydra32",
+    "solver_like",
+    "maniac",
+    "station"
+  ],
+  "modifications": {
+    "cfr_lite64": "Original rules and action sizing, 64 Monte Carlo rollouts each postflop street instead of original configured counts. Changes stochastic approximation, not a strategy-equivalence claim.",
+    "hydra32": "Original adaptive_hydra, max_iters=32 instead of 300 in _mc_equity; no other strategic changes.",
+    "fullhouse": "Previously validated FP32 ONNX export, original released weights."
+  },
+  "latency": "Single CPU core 2; full decision function; 10000 legal HU states balanced by street, 3 repetitions; GC disabled; p99 threshold only, tail exceedances reported.",
+  "arena": {
+    "names": [
+      "fullhouse",
+      "cfr_lite64",
+      "hydra32",
+      "solver_like",
+      "maniac",
+      "station"
+    ],
+    "pairs_per_matchup": 2048,
+    "matches_per_matchup": 4096,
+    "seed_start": 8500000,
+    "workers": 32,
+    "max_hands": 200,
+    "starting_stack_bb": 100,
+    "fixed_blinds_chips": [
+      50,
+      100
+    ],
+    "score": "100*ending chip share; exact HU ICM for payouts [100,0]",
+    "timeout_penalties": false,
+    "sampling": "Same decks, swapped seats; pair as independent unit; common seed indexes across all matchups.",
+    "primary_comparisons": [
+      "cfr_lite64 versus fullhouse",
+      "hydra32 versus fullhouse"
+    ],
+    "precision": "Report 95% CIs; two prespecified primary comparisons also report Bonferroni 97.5% CIs."
+  },
+  "validation": "6 games exactly match legacy harness scores and hand counts; 5 mirror pairs score exactly 50. Existing engine passed 2000 PokerKit differential hands.",
+  "hashes": {
+    "low_latency_compare.py": "371410231304b0fbbdf68ed679441c31ff41914c9cf9fb303f6b0930472e3b17",
+    "run_benchmark.py": "4194d5f0fde1c9abe16fcf8c8f0dc0b41505b03f3100c70b970ca783db384f38",
+    "engine_adapter.py": "66026b161e2005f10738f74ff40c4b94dab975088e3fc40d224343de1ab1f1b9",
+    "latency_confirm.json": "92c2bea85d75648676cd52b8f6b909e8ee74e72f57d725f03e0947c64e334141",
+    "../latency-survey/fullhouse-bot/bots/competitors/cfr_lite/bot.py": "7eb3e3dc75333b2a940fa9784dc130e6c3936f4605f56f7b76bc94b3a6b0d231",
+    "../latency-survey/fullhouse-bot/bots/competitors/adaptive_hydra/bot.py": "eb5280b4d757ded435cf0b8dc5ae9b006bb3be0df822910e0e5777e9f018b25e",
+    "../latency-survey/fullhouse-bot/bots/adversarial/solver_like.py": "76ef638a9a7e9762316ba34d54eca435bd37086afd9bb30433423346282a5240",
+    "../latency-survey/fullhouse-bot/bots/adversarial/maniac.py": "21a3d59d8993d3ad0cb15ec75fd46524f91598ab87846d3e4f4e677cc028e2d6",
+    "../latency-survey/fullhouse-bot/bots/adversarial/station.py": "d73a65b481063fa813d6ba92ff88aed0cf8359407f0da234246401080c03774f",
+    "../latency-survey/fullhouse-bot/bot/bot.py": "f721b16e0cab72d0c40fae2e94d1ec655a94025fc20addfc689c718fb8f10845",
+    "../latency-survey/fullhouse-bot/bot/features.py": "b43361365ed911f358b3588f0c487614029158bf1420c5ffec8260bd427475c8",
+    "../latency-survey/fullhouse-bot/data/deep_cfr_model.npz": "1102326b68da95564de147106612df71cb891b42f0726ba0212d3b9a5bcae295",
+    "../latency-survey/fullhouse_fp32.onnx": "7b52be99fbb20806669cba91deac58e3f0a03ec8a2169720e273ac08a67e1ef1"
+  }
+}

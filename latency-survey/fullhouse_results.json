@@ -1,0 +1,274 @@
+{
+  "source": "https://github.com/advitrocks9/fullhouse-bot",
+  "commit": "e504793d480b1b975f25258d25939b45c6dbd5a4",
+  "cpu_model": "AMD EPYC 7B12",
+  "cpu_affinity": [
+    2
+  ],
+  "numpy": "2.2.6",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "threads": 1,
+  "seed": 19073,
+  "players": 6,
+  "generated_hands": 1097,
+  "unique_states": 10000,
+  "stack_bb_choices": [
+    5,
+    10,
+    20,
+    50,
+    100,
+    200
+  ],
+  "max_action_history": 30,
+  "measurement": "Warm state-dict -> original decide -> action-dict; model loaded before timing; original fallback replaced by raising assertion; policy unchanged",
+  "wall": {
+    "n": 30000,
+    "mean_ms": 0.3441968876,
+    "p50_ms": 0.36583,
+    "p95_ms": 0.4532915,
+    "p99_ms": 0.48337069999999993,
+    "p999_ms": 0.5851826200000005,
+    "max_ms": 1.8082,
+    "over_1ms": 10
+  },
+  "thread_cpu": {
+    "n": 30000,
+    "mean_ms": 0.3454868196,
+    "p50_ms": 0.36748,
+    "p95_ms": 0.45393045,
+    "p99_ms": 0.48184099999999985,
+    "p999_ms": 0.5165105120000003,
+    "max_ms": 1.810059,
+    "over_1ms": 10
+  },
+  "runs": [
+    {
+      "n": 10000,
+      "mean_ms": 0.34368831939999994,
+      "p50_ms": 0.36567550000000004,
+      "p95_ms": 0.45219149999999997,
+      "p99_ms": 0.4792622000000001,
+      "p999_ms": 0.5106613100000003,
+      "max_ms": 1.66417,
+      "over_1ms": 3
+    },
+    {
+      "n": 10000,
+      "mean_ms": 0.3445657936,
+      "p50_ms": 0.36601,
+      "p95_ms": 0.45448549999999993,
+      "p99_ms": 0.4844963000000001,
+      "p999_ms": 0.5704773400000035,
+      "max_ms": 1.8082,
+      "over_1ms": 3
+    },
+    {
+      "n": 10000,
+      "mean_ms": 0.3443365498,
+      "p50_ms": 0.36577,
+      "p95_ms": 0.45329195,
+      "p99_ms": 0.4855324100000001,
+      "p999_ms": 0.6304255600000012,
+      "max_ms": 1.79615,
+      "over_1ms": 4
+    }
+  ],
+  "by_street_wall": {
+    "flop": {
+      "n": 7500,
+      "mean_ms": 0.3833666392,
+      "p50_ms": 0.3651,
+      "p95_ms": 0.45405244999999994,
+      "p99_ms": 0.4757451000000001,
+      "p999_ms": 0.5722611400000064,
+      "max_ms": 1.69164,
+      "over_1ms": 1
+    },
+    "turn": {
+      "n": 7500,
+      "mean_ms": 0.3848612437333333,
+      "p50_ms": 0.37156,
+      "p95_ms": 0.46523004999999995,
+      "p99_ms": 0.4898151900000001,
+      "p999_ms": 0.577834720000003,
+      "max_ms": 1.79615,
+      "over_1ms": 4
+    },
+    "preflop": {
+      "n": 7500,
+      "mean_ms": 0.23175450733333333,
+      "p50_ms": 0.319295,
+      "p95_ms": 0.39536045,
+      "p99_ms": 0.4194604,
+      "p999_ms": 0.5062539000000008,
+      "max_ms": 1.67412,
+      "over_1ms": 2
+    },
+    "river": {
+      "n": 7500,
+      "mean_ms": 0.3768051601333333,
+      "p50_ms": 0.367355,
+      "p95_ms": 0.45838549999999995,
+      "p99_ms": 0.4915833000000001,
+      "p999_ms": 0.640779580000002,
+      "max_ms": 1.8082,
+      "over_1ms": 3
+    }
+  },
+  "json_decode_decide_encode_wall": {
+    "n": 10000,
+    "mean_ms": 0.3744526999,
+    "p50_ms": 0.39676500000000003,
+    "p95_ms": 0.4859815,
+    "p99_ms": 0.5229702,
+    "p999_ms": 0.6773231700000006,
+    "max_ms": 2.17084,
+    "over_1ms": 4
+  },
+  "fallback_count": 0,
+  "legal_failure_count": 0,
+  "action_counts": {
+    "check": 14733,
+    "raise": 4077,
+    "fold": 9392,
+    "all_in": 1088,
+    "call": 710
+  },
+  "models": {
+    "preflop_equity.npz": {
+      "bytes": 2160,
+      "sha256": "6b3b74778854fcebcd3179753c0252392e5f4118e6b623375c98fafa372863b3",
+      "arrays": {
+        "paired": {
+          "shape": [
+            13
+          ],
+          "dtype": "float32"
+        },
+        "suited": {
+          "shape": [
+            13,
+            13
+          ],
+          "dtype": "float32"
+        },
+        "offsuit": {
+          "shape": [
+            13,
+            13
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    "deep_cfr_model.npz": {
+      "bytes": 590758,
+      "sha256": "1102326b68da95564de147106612df71cb891b42f0726ba0212d3b9a5bcae295",
+      "arrays": {
+        "trunk_w0": {
+          "shape": [
+            256,
+            51
+          ],
+          "dtype": "float32"
+        },
+        "trunk_b0": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln0_g": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln0_b": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_w1": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_b1": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln1_g": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln1_b": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "val_w0": {
+          "shape": [
+            128,
+            256
+          ],
+          "dtype": "float32"
+        },
+        "val_b0": {
+          "shape": [
+            128
+          ],
+          "dtype": "float32"
+        },
+        "val_w1": {
+          "shape": [
+            1,
+            128
+          ],
+          "dtype": "float32"
+        },
+        "val_b1": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "adv_w0": {
+          "shape": [
+            128,
+            256
+          ],
+          "dtype": "float32"
+        },
+        "adv_b0": {
+          "shape": [
+            128
+          ],
+          "dtype": "float32"
+        },
+        "adv_w1": {
+          "shape": [
+            5,
+            128
+          ],
+          "dtype": "float32"
+        },
+        "adv_b1": {
+          "shape": [
+            5
+          ],
+          "dtype": "float32"
+        }
+      }
+    }
+  }
+}

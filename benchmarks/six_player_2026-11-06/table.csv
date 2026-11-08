@@ -1,0 +1,7 @@
+Bot,Six-player CPU P99 (ms),Six-player mean score,95% CI lower,95% CI upper
+fullhouse,0.343,58.62,57.85,59.40
+solver_like,0.036,52.69,52.03,53.35
+cfr_lite64,0.685,48.83,48.03,49.62
+hydra32,0.671,42.91,42.01,43.82
+station,0.010,16.70,16.33,17.07
+maniac,0.004,15.25,14.62,15.87

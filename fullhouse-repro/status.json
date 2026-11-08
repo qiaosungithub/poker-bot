@@ -1,0 +1,79 @@
+{
+  "time": "2026-11-07T19:16:36.256608+00:00",
+  "state": "complete",
+  "criterion_passed": true,
+  "confirmation": {
+    "selected": {
+      "time": "2026-11-07T19:15:00.228042+00:00",
+      "checkpoint": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/fullhouse-repro/runs/main_adv/iter_00210.npz",
+      "checkpoint_sha256": "c476a83f39c4840b54e9599324f6c8b9f43a917d870412bf5325d24193ff57cd",
+      "split": "confirmation",
+      "score": {
+        "mean": 60.9397348613495,
+        "se": 0.35983783082751825,
+        "ci95": [
+          60.23445271292756,
+          61.645017009771436
+        ]
+      },
+      "difference": {
+        "mean": 2.3503816957014405,
+        "se": 0.4307920625433038,
+        "ci95": [
+          1.5060292531165649,
+          3.194734138286316
+        ],
+        "blocks": 1024
+      },
+      "artifact": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/fullhouse-repro/eval/iter_00210_confirmation.json"
+    },
+    "final_budget": {
+      "time": "2026-11-07T19:16:36.155400+00:00",
+      "checkpoint": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/fullhouse-repro/runs/main_adv/iter_00250.npz",
+      "checkpoint_sha256": "a1024fc3702d71f3e1dc31145dc2f1a41d8f78f36d2218aeab84e9bb034e3132",
+      "split": "confirmation",
+      "score": {
+        "mean": 54.420652993629396,
+        "se": 0.3758807913691184,
+        "ci95": [
+          53.68392664254593,
+          55.157379344712865
+        ]
+      },
+      "difference": {
+        "mean": -4.168700172018658,
+        "se": 0.45436998580529286,
+        "ci95": [
+          -5.0592653441970326,
+          -3.2781349998402844
+        ],
+        "blocks": 1024
+      },
+      "artifact": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/fullhouse-repro/eval/iter_00250_confirmation.json"
+    }
+  },
+  "selection": {
+    "time": "2026-11-07T18:53:15.944878+00:00",
+    "checkpoint": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/fullhouse-repro/runs/main_adv/iter_00210.npz",
+    "checkpoint_sha256": "c476a83f39c4840b54e9599324f6c8b9f43a917d870412bf5325d24193ff57cd",
+    "split": "selection",
+    "score": {
+      "mean": 60.769180244512405,
+      "se": 0.7328581534213652,
+      "ci95": [
+        59.33277826380653,
+        62.20558222521828
+      ]
+    },
+    "difference": {
+      "mean": 1.5796155554239597,
+      "se": 0.8882248950830001,
+      "ci95": [
+        -0.1613052389387204,
+        3.32053634978664
+      ],
+      "blocks": 256
+    },
+    "artifact": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/fullhouse-repro/eval/iter_00210_selection.json"
+  }
+}

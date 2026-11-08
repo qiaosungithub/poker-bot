@@ -1,0 +1,261 @@
+{
+  "profile": "Gecko_NL_6Max_FR_BSS.ohf",
+  "upstream_commit": "5d2bb3afec7922aab1b72aef1b23265ff6ea1b13",
+  "port_commit": "77d5378b3187363181b4e75da4720ceb9afc4ee2",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "cpu_affinity": [
+    8
+  ],
+  "warmup": 4,
+  "by_street": {
+    "preflop": {
+      "wall": {
+        "n": 5,
+        "p50_ms": 737.789024,
+        "p99_ms": 749.584714,
+        "max_ms": 749.584714,
+        "over_1ms": 5,
+        "over_1ms_pct": 100.0
+      },
+      "thread_cpu": {
+        "n": 5,
+        "p50_ms": 737.59938,
+        "p99_ms": 748.9516,
+        "max_ms": 748.9516,
+        "over_1ms": 5,
+        "over_1ms_pct": 100.0
+      }
+    },
+    "flop": {
+      "wall": {
+        "n": 5,
+        "p50_ms": 585.404933,
+        "p99_ms": 607.441203,
+        "max_ms": 607.441203,
+        "over_1ms": 5,
+        "over_1ms_pct": 100.0
+      },
+      "thread_cpu": {
+        "n": 5,
+        "p50_ms": 585.325349,
+        "p99_ms": 607.172139,
+        "max_ms": 607.172139,
+        "over_1ms": 5,
+        "over_1ms_pct": 100.0
+      }
+    },
+    "turn": {
+      "wall": {
+        "n": 5,
+        "p50_ms": 551.404706,
+        "p99_ms": 581.611514,
+        "max_ms": 581.611514,
+        "over_1ms": 5,
+        "over_1ms_pct": 100.0
+      },
+      "thread_cpu": {
+        "n": 5,
+        "p50_ms": 551.21124,
+        "p99_ms": 581.078364,
+        "max_ms": 581.078364,
+        "over_1ms": 5,
+        "over_1ms_pct": 100.0
+      }
+    },
+    "river": {
+      "wall": {
+        "n": 5,
+        "p50_ms": 511.250238,
+        "p99_ms": 547.529297,
+        "max_ms": 547.529297,
+        "over_1ms": 5,
+        "over_1ms_pct": 100.0
+      },
+      "thread_cpu": {
+        "n": 5,
+        "p50_ms": 510.97331,
+        "p99_ms": 547.03664,
+        "max_ms": 547.03664,
+        "over_1ms": 5,
+        "over_1ms_pct": 100.0
+      }
+    }
+  },
+  "all": {
+    "wall": {
+      "n": 20,
+      "p50_ms": 581.611514,
+      "p99_ms": 749.584714,
+      "max_ms": 749.584714,
+      "over_1ms": 20,
+      "over_1ms_pct": 100.0
+    },
+    "thread_cpu": {
+      "n": 20,
+      "p50_ms": 581.078364,
+      "p99_ms": 748.9516,
+      "max_ms": 748.9516,
+      "over_1ms": 20,
+      "over_1ms_pct": 100.0
+    }
+  },
+  "warnings": [],
+  "actions": {
+    "('fold', None)": 13,
+    "('cc', None)": 7,
+    "('raise', 6)": 3,
+    "('raise', 200)": 1
+  },
+  "examples": [
+    {
+      "street": "preflop",
+      "hole": [
+        "3d",
+        "5h"
+      ],
+      "board": [],
+      "pot": 3,
+      "call": 2,
+      "action": [
+        "fold",
+        null
+      ],
+      "reason": "f$preflop, line 1: WHEN Others RETURN Gecko_6Max_FR_NL_BSS_Preflop FORCE (check/fold)"
+    },
+    {
+      "street": "flop",
+      "hole": [
+        "8h",
+        "5c"
+      ],
+      "board": [
+        "4s",
+        "3s",
+        "Kc"
+      ],
+      "pot": 140,
+      "call": 20,
+      "action": [
+        "fold",
+        null
+      ],
+      "reason": "f$flop, line 1: WHEN Others RETURN Gecko_6Max_FR_NL_BSS_Flop FORCE (check/fold)"
+    },
+    {
+      "street": "turn",
+      "hole": [
+        "4d",
+        "6d"
+      ],
+      "board": [
+        "Qc",
+        "Kh",
+        "8s",
+        "2s"
+      ],
+      "pot": 140,
+      "call": 20,
+      "action": [
+        "fold",
+        null
+      ],
+      "reason": "f$turn, line 1: WHEN Others RETURN Gecko_6Max_FR_NL_BSS_Turn FORCE (check/fold)"
+    },
+    {
+      "street": "river",
+      "hole": [
+        "4s",
+        "6s"
+      ],
+      "board": [
+        "Jc",
+        "7s",
+        "Qs",
+        "2d",
+        "Qc"
+      ],
+      "pot": 120,
+      "call": 0,
+      "action": [
+        "cc",
+        null
+      ],
+      "reason": "f$river \u2192 Gecko_6Max_FR_NL_BSS_River, line 4: WHEN f$call_nuts Call FORCE (Call)"
+    },
+    {
+      "street": "preflop",
+      "hole": [
+        "Qh",
+        "9c"
+      ],
+      "board": [],
+      "pot": 3,
+      "call": 2,
+      "action": [
+        "raise",
+        6
+      ],
+      "reason": "f$preflop \u2192 Gecko_6Max_FR_NL_BSS_Preflop \u2192 f$BestBetsize \u2192 f$BetsizePreflop, line 6: WHEN InLatePosition RaiseTo 3 FORCE (raise to 3 bb)"
+    },
+    {
+      "street": "flop",
+      "hole": [
+        "Th",
+        "8c"
+      ],
+      "board": [
+        "7h",
+        "4s",
+        "7d"
+      ],
+      "pot": 140,
+      "call": 20,
+      "action": [
+        "fold",
+        null
+      ],
+      "reason": "f$flop, line 1: WHEN Others RETURN Gecko_6Max_FR_NL_BSS_Flop FORCE (check/fold)"
+    },
+    {
+      "street": "turn",
+      "hole": [
+        "Kd",
+        "8h"
+      ],
+      "board": [
+        "3s",
+        "4d",
+        "Jd",
+        "9d"
+      ],
+      "pot": 120,
+      "call": 0,
+      "action": [
+        "cc",
+        null
+      ],
+      "reason": "f$turn \u2192 Gecko_6Max_FR_NL_BSS_Turn, line 4: WHEN f$call_nuts Call FORCE (Call)"
+    },
+    {
+      "street": "river",
+      "hole": [
+        "3c",
+        "7h"
+      ],
+      "board": [
+        "As",
+        "Jh",
+        "6c",
+        "Js",
+        "2d"
+      ],
+      "pot": 140,
+      "call": 20,
+      "action": [
+        "fold",
+        null
+      ],
+      "reason": "f$river, line 1: WHEN Others RETURN Gecko_6Max_FR_NL_BSS_River FORCE (check/fold)"
+    }
+  ]
+}

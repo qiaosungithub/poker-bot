@@ -1,0 +1,275 @@
+{
+  "source": "https://github.com/advitrocks9/fullhouse-bot",
+  "commit": "e504793d480b1b975f25258d25939b45c6dbd5a4",
+  "cpu_model": "AMD EPYC 7B12",
+  "cpu_affinity": [
+    2
+  ],
+  "numpy": "2.2.6",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "threads": 1,
+  "seed": 19073,
+  "cyclic_gc_enabled": false,
+  "players": 6,
+  "generated_hands": 1097,
+  "unique_states": 10000,
+  "stack_bb_choices": [
+    5,
+    10,
+    20,
+    50,
+    100,
+    200
+  ],
+  "max_action_history": 30,
+  "measurement": "Warm state-dict -> original decide -> action-dict; model loaded before timing; original fallback replaced by raising assertion; policy unchanged",
+  "wall": {
+    "n": 30000,
+    "mean_ms": 0.3435353195333334,
+    "p50_ms": 0.36483,
+    "p95_ms": 0.45169244999999997,
+    "p99_ms": 0.48311159999999975,
+    "p999_ms": 0.5482915300000004,
+    "max_ms": 1.67404,
+    "over_1ms": 10
+  },
+  "thread_cpu": {
+    "n": 30000,
+    "mean_ms": 0.3448624764666666,
+    "p50_ms": 0.3664445,
+    "p95_ms": 0.45269004999999995,
+    "p99_ms": 0.4822405999999999,
+    "p999_ms": 0.5173012310000004,
+    "max_ms": 1.67592,
+    "over_1ms": 10
+  },
+  "runs": [
+    {
+      "n": 10000,
+      "mean_ms": 0.34424773299999994,
+      "p50_ms": 0.36553,
+      "p95_ms": 0.45247199999999993,
+      "p99_ms": 0.48405190000000003,
+      "p999_ms": 0.554819610000002,
+      "max_ms": 1.59658,
+      "over_1ms": 3
+    },
+    {
+      "n": 10000,
+      "mean_ms": 0.34330310210000003,
+      "p50_ms": 0.3648045,
+      "p95_ms": 0.45161294999999996,
+      "p99_ms": 0.4827707,
+      "p999_ms": 0.5327382300000018,
+      "max_ms": 1.57602,
+      "over_1ms": 3
+    },
+    {
+      "n": 10000,
+      "mean_ms": 0.3430551235,
+      "p50_ms": 0.36409,
+      "p95_ms": 0.45071105,
+      "p99_ms": 0.4829250000000001,
+      "p999_ms": 0.5964885100000017,
+      "max_ms": 1.67404,
+      "over_1ms": 4
+    }
+  ],
+  "by_street_wall": {
+    "flop": {
+      "n": 7500,
+      "mean_ms": 0.38347390346666665,
+      "p50_ms": 0.36446449999999997,
+      "p95_ms": 0.45318050000000004,
+      "p99_ms": 0.47650941,
+      "p999_ms": 0.627699860000002,
+      "max_ms": 1.661019,
+      "over_1ms": 4
+    },
+    "turn": {
+      "n": 7500,
+      "mean_ms": 0.3836830797333333,
+      "p50_ms": 0.37015,
+      "p95_ms": 0.46400050000000004,
+      "p99_ms": 0.48923200000000006,
+      "p999_ms": 0.5358842000000009,
+      "max_ms": 1.67404,
+      "over_1ms": 3
+    },
+    "preflop": {
+      "n": 7500,
+      "mean_ms": 0.23102732613333332,
+      "p50_ms": 0.31863549999999996,
+      "p95_ms": 0.3961305,
+      "p99_ms": 0.4178439000000001,
+      "p999_ms": 0.4835210700000012,
+      "max_ms": 0.56843,
+      "over_1ms": 0
+    },
+    "river": {
+      "n": 7500,
+      "mean_ms": 0.3759569688,
+      "p50_ms": 0.36615,
+      "p95_ms": 0.455941,
+      "p99_ms": 0.48981170000000007,
+      "p999_ms": 0.5474916000000004,
+      "max_ms": 1.56996,
+      "over_1ms": 3
+    }
+  },
+  "json_decode_decide_encode_wall": {
+    "n": 10000,
+    "mean_ms": 0.3738324063,
+    "p50_ms": 0.396745,
+    "p95_ms": 0.48405249999999994,
+    "p99_ms": 0.5230628,
+    "p999_ms": 0.6436263300000012,
+    "max_ms": 1.99863,
+    "over_1ms": 4
+  },
+  "fallback_count": 0,
+  "legal_failure_count": 0,
+  "action_counts": {
+    "check": 14733,
+    "raise": 4077,
+    "fold": 9392,
+    "all_in": 1088,
+    "call": 710
+  },
+  "models": {
+    "preflop_equity.npz": {
+      "bytes": 2160,
+      "sha256": "6b3b74778854fcebcd3179753c0252392e5f4118e6b623375c98fafa372863b3",
+      "arrays": {
+        "paired": {
+          "shape": [
+            13
+          ],
+          "dtype": "float32"
+        },
+        "suited": {
+          "shape": [
+            13,
+            13
+          ],
+          "dtype": "float32"
+        },
+        "offsuit": {
+          "shape": [
+            13,
+            13
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    "deep_cfr_model.npz": {
+      "bytes": 590758,
+      "sha256": "1102326b68da95564de147106612df71cb891b42f0726ba0212d3b9a5bcae295",
+      "arrays": {
+        "trunk_w0": {
+          "shape": [
+            256,
+            51
+          ],
+          "dtype": "float32"
+        },
+        "trunk_b0": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln0_g": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln0_b": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_w1": {
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_b1": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln1_g": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "trunk_ln1_b": {
+          "shape": [
+            256
+          ],
+          "dtype": "float32"
+        },
+        "val_w0": {
+          "shape": [
+            128,
+            256
+          ],
+          "dtype": "float32"
+        },
+        "val_b0": {
+          "shape": [
+            128
+          ],
+          "dtype": "float32"
+        },
+        "val_w1": {
+          "shape": [
+            1,
+            128
+          ],
+          "dtype": "float32"
+        },
+        "val_b1": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "adv_w0": {
+          "shape": [
+            128,
+            256
+          ],
+          "dtype": "float32"
+        },
+        "adv_b0": {
+          "shape": [
+            128
+          ],
+          "dtype": "float32"
+        },
+        "adv_w1": {
+          "shape": [
+            5,
+            128
+          ],
+          "dtype": "float32"
+        },
+        "adv_b1": {
+          "shape": [
+            5
+          ],
+          "dtype": "float32"
+        }
+      }
+    }
+  }
+}

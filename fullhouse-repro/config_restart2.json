@@ -1,0 +1,23 @@
+{
+  "backend": "tpu",
+  "n_iterations": 2,
+  "n_traversals": 1000,
+  "buffer_capacity": 10000,
+  "train_steps": 10,
+  "strategy_train_steps": 10,
+  "batch_size": 128,
+  "lr": 0.001,
+  "checkpoint_dir": "runs/restart_check",
+  "checkpoint_every": 1,
+  "device_str": "cpu",
+  "seed": 20261107,
+  "n_workers": 2,
+  "strategy_buffer_capacity": 10000,
+  "opponent_exploration_start": 0.1,
+  "opponent_exploration_end": 0.02,
+  "opponent_exploration_decay_iters": 250,
+  "randomize_stacks": true,
+  "resume": true,
+  "save_resume_buffers": true,
+  "export_advantage_npz": true
+}
