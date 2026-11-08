@@ -20,6 +20,11 @@ infrastructure documentation, and the Fullhouse reproduction report. Consult
   edits are tracked through `fullhouse-repro/training_changes.patch`, not directly.
 - `docs/research/bay-area-2026.md` describes a participant-published Bay Area kit.
   It is not the confirmed Boston variant or evidence of a champion checkpoint.
+- `bay_area/README.md` documents the runnable variant environment. The frozen
+  benchmark is `benchmarks/bay_area_2026-11-08/REPORT.md`: three repository groups,
+  not sixteen independent entrants. Preserve raw records and source commits;
+  use a new output directory for additional experiments. No unique winner was
+  established by the 4,096-table confirmation.
 
 ## Storage
 

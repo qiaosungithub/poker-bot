@@ -1,0 +1,29 @@
+{
+  "rule": "Best screen scorer per source group, then highest mean subject to max four per group. Predeclared in bay_area/PLAN.md.",
+  "screen_raw_sha256": "f79a33e08b850c352724d428292b2479659f072795320128d5010619ef402dc0",
+  "selected": [
+    "nc_gto_final_reference",
+    "james_jamtop3",
+    "nc_codex_gto_refined",
+    "james_jam_tuned",
+    "nc_gto_supplied",
+    "nc_codex_nc_v7_adapted",
+    "den_v7",
+    "james_tree"
+  ],
+  "source_counts": {
+    "nicholas_kevin": 4,
+    "james": 3,
+    "denfujita": 1
+  },
+  "excluded_from_confirmation": [
+    "nc_codex_merge_river_guard",
+    "nc_nc_v9",
+    "nc_nc_v8",
+    "nc_claude_v6",
+    "james_rule_v3",
+    "nc_kevin1",
+    "james_mc_v2",
+    "james_tree_g31"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "candidates": [
+    "nc_gto_supplied",
+    "nc_gto_final_reference",
+    "nc_codex_gto_refined",
+    "nc_codex_nc_v7_adapted",
+    "nc_kevin1",
+    "nc_nc_v9",
+    "nc_nc_v8",
+    "nc_claude_v6",
+    "nc_codex_merge_river_guard",
+    "james_rule_v3",
+    "james_mc_v2",
+    "james_tree",
+    "james_tree_g31",
+    "james_jamtop3",
+    "james_jam_tuned",
+    "den_v7"
+  ],
+  "blocks": 64,
+  "seed": "bay-area-screen-20261108-v1",
+  "clock": true,
+  "hand_cap": 250
+}

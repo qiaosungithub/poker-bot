@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "smoke": {
+      "tables": 8,
+      "independent_blocks": 1,
+      "raw_scores_recomputed": true,
+      "source_hashes_match": true
+    },
+    "screen": {
+      "tables": 1024,
+      "independent_blocks": 64,
+      "raw_scores_recomputed": true,
+      "source_hashes_match": true
+    },
+    "confirmation": {
+      "tables": 4096,
+      "independent_blocks": 512,
+      "raw_scores_recomputed": true,
+      "source_hashes_match": true
+    },
+    "latency": {
+      "samples": 104015,
+      "raw_quantiles_recomputed": true,
+      "source_hashes_match": true
+    }
+  },
+  "clean_pinned_repositories": {
+    "external/bay-area-entry": "e6e68a1aa7c71f78fec17bd7ead813687689fc61",
+    "external/james-nolimit": "c91408d08d9946d33088ea6a6e5e477659c3df6b",
+    "external/denfujita-poker": "fc661ce9f505dd00f23fe656a5a4289fbc964b27"
+  },
+  "negative_hash_controls_passed": true,
+  "local_links_checked": 17,
+  "verdict": "pass"
+}

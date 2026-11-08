@@ -1,0 +1,213 @@
+{
+  "cpu": 32,
+  "blocks": 16,
+  "tables_measured": 128,
+  "warmup_tables": 8,
+  "gc": "disabled",
+  "time_scope": "Unmodified source Agent.act only; PRNG seeding, SDK conversion, IPC and startup excluded.",
+  "rules": "Bay Area defaults; no decision timeouts imposed while collecting timing samples.",
+  "results": {
+    "nc_gto_final_reference": {
+      "samples": 13274,
+      "wall_ms": {
+        "p50": 0.11645549999999999,
+        "p99": 0.17558583000000005,
+        "p999": 0.19375727,
+        "max": 0.25309
+      },
+      "cpu_ms": {
+        "p50": 0.1179305,
+        "p99": 0.17719350000000003,
+        "p999": 0.1952897900000006,
+        "max": 0.25513
+      },
+      "over_1ms": 0,
+      "failures": 0,
+      "phase_counts": {
+        "preflop": 11282,
+        "flop": 692,
+        "turn": 306,
+        "river": 142,
+        "select": 852
+      },
+      "agent_sha256": "c33ce35230d3febfe0ec0ee6dd857e0db4f8ff840c1c559c71fe8c9ed7ede95b"
+    },
+    "james_jamtop3": {
+      "samples": 11429,
+      "wall_ms": {
+        "p50": 0.02185,
+        "p99": 0.032583599999999914,
+        "p999": 0.045430040000000005,
+        "max": 0.06353
+      },
+      "cpu_ms": {
+        "p50": 0.02316,
+        "p99": 0.034737199999999996,
+        "p999": 0.04695864000000002,
+        "max": 0.06535
+      },
+      "over_1ms": 0,
+      "failures": 0,
+      "phase_counts": {
+        "preflop": 10894,
+        "flop": 11,
+        "turn": 1,
+        "river": 1,
+        "select": 522
+      },
+      "agent_sha256": "9a963fdb299bdf1d95b7f8dbcff480aac06030d0dc9aaddc52ef8eb407e6c957"
+    },
+    "nc_codex_gto_refined": {
+      "samples": 13003,
+      "wall_ms": {
+        "p50": 0.1165,
+        "p99": 0.1796196,
+        "p999": 0.19799953999999992,
+        "max": 0.9747
+      },
+      "cpu_ms": {
+        "p50": 0.117971,
+        "p99": 0.18121803999999997,
+        "p999": 0.19977828199999986,
+        "max": 0.97629
+      },
+      "over_1ms": 0,
+      "failures": 0,
+      "phase_counts": {
+        "preflop": 10984,
+        "flop": 696,
+        "turn": 339,
+        "river": 151,
+        "select": 833
+      },
+      "agent_sha256": "f9a1b77abb5ca248c4aa100e432016453acc8107e2e32ae8efe0b5bcc5b40fe1"
+    },
+    "james_jam_tuned": {
+      "samples": 11779,
+      "wall_ms": {
+        "p50": 0.02055,
+        "p99": 0.03162439999999999,
+        "p999": 0.04675551999999996,
+        "max": 0.06601
+      },
+      "cpu_ms": {
+        "p50": 0.021869,
+        "p99": 0.03409319999999996,
+        "p999": 0.048594439999999996,
+        "max": 0.06748
+      },
+      "over_1ms": 0,
+      "failures": 0,
+      "phase_counts": {
+        "preflop": 11194,
+        "flop": 20,
+        "turn": 1,
+        "river": 0,
+        "select": 564
+      },
+      "agent_sha256": "6224175fc5e4d243c31a0f154be91bdb467db9e72e23b75dba04affd91eb3de3"
+    },
+    "nc_gto_supplied": {
+      "samples": 13702,
+      "wall_ms": {
+        "p50": 0.115495,
+        "p99": 0.1738797,
+        "p999": 0.18887136000000054,
+        "max": 0.21052
+      },
+      "cpu_ms": {
+        "p50": 0.117,
+        "p99": 0.17531079,
+        "p999": 0.1905416600000003,
+        "max": 0.21225
+      },
+      "over_1ms": 0,
+      "failures": 0,
+      "phase_counts": {
+        "preflop": 11731,
+        "flop": 654,
+        "turn": 301,
+        "river": 145,
+        "select": 871
+      },
+      "agent_sha256": "1d388d34699a5a93874534b3d61a74f1fffa9376b42ebf2b57edd2f8f01b5e06"
+    },
+    "nc_codex_nc_v7_adapted": {
+      "samples": 15473,
+      "wall_ms": {
+        "p50": 0.11756,
+        "p99": 0.17599520000000005,
+        "p999": 0.19384536000000008,
+        "max": 0.2095
+      },
+      "cpu_ms": {
+        "p50": 0.11904,
+        "p99": 0.17750308,
+        "p999": 0.1952,
+        "max": 0.21119
+      },
+      "over_1ms": 0,
+      "failures": 0,
+      "phase_counts": {
+        "preflop": 12407,
+        "flop": 1072,
+        "turn": 536,
+        "river": 247,
+        "select": 1211
+      },
+      "agent_sha256": "418902a7a99d1da027bcc541d01fc66424ef3e38c9dea11e753d452d8deddb35"
+    },
+    "den_v7": {
+      "samples": 15379,
+      "wall_ms": {
+        "p50": 0.03176,
+        "p99": 0.4705347799999998,
+        "p999": 0.5517803999999981,
+        "max": 0.598949
+      },
+      "cpu_ms": {
+        "p50": 0.03319,
+        "p99": 0.47211779999999964,
+        "p999": 0.5535056199999984,
+        "max": 0.600539
+      },
+      "over_1ms": 0,
+      "failures": 0,
+      "phase_counts": {
+        "preflop": 12658,
+        "flop": 910,
+        "turn": 440,
+        "river": 238,
+        "select": 1133
+      },
+      "agent_sha256": "34044f1d16d19a4968756368286b515de8bc09b802f2c5f3c6634c8438cf22ec"
+    },
+    "james_tree": {
+      "samples": 9976,
+      "wall_ms": {
+        "p50": 0.45482,
+        "p99": 0.49632774999999996,
+        "p999": 0.5152405499999999,
+        "max": 0.53146
+      },
+      "cpu_ms": {
+        "p50": 0.45655,
+        "p99": 0.49814325,
+        "p999": 0.51726405,
+        "max": 0.53296
+      },
+      "over_1ms": 0,
+      "failures": 0,
+      "phase_counts": {
+        "preflop": 6912,
+        "flop": 1089,
+        "turn": 590,
+        "river": 283,
+        "select": 1102
+      },
+      "agent_sha256": "5dfe5fa001d8945cc5bbd75ef2820098fdf77b57d7d486b04a7284d25b5c50cf"
+    }
+  },
+  "elapsed_seconds": 41.73618162004277,
+  "raw_sha256": "e64675790cc86d0fe188f56d1c5067d5b04381a5f2941e45f1c720be9764cbc2"
+}

@@ -1,0 +1,141 @@
+{
+  "candidates": {
+    "nc_gto_supplied": {
+      "path": "external/bay-area-entry/bots/gto_supplied",
+      "source_group": "nicholas_kevin",
+      "repository": "https://github.com/nnicholas-c/poker_sequoia",
+      "commit": "e6e68a1aa7c71f78fec17bd7ead813687689fc61",
+      "identity_note": "Version from one self-identified Bay Area team; not a separate team per folder.",
+      "agent_sha256": "1d388d34699a5a93874534b3d61a74f1fffa9376b42ebf2b57edd2f8f01b5e06"
+    },
+    "nc_gto_final_reference": {
+      "path": "external/bay-area-entry/bots/gto_final_reference",
+      "source_group": "nicholas_kevin",
+      "repository": "https://github.com/nnicholas-c/poker_sequoia",
+      "commit": "e6e68a1aa7c71f78fec17bd7ead813687689fc61",
+      "identity_note": "Version from one self-identified Bay Area team; not a separate team per folder.",
+      "agent_sha256": "c33ce35230d3febfe0ec0ee6dd857e0db4f8ff840c1c559c71fe8c9ed7ede95b"
+    },
+    "nc_codex_gto_refined": {
+      "path": "external/bay-area-entry/bots/codex_gto_refined",
+      "source_group": "nicholas_kevin",
+      "repository": "https://github.com/nnicholas-c/poker_sequoia",
+      "commit": "e6e68a1aa7c71f78fec17bd7ead813687689fc61",
+      "identity_note": "Version from one self-identified Bay Area team; not a separate team per folder.",
+      "agent_sha256": "f9a1b77abb5ca248c4aa100e432016453acc8107e2e32ae8efe0b5bcc5b40fe1"
+    },
+    "nc_codex_nc_v7_adapted": {
+      "path": "external/bay-area-entry/bots/codex_nc_v7_adapted",
+      "source_group": "nicholas_kevin",
+      "repository": "https://github.com/nnicholas-c/poker_sequoia",
+      "commit": "e6e68a1aa7c71f78fec17bd7ead813687689fc61",
+      "identity_note": "Version from one self-identified Bay Area team; not a separate team per folder.",
+      "agent_sha256": "418902a7a99d1da027bcc541d01fc66424ef3e38c9dea11e753d452d8deddb35"
+    },
+    "nc_kevin1": {
+      "path": "external/bay-area-entry/bots/kevin1",
+      "source_group": "nicholas_kevin",
+      "repository": "https://github.com/nnicholas-c/poker_sequoia",
+      "commit": "e6e68a1aa7c71f78fec17bd7ead813687689fc61",
+      "identity_note": "Version from one self-identified Bay Area team; not a separate team per folder.",
+      "agent_sha256": "63a5f114afbc95b4905fb91ab03ffcd4c4ec6703c292642e76fe54956124275a"
+    },
+    "nc_nc_v9": {
+      "path": "external/bay-area-entry/bots/nc_v9",
+      "source_group": "nicholas_kevin",
+      "repository": "https://github.com/nnicholas-c/poker_sequoia",
+      "commit": "e6e68a1aa7c71f78fec17bd7ead813687689fc61",
+      "identity_note": "Version from one self-identified Bay Area team; not a separate team per folder.",
+      "agent_sha256": "0c1b50b6623e27138cafc1e1d318f90217f3dae1f94352d42110cae74b63490a"
+    },
+    "nc_nc_v8": {
+      "path": "external/bay-area-entry/bots/nc_v8",
+      "source_group": "nicholas_kevin",
+      "repository": "https://github.com/nnicholas-c/poker_sequoia",
+      "commit": "e6e68a1aa7c71f78fec17bd7ead813687689fc61",
+      "identity_note": "Version from one self-identified Bay Area team; not a separate team per folder.",
+      "agent_sha256": "b3bc30d9a35f0a3ed7d3730f2f8071d682f1e8694b6465550339ee93f0112c01"
+    },
+    "nc_claude_v6": {
+      "path": "external/bay-area-entry/bots/claude_v6",
+      "source_group": "nicholas_kevin",
+      "repository": "https://github.com/nnicholas-c/poker_sequoia",
+      "commit": "e6e68a1aa7c71f78fec17bd7ead813687689fc61",
+      "identity_note": "Version from one self-identified Bay Area team; not a separate team per folder.",
+      "agent_sha256": "8afacbfca1ee35a5a23033db086272a9882c99d1482a63848444910acc8dcbb5"
+    },
+    "nc_codex_merge_river_guard": {
+      "path": "external/bay-area-entry/bots/codex_merge_river_guard",
+      "source_group": "nicholas_kevin",
+      "repository": "https://github.com/nnicholas-c/poker_sequoia",
+      "commit": "e6e68a1aa7c71f78fec17bd7ead813687689fc61",
+      "identity_note": "Version from one self-identified Bay Area team; not a separate team per folder.",
+      "agent_sha256": "df6580d139d44d292bbf1a90766dcde1be3d8aabee75ec3cdc1b8253dd66ea29"
+    },
+    "james_rule_v3": {
+      "path": "external/james-nolimit/bots/jj_v3",
+      "source_group": "james",
+      "repository": "https://github.com/JamesGongYC/nolimit-pokerbot",
+      "commit": "c91408d08d9946d33088ea6a6e5e477659c3df6b",
+      "identity_note": "Independent public No Limit project with explicit Bay Area bot implementations; official placement unverified.",
+      "agent_sha256": "80caa641ddfb476651bcf2182e18abd327f3bca7e109d7f1a5c91ccc86b81616"
+    },
+    "james_mc_v2": {
+      "path": "external/james-nolimit/bots/jj_v2",
+      "source_group": "james",
+      "repository": "https://github.com/JamesGongYC/nolimit-pokerbot",
+      "commit": "c91408d08d9946d33088ea6a6e5e477659c3df6b",
+      "identity_note": "Independent public No Limit project with explicit Bay Area bot implementations; official placement unverified.",
+      "agent_sha256": "cbfd2756cfcde481cc6b75f54f17f7636a4d4fa014a5efc3e565ae670f2c157b"
+    },
+    "james_tree": {
+      "path": "external/james-nolimit/bots/jj_tree",
+      "source_group": "james",
+      "repository": "https://github.com/JamesGongYC/nolimit-pokerbot",
+      "commit": "c91408d08d9946d33088ea6a6e5e477659c3df6b",
+      "identity_note": "Independent public No Limit project with explicit Bay Area bot implementations; official placement unverified.",
+      "agent_sha256": "5dfe5fa001d8945cc5bbd75ef2820098fdf77b57d7d486b04a7284d25b5c50cf"
+    },
+    "james_tree_g31": {
+      "path": "external/james-nolimit/bots/auto/gbdt_g31_fast",
+      "source_group": "james",
+      "repository": "https://github.com/JamesGongYC/nolimit-pokerbot",
+      "commit": "c91408d08d9946d33088ea6a6e5e477659c3df6b",
+      "identity_note": "Independent public No Limit project with explicit Bay Area bot implementations; official placement unverified.",
+      "agent_sha256": "4336ddc6a0fb14a89a57cdb279c32a70b87d157d57cfa69c6864ff11a2d0bb68"
+    },
+    "james_jamtop3": {
+      "path": "external/james-nolimit/bots/jj_jamtop3_fix2",
+      "source_group": "james",
+      "repository": "https://github.com/JamesGongYC/nolimit-pokerbot",
+      "commit": "c91408d08d9946d33088ea6a6e5e477659c3df6b",
+      "identity_note": "Independent public No Limit project with explicit Bay Area bot implementations; official placement unverified.",
+      "agent_sha256": "9a963fdb299bdf1d95b7f8dbcff480aac06030d0dc9aaddc52ef8eb407e6c957"
+    },
+    "james_jam_tuned": {
+      "path": "external/james-nolimit/bots/jj_jamtop_tuned_live",
+      "source_group": "james",
+      "repository": "https://github.com/JamesGongYC/nolimit-pokerbot",
+      "commit": "c91408d08d9946d33088ea6a6e5e477659c3df6b",
+      "identity_note": "Independent public No Limit project with explicit Bay Area bot implementations; official placement unverified.",
+      "agent_sha256": "6224175fc5e4d243c31a0f154be91bdb467db9e72e23b75dba04affd91eb3de3"
+    },
+    "den_v7": {
+      "path": "external/denfujita-poker",
+      "source_group": "denfujita",
+      "repository": "https://github.com/denfujita/poker",
+      "commit": "fc661ce9f505dd00f23fe656a5a4289fbc964b27",
+      "identity_note": "Bay Area SDK bot; README still says v6, pinned agent/commit implement v7.",
+      "agent_sha256": "34044f1d16d19a4968756368286b515de8bc09b802f2c5f3c6634c8438cf22ec"
+    }
+  },
+  "screened_out_without_play": [
+    "check/fold and minimum-raise SDK examples",
+    "arch_* synthetic archetypes",
+    "nc_jam and Empty Bluffer/Shover prize-targeting variants",
+    "older NC versions superseded by later branches",
+    "gto_upload: byte-identical to gto_supplied",
+    "standard Holdem projects lacking the Bay Area selection phase"
+  ],
+  "source_scope": "Three public repository groups; these are not 16 different entrants. Source/candidate selection is not evidence of event eligibility or placement."
+}

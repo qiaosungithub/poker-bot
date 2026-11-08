@@ -1,0 +1,9 @@
+bot,source_group,mean_points,ci95_low,ci95_high,tables,decisions,failures,failure_rate
+nc_gto_final_reference,nicholas_kevin,28.75,,,8,1018,0,0.0
+nc_nc_v9,nicholas_kevin,27.5,,,8,982,0,0.0
+nc_gto_supplied,nicholas_kevin,17.5,,,8,828,0,0.0
+den_v7,denfujita,7.5,,,8,920,0,0.0
+nc_kevin1,nicholas_kevin,6.25,,,8,429,0,0.0
+james_jamtop3,james,6.25,,,8,698,0,0.0
+james_mc_v2,james,3.75,,,8,610,0,0.0
+james_tree_g31,james,2.5,,,8,468,0,0.0

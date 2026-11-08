@@ -1,0 +1,16 @@
+{
+  "candidates": [
+    "nc_gto_supplied",
+    "nc_gto_final_reference",
+    "nc_kevin1",
+    "nc_nc_v9",
+    "james_mc_v2",
+    "james_tree_g31",
+    "james_jamtop3",
+    "den_v7"
+  ],
+  "blocks": 1,
+  "seed": "bay-area-debug-20261108",
+  "clock": true,
+  "hand_cap": 250
+}

@@ -11,7 +11,7 @@ configuration, result JSON/JSONL, the latency state corpus and raw timings, and
 frozen source archives. The two original files in
 `benchmarks/six_player_2026-11-06/` remain unchanged.
 
-Three existing upstream repositories are pinned submodules. Their histories,
+The three original upstream repositories are pinned submodules. Their histories,
 remotes and working files were preserved:
 
 | Path | Upstream | Pinned commit |
@@ -19,6 +19,18 @@ remotes and working files were preserved:
 | `latency-survey/fullhouse-bot` | `advitrocks9/fullhouse-bot` | `e504793d480b1b975f25258d25939b45c6dbd5a4` |
 | `holdem-ppo` | `JishnuJetwani/HoldemBot` | `0b39291ff8e971041594ce351dd21c263c024f50` |
 | `txnujk-bot` | `txnujk09/fullhouse-poker-bot` | `4fe154318949aa60430682416f148733c6f0d564` |
+
+Three more pinned submodules support the Bay Area environment and benchmark:
+
+| Path | Upstream | Pinned commit |
+|---|---|---|
+| `external/bay-area-entry` | `nnicholas-c/poker_sequoia` | `e6e68a1aa7c71f78fec17bd7ead813687689fc61` |
+| `external/denfujita-poker` | `denfujita/poker` | `fc661ce9f505dd00f23fe656a5a4289fbc964b27` |
+| `external/james-nolimit` | `JamesGongYC/nolimit-pokerbot` | `c91408d08d9946d33088ea6a6e5e477659c3df6b` |
+
+The raw variant benchmark, latency samples and runner snapshot are versioned
+under `benchmarks/bay_area_2026-11-08/`. Its executable setup and source API are
+described in [the environment guide](../bay_area/README.md).
 
 `fullhouse-repro/source/` is an ignored linked worktree of the Fullhouse
 submodule at the same upstream commit. Its intentional `training/train.py`

@@ -1,0 +1,16 @@
+{
+  "candidates": [
+    "nc_gto_final_reference",
+    "james_jamtop3",
+    "nc_codex_gto_refined",
+    "james_jam_tuned",
+    "nc_gto_supplied",
+    "nc_codex_nc_v7_adapted",
+    "den_v7",
+    "james_tree"
+  ],
+  "blocks": 512,
+  "seed": "bay-area-confirmation-20261108-v1",
+  "clock": true,
+  "hand_cap": 250
+}

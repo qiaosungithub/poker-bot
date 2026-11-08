@@ -1,0 +1,612 @@
+{
+  "config": {
+    "candidates": [
+      "nc_gto_supplied",
+      "nc_gto_final_reference",
+      "nc_kevin1",
+      "nc_nc_v9",
+      "james_mc_v2",
+      "james_tree_g31",
+      "james_jamtop3",
+      "den_v7"
+    ],
+    "blocks": 1,
+    "seed": "bay-area-debug-20261108",
+    "clock": true,
+    "hand_cap": 250
+  },
+  "tables": 8,
+  "hands": 1010,
+  "scores": [
+    {
+      "name": "nc_gto_final_reference",
+      "source_group": "nicholas_kevin",
+      "mean_points": 28.75,
+      "ci95": [
+        null,
+        null
+      ],
+      "standard_error": null,
+      "independent_blocks": 1,
+      "tables": 8,
+      "failures": 0,
+      "decisions": 1018,
+      "outright_wins": 3,
+      "positive_points": 6,
+      "seat_3": 1,
+      "hand_cap_tables": 0,
+      "seat_2": 1,
+      "seat_1": 1,
+      "seat_0": 1,
+      "seat_7": 1,
+      "seat_6": 1,
+      "seat_5": 1,
+      "seat_4": 1,
+      "failure_rate": 0.0
+    },
+    {
+      "name": "nc_nc_v9",
+      "source_group": "nicholas_kevin",
+      "mean_points": 27.5,
+      "ci95": [
+        null,
+        null
+      ],
+      "standard_error": null,
+      "independent_blocks": 1,
+      "tables": 8,
+      "failures": 0,
+      "decisions": 982,
+      "outright_wins": 3,
+      "positive_points": 6,
+      "seat_4": 1,
+      "hand_cap_tables": 0,
+      "seat_3": 1,
+      "seat_2": 1,
+      "seat_1": 1,
+      "seat_0": 1,
+      "seat_7": 1,
+      "seat_6": 1,
+      "seat_5": 1,
+      "failure_rate": 0.0
+    },
+    {
+      "name": "nc_gto_supplied",
+      "source_group": "nicholas_kevin",
+      "mean_points": 17.5,
+      "ci95": [
+        null,
+        null
+      ],
+      "standard_error": null,
+      "independent_blocks": 1,
+      "tables": 8,
+      "failures": 0,
+      "decisions": 828,
+      "outright_wins": 1,
+      "positive_points": 4,
+      "seat_5": 1,
+      "hand_cap_tables": 0,
+      "seat_4": 1,
+      "seat_3": 1,
+      "seat_2": 1,
+      "seat_1": 1,
+      "seat_0": 1,
+      "seat_7": 1,
+      "seat_6": 1,
+      "failure_rate": 0.0
+    },
+    {
+      "name": "den_v7",
+      "source_group": "denfujita",
+      "mean_points": 7.5,
+      "ci95": [
+        null,
+        null
+      ],
+      "standard_error": null,
+      "independent_blocks": 1,
+      "tables": 8,
+      "failures": 0,
+      "decisions": 920,
+      "outright_wins": 0,
+      "positive_points": 3,
+      "seat_6": 1,
+      "hand_cap_tables": 0,
+      "seat_5": 1,
+      "seat_4": 1,
+      "seat_3": 1,
+      "seat_2": 1,
+      "seat_1": 1,
+      "seat_0": 1,
+      "seat_7": 1,
+      "failure_rate": 0.0
+    },
+    {
+      "name": "nc_kevin1",
+      "source_group": "nicholas_kevin",
+      "mean_points": 6.25,
+      "ci95": [
+        null,
+        null
+      ],
+      "standard_error": null,
+      "independent_blocks": 1,
+      "tables": 8,
+      "failures": 0,
+      "decisions": 429,
+      "outright_wins": 1,
+      "positive_points": 1,
+      "seat_0": 1,
+      "hand_cap_tables": 0,
+      "seat_7": 1,
+      "seat_6": 1,
+      "seat_5": 1,
+      "seat_4": 1,
+      "seat_3": 1,
+      "seat_2": 1,
+      "seat_1": 1,
+      "failure_rate": 0.0
+    },
+    {
+      "name": "james_jamtop3",
+      "source_group": "james",
+      "mean_points": 6.25,
+      "ci95": [
+        null,
+        null
+      ],
+      "standard_error": null,
+      "independent_blocks": 1,
+      "tables": 8,
+      "failures": 0,
+      "decisions": 698,
+      "outright_wins": 0,
+      "positive_points": 2,
+      "seat_7": 1,
+      "hand_cap_tables": 0,
+      "seat_6": 1,
+      "seat_5": 1,
+      "seat_4": 1,
+      "seat_3": 1,
+      "seat_2": 1,
+      "seat_1": 1,
+      "seat_0": 1,
+      "failure_rate": 0.0
+    },
+    {
+      "name": "james_mc_v2",
+      "source_group": "james",
+      "mean_points": 3.75,
+      "ci95": [
+        null,
+        null
+      ],
+      "standard_error": null,
+      "independent_blocks": 1,
+      "tables": 8,
+      "failures": 0,
+      "decisions": 610,
+      "outright_wins": 0,
+      "positive_points": 1,
+      "seat_1": 1,
+      "hand_cap_tables": 0,
+      "seat_0": 1,
+      "seat_7": 1,
+      "seat_6": 1,
+      "seat_5": 1,
+      "seat_4": 1,
+      "seat_3": 1,
+      "seat_2": 1,
+      "failure_rate": 0.0
+    },
+    {
+      "name": "james_tree_g31",
+      "source_group": "james",
+      "mean_points": 2.5,
+      "ci95": [
+        null,
+        null
+      ],
+      "standard_error": null,
+      "independent_blocks": 1,
+      "tables": 8,
+      "failures": 0,
+      "decisions": 468,
+      "outright_wins": 0,
+      "positive_points": 1,
+      "seat_2": 1,
+      "hand_cap_tables": 0,
+      "seat_1": 1,
+      "seat_0": 1,
+      "seat_7": 1,
+      "seat_6": 1,
+      "seat_5": 1,
+      "seat_4": 1,
+      "seat_3": 1,
+      "failure_rate": 0.0
+    }
+  ],
+  "pairs": [
+    {
+      "a": "nc_gto_final_reference",
+      "b": "nc_nc_v9",
+      "mean_a_minus_b": 1.25,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_gto_final_reference",
+      "b": "nc_gto_supplied",
+      "mean_a_minus_b": 11.25,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_gto_final_reference",
+      "b": "den_v7",
+      "mean_a_minus_b": 21.25,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_gto_final_reference",
+      "b": "nc_kevin1",
+      "mean_a_minus_b": 22.5,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_gto_final_reference",
+      "b": "james_jamtop3",
+      "mean_a_minus_b": 22.5,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_gto_final_reference",
+      "b": "james_mc_v2",
+      "mean_a_minus_b": 25.0,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_gto_final_reference",
+      "b": "james_tree_g31",
+      "mean_a_minus_b": 26.25,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_nc_v9",
+      "b": "nc_gto_supplied",
+      "mean_a_minus_b": 10.0,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_nc_v9",
+      "b": "den_v7",
+      "mean_a_minus_b": 20.0,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_nc_v9",
+      "b": "nc_kevin1",
+      "mean_a_minus_b": 21.25,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_nc_v9",
+      "b": "james_jamtop3",
+      "mean_a_minus_b": 21.25,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_nc_v9",
+      "b": "james_mc_v2",
+      "mean_a_minus_b": 23.75,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_nc_v9",
+      "b": "james_tree_g31",
+      "mean_a_minus_b": 25.0,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_gto_supplied",
+      "b": "den_v7",
+      "mean_a_minus_b": 10.0,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_gto_supplied",
+      "b": "nc_kevin1",
+      "mean_a_minus_b": 11.25,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_gto_supplied",
+      "b": "james_jamtop3",
+      "mean_a_minus_b": 11.25,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_gto_supplied",
+      "b": "james_mc_v2",
+      "mean_a_minus_b": 13.75,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_gto_supplied",
+      "b": "james_tree_g31",
+      "mean_a_minus_b": 15.0,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "den_v7",
+      "b": "nc_kevin1",
+      "mean_a_minus_b": 1.25,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "den_v7",
+      "b": "james_jamtop3",
+      "mean_a_minus_b": 1.25,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "den_v7",
+      "b": "james_mc_v2",
+      "mean_a_minus_b": 3.75,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "den_v7",
+      "b": "james_tree_g31",
+      "mean_a_minus_b": 5.0,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_kevin1",
+      "b": "james_jamtop3",
+      "mean_a_minus_b": 0.0,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_kevin1",
+      "b": "james_mc_v2",
+      "mean_a_minus_b": 2.5,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "nc_kevin1",
+      "b": "james_tree_g31",
+      "mean_a_minus_b": 3.75,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "james_jamtop3",
+      "b": "james_mc_v2",
+      "mean_a_minus_b": 2.5,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "james_jamtop3",
+      "b": "james_tree_g31",
+      "mean_a_minus_b": 3.75,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    },
+    {
+      "a": "james_mc_v2",
+      "b": "james_tree_g31",
+      "mean_a_minus_b": 1.25,
+      "ci95": [
+        null,
+        null
+      ],
+      "simultaneous_ci95": [
+        null,
+        null
+      ]
+    }
+  ],
+  "highest_sample_mean": "nc_gto_final_reference",
+  "not_separated_from_leader": [
+    "nc_nc_v9",
+    "nc_gto_supplied",
+    "den_v7",
+    "nc_kevin1",
+    "james_jamtop3",
+    "james_mc_v2",
+    "james_tree_g31"
+  ],
+  "simultaneous_pair_count": 28,
+  "simultaneous_z": 3.123734630323846,
+  "interval_method": "Normal approximation on independent eight-rotation block means; paired block differences; Bonferroni over every candidate pair.",
+  "all_raw_records_passed_audit": true,
+  "raw_sha256": "644766aecf7a55f850f4b0f99f588f4ffe3356f6c58ae6e0538d5c77c8e737c0",
+  "elapsed_seconds": 5.887139207916334
+}

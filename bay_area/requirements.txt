@@ -1,0 +1,7 @@
+# Minimal research dependencies; not the full competition submission allowlist.
+pokerkit==0.7.6
+eval7==0.1.11
+numpy==2.2.6
+pytest==9.2.0
+hatchling==1.32.4
+editables==0.5

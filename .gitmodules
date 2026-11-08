@@ -7,3 +7,12 @@
 [submodule "txnujk-bot"]
 	path = txnujk-bot
 	url = https://github.com/txnujk09/fullhouse-poker-bot.git
+[submodule "external/bay-area-entry"]
+	path = external/bay-area-entry
+	url = https://github.com/nnicholas-c/poker_sequoia.git
+[submodule "external/denfujita-poker"]
+	path = external/denfujita-poker
+	url = https://github.com/denfujita/poker.git
+[submodule "external/james-nolimit"]
+	path = external/james-nolimit
+	url = https://github.com/JamesGongYC/nolimit-pokerbot.git

@@ -26,6 +26,7 @@ venv/
 *.npz
 # Raw timing measurements are evidence, not model parameters.
 !/fullhouse-repro/latency/**/timings.npz
+!/benchmarks/bay_area_2026-11-08/latency/timings.npz
 
 # Linked worktree: upstream commit + tracked training_changes.patch reconstruct it.
 /fullhouse-repro/source/

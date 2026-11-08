@@ -5,6 +5,12 @@ Research date: **2026-11-08**. The November 6 event is officially listed as
 [official schedule](https://pokerbot.sequoiacap.com/rules.html) distinguishes it
 from Boston on November 9 and the later finals.
 
+Follow-up: the [runnable environment and benchmark](../../bay_area/README.md)
+now integrate three public repositories. `denfujita/poker` supplies another
+Bay Area bot, and inspection of JamesGongYC's `bots/` files confirmed explicit
+Bay Area implementations despite the rehearsal-focused root README. Repository
+groups should not be equated with independently verified regional teams.
+
 ## Strongest public source found
 
 [nnicholas-c/poker_sequoia](https://github.com/nnicholas-c/poker_sequoia)
