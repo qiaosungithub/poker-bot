@@ -66,10 +66,25 @@ server's absolute paths and need adjustment on a different machine.
   governed by those submodules.
 - Generated logs and Python caches.
 
-All these existing files remain on disk. Git is **not** their backup. In
-particular, copying/cloning only this repository does not transfer our selected
+Models, environments and private session files remain on disk. Git is **not**
+their backup. In particular, cloning only this repository does not transfer our selected
 iteration-210 weights. The selected model and released reference are identified
 in [the artifact manifest](research/model-artifacts.json).
 
 The ignored private browser helpers are also server-local. Their absence after
 a clone does not prevent ordinary browser login or the official CLI setup.
+
+## Cleanup on 2026-11-08
+
+Removed 131 ignored files (21,330,982 bytes): regenerable pip download caches,
+project Python/pytest caches, and three logs verified byte-for-byte identical
+to retained records. The canonical records are
+`fullhouse-repro/storage_relocation_validation.json`,
+`fullhouse-repro/results.jsonl` and `hu-benchmark/benchmark_report.json`.
+The server-local path, size, hash and recovery manifest is
+`.runtime/maintenance/cleanup-2026-11-08.json`.
+
+No tracked experiment files were removed or moved. Raw benchmark records,
+frozen source archives, historical validation results, all checkpoints and
+installed environments were retained. The four selected/reference model
+artifacts in the model manifest were hash-checked before and after cleanup.
