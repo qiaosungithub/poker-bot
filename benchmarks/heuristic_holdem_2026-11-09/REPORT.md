@@ -7,8 +7,9 @@ comparison is unchanged.
 
 ## Finding
 
-**TournamentSpecialist is the practical recommendation for this field and ICM
-score.** It had the highest mean score, ran unchanged from upstream, and had no
+**TournamentSpecialist had the highest mean score in this field, but a later
+source review found a correctness defect; do not use it unchanged on the basis
+of this ranking.** It ran unchanged from upstream and had no
 calls over 1 ms in the two final timing tests (30,000 corpus calls plus 14,578
 actual-game calls). Its actual-game P99 was 0.084 ms and maximum 0.455 ms.
 
@@ -177,6 +178,39 @@ TournamentSpecialist had zero measured overruns across the two final tests,
 which provides useful margin but cannot prove an absolute worst-case bound on
 a shared CPU. txnujk-32 and CFR-Lite-32 had measured overruns and should not be
 described as satisfying a strict every-call 1 ms requirement without changes.
+
+## Follow-up source review: November 9
+
+The original practical recommendation was too strong. TournamentSpecialist's
+`_hand_strength` checks the strings `Three of a Kind` and `Four of a Kind`, but
+the measured eval7 environment returns `Trips` and `Quads`. Direct calls to the
+same benchmark loader reproduced these outcomes:
+
+| Hole cards | Board | eval7 type | TournamentSpecialist bucket | Decision |
+|---|---|---|---|---|
+| As Ah | Ks 7d 2c | Pair | strong | call (control) |
+| As Ah | Ac 7d 2s | Trips | overcard | fold |
+| 9s 9h | 9d 9c 2s | Quads | air | fold |
+
+Probe state: two live seats, each with 10,000 chips; acting seat 0, flop,
+pot 1,000, amount owed/current bet 500, own street bet 0, minimum raise-to
+1,000, cannot check, action log containing seat 1's raise to 500. The full
+`Policy('tournament_specialist', 42).act(state)` returned these actions; there
+was no exception/fallback. txnujk-32's hand classifier correctly recognized
+both trips and quads on the same cards.
+
+TournamentSpecialist also puts a board-only two-pair hand into its strong
+bucket: 2s 3h on Ah Ad Ks Kd Qc. txnujk explicitly detects that the hole cards
+do not improve that board. Neither observation establishes the overall effect
+of a repair. No strategy source, frozen selection, or benchmark measurement
+was changed, and no repaired-policy strength result is claimed.
+
+The first policy is a small, coarse rule system. The second has a coherent
+equity/position/opponent-summary structure, but uses uniform random opponent
+hands and many manually set thresholds instead of an action-conditioned hand
+distribution or a unified optimization objective. Neither policy computes ICM
+inside its decision function. Their measured tournament points do not certify
+sound poker reasoning or a generally strong policy.
 
 ## Exact game and statistical protocol
 

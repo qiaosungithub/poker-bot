@@ -32,6 +32,9 @@ infrastructure documentation, and the Fullhouse reproduction report. Consult
   from upstream originals; passing the statistical timing filter does not
   guarantee every call finishes within 1 ms. Scores depend on the six-player
   field and custom ICM payout schedule, not official contest scoring.
+  The report's follow-up review documents a reproduced trips/quads label bug
+  in TournamentSpecialist. No repaired version has been benchmarked; do not
+  repeat the original unqualified practical recommendation.
 
 ## Storage
 

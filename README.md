@@ -48,6 +48,9 @@ locations. [human.md](human.md) and [scoring.md](scoring.md) are short Chinese n
   their difference remains statistically unresolved. TournamentSpecialist had
   actual-game P99 0.084 ms and zero overruns in the two final timing tests.
   Released Fullhouse had the highest mean final chips in that same field.
+  Follow-up source review reproduced a TournamentSpecialist bug that can fold
+  trips/quads because of mismatched evaluator labels. Preserve the measured
+  original as a baseline; the score does not justify using it unchanged.
 
 ## Directory map
 
