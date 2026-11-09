@@ -122,6 +122,33 @@ error < 1e-3), runs the reference and candidate arenas, appends to
 `results.jsonl` and writes `status.json`. A confirmation arena takes about
 100-120 s with 46 workers.
 
+## Tests
+
+Each suite needs the training environment (`PYTHON`, default
+`$HOME/venvs/poker/bin/python`) and the upstream source; new outputs go to
+`.runtime/test-results/`, never into the committed `results/`.
+
+```bash
+tests/fit/run_fit_tests.sh            # fit T1-T6: init, loss/grad vs the fp32 JAX oracle, clip+Adam,
+                                      # reservoir add_batch == upstream, fused step, graph fitter
+python tests/traversal/test_exact.py --n 2000 --net random:0 --forward numba --workers 8 --device cuda:1
+python tests/traversal/test_exact.py --n 2000 --net ../fullhouse-repro/source/data/deep_cfr_model.npz \
+  --forward torch --precision highest --traverser 5 --eps 0.02 --seed 1003 --workers 8 --device cuda:1
+python tests/traversal/test_exact.py ... --negative-control     # must report diverged traversals
+tests/traversal/run_exact_suite.sh    # the full 30k-traversal suites behind reports/traversal_REPORT.md
+tests/traversal/run_stats_suite.sh    # (set ITER4_NPZ to include the partly trained net)
+tests/traversal/run_bench_suite.sh
+FITOPT_BUFFER=trainer/runs/<run>/latest.pt python tests/fit/validate_fit.py adv 3   # full fits vs JAX
+python tests/fit/fitbench.py          # end-to-end fit timing on full-size buffers
+```
+
+`test_exact.py` prints (and with `--json` writes) a verdict; it does not set the
+exit code, so read it: with `--forward numba` `exact_all` must be `true` (every
+sample array bit-identical to the recursive reference, including order), with
+`--forward torch` `n_diverged_traversals` should be 0 and `tolerance_on_aligned`
+gives the float differences; the negative control must show diverged traversals.
+`run_fit_tests.sh` prints `[PASS]`/`[FAIL]` per check.
+
 ## Measured timings (qiaos-4a100-2, 2026-11-08)
 
 Wall-clock seconds. "Process" starts at the creation of the Python process
