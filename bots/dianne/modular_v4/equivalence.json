@@ -1,0 +1,22 @@
+{
+  "tables": 16,
+  "states": 17327,
+  "phase_states": {
+    "preflop": 12844,
+    "auction": 1448,
+    "postflop": 3035
+  },
+  "mismatches": 0,
+  "variant": "flop_auction_holdem",
+  "checks": [
+    "isolated_price_equals_price_v4",
+    "isolated_spend_equals_spend_v3",
+    "three_generated_combinations_match_intended_phase_sources",
+    "native_combination_equals_generated"
+  ],
+  "sources": {
+    "icm_postonly_v4": "2b91a9898ffe191c5d9a163b5b30759ca26b33c4c1c08a9b1c317a2e83f27330",
+    "icm_price_spend_v4": "75ef428846af19b0c42683dcc9b249a05f9341c3a4c0bb6ae299707742f2f0aa",
+    "icm_combined_v4": "16fb4014d3f8c6e40fb8141069b957d06030d0e37a08ccec8a97ec7dc5041773"
+  }
+}

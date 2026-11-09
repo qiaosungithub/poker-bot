@@ -1,0 +1,74 @@
+{
+  "icm_v2": {
+    "mean_points": 15.78125,
+    "tables": 64,
+    "blocks": 8,
+    "block_standard_error": 2.2526955579451284,
+    "failures": 0,
+    "decisions": 9647,
+    "timing": {}
+  },
+  "icm_texture_price_v5": {
+    "mean_points": 15.15625,
+    "tables": 64,
+    "blocks": 8,
+    "block_standard_error": 2.331814849226119,
+    "failures": 0,
+    "decisions": 9402,
+    "timing": {}
+  },
+  "value_heuristic": {
+    "mean_points": 13.59375,
+    "tables": 64,
+    "blocks": 8,
+    "block_standard_error": 2.34375,
+    "failures": 0,
+    "decisions": 7906,
+    "timing": {}
+  },
+  "icm_defend_v6": {
+    "mean_points": 12.65625,
+    "tables": 64,
+    "blocks": 8,
+    "block_standard_error": 1.2597277731716483,
+    "failures": 0,
+    "decisions": 9394,
+    "timing": {}
+  },
+  "opponent_adaptive": {
+    "mean_points": 11.5625,
+    "tables": 64,
+    "blocks": 8,
+    "block_standard_error": 2.5958199571618983,
+    "failures": 0,
+    "decisions": 7155,
+    "timing": {}
+  },
+  "icm_heads_up_v6": {
+    "mean_points": 11.40625,
+    "tables": 64,
+    "blocks": 8,
+    "block_standard_error": 1.7268478069054856,
+    "failures": 0,
+    "decisions": 9155,
+    "timing": {}
+  },
+  "icm_texture_v4": {
+    "mean_points": 10.0,
+    "tables": 64,
+    "blocks": 8,
+    "block_standard_error": 1.1080065755348978,
+    "failures": 0,
+    "decisions": 8531,
+    "timing": {}
+  },
+  "push_fold": {
+    "mean_points": 9.84375,
+    "tables": 64,
+    "blocks": 8,
+    "block_standard_error": 1.8666106961740654,
+    "failures": 0,
+    "decisions": 7515,
+    "timing": {}
+  }
+}

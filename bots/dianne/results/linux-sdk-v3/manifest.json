@@ -1,0 +1,26 @@
+{
+  "started_utc": "2026-11-09T23:55:29.148556+00:00",
+  "variant": "flop_auction_holdem",
+  "seed": "linux-icm-v3-zero-bank",
+  "blocks": 8,
+  "hand_cap": 250,
+  "mode": "sdk",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "decision_ms": 1,
+  "delivery_grace_ms": 2,
+  "time_bank_ms": 0,
+  "sources": {
+    "icm_v2": "73ed48b9128862704c8123b0e9c582ab366c4fa3b84206998874154fc4b17f56",
+    "icm_texture_price_v5": "abc0595874221a0fa95f466fea82370e305765a4762f6843a1896ffec78c01b9",
+    "icm_heads_up_v6": "d4244a57bd3205740aa999a87ce0adb3c40557cf9ce0a04714aec99f5872def2",
+    "icm_defend_v6": "cd06e1dc6fb4d5b7c17b83758051a0c167eefe216cecee7a53ff672f36b5479f",
+    "icm_texture_v4": "b42fa580803d7e9c3ce4a829948ddb85b8c49f79f2dcdeaa4234bb5353d77f91",
+    "push_fold": "f7a8a72fd9b8a46e174b5c17d3d402c358578541c4e89838048ea5ca5b723787",
+    "value_heuristic": "a51294a47d8beb7cb521197f18ccca35c436f6961b75ea326506bc32f3bbe4b5",
+    "opponent_adaptive": "75320dc1328cbdb936fc688546201c43bc5bdcf3c5ac4db139a5fdb92a385be3"
+  },
+  "timing_scope": "SDK host clock",
+  "runner_sha256": "d5f8a97e3505cf4a2abc0560c9d147368c68fc5c31a784c2cfdeb823464f0359",
+  "elapsed_seconds": 31.019577519997256,
+  "tables_sha256": "d14cfbc43077301ee9bbf199443e5dca48f0850c3708534cc3b156de8a777324"
+}

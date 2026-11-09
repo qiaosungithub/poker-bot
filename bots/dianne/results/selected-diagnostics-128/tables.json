@@ -1,0 +1,4651 @@
+[
+  {
+    "block": 0,
+    "rotation": 0,
+    "seat": 1,
+    "points": 30.0,
+    "hands": 132,
+    "eliminated": true,
+    "remaining_flop_chips": 160,
+    "action_counts": {
+      "preflop:fold": 94,
+      "preflop:raise": 21,
+      "preflop:call": 6,
+      "auction:bid": 12,
+      "flop:check": 6,
+      "flop:call": 3,
+      "turn:raise": 2,
+      "turn:call": 1,
+      "turn:check": 4,
+      "river:check": 4,
+      "flop:raise": 5,
+      "flop:fold": 1
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "turn:call": 1,
+      "flop:raise": 2,
+      "flop:call": 1,
+      "preflop:raise": 4
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 0,
+    "rotation": 1,
+    "seat": 0,
+    "points": 0.0,
+    "hands": 188,
+    "eliminated": true,
+    "remaining_flop_chips": 700,
+    "action_counts": {
+      "preflop:fold": 26,
+      "preflop:call": 4,
+      "auction:bid": 5,
+      "flop:check": 5,
+      "turn:call": 3,
+      "river:fold": 2,
+      "preflop:raise": 2,
+      "turn:check": 3,
+      "river:check": 1,
+      "turn:fold": 1,
+      "turn:raise": 1
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "turn:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 0,
+    "rotation": 2,
+    "seat": 7,
+    "points": 0.0,
+    "hands": 180,
+    "eliminated": true,
+    "remaining_flop_chips": 893,
+    "action_counts": {
+      "preflop:fold": 31,
+      "preflop:raise": 4,
+      "auction:bid": 8,
+      "flop:check": 6,
+      "turn:check": 4,
+      "river:check": 3,
+      "preflop:call": 4,
+      "flop:fold": 2,
+      "turn:raise": 3,
+      "river:raise": 1,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "turn:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 0,
+    "rotation": 3,
+    "seat": 6,
+    "points": 30.0,
+    "hands": 159,
+    "eliminated": true,
+    "remaining_flop_chips": 244,
+    "action_counts": {
+      "preflop:fold": 116,
+      "preflop:call": 10,
+      "auction:bid": 18,
+      "flop:check": 9,
+      "flop:fold": 3,
+      "turn:check": 5,
+      "river:check": 4,
+      "preflop:raise": 21,
+      "turn:raise": 6,
+      "flop:raise": 5,
+      "river:raise": 2,
+      "turn:call": 1,
+      "river:fold": 2
+    },
+    "danger_counts": {
+      "turn:raise": 4,
+      "flop:raise": 1,
+      "river:raise": 2,
+      "turn:call": 1,
+      "preflop:call": 2,
+      "preflop:raise": 3
+    },
+    "paid_then_folded": [
+      18
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 0,
+    "rotation": 4,
+    "seat": 5,
+    "points": 0.0,
+    "hands": 192,
+    "eliminated": true,
+    "remaining_flop_chips": 387,
+    "action_counts": {
+      "preflop:fold": 79,
+      "preflop:call": 9,
+      "auction:bid": 15,
+      "flop:raise": 3,
+      "turn:raise": 2,
+      "river:raise": 2,
+      "river:call": 3,
+      "preflop:raise": 11,
+      "flop:call": 3,
+      "turn:call": 1,
+      "river:fold": 2,
+      "flop:check": 7,
+      "turn:check": 6,
+      "river:check": 6,
+      "flop:fold": 1,
+      "turn:fold": 2
+    },
+    "danger_counts": {
+      "river:raise": 1,
+      "river:call": 1,
+      "flop:call": 2,
+      "preflop:call": 1,
+      "flop:raise": 1,
+      "preflop:raise": 1
+    },
+    "paid_then_folded": [
+      11,
+      35
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 0,
+    "rotation": 5,
+    "seat": 4,
+    "points": 50.0,
+    "hands": 118,
+    "eliminated": false,
+    "remaining_flop_chips": 697,
+    "action_counts": {
+      "preflop:fold": 71,
+      "preflop:call": 8,
+      "auction:bid": 12,
+      "preflop:raise": 28,
+      "flop:raise": 3,
+      "turn:raise": 1,
+      "river:raise": 2,
+      "flop:check": 3,
+      "turn:check": 3,
+      "river:check": 2,
+      "flop:fold": 1,
+      "flop:call": 1
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "river:raise": 1,
+      "preflop:raise": 1,
+      "preflop:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 0,
+    "rotation": 6,
+    "seat": 3,
+    "points": 0.0,
+    "hands": 104,
+    "eliminated": true,
+    "remaining_flop_chips": 278,
+    "action_counts": {
+      "preflop:fold": 61,
+      "preflop:raise": 14,
+      "auction:bid": 10,
+      "flop:check": 5,
+      "turn:check": 4,
+      "river:check": 4,
+      "flop:call": 1,
+      "turn:call": 1,
+      "river:fold": 2,
+      "preflop:call": 7,
+      "flop:fold": 2
+    },
+    "danger_counts": {
+      "preflop:call": 2,
+      "preflop:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 0,
+    "rotation": 7,
+    "seat": 2,
+    "points": 50.0,
+    "hands": 180,
+    "eliminated": false,
+    "remaining_flop_chips": 547,
+    "action_counts": {
+      "preflop:raise": 39,
+      "preflop:call": 11,
+      "auction:bid": 15,
+      "flop:check": 10,
+      "turn:raise": 4,
+      "river:raise": 1,
+      "turn:check": 7,
+      "river:check": 6,
+      "preflop:fold": 111,
+      "flop:raise": 3,
+      "flop:call": 1,
+      "turn:fold": 1,
+      "preflop:check": 1,
+      "river:fold": 1
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "turn:raise": 1,
+      "preflop:call": 2,
+      "preflop:raise": 1
+    },
+    "paid_then_folded": [
+      20
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 1,
+    "rotation": 0,
+    "seat": 5,
+    "points": 0.0,
+    "hands": 187,
+    "eliminated": true,
+    "remaining_flop_chips": 904,
+    "action_counts": {
+      "preflop:fold": 27,
+      "preflop:raise": 4,
+      "auction:bid": 4,
+      "flop:check": 3,
+      "turn:check": 3,
+      "turn:call": 1,
+      "river:check": 3,
+      "river:fold": 1,
+      "preflop:call": 2,
+      "flop:raise": 1,
+      "flop:call": 1
+    },
+    "danger_counts": {
+      "flop:call": 1
+    },
+    "paid_then_folded": [
+      45
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 1,
+    "rotation": 1,
+    "seat": 4,
+    "points": 30.0,
+    "hands": 186,
+    "eliminated": true,
+    "remaining_flop_chips": 372,
+    "action_counts": {
+      "preflop:raise": 38,
+      "preflop:fold": 107,
+      "preflop:call": 19,
+      "auction:bid": 28,
+      "flop:raise": 8,
+      "flop:check": 14,
+      "turn:call": 4,
+      "river:check": 7,
+      "turn:check": 9,
+      "turn:raise": 3,
+      "river:raise": 2,
+      "flop:fold": 2,
+      "river:call": 3,
+      "turn:fold": 2,
+      "flop:call": 3
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "river:raise": 1,
+      "turn:raise": 1,
+      "turn:call": 2,
+      "river:call": 1,
+      "preflop:raise": 11,
+      "preflop:call": 1
+    },
+    "paid_then_folded": [
+      27,
+      7
+    ],
+    "cheap_folds_after_raising": [
+      {
+        "hand": 184,
+        "phase": "betting",
+        "cards": [
+          "5s",
+          "Jc"
+        ],
+        "board": [],
+        "pot": 15680,
+        "stack": 320,
+        "bet": 3520,
+        "to_call": 8640,
+        "players_remaining": 2,
+        "big_blind": 1600,
+        "action": {
+          "kind": "fold",
+          "amount": 0,
+          "cards": []
+        },
+        "commit_fraction": 0.0,
+        "legal_actions": [
+          [
+            "fold",
+            0,
+            0
+          ],
+          [
+            "call",
+            0,
+            0
+          ]
+        ],
+        "seats": [
+          [
+            0,
+            0,
+            0,
+            "busted",
+            []
+          ],
+          [
+            1,
+            0,
+            0,
+            "busted",
+            []
+          ],
+          [
+            2,
+            0,
+            0,
+            "busted",
+            []
+          ],
+          [
+            3,
+            0,
+            12160,
+            "all_in",
+            []
+          ],
+          [
+            4,
+            320,
+            3520,
+            "active",
+            []
+          ],
+          [
+            5,
+            0,
+            0,
+            "busted",
+            []
+          ],
+          [
+            6,
+            0,
+            0,
+            "busted",
+            []
+          ],
+          [
+            7,
+            0,
+            0,
+            "busted",
+            []
+          ]
+        ],
+        "auction_cards": [],
+        "flop_chips": 442,
+        "recent_public_events": [
+          [
+            "blind",
+            3,
+            1600,
+            []
+          ],
+          [
+            "blind",
+            4,
+            800,
+            []
+          ],
+          [
+            "raise",
+            4,
+            3520,
+            []
+          ],
+          [
+            "raise",
+            3,
+            12160,
+            []
+          ]
+        ],
+        "contestable_pot_odds": 0.041666666666666664
+      }
+    ],
+    "errors": []
+  },
+  {
+    "block": 1,
+    "rotation": 2,
+    "seat": 3,
+    "points": 50.0,
+    "hands": 205,
+    "eliminated": false,
+    "remaining_flop_chips": 117,
+    "action_counts": {
+      "preflop:fold": 136,
+      "preflop:raise": 43,
+      "preflop:call": 12,
+      "auction:bid": 26,
+      "flop:check": 15,
+      "turn:check": 14,
+      "river:check": 10,
+      "flop:fold": 1,
+      "river:call": 1,
+      "turn:fold": 3,
+      "turn:call": 1,
+      "flop:raise": 3,
+      "flop:call": 4,
+      "preflop:check": 1
+    },
+    "danger_counts": {
+      "flop:raise": 2,
+      "flop:call": 2,
+      "preflop:call": 1,
+      "preflop:raise": 13
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 1,
+    "rotation": 3,
+    "seat": 2,
+    "points": 50.0,
+    "hands": 164,
+    "eliminated": false,
+    "remaining_flop_chips": 609,
+    "action_counts": {
+      "preflop:fold": 117,
+      "preflop:raise": 32,
+      "auction:bid": 15,
+      "flop:raise": 4,
+      "turn:raise": 2,
+      "river:check": 8,
+      "flop:check": 10,
+      "turn:check": 9,
+      "river:raise": 2,
+      "preflop:call": 7,
+      "flop:fold": 3,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "river:raise": 2,
+      "flop:raise": 2,
+      "turn:raise": 1,
+      "river:call": 1
+    },
+    "paid_then_folded": [
+      14
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 1,
+    "rotation": 4,
+    "seat": 1,
+    "points": 30.0,
+    "hands": 219,
+    "eliminated": true,
+    "remaining_flop_chips": 38,
+    "action_counts": {
+      "preflop:fold": 136,
+      "preflop:raise": 47,
+      "auction:bid": 32,
+      "flop:raise": 5,
+      "flop:check": 13,
+      "flop:fold": 5,
+      "turn:raise": 4,
+      "turn:check": 11,
+      "river:check": 12,
+      "preflop:call": 15,
+      "flop:call": 3,
+      "turn:call": 1,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "flop:raise": 3,
+      "turn:call": 1,
+      "preflop:raise": 11,
+      "preflop:call": 1
+    },
+    "paid_then_folded": [
+      15
+    ],
+    "cheap_folds_after_raising": [
+      {
+        "hand": 209,
+        "phase": "betting",
+        "cards": [
+          "Ac",
+          "5h"
+        ],
+        "board": [],
+        "pot": 11288,
+        "stack": 4712,
+        "bet": 5280,
+        "to_call": 728,
+        "players_remaining": 2,
+        "big_blind": 2400,
+        "action": {
+          "kind": "fold",
+          "amount": 0,
+          "cards": []
+        },
+        "commit_fraction": 0.0,
+        "legal_actions": [
+          [
+            "fold",
+            0,
+            0
+          ],
+          [
+            "call",
+            0,
+            0
+          ]
+        ],
+        "seats": [
+          [
+            0,
+            0,
+            0,
+            "busted",
+            []
+          ],
+          [
+            1,
+            4712,
+            5280,
+            "active",
+            []
+          ],
+          [
+            2,
+            0,
+            0,
+            "busted",
+            []
+          ],
+          [
+            3,
+            0,
+            0,
+            "busted",
+            []
+          ],
+          [
+            4,
+            0,
+            6008,
+            "all_in",
+            []
+          ],
+          [
+            5,
+            0,
+            0,
+            "busted",
+            []
+          ],
+          [
+            6,
+            0,
+            0,
+            "busted",
+            []
+          ],
+          [
+            7,
+            0,
+            0,
+            "busted",
+            []
+          ]
+        ],
+        "auction_cards": [],
+        "flop_chips": 131,
+        "recent_public_events": [
+          [
+            "blind",
+            4,
+            2400,
+            []
+          ],
+          [
+            "blind",
+            1,
+            1200,
+            []
+          ],
+          [
+            "raise",
+            1,
+            5280,
+            []
+          ],
+          [
+            "raise",
+            4,
+            6008,
+            []
+          ]
+        ],
+        "contestable_pot_odds": 0.06058588548601864
+      }
+    ],
+    "errors": []
+  },
+  {
+    "block": 1,
+    "rotation": 5,
+    "seat": 0,
+    "points": 20.0,
+    "hands": 190,
+    "eliminated": true,
+    "remaining_flop_chips": 330,
+    "action_counts": {
+      "preflop:fold": 105,
+      "preflop:call": 16,
+      "auction:bid": 23,
+      "flop:check": 14,
+      "turn:check": 9,
+      "river:check": 8,
+      "flop:call": 4,
+      "turn:call": 2,
+      "preflop:raise": 24,
+      "flop:raise": 2,
+      "flop:fold": 5,
+      "turn:raise": 2,
+      "preflop:check": 1
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "flop:call": 3,
+      "turn:raise": 1,
+      "preflop:raise": 7,
+      "preflop:call": 3,
+      "turn:call": 1
+    },
+    "paid_then_folded": [
+      12
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 1,
+    "rotation": 6,
+    "seat": 7,
+    "points": 0.0,
+    "hands": 164,
+    "eliminated": true,
+    "remaining_flop_chips": 624,
+    "action_counts": {
+      "preflop:fold": 44,
+      "preflop:raise": 10,
+      "preflop:call": 5,
+      "auction:bid": 10,
+      "flop:check": 7,
+      "turn:raise": 2,
+      "river:raise": 2,
+      "turn:check": 4,
+      "river:check": 4,
+      "flop:fold": 1,
+      "flop:raise": 2,
+      "flop:call": 1,
+      "turn:call": 1,
+      "river:call": 3
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "river:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 1,
+    "rotation": 7,
+    "seat": 6,
+    "points": 20.0,
+    "hands": 187,
+    "eliminated": true,
+    "remaining_flop_chips": 387,
+    "action_counts": {
+      "preflop:fold": 112,
+      "preflop:raise": 29,
+      "auction:bid": 20,
+      "flop:check": 12,
+      "turn:fold": 1,
+      "flop:fold": 3,
+      "preflop:call": 9,
+      "turn:check": 8,
+      "river:check": 7,
+      "flop:raise": 3,
+      "turn:call": 2,
+      "river:fold": 1,
+      "river:call": 3,
+      "flop:call": 2,
+      "turn:raise": 1
+    },
+    "danger_counts": {
+      "preflop:raise": 8,
+      "preflop:call": 2
+    },
+    "paid_then_folded": [
+      17
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 2,
+    "rotation": 0,
+    "seat": 0,
+    "points": 50.0,
+    "hands": 168,
+    "eliminated": false,
+    "remaining_flop_chips": 551,
+    "action_counts": {
+      "preflop:fold": 107,
+      "preflop:call": 5,
+      "auction:bid": 13,
+      "flop:fold": 1,
+      "preflop:raise": 33,
+      "flop:raise": 3,
+      "flop:check": 4,
+      "turn:call": 3,
+      "river:call": 2,
+      "turn:check": 2,
+      "river:check": 2
+    },
+    "danger_counts": {
+      "river:call": 1,
+      "preflop:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 2,
+    "rotation": 1,
+    "seat": 7,
+    "points": 50.0,
+    "hands": 156,
+    "eliminated": false,
+    "remaining_flop_chips": 510,
+    "action_counts": {
+      "preflop:fold": 96,
+      "preflop:call": 4,
+      "auction:bid": 17,
+      "flop:raise": 6,
+      "flop:call": 3,
+      "preflop:raise": 36,
+      "turn:check": 9,
+      "river:check": 7,
+      "flop:check": 9,
+      "river:raise": 3,
+      "river:call": 1,
+      "turn:raise": 2
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "flop:call": 1,
+      "river:raise": 1,
+      "river:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 2,
+    "rotation": 2,
+    "seat": 6,
+    "points": 50.0,
+    "hands": 198,
+    "eliminated": false,
+    "remaining_flop_chips": 431,
+    "action_counts": {
+      "preflop:raise": 44,
+      "preflop:fold": 120,
+      "preflop:call": 5,
+      "auction:bid": 15,
+      "flop:check": 10,
+      "turn:check": 8,
+      "river:raise": 2,
+      "river:check": 6,
+      "turn:raise": 3,
+      "flop:call": 3,
+      "river:call": 1,
+      "turn:fold": 1
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "preflop:call": 1,
+      "river:raise": 1,
+      "preflop:raise": 11
+    },
+    "paid_then_folded": [
+      20
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 2,
+    "rotation": 3,
+    "seat": 5,
+    "points": 0.0,
+    "hands": 200,
+    "eliminated": true,
+    "remaining_flop_chips": 748,
+    "action_counts": {
+      "preflop:fold": 52,
+      "preflop:call": 4,
+      "auction:bid": 5,
+      "flop:check": 4,
+      "turn:call": 2,
+      "river:check": 2,
+      "turn:check": 2,
+      "river:raise": 1,
+      "preflop:raise": 5,
+      "flop:raise": 1,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "river:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 2,
+    "rotation": 4,
+    "seat": 4,
+    "points": 0.0,
+    "hands": 184,
+    "eliminated": true,
+    "remaining_flop_chips": 775,
+    "action_counts": {
+      "preflop:fold": 36,
+      "preflop:raise": 9,
+      "auction:bid": 9,
+      "flop:check": 6,
+      "flop:fold": 1,
+      "preflop:call": 3,
+      "flop:raise": 3,
+      "turn:raise": 3,
+      "turn:check": 5,
+      "river:check": 4,
+      "turn:call": 1,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "turn:raise": 2,
+      "turn:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 2,
+    "rotation": 5,
+    "seat": 3,
+    "points": 0.0,
+    "hands": 160,
+    "eliminated": true,
+    "remaining_flop_chips": 1000,
+    "action_counts": {
+      "preflop:fold": 10,
+      "preflop:raise": 1,
+      "auction:bid": 2,
+      "flop:call": 1,
+      "turn:call": 1
+    },
+    "danger_counts": {
+      "turn:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 2,
+    "rotation": 6,
+    "seat": 2,
+    "points": 0.0,
+    "hands": 190,
+    "eliminated": true,
+    "remaining_flop_chips": 673,
+    "action_counts": {
+      "preflop:fold": 33,
+      "preflop:raise": 4,
+      "auction:bid": 11,
+      "flop:check": 7,
+      "turn:check": 8,
+      "river:check": 6,
+      "preflop:call": 8,
+      "flop:fold": 1,
+      "flop:call": 3,
+      "turn:call": 2,
+      "river:fold": 1,
+      "flop:raise": 3,
+      "river:call": 1,
+      "river:raise": 1
+    },
+    "danger_counts": {
+      "river:raise": 1,
+      "flop:raise": 1,
+      "flop:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 2,
+    "rotation": 7,
+    "seat": 1,
+    "points": 0.0,
+    "hands": 183,
+    "eliminated": true,
+    "remaining_flop_chips": 843,
+    "action_counts": {
+      "preflop:fold": 8,
+      "preflop:call": 2,
+      "auction:bid": 3,
+      "flop:check": 1,
+      "turn:check": 1,
+      "river:check": 1,
+      "preflop:raise": 1,
+      "flop:call": 1
+    },
+    "danger_counts": {
+      "flop:call": 1,
+      "preflop:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 3,
+    "rotation": 0,
+    "seat": 7,
+    "points": 0.0,
+    "hands": 140,
+    "eliminated": true,
+    "remaining_flop_chips": 639,
+    "action_counts": {
+      "preflop:fold": 57,
+      "preflop:call": 12,
+      "auction:bid": 15,
+      "flop:call": 3,
+      "turn:call": 3,
+      "river:call": 3,
+      "preflop:raise": 15,
+      "flop:check": 9,
+      "turn:check": 9,
+      "river:check": 7,
+      "flop:fold": 1,
+      "flop:raise": 3,
+      "river:fold": 1,
+      "river:raise": 1,
+      "turn:raise": 1
+    },
+    "danger_counts": {
+      "preflop:raise": 1,
+      "flop:raise": 2,
+      "turn:raise": 1,
+      "flop:call": 1
+    },
+    "paid_then_folded": [
+      94,
+      25
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 3,
+    "rotation": 1,
+    "seat": 6,
+    "points": 20.0,
+    "hands": 206,
+    "eliminated": true,
+    "remaining_flop_chips": 455,
+    "action_counts": {
+      "preflop:fold": 108,
+      "preflop:call": 5,
+      "auction:bid": 13,
+      "flop:check": 7,
+      "turn:fold": 1,
+      "preflop:raise": 25,
+      "turn:check": 6,
+      "river:fold": 1,
+      "river:check": 4,
+      "river:raise": 2,
+      "flop:raise": 1,
+      "turn:raise": 2,
+      "flop:call": 1,
+      "flop:fold": 1
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "river:raise": 1,
+      "preflop:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 3,
+    "rotation": 2,
+    "seat": 5,
+    "points": 0.0,
+    "hands": 167,
+    "eliminated": true,
+    "remaining_flop_chips": 448,
+    "action_counts": {
+      "preflop:fold": 86,
+      "preflop:raise": 25,
+      "preflop:call": 8,
+      "auction:bid": 15,
+      "flop:check": 9,
+      "turn:check": 8,
+      "river:check": 8,
+      "river:call": 1,
+      "flop:fold": 3,
+      "flop:call": 2,
+      "turn:call": 1,
+      "river:fold": 1,
+      "flop:raise": 2,
+      "turn:raise": 1
+    },
+    "danger_counts": {
+      "preflop:raise": 2,
+      "flop:raise": 1
+    },
+    "paid_then_folded": [
+      44
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 3,
+    "rotation": 3,
+    "seat": 4,
+    "points": 0.0,
+    "hands": 174,
+    "eliminated": true,
+    "remaining_flop_chips": 968,
+    "action_counts": {
+      "preflop:fold": 2,
+      "preflop:raise": 1,
+      "auction:bid": 1,
+      "flop:raise": 2,
+      "flop:call": 1
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "flop:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 3,
+    "rotation": 4,
+    "seat": 3,
+    "points": 50.0,
+    "hands": 148,
+    "eliminated": false,
+    "remaining_flop_chips": 779,
+    "action_counts": {
+      "preflop:fold": 76,
+      "preflop:raise": 42,
+      "auction:bid": 11,
+      "flop:check": 5,
+      "turn:check": 5,
+      "river:fold": 1,
+      "preflop:call": 3,
+      "river:check": 4,
+      "turn:raise": 2,
+      "river:raise": 3,
+      "river:call": 1,
+      "flop:raise": 4,
+      "flop:call": 1,
+      "flop:fold": 2
+    },
+    "danger_counts": {
+      "river:raise": 1,
+      "river:call": 1,
+      "flop:raise": 1,
+      "flop:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 3,
+    "rotation": 5,
+    "seat": 2,
+    "points": 50.0,
+    "hands": 155,
+    "eliminated": false,
+    "remaining_flop_chips": 426,
+    "action_counts": {
+      "preflop:raise": 38,
+      "preflop:fold": 103,
+      "auction:bid": 15,
+      "flop:raise": 4,
+      "flop:check": 9,
+      "turn:check": 9,
+      "river:raise": 3,
+      "river:check": 6,
+      "preflop:call": 5,
+      "flop:call": 2,
+      "flop:fold": 2,
+      "turn:fold": 1,
+      "turn:raise": 1
+    },
+    "danger_counts": {
+      "flop:raise": 2,
+      "flop:call": 1,
+      "preflop:raise": 4,
+      "river:raise": 2,
+      "turn:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 3,
+    "rotation": 6,
+    "seat": 1,
+    "points": 50.0,
+    "hands": 183,
+    "eliminated": false,
+    "remaining_flop_chips": 127,
+    "action_counts": {
+      "preflop:fold": 123,
+      "preflop:raise": 33,
+      "auction:bid": 14,
+      "flop:raise": 4,
+      "preflop:call": 10,
+      "flop:check": 8,
+      "turn:check": 7,
+      "river:check": 7,
+      "turn:raise": 1,
+      "flop:fold": 1,
+      "turn:call": 1,
+      "river:fold": 1
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "turn:call": 1,
+      "preflop:raise": 14,
+      "preflop:call": 4,
+      "flop:raise": 2
+    },
+    "paid_then_folded": [
+      141
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 3,
+    "rotation": 7,
+    "seat": 0,
+    "points": 30.0,
+    "hands": 154,
+    "eliminated": true,
+    "remaining_flop_chips": 490,
+    "action_counts": {
+      "preflop:fold": 95,
+      "preflop:call": 11,
+      "auction:bid": 16,
+      "flop:raise": 6,
+      "flop:fold": 3,
+      "flop:check": 8,
+      "turn:check": 7,
+      "river:check": 6,
+      "preflop:raise": 34,
+      "flop:call": 2,
+      "turn:call": 1,
+      "river:call": 2,
+      "river:fold": 1,
+      "turn:raise": 1
+    },
+    "danger_counts": {
+      "flop:raise": 4,
+      "preflop:call": 1,
+      "flop:call": 1
+    },
+    "paid_then_folded": [
+      37
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 4,
+    "rotation": 0,
+    "seat": 7,
+    "points": 0.0,
+    "hands": 139,
+    "eliminated": true,
+    "remaining_flop_chips": 177,
+    "action_counts": {
+      "preflop:fold": 81,
+      "preflop:check": 1,
+      "auction:bid": 15,
+      "preflop:raise": 15,
+      "flop:check": 5,
+      "turn:check": 6,
+      "river:raise": 2,
+      "turn:fold": 1,
+      "preflop:call": 7,
+      "flop:call": 2,
+      "river:check": 3,
+      "flop:raise": 3,
+      "flop:fold": 2
+    },
+    "danger_counts": {
+      "flop:raise": 2,
+      "flop:call": 1,
+      "preflop:raise": 2,
+      "preflop:call": 2,
+      "river:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 4,
+    "rotation": 1,
+    "seat": 6,
+    "points": 50.0,
+    "hands": 183,
+    "eliminated": false,
+    "remaining_flop_chips": 350,
+    "action_counts": {
+      "preflop:fold": 136,
+      "preflop:raise": 26,
+      "auction:bid": 15,
+      "flop:raise": 5,
+      "turn:raise": 1,
+      "river:raise": 1,
+      "flop:check": 3,
+      "turn:check": 3,
+      "river:check": 3,
+      "flop:call": 3,
+      "turn:call": 1,
+      "river:fold": 1,
+      "preflop:call": 7
+    },
+    "danger_counts": {
+      "river:raise": 1,
+      "flop:raise": 2,
+      "preflop:raise": 7,
+      "preflop:call": 3
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 4,
+    "rotation": 2,
+    "seat": 5,
+    "points": 0.0,
+    "hands": 185,
+    "eliminated": true,
+    "remaining_flop_chips": 502,
+    "action_counts": {
+      "preflop:fold": 88,
+      "preflop:raise": 14,
+      "preflop:call": 3,
+      "auction:bid": 8,
+      "flop:check": 3,
+      "turn:check": 1,
+      "river:call": 2,
+      "flop:call": 1,
+      "turn:call": 1,
+      "flop:fold": 2,
+      "turn:raise": 1
+    },
+    "danger_counts": {
+      "preflop:raise": 3,
+      "turn:raise": 1,
+      "preflop:call": 1
+    },
+    "paid_then_folded": [
+      17
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 4,
+    "rotation": 3,
+    "seat": 4,
+    "points": 30.0,
+    "hands": 162,
+    "eliminated": true,
+    "remaining_flop_chips": 182,
+    "action_counts": {
+      "preflop:raise": 27,
+      "preflop:fold": 105,
+      "preflop:call": 11,
+      "auction:bid": 19,
+      "flop:check": 13,
+      "turn:check": 12,
+      "river:check": 11,
+      "flop:raise": 4,
+      "flop:call": 3,
+      "flop:fold": 2,
+      "turn:raise": 1,
+      "river:raise": 1,
+      "turn:fold": 1
+    },
+    "danger_counts": {
+      "flop:raise": 3,
+      "flop:call": 2,
+      "river:raise": 1,
+      "preflop:raise": 9,
+      "preflop:call": 1
+    },
+    "paid_then_folded": [
+      17
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 4,
+    "rotation": 4,
+    "seat": 3,
+    "points": 0.0,
+    "hands": 178,
+    "eliminated": true,
+    "remaining_flop_chips": 912,
+    "action_counts": {
+      "preflop:fold": 49,
+      "preflop:call": 6,
+      "auction:bid": 9,
+      "flop:check": 7,
+      "turn:check": 6,
+      "river:check": 5,
+      "flop:fold": 1,
+      "preflop:raise": 4,
+      "flop:call": 2,
+      "turn:call": 1,
+      "river:call": 1,
+      "turn:fold": 1,
+      "flop:raise": 1
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "flop:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 4,
+    "rotation": 5,
+    "seat": 2,
+    "points": 0.0,
+    "hands": 181,
+    "eliminated": true,
+    "remaining_flop_chips": 520,
+    "action_counts": {
+      "preflop:fold": 79,
+      "preflop:call": 9,
+      "auction:bid": 11,
+      "flop:fold": 2,
+      "preflop:raise": 16,
+      "flop:check": 5,
+      "turn:raise": 1,
+      "flop:raise": 5,
+      "flop:call": 3,
+      "turn:call": 1,
+      "river:fold": 1,
+      "turn:check": 2,
+      "river:call": 1,
+      "river:check": 1
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "preflop:call": 1,
+      "flop:call": 1
+    },
+    "paid_then_folded": [
+      19,
+      18
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 4,
+    "rotation": 6,
+    "seat": 1,
+    "points": 0.0,
+    "hands": 150,
+    "eliminated": true,
+    "remaining_flop_chips": 904,
+    "action_counts": {
+      "preflop:fold": 70,
+      "preflop:raise": 11,
+      "preflop:call": 4,
+      "auction:bid": 7,
+      "flop:raise": 1,
+      "flop:fold": 1,
+      "flop:check": 1,
+      "turn:check": 1,
+      "river:check": 1,
+      "flop:call": 1,
+      "turn:call": 1,
+      "river:fold": 1
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "preflop:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 4,
+    "rotation": 7,
+    "seat": 0,
+    "points": 0.0,
+    "hands": 154,
+    "eliminated": true,
+    "remaining_flop_chips": 866,
+    "action_counts": {
+      "preflop:fold": 58,
+      "preflop:raise": 6,
+      "auction:bid": 6,
+      "flop:check": 4,
+      "turn:check": 4,
+      "river:check": 1,
+      "preflop:call": 2,
+      "flop:call": 1,
+      "turn:call": 1,
+      "river:call": 3,
+      "river:fold": 1,
+      "river:raise": 1,
+      "flop:raise": 1
+    },
+    "danger_counts": {
+      "river:raise": 1,
+      "river:call": 2
+    },
+    "paid_then_folded": [
+      48
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 5,
+    "rotation": 0,
+    "seat": 1,
+    "points": 0.0,
+    "hands": 170,
+    "eliminated": true,
+    "remaining_flop_chips": 109,
+    "action_counts": {
+      "preflop:raise": 13,
+      "preflop:fold": 98,
+      "preflop:call": 12,
+      "auction:bid": 17,
+      "flop:check": 12,
+      "turn:check": 8,
+      "river:check": 8,
+      "flop:fold": 3,
+      "turn:raise": 3,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "preflop:call": 1,
+      "preflop:raise": 2,
+      "river:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 5,
+    "rotation": 1,
+    "seat": 0,
+    "points": 0.0,
+    "hands": 145,
+    "eliminated": true,
+    "remaining_flop_chips": 870,
+    "action_counts": {
+      "preflop:fold": 9,
+      "preflop:call": 1,
+      "auction:bid": 3,
+      "flop:check": 1,
+      "turn:check": 1,
+      "river:check": 1,
+      "preflop:raise": 3,
+      "flop:raise": 1,
+      "turn:raise": 2
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "preflop:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 5,
+    "rotation": 2,
+    "seat": 7,
+    "points": 20.0,
+    "hands": 119,
+    "eliminated": true,
+    "remaining_flop_chips": 400,
+    "action_counts": {
+      "preflop:fold": 75,
+      "preflop:call": 5,
+      "auction:bid": 14,
+      "flop:check": 8,
+      "turn:raise": 3,
+      "flop:raise": 2,
+      "river:raise": 2,
+      "preflop:raise": 20,
+      "turn:call": 3,
+      "river:call": 2,
+      "flop:call": 3,
+      "turn:check": 6,
+      "river:check": 6,
+      "flop:fold": 2,
+      "turn:fold": 1
+    },
+    "danger_counts": {
+      "river:raise": 2,
+      "preflop:raise": 1,
+      "flop:raise": 1
+    },
+    "paid_then_folded": [
+      19,
+      10
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 5,
+    "rotation": 3,
+    "seat": 6,
+    "points": 50.0,
+    "hands": 162,
+    "eliminated": false,
+    "remaining_flop_chips": 278,
+    "action_counts": {
+      "preflop:fold": 105,
+      "preflop:raise": 40,
+      "auction:bid": 16,
+      "flop:check": 7,
+      "turn:check": 5,
+      "river:check": 5,
+      "preflop:call": 7,
+      "turn:fold": 1,
+      "flop:raise": 2,
+      "turn:raise": 1,
+      "flop:fold": 1
+    },
+    "danger_counts": {
+      "flop:raise": 2
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 5,
+    "rotation": 4,
+    "seat": 5,
+    "points": 30.0,
+    "hands": 119,
+    "eliminated": true,
+    "remaining_flop_chips": 388,
+    "action_counts": {
+      "preflop:fold": 85,
+      "preflop:call": 12,
+      "auction:bid": 17,
+      "flop:check": 13,
+      "turn:check": 11,
+      "turn:fold": 1,
+      "preflop:raise": 16,
+      "river:check": 9,
+      "river:raise": 3,
+      "flop:call": 2,
+      "turn:call": 3,
+      "river:call": 2,
+      "flop:fold": 1,
+      "turn:raise": 1,
+      "flop:raise": 2
+    },
+    "danger_counts": {
+      "river:raise": 1,
+      "turn:call": 1,
+      "river:call": 1,
+      "flop:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 5,
+    "rotation": 5,
+    "seat": 4,
+    "points": 50.0,
+    "hands": 119,
+    "eliminated": false,
+    "remaining_flop_chips": 486,
+    "action_counts": {
+      "preflop:fold": 84,
+      "preflop:call": 10,
+      "auction:bid": 15,
+      "flop:check": 8,
+      "turn:check": 6,
+      "river:check": 6,
+      "preflop:raise": 20,
+      "flop:raise": 3,
+      "turn:raise": 5,
+      "river:raise": 4,
+      "flop:call": 2,
+      "turn:call": 1,
+      "flop:fold": 1
+    },
+    "danger_counts": {
+      "river:raise": 2,
+      "flop:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 5,
+    "rotation": 6,
+    "seat": 3,
+    "points": 0.0,
+    "hands": 119,
+    "eliminated": true,
+    "remaining_flop_chips": 1000,
+    "action_counts": {
+      "preflop:fold": 5,
+      "preflop:raise": 1,
+      "auction:bid": 1,
+      "flop:call": 1,
+      "turn:call": 1,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "river:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 5,
+    "rotation": 7,
+    "seat": 2,
+    "points": 30.0,
+    "hands": 142,
+    "eliminated": true,
+    "remaining_flop_chips": 179,
+    "action_counts": {
+      "preflop:fold": 102,
+      "preflop:call": 8,
+      "auction:bid": 19,
+      "flop:check": 11,
+      "turn:check": 5,
+      "river:check": 5,
+      "preflop:raise": 22,
+      "turn:raise": 1,
+      "river:raise": 1,
+      "flop:call": 2,
+      "turn:call": 1,
+      "river:call": 1,
+      "flop:fold": 6,
+      "flop:raise": 2,
+      "turn:fold": 1
+    },
+    "danger_counts": {
+      "river:raise": 1,
+      "flop:raise": 2,
+      "flop:call": 1,
+      "preflop:raise": 13,
+      "preflop:call": 4
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 6,
+    "rotation": 0,
+    "seat": 5,
+    "points": 0.0,
+    "hands": 188,
+    "eliminated": true,
+    "remaining_flop_chips": 868,
+    "action_counts": {
+      "preflop:raise": 3,
+      "preflop:fold": 13,
+      "preflop:call": 3,
+      "auction:bid": 4,
+      "flop:check": 4,
+      "turn:check": 2,
+      "river:check": 2,
+      "flop:fold": 1,
+      "flop:call": 1
+    },
+    "danger_counts": {
+      "flop:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 6,
+    "rotation": 1,
+    "seat": 4,
+    "points": 0.0,
+    "hands": 167,
+    "eliminated": true,
+    "remaining_flop_chips": 420,
+    "action_counts": {
+      "preflop:fold": 98,
+      "preflop:call": 7,
+      "auction:bid": 10,
+      "flop:check": 6,
+      "turn:check": 5,
+      "river:check": 5,
+      "preflop:raise": 13,
+      "flop:raise": 2,
+      "river:call": 1,
+      "turn:fold": 1,
+      "flop:fold": 1,
+      "turn:raise": 1
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "preflop:raise": 7,
+      "turn:raise": 1,
+      "preflop:call": 2
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 6,
+    "rotation": 2,
+    "seat": 3,
+    "points": 0.0,
+    "hands": 143,
+    "eliminated": true,
+    "remaining_flop_chips": 248,
+    "action_counts": {
+      "preflop:fold": 104,
+      "preflop:raise": 16,
+      "auction:bid": 10,
+      "flop:check": 5,
+      "turn:raise": 1,
+      "turn:call": 3,
+      "preflop:call": 4,
+      "flop:call": 3,
+      "turn:check": 3,
+      "river:check": 3,
+      "flop:fold": 3,
+      "river:fold": 1,
+      "flop:raise": 1
+    },
+    "danger_counts": {
+      "turn:call": 1,
+      "preflop:raise": 2
+    },
+    "paid_then_folded": [
+      30,
+      111
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 6,
+    "rotation": 3,
+    "seat": 2,
+    "points": 0.0,
+    "hands": 184,
+    "eliminated": true,
+    "remaining_flop_chips": 494,
+    "action_counts": {
+      "preflop:fold": 104,
+      "preflop:raise": 12,
+      "auction:bid": 12,
+      "flop:check": 6,
+      "turn:call": 2,
+      "river:call": 3,
+      "flop:call": 1,
+      "turn:check": 3,
+      "preflop:call": 8,
+      "river:check": 2,
+      "flop:fold": 3,
+      "flop:raise": 2
+    },
+    "danger_counts": {
+      "preflop:raise": 4,
+      "preflop:call": 4,
+      "flop:raise": 2
+    },
+    "paid_then_folded": [
+      27
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 6,
+    "rotation": 4,
+    "seat": 1,
+    "points": 20.0,
+    "hands": 164,
+    "eliminated": true,
+    "remaining_flop_chips": 242,
+    "action_counts": {
+      "preflop:fold": 100,
+      "preflop:raise": 16,
+      "auction:bid": 15,
+      "flop:check": 12,
+      "turn:check": 10,
+      "river:check": 7,
+      "preflop:call": 9,
+      "flop:call": 4,
+      "turn:call": 4,
+      "river:raise": 3,
+      "turn:raise": 2,
+      "flop:raise": 1,
+      "river:fold": 1,
+      "turn:fold": 1,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "river:raise": 1,
+      "turn:call": 1,
+      "preflop:call": 3,
+      "river:call": 1,
+      "preflop:raise": 4
+    },
+    "paid_then_folded": [
+      30
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 6,
+    "rotation": 5,
+    "seat": 0,
+    "points": 0.0,
+    "hands": 135,
+    "eliminated": true,
+    "remaining_flop_chips": 314,
+    "action_counts": {
+      "preflop:fold": 78,
+      "preflop:raise": 8,
+      "preflop:call": 11,
+      "auction:bid": 14,
+      "flop:fold": 4,
+      "flop:check": 8,
+      "turn:check": 7,
+      "river:call": 3,
+      "flop:raise": 2,
+      "river:check": 3,
+      "river:fold": 1,
+      "river:raise": 2
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "river:raise": 2,
+      "preflop:call": 3,
+      "preflop:raise": 2,
+      "river:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 6,
+    "rotation": 6,
+    "seat": 7,
+    "points": 0.0,
+    "hands": 207,
+    "eliminated": true,
+    "remaining_flop_chips": 607,
+    "action_counts": {
+      "preflop:call": 5,
+      "auction:bid": 6,
+      "flop:raise": 3,
+      "turn:check": 4,
+      "river:raise": 2,
+      "preflop:fold": 60,
+      "preflop:raise": 7,
+      "flop:check": 3,
+      "river:check": 2,
+      "flop:call": 1,
+      "turn:fold": 1,
+      "turn:raise": 1,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "river:raise": 2,
+      "river:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 6,
+    "rotation": 7,
+    "seat": 6,
+    "points": 20.0,
+    "hands": 135,
+    "eliminated": true,
+    "remaining_flop_chips": 314,
+    "action_counts": {
+      "preflop:fold": 93,
+      "preflop:call": 10,
+      "auction:bid": 19,
+      "flop:check": 11,
+      "turn:raise": 4,
+      "preflop:raise": 28,
+      "turn:check": 8,
+      "river:check": 8,
+      "flop:raise": 4,
+      "flop:fold": 3,
+      "river:raise": 2,
+      "flop:call": 2
+    },
+    "danger_counts": {
+      "preflop:raise": 1,
+      "preflop:call": 1,
+      "flop:raise": 2,
+      "river:raise": 2,
+      "turn:raise": 1,
+      "flop:call": 1
+    },
+    "paid_then_folded": [
+      19
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 7,
+    "rotation": 0,
+    "seat": 3,
+    "points": 20.0,
+    "hands": 185,
+    "eliminated": true,
+    "remaining_flop_chips": 174,
+    "action_counts": {
+      "preflop:raise": 16,
+      "auction:bid": 17,
+      "flop:check": 7,
+      "flop:call": 2,
+      "turn:check": 6,
+      "turn:call": 3,
+      "river:raise": 2,
+      "preflop:call": 10,
+      "flop:raise": 4,
+      "preflop:fold": 107,
+      "flop:fold": 2,
+      "river:call": 4,
+      "river:check": 2
+    },
+    "danger_counts": {
+      "flop:raise": 2,
+      "river:call": 1,
+      "preflop:call": 3,
+      "river:raise": 1,
+      "preflop:raise": 2
+    },
+    "paid_then_folded": [
+      10
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 7,
+    "rotation": 1,
+    "seat": 2,
+    "points": 0.0,
+    "hands": 170,
+    "eliminated": true,
+    "remaining_flop_chips": 432,
+    "action_counts": {
+      "preflop:fold": 62,
+      "preflop:raise": 9,
+      "auction:bid": 11,
+      "flop:check": 6,
+      "turn:check": 4,
+      "river:check": 2,
+      "preflop:call": 6,
+      "flop:fold": 4,
+      "river:call": 1,
+      "turn:fold": 2,
+      "flop:call": 1,
+      "turn:call": 1
+    },
+    "danger_counts": {
+      "preflop:raise": 4,
+      "flop:call": 1,
+      "turn:call": 1
+    },
+    "paid_then_folded": [
+      29,
+      49,
+      64,
+      60
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 7,
+    "rotation": 2,
+    "seat": 1,
+    "points": 50.0,
+    "hands": 172,
+    "eliminated": false,
+    "remaining_flop_chips": 558,
+    "action_counts": {
+      "preflop:fold": 119,
+      "preflop:raise": 28,
+      "auction:bid": 12,
+      "flop:raise": 3,
+      "flop:call": 2,
+      "preflop:call": 6,
+      "flop:check": 6,
+      "turn:check": 4,
+      "river:check": 3,
+      "river:call": 2,
+      "turn:raise": 2,
+      "river:raise": 1
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "flop:call": 1,
+      "preflop:raise": 4,
+      "preflop:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 7,
+    "rotation": 3,
+    "seat": 0,
+    "points": 0.0,
+    "hands": 180,
+    "eliminated": true,
+    "remaining_flop_chips": 311,
+    "action_counts": {
+      "preflop:fold": 76,
+      "preflop:call": 7,
+      "auction:bid": 14,
+      "flop:check": 6,
+      "turn:check": 4,
+      "river:call": 4,
+      "preflop:raise": 16,
+      "flop:raise": 6,
+      "turn:call": 2,
+      "turn:raise": 3,
+      "river:raise": 2,
+      "river:check": 2,
+      "flop:fold": 1,
+      "river:fold": 1
+    },
+    "danger_counts": {
+      "river:raise": 1,
+      "flop:raise": 1,
+      "turn:raise": 2,
+      "preflop:raise": 1
+    },
+    "paid_then_folded": [
+      28
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 7,
+    "rotation": 4,
+    "seat": 7,
+    "points": 0.0,
+    "hands": 171,
+    "eliminated": true,
+    "remaining_flop_chips": 671,
+    "action_counts": {
+      "preflop:fold": 64,
+      "preflop:call": 11,
+      "auction:bid": 14,
+      "flop:check": 11,
+      "turn:check": 9,
+      "river:check": 9,
+      "turn:raise": 2,
+      "river:raise": 1,
+      "preflop:raise": 10,
+      "flop:fold": 1,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "river:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 7,
+    "rotation": 5,
+    "seat": 6,
+    "points": 0.0,
+    "hands": 170,
+    "eliminated": true,
+    "remaining_flop_chips": 735,
+    "action_counts": {
+      "preflop:fold": 78,
+      "preflop:call": 2,
+      "auction:bid": 9,
+      "flop:check": 3,
+      "turn:check": 3,
+      "river:check": 3,
+      "preflop:raise": 20,
+      "flop:fold": 4,
+      "flop:call": 3,
+      "flop:raise": 1,
+      "turn:raise": 2,
+      "river:raise": 1
+    },
+    "danger_counts": {
+      "river:raise": 1,
+      "turn:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 7,
+    "rotation": 6,
+    "seat": 5,
+    "points": 0.0,
+    "hands": 170,
+    "eliminated": true,
+    "remaining_flop_chips": 886,
+    "action_counts": {
+      "preflop:fold": 16,
+      "preflop:raise": 3,
+      "preflop:call": 2,
+      "auction:bid": 3,
+      "flop:check": 1,
+      "flop:fold": 1,
+      "flop:call": 2,
+      "turn:check": 1,
+      "river:check": 1,
+      "flop:raise": 2
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "flop:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 7,
+    "rotation": 7,
+    "seat": 4,
+    "points": 0.0,
+    "hands": 172,
+    "eliminated": true,
+    "remaining_flop_chips": 787,
+    "action_counts": {
+      "preflop:fold": 109,
+      "preflop:raise": 17,
+      "preflop:call": 2,
+      "auction:bid": 6,
+      "flop:check": 3,
+      "flop:fold": 1,
+      "flop:call": 1,
+      "turn:check": 2,
+      "river:check": 2,
+      "flop:raise": 1,
+      "turn:raise": 1,
+      "river:raise": 1
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "river:raise": 1,
+      "preflop:raise": 5
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 8,
+    "rotation": 0,
+    "seat": 6,
+    "points": 0.0,
+    "hands": 182,
+    "eliminated": true,
+    "remaining_flop_chips": 173,
+    "action_counts": {
+      "preflop:fold": 70,
+      "preflop:raise": 6,
+      "auction:bid": 11,
+      "flop:check": 7,
+      "turn:check": 6,
+      "river:check": 6,
+      "river:call": 1,
+      "preflop:call": 9,
+      "flop:call": 4,
+      "turn:raise": 1,
+      "turn:call": 1,
+      "flop:raise": 2
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "flop:call": 2,
+      "preflop:raise": 1,
+      "preflop:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 8,
+    "rotation": 1,
+    "seat": 5,
+    "points": 30.0,
+    "hands": 191,
+    "eliminated": true,
+    "remaining_flop_chips": 252,
+    "action_counts": {
+      "preflop:fold": 128,
+      "preflop:call": 11,
+      "auction:bid": 22,
+      "flop:check": 10,
+      "turn:check": 9,
+      "river:check": 8,
+      "preflop:raise": 39,
+      "flop:call": 3,
+      "river:raise": 2,
+      "turn:call": 1,
+      "river:call": 1,
+      "flop:raise": 4,
+      "turn:raise": 1,
+      "turn:fold": 1,
+      "flop:fold": 2,
+      "preflop:check": 1
+    },
+    "danger_counts": {
+      "river:raise": 2,
+      "turn:raise": 1,
+      "flop:raise": 3,
+      "flop:call": 1,
+      "preflop:raise": 6,
+      "preflop:call": 4
+    },
+    "paid_then_folded": [
+      11
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 8,
+    "rotation": 2,
+    "seat": 4,
+    "points": 0.0,
+    "hands": 138,
+    "eliminated": true,
+    "remaining_flop_chips": 877,
+    "action_counts": {
+      "preflop:fold": 88,
+      "preflop:call": 4,
+      "auction:bid": 7,
+      "flop:check": 4,
+      "turn:check": 4,
+      "river:check": 4,
+      "preflop:raise": 9,
+      "flop:fold": 1,
+      "flop:call": 2,
+      "turn:call": 1,
+      "river:call": 1,
+      "turn:fold": 1
+    },
+    "danger_counts": {
+      "river:call": 1,
+      "preflop:raise": 1
+    },
+    "paid_then_folded": [
+      57
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 8,
+    "rotation": 3,
+    "seat": 3,
+    "points": 0.0,
+    "hands": 189,
+    "eliminated": true,
+    "remaining_flop_chips": 541,
+    "action_counts": {
+      "preflop:fold": 60,
+      "preflop:raise": 5,
+      "auction:bid": 9,
+      "flop:check": 5,
+      "turn:check": 4,
+      "river:check": 3,
+      "flop:raise": 2,
+      "turn:call": 1,
+      "river:fold": 1,
+      "preflop:call": 8,
+      "river:call": 1,
+      "flop:fold": 2,
+      "flop:call": 1
+    },
+    "danger_counts": {
+      "preflop:raise": 1,
+      "flop:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 8,
+    "rotation": 4,
+    "seat": 2,
+    "points": 0.0,
+    "hands": 182,
+    "eliminated": true,
+    "remaining_flop_chips": 1000,
+    "action_counts": {
+      "preflop:fold": 4,
+      "preflop:call": 1,
+      "auction:bid": 1,
+      "flop:call": 1,
+      "turn:call": 1
+    },
+    "danger_counts": {
+      "turn:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 8,
+    "rotation": 5,
+    "seat": 1,
+    "points": 0.0,
+    "hands": 148,
+    "eliminated": true,
+    "remaining_flop_chips": 958,
+    "action_counts": {
+      "preflop:fold": 11,
+      "preflop:call": 3,
+      "auction:bid": 3,
+      "flop:fold": 2,
+      "preflop:raise": 1,
+      "flop:raise": 2,
+      "flop:call": 1
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "flop:call": 1
+    },
+    "paid_then_folded": [
+      28,
+      14
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 8,
+    "rotation": 6,
+    "seat": 0,
+    "points": 0.0,
+    "hands": 184,
+    "eliminated": true,
+    "remaining_flop_chips": 375,
+    "action_counts": {
+      "preflop:fold": 92,
+      "preflop:call": 11,
+      "auction:bid": 13,
+      "flop:check": 8,
+      "turn:check": 6,
+      "river:check": 5,
+      "preflop:raise": 11,
+      "flop:raise": 4,
+      "turn:raise": 1,
+      "river:raise": 1,
+      "flop:fold": 2,
+      "flop:call": 2,
+      "turn:fold": 1
+    },
+    "danger_counts": {
+      "flop:raise": 2,
+      "flop:call": 1,
+      "preflop:call": 2,
+      "preflop:raise": 5
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 8,
+    "rotation": 7,
+    "seat": 7,
+    "points": 20.0,
+    "hands": 172,
+    "eliminated": true,
+    "remaining_flop_chips": 502,
+    "action_counts": {
+      "preflop:fold": 110,
+      "preflop:raise": 33,
+      "auction:bid": 15,
+      "flop:raise": 6,
+      "flop:call": 3,
+      "flop:check": 8,
+      "turn:check": 6,
+      "river:check": 6,
+      "preflop:call": 4,
+      "turn:raise": 3,
+      "river:fold": 1,
+      "river:call": 1,
+      "flop:fold": 1,
+      "turn:fold": 1
+    },
+    "danger_counts": {
+      "flop:raise": 2,
+      "flop:call": 1,
+      "turn:raise": 1,
+      "preflop:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 9,
+    "rotation": 0,
+    "seat": 6,
+    "points": 20.0,
+    "hands": 174,
+    "eliminated": true,
+    "remaining_flop_chips": 285,
+    "action_counts": {
+      "preflop:fold": 116,
+      "preflop:call": 10,
+      "auction:bid": 16,
+      "flop:call": 1,
+      "turn:call": 1,
+      "river:call": 1,
+      "preflop:raise": 25,
+      "flop:check": 10,
+      "turn:check": 8,
+      "river:check": 7,
+      "flop:raise": 2,
+      "turn:fold": 1,
+      "flop:fold": 1,
+      "turn:raise": 1,
+      "river:raise": 1
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "preflop:raise": 7,
+      "river:raise": 1,
+      "preflop:call": 2,
+      "flop:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 9,
+    "rotation": 1,
+    "seat": 5,
+    "points": 20.0,
+    "hands": 163,
+    "eliminated": true,
+    "remaining_flop_chips": 627,
+    "action_counts": {
+      "preflop:fold": 107,
+      "preflop:raise": 14,
+      "auction:bid": 11,
+      "flop:raise": 2,
+      "turn:raise": 1,
+      "river:check": 5,
+      "flop:check": 6,
+      "turn:check": 5,
+      "preflop:call": 5,
+      "flop:call": 1,
+      "turn:call": 1,
+      "river:call": 1,
+      "river:raise": 1,
+      "flop:fold": 1
+    },
+    "danger_counts": {
+      "preflop:raise": 3,
+      "preflop:call": 3
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 9,
+    "rotation": 2,
+    "seat": 4,
+    "points": 0.0,
+    "hands": 165,
+    "eliminated": true,
+    "remaining_flop_chips": 446,
+    "action_counts": {
+      "preflop:fold": 106,
+      "preflop:call": 7,
+      "auction:bid": 16,
+      "flop:check": 12,
+      "turn:check": 11,
+      "river:check": 9,
+      "preflop:raise": 18,
+      "flop:call": 1,
+      "turn:call": 1,
+      "flop:fold": 2,
+      "river:call": 1,
+      "river:raise": 1,
+      "flop:raise": 1
+    },
+    "danger_counts": {
+      "river:call": 1,
+      "preflop:raise": 3,
+      "river:raise": 1,
+      "flop:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 9,
+    "rotation": 3,
+    "seat": 3,
+    "points": 20.0,
+    "hands": 165,
+    "eliminated": true,
+    "remaining_flop_chips": 537,
+    "action_counts": {
+      "preflop:fold": 99,
+      "preflop:raise": 17,
+      "auction:bid": 19,
+      "flop:check": 16,
+      "turn:check": 16,
+      "river:check": 13,
+      "preflop:call": 11,
+      "flop:call": 2,
+      "turn:call": 2,
+      "river:call": 2,
+      "flop:fold": 2,
+      "river:raise": 1
+    },
+    "danger_counts": {
+      "river:call": 1,
+      "preflop:raise": 4,
+      "river:raise": 1,
+      "flop:call": 1,
+      "turn:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 9,
+    "rotation": 4,
+    "seat": 2,
+    "points": 50.0,
+    "hands": 148,
+    "eliminated": false,
+    "remaining_flop_chips": 580,
+    "action_counts": {
+      "preflop:fold": 80,
+      "preflop:raise": 36,
+      "auction:bid": 15,
+      "flop:check": 8,
+      "turn:check": 6,
+      "river:check": 6,
+      "preflop:call": 5,
+      "flop:raise": 7,
+      "river:raise": 2,
+      "turn:raise": 3,
+      "river:call": 2,
+      "turn:call": 1
+    },
+    "danger_counts": {
+      "flop:raise": 3,
+      "turn:raise": 1,
+      "river:call": 1,
+      "river:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 9,
+    "rotation": 5,
+    "seat": 1,
+    "points": 0.0,
+    "hands": 166,
+    "eliminated": true,
+    "remaining_flop_chips": 255,
+    "action_counts": {
+      "preflop:raise": 5,
+      "preflop:fold": 41,
+      "preflop:call": 7,
+      "auction:bid": 8,
+      "flop:check": 5,
+      "turn:check": 4,
+      "river:check": 2,
+      "flop:call": 3,
+      "turn:call": 2,
+      "river:call": 1,
+      "turn:fold": 1,
+      "flop:fold": 2
+    },
+    "danger_counts": {
+      "turn:call": 1,
+      "preflop:call": 2,
+      "preflop:raise": 3
+    },
+    "paid_then_folded": [
+      29
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 9,
+    "rotation": 6,
+    "seat": 0,
+    "points": 0.0,
+    "hands": 176,
+    "eliminated": true,
+    "remaining_flop_chips": 830,
+    "action_counts": {
+      "preflop:fold": 38,
+      "preflop:call": 5,
+      "auction:bid": 6,
+      "flop:fold": 2,
+      "preflop:raise": 2,
+      "flop:raise": 1,
+      "flop:check": 2,
+      "turn:check": 1,
+      "river:check": 1,
+      "river:raise": 1,
+      "river:call": 1,
+      "turn:fold": 1
+    },
+    "danger_counts": {
+      "river:raise": 1,
+      "river:call": 1,
+      "preflop:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 9,
+    "rotation": 7,
+    "seat": 7,
+    "points": 20.0,
+    "hands": 194,
+    "eliminated": true,
+    "remaining_flop_chips": 590,
+    "action_counts": {
+      "preflop:fold": 112,
+      "preflop:raise": 21,
+      "preflop:call": 10,
+      "auction:bid": 17,
+      "flop:check": 11,
+      "turn:check": 9,
+      "river:check": 7,
+      "flop:fold": 3,
+      "turn:call": 1,
+      "river:call": 1,
+      "flop:call": 1,
+      "turn:fold": 1,
+      "river:raise": 2
+    },
+    "danger_counts": {
+      "preflop:raise": 9,
+      "river:raise": 2,
+      "preflop:call": 1
+    },
+    "paid_then_folded": [
+      127
+    ],
+    "cheap_folds_after_raising": [
+      {
+        "hand": 149,
+        "phase": "betting",
+        "cards": [
+          "8s",
+          "Kd"
+        ],
+        "board": [],
+        "pot": 6381,
+        "stack": 300,
+        "bet": 1320,
+        "to_call": 3441,
+        "players_remaining": 3,
+        "big_blind": 600,
+        "action": {
+          "kind": "fold",
+          "amount": 0,
+          "cards": []
+        },
+        "commit_fraction": 0.0,
+        "legal_actions": [
+          [
+            "fold",
+            0,
+            0
+          ],
+          [
+            "call",
+            0,
+            0
+          ]
+        ],
+        "seats": [
+          [
+            0,
+            0,
+            0,
+            "busted",
+            []
+          ],
+          [
+            1,
+            0,
+            0,
+            "busted",
+            []
+          ],
+          [
+            2,
+            9319,
+            300,
+            "folded",
+            []
+          ],
+          [
+            3,
+            0,
+            0,
+            "busted",
+            []
+          ],
+          [
+            4,
+            0,
+            4761,
+            "all_in",
+            []
+          ],
+          [
+            5,
+            0,
+            0,
+            "busted",
+            []
+          ],
+          [
+            6,
+            0,
+            0,
+            "busted",
+            []
+          ],
+          [
+            7,
+            300,
+            1320,
+            "active",
+            []
+          ]
+        ],
+        "auction_cards": [],
+        "flop_chips": 728,
+        "recent_public_events": [
+          [
+            "blind",
+            2,
+            300,
+            []
+          ],
+          [
+            "blind",
+            4,
+            600,
+            []
+          ],
+          [
+            "raise",
+            7,
+            1320,
+            []
+          ],
+          [
+            "fold",
+            2,
+            0,
+            []
+          ],
+          [
+            "raise",
+            4,
+            4761,
+            []
+          ]
+        ],
+        "contestable_pot_odds": 0.0847457627118644
+      }
+    ],
+    "errors": []
+  },
+  {
+    "block": 10,
+    "rotation": 0,
+    "seat": 4,
+    "points": 0.0,
+    "hands": 170,
+    "eliminated": true,
+    "remaining_flop_chips": 824,
+    "action_counts": {
+      "preflop:raise": 5,
+      "auction:bid": 4,
+      "flop:check": 2,
+      "flop:call": 2,
+      "turn:check": 2,
+      "turn:call": 2,
+      "river:check": 2,
+      "preflop:fold": 36,
+      "preflop:call": 2,
+      "river:fold": 1,
+      "flop:raise": 2
+    },
+    "danger_counts": {
+      "flop:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 10,
+    "rotation": 1,
+    "seat": 3,
+    "points": 0.0,
+    "hands": 180,
+    "eliminated": true,
+    "remaining_flop_chips": 980,
+    "action_counts": {
+      "preflop:fold": 10,
+      "preflop:raise": 1,
+      "preflop:call": 1,
+      "auction:bid": 1,
+      "flop:check": 1,
+      "turn:raise": 1,
+      "turn:call": 1
+    },
+    "danger_counts": {
+      "turn:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 10,
+    "rotation": 2,
+    "seat": 2,
+    "points": 0.0,
+    "hands": 170,
+    "eliminated": true,
+    "remaining_flop_chips": 348,
+    "action_counts": {
+      "preflop:fold": 40,
+      "preflop:call": 8,
+      "auction:bid": 11,
+      "flop:raise": 3,
+      "flop:call": 4,
+      "turn:check": 8,
+      "river:check": 8,
+      "flop:check": 7,
+      "preflop:raise": 5,
+      "turn:call": 3,
+      "river:fold": 2,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "flop:raise": 2,
+      "flop:call": 1,
+      "turn:call": 1,
+      "river:call": 1,
+      "preflop:call": 2
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 10,
+    "rotation": 3,
+    "seat": 1,
+    "points": 0.0,
+    "hands": 170,
+    "eliminated": true,
+    "remaining_flop_chips": 784,
+    "action_counts": {
+      "preflop:fold": 61,
+      "preflop:call": 6,
+      "auction:bid": 10,
+      "flop:check": 9,
+      "turn:check": 8,
+      "river:check": 7,
+      "preflop:raise": 6,
+      "flop:fold": 1,
+      "flop:call": 1,
+      "turn:fold": 1,
+      "river:fold": 1
+    },
+    "danger_counts": {
+      "preflop:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 10,
+    "rotation": 4,
+    "seat": 0,
+    "points": 20.0,
+    "hands": 185,
+    "eliminated": true,
+    "remaining_flop_chips": 31,
+    "action_counts": {
+      "preflop:fold": 121,
+      "preflop:raise": 20,
+      "auction:bid": 22,
+      "flop:raise": 5,
+      "flop:check": 8,
+      "turn:check": 6,
+      "river:check": 4,
+      "flop:fold": 3,
+      "turn:raise": 2,
+      "river:raise": 2,
+      "preflop:call": 12,
+      "flop:call": 2,
+      "turn:call": 1,
+      "river:call": 1,
+      "turn:fold": 1,
+      "preflop:check": 3
+    },
+    "danger_counts": {
+      "flop:raise": 2,
+      "river:raise": 1,
+      "flop:call": 1,
+      "preflop:raise": 12,
+      "preflop:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 10,
+    "rotation": 5,
+    "seat": 7,
+    "points": 0.0,
+    "hands": 193,
+    "eliminated": true,
+    "remaining_flop_chips": 767,
+    "action_counts": {
+      "preflop:fold": 66,
+      "preflop:call": 9,
+      "auction:bid": 14,
+      "flop:check": 7,
+      "turn:check": 4,
+      "river:check": 3,
+      "preflop:raise": 14,
+      "flop:fold": 2,
+      "flop:raise": 5,
+      "flop:call": 4,
+      "turn:raise": 2,
+      "turn:fold": 1
+    },
+    "danger_counts": {
+      "turn:raise": 2,
+      "flop:raise": 1,
+      "flop:call": 1,
+      "preflop:raise": 5,
+      "preflop:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 10,
+    "rotation": 6,
+    "seat": 6,
+    "points": 20.0,
+    "hands": 156,
+    "eliminated": true,
+    "remaining_flop_chips": 557,
+    "action_counts": {
+      "preflop:fold": 103,
+      "preflop:raise": 26,
+      "auction:bid": 17,
+      "flop:check": 10,
+      "flop:call": 4,
+      "turn:check": 7,
+      "river:check": 6,
+      "preflop:call": 7,
+      "turn:raise": 3,
+      "flop:fold": 4,
+      "flop:raise": 3,
+      "turn:call": 2,
+      "preflop:check": 1,
+      "river:raise": 2
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "flop:raise": 1,
+      "flop:call": 2,
+      "river:raise": 1,
+      "preflop:raise": 2,
+      "preflop:call": 1
+    },
+    "paid_then_folded": [
+      12
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 10,
+    "rotation": 7,
+    "seat": 5,
+    "points": 20.0,
+    "hands": 168,
+    "eliminated": true,
+    "remaining_flop_chips": 352,
+    "action_counts": {
+      "preflop:fold": 118,
+      "preflop:call": 10,
+      "auction:bid": 15,
+      "flop:check": 11,
+      "turn:check": 8,
+      "river:check": 7,
+      "preflop:raise": 26,
+      "flop:raise": 2,
+      "flop:call": 2,
+      "flop:fold": 1,
+      "river:raise": 1,
+      "turn:call": 1,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "flop:raise": 2,
+      "flop:call": 1,
+      "river:raise": 1,
+      "preflop:raise": 2,
+      "preflop:call": 2
+    },
+    "paid_then_folded": [
+      8
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 11,
+    "rotation": 0,
+    "seat": 1,
+    "points": 0.0,
+    "hands": 85,
+    "eliminated": true,
+    "remaining_flop_chips": 844,
+    "action_counts": {
+      "preflop:raise": 4,
+      "auction:bid": 3,
+      "flop:check": 3,
+      "turn:check": 1,
+      "river:check": 1,
+      "preflop:fold": 35,
+      "flop:fold": 1,
+      "preflop:call": 1,
+      "flop:call": 1
+    },
+    "danger_counts": {
+      "flop:call": 1
+    },
+    "paid_then_folded": [
+      24
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 11,
+    "rotation": 1,
+    "seat": 0,
+    "points": 0.0,
+    "hands": 147,
+    "eliminated": true,
+    "remaining_flop_chips": 949,
+    "action_counts": {
+      "preflop:raise": 1,
+      "auction:bid": 2,
+      "flop:check": 2,
+      "turn:check": 2,
+      "river:check": 1,
+      "preflop:fold": 1,
+      "preflop:call": 1,
+      "flop:call": 1,
+      "turn:call": 1,
+      "river:raise": 2,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "river:raise": 1,
+      "river:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 11,
+    "rotation": 2,
+    "seat": 7,
+    "points": 20.0,
+    "hands": 185,
+    "eliminated": true,
+    "remaining_flop_chips": 460,
+    "action_counts": {
+      "preflop:fold": 106,
+      "preflop:call": 6,
+      "auction:bid": 15,
+      "flop:check": 11,
+      "turn:check": 8,
+      "river:check": 8,
+      "preflop:raise": 16,
+      "flop:raise": 2,
+      "turn:raise": 2,
+      "river:raise": 1,
+      "turn:call": 1,
+      "river:call": 1,
+      "flop:fold": 2,
+      "turn:fold": 1
+    },
+    "danger_counts": {
+      "turn:raise": 2,
+      "river:raise": 1,
+      "preflop:raise": 4
+    },
+    "paid_then_folded": [
+      32
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 11,
+    "rotation": 3,
+    "seat": 6,
+    "points": 30.0,
+    "hands": 147,
+    "eliminated": true,
+    "remaining_flop_chips": 669,
+    "action_counts": {
+      "preflop:call": 3,
+      "auction:bid": 12,
+      "flop:check": 4,
+      "turn:check": 3,
+      "river:check": 2,
+      "preflop:fold": 114,
+      "preflop:raise": 28,
+      "flop:raise": 3,
+      "turn:raise": 2,
+      "flop:fold": 3,
+      "river:raise": 1,
+      "river:call": 1,
+      "flop:call": 2,
+      "turn:call": 1,
+      "river:fold": 1
+    },
+    "danger_counts": {
+      "turn:raise": 2,
+      "river:raise": 1,
+      "preflop:raise": 3,
+      "preflop:call": 1,
+      "flop:call": 1
+    },
+    "paid_then_folded": [
+      22,
+      27
+    ],
+    "cheap_folds_after_raising": [
+      {
+        "hand": 121,
+        "phase": "betting",
+        "cards": [
+          "Jc",
+          "9c"
+        ],
+        "board": [],
+        "pot": 2024,
+        "stack": 2071,
+        "bet": 880,
+        "to_call": 64,
+        "players_remaining": 4,
+        "big_blind": 400,
+        "action": {
+          "kind": "fold",
+          "amount": 0,
+          "cards": []
+        },
+        "commit_fraction": 0.0,
+        "legal_actions": [
+          [
+            "fold",
+            0,
+            0
+          ],
+          [
+            "call",
+            0,
+            0
+          ]
+        ],
+        "seats": [
+          [
+            0,
+            0,
+            0,
+            "busted",
+            []
+          ],
+          [
+            1,
+            0,
+            0,
+            "busted",
+            []
+          ],
+          [
+            2,
+            0,
+            0,
+            "busted",
+            []
+          ],
+          [
+            3,
+            9446,
+            0,
+            "folded",
+            []
+          ],
+          [
+            4,
+            2459,
+            200,
+            "folded",
+            []
+          ],
+          [
+            5,
+            0,
+            944,
+            "all_in",
+            []
+          ],
+          [
+            6,
+            2071,
+            880,
+            "active",
+            []
+          ],
+          [
+            7,
+            0,
+            0,
+            "busted",
+            []
+          ]
+        ],
+        "auction_cards": [],
+        "flop_chips": 696,
+        "recent_public_events": [
+          [
+            "blind",
+            4,
+            200,
+            []
+          ],
+          [
+            "blind",
+            5,
+            400,
+            []
+          ],
+          [
+            "raise",
+            6,
+            880,
+            []
+          ],
+          [
+            "fold",
+            3,
+            0,
+            []
+          ],
+          [
+            "fold",
+            4,
+            0,
+            []
+          ],
+          [
+            "raise",
+            5,
+            944,
+            []
+          ]
+        ],
+        "contestable_pot_odds": 0.03065134099616858
+      }
+    ],
+    "errors": []
+  },
+  {
+    "block": 11,
+    "rotation": 4,
+    "seat": 5,
+    "points": 20.0,
+    "hands": 185,
+    "eliminated": true,
+    "remaining_flop_chips": 750,
+    "action_counts": {
+      "preflop:fold": 131,
+      "preflop:raise": 24,
+      "auction:bid": 10,
+      "flop:raise": 2,
+      "turn:raise": 2,
+      "river:raise": 4,
+      "preflop:call": 9,
+      "flop:check": 7,
+      "turn:check": 6,
+      "flop:call": 1,
+      "river:check": 4,
+      "river:fold": 1
+    },
+    "danger_counts": {
+      "river:raise": 1,
+      "preflop:raise": 9
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 11,
+    "rotation": 5,
+    "seat": 4,
+    "points": 20.0,
+    "hands": 205,
+    "eliminated": true,
+    "remaining_flop_chips": 196,
+    "action_counts": {
+      "preflop:fold": 110,
+      "preflop:raise": 18,
+      "auction:bid": 17,
+      "flop:call": 3,
+      "turn:fold": 3,
+      "preflop:call": 12,
+      "flop:check": 10,
+      "turn:check": 6,
+      "turn:call": 2,
+      "river:check": 5,
+      "river:call": 1,
+      "flop:raise": 3,
+      "flop:fold": 3,
+      "turn:raise": 2
+    },
+    "danger_counts": {
+      "river:call": 1,
+      "preflop:call": 5,
+      "preflop:raise": 5,
+      "flop:raise": 3,
+      "turn:raise": 2
+    },
+    "paid_then_folded": [
+      27
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 11,
+    "rotation": 6,
+    "seat": 3,
+    "points": 20.0,
+    "hands": 185,
+    "eliminated": true,
+    "remaining_flop_chips": 435,
+    "action_counts": {
+      "preflop:fold": 102,
+      "preflop:raise": 27,
+      "auction:bid": 23,
+      "flop:check": 9,
+      "turn:check": 7,
+      "river:raise": 4,
+      "river:call": 5,
+      "preflop:call": 12,
+      "river:check": 6,
+      "turn:raise": 7,
+      "flop:raise": 7,
+      "turn:call": 4,
+      "flop:call": 4,
+      "flop:fold": 3
+    },
+    "danger_counts": {
+      "river:raise": 3,
+      "river:call": 2,
+      "turn:raise": 2,
+      "flop:raise": 1,
+      "flop:call": 1,
+      "preflop:raise": 1,
+      "preflop:call": 1
+    },
+    "paid_then_folded": [
+      17
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 11,
+    "rotation": 7,
+    "seat": 2,
+    "points": 0.0,
+    "hands": 205,
+    "eliminated": true,
+    "remaining_flop_chips": 880,
+    "action_counts": {
+      "preflop:call": 1,
+      "auction:bid": 5,
+      "flop:check": 4,
+      "turn:check": 3,
+      "river:check": 3,
+      "preflop:raise": 4,
+      "flop:call": 1,
+      "turn:call": 1,
+      "river:call": 1,
+      "preflop:fold": 23,
+      "turn:raise": 2,
+      "flop:raise": 1,
+      "river:raise": 1
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "river:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 12,
+    "rotation": 0,
+    "seat": 6,
+    "points": 50.0,
+    "hands": 172,
+    "eliminated": false,
+    "remaining_flop_chips": 251,
+    "action_counts": {
+      "preflop:fold": 116,
+      "preflop:raise": 27,
+      "auction:bid": 15,
+      "flop:check": 9,
+      "turn:check": 7,
+      "river:check": 6,
+      "preflop:call": 10,
+      "flop:raise": 5,
+      "turn:raise": 3,
+      "flop:call": 5,
+      "turn:call": 3,
+      "river:raise": 2,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "river:raise": 2,
+      "flop:call": 1,
+      "turn:call": 1,
+      "preflop:raise": 8,
+      "flop:raise": 3
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 12,
+    "rotation": 1,
+    "seat": 5,
+    "points": 0.0,
+    "hands": 172,
+    "eliminated": true,
+    "remaining_flop_chips": 1000,
+    "action_counts": {
+      "preflop:fold": 4,
+      "preflop:raise": 1,
+      "preflop:call": 2,
+      "auction:bid": 2,
+      "flop:check": 2,
+      "turn:check": 1,
+      "river:check": 1,
+      "turn:raise": 1,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "river:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 12,
+    "rotation": 2,
+    "seat": 4,
+    "points": 0.0,
+    "hands": 181,
+    "eliminated": true,
+    "remaining_flop_chips": 1000,
+    "action_counts": {
+      "preflop:raise": 5,
+      "preflop:fold": 13,
+      "auction:bid": 2,
+      "flop:fold": 1,
+      "flop:raise": 1,
+      "turn:raise": 1,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "river:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 12,
+    "rotation": 3,
+    "seat": 3,
+    "points": 0.0,
+    "hands": 194,
+    "eliminated": true,
+    "remaining_flop_chips": 991,
+    "action_counts": {
+      "preflop:fold": 13,
+      "preflop:call": 1,
+      "auction:bid": 4,
+      "flop:check": 3,
+      "turn:check": 3,
+      "river:check": 3,
+      "preflop:raise": 3,
+      "flop:call": 1,
+      "turn:call": 1,
+      "river:call": 2,
+      "flop:raise": 1,
+      "turn:raise": 1
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "river:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 12,
+    "rotation": 4,
+    "seat": 2,
+    "points": 30.0,
+    "hands": 189,
+    "eliminated": true,
+    "remaining_flop_chips": 359,
+    "action_counts": {
+      "preflop:fold": 132,
+      "preflop:raise": 38,
+      "preflop:call": 10,
+      "auction:bid": 17,
+      "flop:check": 7,
+      "turn:raise": 4,
+      "flop:raise": 4,
+      "turn:check": 5,
+      "river:check": 5,
+      "river:raise": 1,
+      "flop:fold": 1
+    },
+    "danger_counts": {
+      "river:raise": 1,
+      "turn:raise": 1,
+      "preflop:call": 3,
+      "preflop:raise": 2
+    },
+    "paid_then_folded": [
+      12
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 12,
+    "rotation": 5,
+    "seat": 1,
+    "points": 20.0,
+    "hands": 194,
+    "eliminated": true,
+    "remaining_flop_chips": 332,
+    "action_counts": {
+      "preflop:fold": 98,
+      "preflop:call": 12,
+      "auction:bid": 16,
+      "flop:check": 12,
+      "turn:check": 9,
+      "river:check": 9,
+      "preflop:raise": 26,
+      "flop:fold": 3,
+      "turn:call": 2,
+      "river:call": 2,
+      "flop:raise": 1
+    },
+    "danger_counts": {
+      "river:call": 2,
+      "preflop:raise": 8,
+      "preflop:call": 4,
+      "flop:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 12,
+    "rotation": 6,
+    "seat": 0,
+    "points": 0.0,
+    "hands": 171,
+    "eliminated": true,
+    "remaining_flop_chips": 949,
+    "action_counts": {
+      "preflop:fold": 37,
+      "preflop:call": 2,
+      "auction:bid": 3,
+      "flop:check": 3,
+      "turn:check": 1,
+      "river:check": 1,
+      "turn:raise": 2,
+      "preflop:raise": 1,
+      "river:raise": 1,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "river:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 12,
+    "rotation": 7,
+    "seat": 7,
+    "points": 0.0,
+    "hands": 205,
+    "eliminated": true,
+    "remaining_flop_chips": 812,
+    "action_counts": {
+      "preflop:fold": 62,
+      "preflop:raise": 10,
+      "auction:bid": 9,
+      "flop:check": 5,
+      "flop:fold": 2,
+      "preflop:call": 5,
+      "flop:raise": 2,
+      "turn:call": 2,
+      "river:fold": 1,
+      "flop:call": 1,
+      "turn:check": 3,
+      "river:check": 3
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "turn:call": 1,
+      "preflop:raise": 3
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 13,
+    "rotation": 0,
+    "seat": 3,
+    "points": 0.0,
+    "hands": 104,
+    "eliminated": true,
+    "remaining_flop_chips": 248,
+    "action_counts": {
+      "preflop:fold": 53,
+      "preflop:call": 6,
+      "auction:bid": 10,
+      "flop:check": 7,
+      "flop:fold": 1,
+      "turn:check": 5,
+      "river:check": 4,
+      "preflop:raise": 10,
+      "river:call": 1,
+      "turn:raise": 1,
+      "flop:raise": 2
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "flop:raise": 1,
+      "preflop:call": 1
+    },
+    "paid_then_folded": [
+      23
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 13,
+    "rotation": 1,
+    "seat": 2,
+    "points": 0.0,
+    "hands": 187,
+    "eliminated": true,
+    "remaining_flop_chips": 852,
+    "action_counts": {
+      "preflop:call": 1,
+      "auction:bid": 1,
+      "flop:call": 1,
+      "turn:raise": 1,
+      "turn:call": 1
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "turn:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 13,
+    "rotation": 2,
+    "seat": 1,
+    "points": 0.0,
+    "hands": 187,
+    "eliminated": true,
+    "remaining_flop_chips": 1000,
+    "action_counts": {
+      "preflop:fold": 5,
+      "preflop:call": 1,
+      "auction:bid": 3,
+      "flop:check": 2,
+      "turn:check": 2,
+      "river:check": 2,
+      "river:fold": 1,
+      "preflop:raise": 2,
+      "flop:call": 1,
+      "turn:raise": 2
+    },
+    "danger_counts": {
+      "turn:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 13,
+    "rotation": 3,
+    "seat": 0,
+    "points": 50.0,
+    "hands": 152,
+    "eliminated": false,
+    "remaining_flop_chips": 378,
+    "action_counts": {
+      "preflop:call": 14,
+      "auction:bid": 25,
+      "flop:check": 15,
+      "turn:check": 13,
+      "river:raise": 5,
+      "river:call": 1,
+      "preflop:fold": 88,
+      "preflop:raise": 32,
+      "flop:raise": 5,
+      "turn:call": 1,
+      "river:check": 10,
+      "flop:fold": 4,
+      "flop:call": 1,
+      "turn:fold": 2,
+      "turn:raise": 2
+    },
+    "danger_counts": {
+      "river:raise": 2,
+      "river:call": 1,
+      "flop:raise": 1
+    },
+    "paid_then_folded": [
+      3,
+      11
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 13,
+    "rotation": 4,
+    "seat": 7,
+    "points": 0.0,
+    "hands": 178,
+    "eliminated": true,
+    "remaining_flop_chips": 830,
+    "action_counts": {
+      "preflop:fold": 37,
+      "preflop:call": 6,
+      "auction:bid": 7,
+      "flop:fold": 3,
+      "preflop:raise": 4,
+      "flop:check": 4,
+      "turn:check": 2,
+      "river:check": 1,
+      "turn:raise": 1,
+      "turn:call": 2
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "turn:call": 2,
+      "preflop:call": 2
+    },
+    "paid_then_folded": [
+      29
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 13,
+    "rotation": 5,
+    "seat": 6,
+    "points": 50.0,
+    "hands": 195,
+    "eliminated": false,
+    "remaining_flop_chips": 20,
+    "action_counts": {
+      "preflop:raise": 35,
+      "auction:bid": 18,
+      "flop:check": 10,
+      "turn:check": 8,
+      "river:check": 8,
+      "river:call": 2,
+      "river:fold": 1,
+      "preflop:fold": 135,
+      "preflop:call": 10,
+      "flop:fold": 3,
+      "flop:raise": 2,
+      "flop:call": 1
+    },
+    "danger_counts": {
+      "flop:raise": 2,
+      "flop:call": 1,
+      "preflop:raise": 17,
+      "preflop:call": 4
+    },
+    "paid_then_folded": [
+      125,
+      22
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 13,
+    "rotation": 6,
+    "seat": 5,
+    "points": 0.0,
+    "hands": 209,
+    "eliminated": true,
+    "remaining_flop_chips": 750,
+    "action_counts": {
+      "preflop:fold": 51,
+      "preflop:call": 6,
+      "auction:bid": 10,
+      "flop:call": 3,
+      "turn:raise": 1,
+      "river:raise": 1,
+      "flop:check": 7,
+      "flop:fold": 1,
+      "turn:check": 6,
+      "river:check": 6,
+      "preflop:raise": 10,
+      "river:call": 1,
+      "flop:raise": 2
+    },
+    "danger_counts": {
+      "flop:raise": 2,
+      "flop:call": 2,
+      "preflop:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 13,
+    "rotation": 7,
+    "seat": 4,
+    "points": 50.0,
+    "hands": 194,
+    "eliminated": false,
+    "remaining_flop_chips": 207,
+    "action_counts": {
+      "preflop:fold": 121,
+      "preflop:raise": 36,
+      "auction:bid": 19,
+      "flop:check": 10,
+      "turn:check": 8,
+      "river:check": 7,
+      "preflop:call": 10,
+      "flop:call": 1,
+      "turn:fold": 2,
+      "river:raise": 2,
+      "flop:raise": 5,
+      "flop:fold": 2,
+      "turn:raise": 1
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "river:raise": 1,
+      "preflop:raise": 16,
+      "flop:raise": 2,
+      "preflop:call": 3
+    },
+    "paid_then_folded": [
+      57
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 14,
+    "rotation": 0,
+    "seat": 0,
+    "points": 0.0,
+    "hands": 197,
+    "eliminated": true,
+    "remaining_flop_chips": 215,
+    "action_counts": {
+      "preflop:fold": 105,
+      "preflop:call": 9,
+      "auction:bid": 19,
+      "flop:raise": 2,
+      "preflop:raise": 22,
+      "flop:check": 11,
+      "flop:fold": 4,
+      "turn:check": 9,
+      "river:call": 2,
+      "flop:call": 2,
+      "turn:raise": 1,
+      "river:raise": 1,
+      "river:check": 7
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "preflop:call": 4,
+      "preflop:raise": 7,
+      "flop:raise": 1,
+      "river:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 14,
+    "rotation": 1,
+    "seat": 7,
+    "points": 50.0,
+    "hands": 210,
+    "eliminated": false,
+    "remaining_flop_chips": 425,
+    "action_counts": {
+      "preflop:fold": 115,
+      "preflop:raise": 55,
+      "auction:bid": 21,
+      "flop:raise": 5,
+      "preflop:call": 9,
+      "flop:check": 8,
+      "turn:check": 4,
+      "river:check": 4,
+      "flop:call": 4,
+      "turn:raise": 3,
+      "turn:call": 3,
+      "river:fold": 1,
+      "flop:fold": 2,
+      "river:raise": 1,
+      "river:call": 1,
+      "turn:fold": 1
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "turn:raise": 2,
+      "river:raise": 1,
+      "turn:call": 1,
+      "preflop:call": 1,
+      "preflop:raise": 12
+    },
+    "paid_then_folded": [
+      24
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 14,
+    "rotation": 2,
+    "seat": 6,
+    "points": 20.0,
+    "hands": 189,
+    "eliminated": true,
+    "remaining_flop_chips": 242,
+    "action_counts": {
+      "preflop:fold": 104,
+      "preflop:call": 8,
+      "auction:bid": 14,
+      "flop:check": 11,
+      "turn:check": 9,
+      "river:check": 9,
+      "flop:fold": 1,
+      "preflop:raise": 15,
+      "river:call": 1,
+      "flop:raise": 2,
+      "turn:raise": 2,
+      "river:raise": 1
+    },
+    "danger_counts": {
+      "preflop:call": 2,
+      "preflop:raise": 8,
+      "turn:raise": 1,
+      "flop:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 14,
+    "rotation": 3,
+    "seat": 5,
+    "points": 30.0,
+    "hands": 191,
+    "eliminated": true,
+    "remaining_flop_chips": 89,
+    "action_counts": {
+      "preflop:fold": 126,
+      "preflop:raise": 37,
+      "auction:bid": 20,
+      "flop:call": 4,
+      "turn:call": 3,
+      "river:call": 2,
+      "preflop:call": 10,
+      "flop:check": 8,
+      "turn:raise": 4,
+      "flop:raise": 4,
+      "river:raise": 2,
+      "turn:check": 5,
+      "river:check": 4,
+      "river:fold": 1,
+      "flop:fold": 2
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "river:raise": 2,
+      "turn:raise": 1,
+      "turn:call": 1,
+      "preflop:raise": 10,
+      "preflop:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 14,
+    "rotation": 4,
+    "seat": 4,
+    "points": 0.0,
+    "hands": 189,
+    "eliminated": true,
+    "remaining_flop_chips": 72,
+    "action_counts": {
+      "preflop:fold": 71,
+      "preflop:raise": 9,
+      "preflop:call": 8,
+      "auction:bid": 13,
+      "flop:check": 7,
+      "flop:call": 1,
+      "turn:check": 6,
+      "turn:call": 1,
+      "river:check": 6,
+      "river:fold": 1,
+      "flop:fold": 2
+    },
+    "danger_counts": {
+      "preflop:call": 4,
+      "preflop:raise": 3
+    },
+    "paid_then_folded": [
+      65
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 14,
+    "rotation": 5,
+    "seat": 3,
+    "points": 20.0,
+    "hands": 169,
+    "eliminated": true,
+    "remaining_flop_chips": 280,
+    "action_counts": {
+      "preflop:raise": 31,
+      "preflop:fold": 121,
+      "auction:bid": 19,
+      "flop:raise": 4,
+      "preflop:call": 9,
+      "flop:call": 1,
+      "turn:fold": 1,
+      "flop:check": 12,
+      "turn:check": 11,
+      "river:check": 10,
+      "flop:fold": 1,
+      "turn:raise": 2,
+      "river:fold": 1,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "turn:raise": 2,
+      "preflop:raise": 4
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 14,
+    "rotation": 6,
+    "seat": 2,
+    "points": 0.0,
+    "hands": 226,
+    "eliminated": true,
+    "remaining_flop_chips": 127,
+    "action_counts": {
+      "preflop:fold": 120,
+      "preflop:call": 7,
+      "auction:bid": 15,
+      "flop:check": 9,
+      "turn:check": 5,
+      "river:check": 4,
+      "flop:raise": 2,
+      "preflop:check": 1,
+      "preflop:raise": 17,
+      "river:raise": 2,
+      "flop:call": 1,
+      "turn:raise": 2,
+      "turn:call": 1,
+      "flop:fold": 1,
+      "turn:fold": 1
+    },
+    "danger_counts": {
+      "river:raise": 2,
+      "preflop:raise": 5
+    },
+    "paid_then_folded": [
+      25
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 14,
+    "rotation": 7,
+    "seat": 1,
+    "points": 50.0,
+    "hands": 182,
+    "eliminated": false,
+    "remaining_flop_chips": 143,
+    "action_counts": {
+      "preflop:fold": 104,
+      "preflop:raise": 40,
+      "auction:bid": 20,
+      "flop:check": 12,
+      "turn:check": 11,
+      "river:check": 9,
+      "preflop:call": 10,
+      "flop:call": 3,
+      "turn:call": 1,
+      "river:fold": 1,
+      "flop:fold": 4,
+      "river:raise": 1,
+      "turn:fold": 1
+    },
+    "danger_counts": {
+      "preflop:raise": 13,
+      "preflop:call": 4,
+      "river:raise": 1
+    },
+    "paid_then_folded": [
+      52
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 15,
+    "rotation": 0,
+    "seat": 4,
+    "points": 0.0,
+    "hands": 133,
+    "eliminated": true,
+    "remaining_flop_chips": 557,
+    "action_counts": {
+      "preflop:fold": 35,
+      "preflop:call": 8,
+      "auction:bid": 13,
+      "flop:check": 5,
+      "flop:call": 5,
+      "turn:check": 3,
+      "turn:call": 2,
+      "river:raise": 2,
+      "preflop:raise": 7,
+      "flop:fold": 2,
+      "river:call": 1,
+      "flop:raise": 6,
+      "river:check": 1,
+      "turn:fold": 2
+    },
+    "danger_counts": {
+      "river:raise": 1,
+      "flop:call": 2,
+      "flop:raise": 1
+    },
+    "paid_then_folded": [
+      9,
+      40
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 15,
+    "rotation": 1,
+    "seat": 3,
+    "points": 30.0,
+    "hands": 167,
+    "eliminated": true,
+    "remaining_flop_chips": 278,
+    "action_counts": {
+      "preflop:raise": 27,
+      "preflop:call": 10,
+      "auction:bid": 22,
+      "flop:check": 12,
+      "turn:check": 9,
+      "river:check": 7,
+      "preflop:fold": 118,
+      "flop:raise": 6,
+      "flop:fold": 2,
+      "river:fold": 2,
+      "river:raise": 2,
+      "turn:raise": 2,
+      "turn:call": 2,
+      "river:call": 1,
+      "flop:call": 1
+    },
+    "danger_counts": {
+      "flop:raise": 2,
+      "river:raise": 1,
+      "turn:raise": 1,
+      "preflop:call": 1,
+      "preflop:raise": 2
+    },
+    "paid_then_folded": [
+      15
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 15,
+    "rotation": 2,
+    "seat": 2,
+    "points": 20.0,
+    "hands": 133,
+    "eliminated": true,
+    "remaining_flop_chips": 456,
+    "action_counts": {
+      "preflop:fold": 91,
+      "preflop:call": 8,
+      "auction:bid": 17,
+      "flop:check": 10,
+      "turn:check": 6,
+      "river:check": 6,
+      "preflop:raise": 25,
+      "flop:fold": 4,
+      "turn:raise": 2,
+      "river:raise": 1,
+      "river:fold": 1,
+      "flop:raise": 3,
+      "flop:call": 2,
+      "turn:call": 1,
+      "turn:fold": 1
+    },
+    "danger_counts": {
+      "turn:raise": 1,
+      "turn:call": 1,
+      "preflop:raise": 3
+    },
+    "paid_then_folded": [
+      29
+    ],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 15,
+    "rotation": 3,
+    "seat": 1,
+    "points": 0.0,
+    "hands": 184,
+    "eliminated": true,
+    "remaining_flop_chips": 877,
+    "action_counts": {
+      "preflop:fold": 35,
+      "preflop:raise": 6,
+      "auction:bid": 4,
+      "flop:fold": 1,
+      "preflop:call": 3,
+      "flop:check": 3,
+      "turn:raise": 1,
+      "river:raise": 1,
+      "turn:check": 2,
+      "river:check": 2,
+      "flop:call": 1,
+      "turn:call": 1,
+      "river:call": 1
+    },
+    "danger_counts": {
+      "river:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 15,
+    "rotation": 4,
+    "seat": 0,
+    "points": 0.0,
+    "hands": 166,
+    "eliminated": true,
+    "remaining_flop_chips": 465,
+    "action_counts": {
+      "preflop:fold": 51,
+      "preflop:raise": 9,
+      "auction:bid": 12,
+      "flop:check": 8,
+      "turn:check": 4,
+      "river:call": 1,
+      "preflop:call": 7,
+      "flop:fold": 4,
+      "flop:raise": 2,
+      "river:check": 3,
+      "turn:call": 1,
+      "river:fold": 1,
+      "turn:raise": 1
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "turn:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 15,
+    "rotation": 5,
+    "seat": 7,
+    "points": 50.0,
+    "hands": 153,
+    "eliminated": false,
+    "remaining_flop_chips": 436,
+    "action_counts": {
+      "preflop:call": 8,
+      "auction:bid": 15,
+      "flop:check": 10,
+      "turn:check": 10,
+      "river:check": 9,
+      "preflop:fold": 89,
+      "preflop:raise": 40,
+      "flop:raise": 2,
+      "river:call": 2,
+      "flop:fold": 2,
+      "river:raise": 1
+    },
+    "danger_counts": {
+      "river:call": 1,
+      "preflop:raise": 4,
+      "flop:raise": 1,
+      "river:raise": 1,
+      "preflop:call": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 15,
+    "rotation": 6,
+    "seat": 6,
+    "points": 0.0,
+    "hands": 177,
+    "eliminated": true,
+    "remaining_flop_chips": 1000,
+    "action_counts": {
+      "preflop:fold": 22,
+      "preflop:raise": 5,
+      "preflop:call": 1,
+      "auction:bid": 4,
+      "flop:check": 3,
+      "turn:check": 3,
+      "turn:call": 1,
+      "river:check": 3,
+      "river:call": 1,
+      "flop:raise": 2,
+      "flop:call": 1,
+      "river:raise": 2
+    },
+    "danger_counts": {
+      "flop:raise": 1,
+      "flop:call": 1,
+      "river:raise": 1
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  },
+  {
+    "block": 15,
+    "rotation": 7,
+    "seat": 5,
+    "points": 50.0,
+    "hands": 166,
+    "eliminated": false,
+    "remaining_flop_chips": 509,
+    "action_counts": {
+      "preflop:fold": 107,
+      "preflop:call": 7,
+      "auction:bid": 18,
+      "flop:raise": 5,
+      "preflop:raise": 41,
+      "flop:check": 6,
+      "turn:check": 5,
+      "river:check": 4,
+      "river:raise": 1,
+      "flop:fold": 2,
+      "preflop:check": 1
+    },
+    "danger_counts": {
+      "flop:raise": 2,
+      "preflop:raise": 4,
+      "preflop:call": 2
+    },
+    "paid_then_folded": [],
+    "cheap_folds_after_raising": [],
+    "errors": []
+  }
+]

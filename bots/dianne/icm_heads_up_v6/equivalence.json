@@ -1,0 +1,10 @@
+{
+  "tables": 8,
+  "regressions": {
+    "J8_vs_44": "call",
+    "J8_vs_1000": "fold",
+    "J8_vs_2000_allin": "fold"
+  },
+  "unchanged_states": 6323,
+  "mismatches": 0
+}

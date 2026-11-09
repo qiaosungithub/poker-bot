@@ -1,0 +1,26 @@
+{
+  "started_utc": "2026-11-09T23:43:38.586531+00:00",
+  "variant": "flop_auction_holdem",
+  "seed": "icm-review-screen-20261109",
+  "blocks": 64,
+  "hand_cap": 250,
+  "mode": "direct",
+  "python": "3.12.9 (main, Feb 12 2025, 15:09:19) [Clang 19.1.6 ]",
+  "decision_ms": 1,
+  "delivery_grace_ms": null,
+  "time_bank_ms": null,
+  "sources": {
+    "selected": "73ed48b9128862704c8123b0e9c582ab366c4fa3b84206998874154fc4b17f56",
+    "icm_v3": "51a512f07268a9a57d822fd0a25d0a50ab9a07774a2c53fa67ae799ca298ebb4",
+    "icm_texture_v3": "9aac49568676bee9197beee54b8b87dd06121a567cb36af547de9d9af3bd205c",
+    "push_fold": "f7a8a72fd9b8a46e174b5c17d3d402c358578541c4e89838048ea5ca5b723787",
+    "opponent_adaptive": "75320dc1328cbdb936fc688546201c43bc5bdcf3c5ac4db139a5fdb92a385be3",
+    "value_heuristic": "a51294a47d8beb7cb521197f18ccca35c436f6961b75ea326506bc32f3bbe4b5",
+    "shadow_price_v2": "f25577617af792d0e6c8693f4ebc33175d45069f7433aef02d807df6edafce06",
+    "range_pressure": "7bef29abba4261e731908e0c0d8eed78be45a2988184b78059816b824e6d7218"
+  },
+  "timing_scope": "Agent.act only, no deadlines imposed; includes scheduler noise",
+  "runner_sha256": "d5f8a97e3505cf4a2abc0560c9d147368c68fc5c31a784c2cfdeb823464f0359",
+  "elapsed_seconds": 27.451592582743615,
+  "tables_sha256": "7d902f1a3f9caa29db496ae25217723a17c8e13603caa8e97c52c351aff47ff2"
+}
