@@ -1,0 +1,58 @@
+  arena reference_selection.json: 29.6s
+  arena iter_00010_selection.json: 28.1s
+selection    iter_00010: 50.767 [49.24,52.29]  ref 59.190  diff -8.423 [-10.28,-6.57]
+  arena iter_00020_selection.json: 30.2s
+selection    iter_00020: 61.540 [60.09,62.99]  ref 59.190  diff +2.350 [+0.52,+4.18]
+  arena iter_00030_selection.json: 32.1s
+selection    iter_00030: 56.261 [54.82,57.70]  ref 59.190  diff -2.928 [-4.81,-1.05]
+  arena iter_00040_selection.json: 28.8s
+selection    iter_00040: 56.393 [54.87,57.91]  ref 59.190  diff -2.796 [-4.60,-0.99]
+  arena iter_00050_selection.json: 28.5s
+selection    iter_00050: 55.312 [53.69,56.94]  ref 59.190  diff -3.878 [-5.82,-1.94]
+  arena iter_00060_selection.json: 28.4s
+selection    iter_00060: 55.788 [54.25,57.32]  ref 59.190  diff -3.402 [-5.23,-1.57]
+  arena iter_00070_selection.json: 29.5s
+selection    iter_00070: 56.729 [55.20,58.25]  ref 59.190  diff -2.461 [-4.21,-0.71]
+  arena iter_00080_selection.json: 30.2s
+selection    iter_00080: 57.002 [55.28,58.73]  ref 59.190  diff -2.188 [-4.07,-0.30]
+  arena iter_00090_selection.json: 28.8s
+selection    iter_00090: 52.595 [51.09,54.10]  ref 59.190  diff -6.594 [-8.52,-4.67]
+  arena iter_00100_selection.json: 31.8s
+selection    iter_00100: 57.328 [55.84,58.81]  ref 59.190  diff -1.862 [-3.67,-0.06]
+  arena iter_00110_selection.json: 37.0s
+selection    iter_00110: 52.680 [51.32,54.04]  ref 59.190  diff -6.510 [-8.29,-4.73]
+  arena iter_00120_selection.json: 29.0s
+selection    iter_00120: 55.396 [53.84,56.96]  ref 59.190  diff -3.793 [-5.77,-1.81]
+  arena iter_00130_selection.json: 29.5s
+selection    iter_00130: 56.269 [54.69,57.85]  ref 59.190  diff -2.920 [-4.71,-1.13]
+  arena iter_00140_selection.json: 33.2s
+selection    iter_00140: 57.893 [56.44,59.35]  ref 59.190  diff -1.297 [-3.12,+0.53]
+  arena iter_00150_selection.json: 29.1s
+selection    iter_00150: 53.840 [52.32,55.36]  ref 59.190  diff -5.350 [-7.22,-3.48]
+  arena iter_00160_selection.json: 28.8s
+selection    iter_00160: 58.914 [57.38,60.45]  ref 59.190  diff -0.276 [-1.97,+1.42]
+  arena iter_00170_selection.json: 29.1s
+selection    iter_00170: 52.811 [51.25,54.37]  ref 59.190  diff -6.379 [-8.31,-4.45]
+  arena iter_00180_selection.json: 28.6s
+selection    iter_00180: 52.395 [50.80,53.99]  ref 59.190  diff -6.795 [-8.60,-4.99]
+  arena iter_00190_selection.json: 28.9s
+selection    iter_00190: 54.809 [53.33,56.29]  ref 59.190  diff -4.380 [-6.20,-2.56]
+  arena iter_00200_selection.json: 28.3s
+selection    iter_00200: 56.419 [54.97,57.87]  ref 59.190  diff -2.771 [-4.50,-1.05]
+  arena iter_00210_selection.json: 28.5s
+selection    iter_00210: 53.037 [51.62,54.45]  ref 59.190  diff -6.152 [-7.89,-4.42]
+  arena iter_00220_selection.json: 32.8s
+selection    iter_00220: 60.082 [58.80,61.37]  ref 59.190  diff +0.892 [-0.90,+2.68]
+  arena iter_00230_selection.json: 28.9s
+selection    iter_00230: 54.325 [52.81,55.84]  ref 59.190  diff -4.865 [-6.67,-3.06]
+  arena iter_00240_selection.json: 31.4s
+selection    iter_00240: 59.622 [58.17,61.08]  ref 59.190  diff +0.432 [-1.35,+2.21]
+  arena iter_00250_selection.json: 28.9s
+selection    iter_00250: 55.582 [54.07,57.10]  ref 59.190  diff -3.607 [-5.50,-1.71]
+  arena reference_confirmation.json: 105.5s
+  arena iter_00020_confirmation.json: 105.5s
+confirmation iter_00020: 60.633 [59.94,61.33]  ref 58.589  diff +2.044 [+1.19,+2.90]
+  arena iter_00250_confirmation.json: 104.1s
+confirmation iter_00250: 54.394 [53.64,55.14]  ref 58.589  diff -4.195 [-5.09,-3.30]
+{"state": "complete", "criterion_passed": true}
+EXIT 0

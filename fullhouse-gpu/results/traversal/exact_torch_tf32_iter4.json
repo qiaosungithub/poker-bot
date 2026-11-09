@@ -1,0 +1,135 @@
+{
+ "n_adv_ref": 1261496,
+ "n_adv_mine": 1261333,
+ "exact_all": false,
+ "exact_features": false,
+ "exact_advantages": false,
+ "exact_strat_features": false,
+ "exact_strategies": false,
+ "exact_strat_weights": false,
+ "n_traversals": 30000,
+ "n_diverged_traversals": 447,
+ "diverged_examples": [
+  2,
+  90,
+  113,
+  118,
+  130,
+  211,
+  240,
+  271,
+  349,
+  379
+ ],
+ "n_aligned_samples": 1232010,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 269.99598693847656,
+   "max_rel_where_ref_gt_1em3": 495.11764186146354,
+   "frac_rows_nonzero_diff": 0.34048424931615817,
+   "n_rows_diff_gt_1em4": 350567,
+   "n_rows_diff_gt_1em2": 127820,
+   "p9999_abs": 9.853359699249268
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 0.32820238173007965,
+   "max_rel_where_ref_gt_1em3": 10.572090819023325,
+   "frac_rows_nonzero_diff": 0.45918539622243326,
+   "n_rows_diff_gt_1em4": 397791,
+   "n_rows_diff_gt_1em2": 2869,
+   "p9999_abs": 0.06183646641148839
+  },
+  "strat_weights": {
+   "max_abs": 0.026754260063171387,
+   "max_rel_where_ref_gt_1em3": 2.886418862615788,
+   "frac_rows_nonzero_diff": 0.1441911997467553,
+   "n_rows_diff_gt_1em4": 42797,
+   "n_rows_diff_gt_1em2": 17,
+   "p9999_abs": 0.004209868665039453
+  }
+ },
+ "n_bitexact_samples": 411199,
+ "n_strat_keep_flips": 150,
+ "stats_equal": false,
+ "ref_stats": [
+  [
+   596443,
+   103470,
+   87115
+  ],
+  [
+   585764,
+   208373,
+   214614
+  ],
+  [
+   704726,
+   348048,
+   272061
+  ],
+  [
+   851918,
+   601605,
+   2175030
+  ]
+ ],
+ "mine_stats": [
+  [
+   596411,
+   103468,
+   87103
+  ],
+  [
+   585638,
+   208336,
+   214544
+  ],
+  [
+   704609,
+   347984,
+   272016
+  ],
+  [
+   851768,
+   601545,
+   2174717
+  ]
+ ],
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/runs/baseline_a100_adv/iter_00004.npz",
+  "forward": "torch",
+  "precision": "tf32",
+  "device": "cuda:1",
+  "traverser": 3,
+  "eps": 0.0988,
+  "seed": 1002,
+  "workers": 46,
+  "threads": null,
+  "groups": 2,
+  "json": "results/exact_torch_tf32_iter4.json",
+  "negative_control": false
+ },
+ "t_ref_s": 9.665382948005572,
+ "t_mine_s": 2.0397248859517276,
+ "rounds": 32,
+ "nodes": 3999759,
+ "strat_kept_ref": 212270,
+ "strat_kept_mine": 212242
+}

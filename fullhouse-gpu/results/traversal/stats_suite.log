@@ -1,0 +1,32 @@
++ /home/qiaos/venvs/poker/bin/python compare_stats.py --net released --eps 0.02 --reps 6 --json results/stats_released.json
+ref rep 0: upstream==instrumented copy: True, adv/trav 41.512, 19.0s
+ref rep 1: upstream==instrumented copy: True, adv/trav 41.251, 9.1s
+ref rep 2: upstream==instrumented copy: True, adv/trav 41.603, 8.7s
+ref rep 3: upstream==instrumented copy: True, adv/trav 41.565, 8.9s
+ref rep 4: upstream==instrumented copy: True, adv/trav 41.111, 8.6s
+ref rep 5: upstream==instrumented copy: True, adv/trav 41.460, 8.7s
+highest {"n_metrics": 149, "max_abs_t": 3.510362624102017, "n_abs_t_gt_3": 2, "n_abs_t_gt_4": 0, "worst": ["feat_std_d30", "feat_std_d41", "feat_mean_d43", "feat_mean_d30", "feat_mean_d41", "feat_std_d05", "feat_std_d12", "feat_mean_d12"], "mean_wall_s": 1.035060984858622}
+tf32 {"n_metrics": 149, "max_abs_t": 3.540010171645157, "n_abs_t_gt_3": 2, "n_abs_t_gt_4": 0, "worst": ["feat_std_d30", "feat_std_d41", "feat_mean_d43", "feat_mean_d30", "feat_mean_d41", "feat_std_d05", "feat_std_d12", "feat_mean_d12"], "mean_wall_s": 0.8560983060160652}
+bf16 {"n_metrics": 149, "max_abs_t": 6.657549730446213, "n_abs_t_gt_3": 7, "n_abs_t_gt_4": 5, "worst": ["sigma_mean_a3", "sigma_mean_a1", "sigma_zero_frac_a3", "sigma_zero_frac_a1", "feat_std_d30", "sigma_zero_frac_a2", "feat_std_d41", "feat_mean_d43"], "mean_wall_s": 1.5118674784898758}
++ /home/qiaos/venvs/poker/bin/python compare_stats.py --net iter4 --eps 0.0988 --reps 6 --json results/stats_iter4.json
+ref rep 0: upstream==instrumented copy: True, adv/trav 41.646, 8.9s
+ref rep 1: upstream==instrumented copy: True, adv/trav 42.133, 8.8s
+ref rep 2: upstream==instrumented copy: True, adv/trav 42.211, 9.4s
+ref rep 3: upstream==instrumented copy: True, adv/trav 42.187, 9.5s
+ref rep 4: upstream==instrumented copy: True, adv/trav 41.934, 9.3s
+ref rep 5: upstream==instrumented copy: True, adv/trav 41.925, 9.1s
+highest {"n_metrics": 149, "max_abs_t": 3.3624540729788053, "n_abs_t_gt_3": 1, "n_abs_t_gt_4": 0, "worst": ["sigma_mean_a4", "feat_mean_d08", "sigma_mean_a1", "adv_mean_a0", "feat_mean_d00", "feat_std_d13", "feat_mean_d13", "feat_mean_d07"], "mean_wall_s": 1.9268500206332344}
+tf32 {"n_metrics": 149, "max_abs_t": 3.271701353768568, "n_abs_t_gt_3": 1, "n_abs_t_gt_4": 0, "worst": ["sigma_mean_a4", "feat_mean_d08", "feat_mean_d00", "adv_mean_a0", "sigma_mean_a1", "feat_std_d29", "feat_std_d13", "feat_mean_d13"], "mean_wall_s": 0.9462125471715505}
+bf16 {"n_metrics": 149, "max_abs_t": 6.629639679352232, "n_abs_t_gt_3": 1, "n_abs_t_gt_4": 1, "worst": ["sigma_zero_frac_a4", "sigma_zero_frac_a1", "sigma_mean_a1", "feat_mean_d08", "adv_mean_a0", "feat_mean_d00", "sigma_mean_a0", "feat_std_d13"], "mean_wall_s": 0.7663555126831246}
++ /home/qiaos/venvs/poker/bin/python compare_stats.py --net random:0 --eps 0.1 --reps 6 --json results/stats_random.json
+ref rep 0: upstream==instrumented copy: True, adv/trav 8.095, 4.3s
+ref rep 1: upstream==instrumented copy: True, adv/trav 8.037, 4.3s
+ref rep 2: upstream==instrumented copy: True, adv/trav 7.984, 4.4s
+ref rep 3: upstream==instrumented copy: True, adv/trav 8.017, 4.4s
+ref rep 4: upstream==instrumented copy: True, adv/trav 8.039, 4.7s
+ref rep 5: upstream==instrumented copy: True, adv/trav 7.920, 4.6s
+highest {"n_metrics": 149, "max_abs_t": 2.906591794880893, "n_abs_t_gt_3": 0, "n_abs_t_gt_4": 0, "worst": ["per_trav_adv_q99", "feat_std_d14", "adv_mean_a1", "adv_mean_a0", "feat_mean_d00", "feat_mean_d07", "feat_mean_d08", "feat_mean_d14"], "mean_wall_s": 0.405475201337443}
+tf32 {"n_metrics": 149, "max_abs_t": 2.7620441266900775, "n_abs_t_gt_3": 0, "n_abs_t_gt_4": 0, "worst": ["adv_mean_a1", "feat_std_d14", "adv_mean_a0", "feat_mean_d00", "feat_mean_d07", "feat_mean_d08", "per_trav_adv_q99", "feat_mean_d14"], "mean_wall_s": 0.22421968031752235}
+bf16 {"n_metrics": 149, "max_abs_t": 2.806698783133276, "n_abs_t_gt_3": 0, "n_abs_t_gt_4": 0, "worst": ["adv_mean_a1", "feat_std_d14", "feat_mean_d00", "nodes_opp_street0_per_trav", "adv_mean_a0", "trav_nodes_street0_per_trav", "nodes_trav_street0_per_trav", "feat_mean_d07"], "mean_wall_s": 0.2341330056466783}
++ echo STATS_DONE
+STATS_DONE

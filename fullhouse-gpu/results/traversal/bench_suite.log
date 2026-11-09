@@ -1,0 +1,500 @@
++ /home/qiaos/venvs/poker/bin/python bench.py --reps 8 --groups 2 --json results/bench_final_highest_g2.json
+{"rep": 0, "traverser": 0, "wall": 0.7462577020050958, "rounds": 29, "nodes": 3796525, "n_adv": 1250744, "n_strat_kept": 187738, "setup": 0.0149, "deal": 0.0035, "encode": 0.3054, "launch": 0.0997, "gpu_wait": 0.0009, "prefix": 0.0486, "expand": 0.2017, "compact": 0.0236, "backup": 0.0119, "gather": 0.0354, "total": 0.7462}
+{"rep": 1, "traverser": 1, "wall": 0.4788720039650798, "rounds": 28, "nodes": 3755450, "n_adv": 1231743, "n_strat_kept": 188407, "setup": 0.0086, "deal": 0.0071, "encode": 0.1416, "launch": 0.0585, "gpu_wait": 0.0008, "prefix": 0.0351, "expand": 0.1557, "compact": 0.0223, "backup": 0.0084, "gather": 0.0372, "total": 0.4758}
+{"rep": 2, "traverser": 2, "wall": 0.45423512905836105, "rounds": 30, "nodes": 3774821, "n_adv": 1237554, "n_strat_kept": 187048, "setup": 0.0086, "deal": 0.0036, "encode": 0.1263, "launch": 0.0619, "gpu_wait": 0.0008, "prefix": 0.035, "expand": 0.1491, "compact": 0.0228, "backup": 0.0085, "gather": 0.0339, "total": 0.4509}
+{"rep": 3, "traverser": 3, "wall": 0.45621892297640443, "rounds": 33, "nodes": 3803346, "n_adv": 1249885, "n_strat_kept": 190405, "setup": 0.0086, "deal": 0.0035, "encode": 0.1279, "launch": 0.0629, "gpu_wait": 0.0008, "prefix": 0.0355, "expand": 0.148, "compact": 0.0226, "backup": 0.0086, "gather": 0.034, "total": 0.453}
+{"rep": 4, "traverser": 4, "wall": 0.452808276982978, "rounds": 30, "nodes": 3737579, "n_adv": 1232861, "n_strat_kept": 185098, "setup": 0.0086, "deal": 0.0035, "encode": 0.1249, "launch": 0.0618, "gpu_wait": 0.0008, "prefix": 0.0347, "expand": 0.1486, "compact": 0.0224, "backup": 0.0086, "gather": 0.0338, "total": 0.4484}
+{"rep": 5, "traverser": 5, "wall": 0.45840398990549147, "rounds": 31, "nodes": 3771218, "n_adv": 1246382, "n_strat_kept": 188842, "setup": 0.0085, "deal": 0.0036, "encode": 0.127, "launch": 0.0621, "gpu_wait": 0.0008, "prefix": 0.035, "expand": 0.1489, "compact": 0.0225, "backup": 0.0091, "gather": 0.0371, "total": 0.4552}
+{"rep": 6, "traverser": 0, "wall": 0.45334020094014704, "rounds": 31, "nodes": 3761761, "n_adv": 1240535, "n_strat_kept": 186696, "setup": 0.0086, "deal": 0.0035, "encode": 0.1264, "launch": 0.0611, "gpu_wait": 0.0008, "prefix": 0.0349, "expand": 0.1479, "compact": 0.0225, "backup": 0.0085, "gather": 0.0337, "total": 0.4484}
+{"rep": 7, "traverser": 1, "wall": 0.4559244540287182, "rounds": 30, "nodes": 3782309, "n_adv": 1245355, "n_strat_kept": 186055, "setup": 0.0085, "deal": 0.0036, "encode": 0.1269, "launch": 0.0621, "gpu_wait": 0.0009, "prefix": 0.0358, "expand": 0.1471, "compact": 0.0225, "backup": 0.009, "gather": 0.0362, "total": 0.4529}
+{
+ "mean_wall": 0.49450758498278446,
+ "min_wall": 0.452808276982978,
+ "trav_per_s": 60666.4102048999,
+ "mean_split": {
+  "wall": 0.49450758498278446,
+  "rounds": 30.25,
+  "nodes": 3772876.125,
+  "n_adv": 1241882.375,
+  "n_strat_kept": 187536.125,
+  "setup": 0.0093625,
+  "deal": 0.0039875,
+  "encode": 0.15080000000000002,
+  "launch": 0.0662625,
+  "gpu_wait": 0.000825,
+  "prefix": 0.036825000000000004,
+  "expand": 0.155875,
+  "compact": 0.022649999999999997,
+  "backup": 0.009075,
+  "gather": 0.0351625,
+  "total": 0.49135
+ },
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/source/data/deep_cfr_model.npz",
+  "precision": "highest",
+  "device": "cuda:1",
+  "threads": null,
+  "reps": 8,
+  "eps": 0.02,
+  "profile": false,
+  "groups": 2,
+  "to_device": null,
+  "json": "results/bench_final_highest_g2.json"
+ },
+ "peak_gpu_mem_gb": 0.835868672
+}
++ /home/qiaos/venvs/poker/bin/python bench.py --reps 8 --groups 1 --json results/bench_final_highest_g1.json
+{"rep": 0, "traverser": 0, "wall": 0.948007105034776, "rounds": 29, "nodes": 3796525, "n_adv": 1250744, "n_strat_kept": 187738, "setup": 0.0141, "deal": 0.0035, "encode": 0.3804, "launch": 0.0623, "gpu_wait": 0.1806, "prefix": 0.0406, "expand": 0.1981, "compact": 0.0222, "backup": 0.0097, "gather": 0.0361, "total": 0.9479}
+{"rep": 1, "traverser": 1, "wall": 0.6248700000578538, "rounds": 28, "nodes": 3755450, "n_adv": 1231743, "n_strat_kept": 188407, "setup": 0.0087, "deal": 0.0034, "encode": 0.118, "launch": 0.0349, "gpu_wait": 0.2081, "prefix": 0.0292, "expand": 0.1544, "compact": 0.02, "backup": 0.0073, "gather": 0.0378, "total": 0.622}
+{"rep": 2, "traverser": 2, "wall": 0.6203694299329072, "rounds": 30, "nodes": 3774821, "n_adv": 1237554, "n_strat_kept": 187048, "setup": 0.0086, "deal": 0.0036, "encode": 0.1185, "launch": 0.0392, "gpu_wait": 0.2019, "prefix": 0.0294, "expand": 0.1529, "compact": 0.0199, "backup": 0.0073, "gather": 0.0356, "total": 0.6172}
+{"rep": 3, "traverser": 3, "wall": 0.6073020820040256, "rounds": 33, "nodes": 3803346, "n_adv": 1249885, "n_strat_kept": 190405, "setup": 0.0089, "deal": 0.0035, "encode": 0.1197, "launch": 0.0412, "gpu_wait": 0.1851, "prefix": 0.0298, "expand": 0.1538, "compact": 0.02, "backup": 0.0076, "gather": 0.0341, "total": 0.6042}
+{"rep": 4, "traverser": 4, "wall": 0.5850506400456652, "rounds": 30, "nodes": 3737579, "n_adv": 1232861, "n_strat_kept": 185098, "setup": 0.0086, "deal": 0.0035, "encode": 0.1177, "launch": 0.0361, "gpu_wait": 0.1763, "prefix": 0.0287, "expand": 0.1494, "compact": 0.0194, "backup": 0.0074, "gather": 0.0342, "total": 0.5818}
+{"rep": 5, "traverser": 5, "wall": 0.5939676589332521, "rounds": 31, "nodes": 3771218, "n_adv": 1246382, "n_strat_kept": 188842, "setup": 0.0086, "deal": 0.0035, "encode": 0.1187, "launch": 0.0365, "gpu_wait": 0.1806, "prefix": 0.029, "expand": 0.1513, "compact": 0.0198, "backup": 0.0075, "gather": 0.0351, "total": 0.5908}
+{"rep": 6, "traverser": 0, "wall": 0.5968364060390741, "rounds": 31, "nodes": 3761761, "n_adv": 1240535, "n_strat_kept": 186696, "setup": 0.0087, "deal": 0.0035, "encode": 0.123, "launch": 0.04, "gpu_wait": 0.1714, "prefix": 0.0289, "expand": 0.1561, "compact": 0.0199, "backup": 0.0074, "gather": 0.0345, "total": 0.5937}
+{"rep": 7, "traverser": 1, "wall": 0.5986826820299029, "rounds": 30, "nodes": 3782309, "n_adv": 1245355, "n_strat_kept": 186055, "setup": 0.0087, "deal": 0.0035, "encode": 0.1189, "launch": 0.0362, "gpu_wait": 0.183, "prefix": 0.029, "expand": 0.1544, "compact": 0.0198, "backup": 0.0074, "gather": 0.0344, "total": 0.5957}
+{
+ "mean_wall": 0.6468857505096821,
+ "min_wall": 0.5850506400456652,
+ "trav_per_s": 46376.04086403659,
+ "mean_split": {
+  "wall": 0.6468857505096821,
+  "rounds": 30.25,
+  "nodes": 3772876.125,
+  "n_adv": 1241882.375,
+  "n_strat_kept": 187536.125,
+  "setup": 0.0093625,
+  "deal": 0.0035,
+  "encode": 0.1518625,
+  "launch": 0.0408,
+  "gpu_wait": 0.185875,
+  "prefix": 0.030575,
+  "expand": 0.1588,
+  "compact": 0.020125,
+  "backup": 0.0077,
+  "gather": 0.035225,
+  "total": 0.6441625
+ },
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/source/data/deep_cfr_model.npz",
+  "precision": "highest",
+  "device": "cuda:1",
+  "threads": null,
+  "reps": 8,
+  "eps": 0.02,
+  "profile": false,
+  "groups": 1,
+  "to_device": null,
+  "json": "results/bench_final_highest_g1.json"
+ },
+ "peak_gpu_mem_gb": 1.653843456
+}
++ /home/qiaos/venvs/poker/bin/python bench.py --reps 8 --groups 3 --json results/bench_final_highest_g3.json
+{"rep": 0, "traverser": 0, "wall": 0.7901540740858763, "rounds": 29, "nodes": 3796525, "n_adv": 1250744, "n_strat_kept": 187738, "setup": 0.0144, "deal": 0.0037, "encode": 0.3084, "launch": 0.1218, "gpu_wait": 0.0013, "prefix": 0.0465, "expand": 0.2195, "compact": 0.0241, "backup": 0.0137, "gather": 0.0359, "total": 0.7901}
+{"rep": 1, "traverser": 1, "wall": 0.4891735159326345, "rounds": 28, "nodes": 3755450, "n_adv": 1231743, "n_strat_kept": 188407, "setup": 0.0087, "deal": 0.0036, "encode": 0.1209, "launch": 0.0816, "gpu_wait": 0.001, "prefix": 0.037, "expand": 0.1638, "compact": 0.0219, "backup": 0.0099, "gather": 0.0372, "total": 0.4863}
+{"rep": 2, "traverser": 2, "wall": 0.4868761729449034, "rounds": 30, "nodes": 3774821, "n_adv": 1237554, "n_strat_kept": 187048, "setup": 0.0086, "deal": 0.0037, "encode": 0.1206, "launch": 0.0852, "gpu_wait": 0.0011, "prefix": 0.0373, "expand": 0.1611, "compact": 0.0221, "backup": 0.0096, "gather": 0.0337, "total": 0.4838}
+{"rep": 3, "traverser": 3, "wall": 0.49005156196653843, "rounds": 33, "nodes": 3803346, "n_adv": 1249885, "n_strat_kept": 190405, "setup": 0.0087, "deal": 0.0036, "encode": 0.1229, "launch": 0.0861, "gpu_wait": 0.0011, "prefix": 0.0376, "expand": 0.1599, "compact": 0.0222, "backup": 0.0097, "gather": 0.0342, "total": 0.4867}
+{"rep": 4, "traverser": 4, "wall": 0.48097168491221964, "rounds": 30, "nodes": 3737579, "n_adv": 1232861, "n_strat_kept": 185098, "setup": 0.0087, "deal": 0.0037, "encode": 0.1205, "launch": 0.0846, "gpu_wait": 0.001, "prefix": 0.0367, "expand": 0.1564, "compact": 0.022, "backup": 0.0095, "gather": 0.0342, "total": 0.4779}
+{"rep": 5, "traverser": 5, "wall": 0.48930988495703787, "rounds": 31, "nodes": 3771218, "n_adv": 1246382, "n_strat_kept": 188842, "setup": 0.0087, "deal": 0.0036, "encode": 0.1262, "launch": 0.0835, "gpu_wait": 0.0011, "prefix": 0.0369, "expand": 0.1591, "compact": 0.0221, "backup": 0.0096, "gather": 0.0349, "total": 0.4863}
+{"rep": 6, "traverser": 0, "wall": 0.4884925769874826, "rounds": 31, "nodes": 3761761, "n_adv": 1240535, "n_strat_kept": 186696, "setup": 0.0088, "deal": 0.0037, "encode": 0.1208, "launch": 0.0859, "gpu_wait": 0.0011, "prefix": 0.0374, "expand": 0.1603, "compact": 0.0221, "backup": 0.0095, "gather": 0.0344, "total": 0.4845}
+{"rep": 7, "traverser": 1, "wall": 0.48867894301656634, "rounds": 30, "nodes": 3782309, "n_adv": 1245355, "n_strat_kept": 186055, "setup": 0.0086, "deal": 0.0037, "encode": 0.1224, "launch": 0.0831, "gpu_wait": 0.001, "prefix": 0.0374, "expand": 0.1599, "compact": 0.0221, "backup": 0.0102, "gather": 0.0364, "total": 0.4856}
+{
+ "mean_wall": 0.5254635518504074,
+ "min_wall": 0.48097168491221964,
+ "trav_per_s": 57092.44702959076,
+ "mean_split": {
+  "wall": 0.5254635518504074,
+  "rounds": 30.25,
+  "nodes": 3772876.125,
+  "n_adv": 1241882.375,
+  "n_strat_kept": 187536.125,
+  "setup": 0.009399999999999999,
+  "deal": 0.0036625,
+  "encode": 0.1453375,
+  "launch": 0.088975,
+  "gpu_wait": 0.0010875000000000001,
+  "prefix": 0.038349999999999995,
+  "expand": 0.16749999999999998,
+  "compact": 0.022325,
+  "backup": 0.0102125,
+  "gather": 0.035112500000000005,
+  "total": 0.5226500000000001
+ },
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/source/data/deep_cfr_model.npz",
+  "precision": "highest",
+  "device": "cuda:1",
+  "threads": null,
+  "reps": 8,
+  "eps": 0.02,
+  "profile": false,
+  "groups": 3,
+  "to_device": null,
+  "json": "results/bench_final_highest_g3.json"
+ },
+ "peak_gpu_mem_gb": 0.561490944
+}
++ /home/qiaos/venvs/poker/bin/python bench.py --reps 8 --groups 2 --precision tf32 --json results/bench_final_tf32_g2.json
+{"rep": 0, "traverser": 0, "wall": 0.7399585120147094, "rounds": 29, "nodes": 3796999, "n_adv": 1250849, "n_strat_kept": 187879, "setup": 0.0144, "deal": 0.0036, "encode": 0.3008, "launch": 0.1009, "gpu_wait": 0.0009, "prefix": 0.0462, "expand": 0.2021, "compact": 0.023, "backup": 0.0117, "gather": 0.0357, "total": 0.7399}
+{"rep": 1, "traverser": 1, "wall": 0.45706459402572364, "rounds": 28, "nodes": 3756161, "n_adv": 1232006, "n_strat_kept": 188475, "setup": 0.0087, "deal": 0.0034, "encode": 0.1224, "launch": 0.0605, "gpu_wait": 0.0008, "prefix": 0.0353, "expand": 0.155, "compact": 0.0214, "backup": 0.0087, "gather": 0.0374, "total": 0.4541}
+{"rep": 2, "traverser": 2, "wall": 0.4599981289356947, "rounds": 30, "nodes": 3775659, "n_adv": 1237762, "n_strat_kept": 187068, "setup": 0.0086, "deal": 0.0036, "encode": 0.122, "launch": 0.064, "gpu_wait": 0.0008, "prefix": 0.036, "expand": 0.1572, "compact": 0.0215, "backup": 0.0086, "gather": 0.0342, "total": 0.4571}
+{"rep": 3, "traverser": 3, "wall": 0.46309697802644223, "rounds": 33, "nodes": 3803059, "n_adv": 1249714, "n_strat_kept": 190541, "setup": 0.0086, "deal": 0.0036, "encode": 0.1241, "launch": 0.0647, "gpu_wait": 0.0008, "prefix": 0.0353, "expand": 0.1575, "compact": 0.0221, "backup": 0.0087, "gather": 0.0341, "total": 0.4601}
+{"rep": 4, "traverser": 4, "wall": 0.4563152820337564, "rounds": 30, "nodes": 3738127, "n_adv": 1233018, "n_strat_kept": 185164, "setup": 0.0087, "deal": 0.0035, "encode": 0.1225, "launch": 0.0637, "gpu_wait": 0.0008, "prefix": 0.0351, "expand": 0.1527, "compact": 0.0217, "backup": 0.0085, "gather": 0.034, "total": 0.4516}
+{"rep": 5, "traverser": 5, "wall": 0.46123513695783913, "rounds": 31, "nodes": 3771271, "n_adv": 1246294, "n_strat_kept": 188839, "setup": 0.0085, "deal": 0.0036, "encode": 0.1229, "launch": 0.0642, "gpu_wait": 0.0008, "prefix": 0.0353, "expand": 0.1542, "compact": 0.0218, "backup": 0.009, "gather": 0.0374, "total": 0.4582}
+{"rep": 6, "traverser": 0, "wall": 0.46043315704446286, "rounds": 31, "nodes": 3761788, "n_adv": 1240383, "n_strat_kept": 186734, "setup": 0.0086, "deal": 0.0036, "encode": 0.1233, "launch": 0.0631, "gpu_wait": 0.0008, "prefix": 0.0359, "expand": 0.1562, "compact": 0.0214, "backup": 0.0086, "gather": 0.0343, "total": 0.4562}
+{"rep": 7, "traverser": 1, "wall": 0.4621359769953415, "rounds": 30, "nodes": 3782812, "n_adv": 1245499, "n_strat_kept": 186100, "setup": 0.0085, "deal": 0.0036, "encode": 0.124, "launch": 0.0634, "gpu_wait": 0.0008, "prefix": 0.0357, "expand": 0.1557, "compact": 0.0216, "backup": 0.0089, "gather": 0.0367, "total": 0.4593}
+{
+ "mean_wall": 0.4950297207542462,
+ "min_wall": 0.4563152820337564,
+ "trav_per_s": 60602.421919821,
+ "mean_split": {
+  "wall": 0.4950297207542462,
+  "rounds": 30.25,
+  "nodes": 3773234.5,
+  "n_adv": 1241940.625,
+  "n_strat_kept": 187600.0,
+  "setup": 0.009325,
+  "deal": 0.0035624999999999997,
+  "encode": 0.14525,
+  "launch": 0.0680625,
+  "gpu_wait": 0.0008125000000000001,
+  "prefix": 0.036849999999999994,
+  "expand": 0.161325,
+  "compact": 0.0218125,
+  "backup": 0.0090875,
+  "gather": 0.035475000000000007,
+  "total": 0.4920625
+ },
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/source/data/deep_cfr_model.npz",
+  "precision": "tf32",
+  "device": "cuda:1",
+  "threads": null,
+  "reps": 8,
+  "eps": 0.02,
+  "profile": false,
+  "groups": 2,
+  "to_device": null,
+  "json": "results/bench_final_tf32_g2.json"
+ },
+ "peak_gpu_mem_gb": 0.836101632
+}
++ /home/qiaos/venvs/poker/bin/python bench.py --reps 4 --profile --json results/bench_final_profile.json
+{"rep": 0, "traverser": 0, "wall": 0.9185196800390258, "rounds": 29, "nodes": 3796525, "n_adv": 1250744, "n_strat_kept": 187738, "setup": 0.0142, "deal": 0.0035, "h2d": 0.0666, "fwd": 0.1654, "d2h": 0.0064, "encode": 0.3721, "launch": 0.2452, "gpu_wait": 0.0001, "prefix": 0.0403, "expand": 0.1742, "compact": 0.0223, "backup": 0.0097, "gather": 0.0364, "total": 0.9185}
+{"rep": 1, "traverser": 1, "wall": 0.6072138210292906, "rounds": 28, "nodes": 3755450, "n_adv": 1231743, "n_strat_kept": 188407, "setup": 0.0087, "deal": 0.0061, "h2d": 0.0651, "fwd": 0.1626, "d2h": 0.0063, "encode": 0.1184, "launch": 0.24, "gpu_wait": 0.0001, "prefix": 0.0298, "expand": 0.1354, "compact": 0.0199, "backup": 0.0073, "gather": 0.0384, "total": 0.6043}
+{"rep": 2, "traverser": 2, "wall": 0.5900041209533811, "rounds": 30, "nodes": 3774821, "n_adv": 1237554, "n_strat_kept": 187048, "setup": 0.0086, "deal": 0.0036, "h2d": 0.0657, "fwd": 0.1521, "d2h": 0.0063, "encode": 0.1169, "launch": 0.2306, "gpu_wait": 0.0001, "prefix": 0.0292, "expand": 0.1354, "compact": 0.0198, "backup": 0.0073, "gather": 0.0349, "total": 0.5867}
+{"rep": 3, "traverser": 3, "wall": 0.5866263649659231, "rounds": 33, "nodes": 3803346, "n_adv": 1249885, "n_strat_kept": 190405, "setup": 0.0087, "deal": 0.0036, "h2d": 0.0662, "fwd": 0.147, "d2h": 0.0065, "encode": 0.1164, "launch": 0.2269, "gpu_wait": 0.0002, "prefix": 0.0296, "expand": 0.1364, "compact": 0.0201, "backup": 0.0075, "gather": 0.034, "total": 0.5835}
+{
+ "mean_wall": 0.6755909967469051,
+ "min_wall": 0.5866263649659231,
+ "trav_per_s": 44405.5651192149,
+ "mean_split": {
+  "wall": 0.6755909967469051,
+  "rounds": 30.0,
+  "nodes": 3782535.5,
+  "n_adv": 1242481.5,
+  "n_strat_kept": 188399.5,
+  "setup": 0.01005,
+  "deal": 0.0042,
+  "h2d": 0.0659,
+  "fwd": 0.156775,
+  "d2h": 0.006375,
+  "encode": 0.18095,
+  "launch": 0.235675,
+  "gpu_wait": 0.000125,
+  "prefix": 0.032225000000000004,
+  "expand": 0.14534999999999998,
+  "compact": 0.020525,
+  "backup": 0.00795,
+  "gather": 0.035925,
+  "total": 0.6732499999999999
+ },
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/source/data/deep_cfr_model.npz",
+  "precision": "highest",
+  "device": "cuda:1",
+  "threads": null,
+  "reps": 4,
+  "eps": 0.02,
+  "profile": true,
+  "groups": 2,
+  "to_device": null,
+  "json": "results/bench_final_profile.json"
+ },
+ "peak_gpu_mem_gb": 1.653843456
+}
++ for T in 12 24 36
++ /home/qiaos/venvs/poker/bin/python bench.py --reps 6 --groups 2 --threads 12 --json results/bench_final_threads12.json
+{"rep": 0, "traverser": 0, "wall": 0.9682351050432771, "rounds": 29, "nodes": 3796525, "n_adv": 1250744, "n_strat_kept": 187738, "setup": 0.0132, "deal": 0.0094, "encode": 0.4171, "launch": 0.0885, "gpu_wait": 0.0007, "prefix": 0.04, "expand": 0.3145, "compact": 0.0203, "backup": 0.0119, "gather": 0.0521, "total": 0.9682}
+{"rep": 1, "traverser": 1, "wall": 0.6914179329760373, "rounds": 28, "nodes": 3755450, "n_adv": 1231743, "n_strat_kept": 188407, "setup": 0.0085, "deal": 0.009, "encode": 0.2398, "launch": 0.0505, "gpu_wait": 0.0006, "prefix": 0.0317, "expand": 0.2718, "compact": 0.0182, "backup": 0.0083, "gather": 0.0505, "total": 0.6893}
+{"rep": 2, "traverser": 2, "wall": 0.6963650900870562, "rounds": 30, "nodes": 3774821, "n_adv": 1237554, "n_strat_kept": 187048, "setup": 0.0083, "deal": 0.009, "encode": 0.2407, "launch": 0.0534, "gpu_wait": 0.0007, "prefix": 0.0316, "expand": 0.2729, "compact": 0.0182, "backup": 0.0085, "gather": 0.0501, "total": 0.6938}
+{"rep": 3, "traverser": 3, "wall": 0.7028721020324156, "rounds": 33, "nodes": 3803346, "n_adv": 1249885, "n_strat_kept": 190405, "setup": 0.0085, "deal": 0.009, "encode": 0.2427, "launch": 0.0543, "gpu_wait": 0.0007, "prefix": 0.0319, "expand": 0.2747, "compact": 0.0185, "backup": 0.0084, "gather": 0.0508, "total": 0.6999}
+{"rep": 4, "traverser": 4, "wall": 0.6925566440913826, "rounds": 30, "nodes": 3737579, "n_adv": 1232861, "n_strat_kept": 185098, "setup": 0.0085, "deal": 0.009, "encode": 0.2375, "launch": 0.054, "gpu_wait": 0.0007, "prefix": 0.0317, "expand": 0.2717, "compact": 0.0181, "backup": 0.0084, "gather": 0.0502, "total": 0.6901}
+{"rep": 5, "traverser": 5, "wall": 0.7003967699129134, "rounds": 31, "nodes": 3771218, "n_adv": 1246382, "n_strat_kept": 188842, "setup": 0.0084, "deal": 0.009, "encode": 0.2405, "launch": 0.0536, "gpu_wait": 0.0007, "prefix": 0.0318, "expand": 0.2753, "compact": 0.0183, "backup": 0.0085, "gather": 0.0516, "total": 0.6982}
+{
+ "mean_wall": 0.7419739406905137,
+ "min_wall": 0.6914179329760373,
+ "trav_per_s": 40432.68685700832,
+ "mean_split": {
+  "wall": 0.7419739406905137,
+  "rounds": 30.166666666666668,
+  "nodes": 3773156.5,
+  "n_adv": 1241528.1666666667,
+  "n_strat_kept": 187923.0,
+  "setup": 0.009233333333333333,
+  "deal": 0.009066666666666667,
+  "encode": 0.26971666666666666,
+  "launch": 0.05905,
+  "gpu_wait": 0.0006833333333333334,
+  "prefix": 0.03311666666666666,
+  "expand": 0.28014999999999995,
+  "compact": 0.018600000000000002,
+  "backup": 0.009,
+  "gather": 0.050883333333333336,
+  "total": 0.7399166666666668
+ },
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/source/data/deep_cfr_model.npz",
+  "precision": "highest",
+  "device": "cuda:1",
+  "threads": 12,
+  "reps": 6,
+  "eps": 0.02,
+  "profile": false,
+  "groups": 2,
+  "to_device": null,
+  "json": "results/bench_final_threads12.json"
+ },
+ "peak_gpu_mem_gb": 0.835868672
+}
++ for T in 12 24 36
++ /home/qiaos/venvs/poker/bin/python bench.py --reps 6 --groups 2 --threads 24 --json results/bench_final_threads24.json
+{"rep": 0, "traverser": 0, "wall": 0.7070125439204276, "rounds": 29, "nodes": 3796525, "n_adv": 1250744, "n_strat_kept": 187738, "setup": 0.0134, "deal": 0.0048, "encode": 0.3027, "launch": 0.0926, "gpu_wait": 0.0008, "prefix": 0.0441, "expand": 0.1781, "compact": 0.0203, "backup": 0.0099, "gather": 0.0397, "total": 0.707}
+{"rep": 1, "traverser": 1, "wall": 0.4380544270388782, "rounds": 28, "nodes": 3755450, "n_adv": 1231743, "n_strat_kept": 188407, "setup": 0.0084, "deal": 0.0047, "encode": 0.1271, "launch": 0.054, "gpu_wait": 0.0007, "prefix": 0.0332, "expand": 0.141, "compact": 0.0188, "backup": 0.0074, "gather": 0.0402, "total": 0.4359}
+{"rep": 2, "traverser": 2, "wall": 0.441061750985682, "rounds": 30, "nodes": 3774821, "n_adv": 1237554, "n_strat_kept": 187048, "setup": 0.0085, "deal": 0.0046, "encode": 0.1272, "launch": 0.0572, "gpu_wait": 0.0007, "prefix": 0.0334, "expand": 0.1416, "compact": 0.0188, "backup": 0.0074, "gather": 0.0387, "total": 0.4387}
+{"rep": 3, "traverser": 3, "wall": 0.4466834859922528, "rounds": 33, "nodes": 3803346, "n_adv": 1249885, "n_strat_kept": 190405, "setup": 0.0084, "deal": 0.0049, "encode": 0.1296, "launch": 0.058, "gpu_wait": 0.0007, "prefix": 0.0336, "expand": 0.1435, "compact": 0.0187, "backup": 0.0076, "gather": 0.039, "total": 0.4444}
+{"rep": 4, "traverser": 4, "wall": 0.44115971692372113, "rounds": 30, "nodes": 3737579, "n_adv": 1232861, "n_strat_kept": 185098, "setup": 0.0085, "deal": 0.0046, "encode": 0.1268, "launch": 0.0565, "gpu_wait": 0.0007, "prefix": 0.0334, "expand": 0.1429, "compact": 0.0184, "backup": 0.0074, "gather": 0.0386, "total": 0.438}
+{"rep": 5, "traverser": 5, "wall": 0.44375451700761914, "rounds": 31, "nodes": 3771218, "n_adv": 1246382, "n_strat_kept": 188842, "setup": 0.0083, "deal": 0.0047, "encode": 0.1282, "launch": 0.0574, "gpu_wait": 0.0008, "prefix": 0.0332, "expand": 0.1421, "compact": 0.0185, "backup": 0.0079, "gather": 0.0398, "total": 0.4413}
+{
+ "mean_wall": 0.48628774031143013,
+ "min_wall": 0.4380544270388782,
+ "trav_per_s": 61691.86988096244,
+ "mean_split": {
+  "wall": 0.48628774031143013,
+  "rounds": 30.166666666666668,
+  "nodes": 3773156.5,
+  "n_adv": 1241528.1666666667,
+  "n_strat_kept": 187923.0,
+  "setup": 0.00925,
+  "deal": 0.004716666666666667,
+  "encode": 0.15693333333333334,
+  "launch": 0.06261666666666667,
+  "gpu_wait": 0.0007333333333333333,
+  "prefix": 0.03515000000000001,
+  "expand": 0.1482,
+  "compact": 0.01891666666666667,
+  "backup": 0.007933333333333334,
+  "gather": 0.03933333333333333,
+  "total": 0.4842166666666667
+ },
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/source/data/deep_cfr_model.npz",
+  "precision": "highest",
+  "device": "cuda:1",
+  "threads": 24,
+  "reps": 6,
+  "eps": 0.02,
+  "profile": false,
+  "groups": 2,
+  "to_device": null,
+  "json": "results/bench_final_threads24.json"
+ },
+ "peak_gpu_mem_gb": 0.835868672
+}
++ for T in 12 24 36
++ /home/qiaos/venvs/poker/bin/python bench.py --reps 6 --groups 2 --threads 36 --json results/bench_final_threads36.json
+{"rep": 0, "traverser": 0, "wall": 0.8093267990043387, "rounds": 29, "nodes": 3796525, "n_adv": 1250744, "n_strat_kept": 187738, "setup": 0.0143, "deal": 0.0045, "encode": 0.3347, "launch": 0.0976, "gpu_wait": 0.0009, "prefix": 0.0467, "expand": 0.2379, "compact": 0.023, "backup": 0.0113, "gather": 0.0376, "total": 0.8093}
+{"rep": 1, "traverser": 1, "wall": 0.5258670769399032, "rounds": 28, "nodes": 3755450, "n_adv": 1231743, "n_strat_kept": 188407, "setup": 0.0086, "deal": 0.0045, "encode": 0.1539, "launch": 0.0587, "gpu_wait": 0.0007, "prefix": 0.0334, "expand": 0.1956, "compact": 0.02, "backup": 0.0087, "gather": 0.0382, "total": 0.5227}
+{"rep": 2, "traverser": 2, "wall": 0.5293843790423125, "rounds": 30, "nodes": 3774821, "n_adv": 1237554, "n_strat_kept": 187048, "setup": 0.0086, "deal": 0.0046, "encode": 0.1538, "launch": 0.0636, "gpu_wait": 0.0008, "prefix": 0.0344, "expand": 0.1952, "compact": 0.0213, "backup": 0.0083, "gather": 0.0349, "total": 0.526}
+{"rep": 3, "traverser": 3, "wall": 0.5326763330958784, "rounds": 33, "nodes": 3803346, "n_adv": 1249885, "n_strat_kept": 190405, "setup": 0.0085, "deal": 0.0046, "encode": 0.1556, "launch": 0.0638, "gpu_wait": 0.0008, "prefix": 0.0345, "expand": 0.1957, "compact": 0.0218, "backup": 0.0086, "gather": 0.0351, "total": 0.5294}
+{"rep": 4, "traverser": 4, "wall": 0.525392868090421, "rounds": 30, "nodes": 3737579, "n_adv": 1232861, "n_strat_kept": 185098, "setup": 0.0086, "deal": 0.0046, "encode": 0.1519, "launch": 0.0632, "gpu_wait": 0.0008, "prefix": 0.0342, "expand": 0.1933, "compact": 0.0212, "backup": 0.0082, "gather": 0.0353, "total": 0.5219}
+{"rep": 5, "traverser": 5, "wall": 0.5273438669973984, "rounds": 31, "nodes": 3771218, "n_adv": 1246382, "n_strat_kept": 188842, "setup": 0.0083, "deal": 0.0046, "encode": 0.153, "launch": 0.0597, "gpu_wait": 0.0007, "prefix": 0.0335, "expand": 0.199, "compact": 0.0193, "backup": 0.0089, "gather": 0.0374, "total": 0.5249}
+{
+ "mean_wall": 0.5749985538617087,
+ "min_wall": 0.525392868090421,
+ "trav_per_s": 52174.044262405594,
+ "mean_split": {
+  "wall": 0.5749985538617087,
+  "rounds": 30.166666666666668,
+  "nodes": 3773156.5,
+  "n_adv": 1241528.1666666667,
+  "n_strat_kept": 187923.0,
+  "setup": 0.009483333333333335,
+  "deal": 0.004566666666666667,
+  "encode": 0.18381666666666666,
+  "launch": 0.06776666666666666,
+  "gpu_wait": 0.0007833333333333334,
+  "prefix": 0.03611666666666667,
+  "expand": 0.20278333333333334,
+  "compact": 0.021099999999999997,
+  "backup": 0.009,
+  "gather": 0.036416666666666674,
+  "total": 0.5723666666666667
+ },
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/source/data/deep_cfr_model.npz",
+  "precision": "highest",
+  "device": "cuda:1",
+  "threads": 36,
+  "reps": 6,
+  "eps": 0.02,
+  "profile": false,
+  "groups": 2,
+  "to_device": null,
+  "json": "results/bench_final_threads36.json"
+ },
+ "peak_gpu_mem_gb": 0.835868672
+}
++ /home/qiaos/venvs/poker/bin/python bench.py --reps 6 --groups 2 --to-device cuda:1 --json results/bench_final_todevice.json
+{"rep": 0, "traverser": 0, "wall": 1.6744064700324088, "rounds": 29, "nodes": 3796525, "n_adv": 1250744, "n_strat_kept": 187738, "setup": 0.0149, "deal": 0.0078, "encode": 0.6354, "launch": 0.1465, "gpu_wait": 0.001, "prefix": 0.0507, "expand": 0.4579, "compact": 0.0239, "backup": 0.1724, "gather": 0.0373, "to_device": 0.126, "total": 1.6744}
+{"rep": 1, "traverser": 1, "wall": 1.7622225600061938, "rounds": 28, "nodes": 3755450, "n_adv": 1231743, "n_strat_kept": 188407, "setup": 0.0086, "deal": 0.0066, "encode": 0.4204, "launch": 0.0606, "gpu_wait": 0.0008, "prefix": 0.0366, "expand": 0.3865, "compact": 0.0212, "backup": 0.6571, "gather": 0.042, "to_device": 0.119, "total": 1.7598}
+{"rep": 2, "traverser": 2, "wall": 1.2994501540670171, "rounds": 30, "nodes": 3774821, "n_adv": 1237554, "n_strat_kept": 187048, "setup": 0.0085, "deal": 0.0065, "encode": 0.446, "launch": 0.0707, "gpu_wait": 0.001, "prefix": 0.0348, "expand": 0.4152, "compact": 0.0219, "backup": 0.1367, "gather": 0.0337, "to_device": 0.1216, "total": 1.297}
+{"rep": 3, "traverser": 3, "wall": 1.9372529110405594, "rounds": 33, "nodes": 3803346, "n_adv": 1249885, "n_strat_kept": 190405, "setup": 0.0084, "deal": 0.0075, "encode": 0.4536, "launch": 0.0646, "gpu_wait": 0.0009, "prefix": 0.0488, "expand": 0.4423, "compact": 0.0276, "backup": 0.7201, "gather": 0.037, "to_device": 0.1236, "total": 1.9348}
+{"rep": 4, "traverser": 4, "wall": 1.8654660700121894, "rounds": 30, "nodes": 3737579, "n_adv": 1232861, "n_strat_kept": 185098, "setup": 0.0084, "deal": 0.0069, "encode": 0.4382, "launch": 0.0649, "gpu_wait": 0.0009, "prefix": 0.034, "expand": 0.4095, "compact": 0.0212, "backup": 0.7181, "gather": 0.0377, "to_device": 0.1213, "total": 1.8615}
+{"rep": 5, "traverser": 5, "wall": 1.9778745550429448, "rounds": 31, "nodes": 3771218, "n_adv": 1246382, "n_strat_kept": 188842, "setup": 0.0085, "deal": 0.0063, "encode": 0.5029, "launch": 0.0693, "gpu_wait": 0.0009, "prefix": 0.0346, "expand": 0.461, "compact": 0.0215, "backup": 0.7102, "gather": 0.0403, "to_device": 0.1195, "total": 1.9754}
+{
+ "mean_wall": 1.752778786700219,
+ "min_wall": 1.2994501540670171,
+ "trav_per_s": 17115.679529918318,
+ "mean_split": {
+  "wall": 1.752778786700219,
+  "rounds": 30.166666666666668,
+  "nodes": 3773156.5,
+  "n_adv": 1241528.1666666667,
+  "n_strat_kept": 187923.0,
+  "setup": 0.00955,
+  "deal": 0.006933333333333333,
+  "encode": 0.48275,
+  "launch": 0.07943333333333334,
+  "gpu_wait": 0.0009166666666666666,
+  "prefix": 0.03991666666666666,
+  "expand": 0.42873333333333336,
+  "compact": 0.022883333333333335,
+  "backup": 0.5191,
+  "gather": 0.038000000000000006,
+  "to_device": 0.12183333333333331,
+  "total": 1.7504833333333334
+ },
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/source/data/deep_cfr_model.npz",
+  "precision": "highest",
+  "device": "cuda:1",
+  "threads": null,
+  "reps": 6,
+  "eps": 0.02,
+  "profile": false,
+  "groups": 2,
+  "to_device": "cuda:1",
+  "json": "results/bench_final_todevice.json"
+ },
+ "peak_gpu_mem_gb": 1.392060416
+}
++ /home/qiaos/venvs/poker/bin/python bench.py --reps 6 --groups 2 --net ../fullhouse-repro/runs/baseline_a100_adv/iter_00004.npz --eps 0.0988 --json results/bench_final_iter4.json
+{"rep": 0, "traverser": 0, "wall": 1.93376815400552, "rounds": 29, "nodes": 4006681, "n_adv": 1263604, "n_strat_kept": 213548, "setup": 0.0204, "deal": 0.0063, "encode": 0.6058, "launch": 0.0893, "gpu_wait": 0.0009, "prefix": 0.0522, "expand": 0.4113, "compact": 0.0241, "backup": 0.6832, "gather": 0.0396, "total": 1.9337}
+{"rep": 1, "traverser": 1, "wall": 1.7155024739913642, "rounds": 30, "nodes": 3947211, "n_adv": 1243291, "n_strat_kept": 213569, "setup": 0.0087, "deal": 0.0067, "encode": 0.4305, "launch": 0.0641, "gpu_wait": 0.0008, "prefix": 0.0364, "expand": 0.4032, "compact": 0.0225, "backup": 0.6991, "gather": 0.0398, "total": 1.7123}
+{"rep": 2, "traverser": 2, "wall": 1.5355538490694016, "rounds": 30, "nodes": 4004165, "n_adv": 1263032, "n_strat_kept": 211962, "setup": 0.0092, "deal": 0.0093, "encode": 0.4477, "launch": 0.0637, "gpu_wait": 0.0009, "prefix": 0.0362, "expand": 0.4087, "compact": 0.0231, "backup": 0.4928, "gather": 0.0373, "total": 1.5294}
+{"rep": 3, "traverser": 3, "wall": 0.5322289160685614, "rounds": 33, "nodes": 4007791, "n_adv": 1262761, "n_strat_kept": 214076, "setup": 0.0086, "deal": 0.0075, "encode": 0.1647, "launch": 0.0644, "gpu_wait": 0.0008, "prefix": 0.0375, "expand": 0.176, "compact": 0.0238, "backup": 0.0087, "gather": 0.0365, "total": 0.5291}
+{"rep": 4, "traverser": 4, "wall": 0.46766711899545044, "rounds": 31, "nodes": 3963760, "n_adv": 1253425, "n_strat_kept": 211533, "setup": 0.0087, "deal": 0.0036, "encode": 0.1291, "launch": 0.0636, "gpu_wait": 0.0008, "prefix": 0.0377, "expand": 0.1514, "compact": 0.0234, "backup": 0.0087, "gather": 0.037, "total": 0.4645}
+{"rep": 5, "traverser": 5, "wall": 0.47589363204315305, "rounds": 30, "nodes": 3977721, "n_adv": 1259557, "n_strat_kept": 211855, "setup": 0.0086, "deal": 0.0102, "encode": 0.131, "launch": 0.0631, "gpu_wait": 0.0008, "prefix": 0.0372, "expand": 0.1534, "compact": 0.0233, "backup": 0.0086, "gather": 0.0358, "total": 0.4726}
+{
+ "mean_wall": 1.1101023573622417,
+ "min_wall": 0.46766711899545044,
+ "trav_per_s": 27024.534990885157,
+ "mean_split": {
+  "wall": 1.1101023573622417,
+  "rounds": 30.5,
+  "nodes": 3984554.8333333335,
+  "n_adv": 1257611.6666666667,
+  "n_strat_kept": 212757.16666666666,
+  "setup": 0.0107,
+  "deal": 0.007266666666666667,
+  "encode": 0.3181333333333333,
+  "launch": 0.06803333333333333,
+  "gpu_wait": 0.0008333333333333334,
+  "prefix": 0.03953333333333334,
+  "expand": 0.284,
+  "compact": 0.023366666666666664,
+  "backup": 0.31685,
+  "gather": 0.03766666666666667,
+  "total": 1.1069333333333333
+ },
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/runs/baseline_a100_adv/iter_00004.npz",
+  "precision": "highest",
+  "device": "cuda:1",
+  "threads": null,
+  "reps": 6,
+  "eps": 0.0988,
+  "profile": false,
+  "groups": 2,
+  "to_device": null,
+  "json": "results/bench_final_iter4.json"
+ },
+ "peak_gpu_mem_gb": 0.842725376
+}
++ /home/qiaos/venvs/poker/bin/python bench.py --reps 6 --groups 2 --net random:0 --eps 0.1 --json results/bench_final_random.json
+{"rep": 0, "traverser": 0, "wall": 0.24624173901975155, "rounds": 21, "nodes": 1100868, "n_adv": 241688, "n_strat_kept": 104768, "setup": 0.015, "deal": 0.0035, "encode": 0.0664, "launch": 0.0576, "gpu_wait": 0.0006, "prefix": 0.0166, "expand": 0.0658, "compact": 0.0061, "backup": 0.0047, "gather": 0.0087, "total": 0.2455}
+{"rep": 1, "traverser": 1, "wall": 0.14553692401386797, "rounds": 20, "nodes": 1100273, "n_adv": 238693, "n_strat_kept": 104383, "setup": 0.0029, "deal": 0.0034, "encode": 0.0265, "launch": 0.0412, "gpu_wait": 0.0005, "prefix": 0.012, "expand": 0.0418, "compact": 0.005, "backup": 0.0032, "gather": 0.0079, "total": 0.1447}
+{"rep": 2, "traverser": 2, "wall": 0.142886669957079, "rounds": 21, "nodes": 1095923, "n_adv": 237772, "n_strat_kept": 104046, "setup": 0.0028, "deal": 0.0034, "encode": 0.0264, "launch": 0.04, "gpu_wait": 0.0005, "prefix": 0.012, "expand": 0.042, "compact": 0.0048, "backup": 0.0028, "gather": 0.0071, "total": 0.1421}
+{"rep": 3, "traverser": 3, "wall": 0.14514689694624394, "rounds": 20, "nodes": 1102072, "n_adv": 240759, "n_strat_kept": 105170, "setup": 0.0028, "deal": 0.0035, "encode": 0.0266, "launch": 0.04, "gpu_wait": 0.0005, "prefix": 0.012, "expand": 0.0441, "compact": 0.0048, "backup": 0.0027, "gather": 0.007, "total": 0.1444}
+{"rep": 4, "traverser": 4, "wall": 0.1431902659824118, "rounds": 20, "nodes": 1099389, "n_adv": 240749, "n_strat_kept": 105167, "setup": 0.0029, "deal": 0.0034, "encode": 0.0264, "launch": 0.0402, "gpu_wait": 0.0005, "prefix": 0.0119, "expand": 0.0417, "compact": 0.0049, "backup": 0.0028, "gather": 0.0073, "total": 0.1424}
+{"rep": 5, "traverser": 5, "wall": 0.14133764407597482, "rounds": 20, "nodes": 1097290, "n_adv": 239147, "n_strat_kept": 104598, "setup": 0.0028, "deal": 0.0034, "encode": 0.0264, "launch": 0.0395, "gpu_wait": 0.0005, "prefix": 0.0119, "expand": 0.0414, "compact": 0.0048, "backup": 0.0027, "gather": 0.0067, "total": 0.1405}
+{
+ "mean_wall": 0.1607233566658882,
+ "min_wall": 0.14133764407597482,
+ "trav_per_s": 186656.13151898026,
+ "mean_split": {
+  "wall": 0.1607233566658882,
+  "rounds": 20.333333333333332,
+  "nodes": 1099302.5,
+  "n_adv": 239801.33333333334,
+  "n_strat_kept": 104688.66666666667,
+  "setup": 0.004866666666666667,
+  "deal": 0.0034333333333333334,
+  "encode": 0.03311666666666666,
+  "launch": 0.043083333333333335,
+  "gpu_wait": 0.0005166666666666667,
+  "prefix": 0.012733333333333333,
+  "expand": 0.04613333333333333,
+  "compact": 0.005066666666666666,
+  "backup": 0.0031500000000000005,
+  "gather": 0.007449999999999999,
+  "total": 0.15993333333333334
+ },
+ "config": {
+  "n": 30000,
+  "net": "random:0",
+  "precision": "highest",
+  "device": "cuda:1",
+  "threads": null,
+  "reps": 6,
+  "eps": 0.1,
+  "profile": false,
+  "groups": 2,
+  "to_device": null,
+  "json": "results/bench_final_random.json"
+ },
+ "peak_gpu_mem_gb": 0.260514816
+}
++ /home/qiaos/venvs/poker/bin/python example_integration.py
++ echo BENCH_DONE
+BENCH_DONE

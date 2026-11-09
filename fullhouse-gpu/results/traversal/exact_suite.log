@@ -1,0 +1,1832 @@
++ /home/qiaos/venvs/poker/bin/python test_exact.py --n 30000 --net random:0 --forward numba --traverser 0 --eps 0.1 --seed 1001 --json results/exact_numba_random.json
+{
+ "n_adv_ref": 238930,
+ "n_adv_mine": 238930,
+ "exact_all": true,
+ "exact_features": true,
+ "exact_advantages": true,
+ "exact_strat_features": true,
+ "exact_strategies": true,
+ "exact_strat_weights": true,
+ "n_traversals": 30000,
+ "n_diverged_traversals": 0,
+ "diverged_examples": [],
+ "n_aligned_samples": 238930,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strat_weights": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  }
+ },
+ "n_bitexact_samples": 238930,
+ "n_strat_keep_flips": 0,
+ "stats_equal": true,
+ "ref_stats": [
+  [
+   779292,
+   105051,
+   11982
+  ],
+  [
+   68725,
+   39363,
+   2069
+  ],
+  [
+   11375,
+   41849,
+   517
+  ],
+  [
+   2095,
+   52667,
+   391380
+  ]
+ ],
+ "mine_stats": [
+  [
+   779292,
+   105051,
+   11982
+  ],
+  [
+   68725,
+   39363,
+   2069
+  ],
+  [
+   11375,
+   41849,
+   517
+  ],
+  [
+   2095,
+   52667,
+   391380
+  ]
+ ],
+ "config": {
+  "n": 30000,
+  "net": "random:0",
+  "forward": "numba",
+  "precision": "highest",
+  "device": "cuda:1",
+  "traverser": 0,
+  "eps": 0.1,
+  "seed": 1001,
+  "workers": 46,
+  "threads": null,
+  "groups": 2,
+  "json": "results/exact_numba_random.json",
+  "negative_control": false
+ },
+ "t_ref_s": 4.605295521905646,
+ "t_mine_s": 3.0500876280711964,
+ "rounds": 20,
+ "nodes": 1100417,
+ "strat_kept_ref": 104517,
+ "strat_kept_mine": 104517
+}
++ /home/qiaos/venvs/poker/bin/python test_exact.py --n 30000 --net ../fullhouse-repro/runs/baseline_a100_adv/iter_00004.npz --forward numba --traverser 3 --eps 0.0988 --seed 1002 --json results/exact_numba_iter4.json
+{
+ "n_adv_ref": 1261496,
+ "n_adv_mine": 1261496,
+ "exact_all": true,
+ "exact_features": true,
+ "exact_advantages": true,
+ "exact_strat_features": true,
+ "exact_strategies": true,
+ "exact_strat_weights": true,
+ "n_traversals": 30000,
+ "n_diverged_traversals": 0,
+ "diverged_examples": [],
+ "n_aligned_samples": 1261496,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strat_weights": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  }
+ },
+ "n_bitexact_samples": 1261496,
+ "n_strat_keep_flips": 0,
+ "stats_equal": true,
+ "ref_stats": [
+  [
+   596443,
+   103470,
+   87115
+  ],
+  [
+   585764,
+   208373,
+   214614
+  ],
+  [
+   704726,
+   348048,
+   272061
+  ],
+  [
+   851918,
+   601605,
+   2175030
+  ]
+ ],
+ "mine_stats": [
+  [
+   596443,
+   103470,
+   87115
+  ],
+  [
+   585764,
+   208373,
+   214614
+  ],
+  [
+   704726,
+   348048,
+   272061
+  ],
+  [
+   851918,
+   601605,
+   2175030
+  ]
+ ],
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/runs/baseline_a100_adv/iter_00004.npz",
+  "forward": "numba",
+  "precision": "highest",
+  "device": "cuda:1",
+  "traverser": 3,
+  "eps": 0.0988,
+  "seed": 1002,
+  "workers": 46,
+  "threads": null,
+  "groups": 2,
+  "json": "results/exact_numba_iter4.json",
+  "negative_control": false
+ },
+ "t_ref_s": 9.891639756970108,
+ "t_mine_s": 9.152255609049462,
+ "rounds": 32,
+ "nodes": 4000347,
+ "strat_kept_ref": 212270,
+ "strat_kept_mine": 212270
+}
++ /home/qiaos/venvs/poker/bin/python test_exact.py --n 30000 --net ../fullhouse-repro/source/data/deep_cfr_model.npz --forward numba --traverser 5 --eps 0.02 --seed 1003 --json results/exact_numba_released.json
+{
+ "n_adv_ref": 1243696,
+ "n_adv_mine": 1243696,
+ "exact_all": true,
+ "exact_features": true,
+ "exact_advantages": true,
+ "exact_strat_features": true,
+ "exact_strategies": true,
+ "exact_strat_weights": true,
+ "n_traversals": 30000,
+ "n_diverged_traversals": 0,
+ "diverged_examples": [],
+ "n_aligned_samples": 1243696,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strat_weights": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  }
+ },
+ "n_bitexact_samples": 1243696,
+ "n_strat_keep_flips": 0,
+ "stats_equal": true,
+ "ref_stats": [
+  [
+   520506,
+   78692,
+   87939
+  ],
+  [
+   477082,
+   189447,
+   186838
+  ],
+  [
+   671095,
+   355056,
+   287934
+  ],
+  [
+   872328,
+   620501,
+   2227664
+  ]
+ ],
+ "mine_stats": [
+  [
+   520506,
+   78692,
+   87939
+  ],
+  [
+   477082,
+   189447,
+   186838
+  ],
+  [
+   671095,
+   355056,
+   287934
+  ],
+  [
+   872328,
+   620501,
+   2227664
+  ]
+ ],
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/source/data/deep_cfr_model.npz",
+  "forward": "numba",
+  "precision": "highest",
+  "device": "cuda:1",
+  "traverser": 5,
+  "eps": 0.02,
+  "seed": 1003,
+  "workers": 46,
+  "threads": null,
+  "groups": 2,
+  "json": "results/exact_numba_released.json",
+  "negative_control": false
+ },
+ "t_ref_s": 9.04756537207868,
+ "t_mine_s": 8.546865342999808,
+ "rounds": 28,
+ "nodes": 3784707,
+ "strat_kept_ref": 189375,
+ "strat_kept_mine": 189375
+}
++ /home/qiaos/venvs/poker/bin/python test_exact.py --n 30000 --net ../fullhouse-repro/source/data/deep_cfr_model.npz --forward numba --groups 3 --traverser 1 --eps 0.05 --seed 2001 --json results/exact_numba_released_g3.json
+{
+ "n_adv_ref": 1222033,
+ "n_adv_mine": 1222033,
+ "exact_all": true,
+ "exact_features": true,
+ "exact_advantages": true,
+ "exact_strat_features": true,
+ "exact_strategies": true,
+ "exact_strat_weights": true,
+ "n_traversals": 30000,
+ "n_diverged_traversals": 0,
+ "diverged_examples": [],
+ "n_aligned_samples": 1222033,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strat_weights": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  }
+ },
+ "n_bitexact_samples": 1222033,
+ "n_strat_keep_flips": 0,
+ "stats_equal": true,
+ "ref_stats": [
+  [
+   531274,
+   79258,
+   91147
+  ],
+  [
+   481676,
+   188116,
+   188599
+  ],
+  [
+   661237,
+   349472,
+   286356
+  ],
+  [
+   840935,
+   605187,
+   2173110
+  ]
+ ],
+ "mine_stats": [
+  [
+   531274,
+   79258,
+   91147
+  ],
+  [
+   481676,
+   188116,
+   188599
+  ],
+  [
+   661237,
+   349472,
+   286356
+  ],
+  [
+   840935,
+   605187,
+   2173110
+  ]
+ ],
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/source/data/deep_cfr_model.npz",
+  "forward": "numba",
+  "precision": "highest",
+  "device": "cuda:1",
+  "traverser": 1,
+  "eps": 0.05,
+  "seed": 2001,
+  "workers": 46,
+  "threads": null,
+  "groups": 3,
+  "json": "results/exact_numba_released_g3.json",
+  "negative_control": false
+ },
+ "t_ref_s": 9.204524158034474,
+ "t_mine_s": 8.253385126008652,
+ "rounds": 32,
+ "nodes": 3737155,
+ "strat_kept_ref": 181738,
+ "strat_kept_mine": 181738
+}
++ /home/qiaos/venvs/poker/bin/python test_exact.py --n 5000 --net ../fullhouse-repro/source/data/deep_cfr_model.npz --forward numba --traverser 5 --eps 0.02 --seed 1003 --negative-control --json results/exact_numba_negctrl.json
+{
+ "n_adv_ref": 210590,
+ "n_adv_mine": 211795,
+ "exact_all": false,
+ "exact_features": false,
+ "exact_advantages": false,
+ "exact_strat_features": false,
+ "exact_strategies": false,
+ "exact_strat_weights": false,
+ "n_traversals": 5000,
+ "n_diverged_traversals": 4902,
+ "diverged_examples": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "n_aligned_samples": 2063,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 44.0,
+   "max_rel_where_ref_gt_1em3": 3.248746594667449,
+   "frac_rows_nonzero_diff": 0.004847309743092583,
+   "n_rows_diff_gt_1em4": 10,
+   "n_rows_diff_gt_1em2": 10,
+   "p9999_abs": 39.46359999999822
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strat_weights": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  }
+ },
+ "n_bitexact_samples": 2053,
+ "n_strat_keep_flips": 0,
+ "stats_equal": false,
+ "ref_stats": [
+  [
+   86611,
+   13095,
+   14682
+  ],
+  [
+   80038,
+   31738,
+   31275
+  ],
+  [
+   113850,
+   60124,
+   49071
+  ],
+  [
+   148586,
+   105633,
+   377344
+  ]
+ ],
+ "mine_stats": [
+  [
+   86577,
+   13063,
+   14667
+  ],
+  [
+   81255,
+   32404,
+   32127
+  ],
+  [
+   114783,
+   60657,
+   49542
+  ],
+  [
+   147880,
+   105671,
+   378937
+  ]
+ ],
+ "config": {
+  "n": 5000,
+  "net": "../fullhouse-repro/source/data/deep_cfr_model.npz",
+  "forward": "numba",
+  "precision": "highest",
+  "device": "cuda:1",
+  "traverser": 5,
+  "eps": 0.02,
+  "seed": 1003,
+  "workers": 46,
+  "threads": null,
+  "groups": 2,
+  "json": "results/exact_numba_negctrl.json",
+  "negative_control": true
+ },
+ "t_ref_s": 3.8471680639777333,
+ "t_mine_s": 2.6286700130440295,
+ "rounds": 27,
+ "nodes": 642290,
+ "strat_kept_ref": 32373,
+ "strat_kept_mine": 31780
+}
++ for P in highest tf32 bf16
++ /home/qiaos/venvs/poker/bin/python test_exact.py --n 30000 --net random:0 --forward torch --precision highest --traverser 0 --eps 0.1 --seed 1001 --json results/exact_torch_highest_random.json
+{
+ "n_adv_ref": 238930,
+ "n_adv_mine": 238930,
+ "exact_all": false,
+ "exact_features": true,
+ "exact_advantages": false,
+ "exact_strat_features": true,
+ "exact_strategies": false,
+ "exact_strat_weights": false,
+ "n_traversals": 30000,
+ "n_diverged_traversals": 0,
+ "diverged_examples": [],
+ "n_aligned_samples": 238930,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 0.000701904296875,
+   "max_rel_where_ref_gt_1em3": 0.030828980758848636,
+   "frac_rows_nonzero_diff": 0.2986062863600218,
+   "n_rows_diff_gt_1em4": 1945,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0003322872161864998
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 3.844965249300003e-06,
+   "max_rel_where_ref_gt_1em3": 0.001180093870772388,
+   "frac_rows_nonzero_diff": 0.38739798267274933,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 1.8477439880371094e-06
+  },
+  "strat_weights": {
+   "max_abs": 2.0265579223632812e-06,
+   "max_rel_where_ref_gt_1em3": 0.00047122457760971555,
+   "frac_rows_nonzero_diff": 0.29330766333235675,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 1.2516975402832031e-06
+  }
+ },
+ "n_bitexact_samples": 80469,
+ "n_strat_keep_flips": 0,
+ "stats_equal": true,
+ "ref_stats": [
+  [
+   779292,
+   105051,
+   11982
+  ],
+  [
+   68725,
+   39363,
+   2069
+  ],
+  [
+   11375,
+   41849,
+   517
+  ],
+  [
+   2095,
+   52667,
+   391380
+  ]
+ ],
+ "mine_stats": [
+  [
+   779292,
+   105051,
+   11982
+  ],
+  [
+   68725,
+   39363,
+   2069
+  ],
+  [
+   11375,
+   41849,
+   517
+  ],
+  [
+   2095,
+   52667,
+   391380
+  ]
+ ],
+ "config": {
+  "n": 30000,
+  "net": "random:0",
+  "forward": "torch",
+  "precision": "highest",
+  "device": "cuda:1",
+  "traverser": 0,
+  "eps": 0.1,
+  "seed": 1001,
+  "workers": 46,
+  "threads": null,
+  "groups": 2,
+  "json": "results/exact_torch_highest_random.json",
+  "negative_control": false
+ },
+ "t_ref_s": 4.746873919037171,
+ "t_mine_s": 1.0030740420334041,
+ "rounds": 20,
+ "nodes": 1100417,
+ "strat_kept_ref": 104517,
+ "strat_kept_mine": 104517
+}
++ /home/qiaos/venvs/poker/bin/python test_exact.py --n 30000 --net ../fullhouse-repro/runs/baseline_a100_adv/iter_00004.npz --forward torch --precision highest --traverser 3 --eps 0.0988 --seed 1002 --json results/exact_torch_highest_iter4.json
+{
+ "n_adv_ref": 1261496,
+ "n_adv_mine": 1261496,
+ "exact_all": false,
+ "exact_features": true,
+ "exact_advantages": false,
+ "exact_strat_features": true,
+ "exact_strategies": false,
+ "exact_strat_weights": false,
+ "n_traversals": 30000,
+ "n_diverged_traversals": 0,
+ "diverged_examples": [],
+ "n_aligned_samples": 1261496,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 0.0352935791015625,
+   "max_rel_where_ref_gt_1em3": 0.07487437868057513,
+   "frac_rows_nonzero_diff": 0.31702914634687707,
+   "n_rows_diff_gt_1em4": 20828,
+   "n_rows_diff_gt_1em2": 45,
+   "p9999_abs": 0.005816792488092748
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 0.00037522614002227783,
+   "max_rel_where_ref_gt_1em3": 0.07487332139198877,
+   "frac_rows_nonzero_diff": 0.45112390368261174,
+   "n_rows_diff_gt_1em4": 37,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 5.739749222988602e-05
+  },
+  "strat_weights": {
+   "max_abs": 3.904104232788086e-05,
+   "max_rel_where_ref_gt_1em3": 0.0019769489963675163,
+   "frac_rows_nonzero_diff": 0.14100005073341493,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 5.502637475727698e-06
+  }
+ },
+ "n_bitexact_samples": 439785,
+ "n_strat_keep_flips": 0,
+ "stats_equal": true,
+ "ref_stats": [
+  [
+   596443,
+   103470,
+   87115
+  ],
+  [
+   585764,
+   208373,
+   214614
+  ],
+  [
+   704726,
+   348048,
+   272061
+  ],
+  [
+   851918,
+   601605,
+   2175030
+  ]
+ ],
+ "mine_stats": [
+  [
+   596443,
+   103470,
+   87115
+  ],
+  [
+   585764,
+   208373,
+   214614
+  ],
+  [
+   704726,
+   348048,
+   272061
+  ],
+  [
+   851918,
+   601605,
+   2175030
+  ]
+ ],
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/runs/baseline_a100_adv/iter_00004.npz",
+  "forward": "torch",
+  "precision": "highest",
+  "device": "cuda:1",
+  "traverser": 3,
+  "eps": 0.0988,
+  "seed": 1002,
+  "workers": 46,
+  "threads": null,
+  "groups": 2,
+  "json": "results/exact_torch_highest_iter4.json",
+  "negative_control": false
+ },
+ "t_ref_s": 9.305866793030873,
+ "t_mine_s": 0.7419639689614996,
+ "rounds": 32,
+ "nodes": 4000347,
+ "strat_kept_ref": 212270,
+ "strat_kept_mine": 212270
+}
++ /home/qiaos/venvs/poker/bin/python test_exact.py --n 30000 --net ../fullhouse-repro/source/data/deep_cfr_model.npz --forward torch --precision highest --traverser 5 --eps 0.02 --seed 1003 --json results/exact_torch_highest_released.json
+{
+ "n_adv_ref": 1243696,
+ "n_adv_mine": 1243696,
+ "exact_all": false,
+ "exact_features": true,
+ "exact_advantages": false,
+ "exact_strat_features": true,
+ "exact_strategies": false,
+ "exact_strat_weights": false,
+ "n_traversals": 30000,
+ "n_diverged_traversals": 0,
+ "diverged_examples": [],
+ "n_aligned_samples": 1243696,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 0.007045745849609375,
+   "max_rel_where_ref_gt_1em3": 0.03828128026798247,
+   "frac_rows_nonzero_diff": 0.3082256435656302,
+   "n_rows_diff_gt_1em4": 5492,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.000995635986328125
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 0.6666666567325592,
+   "max_rel_where_ref_gt_1em3": 0.6666666567325592,
+   "frac_rows_nonzero_diff": 0.40735919388660896,
+   "n_rows_diff_gt_1em4": 130,
+   "n_rows_diff_gt_1em2": 1,
+   "p9999_abs": 0.00010251998901367188
+  },
+  "strat_weights": {
+   "max_abs": 3.246217966079712e-05,
+   "max_rel_where_ref_gt_1em3": 0.0025117525009972622,
+   "frac_rows_nonzero_diff": 0.12393221494641778,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 4.32133674621582e-06
+  }
+ },
+ "n_bitexact_samples": 488641,
+ "n_strat_keep_flips": 0,
+ "stats_equal": true,
+ "ref_stats": [
+  [
+   520506,
+   78692,
+   87939
+  ],
+  [
+   477082,
+   189447,
+   186838
+  ],
+  [
+   671095,
+   355056,
+   287934
+  ],
+  [
+   872328,
+   620501,
+   2227664
+  ]
+ ],
+ "mine_stats": [
+  [
+   520506,
+   78692,
+   87939
+  ],
+  [
+   477082,
+   189447,
+   186838
+  ],
+  [
+   671095,
+   355056,
+   287934
+  ],
+  [
+   872328,
+   620501,
+   2227664
+  ]
+ ],
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/source/data/deep_cfr_model.npz",
+  "forward": "torch",
+  "precision": "highest",
+  "device": "cuda:1",
+  "traverser": 5,
+  "eps": 0.02,
+  "seed": 1003,
+  "workers": 46,
+  "threads": null,
+  "groups": 2,
+  "json": "results/exact_torch_highest_released.json",
+  "negative_control": false
+ },
+ "t_ref_s": 8.746762318070978,
+ "t_mine_s": 0.7046384660061449,
+ "rounds": 28,
+ "nodes": 3784707,
+ "strat_kept_ref": 189375,
+ "strat_kept_mine": 189375
+}
++ for P in highest tf32 bf16
++ /home/qiaos/venvs/poker/bin/python test_exact.py --n 30000 --net random:0 --forward torch --precision tf32 --traverser 0 --eps 0.1 --seed 1001 --json results/exact_torch_tf32_random.json
+{
+ "n_adv_ref": 238930,
+ "n_adv_mine": 238933,
+ "exact_all": false,
+ "exact_features": false,
+ "exact_advantages": false,
+ "exact_strat_features": false,
+ "exact_strategies": false,
+ "exact_strat_weights": false,
+ "n_traversals": 30000,
+ "n_diverged_traversals": 80,
+ "diverged_examples": [
+  618,
+  769,
+  774,
+  1138,
+  1297,
+  1801,
+  2090,
+  2614,
+  3059,
+  3322
+ ],
+ "n_aligned_samples": 238373,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 47.14000153541565,
+   "max_rel_where_ref_gt_1em3": 27.091954756923354,
+   "frac_rows_nonzero_diff": 0.33257961262391295,
+   "n_rows_diff_gt_1em4": 69385,
+   "n_rows_diff_gt_1em2": 30091,
+   "p9999_abs": 0.29797611694335924
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 0.003673374652862549,
+   "max_rel_where_ref_gt_1em3": 0.8377044509561091,
+   "frac_rows_nonzero_diff": 0.3937148922067516,
+   "n_rows_diff_gt_1em4": 52457,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0015148056149482687
+  },
+  "strat_weights": {
+   "max_abs": 0.0015323162078857422,
+   "max_rel_where_ref_gt_1em3": 0.45150213553249197,
+   "frac_rows_nonzero_diff": 0.31106710911051166,
+   "n_rows_diff_gt_1em4": 19449,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0009515147447585505
+  }
+ },
+ "n_bitexact_samples": 74645,
+ "n_strat_keep_flips": 24,
+ "stats_equal": false,
+ "ref_stats": [
+  [
+   779292,
+   105051,
+   11982
+  ],
+  [
+   68725,
+   39363,
+   2069
+  ],
+  [
+   11375,
+   41849,
+   517
+  ],
+  [
+   2095,
+   52667,
+   391380
+  ]
+ ],
+ "mine_stats": [
+  [
+   779299,
+   105049,
+   11988
+  ],
+  [
+   68763,
+   39363,
+   2073
+  ],
+  [
+   11372,
+   41851,
+   518
+  ],
+  [
+   2094,
+   52670,
+   391378
+  ]
+ ],
+ "config": {
+  "n": 30000,
+  "net": "random:0",
+  "forward": "torch",
+  "precision": "tf32",
+  "device": "cuda:1",
+  "traverser": 0,
+  "eps": 0.1,
+  "seed": 1001,
+  "workers": 46,
+  "threads": null,
+  "groups": 2,
+  "json": "results/exact_torch_tf32_random.json",
+  "negative_control": false
+ },
+ "t_ref_s": 4.566587399924174,
+ "t_mine_s": 0.19927906792145222,
+ "rounds": 20,
+ "nodes": 1100461,
+ "strat_kept_ref": 104517,
+ "strat_kept_mine": 104524
+}
++ /home/qiaos/venvs/poker/bin/python test_exact.py --n 30000 --net ../fullhouse-repro/runs/baseline_a100_adv/iter_00004.npz --forward torch --precision tf32 --traverser 3 --eps 0.0988 --seed 1002 --json results/exact_torch_tf32_iter4.json
+{
+ "n_adv_ref": 1261496,
+ "n_adv_mine": 1261333,
+ "exact_all": false,
+ "exact_features": false,
+ "exact_advantages": false,
+ "exact_strat_features": false,
+ "exact_strategies": false,
+ "exact_strat_weights": false,
+ "n_traversals": 30000,
+ "n_diverged_traversals": 447,
+ "diverged_examples": [
+  2,
+  90,
+  113,
+  118,
+  130,
+  211,
+  240,
+  271,
+  349,
+  379
+ ],
+ "n_aligned_samples": 1232010,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 269.99598693847656,
+   "max_rel_where_ref_gt_1em3": 495.11764186146354,
+   "frac_rows_nonzero_diff": 0.34048424931615817,
+   "n_rows_diff_gt_1em4": 350567,
+   "n_rows_diff_gt_1em2": 127820,
+   "p9999_abs": 9.853359699249268
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 0.32820238173007965,
+   "max_rel_where_ref_gt_1em3": 10.572090819023325,
+   "frac_rows_nonzero_diff": 0.45918539622243326,
+   "n_rows_diff_gt_1em4": 397791,
+   "n_rows_diff_gt_1em2": 2869,
+   "p9999_abs": 0.06183646641148839
+  },
+  "strat_weights": {
+   "max_abs": 0.026754260063171387,
+   "max_rel_where_ref_gt_1em3": 2.886418862615788,
+   "frac_rows_nonzero_diff": 0.1441911997467553,
+   "n_rows_diff_gt_1em4": 42797,
+   "n_rows_diff_gt_1em2": 17,
+   "p9999_abs": 0.004209868665039453
+  }
+ },
+ "n_bitexact_samples": 411199,
+ "n_strat_keep_flips": 150,
+ "stats_equal": false,
+ "ref_stats": [
+  [
+   596443,
+   103470,
+   87115
+  ],
+  [
+   585764,
+   208373,
+   214614
+  ],
+  [
+   704726,
+   348048,
+   272061
+  ],
+  [
+   851918,
+   601605,
+   2175030
+  ]
+ ],
+ "mine_stats": [
+  [
+   596411,
+   103468,
+   87103
+  ],
+  [
+   585638,
+   208336,
+   214544
+  ],
+  [
+   704609,
+   347984,
+   272016
+  ],
+  [
+   851768,
+   601545,
+   2174717
+  ]
+ ],
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/runs/baseline_a100_adv/iter_00004.npz",
+  "forward": "torch",
+  "precision": "tf32",
+  "device": "cuda:1",
+  "traverser": 3,
+  "eps": 0.0988,
+  "seed": 1002,
+  "workers": 46,
+  "threads": null,
+  "groups": 2,
+  "json": "results/exact_torch_tf32_iter4.json",
+  "negative_control": false
+ },
+ "t_ref_s": 9.665382948005572,
+ "t_mine_s": 2.0397248859517276,
+ "rounds": 32,
+ "nodes": 3999759,
+ "strat_kept_ref": 212270,
+ "strat_kept_mine": 212242
+}
++ /home/qiaos/venvs/poker/bin/python test_exact.py --n 30000 --net ../fullhouse-repro/source/data/deep_cfr_model.npz --forward torch --precision tf32 --traverser 5 --eps 0.02 --seed 1003 --json results/exact_torch_tf32_released.json
+{
+ "n_adv_ref": 1243696,
+ "n_adv_mine": 1243533,
+ "exact_all": false,
+ "exact_features": false,
+ "exact_advantages": false,
+ "exact_strat_features": false,
+ "exact_strategies": false,
+ "exact_strat_weights": false,
+ "n_traversals": 30000,
+ "n_diverged_traversals": 268,
+ "diverged_examples": [
+  14,
+  50,
+  258,
+  261,
+  374,
+  522,
+  875,
+  876,
+  961,
+  970
+ ],
+ "n_aligned_samples": 1227061,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 284.4100036621094,
+   "max_rel_where_ref_gt_1em3": 249.78081549902456,
+   "frac_rows_nonzero_diff": 0.3354022334667959,
+   "n_rows_diff_gt_1em4": 344550,
+   "n_rows_diff_gt_1em2": 72742,
+   "p9999_abs": 9.675458780171686
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 1.0,
+   "max_rel_where_ref_gt_1em3": 6.01586530382665,
+   "frac_rows_nonzero_diff": 0.4162327708239444,
+   "n_rows_diff_gt_1em4": 287123,
+   "n_rows_diff_gt_1em2": 1718,
+   "p9999_abs": 0.5
+  },
+  "strat_weights": {
+   "max_abs": 0.05157992243766785,
+   "max_rel_where_ref_gt_1em3": 1.0,
+   "frac_rows_nonzero_diff": 0.12775974462557282,
+   "n_rows_diff_gt_1em4": 27906,
+   "n_rows_diff_gt_1em2": 13,
+   "p9999_abs": 0.0037914441823959227
+  }
+ },
+ "n_bitexact_samples": 460284,
+ "n_strat_keep_flips": 96,
+ "stats_equal": false,
+ "ref_stats": [
+  [
+   520506,
+   78692,
+   87939
+  ],
+  [
+   477082,
+   189447,
+   186838
+  ],
+  [
+   671095,
+   355056,
+   287934
+  ],
+  [
+   872328,
+   620501,
+   2227664
+  ]
+ ],
+ "mine_stats": [
+  [
+   520497,
+   78677,
+   87893
+  ],
+  [
+   477141,
+   189435,
+   186812
+  ],
+  [
+   671131,
+   355029,
+   287889
+  ],
+  [
+   872211,
+   620392,
+   2227359
+  ]
+ ],
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/source/data/deep_cfr_model.npz",
+  "forward": "torch",
+  "precision": "tf32",
+  "device": "cuda:1",
+  "traverser": 5,
+  "eps": 0.02,
+  "seed": 1003,
+  "workers": 46,
+  "threads": null,
+  "groups": 2,
+  "json": "results/exact_torch_tf32_released.json",
+  "negative_control": false
+ },
+ "t_ref_s": 9.120248596998863,
+ "t_mine_s": 1.8696504778927192,
+ "rounds": 28,
+ "nodes": 3784513,
+ "strat_kept_ref": 189375,
+ "strat_kept_mine": 189372
+}
++ for P in highest tf32 bf16
++ /home/qiaos/venvs/poker/bin/python test_exact.py --n 30000 --net random:0 --forward torch --precision bf16 --traverser 0 --eps 0.1 --seed 1001 --json results/exact_torch_bf16_random.json
+{
+ "n_adv_ref": 238930,
+ "n_adv_mine": 238607,
+ "exact_all": false,
+ "exact_features": false,
+ "exact_advantages": false,
+ "exact_strat_features": false,
+ "exact_strategies": false,
+ "exact_strat_weights": false,
+ "n_traversals": 30000,
+ "n_diverged_traversals": 1069,
+ "diverged_examples": [
+  23,
+  103,
+  106,
+  134,
+  250,
+  255,
+  277,
+  306,
+  362,
+  372
+ ],
+ "n_aligned_samples": 227410,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 272.2908935546875,
+   "max_rel_where_ref_gt_1em3": 247.786272357511,
+   "frac_rows_nonzero_diff": 0.32944461545226683,
+   "n_rows_diff_gt_1em4": 67921,
+   "n_rows_diff_gt_1em2": 59871,
+   "p9999_abs": 67.73559366490562
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 0.5,
+   "max_rel_where_ref_gt_1em3": 6.3022252642147505,
+   "frac_rows_nonzero_diff": 0.39445494921067675,
+   "n_rows_diff_gt_1em4": 87679,
+   "n_rows_diff_gt_1em2": 667,
+   "p9999_abs": 0.01803061447683597
+  },
+  "strat_weights": {
+   "max_abs": 0.02097785472869873,
+   "max_rel_where_ref_gt_1em3": 1.4344413110300658,
+   "frac_rows_nonzero_diff": 0.3107515060903214,
+   "n_rows_diff_gt_1em4": 61349,
+   "n_rows_diff_gt_1em2": 250,
+   "p9999_abs": 0.015197450757026533
+  }
+ },
+ "n_bitexact_samples": 71356,
+ "n_strat_keep_flips": 291,
+ "stats_equal": false,
+ "ref_stats": [
+  [
+   779292,
+   105051,
+   11982
+  ],
+  [
+   68725,
+   39363,
+   2069
+  ],
+  [
+   11375,
+   41849,
+   517
+  ],
+  [
+   2095,
+   52667,
+   391380
+  ]
+ ],
+ "mine_stats": [
+  [
+   778665,
+   104947,
+   12026
+  ],
+  [
+   68499,
+   39299,
+   2122
+  ],
+  [
+   11353,
+   41796,
+   572
+  ],
+  [
+   2118,
+   52565,
+   390695
+  ]
+ ],
+ "config": {
+  "n": 30000,
+  "net": "random:0",
+  "forward": "torch",
+  "precision": "bf16",
+  "device": "cuda:1",
+  "traverser": 0,
+  "eps": 0.1,
+  "seed": 1001,
+  "workers": 46,
+  "threads": null,
+  "groups": 2,
+  "json": "results/exact_torch_bf16_random.json",
+  "negative_control": false
+ },
+ "t_ref_s": 4.556615418056026,
+ "t_mine_s": 1.0201937080128118,
+ "rounds": 20,
+ "nodes": 1099242,
+ "strat_kept_ref": 104517,
+ "strat_kept_mine": 104171
+}
++ /home/qiaos/venvs/poker/bin/python test_exact.py --n 30000 --net ../fullhouse-repro/runs/baseline_a100_adv/iter_00004.npz --forward torch --precision bf16 --traverser 3 --eps 0.0988 --seed 1002 --json results/exact_torch_bf16_iter4.json
+{
+ "n_adv_ref": 1261496,
+ "n_adv_mine": 1262697,
+ "exact_all": false,
+ "exact_features": false,
+ "exact_advantages": false,
+ "exact_strat_features": false,
+ "exact_strategies": false,
+ "exact_strat_weights": false,
+ "n_traversals": 30000,
+ "n_diverged_traversals": 6492,
+ "diverged_examples": [
+  0,
+  7,
+  10,
+  19,
+  27,
+  28,
+  35,
+  44,
+  54,
+  71
+ ],
+ "n_aligned_samples": 887527,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 459.7200012207031,
+   "max_rel_where_ref_gt_1em3": 4403.725330633026,
+   "frac_rows_nonzero_diff": 0.3327143850271597,
+   "n_rows_diff_gt_1em4": 249386,
+   "n_rows_diff_gt_1em2": 221096,
+   "p9999_abs": 202.04000091552734
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 1.0,
+   "max_rel_where_ref_gt_1em3": 164.4265281464115,
+   "frac_rows_nonzero_diff": 0.47173325431226315,
+   "n_rows_diff_gt_1em4": 413044,
+   "n_rows_diff_gt_1em2": 143800,
+   "p9999_abs": 1.0
+  },
+  "strat_weights": {
+   "max_abs": 0.2072380781173706,
+   "max_rel_where_ref_gt_1em3": 71.65056047330405,
+   "frac_rows_nonzero_diff": 0.14781296794351045,
+   "n_rows_diff_gt_1em4": 106628,
+   "n_rows_diff_gt_1em2": 4508,
+   "p9999_abs": 0.08079115319102646
+  }
+ },
+ "n_bitexact_samples": 290701,
+ "n_strat_keep_flips": 2359,
+ "stats_equal": false,
+ "ref_stats": [
+  [
+   596443,
+   103470,
+   87115
+  ],
+  [
+   585764,
+   208373,
+   214614
+  ],
+  [
+   704726,
+   348048,
+   272061
+  ],
+  [
+   851918,
+   601605,
+   2175030
+  ]
+ ],
+ "mine_stats": [
+  [
+   596846,
+   103682,
+   87230
+  ],
+  [
+   584937,
+   208420,
+   214151
+  ],
+  [
+   704497,
+   348259,
+   271857
+  ],
+  [
+   853129,
+   602336,
+   2178236
+  ]
+ ],
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/runs/baseline_a100_adv/iter_00004.npz",
+  "forward": "torch",
+  "precision": "bf16",
+  "device": "cuda:1",
+  "traverser": 3,
+  "eps": 0.0988,
+  "seed": 1002,
+  "workers": 46,
+  "threads": null,
+  "groups": 2,
+  "json": "results/exact_torch_bf16_iter4.json",
+  "negative_control": false
+ },
+ "t_ref_s": 9.604037397075444,
+ "t_mine_s": 2.0123214069753885,
+ "rounds": 32,
+ "nodes": 4002106,
+ "strat_kept_ref": 212270,
+ "strat_kept_mine": 211619
+}
++ /home/qiaos/venvs/poker/bin/python test_exact.py --n 30000 --net ../fullhouse-repro/source/data/deep_cfr_model.npz --forward torch --precision bf16 --traverser 5 --eps 0.02 --seed 1003 --json results/exact_torch_bf16_released.json
+{
+ "n_adv_ref": 1243696,
+ "n_adv_mine": 1240781,
+ "exact_all": false,
+ "exact_features": false,
+ "exact_advantages": false,
+ "exact_strat_features": false,
+ "exact_strategies": false,
+ "exact_strat_weights": false,
+ "n_traversals": 30000,
+ "n_diverged_traversals": 4475,
+ "diverged_examples": [
+  4,
+  6,
+  9,
+  10,
+  14,
+  18,
+  26,
+  27,
+  31,
+  34
+ ],
+ "n_aligned_samples": 979624,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 349.0200071334839,
+   "max_rel_where_ref_gt_1em3": 494.3536728299247,
+   "frac_rows_nonzero_diff": 0.3247480666051465,
+   "n_rows_diff_gt_1em4": 274327,
+   "n_rows_diff_gt_1em2": 232583,
+   "p9999_abs": 152.25
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 1.0,
+   "max_rel_where_ref_gt_1em3": 186.42628370261983,
+   "frac_rows_nonzero_diff": 0.42412599119662237,
+   "n_rows_diff_gt_1em4": 407448,
+   "n_rows_diff_gt_1em2": 106931,
+   "p9999_abs": 1.0
+  },
+  "strat_weights": {
+   "max_abs": 0.36351603269577026,
+   "max_rel_where_ref_gt_1em3": 17.23317354753352,
+   "frac_rows_nonzero_diff": 0.13020505826725357,
+   "n_rows_diff_gt_1em4": 99047,
+   "n_rows_diff_gt_1em2": 2696,
+   "p9999_abs": 0.06286728382110596
+  }
+ },
+ "n_bitexact_samples": 365977,
+ "n_strat_keep_flips": 1312,
+ "stats_equal": false,
+ "ref_stats": [
+  [
+   520506,
+   78692,
+   87939
+  ],
+  [
+   477082,
+   189447,
+   186838
+  ],
+  [
+   671095,
+   355056,
+   287934
+  ],
+  [
+   872328,
+   620501,
+   2227664
+  ]
+ ],
+ "mine_stats": [
+  [
+   520632,
+   78648,
+   88000
+  ],
+  [
+   476581,
+   189112,
+   186892
+  ],
+  [
+   669591,
+   354230,
+   287565
+  ],
+  [
+   870205,
+   618791,
+   2222135
+  ]
+ ],
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/source/data/deep_cfr_model.npz",
+  "forward": "torch",
+  "precision": "bf16",
+  "device": "cuda:1",
+  "traverser": 5,
+  "eps": 0.02,
+  "seed": 1003,
+  "workers": 46,
+  "threads": null,
+  "groups": 2,
+  "json": "results/exact_torch_bf16_released.json",
+  "negative_control": false
+ },
+ "t_ref_s": 9.443199344095774,
+ "t_mine_s": 0.7122819779906422,
+ "rounds": 28,
+ "nodes": 3777790,
+ "strat_kept_ref": 189375,
+ "strat_kept_mine": 188780
+}
++ echo SUITE_DONE
+SUITE_DONE

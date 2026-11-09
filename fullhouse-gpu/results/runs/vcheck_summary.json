@@ -1,0 +1,41 @@
+{
+  "iterations": 3,
+  "fit_code": {
+    "fit_dir": "/home/qiaos/work/poker-fast/trainer/vendor_fit",
+    "VENDORED.txt": "c09f79990807e71fd3246faba33a42005383e15d60be4d778e9bd56d4dc52ef0",
+    "fast_step.py": "e61e57bde733093841f53c1567e766a83b00d0656dabefadb9eb61f53668b787",
+    "gpu_fit.py": "1c1eeea9bb19f017a7db74679135ab3875769537d7e697ca6777df0e3c980650",
+    "rowk.cu": "8f7ec1c34994da495eb6dcbe736de40a887023ab9c9ceeb479b04ea4a4fd0987",
+    "triton_fit.py": "f87b968d54672956e95f5f15c06fc9e46b2eee89fc432edbad383eab064ba90d",
+    "triton_fit3.py": "33f75eefe1a53a475c5bd39afc31be22ce8be8c846a82be99dae7efba178d6b7"
+  },
+  "loop_seconds_compute": 11.433104038238525,
+  "loop_seconds_incl_final_ckpt": 12.278541564941406,
+  "process_seconds_to_final_ckpt": 19.428301334381104,
+  "setup_seconds": 7.14862847328186,
+  "final_drain_strategy_wait": 0.8393188460031524,
+  "final_drain_writer_wait": 0.00610960996709764,
+  "writer_busy_seconds": 0.013904326013289392,
+  "strategy_busy_seconds": 0.8395857940195128,
+  "strategy_fits": {
+    "3": {
+      "iteration": 3,
+      "loss": 0.13434898885091145,
+      "seconds": 0.8393960680114105,
+      "size": 569108,
+      "lr": 0.00023500000000000002,
+      "steps": 3000
+    }
+  },
+  "files_written": 3,
+  "errors": 0,
+  "timeline": {
+    "process_start": 1794176547.29,
+    "script_start": 1794176547.591923,
+    "setup_done": 1794176554.4386284,
+    "loop_start": 1794176554.4397597,
+    "loop_compute_done": 1794176565.8728638,
+    "all_checkpoints_written": 1794176566.7183013
+  },
+  "process_seconds_total": 19.437387943267822
+}

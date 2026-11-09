@@ -1,0 +1,39 @@
+loaded checkpoint in 23.4s; iteration 8
+sizes [1873267, 2369553, 1289185, 1417271, 1324847, 1376458] lr 0.000505
+[gpu-cuda] seed 0: 2.33s (0.2328 ms/step incl. capture on first) train avg loss 0.30985 eval 0.31311
+[gpu-cuda] seed 1: 1.76s (0.1758 ms/step incl. capture on first) train avg loss 0.30903 eval 0.31309
+[gpu-cuda] seed 2: 1.76s (0.1756 ms/step incl. capture on first) train avg loss 0.30957 eval 0.31137
+[TPU fit] strategy=False step=250/10000 loss=0.33215 seconds=39.8
+[TPU fit] strategy=False step=2500/10000 loss=0.31150 seconds=41.8
+[TPU fit] strategy=False step=5000/10000 loss=0.30840 seconds=44.0
+[TPU fit] strategy=False step=7500/10000 loss=0.30335 seconds=46.2
+[TPU fit] strategy=False step=10000/10000 loss=0.30367 seconds=48.4
+[jax-ref] seed 0: 48.41s train avg loss 0.30897 eval 0.31289
+[TPU fit] strategy=False step=250/10000 loss=0.33554 seconds=2.9
+[TPU fit] strategy=False step=2500/10000 loss=0.31556 seconds=4.9
+[TPU fit] strategy=False step=5000/10000 loss=0.30868 seconds=7.1
+[TPU fit] strategy=False step=7500/10000 loss=0.30734 seconds=9.3
+[TPU fit] strategy=False step=10000/10000 loss=0.29698 seconds=11.5
+[jax-ref] seed 1: 11.52s train avg loss 0.31042 eval 0.31147
+[TPU fit] strategy=False step=250/10000 loss=0.33676 seconds=3.1
+[TPU fit] strategy=False step=2500/10000 loss=0.30840 seconds=5.1
+[TPU fit] strategy=False step=5000/10000 loss=0.31338 seconds=7.4
+[TPU fit] strategy=False step=7500/10000 loss=0.30445 seconds=9.6
+[TPU fit] strategy=False step=10000/10000 loss=0.30767 seconds=11.8
+[jax-ref] seed 2: 11.80s train avg loss 0.30901 eval 0.31197
+wrote /home/qiaos/work/poker-fast/fit_opt/release_v2/validate_adv_cuda.json
+loaded checkpoint in 20.4s; iteration 8
+sizes [1724819] lr 0.000505
+[gpu-cuda] seed 0: 1.22s (0.4077 ms/step incl. capture on first) train avg loss 0.08139 eval 0.07903
+[gpu-cuda] seed 1: 0.42s (0.1397 ms/step incl. capture on first) train avg loss 0.08142 eval 0.07914
+[gpu-cuda] seed 2: 0.42s (0.1396 ms/step incl. capture on first) train avg loss 0.08131 eval 0.07895
+[TPU fit] strategy=True step=250/3000 loss=0.09213 seconds=16.5
+[TPU fit] strategy=True step=2500/3000 loss=0.07939 seconds=17.8
+[jax-ref] seed 0: 18.18s train avg loss 0.08139 eval 0.07912
+[TPU fit] strategy=True step=250/3000 loss=0.09300 seconds=0.6
+[TPU fit] strategy=True step=2500/3000 loss=0.07944 seconds=2.0
+[jax-ref] seed 1: 2.33s train avg loss 0.08148 eval 0.07908
+[TPU fit] strategy=True step=250/3000 loss=0.09197 seconds=0.6
+[TPU fit] strategy=True step=2500/3000 loss=0.07923 seconds=1.9
+[jax-ref] seed 2: 2.29s train avg loss 0.08130 eval 0.07892
+wrote /home/qiaos/work/poker-fast/fit_opt/release_v2/validate_strat_cuda.json

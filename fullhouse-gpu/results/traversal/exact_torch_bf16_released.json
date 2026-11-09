@@ -1,0 +1,135 @@
+{
+ "n_adv_ref": 1243696,
+ "n_adv_mine": 1240781,
+ "exact_all": false,
+ "exact_features": false,
+ "exact_advantages": false,
+ "exact_strat_features": false,
+ "exact_strategies": false,
+ "exact_strat_weights": false,
+ "n_traversals": 30000,
+ "n_diverged_traversals": 4475,
+ "diverged_examples": [
+  4,
+  6,
+  9,
+  10,
+  14,
+  18,
+  26,
+  27,
+  31,
+  34
+ ],
+ "n_aligned_samples": 979624,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 349.0200071334839,
+   "max_rel_where_ref_gt_1em3": 494.3536728299247,
+   "frac_rows_nonzero_diff": 0.3247480666051465,
+   "n_rows_diff_gt_1em4": 274327,
+   "n_rows_diff_gt_1em2": 232583,
+   "p9999_abs": 152.25
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 1.0,
+   "max_rel_where_ref_gt_1em3": 186.42628370261983,
+   "frac_rows_nonzero_diff": 0.42412599119662237,
+   "n_rows_diff_gt_1em4": 407448,
+   "n_rows_diff_gt_1em2": 106931,
+   "p9999_abs": 1.0
+  },
+  "strat_weights": {
+   "max_abs": 0.36351603269577026,
+   "max_rel_where_ref_gt_1em3": 17.23317354753352,
+   "frac_rows_nonzero_diff": 0.13020505826725357,
+   "n_rows_diff_gt_1em4": 99047,
+   "n_rows_diff_gt_1em2": 2696,
+   "p9999_abs": 0.06286728382110596
+  }
+ },
+ "n_bitexact_samples": 365977,
+ "n_strat_keep_flips": 1312,
+ "stats_equal": false,
+ "ref_stats": [
+  [
+   520506,
+   78692,
+   87939
+  ],
+  [
+   477082,
+   189447,
+   186838
+  ],
+  [
+   671095,
+   355056,
+   287934
+  ],
+  [
+   872328,
+   620501,
+   2227664
+  ]
+ ],
+ "mine_stats": [
+  [
+   520632,
+   78648,
+   88000
+  ],
+  [
+   476581,
+   189112,
+   186892
+  ],
+  [
+   669591,
+   354230,
+   287565
+  ],
+  [
+   870205,
+   618791,
+   2222135
+  ]
+ ],
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/source/data/deep_cfr_model.npz",
+  "forward": "torch",
+  "precision": "bf16",
+  "device": "cuda:1",
+  "traverser": 5,
+  "eps": 0.02,
+  "seed": 1003,
+  "workers": 46,
+  "threads": null,
+  "groups": 2,
+  "json": "results/exact_torch_bf16_released.json",
+  "negative_control": false
+ },
+ "t_ref_s": 9.443199344095774,
+ "t_mine_s": 0.7122819779906422,
+ "rounds": 28,
+ "nodes": 3777790,
+ "strat_kept_ref": 189375,
+ "strat_kept_mine": 188780
+}

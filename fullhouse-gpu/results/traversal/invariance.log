@@ -1,0 +1,11 @@
+parallel deals identical for 48 vs 7 threads: True
+negative control (seed 778 differs): True
+dealer histogram: [5061, 5038, 4985, 5069, 4911, 4936]
+initial stacks sum per hand unique: [60000]
+groups 1 vs 2 identical: False
+  groups 1 vs 2 (torch fwd, batch-size dependent cuBLAS rounding): {'n_diverged_traversals': 0, 'n_bitexact_traversals': 25919, 'max_abs_diff_on_aligned': {'features': 0.0, 'advantages': 0.0002727508544921875, 'strat_features': 0.0, 'strategies': 1.3310462236404419e-05, 'strat_weights': 1.6689300537109375e-06}}
+numba fwd: groups 1 vs 3 identical (pipelining logic): True
+groups 1 vs 3 identical: False
+threads 48 vs 13 identical: True
+negative control seed+1 differs: True
+n_adv 1224631 rounds 29 nodes 3741905

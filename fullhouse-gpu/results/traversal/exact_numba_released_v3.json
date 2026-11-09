@@ -1,0 +1,124 @@
+{
+ "n_adv_ref": 1226231,
+ "n_adv_mine": 1226231,
+ "exact_all": true,
+ "exact_features": true,
+ "exact_advantages": true,
+ "exact_strat_features": true,
+ "exact_strategies": true,
+ "exact_strat_weights": true,
+ "n_traversals": 30000,
+ "n_diverged_traversals": 0,
+ "diverged_examples": [],
+ "n_aligned_samples": 1226231,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strat_weights": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  }
+ },
+ "n_bitexact_samples": 1226231,
+ "n_strat_keep_flips": 0,
+ "stats_equal": true,
+ "ref_stats": [
+  [
+   522210,
+   78263,
+   88435
+  ],
+  [
+   475083,
+   187369,
+   186642
+  ],
+  [
+   663528,
+   351172,
+   286012
+  ],
+  [
+   856033,
+   609427,
+   2185655
+  ]
+ ],
+ "mine_stats": [
+  [
+   522210,
+   78263,
+   88435
+  ],
+  [
+   475083,
+   187369,
+   186642
+  ],
+  [
+   663528,
+   351172,
+   286012
+  ],
+  [
+   856033,
+   609427,
+   2185655
+  ]
+ ],
+ "config": {
+  "n": 30000,
+  "net": "../fullhouse-repro/source/data/deep_cfr_model.npz",
+  "forward": "numba",
+  "precision": "highest",
+  "device": "cuda:1",
+  "traverser": 4,
+  "eps": 0.03,
+  "seed": 3001,
+  "workers": 46,
+  "threads": null,
+  "groups": 2,
+  "json": "results/exact_numba_released_v3.json",
+  "negative_control": false
+ },
+ "t_ref_s": 8.80594537500292,
+ "t_mine_s": 8.103789920918643,
+ "rounds": 31,
+ "nodes": 3743085,
+ "strat_kept_ref": 186204,
+ "strat_kept_mine": 186204
+}

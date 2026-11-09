@@ -1,0 +1,17 @@
+ref rep 0: upstream==instrumented copy: True, adv/trav 41.718, 8.9s
+ref rep 1: upstream==instrumented copy: True, adv/trav 41.158, 9.0s
+ref rep 2: upstream==instrumented copy: True, adv/trav 41.516, 8.6s
+ref rep 3: upstream==instrumented copy: True, adv/trav 41.500, 8.6s
+ref rep 4: upstream==instrumented copy: True, adv/trav 41.670, 8.5s
+ref rep 5: upstream==instrumented copy: True, adv/trav 41.158, 8.5s
+ref rep 6: upstream==instrumented copy: True, adv/trav 41.347, 8.7s
+ref rep 7: upstream==instrumented copy: True, adv/trav 41.705, 8.7s
+ref rep 8: upstream==instrumented copy: True, adv/trav 41.596, 8.7s
+ref rep 9: upstream==instrumented copy: True, adv/trav 41.206, 8.5s
+ref rep 10: upstream==instrumented copy: True, adv/trav 41.204, 8.8s
+ref rep 11: upstream==instrumented copy: True, adv/trav 41.550, 9.0s
+ref rep 12: upstream==instrumented copy: True, adv/trav 41.821, 8.9s
+ref rep 13: upstream==instrumented copy: True, adv/trav 41.533, 9.0s
+ref rep 14: upstream==instrumented copy: True, adv/trav 41.226, 8.8s
+ref rep 15: upstream==instrumented copy: True, adv/trav 41.496, 9.0s
+highest {"n_metrics": 149, "max_abs_t": 2.628230326211436, "n_abs_t_gt_3": 0, "n_abs_t_gt_4": 0, "worst": ["feat_std_d29", "feat_mean_d29", "sigma_mean_a2", "feat_mean_d06", "legal_frac_a4", "feat_std_d06", "sigma_zero_frac_a3", "feat_mean_d15"], "mean_wall_s": 0.9340175001198077}

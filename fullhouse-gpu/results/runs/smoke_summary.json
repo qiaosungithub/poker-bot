@@ -1,0 +1,39 @@
+{
+  "loop_seconds_compute": 0.845820426940918,
+  "loop_seconds_incl_final_ckpt": 0.8890790939331055,
+  "process_seconds_to_final_ckpt": 110.51687574386597,
+  "setup_seconds": 109.62764358520508,
+  "final_drain_strategy_wait": 0.03879904199857265,
+  "final_drain_writer_wait": 0.004450581967830658,
+  "writer_busy_seconds": 0.023903777939267457,
+  "strategy_busy_seconds": 0.07749920000787824,
+  "strategy_fits": {
+    "2": {
+      "iteration": 2,
+      "loss": 0.22424295043945314,
+      "seconds": 0.038336428930051625,
+      "size": 5000,
+      "lr": 0.00019,
+      "steps": 250
+    },
+    "4": {
+      "iteration": 4,
+      "loss": 0.15358261108398438,
+      "seconds": 0.03887460893020034,
+      "size": 5000,
+      "lr": 0.00028000000000000003,
+      "steps": 250
+    }
+  },
+  "files_written": 6,
+  "errors": 0,
+  "timeline": {
+    "process_start": 1794176149.24,
+    "script_start": 1794176149.536452,
+    "setup_done": 1794176258.8676436,
+    "loop_start": 1794176258.8677967,
+    "loop_compute_done": 1794176259.713617,
+    "all_checkpoints_written": 1794176259.7568758
+  },
+  "process_seconds_total": 110.51760029792786
+}

@@ -1,0 +1,4 @@
+iter 1: traverser 0 eps 0.1000 traversal 0.715s adv 243003 strat kept 64717 buffer add 0.036s buf sizes [243003, 0, 0, 0, 0, 0] strat 64717
+iter 2: traverser 1 eps 0.0997 traversal 0.335s adv 663328 strat kept 498494 buffer add 0.142s buf sizes [243003, 663328, 0, 0, 0, 0] strat 563211
+iter 3: traverser 2 eps 0.0994 traversal 0.400s adv 554254 strat kept 449358 buffer add 0.121s buf sizes [243003, 663328, 554254, 0, 0, 0] strat 1012569
+integration OK

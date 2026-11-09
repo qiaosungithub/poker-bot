@@ -1,0 +1,135 @@
+{
+ "n_adv_ref": 238930,
+ "n_adv_mine": 238933,
+ "exact_all": false,
+ "exact_features": false,
+ "exact_advantages": false,
+ "exact_strat_features": false,
+ "exact_strategies": false,
+ "exact_strat_weights": false,
+ "n_traversals": 30000,
+ "n_diverged_traversals": 80,
+ "diverged_examples": [
+  618,
+  769,
+  774,
+  1138,
+  1297,
+  1801,
+  2090,
+  2614,
+  3059,
+  3322
+ ],
+ "n_aligned_samples": 238373,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 47.14000153541565,
+   "max_rel_where_ref_gt_1em3": 27.091954756923354,
+   "frac_rows_nonzero_diff": 0.33257961262391295,
+   "n_rows_diff_gt_1em4": 69385,
+   "n_rows_diff_gt_1em2": 30091,
+   "p9999_abs": 0.29797611694335924
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 0.003673374652862549,
+   "max_rel_where_ref_gt_1em3": 0.8377044509561091,
+   "frac_rows_nonzero_diff": 0.3937148922067516,
+   "n_rows_diff_gt_1em4": 52457,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0015148056149482687
+  },
+  "strat_weights": {
+   "max_abs": 0.0015323162078857422,
+   "max_rel_where_ref_gt_1em3": 0.45150213553249197,
+   "frac_rows_nonzero_diff": 0.31106710911051166,
+   "n_rows_diff_gt_1em4": 19449,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0009515147447585505
+  }
+ },
+ "n_bitexact_samples": 74645,
+ "n_strat_keep_flips": 24,
+ "stats_equal": false,
+ "ref_stats": [
+  [
+   779292,
+   105051,
+   11982
+  ],
+  [
+   68725,
+   39363,
+   2069
+  ],
+  [
+   11375,
+   41849,
+   517
+  ],
+  [
+   2095,
+   52667,
+   391380
+  ]
+ ],
+ "mine_stats": [
+  [
+   779299,
+   105049,
+   11988
+  ],
+  [
+   68763,
+   39363,
+   2073
+  ],
+  [
+   11372,
+   41851,
+   518
+  ],
+  [
+   2094,
+   52670,
+   391378
+  ]
+ ],
+ "config": {
+  "n": 30000,
+  "net": "random:0",
+  "forward": "torch",
+  "precision": "tf32",
+  "device": "cuda:1",
+  "traverser": 0,
+  "eps": 0.1,
+  "seed": 1001,
+  "workers": 46,
+  "threads": null,
+  "groups": 2,
+  "json": "results/exact_torch_tf32_random.json",
+  "negative_control": false
+ },
+ "t_ref_s": 4.566587399924174,
+ "t_mine_s": 0.19927906792145222,
+ "rounds": 20,
+ "nodes": 1100461,
+ "strat_kept_ref": 104517,
+ "strat_kept_mine": 104524
+}

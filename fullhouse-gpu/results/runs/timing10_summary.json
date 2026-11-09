@@ -1,0 +1,31 @@
+{
+  "loop_seconds_compute": 38.65411400794983,
+  "loop_seconds_incl_final_ckpt": 39.50136470794678,
+  "process_seconds_to_final_ckpt": 46.83827471733093,
+  "setup_seconds": 7.336703777313232,
+  "final_drain_strategy_wait": 0.8410938460147008,
+  "final_drain_writer_wait": 0.006147815962322056,
+  "writer_busy_seconds": 0.013022107072174549,
+  "strategy_busy_seconds": 0.8416265929117799,
+  "strategy_fits": {
+    "10": {
+      "iteration": 10,
+      "loss": 0.0727537841796875,
+      "seconds": 0.8414696630788967,
+      "size": 2202569,
+      "lr": 0.00055,
+      "steps": 3000
+    }
+  },
+  "files_written": 3,
+  "errors": 0,
+  "timeline": {
+    "process_start": 1794176293.07,
+    "script_start": 1794176293.3660173,
+    "setup_done": 1794176300.4067037,
+    "loop_start": 1794176300.40691,
+    "loop_compute_done": 1794176339.061024,
+    "all_checkpoints_written": 1794176339.9082747
+  },
+  "process_seconds_total": 46.845834732055664
+}

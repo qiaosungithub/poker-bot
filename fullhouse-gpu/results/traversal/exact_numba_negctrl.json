@@ -1,0 +1,135 @@
+{
+ "n_adv_ref": 210590,
+ "n_adv_mine": 211795,
+ "exact_all": false,
+ "exact_features": false,
+ "exact_advantages": false,
+ "exact_strat_features": false,
+ "exact_strategies": false,
+ "exact_strat_weights": false,
+ "n_traversals": 5000,
+ "n_diverged_traversals": 4902,
+ "diverged_examples": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "n_aligned_samples": 2063,
+ "tolerance_on_aligned": {
+  "features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "advantages": {
+   "max_abs": 44.0,
+   "max_rel_where_ref_gt_1em3": 3.248746594667449,
+   "frac_rows_nonzero_diff": 0.004847309743092583,
+   "n_rows_diff_gt_1em4": 10,
+   "n_rows_diff_gt_1em2": 10,
+   "p9999_abs": 39.46359999999822
+  },
+  "strat_features": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strategies": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  },
+  "strat_weights": {
+   "max_abs": 0.0,
+   "max_rel_where_ref_gt_1em3": 0.0,
+   "frac_rows_nonzero_diff": 0.0,
+   "n_rows_diff_gt_1em4": 0,
+   "n_rows_diff_gt_1em2": 0,
+   "p9999_abs": 0.0
+  }
+ },
+ "n_bitexact_samples": 2053,
+ "n_strat_keep_flips": 0,
+ "stats_equal": false,
+ "ref_stats": [
+  [
+   86611,
+   13095,
+   14682
+  ],
+  [
+   80038,
+   31738,
+   31275
+  ],
+  [
+   113850,
+   60124,
+   49071
+  ],
+  [
+   148586,
+   105633,
+   377344
+  ]
+ ],
+ "mine_stats": [
+  [
+   86577,
+   13063,
+   14667
+  ],
+  [
+   81255,
+   32404,
+   32127
+  ],
+  [
+   114783,
+   60657,
+   49542
+  ],
+  [
+   147880,
+   105671,
+   378937
+  ]
+ ],
+ "config": {
+  "n": 5000,
+  "net": "../fullhouse-repro/source/data/deep_cfr_model.npz",
+  "forward": "numba",
+  "precision": "highest",
+  "device": "cuda:1",
+  "traverser": 5,
+  "eps": 0.02,
+  "seed": 1003,
+  "workers": 46,
+  "threads": null,
+  "groups": 2,
+  "json": "results/exact_numba_negctrl.json",
+  "negative_control": true
+ },
+ "t_ref_s": 3.8471680639777333,
+ "t_mine_s": 2.6286700130440295,
+ "rounds": 27,
+ "nodes": 642290,
+ "strat_kept_ref": 32373,
+ "strat_kept_mine": 31780
+}

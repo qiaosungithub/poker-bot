@@ -1,0 +1,85 @@
+{
+ "n_adv_ref": 16502,
+ "n_adv_mine": 16502,
+ "exact_all": true,
+ "exact_features": true,
+ "exact_advantages": true,
+ "exact_strat_features": true,
+ "exact_strategies": true,
+ "exact_strat_weights": true,
+ "n_traversals": 2000,
+ "n_diverged_traversals": 0,
+ "diverged_examples": [],
+ "n_bitexact_traversals": 2000,
+ "max_abs_diff_on_aligned": {
+  "features": 0.0,
+  "advantages": 0.0,
+  "strat_features": 0.0,
+  "strategies": 0.0,
+  "strat_weights": 0.0
+ },
+ "stats_equal": true,
+ "ref_stats": [
+  [
+   52039,
+   7062,
+   846
+  ],
+  [
+   4679,
+   2818,
+   159
+  ],
+  [
+   772,
+   2966,
+   35
+  ],
+  [
+   132,
+   3656,
+   26842
+  ]
+ ],
+ "mine_stats": [
+  [
+   52039,
+   7062,
+   846
+  ],
+  [
+   4679,
+   2818,
+   159
+  ],
+  [
+   772,
+   2966,
+   35
+  ],
+  [
+   132,
+   3656,
+   26842
+  ]
+ ],
+ "config": {
+  "n": 2000,
+  "net": "random:0",
+  "forward": "numba",
+  "precision": "highest",
+  "device": "cuda:1",
+  "traverser": 0,
+  "eps": 0.1,
+  "seed": 12345,
+  "workers": 20,
+  "threads": null,
+  "json": "results/smoke.json"
+ },
+ "t_ref_s": 1.5428491639904678,
+ "t_mine_s": 0.14661381300538778,
+ "rounds": 19,
+ "nodes": 74124,
+ "strat_kept_ref": 7012,
+ "strat_kept_mine": 7012
+}
