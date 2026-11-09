@@ -1,0 +1,18 @@
+[
+  {
+    "source_commit": "0d2bde83fdc08d0c348556bf8d58a44c7808d160",
+    "source_path": "auction.py",
+    "source_sha256": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d",
+    "vendored_path": "auction_value.py",
+    "vendored_sha256": "02f81da7e777d93413f22874222d1ce39c33e4ba4ea7e8751627e4afc3859a88",
+    "change": "Equivalent standard-index tie fast paths in chosen_indices and forcing_bid; generic implementations retained."
+  },
+  {
+    "source_commit": "0d2bde83fdc08d0c348556bf8d58a44c7808d160",
+    "source_path": "auction_v2.py",
+    "source_sha256": "cfef7764f49725a14e15e48f5ec50adbfcbccf30ee7e1ffaebb9a2b9a2df7bc7",
+    "vendored_path": "auction_selector.py",
+    "vendored_sha256": "9c3f2d79978c988f763b0516b68acf904b3051760c3e25bc79d872735425cbe0",
+    "change": "import renamed to auction_value"
+  }
+]

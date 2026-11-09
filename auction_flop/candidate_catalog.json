@@ -1,0 +1,212 @@
+{
+  "benchmark": "auction-flop-v1; candidates do not alter the frozen roster",
+  "candidates": {
+    "history0_inference0": {
+      "base_revision": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+      "composition": "candidate_build/history0_inference0.json",
+      "configuration_source_revision": "de78218004d0b81df799c4d0320268afc21aa639",
+      "description": "Controlled 2x2: same auction value/selector/cost, toggle historical bid-pressure model; same betting core, toggle street-aware public-payment inference.",
+      "path": "candidates/history0_inference0",
+      "sha256": {
+        "agent.py": "ab97f3d27cd875aa31feaccfe4ccdee0734033925407b2bc727f95b037dc7882",
+        "auction_history_policy.py": "8d71947a0772c97cd2ab417254b7217ae3f4eda661695bb75b1216331c6ba279",
+        "auction_policy.py": "ec691f64df151a9a628bdfb7df1839fbb72c0ea46a14124cf84e71b1b2200a90",
+        "auction_selector.py": "9c3f2d79978c988f763b0516b68acf904b3051760c3e25bc79d872735425cbe0",
+        "auction_value.py": "02f81da7e777d93413f22874222d1ce39c33e4ba4ea7e8751627e4afc3859a88",
+        "betting_baseline.py": "a40cac52cf266ef4cb5dc37deea6420cb6a5948a649e8201ba97c47859a2204b",
+        "betting_inference_core.py": "f3a8d687c90c33edd2b86c216b5e52bd08660bc9741dae2b7d791a69ded0a42f",
+        "betting_policy.py": "39a988b7f119274723ab140f15a8b09a50f239aff57513195bb077607333456c",
+        "flop_policy.py": "d57e5895242f51f63d8fc100d1cdf412a92a1c276e9c02f85f4af26a27ea7eb2",
+        "postflop_policy.py": "786f1e9c21ecfbdca4add1aab7f831631d04e6054187ed36846593d75efa0548",
+        "preflop_policy.py": "d6a3ab5a8d2b96d6defabf04c20f0ce03607e28cda9ef125014e4207545d6ab7",
+        "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+        "river_policy.py": "0aab2c4b27c9e8385f1179f86f9361f0c7ec7cded9e52ce77bb5a722cd01885f",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "turn_policy.py": "e572c0410d711bf9e7772fdb2bc2487aad3e21b9237ecb62f52c3aafce9522c4",
+        "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+        "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+      }
+    },
+    "history0_inference1": {
+      "base_revision": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+      "composition": "candidate_build/history0_inference1.json",
+      "configuration_source_revision": "de78218004d0b81df799c4d0320268afc21aa639",
+      "description": "Controlled 2x2: same auction value/selector/cost, toggle historical bid-pressure model; same betting core, toggle street-aware public-payment inference.",
+      "path": "candidates/history0_inference1",
+      "sha256": {
+        "agent.py": "ab97f3d27cd875aa31feaccfe4ccdee0734033925407b2bc727f95b037dc7882",
+        "auction_history_policy.py": "8d71947a0772c97cd2ab417254b7217ae3f4eda661695bb75b1216331c6ba279",
+        "auction_policy.py": "ec691f64df151a9a628bdfb7df1839fbb72c0ea46a14124cf84e71b1b2200a90",
+        "auction_selector.py": "9c3f2d79978c988f763b0516b68acf904b3051760c3e25bc79d872735425cbe0",
+        "auction_value.py": "02f81da7e777d93413f22874222d1ce39c33e4ba4ea7e8751627e4afc3859a88",
+        "betting_baseline.py": "a40cac52cf266ef4cb5dc37deea6420cb6a5948a649e8201ba97c47859a2204b",
+        "betting_inference_core.py": "f3a8d687c90c33edd2b86c216b5e52bd08660bc9741dae2b7d791a69ded0a42f",
+        "betting_policy.py": "6ca0edc4a463c459be00e331b26517ee1bff06d7f1967ea688668d0d67bc4bef",
+        "flop_policy.py": "d57e5895242f51f63d8fc100d1cdf412a92a1c276e9c02f85f4af26a27ea7eb2",
+        "postflop_policy.py": "786f1e9c21ecfbdca4add1aab7f831631d04e6054187ed36846593d75efa0548",
+        "preflop_policy.py": "d6a3ab5a8d2b96d6defabf04c20f0ce03607e28cda9ef125014e4207545d6ab7",
+        "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+        "river_policy.py": "0aab2c4b27c9e8385f1179f86f9361f0c7ec7cded9e52ce77bb5a722cd01885f",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "turn_policy.py": "e572c0410d711bf9e7772fdb2bc2487aad3e21b9237ecb62f52c3aafce9522c4",
+        "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+        "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+      }
+    },
+    "history1_inference0": {
+      "base_revision": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+      "composition": "candidate_build/history1_inference0.json",
+      "configuration_source_revision": "de78218004d0b81df799c4d0320268afc21aa639",
+      "description": "Controlled 2x2: same auction value/selector/cost, toggle historical bid-pressure model; same betting core, toggle street-aware public-payment inference.",
+      "path": "candidates/history1_inference0",
+      "sha256": {
+        "agent.py": "ab97f3d27cd875aa31feaccfe4ccdee0734033925407b2bc727f95b037dc7882",
+        "auction_history_policy.py": "8d71947a0772c97cd2ab417254b7217ae3f4eda661695bb75b1216331c6ba279",
+        "auction_policy.py": "20b2259491fb956075726ae3a205c8275c3bd5b734ed202336a87576233b47db",
+        "auction_selector.py": "9c3f2d79978c988f763b0516b68acf904b3051760c3e25bc79d872735425cbe0",
+        "auction_value.py": "02f81da7e777d93413f22874222d1ce39c33e4ba4ea7e8751627e4afc3859a88",
+        "betting_baseline.py": "a40cac52cf266ef4cb5dc37deea6420cb6a5948a649e8201ba97c47859a2204b",
+        "betting_inference_core.py": "f3a8d687c90c33edd2b86c216b5e52bd08660bc9741dae2b7d791a69ded0a42f",
+        "betting_policy.py": "39a988b7f119274723ab140f15a8b09a50f239aff57513195bb077607333456c",
+        "flop_policy.py": "d57e5895242f51f63d8fc100d1cdf412a92a1c276e9c02f85f4af26a27ea7eb2",
+        "postflop_policy.py": "786f1e9c21ecfbdca4add1aab7f831631d04e6054187ed36846593d75efa0548",
+        "preflop_policy.py": "d6a3ab5a8d2b96d6defabf04c20f0ce03607e28cda9ef125014e4207545d6ab7",
+        "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+        "river_policy.py": "0aab2c4b27c9e8385f1179f86f9361f0c7ec7cded9e52ce77bb5a722cd01885f",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "turn_policy.py": "e572c0410d711bf9e7772fdb2bc2487aad3e21b9237ecb62f52c3aafce9522c4",
+        "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+        "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+      }
+    },
+    "history1_inference1": {
+      "base_revision": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+      "composition": "candidate_build/history1_inference1.json",
+      "configuration_source_revision": "de78218004d0b81df799c4d0320268afc21aa639",
+      "description": "Controlled 2x2: same auction value/selector/cost, toggle historical bid-pressure model; same betting core, toggle street-aware public-payment inference.",
+      "path": "candidates/history1_inference1",
+      "sha256": {
+        "agent.py": "ab97f3d27cd875aa31feaccfe4ccdee0734033925407b2bc727f95b037dc7882",
+        "auction_history_policy.py": "8d71947a0772c97cd2ab417254b7217ae3f4eda661695bb75b1216331c6ba279",
+        "auction_policy.py": "20b2259491fb956075726ae3a205c8275c3bd5b734ed202336a87576233b47db",
+        "auction_selector.py": "9c3f2d79978c988f763b0516b68acf904b3051760c3e25bc79d872735425cbe0",
+        "auction_value.py": "02f81da7e777d93413f22874222d1ce39c33e4ba4ea7e8751627e4afc3859a88",
+        "betting_baseline.py": "a40cac52cf266ef4cb5dc37deea6420cb6a5948a649e8201ba97c47859a2204b",
+        "betting_inference_core.py": "f3a8d687c90c33edd2b86c216b5e52bd08660bc9741dae2b7d791a69ded0a42f",
+        "betting_policy.py": "6ca0edc4a463c459be00e331b26517ee1bff06d7f1967ea688668d0d67bc4bef",
+        "flop_policy.py": "d57e5895242f51f63d8fc100d1cdf412a92a1c276e9c02f85f4af26a27ea7eb2",
+        "postflop_policy.py": "786f1e9c21ecfbdca4add1aab7f831631d04e6054187ed36846593d75efa0548",
+        "preflop_policy.py": "d6a3ab5a8d2b96d6defabf04c20f0ce03607e28cda9ef125014e4207545d6ab7",
+        "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+        "river_policy.py": "0aab2c4b27c9e8385f1179f86f9361f0c7ec7cded9e52ce77bb5a722cd01885f",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "turn_policy.py": "e572c0410d711bf9e7772fdb2bc2487aad3e21b9237ecb62f52c3aafce9522c4",
+        "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+        "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+      }
+    },
+    "joint_off": {
+      "description": "Same event-time hybrid component sources; bounded cross-stage coordination toggle; own/public information shared. Frozen observer079ab14, malformed-cursor guard is only difference from7e7aa88 core.",
+      "event_revision": "3a74011f7a75803e2fda8673e767f5df2e17d6ea",
+      "path": "candidates/joint_off",
+      "sha256": {
+        "agent.py": "53c9ab6d2d9d6262547a8f9b407c93ea9564c51532d9ff3a7258a0425594cae9",
+        "joint_auction_base.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "joint_betting_base.py": "da19183408173f79d12751643d507d0c5be00fb60d2771e84eb9e0f039143953",
+        "joint_off.py": "586339b534bb0c0c281f0e9afee8c6f91c234c6c043f23f2d938ecfdedf6ef60",
+        "joint_policy.py": "f93d6b37d8a377aac109414c28aebe8d6b83ceaed41fc97ec3e4b6bbe4572eae",
+        "joint_value_base.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d",
+        "public_features.py": "afccb1592bd4ff77258da888128e6e7b1c3125c7c70679355f2353fe0a1b2a9a"
+      },
+      "source_prefix": "bot_off"
+    },
+    "joint_on": {
+      "description": "Same event-time hybrid component sources; bounded cross-stage coordination toggle; own/public information shared. Frozen observer079ab14, malformed-cursor guard is only difference from7e7aa88 core.",
+      "event_revision": "3a74011f7a75803e2fda8673e767f5df2e17d6ea",
+      "path": "candidates/joint_on",
+      "sha256": {
+        "agent.py": "3d46d30855ea102c958c755a2d54e86e941ffc5dcba1c16e1b0111a5c080d63c",
+        "joint_auction_base.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "joint_betting_base.py": "da19183408173f79d12751643d507d0c5be00fb60d2771e84eb9e0f039143953",
+        "joint_off.py": "586339b534bb0c0c281f0e9afee8c6f91c234c6c043f23f2d938ecfdedf6ef60",
+        "joint_policy.py": "f93d6b37d8a377aac109414c28aebe8d6b83ceaed41fc97ec3e4b6bbe4572eae",
+        "joint_value_base.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d",
+        "public_features.py": "afccb1592bd4ff77258da888128e6e7b1c3125c7c70679355f2353fe0a1b2a9a"
+      },
+      "source_prefix": "bot"
+    },
+    "preflop_loose": {
+      "base_revision": "079ab149075e15bf72e2f36895a06467298f9ece",
+      "composition": "candidate_build/preflop_loose.json",
+      "configuration_source_revision": "e0aa5dc79c3711c8ce41e54923b450c85d182be2",
+      "description": "Only preflop changes; independent of auction budgets. Exact control available in same module.",
+      "path": "candidates/preflop_loose",
+      "sha256": {
+        "agent.py": "ab97f3d27cd875aa31feaccfe4ccdee0734033925407b2bc727f95b037dc7882",
+        "auction_policy.py": "8e1aa1654e398e370479ababbc70ef9ad314216ccaa0759e3fa8386e6f8802b5",
+        "betting_policy.py": "468cd5dc398408070c0e2f7b9b233eb7b0d7ee1f8f04f9859458deccd93f141e",
+        "flop_policy.py": "d57e5895242f51f63d8fc100d1cdf412a92a1c276e9c02f85f4af26a27ea7eb2",
+        "independent_preflop.py": "320badde0c9eb352a930369693dbe30757f2b37ae355e811308825ef95d4e69f",
+        "postflop_policy.py": "786f1e9c21ecfbdca4add1aab7f831631d04e6054187ed36846593d75efa0548",
+        "preflop_policy.py": "88adb1e87bf95e9973c2e4fbe395a92c380f9162139759a8512e5a75d357c907",
+        "public_features.py": "afccb1592bd4ff77258da888128e6e7b1c3125c7c70679355f2353fe0a1b2a9a",
+        "river_policy.py": "0aab2c4b27c9e8385f1179f86f9361f0c7ec7cded9e52ce77bb5a722cd01885f",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "turn_policy.py": "e572c0410d711bf9e7772fdb2bc2487aad3e21b9237ecb62f52c3aafce9522c4",
+        "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+        "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+      }
+    },
+    "preflop_tight": {
+      "base_revision": "079ab149075e15bf72e2f36895a06467298f9ece",
+      "composition": "candidate_build/preflop_tight.json",
+      "configuration_source_revision": "e0aa5dc79c3711c8ce41e54923b450c85d182be2",
+      "description": "Only preflop changes; independent of auction budgets. Exact control available in same module.",
+      "path": "candidates/preflop_tight",
+      "sha256": {
+        "agent.py": "ab97f3d27cd875aa31feaccfe4ccdee0734033925407b2bc727f95b037dc7882",
+        "auction_policy.py": "8e1aa1654e398e370479ababbc70ef9ad314216ccaa0759e3fa8386e6f8802b5",
+        "betting_policy.py": "468cd5dc398408070c0e2f7b9b233eb7b0d7ee1f8f04f9859458deccd93f141e",
+        "flop_policy.py": "d57e5895242f51f63d8fc100d1cdf412a92a1c276e9c02f85f4af26a27ea7eb2",
+        "independent_preflop.py": "320badde0c9eb352a930369693dbe30757f2b37ae355e811308825ef95d4e69f",
+        "postflop_policy.py": "786f1e9c21ecfbdca4add1aab7f831631d04e6054187ed36846593d75efa0548",
+        "preflop_policy.py": "3fc44d7ab281e73ad61777ddbd69ea34ca11e1f306394e65d8cc2ac678d4debc",
+        "public_features.py": "afccb1592bd4ff77258da888128e6e7b1c3125c7c70679355f2353fe0a1b2a9a",
+        "river_policy.py": "0aab2c4b27c9e8385f1179f86f9361f0c7ec7cded9e52ce77bb5a722cd01885f",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "turn_policy.py": "e572c0410d711bf9e7772fdb2bc2487aad3e21b9237ecb62f52c3aafce9522c4",
+        "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+        "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+      }
+    },
+    "strong_modular_baseline": {
+      "description": "Variant preflop/flop/turn/river plus tournament auction; shared observer/context. Exact frozen hybrid normal-decision parity.",
+      "event_revision": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+      "path": "candidates/strong_modular_baseline",
+      "sha256": {
+        "agent.py": "ab97f3d27cd875aa31feaccfe4ccdee0734033925407b2bc727f95b037dc7882",
+        "auction_policy.py": "8e1aa1654e398e370479ababbc70ef9ad314216ccaa0759e3fa8386e6f8802b5",
+        "betting_policy.py": "468cd5dc398408070c0e2f7b9b233eb7b0d7ee1f8f04f9859458deccd93f141e",
+        "flop_policy.py": "d57e5895242f51f63d8fc100d1cdf412a92a1c276e9c02f85f4af26a27ea7eb2",
+        "postflop_policy.py": "786f1e9c21ecfbdca4add1aab7f831631d04e6054187ed36846593d75efa0548",
+        "preflop_policy.py": "d6a3ab5a8d2b96d6defabf04c20f0ce03607e28cda9ef125014e4207545d6ab7",
+        "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+        "river_policy.py": "0aab2c4b27c9e8385f1179f86f9361f0c7ec7cded9e52ce77bb5a722cd01885f",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "turn_policy.py": "e572c0410d711bf9e7772fdb2bc2487aad3e21b9237ecb62f52c3aafce9522c4",
+        "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+        "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+      },
+      "source_prefix": "bot"
+    }
+  },
+  "composer_revision": "de78218004d0b81df799c4d0320268afc21aa639",
+  "original_catalog_generated_at": "2026-11-09T23:52:51.179754+00:00"
+}

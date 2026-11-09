@@ -1,0 +1,275 @@
+{
+  "scores": [
+    {
+      "name": "auction_tournament",
+      "mean_points": 19.560546875,
+      "ci95": [
+        18.30824348360749,
+        20.81285026639251
+      ],
+      "blocks": 128,
+      "tables": 1024,
+      "decisions": 181216,
+      "failures": 0,
+      "mean_chips": 3593.75,
+      "mean_spent_flopchips": 817.6845703125,
+      "mean_remaining_flopchips": 182.3154296875,
+      "mean_spend_per_auction": 44.32316976337939
+    },
+    {
+      "name": "auction_exploit",
+      "mean_points": 18.740234375,
+      "ci95": [
+        17.542825431902596,
+        19.937643318097404
+      ],
+      "blocks": 128,
+      "tables": 1024,
+      "decisions": 182447,
+      "failures": 0,
+      "mean_chips": 3125.0,
+      "mean_spent_flopchips": 786.8515625,
+      "mean_remaining_flopchips": 213.1484375,
+      "mean_spend_per_auction": 42.47198355384534
+    },
+    {
+      "name": "auction_ranges",
+      "mean_points": 18.18359375,
+      "ci95": [
+        16.968624300753213,
+        19.398563199246787
+      ],
+      "blocks": 128,
+      "tables": 1024,
+      "decisions": 180516,
+      "failures": 0,
+      "mean_chips": 3281.25,
+      "mean_spent_flopchips": 698.5888671875,
+      "mean_remaining_flopchips": 301.4111328125,
+      "mean_spend_per_auction": 38.209325926717234
+    },
+    {
+      "name": "auction_variant",
+      "mean_points": 16.552734375,
+      "ci95": [
+        15.36951759029274,
+        17.735951159707263
+      ],
+      "blocks": 128,
+      "tables": 1024,
+      "decisions": 175370,
+      "failures": 0,
+      "mean_chips": 2921.875,
+      "mean_spent_flopchips": 545.4072265625,
+      "mean_remaining_flopchips": 454.5927734375,
+      "mean_spend_per_auction": 30.39439455782313
+    },
+    {
+      "name": "auction_equity",
+      "mean_points": 14.931640625,
+      "ci95": [
+        13.886077237635988,
+        15.977204012364012
+      ],
+      "blocks": 128,
+      "tables": 1024,
+      "decisions": 174185,
+      "failures": 0,
+      "mean_chips": 2187.5,
+      "mean_spent_flopchips": 760.0966796875,
+      "mean_remaining_flopchips": 239.9033203125,
+      "mean_spend_per_auction": 42.92152862027131
+    },
+    {
+      "name": "auction_zero",
+      "mean_points": 10.205078125,
+      "ci95": [
+        9.264178056601121,
+        11.145978193398879
+      ],
+      "blocks": 128,
+      "tables": 1024,
+      "decisions": 162943,
+      "failures": 0,
+      "mean_chips": 890.625,
+      "mean_spent_flopchips": 0.0,
+      "mean_remaining_flopchips": 1000.0,
+      "mean_spend_per_auction": 0.0
+    },
+    {
+      "name": "checkfold",
+      "mean_points": 1.806640625,
+      "ci95": [
+        1.4254025517412887,
+        2.1878786982587113
+      ],
+      "blocks": 128,
+      "tables": 1024,
+      "decisions": 117846,
+      "failures": 0,
+      "mean_chips": 0.0,
+      "mean_spent_flopchips": 0.0,
+      "mean_remaining_flopchips": 1000.0,
+      "mean_spend_per_auction": 0.0
+    },
+    {
+      "name": "minraise",
+      "mean_points": 0.01953125,
+      "ci95": [
+        -0.018750000000000003,
+        0.0578125
+      ],
+      "blocks": 128,
+      "tables": 1024,
+      "decisions": 32251,
+      "failures": 0,
+      "mean_chips": 0.0,
+      "mean_spent_flopchips": 0.0,
+      "mean_remaining_flopchips": 1000.0,
+      "mean_spend_per_auction": 0.0
+    }
+  ],
+  "pairs": [
+    {
+      "a": "auction_tournament",
+      "b": "auction_ranges",
+      "difference": 1.376953125,
+      "simultaneous_ci95": [
+        -1.3921477046315376,
+        4.146053954631538
+      ]
+    },
+    {
+      "a": "auction_tournament",
+      "b": "auction_exploit",
+      "difference": 0.8203125,
+      "simultaneous_ci95": [
+        -2.2488091605399907,
+        3.8894341605399907
+      ]
+    },
+    {
+      "a": "auction_tournament",
+      "b": "auction_variant",
+      "difference": 3.0078125,
+      "simultaneous_ci95": [
+        0.22659746771942624,
+        5.789027532280574
+      ]
+    },
+    {
+      "a": "auction_tournament",
+      "b": "auction_equity",
+      "difference": 4.62890625,
+      "simultaneous_ci95": [
+        1.916450698908442,
+        7.3413618010915584
+      ]
+    },
+    {
+      "a": "auction_tournament",
+      "b": "auction_zero",
+      "difference": 9.35546875,
+      "simultaneous_ci95": [
+        6.75631598094545,
+        11.95462151905455
+      ]
+    },
+    {
+      "a": "auction_ranges",
+      "b": "auction_exploit",
+      "difference": -0.556640625,
+      "simultaneous_ci95": [
+        -3.2428510238981527,
+        2.1295697738981527
+      ]
+    },
+    {
+      "a": "auction_ranges",
+      "b": "auction_variant",
+      "difference": 1.630859375,
+      "simultaneous_ci95": [
+        -1.4171768914677938,
+        4.678895641467793
+      ]
+    },
+    {
+      "a": "auction_ranges",
+      "b": "auction_equity",
+      "difference": 3.251953125,
+      "simultaneous_ci95": [
+        0.640608783975483,
+        5.863297466024517
+      ]
+    },
+    {
+      "a": "auction_ranges",
+      "b": "auction_zero",
+      "difference": 7.978515625,
+      "simultaneous_ci95": [
+        5.509039571238319,
+        10.447991678761682
+      ]
+    },
+    {
+      "a": "auction_exploit",
+      "b": "auction_variant",
+      "difference": 2.1875,
+      "simultaneous_ci95": [
+        -0.6308529036324448,
+        5.005852903632444
+      ]
+    },
+    {
+      "a": "auction_exploit",
+      "b": "auction_equity",
+      "difference": 3.80859375,
+      "simultaneous_ci95": [
+        1.2851361277581876,
+        6.332051372241812
+      ]
+    },
+    {
+      "a": "auction_exploit",
+      "b": "auction_zero",
+      "difference": 8.53515625,
+      "simultaneous_ci95": [
+        6.109669253355726,
+        10.960643246644274
+      ]
+    },
+    {
+      "a": "auction_variant",
+      "b": "auction_equity",
+      "difference": 1.62109375,
+      "simultaneous_ci95": [
+        -0.8611717565931105,
+        4.1033592565931105
+      ]
+    },
+    {
+      "a": "auction_variant",
+      "b": "auction_zero",
+      "difference": 6.34765625,
+      "simultaneous_ci95": [
+        4.064081786333043,
+        8.631230713666957
+      ]
+    },
+    {
+      "a": "auction_equity",
+      "b": "auction_zero",
+      "difference": 4.7265625,
+      "simultaneous_ci95": [
+        2.388755563129082,
+        7.064369436870917
+      ]
+    }
+  ],
+  "independent_blocks": 128,
+  "tables": 1024,
+  "all_scores_audited": true,
+  "timing_scope": "Untimed direct official engine, separate latency tests required",
+  "confidence_scope": "Independent seed block means of cyclic seat rotations",
+  "seconds": 32.07055743900128
+}

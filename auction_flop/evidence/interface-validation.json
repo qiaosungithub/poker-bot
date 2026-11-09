@@ -1,0 +1,9 @@
+{
+  "audit_after_relocation": true,
+  "candidate_hashes": {
+    "agent.py": "8367b29f7f6b1f0425bfcd22028ec1966bc013b2eb68d9ef1eb512c18d075751",
+    "auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+  },
+  "external_candidate_tables": 32,
+  "python": "3.12.16 (main, Oct 26 2026, 14:08:45) [Clang 23.1.3 ]"
+}

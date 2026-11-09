@@ -1,0 +1,33 @@
+{
+  "scope": "act including view and action construction, no serialization/IPC; research server provisional env",
+  "results": {
+    "auction": {
+      "calls": 600,
+      "p50_ms": 0.4155855,
+      "p99_ms": 0.4623,
+      "max_ms": 1.05065,
+      "over_1ms": 1
+    },
+    "flop": {
+      "calls": 600,
+      "p50_ms": 0.0969845,
+      "p99_ms": 0.12374,
+      "max_ms": 0.13398,
+      "over_1ms": 0
+    },
+    "turn": {
+      "calls": 600,
+      "p50_ms": 0.09889,
+      "p99_ms": 0.126,
+      "max_ms": 0.16073,
+      "over_1ms": 0
+    },
+    "river": {
+      "calls": 600,
+      "p50_ms": 0.067595,
+      "p99_ms": 0.09206,
+      "max_ms": 0.09944,
+      "over_1ms": 0
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "calls": 500,
+  "p50_ms": 0.86849,
+  "p99_ms": 0.93696,
+  "max_ms": 1.222899,
+  "above_1ms": 1,
+  "bids": [
+    20,
+    0,
+    0,
+    0,
+    0
+  ],
+  "scope": "one synthetic state, local Python3, excludes SDK/IPC"
+}

@@ -1,0 +1,170 @@
+{
+  "tournament": {
+    "event_revision": "07f7dafb5fdeaaa39a94e8ec2770156b18642cb6",
+    "sha256": {
+      "BENCHMARK_PLAN.md": "c2b6994ca1073d497981b0f2817ad742a642526098b8117b87709712cff89e0e",
+      "KERNEL_STATUS.md": "e730c67e514941ec1a6148a787148844e9cac62029dcd51a332ed017c30f1de2",
+      "PLAN.md": "fb2b7558f27211c422715bd84a1bdc359f6cb37a37f727bb0378b038c1989036",
+      "benchmark/auction01.json": "bd12412584095f981e18e8bde104875f2a6bff7160a86630e135467ea3e87402",
+      "benchmark/betting01.json": "fd79bbcb4768a9443e1114e377f45881d744ab509e57914464af225f223f3873",
+      "benchmark/confirm01.json": "aac8d4b05f85c71954e1d309b6106159aa58e1daaf06d0ce09766e36890232e1",
+      "benchmark/run.py": "de27dd8cf185f0168c17b558116758a0d5e942f1db2099f0c764aca09e9f702e",
+      "benchmark/screen01.json": "6be6d72162fe15322099677e7fe5ccc654e154058fc567745096ff1fa8f7af81",
+      "benchmark/smoke.json": "d863a684880a2a457f1ffb22cb44fd32ada7715ec8a2d3ecd077a6114cd92622",
+      "benchmark/verify.py": "8c5d0602c50846c3173f787f5c4253196f4de9aa91dcbd6c4f9649704678f7c2",
+      "bot/agent.py": "36b65f77e5f1d90cf564d876f448415180a08f92f41b5067e10afe7203dba37e",
+      "bot/strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+      "tests/test_strategy.py": "ef43df2178cd767c75f603200dc77e4ec2209c4444badd36e71d4d5f59cf4ca9"
+    },
+    "status": "Committed research snapshot; not part of frozen benchmark roster."
+  },
+  "equity": {
+    "event_revision": "9fa89069d963f8a80dbf33e64520bee3cc2b7fef",
+    "sha256": {
+      "PLAN.md": "948c5d199b91392542e3174a22f5372c6e13b9527f6931ec39f577623c8da66b",
+      "STATUS.md": "fc28d4e59d1fa8b83615fbd75da34c76df194ca7630c5fdf6bd0570d4bbe11a4",
+      "bot/agent.py": "0d4604e7226e7ea6a070e2f011c1a97ac098252ea9f55264edad3ff582732993",
+      "bot/equity_core.py": "5035fc5e5a516d74986c6614c4732bbb0f7881598b392dc361c66c86e978423b",
+      "kernel_timing.json": "779709fb3fca35f9f3ccf12585b7f1e7055646fb3791996175a34168fd5c3360",
+      "smoke-eight.json": "7ccd1182a837b0ae9af8fa12b18ee5243fe6964d26fa298a0431e0ec512573f3",
+      "tests/test_core.py": "ba467f703a4692cfe4f125bde6f6c65c76c896a3b09843f4ec75449136493dfe",
+      "tests/trajectory.py": "44dd1501d152b19f5cd9a2d8f68a9acbb4dc6d53f6dda0c38316aeaf6d64212d",
+      "trajectory-v1.json": "23437817a8068a64a25a4df0b5eac4a56d43cc7388294d99f949bdc9b4888599"
+    },
+    "status": "Committed research snapshot; not part of frozen benchmark roster."
+  },
+  "exploit": {
+    "event_revision": "ef259e98e7cc7c22248d587f712493029a49a9cf",
+    "sha256": {
+      "PLAN.md": "7fe7791ac2a422a854fae1b9ce1ae487877291b47e0e0c7116afdafea6c0f1c4",
+      "STATUS.md": "3df3f23e13f2517befb032233bbbe510f13cfd11569eade9304009e7e823a69b",
+      "bot/agent.py": "4041c1e83b30f7054b94b7c3fb24264379e91ff60c3ecf32e1f12de8674bc7be",
+      "bot/strategy_core.py": "cdac08df3dafaea5d055b9d4993d2ac6a317dc03ec2136f50d88c1529d896824",
+      "bot_noadapt/agent.py": "c2a659ecaf68528e2eda66a2de44747fbfe78dc821e1418a2fd0e250b29f88ec",
+      "bot_noadapt/strategy_core.py": "cdac08df3dafaea5d055b9d4993d2ac6a317dc03ec2136f50d88c1529d896824",
+      "test_strategy_core.py": "f255fb15e1d99ff6de69e69c0ee643aa9477c17a2f31902e966908fc084e870c",
+      "validate_v1.py": "0a278110d9db489fe5080a0e296e0912fa7588d00e57f6a1f8438307302c5135",
+      "validation-smoke-v1.json": "88071ecf8b72bba678b905b414f32e0933f7788fcca2c86315c35997c3d25711",
+      "validation-v1.json": "38abe66b89e1656bd595099e2be3272b2b301d583e8f810f4d9abbfba071a3dd"
+    },
+    "status": "Committed research snapshot; not part of frozen benchmark roster."
+  },
+  "ranges": {
+    "event_revision": "60f9067fca84bd1bc221f9fb03d01235094445ca",
+    "sha256": {
+      "PLAN.md": "fee4ce69d81b1e9ad75fcdfcff8295340ce649848ab5447331d9cd95f0c9523e",
+      "VALIDATION.md": "de6a30ff1fa4f56c92287750b4037e8fa94e2aa500969fb96fe96329043ae0ec",
+      "bot/agent.py": "137b3ad368f78899c5a7b9c4e954ec375e2fe69d22408ebb1cf783a1756f2dd4",
+      "bot/range_core.py": "45218351dd8dc18235aef3a1f501df4de3dd44521eb7e30470fae1cbfb58aad2",
+      "experiments/PREFLOP_V2_PROPOSAL_PAUSED.md": "1de96ccbe9157a5933c07212f74d637a31734936acde8b0b2fcc440c33f1d15e",
+      "tests/test_agent.py": "b4d7564dcac156ad3c4aa65156340a57f6b71c3a9f8684e1365e20afb1bae705",
+      "tests/test_core.py": "b57c1555828dacbd641dccdee70f7dbc68d18543518e48f65e64681b388f3e9e",
+      "tests/time_act.py": "38ec5bf93bed2fcad6b86f9f5405caaba0663dda6cda36c34dad36866ca0333a",
+      "timing-v1.json": "dd55391049cbd52a56b792dec1c22c0fbebac8c221b8b4c1f9609fccc440ca12"
+    },
+    "status": "Committed research snapshot; not part of frozen benchmark roster."
+  },
+  "variant": {
+    "event_revision": "0d2bde83fdc08d0c348556bf8d58a44c7808d160",
+    "sha256": {
+      "AUCTION_V2.md": "f746cf8b5a89561478c6625b88bf58b293385ce4f4e5657b7fe29a5405cf37ca",
+      "PLAN.md": "5632a7bce78ef1c4ac0acf6a848378e1ed104ad4c5da4339af34cf53cc47cc96",
+      "STATUS.md": "cf1874366dd325cba433ab751e3fbb25a87cf079d953398f1de7a106901db451",
+      "agent.py": "8367b29f7f6b1f0425bfcd22028ec1966bc013b2eb68d9ef1eb512c18d075751",
+      "auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d",
+      "auction_v2.py": "cfef7764f49725a14e15e48f5ec50adbfcbccf30ee7e1ffaebb9a2b9a2df7bc7",
+      "evidence/direct_smoke.json": "ad2208d6203e5d1f0fcdfa0ff5aa9b739ef6bd004a5b65ab0821a51bb27cf873",
+      "evidence/fast_kernel_timing.json": "9c18f9a9dee5b4e5a711e65e0f734f43c5745839c60f9b88b489a372d060291e",
+      "evidence/package.json": "7ae76805312a02f35050912d3c4e3b74bdac7b638b62eef87cb62cb2cf66c627",
+      "evidence/process_cli-validation.json": "f2205531d5445aa379022d1808d33531b4cfd2c609c18b48030856acad19593e",
+      "evidence/process_smoke-pinnedenv.json": "4d992be3b4db4f9664a9336a1567f1cd095e708c17119c267bddf2bc6fb78cb8",
+      "evidence/process_smoke.json": "12dc2362e06aabf5cded1fb04ad6b24a9f6009c8e84faa8492c063a280833645",
+      "experiments/rich_kernel_v1.py": "0af04d117a404b4e33a24071363590177796f69f0c2a010c1d83767799e2370f",
+      "kernel_timing.json": "98b9076630290307572e2e71475d117305d730605d4b623a268a1b9287e587c6",
+      "package.py": "34be9b0ec503f5791497e1041437c22213e1af59751689a63c45b2fd7196b9cf",
+      "smoke_direct.py": "9090b27a532efc046139d73b181f12ff9e3b73d1c5e7d2a25736fedaf3deef7a",
+      "smoke_process.py": "e1c4d430b2c38865f3fb951dc0293343360101caa3831e452345da9ad9544a8e",
+      "tests/test_agent.py": "2fb2a0725066b52624dafe16abdcf318b965e8caeca62237da4a7737388ed7af",
+      "tests/test_auction.py": "8c2672292803f24c45aa29b9a21b10fe0648b6d67411d261d70d74b14656ae74",
+      "tests/test_auction_v2.py": "d355db997a9cb6612e9c65f3021777aa5c7f47cbe9fcf700871dc3705e8c45c9"
+    },
+    "status": "Committed research snapshot; not part of frozen benchmark roster."
+  },
+  "modules": {
+    "event_revision": "fa930482fc7f0d699bf1d12dca8db04dd559c874",
+    "sha256": {
+      "CONTRACT.md": "28830c343aecab23dbf55793ffaccf58085a81cd168f33755af5b7655b7244fc",
+      "CONTRACT_V2.md": "cf723bad1b5d7ad0014d317e3c14315292dc0ce3b23485715046e9694781ed3f",
+      "CONTRACT_V3.md": "efb55d81f6c5e5315f1f99f07cf88cf1493ad9c5b27b449db34a5cfa014f97ee",
+      "RULE_AUDIT.md": "f3e5a2b082f6521ea9dc2289808eb9ef8c8273bf66902df16165729a1f73d1bd",
+      "STRATEGY_DIRECTION.md": "d36b03897e0020aaee1bb3578f7b1270bc32ca10fda5ce7f5429f8f9f0a8c13e",
+      "VALIDATION_V1.md": "3019533ef5394e6dba67025a607dbffaced4b9c3499e67edad793271972da2e7",
+      "VENDORED_SOURCES.json": "e9913dda3a3768e3d7a9f54eb1e3b9edb002152b8edde941300443f461b8746e",
+      "bot/agent.py": "142f84681791cfb04e3282227b61759b687d6ad43dcb70929b2671d9420b46d3",
+      "bot/auction_policy.py": "8e1aa1654e398e370479ababbc70ef9ad314216ccaa0759e3fa8386e6f8802b5",
+      "bot/betting_policy.py": "468cd5dc398408070c0e2f7b9b233eb7b0d7ee1f8f04f9859458deccd93f141e",
+      "bot/public_features.py": "983851d0a25064f93b4a50d4d985afa3070482e58d79a3ffd71084c0cc7e6add",
+      "bot/tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+      "bot/tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+      "bot/variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+      "bot/variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d",
+      "evidence/process-baseline-v1.json": "6882a8d7c45767bbbf47ba59a315bccda4fd69ad4976c894b44ad9fdfc612672",
+      "evidence/trajectory-parity-v1.json": "e95f96b99c3d3a3efc25bb58a3316b8458a3c1fecc7aa48b7bcd308c606804e2",
+      "tests/test_public_features.py": "28f5065782abe907f7e27b9e87904e34a7995515a2c41201fcff898305f0544b",
+      "tests/validate_trajectories.py": "1a3e2b8fe710fc8aea50becc5cc14ba8719b32d0755e9512afddf66054c3c167"
+    },
+    "status": "Committed research snapshot; not part of frozen benchmark roster."
+  },
+  "auction_history": {
+    "event_revision": "1e737eb9f9b04a69ed273d8a03d06458e2d75f10",
+    "sha256": {
+      "AUCTION_HISTORY.md": "0635874b30eaee6b94105e4b743faaceb2aa1723a693ed3855cc2e1f8c611052",
+      "RULE_AUDIT.md": "f3e5a2b082f6521ea9dc2289808eb9ef8c8273bf66902df16165729a1f73d1bd",
+      "SOURCE_PROVENANCE.json": "035405f3a5fce469dc7897a493474c7b8b44b10dd7ef5850ae65df02243d5ad7",
+      "STRATEGY_DIRECTION.md": "d36b03897e0020aaee1bb3578f7b1270bc32ca10fda5ce7f5429f8f9f0a8c13e",
+      "auction_no_history.py": "bc0fe41016bb5bf35be94c16a2dde5fb439db3f2969f02fb1a6e0f6b24eb1bf8",
+      "auction_policy.py": "8d71947a0772c97cd2ab417254b7217ae3f4eda661695bb75b1216331c6ba279",
+      "auction_selector.py": "9c3f2d79978c988f763b0516b68acf904b3051760c3e25bc79d872735425cbe0",
+      "auction_value.py": "02f81da7e777d93413f22874222d1ce39c33e4ba4ea7e8751627e4afc3859a88",
+      "evidence/kernel_timing.json": "6b01279b03e52449ae1a940719671f419887b5c4a60b458d20da12004977ee11",
+      "evidence/kernel_timing_fast.json": "7958bc804dd6af6827a044b92714910c5a034c2b67dd4f99acf0c78e267b3af6",
+      "tests/test_auction_history.py": "6e791bda8d2d0cda649087f787f130e6224c4c1ae7248e48c35b36a48daffb55"
+    },
+    "status": "Committed research snapshot; not part of frozen benchmark roster."
+  },
+  "betting_inference": {
+    "event_revision": "59463bafd8e414b12ee606af067c08a7cd7bf179",
+    "sha256": {
+      "BETTING_INFERENCE.md": "fc912869012f9628fdaa350584ac615b5433ed3a8f14629a6782660f16533462",
+      "RULE_AUDIT.md": "f3e5a2b082f6521ea9dc2289808eb9ef8c8273bf66902df16165729a1f73d1bd",
+      "STRATEGY_DIRECTION.md": "d36b03897e0020aaee1bb3578f7b1270bc32ca10fda5ce7f5429f8f9f0a8c13e",
+      "betting_baseline.py": "a40cac52cf266ef4cb5dc37deea6420cb6a5948a649e8201ba97c47859a2204b",
+      "betting_inference_core.py": "595e31e90dd1e99fe5a6e37b25c41a504137262b8c8a5ade88441667b7575f20",
+      "betting_policy.py": "a956b6512d6e9eb7fccdd72a8346bf73169a77a5db276355233b20987b7e8a8b",
+      "betting_policy_nohistory.py": "7dbbc599fec6f6e0e0e203c304d9e48cd02bc6baedb64b6ba48a430503c808b2",
+      "betting_policy_off.py": "99eb6c2f0d2b9a70d692156ff91de5b2fc84f4f1d4728a408e7efa3aa4147635",
+      "integration-check.json": "1aad456d2aaac8adce5cc6ac8cd28a6693cb26450e738420783c17c476736c3d",
+      "integration-final-check.json": "f16198b55390f2857c0c449f7a6a3876d92cc94bf44e5aa4cb49722844eade48",
+      "integration-final-smoke.json": "67fe1ed2e263bb996b6373a87b7b39f01433e30df4980369c94eb9f362cff5c7",
+      "integration-final-source-hashes.json": "f0bb2f973a83244b76e1c1e6917d064012cd73dd8c805cfeec113adcdc45907c",
+      "integration-smoke.json": "eefb5761d056b7187c3985e4a305a9fa59e72debadd9ade6ffd14415851176d0",
+      "integration-source-hashes.json": "bd37257d970bb2203dd129e6315864f610292c4517bd2576f21e8e301f3d752d",
+      "tests/test_betting.py": "2f20b5d0787a35cc3af73a403fc00ed90fe05d2000467aed8ae1d89b8706b35c"
+    },
+    "status": "Committed research snapshot; not part of frozen benchmark roster."
+  },
+  "joint": {
+    "event_revision": "7e8aa725bbd845ead9a27d7792fbccc483e11d32",
+    "sha256": {
+      "JOINT_PLAN.md": "c942fbd4f823db10d4b1578a9eabc8888d359b6efc73039922351a07379ff0c8",
+      "RULE_AUDIT.md": "f3e5a2b082f6521ea9dc2289808eb9ef8c8273bf66902df16165729a1f73d1bd",
+      "SOURCE_PROVENANCE.json": "2a63083b6d38423e1731dd5471381fc37edb8151b085bc36e1c19389f2831967",
+      "STRATEGY_DIRECTION.md": "d36b03897e0020aaee1bb3578f7b1270bc32ca10fda5ce7f5429f8f9f0a8c13e",
+      "THREE_STAGE_PLAN.md": "2aa587781dc9dc00f86fcdc8311a5ecbfe3b796a60a57f13823018bd73af1b1a",
+      "policy/joint_auction_base.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+      "policy/joint_betting_base.py": "da19183408173f79d12751643d507d0c5be00fb60d2771e84eb9e0f039143953",
+      "policy/joint_value_base.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+    },
+    "status": "Committed research snapshot; not part of frozen benchmark roster."
+  }
+}

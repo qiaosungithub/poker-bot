@@ -1,0 +1,57 @@
+{
+  "blocks": 512,
+  "seed": "boston-20261109-confirm01",
+  "entries": [
+    {
+      "name": "tournament",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/tournament/bot",
+      "revision": "25ef579"
+    },
+    {
+      "name": "ranges",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/ranges/bot",
+      "revision": "ef66f6d"
+    },
+    {
+      "name": "exploit",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/exploit/bot",
+      "revision": "ef259e9"
+    },
+    {
+      "name": "variant",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/variant",
+      "revision": "6af47e4833ba09e91830b4f0064bc026ba08e1f0",
+      "files": [
+        "agent.py",
+        "auction.py"
+      ]
+    },
+    {
+      "name": "equity",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/equity/bot",
+      "revision": "9fa89069d963f8a80dbf33e64520bee3cc2b7fef"
+    },
+    {
+      "name": "tournament_zero",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/tournament/bot",
+      "revision": "25ef579",
+      "auction_zero": true
+    },
+    {
+      "name": "checkfold",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/starter-kit/examples/check_or_fold"
+    },
+    {
+      "name": "minraise",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/starter-kit/examples/min_raiser"
+    }
+  ],
+  "compare": [
+    "tournament",
+    "ranges",
+    "exploit",
+    "variant",
+    "equity"
+  ],
+  "hand_cap": 250
+}

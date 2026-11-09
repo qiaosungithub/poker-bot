@@ -1,0 +1,44 @@
+{
+  "blocks": 1,
+  "seed": "boston-20261109-smoke-v1",
+  "entries": [
+    {
+      "name": "tournament",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/tournament/bot"
+    },
+    {
+      "name": "ranges",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/ranges/bot"
+    },
+    {
+      "name": "exploit",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/exploit/bot"
+    },
+    {
+      "name": "tournament_zero",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/tournament/bot",
+      "auction_zero": true
+    },
+    {
+      "name": "checkfold1",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/starter-kit/examples/check_or_fold"
+    },
+    {
+      "name": "minraise1",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/starter-kit/examples/min_raiser"
+    },
+    {
+      "name": "checkfold2",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/starter-kit/examples/check_or_fold"
+    },
+    {
+      "name": "minraise2",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/starter-kit/examples/min_raiser"
+    }
+  ],
+  "compare": [
+    "tournament",
+    "ranges",
+    "exploit"
+  ]
+}

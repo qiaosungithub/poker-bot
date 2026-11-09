@@ -1,0 +1,17 @@
+{
+  "sha256": "711bcf025250980468a4665f6ee89e1264af1d504e07c82184ed2f08c2b0342c",
+  "size_bytes": 21238,
+  "files": [
+    "agent.py",
+    "auction_policy.py",
+    "betting_baseline.py",
+    "betting_policy.py",
+    "betting_policy_nohistory.py",
+    "betting_policy_off.py",
+    "public_features.py",
+    "tournament_agent.py",
+    "tournament_strategy.py",
+    "variant_agent.py",
+    "variant_auction.py"
+  ]
+}

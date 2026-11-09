@@ -1,0 +1,86 @@
+{
+  "blocks": 128,
+  "seed": "boston-20261109-auction01",
+  "entries": [
+    {
+      "name": "auction_tournament",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/variant",
+      "revision": "6af47e4833ba09e91830b4f0064bc026ba08e1f0",
+      "files": [
+        "agent.py",
+        "auction.py"
+      ],
+      "auction_path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/tournament/bot",
+      "auction_revision": "25ef579"
+    },
+    {
+      "name": "auction_ranges",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/variant",
+      "revision": "6af47e4833ba09e91830b4f0064bc026ba08e1f0",
+      "files": [
+        "agent.py",
+        "auction.py"
+      ],
+      "auction_path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/ranges/bot",
+      "auction_revision": "ef66f6d"
+    },
+    {
+      "name": "auction_exploit",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/variant",
+      "revision": "6af47e4833ba09e91830b4f0064bc026ba08e1f0",
+      "files": [
+        "agent.py",
+        "auction.py"
+      ],
+      "auction_path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/exploit/bot",
+      "auction_revision": "ef259e9"
+    },
+    {
+      "name": "auction_variant",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/variant",
+      "revision": "6af47e4833ba09e91830b4f0064bc026ba08e1f0",
+      "files": [
+        "agent.py",
+        "auction.py"
+      ]
+    },
+    {
+      "name": "auction_equity",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/variant",
+      "revision": "6af47e4833ba09e91830b4f0064bc026ba08e1f0",
+      "files": [
+        "agent.py",
+        "auction.py"
+      ],
+      "auction_path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/equity/bot",
+      "auction_revision": "9fa89069d963f8a80dbf33e64520bee3cc2b7fef"
+    },
+    {
+      "name": "auction_zero",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/variant",
+      "revision": "6af47e4833ba09e91830b4f0064bc026ba08e1f0",
+      "files": [
+        "agent.py",
+        "auction.py"
+      ],
+      "auction_zero": true
+    },
+    {
+      "name": "checkfold",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/starter-kit/examples/check_or_fold"
+    },
+    {
+      "name": "minraise",
+      "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/starter-kit/examples/min_raiser"
+    }
+  ],
+  "compare": [
+    "auction_tournament",
+    "auction_ranges",
+    "auction_exploit",
+    "auction_variant",
+    "auction_equity",
+    "auction_zero"
+  ],
+  "hand_cap": 250
+}

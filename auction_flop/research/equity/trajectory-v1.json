@@ -1,0 +1,90 @@
+{
+  "scope": "Exact official SDK state -> Agent.act -> Action. Official engine trajectories; excludes process IPC and state construction. Local shared pinned Python 3.12 environment.",
+  "failed_actions": 0,
+  "tables": [
+    {
+      "hands": 100,
+      "stacks": [
+        0,
+        0,
+        8041,
+        0,
+        0,
+        0,
+        7959,
+        0
+      ]
+    },
+    {
+      "hands": 100,
+      "stacks": [
+        0,
+        3462,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12538
+      ]
+    },
+    {
+      "hands": 100,
+      "stacks": [
+        0,
+        0,
+        0,
+        0,
+        13836,
+        2164,
+        0,
+        0
+      ]
+    },
+    {
+      "hands": 100,
+      "stacks": [
+        63,
+        0,
+        1522,
+        0,
+        0,
+        4360,
+        0,
+        10055
+      ]
+    }
+  ],
+  "latency": {
+    "betting-0": {
+      "n": 2029,
+      "p99_ms": 0.03774,
+      "max_ms": 0.052069,
+      "over_1ms": 0
+    },
+    "auction": {
+      "n": 226,
+      "p99_ms": 0.76853,
+      "max_ms": 0.80754,
+      "over_1ms": 0
+    },
+    "betting-3": {
+      "n": 280,
+      "p99_ms": 0.21391,
+      "max_ms": 0.22423,
+      "over_1ms": 0
+    },
+    "betting-4": {
+      "n": 207,
+      "p99_ms": 0.18155,
+      "max_ms": 0.23398,
+      "over_1ms": 0
+    },
+    "betting-5": {
+      "n": 156,
+      "p99_ms": 0.17708,
+      "max_ms": 0.20904,
+      "over_1ms": 0
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "hybrid_tournament_auction": {
+    "all_scores_audited": true,
+    "candidate_decisions": 650686,
+    "candidate_failures": 0,
+    "ci95": [
+      14.460296548355805,
+      15.715484701644195
+    ],
+    "independent_blocks": 512,
+    "mean_chips": 3058.59375,
+    "mean_points": 15.087890625,
+    "mean_remaining_flopchips": 206.7138671875,
+    "mean_spent_flopchips": 793.2861328125,
+    "official_score": true,
+    "tables": 4096,
+    "total_failures": 0,
+    "valid": true
+  },
+  "ranges": {
+    "all_scores_audited": true,
+    "candidate_decisions": 500140,
+    "candidate_failures": 0,
+    "ci95": [
+      8.938610356408267,
+      9.826038081091733
+    ],
+    "independent_blocks": 512,
+    "mean_chips": 726.5625,
+    "mean_points": 9.38232421875,
+    "mean_remaining_flopchips": 433.017822265625,
+    "mean_spent_flopchips": 566.982177734375,
+    "official_score": true,
+    "tables": 4096,
+    "total_failures": 0,
+    "valid": true
+  },
+  "tournament": {
+    "all_scores_audited": true,
+    "candidate_decisions": 568391,
+    "candidate_failures": 0,
+    "ci95": [
+      11.233574278976121,
+      12.365058533523879
+    ],
+    "independent_blocks": 512,
+    "mean_chips": 1703.125,
+    "mean_points": 11.79931640625,
+    "mean_remaining_flopchips": 269.72998046875,
+    "mean_spent_flopchips": 730.27001953125,
+    "official_score": true,
+    "tables": 4096,
+    "total_failures": 0,
+    "valid": true
+  },
+  "variant": {
+    "all_scores_audited": true,
+    "candidate_decisions": 633179,
+    "candidate_failures": 0,
+    "ci95": [
+      12.671207683651811,
+      13.822932941348189
+    ],
+    "independent_blocks": 512,
+    "mean_chips": 2539.0625,
+    "mean_points": 13.2470703125,
+    "mean_remaining_flopchips": 490.253662109375,
+    "mean_spent_flopchips": 509.746337890625,
+    "official_score": true,
+    "tables": 4096,
+    "total_failures": 0,
+    "valid": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "on": {
+    "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+    "betting_policy.py": "595e31e90dd1e99fe5a6e37b25c41a504137262b8c8a5ade88441667b7575f20",
+    "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d",
+    "betting_policy_nohistory.py": "44006fbe878e58815ef409124ce33cf8952ce9b0629510c6e90d9b634bdc3db5",
+    "betting_baseline.py": "a40cac52cf266ef4cb5dc37deea6420cb6a5948a649e8201ba97c47859a2204b",
+    "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+    "auction_policy.py": "8e1aa1654e398e370479ababbc70ef9ad314216ccaa0759e3fa8386e6f8802b5",
+    "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+    "betting_policy_off.py": "99eb6c2f0d2b9a70d692156ff91de5b2fc84f4f1d4728a408e7efa3aa4147635",
+    "public_features.py": "983851d0a25064f93b4a50d4d985afa3070482e58d79a3ffd71084c0cc7e6add",
+    "agent.py": "142f84681791cfb04e3282227b61759b687d6ad43dcb70929b2671d9420b46d3"
+  },
+  "off": {
+    "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+    "betting_policy.py": "99eb6c2f0d2b9a70d692156ff91de5b2fc84f4f1d4728a408e7efa3aa4147635",
+    "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d",
+    "betting_policy_nohistory.py": "44006fbe878e58815ef409124ce33cf8952ce9b0629510c6e90d9b634bdc3db5",
+    "betting_baseline.py": "a40cac52cf266ef4cb5dc37deea6420cb6a5948a649e8201ba97c47859a2204b",
+    "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+    "auction_policy.py": "8e1aa1654e398e370479ababbc70ef9ad314216ccaa0759e3fa8386e6f8802b5",
+    "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+    "betting_policy_off.py": "99eb6c2f0d2b9a70d692156ff91de5b2fc84f4f1d4728a408e7efa3aa4147635",
+    "public_features.py": "983851d0a25064f93b4a50d4d985afa3070482e58d79a3ffd71084c0cc7e6add",
+    "agent.py": "142f84681791cfb04e3282227b61759b687d6ad43dcb70929b2671d9420b46d3"
+  }
+}

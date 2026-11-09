@@ -1,0 +1,50 @@
+{
+  "auction01-20261109T2329": {
+    "tables": 1024,
+    "independent_scores": true,
+    "schedule": true,
+    "raw_sha256": true,
+    "original_runner_sha256": true,
+    "source_sha256": true
+  },
+  "betting01-20261109T2330": {
+    "tables": 1024,
+    "independent_scores": true,
+    "schedule": true,
+    "raw_sha256": true,
+    "original_runner_sha256": true,
+    "source_sha256": true
+  },
+  "confirm01-20261109T2326": {
+    "tables": 4096,
+    "independent_scores": true,
+    "schedule": true,
+    "raw_sha256": true,
+    "original_runner_sha256": true,
+    "source_sha256": true
+  },
+  "hybrid-confirm01": {
+    "tables": 4096,
+    "independent_scores": true,
+    "schedule": true,
+    "raw_sha256": true,
+    "original_runner_sha256": true,
+    "source_sha256": true
+  },
+  "screen01-20261109T2327": {
+    "tables": 1024,
+    "independent_scores": true,
+    "schedule": true,
+    "raw_sha256": true,
+    "original_runner_sha256": true,
+    "source_sha256": true
+  },
+  "selection-v1": {
+    "tables": 4096,
+    "independent_scores": true,
+    "schedule": true,
+    "raw_sha256": true,
+    "original_runner_sha256": true,
+    "source_sha256": true
+  }
+}

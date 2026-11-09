@@ -1,0 +1,5 @@
+# Python 3.12. The released SDK is vendored and loaded directly by the runner.
+eval7==0.1.11
+pokerkit==0.7.6
+pyparsing==3.3.3
+future==1.0.0

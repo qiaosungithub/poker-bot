@@ -42,6 +42,18 @@ Read its local instructions before changing the server or game adapters.
   in TournamentSpecialist. No repaired version has been benchmarked; do not
   repeat the original unqualified practical recommendation.
 
+## Permanent Auction Flop benchmark
+
+The shared event strategies and committed module snapshots are in
+`auction_flop/README.md`. Use `auction-flop-v1` for subsequent strategy comparison:
+`python -m auction_flop.benchmark.run evaluate --candidate BOT --out NEW_RUN`.
+Its opponent source, released SDK, rules, four panel weights and evaluation seeds
+are frozen in `auction_flop/benchmark/v1.json`. Do not update v1 in place or
+replace opponents when a stronger candidate appears. New strategies are inputs;
+changed benchmark definitions require a new version, preserving v1 and its raw
+selection/calibration evidence. Read the report for ranking uncertainty and the
+distinction between untimed strength and production latency.
+
 ## Storage
 
 Keep this project's checkpoints, downloaded models, Python environments, caches,

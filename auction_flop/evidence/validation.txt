@@ -1,0 +1,18 @@
+test_block_rerun_deterministic (auction_flop.benchmark.test_benchmark.BenchmarkTests.test_block_rerun_deterministic) ... ok
+test_corrupt_score_rejected (auction_flop.benchmark.test_benchmark.BenchmarkTests.test_corrupt_score_rejected) ... ok
+test_currency_corruption_rejected (auction_flop.benchmark.test_benchmark.BenchmarkTests.test_currency_corruption_rejected) ... ok
+test_duplicate_rotation_rejected (auction_flop.benchmark.test_benchmark.BenchmarkTests.test_duplicate_rotation_rejected) ... ok
+test_equal_panel_weights (auction_flop.benchmark.test_benchmark.BenchmarkTests.test_equal_panel_weights) ... ok
+test_frozen_source_change_rejected (auction_flop.benchmark.test_benchmark.BenchmarkTests.test_frozen_source_change_rejected) ... ok
+test_identical_policies_have_exact_equal_rotation_scores (auction_flop.benchmark.test_benchmark.BenchmarkTests.test_identical_policies_have_exact_equal_rotation_scores) ... ok
+test_missing_rotation_rejected (auction_flop.benchmark.test_benchmark.BenchmarkTests.test_missing_rotation_rejected) ... ok
+test_nonfinite_score_rejected (auction_flop.benchmark.test_benchmark.BenchmarkTests.test_nonfinite_score_rejected) ... ok
+test_valid_scores_and_schedule (auction_flop.benchmark.test_benchmark.BenchmarkTests.test_valid_scores_and_schedule) ... ok
+test_wrong_seating_rejected (auction_flop.benchmark.test_benchmark.BenchmarkTests.test_wrong_seating_rejected) ... ok
+test_wrong_seed_rejected (auction_flop.benchmark.test_benchmark.BenchmarkTests.test_wrong_seed_rejected) ... ok
+test_zero_paired_difference (auction_flop.benchmark.test_benchmark.BenchmarkTests.test_zero_paired_difference) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 9.713s
+
+OK

@@ -1,0 +1,17 @@
+{
+  "base_ref": "079ab149075e15bf72e2f36895a06467298f9ece",
+  "bindings": [
+    {
+      "function": "choose_preflop_tight",
+      "module": "independent_preflop",
+      "target": "preflop_policy.py"
+    }
+  ],
+  "replacements": [
+    {
+      "commit": "e0aa5dc79c3711c8ce41e54923b450c85d182be2",
+      "source": "stage_preflop/preflop_policy.py",
+      "target": "independent_preflop.py"
+    }
+  ]
+}

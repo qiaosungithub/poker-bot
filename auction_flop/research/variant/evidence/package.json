@@ -1,0 +1,15 @@
+{
+  "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/variant/dist/variant-v1-4c42c2340601.zip",
+  "bundle": {
+    "sha256": "835c966a72d7d4cb8f6c86768dc8957e8ab1dc0d25832c6ae1efc5e1fd626473",
+    "size_bytes": 6730,
+    "files": [
+      "agent.py",
+      "auction.py"
+    ]
+  },
+  "source_hashes": {
+    "agent.py": "8367b29f7f6b1f0425bfcd22028ec1966bc013b2eb68d9ef1eb512c18d075751",
+    "auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "auction_dead": {
+    "n": 300,
+    "p99_ms": 0.34389,
+    "max_ms": 0.36121,
+    "over_1ms": 0
+  },
+  "auction_returned": {
+    "n": 300,
+    "p99_ms": 0.47262,
+    "max_ms": 0.48751,
+    "over_1ms": 0
+  },
+  "betting": {
+    "n": 300,
+    "p99_ms": 0.17192,
+    "max_ms": 0.18001,
+    "over_1ms": 0
+  },
+  "scope": "Provisional Python 3.12 research environment, policy kernels only; excludes SDK/IPC. Synthetic independent states. Not official acceptance evidence."
+}

@@ -1,0 +1,111 @@
+{
+  "definition_sha256": "dc6c9f772eabdd0db0b31d011e548d40b8119e872773d58ecd9c077eaaa5eba6",
+  "opponents": [
+    "hybrid_tournament_auction",
+    "variant",
+    "tournament",
+    "ranges"
+  ],
+  "ranges_exploit_simultaneous_ci95": [
+    -0.8918960033761811,
+    1.5901381908761811
+  ],
+  "scores": [
+    {
+      "blocks": 512,
+      "ci95": [
+        20.650537988466564,
+        21.966649511533436
+      ],
+      "decisions": 692722,
+      "failures": 0,
+      "mean_chips": 4585.9375,
+      "mean_points": 21.30859375,
+      "mean_remaining_flopchips": 212.006103515625,
+      "mean_spend_per_auction": 44.18193640233803,
+      "mean_spent_flopchips": 787.993896484375,
+      "name": "hybrid_tournament_auction",
+      "tables": 4096
+    },
+    {
+      "blocks": 512,
+      "ci95": [
+        18.040185620448185,
+        19.367040942051815
+      ],
+      "decisions": 671572,
+      "failures": 0,
+      "mean_chips": 3496.09375,
+      "mean_points": 18.70361328125,
+      "mean_remaining_flopchips": 508.431884765625,
+      "mean_spend_per_auction": 28.480981681872834,
+      "mean_spent_flopchips": 491.568115234375,
+      "name": "variant",
+      "tables": 4096
+    },
+    {
+      "blocks": 512,
+      "ci95": [
+        15.872602722077016,
+        17.013139465422984
+      ],
+      "decisions": 610381,
+      "failures": 0,
+      "mean_chips": 2511.71875,
+      "mean_points": 16.44287109375,
+      "mean_remaining_flopchips": 262.903076171875,
+      "mean_spend_per_auction": 50.77955126480086,
+      "mean_spent_flopchips": 737.096923828125,
+      "name": "tournament",
+      "tables": 4096
+    },
+    {
+      "blocks": 512,
+      "ci95": [
+        12.66283502111437,
+        13.68482122888563
+      ],
+      "decisions": 520499,
+      "failures": 0,
+      "mean_chips": 992.1875,
+      "mean_points": 13.173828125,
+      "mean_remaining_flopchips": 440.799560546875,
+      "mean_spend_per_auction": 61.13176577346002,
+      "mean_spent_flopchips": 559.200439453125,
+      "name": "ranges",
+      "tables": 4096
+    },
+    {
+      "blocks": 512,
+      "ci95": [
+        12.252838888094507,
+        13.396575174405493
+      ],
+      "decisions": 596621,
+      "failures": 0,
+      "mean_chips": 2507.8125,
+      "mean_points": 12.82470703125,
+      "mean_remaining_flopchips": 298.0576171875,
+      "mean_spend_per_auction": 40.1838714185884,
+      "mean_spent_flopchips": 701.9423828125,
+      "name": "exploit",
+      "tables": 4096
+    },
+    {
+      "blocks": 512,
+      "ci95": [
+        10.084977276119368,
+        11.174788348880632
+      ],
+      "decisions": 481378,
+      "failures": 0,
+      "mean_chips": 1906.25,
+      "mean_points": 10.6298828125,
+      "mean_remaining_flopchips": 427.143798828125,
+      "mean_spend_per_auction": 45.2871728557091,
+      "mean_spent_flopchips": 572.856201171875,
+      "name": "equity",
+      "tables": 4096
+    }
+  ]
+}

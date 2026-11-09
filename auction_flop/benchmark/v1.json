@@ -1,0 +1,241 @@
+{
+  "dependencies": {
+    "eval7": "0.1.11",
+    "future": "1.0.0",
+    "pokerkit": "0.7.6",
+    "pyparsing": "3.3.3"
+  },
+  "engine_rules": {
+    "blinds": [
+      {
+        "ante": 0,
+        "big_blind": 20,
+        "small_blind": 10
+      },
+      {
+        "ante": 0,
+        "big_blind": 40,
+        "small_blind": 20
+      },
+      {
+        "ante": 0,
+        "big_blind": 60,
+        "small_blind": 30
+      },
+      {
+        "ante": 0,
+        "big_blind": 100,
+        "small_blind": 50
+      },
+      {
+        "ante": 0,
+        "big_blind": 160,
+        "small_blind": 80
+      },
+      {
+        "ante": 0,
+        "big_blind": 250,
+        "small_blind": 125
+      },
+      {
+        "ante": 0,
+        "big_blind": 400,
+        "small_blind": 200
+      },
+      {
+        "ante": 0,
+        "big_blind": 600,
+        "small_blind": 300
+      },
+      {
+        "ante": 0,
+        "big_blind": 1000,
+        "small_blind": 500
+      },
+      {
+        "ante": 0,
+        "big_blind": 1600,
+        "small_blind": 800
+      },
+      {
+        "ante": 0,
+        "big_blind": 2400,
+        "small_blind": 1200
+      },
+      {
+        "ante": 0,
+        "big_blind": 4000,
+        "small_blind": 2000
+      }
+    ],
+    "decision_ms": 60000,
+    "hand_cap": 250,
+    "hands_per_level": 20,
+    "icm_luck_correction": false,
+    "icm_luck_correction_mode": "legacy",
+    "memory_bytes": 65536,
+    "payout_total": null,
+    "payouts": [
+      [
+        50,
+        50
+      ],
+      [
+        30,
+        30
+      ],
+      [
+        20,
+        20
+      ]
+    ],
+    "players": 8,
+    "resampling_continuations": 1,
+    "resampling_threshold": 4,
+    "starting_stack": 2000,
+    "time_bank_ms": 0,
+    "variant": "flop_auction_holdem"
+  },
+  "evaluation": {
+    "blocks_per_panel": 128,
+    "panels": [
+      [
+        "hybrid_tournament_auction",
+        "variant",
+        "variant",
+        "tournament",
+        "tournament",
+        "ranges",
+        "ranges"
+      ],
+      [
+        "hybrid_tournament_auction",
+        "hybrid_tournament_auction",
+        "variant",
+        "tournament",
+        "tournament",
+        "ranges",
+        "ranges"
+      ],
+      [
+        "hybrid_tournament_auction",
+        "hybrid_tournament_auction",
+        "variant",
+        "variant",
+        "tournament",
+        "ranges",
+        "ranges"
+      ],
+      [
+        "hybrid_tournament_auction",
+        "hybrid_tournament_auction",
+        "variant",
+        "variant",
+        "tournament",
+        "tournament",
+        "ranges"
+      ]
+    ],
+    "seed": "auction-flop-v1-evaluation-20261109-fixed"
+  },
+  "frozen_at": "2026-11-09T23:45:48.900878+00:00",
+  "id": "auction-flop-v1",
+  "opponents": [
+    "hybrid_tournament_auction",
+    "variant",
+    "tournament",
+    "ranges"
+  ],
+  "selection": {
+    "blocks": 512,
+    "candidates": [
+      "hybrid_tournament_auction",
+      "variant",
+      "tournament",
+      "exploit",
+      "ranges",
+      "equity"
+    ],
+    "evidence": "evidence/selection-v1",
+    "roster": [
+      "tournament",
+      "ranges",
+      "exploit",
+      "variant",
+      "equity",
+      "hybrid_tournament_auction",
+      "checkfold",
+      "minraise"
+    ],
+    "rule": "Top four zero-failure mean scores, ties lexicographic; no claim of distinct ranks.",
+    "seed": "auction-flop-v1-selection-20261109-independent"
+  },
+  "sha256": {
+    "benchmark/PLAN.md": "5ce89cc38ed5459b784d9c476d3519e81fd68b12a577c1102b67c8a88b782e52",
+    "benchmark/arena.py": "de27dd8cf185f0168c17b558116758a0d5e942f1db2099f0c764aca09e9f702e",
+    "benchmark/run.py": "dd0b5519d3fa68f755ffbf38863a2b067b10f6bb752097b538250086db148aaa",
+    "requirements.txt": "b33b3e0979a1a4815564f7f6cd14cf894b972fe4be239467f5d1c22de2e1c98b",
+    "strategies.json": "406ec52f6b94b98597d54e527bd7d11675f1a56cd8244cd85ef23d28a0a7c53f",
+    "strategies/checkfold/agent.py": "2914ffface89473f6a1a75ed8a12ec80f0029d26a5411048feb4b967e1c47230",
+    "strategies/equity/agent.py": "0d4604e7226e7ea6a070e2f011c1a97ac098252ea9f55264edad3ff582732993",
+    "strategies/equity/equity_core.py": "5035fc5e5a516d74986c6614c4732bbb0f7881598b392dc361c66c86e978423b",
+    "strategies/exploit/agent.py": "4041c1e83b30f7054b94b7c3fb24264379e91ff60c3ecf32e1f12de8674bc7be",
+    "strategies/exploit/strategy_core.py": "cdac08df3dafaea5d055b9d4993d2ac6a317dc03ec2136f50d88c1529d896824",
+    "strategies/minraise/agent.py": "48f85f7554e3b56abd3ddd4968e28ab92dfe6e89371ed0d7e5842a8b903db369",
+    "strategies/ranges/agent.py": "137b3ad368f78899c5a7b9c4e954ec375e2fe69d22408ebb1cf783a1756f2dd4",
+    "strategies/ranges/range_core.py": "45218351dd8dc18235aef3a1f501df4de3dd44521eb7e30470fae1cbfb58aad2",
+    "strategies/tournament/agent.py": "36b65f77e5f1d90cf564d876f448415180a08f92f41b5067e10afe7203dba37e",
+    "strategies/tournament/strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+    "strategies/variant/agent.py": "8367b29f7f6b1f0425bfcd22028ec1966bc013b2eb68d9ef1eb512c18d075751",
+    "strategies/variant/auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d",
+    "vendor/RULES.md": "ec579b99f3050d8f315c327e92047732159ca94b704024bef1557ab62082fc5b",
+    "vendor/sdk/agent-protocol/pyproject.toml": "8ef8b460a70886919a430e2aa38a688fe90d6b6e5a8a838126cd3bb861f5577f",
+    "vendor/sdk/agent-protocol/src/poker_agent_protocol/__init__.py": "cad6d85ae17047880deeea9f72c0ac3fc371a8f5a880540209ee4d30c3113fff",
+    "vendor/sdk/agent-protocol/src/poker_agent_protocol/game.py": "6be2ba2e5afd73310f06f69cbe6f227bc199aec500293d45d7b66cb7f8e47fde",
+    "vendor/sdk/agent-protocol/src/poker_agent_protocol/icm.py": "7f7143078354ce0d361e974a29b9d48bf0bd45a735ffe561690f6fbf434b2ff4",
+    "vendor/sdk/agent-protocol/src/poker_agent_protocol/process.py": "bbcd06b7caee641a9a2acc5c2d51a95fec0aa78a78d4ff390b65cbdbdf7387bb",
+    "vendor/sdk/agent-protocol/src/poker_agent_protocol/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vendor/sdk/agent-protocol/src/poker_agent_protocol/runner.py": "c60d8b70f6ae91e852fde5d5e0777c0591c8d1a473687a1a5dc444505d2d9e3d",
+    "vendor/sdk/agent-protocol/src/poker_agent_protocol/wire.py": "8cb48ac0464db459ffffb89128fe39847417766a9c6cec2aeac7452c80e57e34",
+    "vendor/sdk/agent-sdk/pyproject.toml": "30aabc2dec17110311f19d74e3ed67ef9dec5ca44cbce10323837a74134b578c",
+    "vendor/sdk/agent-sdk/src/poker_agent_sdk/__init__.py": "b031adece9d87fa6316e57cdcc0869547be90aa06c2bc71aa1ba83ec1f591077",
+    "vendor/sdk/agent-sdk/src/poker_agent_sdk/agent.py": "c8dac610611a050c799b67ff89ce86f6d8100569298bb32eae8f12705a00c671",
+    "vendor/sdk/agent-sdk/src/poker_agent_sdk/bundle.py": "0da3cef74e2b16ff143e993ad91eb67cbc1e715e5136b5d24345ebbac3c64106",
+    "vendor/sdk/agent-sdk/src/poker_agent_sdk/cli.py": "d78f503dbac6e8487bc09be1589de3dfe7aead2b754227999d4bc3bda26425b5",
+    "vendor/sdk/agent-sdk/src/poker_agent_sdk/guest.py": "21d56b47d793c5c05b2fc58eb82eee51191e6d540a969de0f0af212bbe6cbcb1",
+    "vendor/sdk/agent-sdk/src/poker_agent_sdk/history.py": "a4eba0765f0b7f0d819a807324f40285d96bfaa9063149f0d00dc98df91330aa",
+    "vendor/sdk/agent-sdk/src/poker_agent_sdk/local_history.py": "f610275ac5b77c4e7e8537cf191fd61984dd26b9919c8d78428b0c064286228f",
+    "vendor/sdk/agent-sdk/src/poker_agent_sdk/local_redzone.py": "c7d21dc6dc1c8ec977b18971cbe56a8a423ca6dc2d5be65aafe44ef63b64532f",
+    "vendor/sdk/agent-sdk/src/poker_agent_sdk/local_replay.py": "33306e6a91a4c63a022c9ee6aeb512acf0acb35f3b6ac07b5543204fd0acfafb",
+    "vendor/sdk/agent-sdk/src/poker_agent_sdk/narration.py": "d99a9c6325f15aaa0ce08b9b6d784d3a9737b5db24a43fbf9081e56f6cc9b3bc",
+    "vendor/sdk/agent-sdk/src/poker_agent_sdk/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vendor/sdk/agent-sdk/src/poker_agent_sdk/redzone_assets/app.css": "ac70aa24c910251fde8b1b22c80f28bdc476e2172b2f3629c303c78826b19ac1",
+    "vendor/sdk/agent-sdk/src/poker_agent_sdk/redzone_assets/app.js": "9a4c49db63b4f12f446d32b1de59a8c4c5ef8e4693a9cf142c3c4af77023d8e5",
+    "vendor/sdk/agent-sdk/src/poker_agent_sdk/redzone_assets/index.html": "1fc53b89a4a4912fbb8a079ef9e689ee02165d7c3d0d992408a995e47bdd3182",
+    "vendor/sdk/agent-sdk/src/poker_agent_sdk/zygote.py": "ef7011907c577beaedbf31ed055062ceb8b75f4ad598740d5e0bdb03d0c44818",
+    "vendor/sdk/engine/pyproject.toml": "5ed6e48b1684028054574ac917501cc6d6e40219624f0020c7c63595c2399cf6",
+    "vendor/sdk/engine/src/poker_engine/__init__.py": "afb29592d1ecb22672bc85b024aee989c9cc0509a87336d01f506b34d1242208",
+    "vendor/sdk/engine/src/poker_engine/history.py": "1e8e10b60e7e3df27069be134ee28bc50dd3bae9bd40bc48100873850a050c5a",
+    "vendor/sdk/engine/src/poker_engine/holdem.py": "35fb79d6b26b4522596ea614409e482b53e7647d994a0f1e4c342ee7166eabb2",
+    "vendor/sdk/engine/src/poker_engine/play.py": "c8ae23ccc9e1a893fd31395585ef43d06448284bebbd02c2885882126b5c8f1c",
+    "vendor/sdk/engine/src/poker_engine/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vendor/sdk/engine/src/poker_engine/scoring.py": "015ca07cb504cdbcf70a6fbb5370a4c36253b280ea153cdbf1f9978606c70b84",
+    "vendor/sdk/engine/src/poker_engine/seating.py": "68c10f2e902258820348ed9bad9a0b6a7c7b99c8e1854c46aab0f407baf66dfd",
+    "vendor/sdk/engine/src/poker_engine/table.py": "ac7ba6035c8d0438768736cf47cbc6b994e9894028e5c2fabcf8b3228ab4226b",
+    "vendor/sdk/engine/src/poker_engine/variant.py": "621f76231f83d16c5ca405e2669ae2ee4381455fe5e58e7c7ce5c81aecd47caf",
+    "vendor/sdk/engine/src/poker_engine/variants/__init__.py": "b67c3a06b6b88fa4f955475d925131acc2631864bb698a1e002367726ec6d13d",
+    "vendor/sdk/engine/src/poker_engine/variants/_sealed.py": "9ef704fe5521debf81840cfa64fa50231a2a06465ef4908e5137ea5f2f4aa262",
+    "vendor/sdk/engine/src/poker_engine/variants/flop_auction_holdem.md": "ec579b99f3050d8f315c327e92047732159ca94b704024bef1557ab62082fc5b",
+    "vendor/sdk/engine/src/poker_engine/variants/flop_auction_holdem.py": "d1b420327800b5166b9f79cf3d72a6c766a2ae32442e3ae5dfbe7cf26d048aa2"
+  },
+  "source_directories": [
+    "strategies/tournament",
+    "strategies/ranges",
+    "strategies/exploit",
+    "strategies/variant",
+    "strategies/equity",
+    "strategies/checkfold",
+    "strategies/minraise",
+    "vendor/sdk"
+  ]
+}

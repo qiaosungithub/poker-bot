@@ -1,0 +1,40 @@
+{
+  "base_ref": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+  "bindings": [
+    {
+      "function": "choose_bid",
+      "module": "auction_history_policy",
+      "target": "auction_policy.py"
+    }
+  ],
+  "replacements": [
+    {
+      "commit": "1e737eb9f9b04a69ed273d8a03d06458e2d75f10",
+      "source": "auction_policy.py",
+      "target": "auction_history_policy.py"
+    },
+    {
+      "commit": "1e737eb9f9b04a69ed273d8a03d06458e2d75f10",
+      "source": "auction_value.py",
+      "target": "auction_value.py"
+    },
+    {
+      "commit": "1e737eb9f9b04a69ed273d8a03d06458e2d75f10",
+      "source": "auction_selector.py",
+      "target": "auction_selector.py"
+    },
+    {
+      "commit": "6d12db253c60e0c1b62d954a670546e3f1414331",
+      "source": "betting_baseline.py"
+    },
+    {
+      "commit": "6d12db253c60e0c1b62d954a670546e3f1414331",
+      "source": "betting_inference_core.py"
+    },
+    {
+      "commit": "6d12db253c60e0c1b62d954a670546e3f1414331",
+      "source": "betting_policy.py",
+      "target": "betting_policy.py"
+    }
+  ]
+}
