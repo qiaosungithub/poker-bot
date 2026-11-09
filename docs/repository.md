@@ -6,6 +6,36 @@ as `origin` after the user explicitly requested the first push. The initial comm
 `Codex <codex@localhost>` because no Git author identity was configured; no global
 Git settings were changed.
 
+## Branch `gpu-training`
+
+Created on 2026-11-08 from `main` at `7356b42` and pushed to
+`origin/gpu-training`, because the Fullhouse training code became GPU code. On
+this branch:
+
+- `fullhouse-gpu/` holds the 4x A100 trainer (traversal, fit, trainer, eval,
+  tests), its three engineering reports and the measured records of runs 1 and
+  2 ([summary](research/fullhouse-gpu.md)). Its outputs (`fullhouse-gpu/trainer/runs/`)
+  and caches / CUDA-extension build (`fullhouse-gpu/.runtime/`,
+  `fullhouse-gpu/fit/.runtime/`) are ignored; checkpoints of runs 1 and 2 stay on
+  the VM `qiaos-4a100-2` and are identified by SHA256 in
+  `fullhouse-gpu/results/runs/checkpoints_*.sha256`.
+- The original TPU training and launch code was removed from `fullhouse-repro/`
+  (JAX backend, `launch.py`, `supervise.py`, TPU configs, launch manifest and
+  source ZIP, process / backend / resume validation records, environment lists,
+  `validate_storage.py`). The TPU run's results, evaluation outputs, latency
+  records and the evaluation / export / latency scripts are kept as reference.
+  Use `main` for the complete TPU provenance.
+- Commits are authored with the automation identity
+  `Amply agent <amply@localhost>`, passed per command
+  (`git -c user.name=... -c user.email=... commit`); no global Git settings were
+  changed.
+
+The GPU code needs `fullhouse-repro/source` (below) or `FULLHOUSE_SOURCE`; the
+submodules are needed only for the six-player evaluation
+(`latency-survey/fullhouse-bot`) and the Bay Area work.
+
+## What the repository tracks
+
 The parent repository tracks documentation, our training/benchmark code,
 configuration, result JSON/JSONL, the latency state corpus and raw timings, and
 frozen source archives. The two original files in
@@ -53,8 +83,8 @@ git -C fullhouse-repro/source apply ../training_changes.patch
 
 These commands restore source, not a runnable environment or trained models.
 Read [the reproduction report](research/fullhouse.md) for dependencies, artifact
-paths, hashes and validation commands. Some historical launchers use this
-server's absolute paths and need adjustment on a different machine.
+paths, hashes and validation commands. The GPU trainer's paths are relative to
+the repository (see `fullhouse-gpu/README.md` §Environment).
 
 ## Files intentionally outside the parent repository
 

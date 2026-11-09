@@ -3,15 +3,23 @@
 Start here when taking over without conversation history. Documentation was
 verified on **2026-11-08**; competition defaults may change at the variant reveal.
 
+**Branch `gpu-training`:** the Fullhouse training code is now the 4x A100
+reproduction in [`fullhouse-gpu/`](fullhouse-gpu/README.md) (250 iterations in
+10.3 minutes). The original TPU training/launch code was removed on this branch;
+its measured results stay in `fullhouse-repro/` as the reference, and its full
+provenance is on `main` at commit `7356b42`.
+
 ## Read in this order
 
 1. [Competition rules and unresolved differences](docs/competition/rules.md).
 2. [Official bot interface, sandbox and timing](docs/competition/runtime.md).
 3. [Infrastructure: portal, SSH build box and local tools](docs/competition/infrastructure.md).
-4. [Fullhouse reproduction: results, speed and exact artifacts](docs/research/fullhouse.md).
-5. [Git layout, submodules and restoring source](docs/repository.md).
-6. [Bay Area public resources and variant](docs/research/bay-area-2026.md).
-7. [Runnable Bay Area environment and strategy comparison](bay_area/README.md).
+4. [Fullhouse GPU reproduction: 4x A100 trainer, speed and results](docs/research/fullhouse-gpu.md),
+   then the package guide [`fullhouse-gpu/README.md`](fullhouse-gpu/README.md).
+5. [Original Fullhouse reproduction (TPU run): reference results and artifacts](docs/research/fullhouse.md).
+6. [Git layout, submodules and restoring source](docs/repository.md).
+7. [Bay Area public resources and variant](docs/research/bay-area-2026.md).
+8. [Runnable Bay Area environment and strategy comparison](bay_area/README.md).
 
 [Source provenance](docs/sources.json) records the official pages and capture
 locations. [human.md](human.md) and [scoring.md](scoring.md) are short Chinese notes.
@@ -23,11 +31,18 @@ locations. [human.md](human.md) and [scoring.md](scoring.md) are short Chinese n
   competition response had no announced variant. Recheck live state before use.
 - The official build box, credits and starter kit have **not been set up or
   claimed by this agent**. Existing account setup has not been audited.
-- Fullhouse self-play training finished: 250 iterations, 7.5 million traversals,
-  2 h 5 min 23 s. Use **iteration 210**, not final iteration 250.
-- On the independent six-player comparison, iteration 210 scored **60.94** versus
-  **58.59** for the released checkpoint; paired difference **+2.35**, 95% CI
-  **[+1.51, +3.19]**. These are custom research points, not official contest points.
+- Fullhouse GPU reproduction (`fullhouse-gpu/`, 4x A100-40GB, original
+  configuration: 250 iterations, 7.5 million traversals): the whole training
+  process took **16.4 min** (run 1) and **10.3 min** (run 2, the committed fit
+  kernels). On the six-player confirmation, run 2's selected iteration 40 scored
+  **63.35** vs **58.59** for the released checkpoint, paired difference
+  **+4.76 [+3.88, +5.65]**; run 1's iteration 20: **+2.04 [+1.19, +2.90]**. Both
+  final iterations (250) are weaker than the released model. Checkpoints stay on
+  the VM `qiaos-4a100-2`, not in Git.
+- Original TPU reproduction: 250 iterations in 2 h 5 min 23 s. Its selected
+  **iteration 210** scored **60.94** vs **58.59**; paired difference **+2.35**,
+  95% CI **[+1.51, +3.19]**; final iteration 250 is worse. These are custom
+  research points, not official contest points.
 - A fresh CPU timing run measured iteration 210 at **0.331 ms P99** for the full
   research decision function. It excludes the official SDK and IPC; one of 30,000
   calls exceeded 1 ms. This is not an official deadline guarantee.
@@ -45,17 +60,19 @@ locations. [human.md](human.md) and [scoring.md](scoring.md) are short Chinese n
 | Path | Purpose |
 |---|---|
 | `docs/competition/` | Official rules, runtime and infrastructure handoff |
-| `docs/research/fullhouse.md` | Reproduction method, result provenance, commands and limitations |
+| `docs/research/fullhouse-gpu.md` | GPU reproduction summary: speed, strength, artifact map |
+| `docs/research/fullhouse.md` | Original TPU reproduction: reference results, provenance and limitations |
 | `bay_area/`, `external/` | Bay Area environment, SDK arena and pinned public strategy repositories |
 | `benchmarks/bay_area_2026-11-08/` | Variant benchmark protocol, original table records and uncertainty |
-| `fullhouse-repro/` | Training implementation, checkpoints, evaluations and new latency results |
+| `fullhouse-gpu/` | 4x A100 Deep CFR trainer (traversal, fit, trainer, eval, tests), reports and measured records |
+| `fullhouse-repro/` | Original TPU run's results and evaluations, the shared evaluation / ONNX export / latency scripts, and the upstream training patch (its training code is removed on this branch) |
 | `benchmarks/six_player_2026-11-06/` | Frozen comparison table and exact original protocol; preserve both files |
 | `hu-benchmark/` | Frozen benchmark code, raw games and retained latency state corpus |
 | `latency-survey/` | Original Fullhouse repository, released weights and ONNX adapter |
 | `holdem-ppo/`, `txnujk-bot/` | Other existing research checkouts; not the Fullhouse reproduction |
 | `.runtime/` | Work-local Python environments, caches, temporary files and private portal session |
 
-The top-level directory is a Git repository on `main`. Six upstream
+The top-level directory is a Git repository (`main`; this is branch `gpu-training`). Six upstream
 checkouts are pinned submodules; the modified training worktree is reconstructed
 from a tracked patch. Models, environments and private login state remain
 outside the parent repository; see [repository boundaries](docs/repository.md).

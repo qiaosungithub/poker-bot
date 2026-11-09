@@ -25,6 +25,35 @@
       "size_bytes": 588622,
       "sha256": "7b52be99fbb20806669cba91deac58e3f0a03ec8a2169720e273ac08a67e1ef1",
       "tracked_by_parent_git": false
+    },
+    {
+      "path": "qiaos-4a100-2:~/work/poker-fast/trainer/runs/full_v2_adv/iter_00040.npz",
+      "role": "GPU run 2 selected checkpoint (advantage net)",
+      "size_bytes": 590758,
+      "sha256": "0a652cd9882cc0fa63243f27aef59a139b417286e9c4050ef3be0ca9765f4a56",
+      "tracked_by_parent_git": false
+    },
+    {
+      "path": "qiaos-4a100-2:~/work/poker-fast/trainer/evalkit/eval_full_v2/iter_00040.onnx",
+      "role": "GPU run 2 selected checkpoint, FP32 ONNX used in the benchmark",
+      "size_bytes": 588622,
+      "sha256": "4dfdfce2885c8ea9bab6d97ac3476c518ee4f9806efee90cc618ef69cd4fa10d",
+      "tracked_by_parent_git": false
+    },
+    {
+      "path": "qiaos-4a100-2:~/work/poker-fast/trainer/runs/full_adv/iter_00020.npz",
+      "role": "GPU run 1 selected checkpoint (advantage net)",
+      "size_bytes": 590758,
+      "sha256": "4016ccfaa65c849750ae3b6b62968777250196e7f5fdb09b07f12d1b1bbab155",
+      "tracked_by_parent_git": false
+    },
+    {
+      "path": "qiaos-4a100-2:~/work/poker-fast/trainer/evalkit/eval_full/iter_00020.onnx",
+      "role": "GPU run 1 selected checkpoint, FP32 ONNX used in the benchmark",
+      "size_bytes": 588622,
+      "sha256": "3ab014bcafcc5c8250253fa327ab7d3f84251b760df2da927d4f014284ec143e",
+      "tracked_by_parent_git": false
     }
-  ]
+  ],
+  "note_gpu": "Entries whose path starts with 'qiaos-4a100-2:' are GPU-reproduction files that exist only on that VM (observed 2026-11-08); their SHA256 also appear in fullhouse-gpu/results/runs/checkpoints_*.sha256 (NPZ) and fullhouse-gpu/results/eval/*/results.jsonl (checkpoint hashes)."
 }
