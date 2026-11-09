@@ -1,6 +1,8 @@
 import http.cookiejar
+import http.cookies
 import json
 import threading
+import time
 import unittest
 import urllib.error
 import urllib.request
@@ -54,6 +56,34 @@ class ServerTests(unittest.TestCase):
         self.assertEqual(self.request(a, "/api/session")[1]["state"], state)
         self.request(a, "/api/leave", dict(game_id=state["game_id"]))
         self.assertIsNone(self.request(a, "/api/session")[1]["state"])
+
+    def test_idle_worker_is_reaped_without_new_table_creation(self):
+        client = self.client()
+        code, reply = self.request(client, "/api/game", dict(mode="classic", bots=["solver_like"], name="idle"))
+        self.assertEqual(code, 200)
+        with self.server.guard:
+            game = next(g for g in self.server.games.values() if g.id == reply["state"]["game_id"])
+            game.touched -= self.server.idle_timeout + 1
+        deadline = time.monotonic() + 5
+        while game.process.poll() is None and time.monotonic() < deadline:
+            time.sleep(.05)
+        self.assertIsNotNone(game.process.poll())
+        self.assertIsNone(self.request(client, "/api/session")[1]["state"])
+
+    def test_https_cookie_and_hidden_files(self):
+        self.server.secure_cookie = True
+        try:
+            with urllib.request.urlopen(self.url + "/health") as response:
+                cookie = http.cookies.SimpleCookie(response.headers["Set-Cookie"])["poker_session"]
+                self.assertTrue(cookie["secure"])
+                self.assertTrue(cookie["httponly"])
+                self.assertEqual(cookie["samesite"], "Strict")
+                self.assertEqual(cookie["domain"], "")
+            client = self.client()
+            for path in ("/.runtime/", "/../AGENTS.md", "/server.py"):
+                self.assertEqual(self.request(client, path)[0], 404)
+        finally:
+            self.server.secure_cookie = False
 
 
 if __name__ == "__main__":

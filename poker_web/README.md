@@ -1,8 +1,20 @@
 # RIVER — human vs. bot practice tables
 
-A local Chinese-language poker website using the repository's actual engines
-and policies. No cloud hosting, accounts, API keys, frontend package installation
-or model training is needed on this research server.
+A Chinese-language poker website using the repository's actual engines and
+policies. Python and model inference run on this research server. Visitors need
+only a browser; no account or local installation is required.
+
+## Public link
+
+Open **https://portland-bids-classics-anyway.trycloudflare.com** to play or share
+with teammates. Each browser has an independent human-vs-bots table. Both modes
+and all individually selectable strategies are available.
+
+The public instance runs in tmux `poker-web-public`, with HTTPS through a separate
+Cloudflare Quick Tunnel. Its current URL is also in `.runtime/web/public-url.txt`.
+The address changes when the tunnel is recreated, and the link requires the
+server and tunnel to remain running. See [deployment and recovery](DEPLOYMENT.md).
+The original SSH instance below remains available independently.
 
 ## Open from your laptop
 
@@ -66,8 +78,9 @@ watching or start a new table. Starting a new table replaces the previous one.
 Refresh resumes the current table while the server and browser session remain
 alive. Lineup and playback preferences are stored in browser local storage;
 private game state stays in the server process. This is one human per browser
-session, not a network multiplayer lobby. New-table creation prunes sessions
-idle for more than three hours; at most eight sessions are retained. There is
+session, not a network multiplayer lobby. The public server automatically reaps
+tables idle for 30 minutes; the default local timeout is three hours. At most
+eight sessions per server are retained. There is
 no disk persistence or full replay export.
 
 ## Modes and policies
@@ -132,8 +145,10 @@ sent to the browser. Invalid human actions are rejected before engine mutation;
 bot normalization/fallback follows the underlying adapter and is surfaced when
 reported by the wrapper. A random HttpOnly SameSite session cookie isolates
 browser sessions. Mutations require JSON, same-origin requests, the owned table
-ID and current state version. This is intended for a loopback/SSH workflow,
-not a public Internet service.
+ID and current state version. The public instance additionally requires Secure
+cookies and has a shorter idle timeout. Its HTTP listener stays on loopback;
+only the Cloudflare tunnel exposes it. This is a small team practice deployment,
+with no login or persistent game storage. Anyone with the URL can open a table.
 
 ## Verification
 

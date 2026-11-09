@@ -1,0 +1,37 @@
+{
+  "checked_at_utc": "2026-11-09T03:51:48.146875+00:00",
+  "verdict": "pass",
+  "public_url": "https://portland-bids-classics-anyway.trycloudflare.com",
+  "origin": "127.0.0.1:8789",
+  "tmux": "poker-web-public",
+  "browser": {
+    "verdict": "pass",
+    "url": "https://portland-bids-classics-anyway.trycloudflare.com",
+    "checked_at_utc": "2026-11-09T03:50:22.843Z",
+    "checks": [
+      "public HTTPS, Secure HttpOnly SameSite cookie and cross-origin rejection",
+      "classic six-player play, raise, settlement, hidden cards and refresh resume",
+      "Bay Area eight-player play, six-way selection controls, sealed cards and settlement",
+      "390px mobile layout, eight visible seats and playable controls"
+    ],
+    "page_errors": []
+  },
+  "http_unit_tests": 3,
+  "runtime_checks": [
+    "HTTPS health and live tunnel readiness",
+    "duplicate launch refused without changing URL",
+    "no public table workers remain after QA"
+  ],
+  "scope": "Temporary team sharing; real browser gameplay, not a bot-strength benchmark",
+  "source_sha256": {
+    "poker_web/server.py": "79734de2b4da2091e1f86c9931a7d975e2918fe5b181666c583f661de282f383",
+    "poker_web/run_public.sh": "361583bd76a3b79d7a39bd0b011c6d2fff2f87f50cff7f01da1a9b8eeb5c58fc",
+    "poker_web/static/index.html": "8ef2b542e1e8e1e60207fa97434e50a7ea4465b43b4467300ad56fe569075e87",
+    "poker_web/tests/test_server.py": "496927e77cd1624b4b62f550d69980ad1e2fcd6df81d04170cb20f37bb0c00d4",
+    "poker_web/tests/browser.cjs": "a2f12af3984c6dc915f910b16b1235268e734c9a8205c3c63e69f2b5f5287ad3"
+  },
+  "unchanged_game_adapters": {
+    "classic": "82ebb5ce4b599819612fcf5603bc6a9d88aec9ef246fa0dc9c695821cbfca059",
+    "bay_area": "0af77d20c846ffed6701a32bf9e30e5afe6e1715bf8b9d5267607dcb13db5aa7"
+  }
+}

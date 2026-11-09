@@ -52,6 +52,15 @@ const base = process.env.POKER_WEB_URL || 'http://127.0.0.1:8788';
     const context=await browser.newContext({viewport:{width:1500,height:1000}});
     const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
     await page.goto(base);await page.waitForSelector('.policy-select');
+    if (base.startsWith('https://')) {
+      const cookie=(await context.cookies(base)).find(c=>c.name==='poker_session');
+      assert(cookie?.secure && cookie.httpOnly && cookie.sameSite==='Strict');
+      assert.equal((await page.request.post(base+'/api/game', {
+        headers:{Origin:'https://example.org'},
+        data:{mode:'classic',bots:['solver_like'],name:'invalid-origin'},
+      })).status(),403);
+      checks.push('public HTTPS, Secure HttpOnly SameSite cookie and cross-origin rejection');
+    }
     assert.equal(await page.locator('.policy-select').count(),5);
     await page.screenshot({path:path.join(output,'desktop-lobby.png'),fullPage:true});
     await page.locator('#start-game').click();await page.waitForSelector('.seat');
@@ -90,6 +99,7 @@ const base = process.env.POKER_WEB_URL || 'http://127.0.0.1:8788';
     const mobile=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
     const mp=await mobile.newPage();mp.on('pageerror',e=>errors.push(e.message));
     await mp.goto(base);await mp.waitForSelector('.policy-select');
+    assert.equal(await current(mp),null,'a fresh visitor must not inherit another table');
     await mp.locator('[data-mode="bay_area"]').click();
     await mp.locator('#start-game').click();await mp.waitForSelector('.seat');await mp.locator('#pause').click();
     await mp.locator('.play-area').scrollIntoViewIfNeeded();
@@ -111,7 +121,7 @@ const base = process.env.POKER_WEB_URL || 'http://127.0.0.1:8788';
     const ms=await current(mp);await mp.request.post(base+'/api/leave',{data:{game_id:ms.game_id}});
     await mobile.close();
     assert.deepEqual(errors,[]);
-    const result={verdict:'pass',checks,page_errors:errors};
+    const result={verdict:'pass',url:base,checked_at_utc:new Date().toISOString(),checks,page_errors:errors};
     fs.writeFileSync(path.join(output,'browser-results.json'),JSON.stringify(result,null,2));
     console.log(JSON.stringify(result,null,2));
   } finally {await browser.close();}

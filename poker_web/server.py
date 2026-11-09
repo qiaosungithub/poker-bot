@@ -1,6 +1,6 @@
-"""Loopback practice server; run with python -m poker_web.server."""
+"""Practice server; bind to loopback and publish through an HTTPS tunnel."""
 import argparse
-from http.cookies import SimpleCookie
+from http.cookies import CookieError, SimpleCookie
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
 import mimetypes
@@ -8,6 +8,7 @@ import os
 from pathlib import Path
 import secrets
 import selectors
+import signal
 import subprocess
 import sys
 import threading
@@ -27,7 +28,7 @@ PYTHONS = {
 class TableProcess:
     def __init__(self, config):
         self.id = secrets.token_urlsafe(20)
-        self.lock = threading.Lock()
+        self.lock = threading.RLock()
         self.touched = time.monotonic()
         (RUNTIME / "logs").mkdir(parents=True, exist_ok=True)
         log = (RUNTIME / "logs" / (self.id + ".log")).open("a")
@@ -70,6 +71,10 @@ class TableProcess:
             return result
 
     def close(self):
+        with self.lock:
+            self._close()
+
+    def _close(self):
         if self.process.poll() is None:
             self.process.terminate()
             try:
@@ -83,17 +88,28 @@ class TableProcess:
 
 class Server(ThreadingHTTPServer):
     daemon_threads = True
-    def __init__(self, address):
+    def __init__(self, address, *, secure_cookie=False, idle_timeout=10800):
         super().__init__(address, Handler)
+        self.secure_cookie = secure_cookie
+        self.idle_timeout = idle_timeout
         self.games = {}
         self.guard = threading.RLock()
 
     def prune(self):
         with self.guard:
             for owner, game in list(self.games.items()):
-                if time.monotonic() - game.touched > 10800:
-                    game.close()
-                    del self.games[owner]
+                # A busy worker owns its lock; reap only idle or exited workers.
+                if game.lock.acquire(blocking=False):
+                    try:
+                        if time.monotonic() - game.touched > self.idle_timeout or game.process.poll() is not None:
+                            game.close()
+                            del self.games[owner]
+                    finally:
+                        game.lock.release()
+
+    def service_actions(self):
+        # Called by serve_forever even when no new visitor creates a table.
+        self.prune()
 
     def server_close(self):
         with self.guard:
@@ -105,6 +121,10 @@ class Server(ThreadingHTTPServer):
 
 class Handler(BaseHTTPRequestHandler):
     server_version = "PokerPractice"
+    def setup(self):
+        super().setup()
+        self.connection.settimeout(15)
+
     def owner(self):
         cookie = SimpleCookie()
         try:
@@ -113,7 +133,7 @@ class Handler(BaseHTTPRequestHandler):
             if len(owner) != 43:
                 raise ValueError()
             return owner, False
-        except (KeyError, ValueError):
+        except (CookieError, KeyError, ValueError):
             return secrets.token_urlsafe(32), True
 
     def respond(self, status, data, content_type="application/json; charset=utf-8"):
@@ -129,7 +149,8 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("Referrer-Policy", "same-origin")
         self.send_header("Content-Security-Policy", "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'")
         if self.new_cookie:
-            self.send_header("Set-Cookie", f"poker_session={self.session}; HttpOnly; SameSite=Strict; Path=/; Max-Age=10800")
+            secure = "; Secure" if self.server.secure_cookie else ""
+            self.send_header("Set-Cookie", f"poker_session={self.session}; HttpOnly; SameSite=Strict; Path=/; Max-Age=10800{secure}")
         self.end_headers()
         self.wfile.write(data)
 
@@ -153,8 +174,10 @@ class Handler(BaseHTTPRequestHandler):
                 file = STATIC / names[path]
                 kind = mimetypes.guess_type(file.name)[0] or "application/octet-stream"
                 self.respond(200, file.read_bytes(), kind + ("; charset=utf-8" if kind.startswith("text/") else ""))
-        except (ValueError, OSError) as error:
+        except ValueError as error:
             self.respond(503, {"ok": False, "error": str(error)})
+        except OSError:
+            self.respond(503, {"ok": False, "error": "牌桌进程不可用，请新建牌桌。"})
 
     def do_POST(self):
         self.session, self.new_cookie = self.owner()
@@ -213,8 +236,15 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8788)
+    parser.add_argument("--secure-cookie", action="store_true", help="Require HTTPS for browser session cookies")
+    parser.add_argument("--idle-timeout", type=int, default=10800, help="Seconds before reclaiming an inactive table")
     args = parser.parse_args()
-    server = Server((args.host, args.port))
+    if args.idle_timeout <= 0:
+        parser.error("--idle-timeout must be positive")
+    server = Server((args.host, args.port), secure_cookie=args.secure_cookie, idle_timeout=args.idle_timeout)
+    def stop(signum, frame):
+        raise KeyboardInterrupt
+    signal.signal(signal.SIGTERM, stop)
     print(f"Poker practice ready: http://{args.host}:{server.server_port}", flush=True)
     try:
         server.serve_forever()
