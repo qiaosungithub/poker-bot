@@ -1,0 +1,64 @@
+{
+  "wall": {
+    "n": 400,
+    "p50_ms": 4.847165,
+    "p99_ms": 5.35236061,
+    "p999_ms": 5.5853287300000005,
+    "max_ms": 5.60158,
+    "over_1ms": 300
+  },
+  "cpu": {
+    "n": 400,
+    "p50_ms": 4.849035499999999,
+    "p99_ms": 5.3296696,
+    "p999_ms": 5.572643581,
+    "max_ms": 5.60296,
+    "over_1ms": 300
+  },
+  "by_street": {
+    "preflop": {
+      "n": 100,
+      "p50_ms": 0.021625,
+      "p99_ms": 0.038240700000000016,
+      "p999_ms": 0.041867069999999985,
+      "max_ms": 0.04227,
+      "over_1ms": 0
+    },
+    "flop": {
+      "n": 100,
+      "p50_ms": 5.0080495,
+      "p99_ms": 5.382453400000001,
+      "p999_ms": 5.579667339999999,
+      "max_ms": 5.60158,
+      "over_1ms": 100
+    },
+    "turn": {
+      "n": 100,
+      "p50_ms": 4.934645,
+      "p99_ms": 5.354166710000001,
+      "p999_ms": 5.540181670999999,
+      "max_ms": 5.56085,
+      "over_1ms": 100
+    },
+    "river": {
+      "n": 100,
+      "p50_ms": 4.86775,
+      "p99_ms": 5.3291940900000005,
+      "p999_ms": 5.505085508999999,
+      "max_ms": 5.524629,
+      "over_1ms": 100
+    }
+  },
+  "eligible": false,
+  "exceptions": {},
+  "errors": [],
+  "policy": {
+    "source": "latency-survey/fullhouse-bot/bots/competitors/adaptive_hydra/bot.py",
+    "source_sha256": "eb5280b4d757ded435cf0b8dc5ae9b006bb3be0df822910e0e5777e9f018b25e",
+    "instrumented_code_sha256": "b20dd97e54d590793e88993b1dfa2b7a163a0229b6d9041dc2eb0bb20e48b8a0",
+    "sampling_cap": null,
+    "ast_sampling_edits": [],
+    "family": "hydra",
+    "learned": false
+  }
+}

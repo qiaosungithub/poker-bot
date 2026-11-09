@@ -1,0 +1,74 @@
+{
+  "observed_at_utc": "2026-11-09T01:20:00.254936+00:00",
+  "scope": "Public runnable 6-max standard no-limit Holdem, handwritten policies; static equity tables and Monte Carlo evaluation allowed. No trained policy weights/CFR blueprint in the handwritten candidate group.",
+  "search_queries": [
+    "github poker bot heuristic 6 max no limit holdem rule based tournament winner",
+    "github fullhouse hackathon poker bot heuristic rule based winner",
+    "github poker bot handcrafted multi",
+    "github poker bot 1ms",
+    "github poker bot heuristic microseconds"
+  ],
+  "inspected_pinned_repositories": {
+    "latency-survey/fullhouse-bot": {
+      "url": "https://github.com/advitrocks9/fullhouse-bot.git",
+      "commit": "e504793d480b1b975f25258d25939b45c6dbd5a4"
+    },
+    "txnujk-bot": {
+      "url": "https://github.com/txnujk09/fullhouse-poker-bot.git",
+      "commit": "4fe154318949aa60430682416f148733c6f0d564"
+    },
+    "external/fullhouse-vikram": {
+      "url": "https://github.com/Vikknows/Fullhouse-Hackathon.git",
+      "commit": "cb16737fea04805f2ab1bd7f6a6de6f9bb0ea974"
+    },
+    "external/fullhouse-lucas": {
+      "url": "https://github.com/lucashsu007-create/fullhouse-hackathon-write-up-repo.git",
+      "commit": "8b98ee3efce3b224177609352258dc86db901cce"
+    },
+    "external/fold-equity": {
+      "url": "https://github.com/HighRiskLowYield/fold-equity.git",
+      "commit": "f427cb5cd429123e14da3626d8f440f7f9ffd4dd"
+    }
+  },
+  "classification": {
+    "solver_like": "Handwritten hand buckets, fixed ranges, deterministic mixed actions; no actual solver despite name.",
+    "tournament_specialist": "Handwritten stack/opponent aware tournament rules.",
+    "cfr_lite": "Handwritten equity and action EV formulas, positive-regret weighting at one decision; no trained CFR policy or self-play table.",
+    "hydra": "Handwritten opponent profiling and Monte Carlo equity.",
+    "txnujk": "Submitted floorfix heuristic; separate CFR variant is not used.",
+    "vikram": "Submitted v12 candidate with handwritten rules/profiling and Monte Carlo/exact river evaluation.",
+    "pantheon": "Final v16_squeeze_C_metacap; handwritten rules/ranges and equity simulation. Author reports fifth in Fullhouse final; not independently verified here.",
+    "fold_equity": "Handwritten preflop ranges and postflop per-action expected value, with range-conditioned Monte Carlo."
+  },
+  "excluded_other_sources": [
+    {
+      "url": "https://github.com/ethangarofalo/hold-em-bot",
+      "reason": "Mixed CFR-blueprint architecture, Python-only multiway simulation; no verified 1 ms runtime or independent strength evidence. Not included in timed shortlist."
+    },
+    {
+      "url": "https://github.com/lucasvegamazzoni/fullhouse-poker-bot",
+      "reason": "Uses trained CFR blueprint; README says multiway handling remains future work."
+    },
+    {
+      "url": "https://github.com/PurujitAggarwal/Fullhouse-hackathon-poker-bot",
+      "reason": "Previously inspected; deployed hybrid uses trained CFR tables, outside current handwritten scope."
+    },
+    {
+      "url": "https://github.com/Tehes/poker",
+      "reason": "Previously measured 200/64352 calls over 1 ms, P99.9 8.17 ms; Javascript interface. No new cross-engine strength claim."
+    },
+    {
+      "url": "https://github.com/aipoker-bot/openholdem-py",
+      "reason": "Previously measured Gecko Python port at 581.6 ms median. Does not establish timing of original C++ program."
+    },
+    {
+      "url": "https://github.com/samg2003/poker-bot",
+      "reason": "Neural policy architecture, outside handwritten scope."
+    }
+  ],
+  "measurement_notes": [
+    "Initial pantheon_32/64 pilot changed only global iteration caps, missing function-default range sampling caps. Those pilot records are retained but superseded by latency_pantheon_corrected, which caps both paths; no strength results were used to make this implementation correction.",
+    "Screen timing excludes caught-exception candidates. Rare wall-clock outliers can exclude a candidate in a small screen; this search is conservative, not exhaustive.",
+    "Frozen source tables may be approximations; a matching API and low latency do not establish globally strong poker."
+  ]
+}

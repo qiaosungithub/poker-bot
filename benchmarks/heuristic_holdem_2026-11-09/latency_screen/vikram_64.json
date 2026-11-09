@@ -1,0 +1,83 @@
+{
+  "wall": {
+    "n": 400,
+    "p50_ms": 0.82022,
+    "p99_ms": 0.9306207,
+    "p999_ms": 1.2092386609999997,
+    "max_ms": 1.38602,
+    "over_1ms": 1
+  },
+  "cpu": {
+    "n": 400,
+    "p50_ms": 0.8216950000000001,
+    "p99_ms": 0.9317620999999999,
+    "p999_ms": 1.2159160899999997,
+    "max_ms": 1.3963,
+    "over_1ms": 1
+  },
+  "by_street": {
+    "preflop": {
+      "n": 100,
+      "p50_ms": 0.03271,
+      "p99_ms": 0.04956920000000005,
+      "p999_ms": 0.057516919999999964,
+      "max_ms": 0.0584,
+      "over_1ms": 0
+    },
+    "flop": {
+      "n": 100,
+      "p50_ms": 0.8556445,
+      "p99_ms": 0.9386513000000001,
+      "p999_ms": 0.94233113,
+      "max_ms": 0.94274,
+      "over_1ms": 0
+    },
+    "turn": {
+      "n": 100,
+      "p50_ms": 0.8436095,
+      "p99_ms": 0.93031769,
+      "p999_ms": 0.941694869,
+      "max_ms": 0.942959,
+      "over_1ms": 0
+    },
+    "river": {
+      "n": 100,
+      "p50_ms": 0.8293705,
+      "p99_ms": 0.8999894000000025,
+      "p999_ms": 1.3374169399999982,
+      "max_ms": 1.38602,
+      "over_1ms": 1
+    }
+  },
+  "eligible": false,
+  "exceptions": {},
+  "errors": [],
+  "policy": {
+    "source": "external/fullhouse-vikram/bots/submission_candidate/bot.py",
+    "source_sha256": "eabc9e5b6b207345084f0e4d456d14568a0cf0bf492e42a6dd41b4156f392ac5",
+    "instrumented_code_sha256": "d95eccfa33d825c202e63d48a785e5480f736ec5146d926beabeeb754f124a06",
+    "sampling_cap": 64,
+    "ast_sampling_edits": [
+      {
+        "function": "_monte_carlo",
+        "assignment": "max_iters",
+        "before": "600",
+        "after": "64"
+      },
+      {
+        "function": "_monte_carlo",
+        "assignment": "max_iters",
+        "before": "700",
+        "after": "64"
+      },
+      {
+        "function": "_monte_carlo",
+        "assignment": "max_iters",
+        "before": "400",
+        "after": "64"
+      }
+    ],
+    "family": "vikram",
+    "learned": false
+  }
+}

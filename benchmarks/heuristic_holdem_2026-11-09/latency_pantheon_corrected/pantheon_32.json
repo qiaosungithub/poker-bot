@@ -1,0 +1,85 @@
+{
+  "wall": {
+    "n": 400,
+    "p50_ms": 1.58203,
+    "p99_ms": 3.0303030999999976,
+    "p999_ms": 8.026239139999994,
+    "max_ms": 10.638149,
+    "over_1ms": 309
+  },
+  "cpu": {
+    "n": 400,
+    "p50_ms": 1.5841845,
+    "p99_ms": 3.033937599999997,
+    "p999_ms": 8.030636409999994,
+    "max_ms": 10.64425,
+    "over_1ms": 309
+  },
+  "by_street": {
+    "preflop": {
+      "n": 100,
+      "p50_ms": 0.24444500000000002,
+      "p99_ms": 2.0453380000000045,
+      "p999_ms": 2.8390407999999967,
+      "max_ms": 2.92723,
+      "over_1ms": 19
+    },
+    "flop": {
+      "n": 100,
+      "p50_ms": 1.620055,
+      "p99_ms": 3.3889541900000375,
+      "p999_ms": 9.913229518999973,
+      "max_ms": 10.638149,
+      "over_1ms": 97
+    },
+    "turn": {
+      "n": 100,
+      "p50_ms": 1.78435,
+      "p99_ms": 3.4419264900000037,
+      "p999_ms": 4.027000748999997,
+      "max_ms": 4.092009,
+      "over_1ms": 98
+    },
+    "river": {
+      "n": 100,
+      "p50_ms": 1.71054,
+      "p99_ms": 2.868713100000001,
+      "p999_ms": 3.0115493099999995,
+      "max_ms": 3.02742,
+      "over_1ms": 95
+    }
+  },
+  "eligible": false,
+  "exceptions": {
+    "ValueError: 'BB' is not in list": 1,
+    "ValueError: 'SB' is not in list": 1
+  },
+  "errors": [],
+  "policy": {
+    "source": "external/fullhouse-lucas/hero_bots/bot_v16_squeeze_C_metacap/bot.py",
+    "source_sha256": "ffa1ac5083482a96b240ce2a3dcff8f329333184f9006231d0c42bbbc877810a",
+    "instrumented_code_sha256": "26f87ebb409badf1eeab0e4938e52c25598e7b352b912efa8c28ba7c6feca5ed",
+    "sampling_cap": 32,
+    "ast_sampling_edits": [
+      {
+        "function": "_equity_vs_one_range",
+        "assignment": "max_iters default",
+        "before": "2000",
+        "after": "32"
+      },
+      {
+        "function": "_equity_vs_multi_range",
+        "assignment": "max_iters default",
+        "before": "1500",
+        "after": "32"
+      }
+    ],
+    "family": "pantheon",
+    "learned": false,
+    "runtime_edits": {
+      "_EQ_MIN_ITERS": 32,
+      "_EQ_MAX_ITERS": 32,
+      "_EQ_STREET_BUDGET": "keep original time limits; all iteration limits = 32"
+    }
+  }
+}

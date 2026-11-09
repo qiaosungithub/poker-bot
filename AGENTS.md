@@ -25,6 +25,13 @@ infrastructure documentation, and the Fullhouse reproduction report. Consult
   not sixteen independent entrants. Preserve raw records and source commits;
   use a new output directory for additional experiments. No unique winner was
   established by the 4,096-table confirmation.
+- `heuristic_holdem/README.md` and
+  `benchmarks/heuristic_holdem_2026-11-09/REPORT.md` cover the standard Hold'em
+  handwritten-policy comparison. Preserve its raw timings, table records,
+  frozen selection and source snapshot. Sampling-budget variants are distinct
+  from upstream originals; passing the statistical timing filter does not
+  guarantee every call finishes within 1 ms. Scores depend on the six-player
+  field and custom ICM payout schedule, not official contest scoring.
 
 ## Storage
 

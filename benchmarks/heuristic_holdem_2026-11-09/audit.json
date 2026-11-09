@@ -1,0 +1,25 @@
+{
+  "verdict": "pass",
+  "checks": {
+    "latency_finalists": "raw timings, phase quantiles and policy source verified",
+    "latency_pantheon_corrected": "raw timings, phase quantiles and policy source verified",
+    "latency_replacements": "raw timings, phase quantiles and policy source verified",
+    "latency_screen": "raw timings, phase quantiles and policy source verified",
+    "latency_trajectory": "raw timings, phase quantiles and policy source verified",
+    "latency_trajectory_final": "raw timings, phase quantiles and policy source verified",
+    "screen": {
+      "tables": 5376,
+      "hands": 803855,
+      "negative_score_control_passed": true
+    },
+    "confirmation": {
+      "tables": 12288,
+      "hands": 2404883,
+      "negative_score_control_passed": true
+    },
+    "source_snapshot": "matches working source byte-for-byte"
+  },
+  "raw_timing_calls_verified": 421697,
+  "pinned_sources_clean": true,
+  "selected_reference_models_match": true
+}

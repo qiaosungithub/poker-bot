@@ -1,0 +1,72 @@
+{
+  "wall": {
+    "n": 400,
+    "p50_ms": 25.7456435,
+    "p99_ms": 39.81417329,
+    "p999_ms": 42.361755818999995,
+    "max_ms": 43.673037,
+    "over_1ms": 321
+  },
+  "cpu": {
+    "n": 400,
+    "p50_ms": 25.751545,
+    "p99_ms": 39.8210917,
+    "p999_ms": 42.318098461,
+    "max_ms": 43.67584,
+    "over_1ms": 321
+  },
+  "by_street": {
+    "preflop": {
+      "n": 100,
+      "p50_ms": 0.323755,
+      "p99_ms": 31.78253409000006,
+      "p999_ms": 42.48398670899996,
+      "max_ms": 43.673037,
+      "over_1ms": 21
+    },
+    "flop": {
+      "n": 100,
+      "p50_ms": 29.773278,
+      "p99_ms": 39.54177079,
+      "p999_ms": 39.655176379000004,
+      "max_ms": 39.667777,
+      "over_1ms": 100
+    },
+    "turn": {
+      "n": 100,
+      "p50_ms": 35.114268,
+      "p99_ms": 40.195705409999995,
+      "p999_ms": 40.367526741,
+      "max_ms": 40.386618,
+      "over_1ms": 100
+    },
+    "river": {
+      "n": 100,
+      "p50_ms": 24.9430335,
+      "p99_ms": 28.7536299,
+      "p999_ms": 28.79024109,
+      "max_ms": 28.794309,
+      "over_1ms": 100
+    }
+  },
+  "eligible": false,
+  "exceptions": {
+    "ValueError: 'BB' is not in list": 1,
+    "ValueError: 'SB' is not in list": 1
+  },
+  "errors": [],
+  "policy": {
+    "source": "external/fullhouse-lucas/hero_bots/bot_v16_squeeze_C_metacap/bot.py",
+    "source_sha256": "ffa1ac5083482a96b240ce2a3dcff8f329333184f9006231d0c42bbbc877810a",
+    "instrumented_code_sha256": "42c0127f20d6c46155d9e4034e6b5f76b2f180b5f251d7b80dd4875c3a581ab9",
+    "sampling_cap": 64,
+    "ast_sampling_edits": [],
+    "family": "pantheon",
+    "learned": false,
+    "runtime_edits": {
+      "_EQ_MIN_ITERS": 64,
+      "_EQ_MAX_ITERS": 64,
+      "_EQ_STREET_BUDGET": "keep original time limits; all iteration limits = 64"
+    }
+  }
+}

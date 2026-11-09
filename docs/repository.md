@@ -32,6 +32,21 @@ The raw variant benchmark, latency samples and runner snapshot are versioned
 under `benchmarks/bay_area_2026-11-08/`. Its executable setup and source API are
 described in [the environment guide](../bay_area/README.md).
 
+Three additional pinned submodules support the standard Hold'em handwritten
+strategy survey (nine submodules in total):
+
+| Path | Upstream | Pinned commit |
+|---|---|---|
+| `external/fullhouse-vikram` | `Vikknows/Fullhouse-Hackathon` | `cb16737fea04805f2ab1bd7f6a6de6f9bb0ea974` |
+| `external/fullhouse-lucas` | `lucashsu007-create/fullhouse-hackathon-write-up-repo` | `8b98ee3efce3b224177609352258dc86db901cce` |
+| `external/fold-equity` | `HighRiskLowYield/fold-equity` | `f427cb5cd429123e14da3626d8f440f7f9ffd4dd` |
+
+The [handwritten-policy report](../benchmarks/heuristic_holdem_2026-11-09/REPORT.md)
+records candidate selection, latency failures and the independent confirmation.
+`heuristic_holdem/policies.py` applies documented sampling caps at load time;
+upstream submodules remain unmodified. Raw timings, per-table results and the
+as-run source archive are retained under `benchmarks/heuristic_holdem_2026-11-09/`.
+
 `fullhouse-repro/source/` is an ignored linked worktree of the Fullhouse
 submodule at the same upstream commit. Its intentional `training/train.py`
 modification is preserved as `fullhouse-repro/training_changes.patch`; the patch

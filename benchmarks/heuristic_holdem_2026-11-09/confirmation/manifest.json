@@ -1,0 +1,132 @@
+{
+  "config": {
+    "mode": "confirmation",
+    "names": "txnujk_32,tournament_specialist,solver_like,cfr_lite_32,fullhouse_released,fullhouse_reproduced",
+    "output": "benchmarks/heuristic_holdem_2026-11-09/confirmation",
+    "cpu": 2,
+    "per_street": 100,
+    "repeats": 1,
+    "blocks": 2048,
+    "seed": 31200000,
+    "hands": 200,
+    "workers": 24
+  },
+  "payouts": [
+    100.0,
+    60.0,
+    40.0,
+    25.0,
+    10.0,
+    0.0
+  ],
+  "policies": {
+    "fullhouse_reproduced": {
+      "family": "fullhouse_reproduced",
+      "learned": true,
+      "model": "fullhouse-repro/eval/iter_00210.onnx",
+      "sha256": "2f2455adf06f22a3a6d87bef1b330e4ea80438a6567943abfab2762d6cf0db32"
+    },
+    "hydra_32": {
+      "source": "latency-survey/fullhouse-bot/bots/competitors/adaptive_hydra/bot.py",
+      "source_sha256": "eb5280b4d757ded435cf0b8dc5ae9b006bb3be0df822910e0e5777e9f018b25e",
+      "instrumented_code_sha256": "2d1912236a5ef3691a0d4153a72fda14bf0bcc87a978863dbe3d815294ad9b18",
+      "sampling_cap": 32,
+      "ast_sampling_edits": [
+        {
+          "function": "_mc_equity",
+          "assignment": "max_iters",
+          "before": "300",
+          "after": "32"
+        }
+      ],
+      "family": "hydra",
+      "learned": false
+    },
+    "cfr_lite_32": {
+      "source": "latency-survey/fullhouse-bot/bots/competitors/cfr_lite/bot.py",
+      "source_sha256": "7eb3e3dc75333b2a940fa9784dc130e6c3936f4605f56f7b76bc94b3a6b0d231",
+      "instrumented_code_sha256": "052276d804908745fdad9d890ece8bd903c6d101cb4f2d980ec68932227580dd",
+      "sampling_cap": 32,
+      "ast_sampling_edits": [],
+      "family": "cfr_lite",
+      "learned": false,
+      "runtime_edits": {
+        "CONFIG.equity_iterations": {
+          "flop": 32,
+          "turn": 32,
+          "river": 32,
+          "heads_up_bonus": 0,
+          "multiway_penalty": 0,
+          "multiway_floor": 32
+        }
+      }
+    },
+    "fullhouse_released": {
+      "family": "fullhouse_released",
+      "learned": true,
+      "model": "latency-survey/fullhouse_fp32.onnx",
+      "sha256": "7b52be99fbb20806669cba91deac58e3f0a03ec8a2169720e273ac08a67e1ef1"
+    },
+    "solver_like": {
+      "source": "latency-survey/fullhouse-bot/bots/adversarial/solver_like.py",
+      "source_sha256": "76ef638a9a7e9762316ba34d54eca435bd37086afd9bb30433423346282a5240",
+      "instrumented_code_sha256": "a4be13676d060de663032b7737486192b3e3c6a054a6fb160054b6c67c2124ef",
+      "sampling_cap": null,
+      "ast_sampling_edits": [],
+      "family": "solver_like",
+      "learned": false
+    },
+    "maniac": {
+      "source": "latency-survey/fullhouse-bot/bots/adversarial/maniac.py",
+      "source_sha256": "21a3d59d8993d3ad0cb15ec75fd46524f91598ab87846d3e4f4e677cc028e2d6",
+      "instrumented_code_sha256": "fba40bf061f8c6bdbfc382edad5d22e8e1f8c0879d8818f256b543c4b619703c",
+      "sampling_cap": null,
+      "ast_sampling_edits": [],
+      "family": "maniac",
+      "learned": false
+    },
+    "tournament_specialist": {
+      "source": "latency-survey/fullhouse-bot/bots/adversarial/tournament_specialist.py",
+      "source_sha256": "04476804985f2827916b96c0ccbee77d8434ded8dfa10cce5566eaa200246530",
+      "instrumented_code_sha256": "ae7ac9a06211b1c232766e5ab17ff250d131be98bcd3150192b7e8b3e8b59b59",
+      "sampling_cap": null,
+      "ast_sampling_edits": [],
+      "family": "tournament_specialist",
+      "learned": false
+    },
+    "station": {
+      "source": "latency-survey/fullhouse-bot/bots/adversarial/station.py",
+      "source_sha256": "d73a65b481063fa813d6ba92ff88aed0cf8359407f0da234246401080c03774f",
+      "instrumented_code_sha256": "4c5eb2e18a4993a00e38895f79ae1c91d16546727e0995b1ed8f9841860f477a",
+      "sampling_cap": null,
+      "ast_sampling_edits": [],
+      "family": "station",
+      "learned": false
+    },
+    "txnujk_32": {
+      "source": "txnujk-bot/bots/floorfix/bot.py",
+      "source_sha256": "e0a95116a2f7ddd56a8264491c095d9bff32b350e320eecea680e4905c40efba",
+      "instrumented_code_sha256": "4b452c23247ec1ccea19a3b29eb56dfb5f96ae30bba7596eba9560070a212fed",
+      "sampling_cap": 32,
+      "ast_sampling_edits": [
+        {
+          "function": "_postflop",
+          "assignment": "samples",
+          "before": "max(180, int(2400 / (n_opp + 1)))",
+          "after": "32"
+        }
+      ],
+      "family": "txnujk",
+      "learned": false
+    }
+  },
+  "engine_sha256": "43030570ef882452eb121170fe940dd01649bf0893428c3a3f0505ae788c83d8",
+  "runner_sha256": {
+    "heuristic_holdem/policies.py": "21952dddc2e72ceac8c23e1abf8ff2241800ce6815afccec151d529c27d70bd6",
+    "heuristic_holdem/benchmark.py": "b85045696060f93a12eabd660ec251b679e1894171d3c6a920847e9dafa91c5a",
+    "heuristic_holdem/test_benchmark.py": "6b5f0d4b4fd220e25661561cc9cb639bb149ffd527ee4ed9e9e79ea5299fa8d6",
+    "heuristic_holdem/__init__.py": "0b74e954e3b4c28202335f76b04f29823532e4ee3f58229bcf31b983b713bcf8",
+    "heuristic_holdem/verify.py": "28ac90ca997b4b1effcf861e8057510aac4c9ebc1f9e1f95dc653e15d13f9105",
+    "heuristic_holdem/analyze.py": "290b0ee8cd763ce46804c35c76862d93723f343c0176aab716254fb26dce9c48"
+  }
+}

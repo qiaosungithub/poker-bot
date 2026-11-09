@@ -1,0 +1,64 @@
+{
+  "wall": {
+    "n": 400,
+    "p50_ms": 0.05051,
+    "p99_ms": 1.49520659,
+    "p999_ms": 1.53861114,
+    "max_ms": 1.54146,
+    "over_1ms": 149
+  },
+  "cpu": {
+    "n": 400,
+    "p50_ms": 0.051500000000000004,
+    "p99_ms": 1.4965775000000001,
+    "p999_ms": 1.54092688,
+    "max_ms": 1.54447,
+    "over_1ms": 149
+  },
+  "by_street": {
+    "preflop": {
+      "n": 100,
+      "p50_ms": 0.0062255,
+      "p99_ms": 0.012676800000000014,
+      "p999_ms": 0.01506467999999999,
+      "max_ms": 0.01533,
+      "over_1ms": 0
+    },
+    "flop": {
+      "n": 100,
+      "p50_ms": 0.07708000000000001,
+      "p99_ms": 1.5343913999999998,
+      "p999_ms": 1.54075314,
+      "max_ms": 1.54146,
+      "over_1ms": 49
+    },
+    "turn": {
+      "n": 100,
+      "p50_ms": 0.05928,
+      "p99_ms": 1.4864232000000004,
+      "p999_ms": 1.5196753199999997,
+      "max_ms": 1.52337,
+      "over_1ms": 48
+    },
+    "river": {
+      "n": 100,
+      "p50_ms": 1.03282,
+      "p99_ms": 1.1554010000000001,
+      "p999_ms": 1.1920210999999998,
+      "max_ms": 1.19609,
+      "over_1ms": 52
+    }
+  },
+  "eligible": false,
+  "exceptions": {},
+  "errors": [],
+  "policy": {
+    "source": "latency-survey/fullhouse-bot/bots/strong/bot.py",
+    "source_sha256": "e02f88ed25cbbd6397936bbb1385bcec047df5da644cde78b066821281c3018f",
+    "instrumented_code_sha256": "687d10b606a361794f3a67bf573d0b6beca676832b9a5136540d6e7ee6b69942",
+    "sampling_cap": null,
+    "ast_sampling_edits": [],
+    "family": "strong",
+    "learned": false
+  }
+}

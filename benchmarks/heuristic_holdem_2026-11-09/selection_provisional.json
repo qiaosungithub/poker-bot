@@ -1,0 +1,49 @@
+{
+  "created_at_utc": "2026-11-09T01:21:24.013385+00:00",
+  "ranking": [
+    [
+      "vikram_32",
+      60.65476548241166
+    ],
+    [
+      "txnujk_32",
+      58.72520549285619
+    ],
+    [
+      "txnujk_64",
+      58.06181382581436
+    ],
+    [
+      "tournament_specialist",
+      56.738385007221744
+    ],
+    [
+      "solver_like",
+      49.57490849863298
+    ],
+    [
+      "cfr_lite_64",
+      48.21393488264446
+    ],
+    [
+      "cfr_lite_32",
+      47.725955339473316
+    ]
+  ],
+  "distinct_family_order": [
+    "vikram_32",
+    "txnujk_32",
+    "tournament_specialist",
+    "solver_like",
+    "cfr_lite_64"
+  ],
+  "provisional_finalists": [
+    "vikram_32",
+    "txnujk_32",
+    "tournament_specialist",
+    "solver_like",
+    "fullhouse_released",
+    "fullhouse_reproduced"
+  ],
+  "status": "pending full latency and trajectory checks; no confirmation has run"
+}

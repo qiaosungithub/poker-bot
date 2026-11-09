@@ -1,0 +1,64 @@
+{
+  "wall": {
+    "n": 30000,
+    "p50_ms": 0.02112,
+    "p99_ms": 0.03958039999999993,
+    "p999_ms": 0.06368040000000008,
+    "max_ms": 3.2387,
+    "over_1ms": 1
+  },
+  "cpu": {
+    "n": 30000,
+    "p50_ms": 0.02204,
+    "p99_ms": 0.040770399999999936,
+    "p999_ms": 0.0647394820000001,
+    "max_ms": 3.24121,
+    "over_1ms": 1
+  },
+  "by_street": {
+    "preflop": {
+      "n": 7500,
+      "p50_ms": 0.00612,
+      "p99_ms": 0.010320600000000013,
+      "p999_ms": 0.023125130000000025,
+      "max_ms": 0.05257,
+      "over_1ms": 0
+    },
+    "flop": {
+      "n": 7500,
+      "p50_ms": 0.02611,
+      "p99_ms": 0.04128320000000007,
+      "p999_ms": 0.0696710590000001,
+      "max_ms": 0.12229,
+      "over_1ms": 0
+    },
+    "turn": {
+      "n": 7500,
+      "p50_ms": 0.0213895,
+      "p99_ms": 0.041829420000000006,
+      "p999_ms": 0.07501825000000066,
+      "max_ms": 3.2387,
+      "over_1ms": 1
+    },
+    "river": {
+      "n": 7500,
+      "p50_ms": 0.02225,
+      "p99_ms": 0.03989120000000003,
+      "p999_ms": 0.06004220000000045,
+      "max_ms": 0.16361,
+      "over_1ms": 0
+    }
+  },
+  "eligible": true,
+  "exceptions": {},
+  "errors": [],
+  "policy": {
+    "source": "latency-survey/fullhouse-bot/bots/adversarial/solver_like.py",
+    "source_sha256": "76ef638a9a7e9762316ba34d54eca435bd37086afd9bb30433423346282a5240",
+    "instrumented_code_sha256": "a4be13676d060de663032b7737486192b3e3c6a054a6fb160054b6c67c2124ef",
+    "sampling_cap": null,
+    "ast_sampling_edits": [],
+    "family": "solver_like",
+    "learned": false
+  }
+}

@@ -1,0 +1,10244 @@
+[
+  {
+    "roster": [
+      "txnujk_32",
+      "fullhouse_reproduced",
+      "tournament_specialist",
+      "solver_like",
+      "fullhouse_released",
+      "vikram_32"
+    ],
+    "scores": [
+      25.0,
+      100.0,
+      10.0,
+      0.0,
+      60.0,
+      40.0
+    ],
+    "stacks": [
+      0,
+      60000,
+      0,
+      0,
+      0,
+      0
+    ],
+    "hands": 174,
+    "decisions": {
+      "seat_3": 16,
+      "seat_4": 291,
+      "seat_5": 259,
+      "seat_0": 252,
+      "seat_1": 285,
+      "seat_2": 70
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 7,
+      "seat_4_fold": 101,
+      "seat_5_fold": 138,
+      "seat_0_raise": 51,
+      "seat_1_call": 58,
+      "seat_2_raise": 7,
+      "seat_0_fold": 124,
+      "seat_1_raise": 54,
+      "seat_2_fold": 56,
+      "seat_0_call": 34,
+      "seat_1_fold": 119,
+      "seat_3_check": 3,
+      "seat_0_check": 41,
+      "seat_3_raise": 4,
+      "seat_4_raise": 101,
+      "seat_3_call": 2,
+      "seat_4_call": 32,
+      "seat_4_check": 52,
+      "seat_4_all_in": 5,
+      "seat_5_raise": 45,
+      "seat_1_check": 52,
+      "seat_5_call": 24,
+      "seat_5_check": 44,
+      "seat_2_call": 3,
+      "seat_2_check": 3,
+      "seat_1_all_in": 2,
+      "seat_2_all_in": 1,
+      "seat_0_all_in": 2,
+      "seat_5_all_in": 8
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          9800,
+          11300,
+          9050,
+          10000,
+          10000,
+          9850
+        ],
+        "after": [
+          9800,
+          11300,
+          9050,
+          0,
+          20000,
+          9850
+        ],
+        "awarded": {
+          "seat_3": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          6625,
+          14492,
+          7950,
+          25298,
+          5635
+        ],
+        "after": [
+          6525,
+          22592,
+          0,
+          25298,
+          5585
+        ],
+        "awarded": {
+          "seat_2": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          187,
+          41387,
+          13310,
+          5116
+        ],
+        "after": [
+          0,
+          41387,
+          13260,
+          5353
+        ],
+        "awarded": {
+          "seat_0": 25.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          38787,
+          13507,
+          7706
+        ],
+        "after": [
+          46593,
+          13407,
+          0
+        ],
+        "awarded": {
+          "seat_5": 40.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_4"
+        ],
+        "before": [
+          46793,
+          13207
+        ],
+        "after": [
+          60000,
+          0
+        ],
+        "awarded": {
+          "seat_4": 60.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_reproduced",
+      "tournament_specialist",
+      "solver_like",
+      "fullhouse_released",
+      "vikram_32",
+      "txnujk_32"
+    ],
+    "scores": [
+      25.0,
+      84.26157863528223,
+      0.0,
+      10.0,
+      55.27962572636548,
+      60.458795638352285
+    ],
+    "stacks": [
+      0,
+      38651,
+      0,
+      0,
+      9044,
+      12305
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 86,
+      "seat_4": 252,
+      "seat_5": 270,
+      "seat_0": 140,
+      "seat_1": 259,
+      "seat_2": 29
+    },
+    "normalizations": {
+      "seat_0_raise_not_reopened_to_call": 1,
+      "seat_1_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 55,
+      "seat_4_fold": 147,
+      "seat_5_call": 39,
+      "seat_0_fold": 79,
+      "seat_1_raise": 48,
+      "seat_2_raise": 3,
+      "seat_5_fold": 122,
+      "seat_1_call": 19,
+      "seat_1_check": 36,
+      "seat_2_check": 3,
+      "seat_2_call": 7,
+      "seat_5_raise": 58,
+      "seat_1_fold": 154,
+      "seat_2_fold": 16,
+      "seat_3_raise": 13,
+      "seat_0_raise": 21,
+      "seat_5_check": 49,
+      "seat_4_raise": 55,
+      "seat_3_call": 4,
+      "seat_4_call": 18,
+      "seat_3_check": 7,
+      "seat_0_call": 23,
+      "seat_0_check": 14,
+      "seat_4_check": 32,
+      "seat_1_all_in": 2,
+      "seat_3_all_in": 7,
+      "seat_0_all_in": 3,
+      "seat_5_all_in": 2
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          12620,
+          18545,
+          30,
+          5280,
+          12243,
+          11282
+        ],
+        "after": [
+          12620,
+          18545,
+          0,
+          5030,
+          12243,
+          11562
+        ],
+        "awarded": {
+          "seat_2": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          8290,
+          27100,
+          1805,
+          11843,
+          10962
+        ],
+        "after": [
+          10145,
+          27100,
+          0,
+          11843,
+          10912
+        ],
+        "awarded": {
+          "seat_3": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          9305,
+          27750,
+          11103,
+          11842
+        ],
+        "after": [
+          0,
+          37055,
+          11103,
+          11842
+        ],
+        "awarded": {
+          "seat_0": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "tournament_specialist",
+      "solver_like",
+      "fullhouse_released",
+      "vikram_32",
+      "txnujk_32",
+      "fullhouse_reproduced"
+    ],
+    "scores": [
+      63.27133526511338,
+      59.21915791909562,
+      0.0,
+      10.0,
+      48.39054690024597,
+      54.118959915545034
+    ],
+    "stacks": [
+      19739,
+      16689,
+      0,
+      0,
+      10206,
+      13366
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 165,
+      "seat_4": 296,
+      "seat_5": 263,
+      "seat_0": 258,
+      "seat_1": 262,
+      "seat_2": 3
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 110,
+      "seat_4_raise": 76,
+      "seat_5_fold": 141,
+      "seat_0_fold": 179,
+      "seat_1_call": 21,
+      "seat_2_raise": 1,
+      "seat_4_fold": 125,
+      "seat_1_raise": 47,
+      "seat_2_call": 1,
+      "seat_2_all_in": 1,
+      "seat_1_fold": 154,
+      "seat_3_raise": 39,
+      "seat_5_call": 42,
+      "seat_5_check": 42,
+      "seat_5_raise": 38,
+      "seat_3_call": 7,
+      "seat_4_check": 57,
+      "seat_0_raise": 24,
+      "seat_4_call": 37,
+      "seat_0_check": 41,
+      "seat_1_check": 40,
+      "seat_3_check": 8,
+      "seat_0_call": 13,
+      "seat_0_all_in": 1,
+      "seat_3_all_in": 1,
+      "seat_4_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "after": [
+          10000,
+          20250,
+          0,
+          10000,
+          9750,
+          10000
+        ],
+        "awarded": {
+          "seat_2": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          20472,
+          13199,
+          1911,
+          7392,
+          17026
+        ],
+        "after": [
+          20472,
+          13199,
+          0,
+          9403,
+          16926
+        ],
+        "awarded": {
+          "seat_3": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "solver_like",
+      "fullhouse_released",
+      "vikram_32",
+      "txnujk_32",
+      "fullhouse_reproduced",
+      "tournament_specialist"
+    ],
+    "scores": [
+      62.42628041302805,
+      10.0,
+      0.0,
+      63.224922190917255,
+      61.06090392906406,
+      38.287893466990624
+    ],
+    "stacks": [
+      18383,
+      0,
+      0,
+      19015,
+      17340,
+      5262
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 291,
+      "seat_4": 310,
+      "seat_5": 263,
+      "seat_0": 255,
+      "seat_1": 189,
+      "seat_2": 137
+    },
+    "normalizations": {
+      "seat_0_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 144,
+      "seat_4_fold": 144,
+      "seat_5_fold": 170,
+      "seat_0_fold": 161,
+      "seat_1_raise": 59,
+      "seat_2_raise": 23,
+      "seat_1_call": 17,
+      "seat_2_call": 17,
+      "seat_1_all_in": 2,
+      "seat_2_fold": 82,
+      "seat_1_fold": 93,
+      "seat_3_raise": 69,
+      "seat_4_raise": 71,
+      "seat_5_raise": 40,
+      "seat_4_call": 57,
+      "seat_0_check": 23,
+      "seat_0_raise": 57,
+      "seat_2_check": 13,
+      "seat_4_check": 35,
+      "seat_3_call": 47,
+      "seat_0_call": 14,
+      "seat_3_check": 31,
+      "seat_1_check": 18,
+      "seat_5_call": 27,
+      "seat_4_all_in": 3,
+      "seat_5_check": 24,
+      "seat_2_all_in": 2,
+      "seat_5_all_in": 2
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          13614,
+          9026,
+          1468,
+          15373,
+          14888,
+          5631
+        ],
+        "after": [
+          13614,
+          9026,
+          0,
+          15373,
+          16456,
+          5531
+        ],
+        "awarded": {
+          "seat_2": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          20437,
+          8151,
+          6945,
+          14631,
+          9836
+        ],
+        "after": [
+          20437,
+          0,
+          6845,
+          14631,
+          18087
+        ],
+        "awarded": {
+          "seat_1": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_released",
+      "vikram_32",
+      "txnujk_32",
+      "fullhouse_reproduced",
+      "tournament_specialist",
+      "solver_like"
+    ],
+    "scores": [
+      91.72466666666666,
+      68.27533333333334,
+      25.0,
+      10.0,
+      40.0,
+      0.0
+    ],
+    "stacks": [
+      47587,
+      12413,
+      0,
+      0,
+      0,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 161,
+      "seat_4": 175,
+      "seat_5": 59,
+      "seat_0": 381,
+      "seat_1": 361,
+      "seat_2": 231
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 93,
+      "seat_4_fold": 132,
+      "seat_5_fold": 32,
+      "seat_0_raise": 153,
+      "seat_1_call": 72,
+      "seat_2_raise": 58,
+      "seat_0_fold": 118,
+      "seat_1_fold": 142,
+      "seat_1_raise": 82,
+      "seat_2_call": 37,
+      "seat_2_check": 36,
+      "seat_1_check": 58,
+      "seat_2_fold": 98,
+      "seat_3_raise": 33,
+      "seat_0_call": 41,
+      "seat_0_check": 66,
+      "seat_5_raise": 13,
+      "seat_4_raise": 17,
+      "seat_5_call": 10,
+      "seat_5_check": 4,
+      "seat_3_call": 17,
+      "seat_3_check": 16,
+      "seat_4_check": 13,
+      "seat_0_all_in": 3,
+      "seat_1_all_in": 7,
+      "seat_4_call": 11,
+      "seat_2_all_in": 2,
+      "seat_4_all_in": 2,
+      "seat_3_all_in": 2
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          10365,
+          11285,
+          10366,
+          13827,
+          9050,
+          5107
+        ],
+        "after": [
+          10315,
+          11185,
+          15623,
+          13827,
+          9050,
+          0
+        ],
+        "awarded": {
+          "seat_5": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4"
+        ],
+        "before": [
+          33707,
+          6015,
+          4079,
+          7622,
+          8577
+        ],
+        "after": [
+          41379,
+          6015,
+          4029,
+          0,
+          8577
+        ],
+        "awarded": {
+          "seat_3": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_4"
+        ],
+        "before": [
+          43324,
+          5280,
+          2069,
+          9327
+        ],
+        "after": [
+          45493,
+          5180,
+          0,
+          9327
+        ],
+        "awarded": {
+          "seat_2": 25.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_4"
+        ],
+        "before": [
+          53193,
+          4980,
+          1827
+        ],
+        "after": [
+          53143,
+          6857,
+          0
+        ],
+        "awarded": {
+          "seat_4": 40.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "vikram_32",
+      "txnujk_32",
+      "fullhouse_reproduced",
+      "tournament_specialist",
+      "solver_like",
+      "fullhouse_released"
+    ],
+    "scores": [
+      50.0026275243855,
+      92.16387433057757,
+      0.0,
+      25.0,
+      57.83349814503691,
+      10.0
+    ],
+    "stacks": [
+      4010,
+      48778,
+      0,
+      0,
+      7212,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 150,
+      "seat_4": 240,
+      "seat_5": 52,
+      "seat_0": 217,
+      "seat_1": 274,
+      "seat_2": 3
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 115,
+      "seat_4_fold": 153,
+      "seat_5_fold": 18,
+      "seat_0_fold": 156,
+      "seat_1_raise": 67,
+      "seat_2_raise": 1,
+      "seat_1_call": 49,
+      "seat_2_call": 1,
+      "seat_2_all_in": 1,
+      "seat_5_check": 18,
+      "seat_5_call": 8,
+      "seat_1_check": 46,
+      "seat_5_raise": 8,
+      "seat_1_fold": 112,
+      "seat_4_check": 27,
+      "seat_4_call": 14,
+      "seat_4_raise": 45,
+      "seat_3_raise": 16,
+      "seat_0_raise": 42,
+      "seat_3_call": 6,
+      "seat_3_check": 12,
+      "seat_0_call": 7,
+      "seat_0_check": 12,
+      "seat_3_all_in": 1,
+      "seat_4_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "after": [
+          10000,
+          20000,
+          0,
+          10000,
+          10000,
+          10000
+        ],
+        "awarded": {
+          "seat_2": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          9550,
+          23875,
+          9550,
+          8050,
+          8975
+        ],
+        "after": [
+          9550,
+          32900,
+          9550,
+          8000,
+          0
+        ],
+        "awarded": {
+          "seat_5": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_3",
+          "seat_4"
+        ],
+        "before": [
+          9463,
+          37916,
+          8360,
+          4261
+        ],
+        "after": [
+          9413,
+          46576,
+          0,
+          4011
+        ],
+        "awarded": {
+          "seat_3": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "solver_like",
+      "tournament_specialist",
+      "vikram_32",
+      "fullhouse_reproduced",
+      "txnujk_32",
+      "fullhouse_released"
+    ],
+    "scores": [
+      49.01823547383391,
+      10.0,
+      25.0,
+      68.75614654273657,
+      0.0,
+      82.22561798342952
+    ],
+    "stacks": [
+      5503,
+      0,
+      0,
+      18934,
+      0,
+      35563
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 327,
+      "seat_4": 11,
+      "seat_5": 344,
+      "seat_0": 287,
+      "seat_1": 115,
+      "seat_2": 164
+    },
+    "normalizations": {
+      "seat_3_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 117,
+      "seat_4_raise": 3,
+      "seat_5_fold": 118,
+      "seat_0_fold": 165,
+      "seat_1_fold": 61,
+      "seat_2_fold": 120,
+      "seat_4_fold": 3,
+      "seat_2_raise": 29,
+      "seat_0_raise": 44,
+      "seat_4_call": 1,
+      "seat_4_check": 3,
+      "seat_0_check": 54,
+      "seat_5_raise": 104,
+      "seat_1_call": 11,
+      "seat_5_all_in": 1,
+      "seat_4_all_in": 1,
+      "seat_3_raise": 77,
+      "seat_1_check": 23,
+      "seat_5_check": 80,
+      "seat_1_raise": 15,
+      "seat_3_call": 73,
+      "seat_5_call": 41,
+      "seat_3_check": 59,
+      "seat_2_call": 6,
+      "seat_1_all_in": 5,
+      "seat_3_all_in": 1,
+      "seat_0_call": 24,
+      "seat_2_check": 8,
+      "seat_2_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          10660,
+          9950,
+          9740,
+          10000,
+          9800,
+          9850
+        ],
+        "after": [
+          10610,
+          9375,
+          9740,
+          10000,
+          0,
+          20275
+        ],
+        "awarded": {
+          "seat_4": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          8626,
+          2370,
+          13125,
+          13115,
+          22764
+        ],
+        "after": [
+          8576,
+          0,
+          13125,
+          13115,
+          25184
+        ],
+        "awarded": {
+          "seat_1": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          6846,
+          13625,
+          17759,
+          21770
+        ],
+        "after": [
+          6846,
+          0,
+          17659,
+          35495
+        ],
+        "awarded": {
+          "seat_2": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "tournament_specialist",
+      "vikram_32",
+      "fullhouse_reproduced",
+      "txnujk_32",
+      "fullhouse_released",
+      "solver_like"
+    ],
+    "scores": [
+      36.357916444341,
+      51.99501865935018,
+      10.0,
+      60.69902937617676,
+      0.0,
+      75.94803552013207
+    ],
+    "stacks": [
+      3928,
+      10291,
+      0,
+      15674,
+      0,
+      30107
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 294,
+      "seat_4": 26,
+      "seat_5": 262,
+      "seat_0": 218,
+      "seat_1": 259,
+      "seat_2": 160
+    },
+    "normalizations": {
+      "seat_4_raise_not_reopened_to_call": 1,
+      "seat_3_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 124,
+      "seat_4_raise": 7,
+      "seat_5_fold": 173,
+      "seat_0_fold": 176,
+      "seat_1_fold": 133,
+      "seat_2_call": 32,
+      "seat_2_check": 29,
+      "seat_4_check": 4,
+      "seat_2_raise": 43,
+      "seat_2_fold": 55,
+      "seat_4_call": 6,
+      "seat_5_raise": 32,
+      "seat_3_call": 50,
+      "seat_3_raise": 67,
+      "seat_4_fold": 6,
+      "seat_0_raise": 14,
+      "seat_0_call": 6,
+      "seat_0_check": 22,
+      "seat_5_all_in": 1,
+      "seat_4_all_in": 3,
+      "seat_3_check": 52,
+      "seat_1_raise": 76,
+      "seat_1_call": 19,
+      "seat_5_call": 22,
+      "seat_1_check": 31,
+      "seat_5_check": 34,
+      "seat_3_all_in": 1,
+      "seat_2_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          9150,
+          10210,
+          9900,
+          10400,
+          1040,
+          19300
+        ],
+        "after": [
+          9100,
+          11300,
+          9900,
+          10400,
+          0,
+          19300
+        ],
+        "awarded": {
+          "seat_4": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          5299,
+          13410,
+          7203,
+          20502,
+          13586
+        ],
+        "after": [
+          5299,
+          13410,
+          0,
+          27805,
+          13486
+        ],
+        "awarded": {
+          "seat_2": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "vikram_32",
+      "fullhouse_reproduced",
+      "txnujk_32",
+      "fullhouse_released",
+      "solver_like",
+      "tournament_specialist"
+    ],
+    "scores": [
+      40.34245888625147,
+      25.0,
+      81.43336405102617,
+      10.0,
+      0.0,
+      78.22417706272236
+    ],
+    "stacks": [
+      205,
+      0,
+      32284,
+      0,
+      0,
+      27511
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 79,
+      "seat_4": 12,
+      "seat_5": 256,
+      "seat_0": 253,
+      "seat_1": 212,
+      "seat_2": 304
+    },
+    "normalizations": {
+      "seat_0_raise_not_reopened_to_call": 1,
+      "seat_1_raise_not_reopened_to_call": 1,
+      "seat_5_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 42,
+      "seat_4_raise": 4,
+      "seat_5_fold": 165,
+      "seat_0_fold": 150,
+      "seat_1_fold": 78,
+      "seat_2_fold": 107,
+      "seat_4_fold": 4,
+      "seat_5_raise": 28,
+      "seat_3_call": 7,
+      "seat_3_raise": 20,
+      "seat_2_raise": 81,
+      "seat_0_raise": 62,
+      "seat_1_call": 42,
+      "seat_4_call": 1,
+      "seat_0_call": 11,
+      "seat_4_check": 2,
+      "seat_0_check": 28,
+      "seat_1_check": 34,
+      "seat_5_all_in": 3,
+      "seat_4_all_in": 1,
+      "seat_3_check": 8,
+      "seat_1_raise": 55,
+      "seat_5_check": 42,
+      "seat_5_call": 18,
+      "seat_2_call": 60,
+      "seat_2_check": 56,
+      "seat_3_all_in": 2,
+      "seat_1_all_in": 3,
+      "seat_0_all_in": 2
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          11698,
+          9101,
+          10150,
+          10250,
+          9201,
+          9600
+        ],
+        "after": [
+          11648,
+          9001,
+          10150,
+          10250,
+          0,
+          18951
+        ],
+        "awarded": {
+          "seat_4": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          2222,
+          10622,
+          16380,
+          500,
+          30276
+        ],
+        "after": [
+          2222,
+          11172,
+          16330,
+          0,
+          30276
+        ],
+        "awarded": {
+          "seat_3": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_5"
+        ],
+        "before": [
+          4355,
+          2514,
+          22143,
+          30988
+        ],
+        "after": [
+          4355,
+          0,
+          22093,
+          33552
+        ],
+        "awarded": {
+          "seat_1": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_reproduced",
+      "txnujk_32",
+      "fullhouse_released",
+      "solver_like",
+      "tournament_specialist",
+      "vikram_32"
+    ],
+    "scores": [
+      59.405229428480176,
+      90.35762300837806,
+      10.0,
+      26.467839669696872,
+      0.0,
+      48.769307893444896
+    ],
+    "stacks": [
+      9088,
+      46342,
+      0,
+      244,
+      0,
+      4326
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 256,
+      "seat_4": 20,
+      "seat_5": 263,
+      "seat_0": 331,
+      "seat_1": 376,
+      "seat_2": 115
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 157,
+      "seat_4_fold": 9,
+      "seat_5_fold": 171,
+      "seat_0_fold": 133,
+      "seat_1_fold": 125,
+      "seat_5_raise": 43,
+      "seat_2_fold": 55,
+      "seat_3_call": 17,
+      "seat_3_raise": 41,
+      "seat_5_call": 21,
+      "seat_0_call": 56,
+      "seat_2_call": 15,
+      "seat_4_check": 4,
+      "seat_0_raise": 78,
+      "seat_4_call": 3,
+      "seat_1_call": 71,
+      "seat_5_check": 26,
+      "seat_0_all_in": 3,
+      "seat_1_raise": 95,
+      "seat_0_check": 61,
+      "seat_4_raise": 1,
+      "seat_4_all_in": 3,
+      "seat_5_all_in": 2,
+      "seat_2_check": 14,
+      "seat_2_raise": 28,
+      "seat_3_check": 37,
+      "seat_1_check": 85,
+      "seat_2_all_in": 3,
+      "seat_3_all_in": 4
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          11159,
+          13225,
+          9012,
+          10730,
+          1262,
+          14612
+        ],
+        "after": [
+          11159,
+          14587,
+          8912,
+          10730,
+          0,
+          14612
+        ],
+        "awarded": {
+          "seat_4": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          15009,
+          13938,
+          2854,
+          1875,
+          26324
+        ],
+        "after": [
+          15009,
+          17042,
+          0,
+          1625,
+          26324
+        ],
+        "awarded": {
+          "seat_2": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "txnujk_32",
+      "fullhouse_released",
+      "solver_like",
+      "tournament_specialist",
+      "vikram_32",
+      "fullhouse_reproduced"
+    ],
+    "scores": [
+      10.0,
+      82.04796713915995,
+      72.26465757391186,
+      45.68737528692819,
+      0.0,
+      25.0
+    ],
+    "stacks": [
+      0,
+      34724,
+      21826,
+      3450,
+      0,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 234,
+      "seat_4": 14,
+      "seat_5": 259,
+      "seat_0": 205,
+      "seat_1": 305,
+      "seat_2": 286
+    },
+    "normalizations": {
+      "seat_1_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 182,
+      "seat_4_raise": 3,
+      "seat_5_fold": 116,
+      "seat_0_fold": 93,
+      "seat_1_fold": 119,
+      "seat_2_fold": 158,
+      "seat_4_fold": 5,
+      "seat_1_raise": 104,
+      "seat_0_raise": 54,
+      "seat_1_call": 36,
+      "seat_2_raise": 55,
+      "seat_0_call": 24,
+      "seat_5_raise": 47,
+      "seat_4_all_in": 6,
+      "seat_5_all_in": 3,
+      "seat_1_all_in": 2,
+      "seat_5_call": 49,
+      "seat_1_check": 44,
+      "seat_5_check": 44,
+      "seat_3_call": 12,
+      "seat_3_check": 27,
+      "seat_2_call": 42,
+      "seat_3_raise": 13,
+      "seat_0_check": 34,
+      "seat_2_check": 31
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          10350,
+          10200,
+          9450,
+          9700,
+          600,
+          19700
+        ],
+        "after": [
+          10300,
+          10850,
+          9450,
+          9700,
+          0,
+          19700
+        ],
+        "awarded": {
+          "seat_4": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          5,
+          11680,
+          23730,
+          4450,
+          20135
+        ],
+        "after": [
+          0,
+          11835,
+          23680,
+          4350,
+          20135
+        ],
+        "awarded": {
+          "seat_0": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          17066,
+          23124,
+          3600,
+          16210
+        ],
+        "after": [
+          33326,
+          23124,
+          3550,
+          0
+        ],
+        "awarded": {
+          "seat_5": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_released",
+      "solver_like",
+      "tournament_specialist",
+      "vikram_32",
+      "fullhouse_reproduced",
+      "txnujk_32"
+    ],
+    "scores": [
+      58.94123705630029,
+      10.0,
+      56.36028221457225,
+      36.5816212739148,
+      0.0,
+      73.11685945521268
+    ],
+    "stacks": [
+      14995,
+      0,
+      13303,
+      4243,
+      0,
+      27459
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 244,
+      "seat_4": 8,
+      "seat_5": 244,
+      "seat_0": 255,
+      "seat_1": 112,
+      "seat_2": 240
+    },
+    "normalizations": {
+      "seat_5_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 170,
+      "seat_4_raise": 2,
+      "seat_5_fold": 120,
+      "seat_0_fold": 124,
+      "seat_1_fold": 56,
+      "seat_2_fold": 185,
+      "seat_4_fold": 3,
+      "seat_5_raise": 71,
+      "seat_0_raise": 69,
+      "seat_0_call": 26,
+      "seat_4_check": 1,
+      "seat_4_all_in": 2,
+      "seat_3_raise": 44,
+      "seat_3_call": 8,
+      "seat_1_raise": 20,
+      "seat_1_call": 19,
+      "seat_5_call": 18,
+      "seat_1_check": 15,
+      "seat_5_check": 34,
+      "seat_3_check": 22,
+      "seat_0_check": 34,
+      "seat_0_all_in": 2,
+      "seat_1_all_in": 2,
+      "seat_2_call": 13,
+      "seat_2_check": 24,
+      "seat_2_raise": 18,
+      "seat_5_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          21375,
+          9700,
+          9850,
+          8975,
+          100,
+          10000
+        ],
+        "after": [
+          21325,
+          8500,
+          9850,
+          8975,
+          0,
+          11350
+        ],
+        "awarded": {
+          "seat_4": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          8876,
+          9734,
+          17712,
+          7591,
+          16087
+        ],
+        "after": [
+          8826,
+          0,
+          17712,
+          7591,
+          25871
+        ],
+        "awarded": {
+          "seat_1": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "tournament_specialist",
+      "fullhouse_reproduced",
+      "fullhouse_released",
+      "vikram_32",
+      "txnujk_32",
+      "solver_like"
+    ],
+    "scores": [
+      49.21828778570681,
+      98.34661957312827,
+      0.0,
+      25.0,
+      52.43509264116492,
+      10.0
+    ],
+    "stacks": [
+      1045,
+      57545,
+      0,
+      0,
+      1410,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 257,
+      "seat_4": 311,
+      "seat_5": 173,
+      "seat_0": 215,
+      "seat_1": 310,
+      "seat_2": 16
+    },
+    "normalizations": {
+      "seat_0_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_raise": 55,
+      "seat_4_raise": 63,
+      "seat_5_fold": 103,
+      "seat_0_fold": 175,
+      "seat_1_fold": 125,
+      "seat_2_fold": 8,
+      "seat_3_fold": 148,
+      "seat_2_raise": 5,
+      "seat_3_call": 15,
+      "seat_4_fold": 143,
+      "seat_3_check": 38,
+      "seat_1_raise": 88,
+      "seat_1_call": 44,
+      "seat_1_check": 49,
+      "seat_5_call": 24,
+      "seat_2_check": 1,
+      "seat_5_raise": 27,
+      "seat_2_all_in": 2,
+      "seat_5_check": 18,
+      "seat_4_call": 45,
+      "seat_0_raise": 7,
+      "seat_0_call": 4,
+      "seat_0_check": 17,
+      "seat_4_check": 60,
+      "seat_1_all_in": 4,
+      "seat_0_all_in": 12,
+      "seat_5_all_in": 1,
+      "seat_3_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          10000,
+          8300,
+          1100,
+          11585,
+          9340,
+          19675
+        ],
+        "after": [
+          9900,
+          8300,
+          0,
+          11585,
+          9340,
+          20875
+        ],
+        "awarded": {
+          "seat_2": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          1660,
+          24827,
+          15769,
+          3989,
+          13755
+        ],
+        "after": [
+          1660,
+          38632,
+          15769,
+          3939,
+          0
+        ],
+        "awarded": {
+          "seat_5": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_3",
+          "seat_4"
+        ],
+        "before": [
+          1665,
+          40773,
+          16502,
+          1060
+        ],
+        "after": [
+          1565,
+          57425,
+          0,
+          1010
+        ],
+        "awarded": {
+          "seat_3": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_reproduced",
+      "fullhouse_released",
+      "vikram_32",
+      "txnujk_32",
+      "solver_like",
+      "tournament_specialist"
+    ],
+    "scores": [
+      25.0,
+      74.07245350443891,
+      10.0,
+      0.0,
+      76.50077556787238,
+      49.42677092768872
+    ],
+    "stacks": [
+      0,
+      25464,
+      0,
+      0,
+      28439,
+      6097
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 21,
+      "seat_4": 275,
+      "seat_5": 229,
+      "seat_0": 173,
+      "seat_1": 313,
+      "seat_2": 131
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_raise": 5,
+      "seat_4_raise": 59,
+      "seat_5_fold": 181,
+      "seat_0_fold": 72,
+      "seat_1_fold": 88,
+      "seat_2_fold": 75,
+      "seat_3_call": 6,
+      "seat_3_check": 4,
+      "seat_3_fold": 5,
+      "seat_2_raise": 26,
+      "seat_4_fold": 151,
+      "seat_1_raise": 124,
+      "seat_1_call": 55,
+      "seat_0_raise": 45,
+      "seat_4_all_in": 1,
+      "seat_3_all_in": 1,
+      "seat_0_call": 30,
+      "seat_2_check": 17,
+      "seat_1_check": 43,
+      "seat_0_check": 24,
+      "seat_5_raise": 27,
+      "seat_2_call": 12,
+      "seat_4_check": 32,
+      "seat_4_call": 32,
+      "seat_5_call": 10,
+      "seat_1_all_in": 3,
+      "seat_0_all_in": 2,
+      "seat_5_check": 10,
+      "seat_2_all_in": 1,
+      "seat_5_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          10850,
+          11875,
+          10938,
+          5437,
+          11050,
+          9850
+        ],
+        "after": [
+          10800,
+          11775,
+          10938,
+          0,
+          16637,
+          9850
+        ],
+        "awarded": {
+          "seat_3": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          20551,
+          8940,
+          1988,
+          23005,
+          5516
+        ],
+        "after": [
+          20551,
+          11028,
+          0,
+          22905,
+          5516
+        ],
+        "awarded": {
+          "seat_2": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          7279,
+          13878,
+          33552,
+          5291
+        ],
+        "after": [
+          0,
+          21207,
+          33552,
+          5241
+        ],
+        "awarded": {
+          "seat_0": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_released",
+      "vikram_32",
+      "txnujk_32",
+      "solver_like",
+      "tournament_specialist",
+      "fullhouse_reproduced"
+    ],
+    "scores": [
+      0.0,
+      70.91252317848705,
+      10.0,
+      25.273368510297257,
+      58.75960821123357,
+      70.0545000999821
+    ],
+    "stacks": [
+      0,
+      23792,
+      0,
+      90,
+      13218,
+      22900
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 245,
+      "seat_4": 213,
+      "seat_5": 329,
+      "seat_0": 82,
+      "seat_1": 263,
+      "seat_2": 256
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_raise": 41,
+      "seat_4_raise": 23,
+      "seat_5_fold": 130,
+      "seat_0_fold": 47,
+      "seat_1_fold": 169,
+      "seat_2_fold": 116,
+      "seat_3_call": 17,
+      "seat_3_check": 27,
+      "seat_3_fold": 158,
+      "seat_2_raise": 55,
+      "seat_4_fold": 170,
+      "seat_1_raise": 60,
+      "seat_0_call": 9,
+      "seat_0_raise": 18,
+      "seat_0_check": 6,
+      "seat_5_call": 69,
+      "seat_2_check": 46,
+      "seat_5_check": 54,
+      "seat_5_raise": 72,
+      "seat_2_call": 39,
+      "seat_5_all_in": 4,
+      "seat_1_call": 14,
+      "seat_1_check": 20,
+      "seat_0_all_in": 2,
+      "seat_3_all_in": 2,
+      "seat_4_call": 3,
+      "seat_4_check": 17
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          5280,
+          18374,
+          12192,
+          2990,
+          13090,
+          8074
+        ],
+        "after": [
+          0,
+          18374,
+          12192,
+          2990,
+          13040,
+          13404
+        ],
+        "awarded": {
+          "seat_0": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          21287,
+          86,
+          2930,
+          13214,
+          22483
+        ],
+        "after": [
+          21237,
+          0,
+          3066,
+          13214,
+          22483
+        ],
+        "awarded": {
+          "seat_2": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "vikram_32",
+      "txnujk_32",
+      "solver_like",
+      "tournament_specialist",
+      "fullhouse_reproduced",
+      "fullhouse_released"
+    ],
+    "scores": [
+      0.0,
+      10.0,
+      71.49066415195358,
+      25.0,
+      53.29956167892034,
+      75.20977416912608
+    ],
+    "stacks": [
+      0,
+      0,
+      23439,
+      0,
+      8870,
+      27691
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 165,
+      "seat_4": 351,
+      "seat_5": 340,
+      "seat_0": 127,
+      "seat_1": 149,
+      "seat_2": 297
+    },
+    "normalizations": {
+      "seat_3_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_raise": 18,
+      "seat_4_call": 71,
+      "seat_5_fold": 139,
+      "seat_0_fold": 81,
+      "seat_1_fold": 77,
+      "seat_2_fold": 161,
+      "seat_3_check": 20,
+      "seat_4_check": 70,
+      "seat_4_fold": 113,
+      "seat_5_call": 45,
+      "seat_2_raise": 59,
+      "seat_3_fold": 112,
+      "seat_5_raise": 88,
+      "seat_1_raise": 32,
+      "seat_1_call": 17,
+      "seat_1_check": 23,
+      "seat_4_raise": 94,
+      "seat_3_call": 13,
+      "seat_2_call": 28,
+      "seat_2_check": 47,
+      "seat_5_check": 67,
+      "seat_0_check": 16,
+      "seat_0_call": 11,
+      "seat_0_raise": 17,
+      "seat_4_all_in": 3,
+      "seat_2_all_in": 2,
+      "seat_0_all_in": 2,
+      "seat_3_all_in": 2,
+      "seat_5_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          495,
+          71,
+          3258,
+          9767,
+          32374,
+          14035
+        ],
+        "after": [
+          0,
+          71,
+          3258,
+          9767,
+          32969,
+          13935
+        ],
+        "awarded": {
+          "seat_0": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          42,
+          3187,
+          9617,
+          32819,
+          14335
+        ],
+        "after": [
+          0,
+          3329,
+          9617,
+          32719,
+          14335
+        ],
+        "awarded": {
+          "seat_1": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          6778,
+          5178,
+          35559,
+          12485
+        ],
+        "after": [
+          6778,
+          0,
+          35509,
+          17713
+        ],
+        "awarded": {
+          "seat_3": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "txnujk_32",
+      "solver_like",
+      "tournament_specialist",
+      "fullhouse_reproduced",
+      "fullhouse_released",
+      "vikram_32"
+    ],
+    "scores": [
+      66.86933333333334,
+      0.0,
+      40.0,
+      25.0,
+      10.0,
+      93.13066666666667
+    ],
+    "stacks": [
+      10304,
+      0,
+      0,
+      0,
+      0,
+      49696
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 121,
+      "seat_4": 110,
+      "seat_5": 272,
+      "seat_0": 249,
+      "seat_1": 56,
+      "seat_2": 196
+    },
+    "normalizations": {
+      "seat_5_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_call": 17,
+      "seat_4_raise": 33,
+      "seat_5_fold": 139,
+      "seat_0_fold": 116,
+      "seat_1_fold": 33,
+      "seat_2_fold": 149,
+      "seat_3_raise": 24,
+      "seat_3_check": 22,
+      "seat_4_check": 13,
+      "seat_3_fold": 56,
+      "seat_4_call": 14,
+      "seat_2_raise": 10,
+      "seat_4_fold": 49,
+      "seat_1_raise": 7,
+      "seat_1_call": 12,
+      "seat_1_check": 4,
+      "seat_5_raise": 76,
+      "seat_0_raise": 64,
+      "seat_0_check": 30,
+      "seat_0_call": 39,
+      "seat_5_call": 24,
+      "seat_5_check": 32,
+      "seat_2_check": 13,
+      "seat_2_call": 6,
+      "seat_2_all_in": 18,
+      "seat_3_all_in": 2,
+      "seat_4_all_in": 1,
+      "seat_5_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          6003,
+          82,
+          7860,
+          11527,
+          16285,
+          18243
+        ],
+        "after": [
+          5953,
+          0,
+          7860,
+          11527,
+          16285,
+          18375
+        ],
+        "awarded": {
+          "seat_1": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          10328,
+          1538,
+          13247,
+          15885,
+          19002
+        ],
+        "after": [
+          10228,
+          1538,
+          13247,
+          0,
+          34987
+        ],
+        "awarded": {
+          "seat_4": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          10328,
+          1538,
+          13247,
+          34887
+        ],
+        "after": [
+          10228,
+          1538,
+          0,
+          48234
+        ],
+        "awarded": {
+          "seat_3": 25.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_5"
+        ],
+        "before": [
+          8970,
+          408,
+          50622
+        ],
+        "after": [
+          15522,
+          0,
+          44478
+        ],
+        "awarded": {
+          "seat_2": 40.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "solver_like",
+      "tournament_specialist",
+      "fullhouse_reproduced",
+      "fullhouse_released",
+      "vikram_32",
+      "txnujk_32"
+    ],
+    "scores": [
+      58.832967917778554,
+      69.06372891324057,
+      10.0,
+      0.0,
+      60.87039982406603,
+      36.23290334491485
+    ],
+    "stacks": [
+      15287,
+      23703,
+      0,
+      0,
+      16743,
+      4267
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 17,
+      "seat_4": 257,
+      "seat_5": 269,
+      "seat_0": 216,
+      "seat_1": 240,
+      "seat_2": 111
+    },
+    "normalizations": {
+      "seat_1_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_raise": 8,
+      "seat_4_fold": 148,
+      "seat_5_fold": 135,
+      "seat_0_fold": 151,
+      "seat_1_fold": 165,
+      "seat_2_raise": 28,
+      "seat_2_call": 14,
+      "seat_2_check": 21,
+      "seat_3_check": 4,
+      "seat_4_raise": 58,
+      "seat_2_fold": 47,
+      "seat_3_call": 2,
+      "seat_3_fold": 2,
+      "seat_4_check": 30,
+      "seat_1_raise": 27,
+      "seat_1_call": 19,
+      "seat_1_check": 28,
+      "seat_4_all_in": 1,
+      "seat_3_all_in": 1,
+      "seat_5_raise": 50,
+      "seat_5_call": 40,
+      "seat_5_check": 44,
+      "seat_4_call": 20,
+      "seat_0_raise": 42,
+      "seat_0_call": 10,
+      "seat_0_check": 13,
+      "seat_2_all_in": 1,
+      "seat_1_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          9900,
+          9050,
+          11675,
+          9080,
+          10445,
+          9850
+        ],
+        "after": [
+          9850,
+          8950,
+          11675,
+          0,
+          19675,
+          9850
+        ],
+        "awarded": {
+          "seat_3": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          13165,
+          18375,
+          5523,
+          14515,
+          8422
+        ],
+        "after": [
+          13165,
+          24048,
+          0,
+          14465,
+          8322
+        ],
+        "awarded": {
+          "seat_2": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "vikram_32",
+      "solver_like",
+      "fullhouse_reproduced",
+      "tournament_specialist",
+      "fullhouse_released",
+      "txnujk_32"
+    ],
+    "scores": [
+      60.0,
+      25.0,
+      40.0,
+      10.0,
+      100.0,
+      0.0
+    ],
+    "stacks": [
+      0,
+      0,
+      0,
+      0,
+      60000,
+      0
+    ],
+    "hands": 156,
+    "decisions": {
+      "seat_3": 58,
+      "seat_4": 381,
+      "seat_5": 56,
+      "seat_0": 339,
+      "seat_1": 67,
+      "seat_2": 142
+    },
+    "normalizations": {
+      "seat_4_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 32,
+      "seat_4_call": 77,
+      "seat_5_raise": 15,
+      "seat_0_fold": 99,
+      "seat_1_call": 7,
+      "seat_2_fold": 49,
+      "seat_1_raise": 16,
+      "seat_4_fold": 77,
+      "seat_5_fold": 21,
+      "seat_0_raise": 91,
+      "seat_1_fold": 33,
+      "seat_3_raise": 10,
+      "seat_4_raise": 137,
+      "seat_4_check": 85,
+      "seat_5_call": 9,
+      "seat_5_check": 11,
+      "seat_1_check": 10,
+      "seat_2_raise": 41,
+      "seat_3_call": 5,
+      "seat_3_check": 10,
+      "seat_2_call": 24,
+      "seat_2_check": 26,
+      "seat_4_all_in": 5,
+      "seat_3_all_in": 1,
+      "seat_0_check": 86,
+      "seat_0_call": 60,
+      "seat_2_all_in": 2,
+      "seat_0_all_in": 3,
+      "seat_1_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          9321,
+          10546,
+          11325,
+          6702,
+          14300,
+          7806
+        ],
+        "after": [
+          9221,
+          10546,
+          11325,
+          6702,
+          22206,
+          0
+        ],
+        "awarded": {
+          "seat_5": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4"
+        ],
+        "before": [
+          9071,
+          11421,
+          8150,
+          6902,
+          24456
+        ],
+        "after": [
+          9071,
+          11371,
+          15102,
+          0,
+          24456
+        ],
+        "awarded": {
+          "seat_3": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_4"
+        ],
+        "before": [
+          17822,
+          11741,
+          7231,
+          23206
+        ],
+        "after": [
+          17772,
+          0,
+          7231,
+          34997
+        ],
+        "awarded": {
+          "seat_1": 25.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_4"
+        ],
+        "before": [
+          32648,
+          12787,
+          14565
+        ],
+        "after": [
+          32548,
+          0,
+          27452
+        ],
+        "awarded": {
+          "seat_2": 40.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_4"
+        ],
+        "before": [
+          25661,
+          34339
+        ],
+        "after": [
+          0,
+          60000
+        ],
+        "awarded": {
+          "seat_0": 60.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "solver_like",
+      "fullhouse_reproduced",
+      "tournament_specialist",
+      "fullhouse_released",
+      "txnujk_32",
+      "vikram_32"
+    ],
+    "scores": [
+      71.3063925111754,
+      85.51510900802613,
+      25.0,
+      10.0,
+      43.178498480798474,
+      0.0
+    ],
+    "stacks": [
+      19220,
+      38990,
+      0,
+      0,
+      1790,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 125,
+      "seat_4": 332,
+      "seat_5": 88,
+      "seat_0": 303,
+      "seat_1": 375,
+      "seat_2": 110
+    },
+    "normalizations": {
+      "seat_0_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 56,
+      "seat_4_raise": 86,
+      "seat_5_fold": 54,
+      "seat_0_fold": 150,
+      "seat_1_raise": 91,
+      "seat_2_fold": 80,
+      "seat_4_fold": 139,
+      "seat_0_raise": 67,
+      "seat_1_fold": 123,
+      "seat_3_raise": 41,
+      "seat_5_raise": 12,
+      "seat_1_call": 83,
+      "seat_3_call": 10,
+      "seat_1_check": 76,
+      "seat_4_call": 57,
+      "seat_5_call": 10,
+      "seat_2_raise": 14,
+      "seat_3_check": 17,
+      "seat_4_check": 50,
+      "seat_5_check": 7,
+      "seat_2_call": 5,
+      "seat_5_all_in": 5,
+      "seat_0_call": 31,
+      "seat_3_all_in": 1,
+      "seat_0_check": 55,
+      "seat_2_check": 9,
+      "seat_2_all_in": 2,
+      "seat_1_all_in": 2
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          12350,
+          11175,
+          12362,
+          5575,
+          17773,
+          765
+        ],
+        "after": [
+          24782,
+          11175,
+          795,
+          5475,
+          17773,
+          0
+        ],
+        "awarded": {
+          "seat_5": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4"
+        ],
+        "before": [
+          24882,
+          12450,
+          1020,
+          4175,
+          17473
+        ],
+        "after": [
+          29107,
+          12450,
+          1020,
+          0,
+          17423
+        ],
+        "awarded": {
+          "seat_3": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_4"
+        ],
+        "before": [
+          28907,
+          14025,
+          870,
+          16198
+        ],
+        "after": [
+          28907,
+          13975,
+          0,
+          17118
+        ],
+        "awarded": {
+          "seat_2": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_reproduced",
+      "tournament_specialist",
+      "fullhouse_released",
+      "txnujk_32",
+      "vikram_32",
+      "solver_like"
+    ],
+    "scores": [
+      84.392353250938,
+      69.44623007581839,
+      0.0,
+      46.16141667324361,
+      25.0,
+      10.0
+    ],
+    "stacks": [
+      37968,
+      18455,
+      0,
+      3577,
+      0,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 320,
+      "seat_4": 184,
+      "seat_5": 188,
+      "seat_0": 332,
+      "seat_1": 255,
+      "seat_2": 13
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 138,
+      "seat_4_raise": 41,
+      "seat_5_fold": 100,
+      "seat_0_fold": 126,
+      "seat_1_fold": 173,
+      "seat_2_fold": 6,
+      "seat_4_fold": 122,
+      "seat_0_raise": 89,
+      "seat_3_call": 56,
+      "seat_3_check": 46,
+      "seat_0_check": 45,
+      "seat_3_raise": 80,
+      "seat_1_raise": 36,
+      "seat_2_call": 3,
+      "seat_5_call": 24,
+      "seat_5_check": 27,
+      "seat_5_raise": 36,
+      "seat_2_check": 2,
+      "seat_0_call": 68,
+      "seat_2_raise": 1,
+      "seat_1_all_in": 1,
+      "seat_2_all_in": 1,
+      "seat_4_check": 7,
+      "seat_4_call": 12,
+      "seat_1_check": 33,
+      "seat_1_call": 12,
+      "seat_0_all_in": 4,
+      "seat_4_all_in": 2,
+      "seat_5_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          10400,
+          10000,
+          9400,
+          9150,
+          10000,
+          11050
+        ],
+        "after": [
+          10300,
+          19500,
+          0,
+          9150,
+          10000,
+          11050
+        ],
+        "awarded": {
+          "seat_2": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          23997,
+          19705,
+          9385,
+          5176,
+          1737
+        ],
+        "after": [
+          25884,
+          19655,
+          9285,
+          5176,
+          0
+        ],
+        "awarded": {
+          "seat_5": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_3",
+          "seat_4"
+        ],
+        "before": [
+          31466,
+          19305,
+          6230,
+          2999
+        ],
+        "after": [
+          34465,
+          19305,
+          6230,
+          0
+        ],
+        "awarded": {
+          "seat_4": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "tournament_specialist",
+      "fullhouse_released",
+      "txnujk_32",
+      "vikram_32",
+      "solver_like",
+      "fullhouse_reproduced"
+    ],
+    "scores": [
+      72.34459157811314,
+      0.0,
+      52.07731256365024,
+      25.0,
+      10.0,
+      75.57809585823662
+    ],
+    "stacks": [
+      24123,
+      0,
+      7978,
+      0,
+      0,
+      27899
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 231,
+      "seat_4": 221,
+      "seat_5": 315,
+      "seat_0": 270,
+      "seat_1": 33,
+      "seat_2": 331
+    },
+    "normalizations": {
+      "seat_4_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 156,
+      "seat_4_raise": 49,
+      "seat_5_fold": 128,
+      "seat_0_fold": 170,
+      "seat_1_raise": 6,
+      "seat_2_fold": 139,
+      "seat_4_fold": 131,
+      "seat_1_call": 2,
+      "seat_3_check": 23,
+      "seat_1_check": 3,
+      "seat_2_call": 64,
+      "seat_2_raise": 59,
+      "seat_2_all_in": 1,
+      "seat_1_fold": 18,
+      "seat_5_call": 55,
+      "seat_0_check": 47,
+      "seat_5_check": 61,
+      "seat_2_check": 68,
+      "seat_5_raise": 71,
+      "seat_0_call": 16,
+      "seat_1_all_in": 4,
+      "seat_4_check": 25,
+      "seat_3_raise": 37,
+      "seat_3_call": 14,
+      "seat_0_raise": 36,
+      "seat_4_call": 14,
+      "seat_0_all_in": 1,
+      "seat_4_all_in": 2,
+      "seat_3_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          9550,
+          1000,
+          18875,
+          10590,
+          10210,
+          9775
+        ],
+        "after": [
+          9550,
+          0,
+          18775,
+          11690,
+          10210,
+          9775
+        ],
+        "awarded": {
+          "seat_1": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          27873,
+          10167,
+          7436,
+          461,
+          14063
+        ],
+        "after": [
+          27823,
+          10067,
+          7436,
+          0,
+          14674
+        ],
+        "awarded": {
+          "seat_4": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          24273,
+          7978,
+          7475,
+          20274
+        ],
+        "after": [
+          24273,
+          7928,
+          0,
+          27799
+        ],
+        "awarded": {
+          "seat_3": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_released",
+      "txnujk_32",
+      "vikram_32",
+      "solver_like",
+      "fullhouse_reproduced",
+      "tournament_specialist"
+    ],
+    "scores": [
+      99.04666666666667,
+      40.0,
+      10.0,
+      0.0,
+      25.0,
+      60.95333333333333
+    ],
+    "stacks": [
+      58570,
+      0,
+      0,
+      0,
+      0,
+      1430
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 5,
+      "seat_4": 79,
+      "seat_5": 266,
+      "seat_0": 305,
+      "seat_1": 273,
+      "seat_2": 25
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 1,
+      "seat_4_fold": 39,
+      "seat_5_fold": 170,
+      "seat_0_call": 34,
+      "seat_1_fold": 118,
+      "seat_2_check": 9,
+      "seat_0_raise": 115,
+      "seat_2_call": 3,
+      "seat_2_fold": 8,
+      "seat_3_raise": 2,
+      "seat_3_call": 1,
+      "seat_3_all_in": 1,
+      "seat_0_fold": 89,
+      "seat_1_raise": 49,
+      "seat_1_call": 53,
+      "seat_0_check": 60,
+      "seat_4_call": 6,
+      "seat_4_check": 19,
+      "seat_2_raise": 4,
+      "seat_1_check": 51,
+      "seat_2_all_in": 1,
+      "seat_4_raise": 14,
+      "seat_5_call": 15,
+      "seat_5_check": 57,
+      "seat_5_raise": 20,
+      "seat_0_all_in": 7,
+      "seat_4_all_in": 1,
+      "seat_5_all_in": 4,
+      "seat_1_all_in": 2
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          10275,
+          9950,
+          9775,
+          10000,
+          10000,
+          10000
+        ],
+        "after": [
+          20325,
+          9950,
+          9725,
+          0,
+          10000,
+          10000
+        ],
+        "awarded": {
+          "seat_3": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          20137,
+          11241,
+          9222,
+          9700,
+          9700
+        ],
+        "after": [
+          29409,
+          11191,
+          0,
+          9700,
+          9700
+        ],
+        "awarded": {
+          "seat_2": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          38359,
+          11791,
+          1375,
+          8475
+        ],
+        "after": [
+          38359,
+          13266,
+          0,
+          8375
+        ],
+        "awarded": {
+          "seat_4": 25.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_5"
+        ],
+        "before": [
+          57931,
+          89,
+          1980
+        ],
+        "after": [
+          58070,
+          0,
+          1930
+        ],
+        "awarded": {
+          "seat_1": 40.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "txnujk_32",
+      "vikram_32",
+      "solver_like",
+      "fullhouse_reproduced",
+      "tournament_specialist",
+      "fullhouse_released"
+    ],
+    "scores": [
+      54.99782211160698,
+      10.0,
+      0.0,
+      65.84263259772686,
+      25.0,
+      79.15954529066616
+    ],
+    "stacks": [
+      9778,
+      0,
+      0,
+      17711,
+      0,
+      32511
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 316,
+      "seat_4": 178,
+      "seat_5": 337,
+      "seat_0": 351,
+      "seat_1": 93,
+      "seat_2": 92
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 142,
+      "seat_4_fold": 132,
+      "seat_5_fold": 107,
+      "seat_0_fold": 146,
+      "seat_1_raise": 13,
+      "seat_2_fold": 47,
+      "seat_0_raise": 83,
+      "seat_1_fold": 48,
+      "seat_2_call": 20,
+      "seat_3_raise": 74,
+      "seat_5_raise": 115,
+      "seat_3_call": 51,
+      "seat_1_check": 14,
+      "seat_1_call": 14,
+      "seat_5_call": 40,
+      "seat_2_raise": 14,
+      "seat_4_raise": 14,
+      "seat_3_check": 48,
+      "seat_5_check": 75,
+      "seat_2_check": 10,
+      "seat_0_check": 65,
+      "seat_0_call": 57,
+      "seat_2_all_in": 1,
+      "seat_4_check": 19,
+      "seat_1_all_in": 4,
+      "seat_4_call": 9,
+      "seat_4_all_in": 4,
+      "seat_3_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          23348,
+          1145,
+          9839,
+          5676,
+          10400,
+          9592
+        ],
+        "after": [
+          36807,
+          845,
+          0,
+          5676,
+          10350,
+          6322
+        ],
+        "awarded": {
+          "seat_2": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          36407,
+          1095,
+          5576,
+          8900,
+          8022
+        ],
+        "after": [
+          37652,
+          0,
+          5526,
+          8800,
+          8022
+        ],
+        "awarded": {
+          "seat_1": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          31916,
+          12986,
+          1480,
+          13618
+        ],
+        "after": [
+          33496,
+          12886,
+          0,
+          13618
+        ],
+        "awarded": {
+          "seat_4": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "tournament_specialist",
+      "vikram_32",
+      "fullhouse_released",
+      "solver_like",
+      "fullhouse_reproduced",
+      "txnujk_32"
+    ],
+    "scores": [
+      56.21882840414328,
+      41.205263714805,
+      69.22892136194156,
+      52.70198553568598,
+      0.0,
+      15.64500098342419
+    ],
+    "stacks": [
+      14536,
+      7195,
+      24682,
+      12473,
+      0,
+      1114
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 273,
+      "seat_4": 13,
+      "seat_5": 302,
+      "seat_0": 218,
+      "seat_1": 227,
+      "seat_2": 324
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 167,
+      "seat_4_fold": 5,
+      "seat_5_raise": 73,
+      "seat_0_fold": 163,
+      "seat_1_fold": 162,
+      "seat_2_raise": 79,
+      "seat_5_fold": 142,
+      "seat_2_fold": 140,
+      "seat_3_call": 26,
+      "seat_3_raise": 49,
+      "seat_5_call": 42,
+      "seat_3_check": 31,
+      "seat_5_check": 44,
+      "seat_2_call": 55,
+      "seat_4_check": 3,
+      "seat_4_raise": 3,
+      "seat_2_check": 49,
+      "seat_4_call": 1,
+      "seat_0_raise": 25,
+      "seat_0_check": 18,
+      "seat_4_all_in": 1,
+      "seat_1_check": 15,
+      "seat_1_call": 9,
+      "seat_1_raise": 41,
+      "seat_0_call": 11,
+      "seat_0_all_in": 1,
+      "seat_5_all_in": 1,
+      "seat_2_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          9380,
+          10000,
+          10925,
+          12450,
+          9475,
+          7770
+        ],
+        "after": [
+          9380,
+          9950,
+          20450,
+          12450,
+          0,
+          7770
+        ],
+        "awarded": {
+          "seat_4": 0.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "vikram_32",
+      "fullhouse_released",
+      "solver_like",
+      "fullhouse_reproduced",
+      "txnujk_32",
+      "tournament_specialist"
+    ],
+    "scores": [
+      25.0,
+      10.0,
+      58.066911185905056,
+      94.81367993567076,
+      47.11940887842418,
+      0.0
+    ],
+    "stacks": [
+      0,
+      0,
+      5442,
+      52427,
+      2131,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 360,
+      "seat_4": 365,
+      "seat_5": 20,
+      "seat_0": 243,
+      "seat_1": 39,
+      "seat_2": 273
+    },
+    "normalizations": {
+      "seat_0_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 114,
+      "seat_4_fold": 143,
+      "seat_5_fold": 13,
+      "seat_0_fold": 140,
+      "seat_1_raise": 5,
+      "seat_2_raise": 58,
+      "seat_1_call": 3,
+      "seat_1_check": 12,
+      "seat_2_call": 27,
+      "seat_1_fold": 19,
+      "seat_2_fold": 147,
+      "seat_3_raise": 116,
+      "seat_0_raise": 50,
+      "seat_4_call": 70,
+      "seat_4_check": 65,
+      "seat_4_raise": 87,
+      "seat_3_call": 76,
+      "seat_2_check": 41,
+      "seat_3_check": 52,
+      "seat_3_all_in": 2,
+      "seat_0_check": 35,
+      "seat_0_call": 17,
+      "seat_5_call": 4,
+      "seat_5_raise": 2,
+      "seat_5_all_in": 1,
+      "seat_0_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          9725,
+          1300,
+          15000,
+          13560,
+          10315,
+          10100
+        ],
+        "after": [
+          9725,
+          200,
+          15000,
+          24860,
+          10215,
+          0
+        ],
+        "awarded": {
+          "seat_5": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4"
+        ],
+        "before": [
+          9475,
+          50,
+          14850,
+          25660,
+          9965
+        ],
+        "after": [
+          9525,
+          0,
+          14850,
+          25660,
+          9965
+        ],
+        "awarded": {
+          "seat_1": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_3",
+          "seat_4"
+        ],
+        "before": [
+          4562,
+          16698,
+          32370,
+          6370
+        ],
+        "after": [
+          0,
+          16698,
+          37032,
+          6270
+        ],
+        "awarded": {
+          "seat_0": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_released",
+      "solver_like",
+      "fullhouse_reproduced",
+      "txnujk_32",
+      "tournament_specialist",
+      "vikram_32"
+    ],
+    "scores": [
+      60.83072130935985,
+      0.0,
+      10.0,
+      54.71385712409397,
+      45.993078681284686,
+      63.462342885261485
+    ],
+    "stacks": [
+      17720,
+      0,
+      0,
+      13599,
+      8925,
+      19756
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 339,
+      "seat_4": 232,
+      "seat_5": 247,
+      "seat_0": 280,
+      "seat_1": 122,
+      "seat_2": 186
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 151,
+      "seat_4_fold": 177,
+      "seat_5_fold": 155,
+      "seat_0_raise": 91,
+      "seat_1_fold": 77,
+      "seat_2_raise": 41,
+      "seat_0_fold": 119,
+      "seat_4_raise": 22,
+      "seat_2_fold": 93,
+      "seat_3_call": 63,
+      "seat_3_raise": 67,
+      "seat_4_call": 9,
+      "seat_3_check": 58,
+      "seat_4_check": 20,
+      "seat_2_call": 28,
+      "seat_1_call": 12,
+      "seat_1_raise": 16,
+      "seat_1_check": 15,
+      "seat_2_check": 22,
+      "seat_5_raise": 56,
+      "seat_5_call": 16,
+      "seat_0_call": 31,
+      "seat_0_check": 39,
+      "seat_5_check": 20,
+      "seat_2_all_in": 2,
+      "seat_1_all_in": 2,
+      "seat_4_all_in": 4
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          7950,
+          24,
+          10658,
+          20080,
+          11396,
+          9892
+        ],
+        "after": [
+          8322,
+          0,
+          10484,
+          19906,
+          11396,
+          9892
+        ],
+        "awarded": {
+          "seat_1": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          8522,
+          12095,
+          12595,
+          11921,
+          14867
+        ],
+        "after": [
+          8472,
+          0,
+          24740,
+          11921,
+          14867
+        ],
+        "awarded": {
+          "seat_2": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "solver_like",
+      "fullhouse_reproduced",
+      "txnujk_32",
+      "tournament_specialist",
+      "vikram_32",
+      "fullhouse_released"
+    ],
+    "scores": [
+      64.48620173231673,
+      10.0,
+      53.37516612389562,
+      72.76979042133118,
+      0.0,
+      34.36884172245646
+    ],
+    "stacks": [
+      18809,
+      0,
+      11152,
+      26740,
+      0,
+      3299
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 234,
+      "seat_4": 75,
+      "seat_5": 304,
+      "seat_0": 299,
+      "seat_1": 248,
+      "seat_2": 302
+    },
+    "normalizations": {
+      "seat_4_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 168,
+      "seat_4_fold": 48,
+      "seat_5_fold": 139,
+      "seat_0_fold": 152,
+      "seat_1_call": 38,
+      "seat_2_raise": 69,
+      "seat_1_fold": 112,
+      "seat_4_raise": 13,
+      "seat_2_fold": 149,
+      "seat_0_raise": 68,
+      "seat_5_raise": 82,
+      "seat_0_call": 31,
+      "seat_1_raise": 50,
+      "seat_4_call": 9,
+      "seat_1_check": 43,
+      "seat_2_call": 43,
+      "seat_2_check": 41,
+      "seat_5_call": 32,
+      "seat_0_check": 48,
+      "seat_5_check": 51,
+      "seat_1_all_in": 5,
+      "seat_3_raise": 23,
+      "seat_3_check": 27,
+      "seat_3_call": 14,
+      "seat_4_check": 3,
+      "seat_4_all_in": 2,
+      "seat_3_all_in": 2
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          16085,
+          12691,
+          8443,
+          14237,
+          440,
+          8104
+        ],
+        "after": [
+          16085,
+          12691,
+          8983,
+          14237,
+          0,
+          8004
+        ],
+        "awarded": {
+          "seat_4": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          17452,
+          3236,
+          12034,
+          23404,
+          3874
+        ],
+        "after": [
+          17402,
+          0,
+          11784,
+          26940,
+          3874
+        ],
+        "awarded": {
+          "seat_1": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_reproduced",
+      "txnujk_32",
+      "tournament_specialist",
+      "vikram_32",
+      "fullhouse_released",
+      "solver_like"
+    ],
+    "scores": [
+      0.0,
+      58.91711832208116,
+      67.10021502658839,
+      52.960886879916934,
+      10.0,
+      46.02177977141351
+    ],
+    "stacks": [
+      0,
+      16153,
+      22659,
+      12388,
+      0,
+      8800
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 276,
+      "seat_4": 64,
+      "seat_5": 254,
+      "seat_0": 5,
+      "seat_1": 298,
+      "seat_2": 222
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 151,
+      "seat_4_fold": 31,
+      "seat_5_fold": 160,
+      "seat_0_raise": 3,
+      "seat_1_fold": 116,
+      "seat_2_raise": 27,
+      "seat_0_call": 1,
+      "seat_2_check": 16,
+      "seat_2_call": 17,
+      "seat_0_all_in": 1,
+      "seat_2_all_in": 1,
+      "seat_4_raise": 23,
+      "seat_5_call": 33,
+      "seat_2_fold": 161,
+      "seat_1_raise": 91,
+      "seat_3_raise": 61,
+      "seat_4_call": 7,
+      "seat_3_check": 38,
+      "seat_4_check": 2,
+      "seat_5_raise": 40,
+      "seat_1_call": 47,
+      "seat_1_check": 44,
+      "seat_3_call": 25,
+      "seat_5_check": 20,
+      "seat_3_all_in": 1,
+      "seat_4_all_in": 1,
+      "seat_5_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "after": [
+          0,
+          9950,
+          20050,
+          10000,
+          10000,
+          10000
+        ],
+        "awarded": {
+          "seat_0": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          11778,
+          23207,
+          7337,
+          4537,
+          13141
+        ],
+        "after": [
+          20952,
+          23107,
+          7337,
+          0,
+          8604
+        ],
+        "awarded": {
+          "seat_4": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "txnujk_32",
+      "tournament_specialist",
+      "vikram_32",
+      "fullhouse_released",
+      "solver_like",
+      "fullhouse_reproduced"
+    ],
+    "scores": [
+      0.0,
+      47.129131342833226,
+      59.1749801631392,
+      63.76671078884882,
+      54.92917770517876,
+      10.0
+    ],
+    "stacks": [
+      0,
+      9528,
+      16596,
+      20076,
+      13800,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 264,
+      "seat_4": 266,
+      "seat_5": 90,
+      "seat_0": 4,
+      "seat_1": 240,
+      "seat_2": 230
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 108,
+      "seat_4_fold": 174,
+      "seat_5_fold": 41,
+      "seat_0_call": 1,
+      "seat_1_fold": 174,
+      "seat_2_check": 23,
+      "seat_2_raise": 49,
+      "seat_0_raise": 2,
+      "seat_0_all_in": 1,
+      "seat_2_all_in": 1,
+      "seat_4_raise": 38,
+      "seat_2_fold": 145,
+      "seat_3_raise": 93,
+      "seat_1_raise": 30,
+      "seat_5_call": 16,
+      "seat_5_raise": 21,
+      "seat_2_call": 12,
+      "seat_5_all_in": 3,
+      "seat_4_call": 22,
+      "seat_4_check": 32,
+      "seat_3_call": 29,
+      "seat_3_check": 33,
+      "seat_1_check": 17,
+      "seat_1_call": 18,
+      "seat_5_check": 9,
+      "seat_3_all_in": 1,
+      "seat_1_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "after": [
+          0,
+          9950,
+          20050,
+          10000,
+          10000,
+          10000
+        ],
+        "awarded": {
+          "seat_0": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          19580,
+          10101,
+          15509,
+          7750,
+          7060
+        ],
+        "after": [
+          19330,
+          10051,
+          15259,
+          15360,
+          0
+        ],
+        "awarded": {
+          "seat_5": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "tournament_specialist",
+      "solver_like",
+      "fullhouse_released",
+      "vikram_32",
+      "txnujk_32",
+      "fullhouse_reproduced"
+    ],
+    "scores": [
+      0.0,
+      59.2140251148798,
+      66.26559655610144,
+      65.73854913677224,
+      33.78182919224652,
+      10.0
+    ],
+    "stacks": [
+      0,
+      15337,
+      20921,
+      20457,
+      3285,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 268,
+      "seat_4": 308,
+      "seat_5": 123,
+      "seat_0": 95,
+      "seat_1": 279,
+      "seat_2": 314
+    },
+    "normalizations": {
+      "seat_2_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 165,
+      "seat_4_raise": 65,
+      "seat_5_fold": 63,
+      "seat_0_fold": 69,
+      "seat_1_call": 34,
+      "seat_2_fold": 120,
+      "seat_1_raise": 45,
+      "seat_4_call": 47,
+      "seat_1_check": 34,
+      "seat_4_check": 49,
+      "seat_4_fold": 146,
+      "seat_5_raise": 23,
+      "seat_5_check": 20,
+      "seat_1_fold": 166,
+      "seat_2_raise": 105,
+      "seat_5_call": 17,
+      "seat_3_raise": 60,
+      "seat_2_call": 40,
+      "seat_2_check": 46,
+      "seat_0_call": 7,
+      "seat_0_check": 8,
+      "seat_0_raise": 6,
+      "seat_0_all_in": 5,
+      "seat_2_all_in": 3,
+      "seat_3_call": 22,
+      "seat_3_check": 21,
+      "seat_4_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          1974,
+          6496,
+          10792,
+          11846,
+          18968,
+          9924
+        ],
+        "after": [
+          0,
+          8620,
+          10792,
+          11846,
+          18918,
+          9824
+        ],
+        "awarded": {
+          "seat_0": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          14344,
+          10292,
+          13646,
+          17018,
+          4700
+        ],
+        "after": [
+          12622,
+          16764,
+          13646,
+          16968,
+          0
+        ],
+        "awarded": {
+          "seat_5": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "solver_like",
+      "fullhouse_released",
+      "vikram_32",
+      "txnujk_32",
+      "fullhouse_reproduced",
+      "tournament_specialist"
+    ],
+    "scores": [
+      10.0,
+      0.0,
+      68.51313454425708,
+      42.25194179352869,
+      67.28296194923958,
+      46.951961712974644
+    ],
+    "stacks": [
+      0,
+      0,
+      23048,
+      6521,
+      21906,
+      8525
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 322,
+      "seat_4": 271,
+      "seat_5": 250,
+      "seat_0": 176,
+      "seat_1": 119,
+      "seat_2": 298
+    },
+    "normalizations": {
+      "seat_2_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 134,
+      "seat_4_call": 45,
+      "seat_5_fold": 180,
+      "seat_0_fold": 120,
+      "seat_1_call": 10,
+      "seat_2_check": 48,
+      "seat_1_check": 21,
+      "seat_4_check": 29,
+      "seat_4_fold": 143,
+      "seat_5_raise": 21,
+      "seat_2_call": 25,
+      "seat_2_raise": 74,
+      "seat_5_call": 13,
+      "seat_1_fold": 64,
+      "seat_1_raise": 23,
+      "seat_2_fold": 148,
+      "seat_3_call": 57,
+      "seat_5_check": 35,
+      "seat_3_raise": 77,
+      "seat_3_check": 52,
+      "seat_0_call": 10,
+      "seat_0_raise": 27,
+      "seat_0_check": 17,
+      "seat_4_raise": 52,
+      "seat_4_all_in": 2,
+      "seat_3_all_in": 2,
+      "seat_1_all_in": 1,
+      "seat_2_all_in": 3,
+      "seat_0_all_in": 2,
+      "seat_5_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          3480,
+          12157,
+          18517,
+          9276,
+          7805,
+          8765
+        ],
+        "after": [
+          3480,
+          0,
+          30824,
+          9226,
+          7705,
+          8765
+        ],
+        "awarded": {
+          "seat_1": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          1197,
+          22866,
+          8624,
+          19060,
+          8253
+        ],
+        "after": [
+          0,
+          22766,
+          9921,
+          19060,
+          8253
+        ],
+        "awarded": {
+          "seat_0": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_released",
+      "vikram_32",
+      "txnujk_32",
+      "fullhouse_reproduced",
+      "tournament_specialist",
+      "solver_like"
+    ],
+    "scores": [
+      10.0,
+      62.748493117482624,
+      25.017512100476743,
+      67.44784354225683,
+      69.78615123978379,
+      0.0
+    ],
+    "stacks": [
+      0,
+      16485,
+      6,
+      20607,
+      22902,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 293,
+      "seat_4": 242,
+      "seat_5": 213,
+      "seat_0": 278,
+      "seat_1": 258,
+      "seat_2": 287
+    },
+    "normalizations": {
+      "seat_0_raise_not_reopened_to_call": 1,
+      "seat_4_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 155,
+      "seat_4_raise": 28,
+      "seat_5_fold": 141,
+      "seat_0_fold": 127,
+      "seat_1_fold": 169,
+      "seat_2_fold": 141,
+      "seat_4_fold": 175,
+      "seat_5_raise": 36,
+      "seat_2_call": 38,
+      "seat_3_call": 49,
+      "seat_2_raise": 66,
+      "seat_5_call": 14,
+      "seat_3_raise": 53,
+      "seat_0_raise": 67,
+      "seat_0_call": 30,
+      "seat_0_check": 47,
+      "seat_2_check": 36,
+      "seat_3_check": 35,
+      "seat_4_call": 15,
+      "seat_4_check": 20,
+      "seat_1_raise": 46,
+      "seat_1_check": 25,
+      "seat_1_call": 17,
+      "seat_5_check": 21,
+      "seat_0_all_in": 7,
+      "seat_1_all_in": 1,
+      "seat_2_all_in": 6,
+      "seat_3_all_in": 1,
+      "seat_4_all_in": 4,
+      "seat_5_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          9272,
+          16523,
+          1361,
+          20739,
+          10875,
+          1230
+        ],
+        "after": [
+          9272,
+          16523,
+          1361,
+          20689,
+          12155,
+          0
+        ],
+        "awarded": {
+          "seat_5": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4"
+        ],
+        "before": [
+          10822,
+          16343,
+          1361,
+          19344,
+          12130
+        ],
+        "after": [
+          0,
+          16293,
+          1261,
+          19344,
+          23102
+        ],
+        "awarded": {
+          "seat_0": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "vikram_32",
+      "txnujk_32",
+      "fullhouse_reproduced",
+      "tournament_specialist",
+      "solver_like",
+      "fullhouse_released"
+    ],
+    "scores": [
+      44.21229280525764,
+      0.0,
+      51.323278396660406,
+      10.0,
+      67.90709507971336,
+      61.5573337183686
+    ],
+    "stacks": [
+      7794,
+      0,
+      11250,
+      0,
+      23141,
+      17815
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 173,
+      "seat_4": 271,
+      "seat_5": 271,
+      "seat_0": 249,
+      "seat_1": 166,
+      "seat_2": 286
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 135,
+      "seat_4_raise": 54,
+      "seat_5_fold": 120,
+      "seat_0_fold": 179,
+      "seat_1_fold": 87,
+      "seat_2_fold": 144,
+      "seat_4_fold": 159,
+      "seat_5_raise": 92,
+      "seat_1_raise": 29,
+      "seat_4_call": 28,
+      "seat_1_call": 24,
+      "seat_4_check": 30,
+      "seat_1_check": 25,
+      "seat_0_raise": 30,
+      "seat_2_raise": 69,
+      "seat_2_call": 40,
+      "seat_2_check": 29,
+      "seat_5_check": 31,
+      "seat_5_call": 25,
+      "seat_3_raise": 21,
+      "seat_3_call": 7,
+      "seat_3_check": 7,
+      "seat_2_all_in": 4,
+      "seat_3_all_in": 3,
+      "seat_0_check": 23,
+      "seat_0_call": 17,
+      "seat_5_all_in": 3,
+      "seat_1_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          6293,
+          42,
+          5403,
+          12525,
+          12107,
+          23630
+        ],
+        "after": [
+          6243,
+          0,
+          5495,
+          12525,
+          12107,
+          23630
+        ],
+        "awarded": {
+          "seat_1": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          6735,
+          4890,
+          7985,
+          14650,
+          25740
+        ],
+        "after": [
+          6735,
+          4840,
+          0,
+          22685,
+          25740
+        ],
+        "awarded": {
+          "seat_3": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "txnujk_32",
+      "fullhouse_reproduced",
+      "tournament_specialist",
+      "solver_like",
+      "fullhouse_released",
+      "vikram_32"
+    ],
+    "scores": [
+      71.52104870846122,
+      25.0,
+      78.45891632921037,
+      0.0,
+      10.0,
+      50.0200349623284
+    ],
+    "stacks": [
+      22579,
+      0,
+      30986,
+      0,
+      0,
+      6435
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 93,
+      "seat_4": 129,
+      "seat_5": 260,
+      "seat_0": 281,
+      "seat_1": 127,
+      "seat_2": 253
+    },
+    "normalizations": {
+      "seat_2_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 54,
+      "seat_4_fold": 53,
+      "seat_5_fold": 143,
+      "seat_0_fold": 123,
+      "seat_1_call": 21,
+      "seat_2_check": 31,
+      "seat_1_check": 18,
+      "seat_5_raise": 60,
+      "seat_2_call": 19,
+      "seat_2_raise": 45,
+      "seat_0_call": 44,
+      "seat_1_fold": 68,
+      "seat_2_fold": 157,
+      "seat_4_check": 26,
+      "seat_0_check": 46,
+      "seat_4_raise": 37,
+      "seat_0_raise": 68,
+      "seat_3_raise": 13,
+      "seat_4_call": 9,
+      "seat_3_check": 13,
+      "seat_3_call": 12,
+      "seat_1_raise": 18,
+      "seat_5_all_in": 1,
+      "seat_5_call": 20,
+      "seat_5_check": 36,
+      "seat_1_all_in": 2,
+      "seat_2_all_in": 1,
+      "seat_4_all_in": 4,
+      "seat_3_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          9057,
+          9671,
+          25251,
+          743,
+          5264,
+          10014
+        ],
+        "after": [
+          10250,
+          9371,
+          25251,
+          0,
+          5214,
+          9914
+        ],
+        "awarded": {
+          "seat_3": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          8900,
+          7921,
+          24651,
+          7064,
+          11464
+        ],
+        "after": [
+          16064,
+          7821,
+          24651,
+          0,
+          11464
+        ],
+        "awarded": {
+          "seat_4": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_5"
+        ],
+        "before": [
+          16664,
+          6512,
+          25801,
+          11023
+        ],
+        "after": [
+          23176,
+          0,
+          25801,
+          11023
+        ],
+        "awarded": {
+          "seat_1": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_reproduced",
+      "tournament_specialist",
+      "solver_like",
+      "fullhouse_released",
+      "vikram_32",
+      "txnujk_32"
+    ],
+    "scores": [
+      0.0,
+      70.9088321721565,
+      10.0,
+      73.52391498923026,
+      55.56725283861323,
+      25.0
+    ],
+    "stacks": [
+      0,
+      23260,
+      0,
+      26138,
+      10602,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 314,
+      "seat_4": 280,
+      "seat_5": 252,
+      "seat_0": 62,
+      "seat_1": 240,
+      "seat_2": 148
+    },
+    "normalizations": {
+      "seat_2_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 116,
+      "seat_4_raise": 65,
+      "seat_5_fold": 113,
+      "seat_0_fold": 39,
+      "seat_1_fold": 169,
+      "seat_2_fold": 86,
+      "seat_4_fold": 152,
+      "seat_5_raise": 53,
+      "seat_2_call": 12,
+      "seat_3_call": 41,
+      "seat_2_raise": 30,
+      "seat_5_call": 51,
+      "seat_3_raise": 110,
+      "seat_4_call": 30,
+      "seat_4_check": 33,
+      "seat_0_raise": 10,
+      "seat_2_check": 17,
+      "seat_3_check": 46,
+      "seat_5_check": 32,
+      "seat_1_raise": 26,
+      "seat_0_call": 7,
+      "seat_1_check": 27,
+      "seat_1_call": 16,
+      "seat_0_check": 4,
+      "seat_5_all_in": 3,
+      "seat_2_all_in": 3,
+      "seat_0_all_in": 2,
+      "seat_1_all_in": 2,
+      "seat_3_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          9475,
+          12376,
+          2652,
+          14258,
+          12500,
+          8739
+        ],
+        "after": [
+          0,
+          22051,
+          2552,
+          14258,
+          12500,
+          8639
+        ],
+        "awarded": {
+          "seat_0": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          21861,
+          162,
+          18302,
+          14436,
+          5239
+        ],
+        "after": [
+          21861,
+          0,
+          18252,
+          14336,
+          5551
+        ],
+        "awarded": {
+          "seat_2": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          21405,
+          25017,
+          13566,
+          12
+        ],
+        "after": [
+          21305,
+          25129,
+          13566,
+          0
+        ],
+        "awarded": {
+          "seat_5": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_released",
+      "solver_like",
+      "vikram_32",
+      "fullhouse_reproduced",
+      "txnujk_32",
+      "tournament_specialist"
+    ],
+    "scores": [
+      78.33424149537719,
+      10.0,
+      74.04439797671442,
+      47.621360527908394,
+      0.0,
+      25.0
+    ],
+    "stacks": [
+      30302,
+      0,
+      24862,
+      4836,
+      0,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 315,
+      "seat_4": 60,
+      "seat_5": 172,
+      "seat_0": 335,
+      "seat_1": 140,
+      "seat_2": 287
+    },
+    "normalizations": {
+      "seat_0_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 129,
+      "seat_4_raise": 14,
+      "seat_5_fold": 105,
+      "seat_0_call": 34,
+      "seat_1_fold": 89,
+      "seat_2_fold": 158,
+      "seat_0_fold": 120,
+      "seat_4_fold": 35,
+      "seat_1_raise": 18,
+      "seat_3_call": 51,
+      "seat_3_check": 48,
+      "seat_1_check": 18,
+      "seat_3_raise": 85,
+      "seat_2_raise": 66,
+      "seat_0_check": 56,
+      "seat_0_raise": 118,
+      "seat_5_raise": 25,
+      "seat_4_call": 8,
+      "seat_2_call": 24,
+      "seat_5_call": 12,
+      "seat_5_check": 29,
+      "seat_2_check": 34,
+      "seat_1_call": 14,
+      "seat_4_check": 3,
+      "seat_0_all_in": 7,
+      "seat_2_all_in": 5,
+      "seat_1_all_in": 1,
+      "seat_5_all_in": 1,
+      "seat_3_all_in": 2
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          14712,
+          7789,
+          9633,
+          9834,
+          4971,
+          13061
+        ],
+        "after": [
+          19733,
+          7789,
+          9633,
+          9834,
+          0,
+          13011
+        ],
+        "awarded": {
+          "seat_4": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          25506,
+          7318,
+          3807,
+          10383,
+          12986
+        ],
+        "after": [
+          32874,
+          0,
+          3807,
+          10383,
+          12936
+        ],
+        "awarded": {
+          "seat_1": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          31871,
+          3265,
+          12003,
+          12861
+        ],
+        "after": [
+          44732,
+          3265,
+          12003,
+          0
+        ],
+        "awarded": {
+          "seat_5": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "solver_like",
+      "vikram_32",
+      "fullhouse_reproduced",
+      "txnujk_32",
+      "tournament_specialist",
+      "fullhouse_released"
+    ],
+    "scores": [
+      10.0,
+      40.0,
+      25.0,
+      0.0,
+      65.13533333333334,
+      94.86466666666668
+    ],
+    "stacks": [
+      0,
+      0,
+      0,
+      0,
+      7703,
+      52297
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 111,
+      "seat_4": 246,
+      "seat_5": 286,
+      "seat_0": 126,
+      "seat_1": 212,
+      "seat_2": 161
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 48,
+      "seat_4_fold": 177,
+      "seat_5_fold": 91,
+      "seat_0_raise": 29,
+      "seat_1_fold": 132,
+      "seat_2_call": 32,
+      "seat_2_check": 18,
+      "seat_0_check": 12,
+      "seat_2_raise": 41,
+      "seat_0_fold": 70,
+      "seat_1_raise": 46,
+      "seat_2_fold": 67,
+      "seat_0_call": 13,
+      "seat_1_call": 14,
+      "seat_3_raise": 25,
+      "seat_3_check": 19,
+      "seat_3_call": 18,
+      "seat_2_all_in": 3,
+      "seat_5_raise": 112,
+      "seat_4_raise": 30,
+      "seat_5_call": 42,
+      "seat_5_all_in": 3,
+      "seat_1_check": 19,
+      "seat_5_check": 38,
+      "seat_0_all_in": 2,
+      "seat_3_all_in": 1,
+      "seat_4_check": 25,
+      "seat_4_call": 12,
+      "seat_4_all_in": 2,
+      "seat_1_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          7264,
+          15851,
+          17443,
+          247,
+          9300,
+          9895
+        ],
+        "after": [
+          7214,
+          20619,
+          12972,
+          0,
+          9300,
+          9895
+        ],
+        "awarded": {
+          "seat_3": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          8291,
+          19049,
+          11070,
+          8970,
+          12620
+        ],
+        "after": [
+          0,
+          18949,
+          11070,
+          17361,
+          12620
+        ],
+        "awarded": {
+          "seat_0": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          19500,
+          12672,
+          14146,
+          13682
+        ],
+        "after": [
+          19450,
+          0,
+          14146,
+          26404
+        ],
+        "awarded": {
+          "seat_2": 25.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          23442,
+          11903,
+          24655
+        ],
+        "after": [
+          0,
+          11853,
+          48147
+        ],
+        "awarded": {
+          "seat_1": 40.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "vikram_32",
+      "fullhouse_reproduced",
+      "txnujk_32",
+      "tournament_specialist",
+      "fullhouse_released",
+      "solver_like"
+    ],
+    "scores": [
+      10.0,
+      81.3983902776244,
+      71.50228146875148,
+      47.09932825362412,
+      0.0,
+      25.0
+    ],
+    "stacks": [
+      0,
+      34157,
+      21478,
+      4365,
+      0,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 266,
+      "seat_4": 68,
+      "seat_5": 205,
+      "seat_0": 187,
+      "seat_1": 352,
+      "seat_2": 311
+    },
+    "normalizations": {
+      "seat_0_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 169,
+      "seat_4_fold": 32,
+      "seat_5_fold": 120,
+      "seat_0_raise": 49,
+      "seat_1_fold": 121,
+      "seat_2_fold": 135,
+      "seat_1_call": 69,
+      "seat_1_raise": 97,
+      "seat_0_call": 5,
+      "seat_0_fold": 124,
+      "seat_3_raise": 35,
+      "seat_2_raise": 76,
+      "seat_4_call": 10,
+      "seat_2_call": 47,
+      "seat_4_check": 13,
+      "seat_3_call": 22,
+      "seat_5_call": 24,
+      "seat_5_check": 27,
+      "seat_2_check": 53,
+      "seat_4_raise": 12,
+      "seat_5_raise": 33,
+      "seat_1_check": 63,
+      "seat_1_all_in": 2,
+      "seat_0_all_in": 3,
+      "seat_3_check": 38,
+      "seat_4_all_in": 1,
+      "seat_0_check": 6,
+      "seat_3_all_in": 2,
+      "seat_5_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          4456,
+          19822,
+          15602,
+          6390,
+          3344,
+          10386
+        ],
+        "after": [
+          7850,
+          19822,
+          15602,
+          6390,
+          0,
+          10336
+        ],
+        "awarded": {
+          "seat_4": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          8788,
+          20131,
+          12289,
+          4615,
+          14177
+        ],
+        "after": [
+          0,
+          43096,
+          12289,
+          4615,
+          0
+        ],
+        "awarded": {
+          "seat_0": 10.0,
+          "seat_5": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_reproduced",
+      "txnujk_32",
+      "tournament_specialist",
+      "fullhouse_released",
+      "solver_like",
+      "vikram_32"
+    ],
+    "scores": [
+      10.0,
+      81.16100858127099,
+      42.36095082272944,
+      76.47804059599957,
+      0.0,
+      25.0
+    ],
+    "stacks": [
+      0,
+      32604,
+      1430,
+      25966,
+      0,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 287,
+      "seat_4": 92,
+      "seat_5": 235,
+      "seat_0": 233,
+      "seat_1": 290,
+      "seat_2": 238
+    },
+    "normalizations": {
+      "seat_3_raise_not_reopened_to_call": 2,
+      "seat_1_raise_not_reopened_to_call": 2
+    },
+    "actions": {
+      "seat_3_fold": 123,
+      "seat_4_fold": 53,
+      "seat_5_fold": 157,
+      "seat_0_raise": 49,
+      "seat_1_fold": 150,
+      "seat_2_fold": 173,
+      "seat_0_fold": 110,
+      "seat_1_raise": 71,
+      "seat_3_call": 35,
+      "seat_3_check": 47,
+      "seat_1_check": 42,
+      "seat_3_raise": 77,
+      "seat_1_call": 26,
+      "seat_5_call": 22,
+      "seat_5_check": 16,
+      "seat_5_raise": 37,
+      "seat_0_call": 40,
+      "seat_0_check": 31,
+      "seat_2_check": 30,
+      "seat_2_call": 10,
+      "seat_4_raise": 20,
+      "seat_4_call": 9,
+      "seat_0_all_in": 3,
+      "seat_3_all_in": 5,
+      "seat_2_raise": 22,
+      "seat_4_check": 9,
+      "seat_4_all_in": 1,
+      "seat_2_all_in": 3,
+      "seat_5_all_in": 3,
+      "seat_1_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          20033,
+          19442,
+          3760,
+          4381,
+          698,
+          11686
+        ],
+        "after": [
+          20033,
+          20290,
+          3710,
+          4281,
+          0,
+          11686
+        ],
+        "awarded": {
+          "seat_4": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          17854,
+          20273,
+          2955,
+          9820,
+          9098
+        ],
+        "after": [
+          0,
+          38347,
+          2735,
+          9820,
+          9098
+        ],
+        "awarded": {
+          "seat_0": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          33429,
+          2355,
+          24040,
+          176
+        ],
+        "after": [
+          33379,
+          2255,
+          24366,
+          0
+        ],
+        "awarded": {
+          "seat_5": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "txnujk_32",
+      "tournament_specialist",
+      "fullhouse_released",
+      "solver_like",
+      "vikram_32",
+      "fullhouse_reproduced"
+    ],
+    "scores": [
+      25.0,
+      67.81524309598483,
+      10.0,
+      0.0,
+      65.18751074036365,
+      66.99724616365152
+    ],
+    "stacks": [
+      0,
+      21062,
+      0,
+      0,
+      18649,
+      20289
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 127,
+      "seat_4": 240,
+      "seat_5": 288,
+      "seat_0": 236,
+      "seat_1": 240,
+      "seat_2": 219
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 77,
+      "seat_4_fold": 153,
+      "seat_5_fold": 136,
+      "seat_0_raise": 49,
+      "seat_1_fold": 176,
+      "seat_2_call": 28,
+      "seat_2_check": 25,
+      "seat_0_check": 36,
+      "seat_1_raise": 22,
+      "seat_2_fold": 111,
+      "seat_0_call": 32,
+      "seat_0_fold": 116,
+      "seat_3_raise": 24,
+      "seat_2_raise": 50,
+      "seat_3_call": 12,
+      "seat_2_all_in": 5,
+      "seat_5_raise": 74,
+      "seat_4_raise": 46,
+      "seat_5_call": 36,
+      "seat_5_check": 42,
+      "seat_3_check": 12,
+      "seat_1_call": 9,
+      "seat_1_check": 32,
+      "seat_0_all_in": 3,
+      "seat_4_call": 15,
+      "seat_4_check": 26,
+      "seat_3_all_in": 2,
+      "seat_1_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          5523,
+          11450,
+          18029,
+          65,
+          12345,
+          12588
+        ],
+        "after": [
+          5423,
+          11450,
+          18029,
+          0,
+          11945,
+          13153
+        ],
+        "awarded": {
+          "seat_3": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          189,
+          11727,
+          10385,
+          15827,
+          21872
+        ],
+        "after": [
+          139,
+          22162,
+          0,
+          15827,
+          21872
+        ],
+        "awarded": {
+          "seat_2": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          139,
+          22112,
+          15877,
+          21872
+        ],
+        "after": [
+          0,
+          22112,
+          15738,
+          22150
+        ],
+        "awarded": {
+          "seat_0": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "tournament_specialist",
+      "fullhouse_released",
+      "solver_like",
+      "vikram_32",
+      "fullhouse_reproduced",
+      "txnujk_32"
+    ],
+    "scores": [
+      53.67430888343142,
+      0.0,
+      46.60697245283922,
+      58.57281917798754,
+      66.14589948574181,
+      10.0
+    ],
+    "stacks": [
+      12900,
+      0,
+      9157,
+      16021,
+      21922,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 237,
+      "seat_4": 301,
+      "seat_5": 253,
+      "seat_0": 229,
+      "seat_1": 70,
+      "seat_2": 264
+    },
+    "normalizations": {
+      "seat_4_raise_not_reopened_to_call": 2,
+      "seat_2_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 150,
+      "seat_4_fold": 126,
+      "seat_5_raise": 52,
+      "seat_0_fold": 178,
+      "seat_1_fold": 27,
+      "seat_2_fold": 165,
+      "seat_5_fold": 99,
+      "seat_0_raise": 21,
+      "seat_1_raise": 20,
+      "seat_3_raise": 50,
+      "seat_2_raise": 43,
+      "seat_5_call": 45,
+      "seat_5_check": 53,
+      "seat_4_raise": 64,
+      "seat_4_check": 61,
+      "seat_1_call": 14,
+      "seat_4_call": 47,
+      "seat_2_call": 20,
+      "seat_2_check": 36,
+      "seat_1_check": 7,
+      "seat_3_call": 10,
+      "seat_1_all_in": 2,
+      "seat_3_all_in": 1,
+      "seat_0_check": 16,
+      "seat_4_all_in": 3,
+      "seat_3_check": 26,
+      "seat_0_call": 13,
+      "seat_5_all_in": 4,
+      "seat_0_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          9375,
+          104,
+          13621,
+          17048,
+          5859,
+          13993
+        ],
+        "after": [
+          9325,
+          0,
+          13621,
+          17048,
+          6013,
+          13993
+        ],
+        "awarded": {
+          "seat_1": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          16925,
+          9708,
+          17832,
+          15472,
+          63
+        ],
+        "after": [
+          16925,
+          9658,
+          17732,
+          15685,
+          0
+        ],
+        "awarded": {
+          "seat_5": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_released",
+      "tournament_specialist",
+      "txnujk_32",
+      "solver_like",
+      "vikram_32",
+      "fullhouse_reproduced"
+    ],
+    "scores": [
+      75.25831072723753,
+      65.8927522228365,
+      0.0,
+      10.0,
+      25.0,
+      58.84893704992596
+    ],
+    "stacks": [
+      28386,
+      18607,
+      0,
+      0,
+      0,
+      13007
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 180,
+      "seat_4": 266,
+      "seat_5": 329,
+      "seat_0": 338,
+      "seat_1": 239,
+      "seat_2": 91
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 117,
+      "seat_4_fold": 148,
+      "seat_5_fold": 131,
+      "seat_0_raise": 92,
+      "seat_1_fold": 188,
+      "seat_2_call": 10,
+      "seat_2_check": 12,
+      "seat_2_fold": 46,
+      "seat_0_fold": 134,
+      "seat_3_raise": 37,
+      "seat_4_raise": 60,
+      "seat_3_call": 13,
+      "seat_4_call": 25,
+      "seat_2_raise": 23,
+      "seat_5_call": 66,
+      "seat_5_check": 63,
+      "seat_3_check": 11,
+      "seat_4_check": 28,
+      "seat_5_raise": 67,
+      "seat_0_call": 46,
+      "seat_0_check": 62,
+      "seat_1_raise": 18,
+      "seat_1_call": 9,
+      "seat_1_check": 22,
+      "seat_5_all_in": 2,
+      "seat_1_all_in": 2,
+      "seat_3_all_in": 2,
+      "seat_0_all_in": 4,
+      "seat_4_all_in": 5
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          9883,
+          7376,
+          8653,
+          7913,
+          8720,
+          17455
+        ],
+        "after": [
+          9883,
+          7376,
+          0,
+          7913,
+          8670,
+          26158
+        ],
+        "awarded": {
+          "seat_2": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          13827,
+          13293,
+          1132,
+          1485,
+          30263
+        ],
+        "after": [
+          13827,
+          13293,
+          0,
+          2617,
+          30263
+        ],
+        "awarded": {
+          "seat_3": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          17368,
+          18682,
+          1775,
+          22175
+        ],
+        "after": [
+          17318,
+          18582,
+          0,
+          24100
+        ],
+        "awarded": {
+          "seat_4": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "tournament_specialist",
+      "txnujk_32",
+      "solver_like",
+      "vikram_32",
+      "fullhouse_reproduced",
+      "fullhouse_released"
+    ],
+    "scores": [
+      49.87838849021965,
+      41.10372945977849,
+      66.05308600996725,
+      10.0,
+      0.0,
+      67.96479604003461
+    ],
+    "stacks": [
+      10084,
+      6181,
+      21005,
+      0,
+      0,
+      22730
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 60,
+      "seat_4": 78,
+      "seat_5": 323,
+      "seat_0": 261,
+      "seat_1": 323,
+      "seat_2": 252
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 47,
+      "seat_4_call": 9,
+      "seat_5_fold": 113,
+      "seat_0_fold": 180,
+      "seat_1_fold": 145,
+      "seat_2_check": 35,
+      "seat_4_raise": 15,
+      "seat_2_fold": 146,
+      "seat_4_fold": 40,
+      "seat_1_raise": 67,
+      "seat_1_call": 46,
+      "seat_3_raise": 11,
+      "seat_2_call": 25,
+      "seat_1_check": 65,
+      "seat_2_raise": 46,
+      "seat_5_raise": 105,
+      "seat_5_call": 42,
+      "seat_4_check": 13,
+      "seat_5_check": 61,
+      "seat_5_all_in": 2,
+      "seat_0_raise": 28,
+      "seat_0_check": 38,
+      "seat_0_call": 15,
+      "seat_3_check": 1,
+      "seat_4_all_in": 1,
+      "seat_3_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          8909,
+          7358,
+          14637,
+          10380,
+          2325,
+          16391
+        ],
+        "after": [
+          8909,
+          7108,
+          17262,
+          10330,
+          0,
+          16391
+        ],
+        "awarded": {
+          "seat_4": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          8759,
+          8288,
+          16132,
+          10330,
+          16491
+        ],
+        "after": [
+          8759,
+          8238,
+          16032,
+          0,
+          26971
+        ],
+        "awarded": {
+          "seat_3": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "txnujk_32",
+      "solver_like",
+      "vikram_32",
+      "fullhouse_reproduced",
+      "fullhouse_released",
+      "tournament_specialist"
+    ],
+    "scores": [
+      54.97754610998164,
+      10.0,
+      52.51571734734764,
+      88.38546015642423,
+      0.0,
+      29.121276386246514
+    ],
+    "stacks": [
+      8152,
+      0,
+      7008,
+      43953,
+      0,
+      887
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 301,
+      "seat_4": 146,
+      "seat_5": 219,
+      "seat_0": 305,
+      "seat_1": 188,
+      "seat_2": 230
+    },
+    "normalizations": {
+      "seat_3_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 137,
+      "seat_4_fold": 91,
+      "seat_5_fold": 173,
+      "seat_0_call": 37,
+      "seat_1_fold": 136,
+      "seat_2_check": 26,
+      "seat_0_check": 63,
+      "seat_2_raise": 37,
+      "seat_0_fold": 141,
+      "seat_2_fold": 159,
+      "seat_3_check": 55,
+      "seat_3_raise": 58,
+      "seat_4_raise": 15,
+      "seat_3_call": 44,
+      "seat_4_check": 23,
+      "seat_5_call": 6,
+      "seat_5_check": 10,
+      "seat_0_raise": 64,
+      "seat_5_raise": 18,
+      "seat_1_call": 12,
+      "seat_1_check": 14,
+      "seat_1_raise": 24,
+      "seat_4_all_in": 9,
+      "seat_4_call": 8,
+      "seat_5_all_in": 12,
+      "seat_3_all_in": 7,
+      "seat_2_call": 8,
+      "seat_1_all_in": 2
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          17300,
+          807,
+          12419,
+          26557,
+          850,
+          2067
+        ],
+        "after": [
+          17300,
+          807,
+          12419,
+          27507,
+          0,
+          1967
+        ],
+        "awarded": {
+          "seat_4": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          9153,
+          570,
+          12168,
+          36572,
+          1537
+        ],
+        "after": [
+          9723,
+          0,
+          12168,
+          36572,
+          1537
+        ],
+        "awarded": {
+          "seat_1": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "solver_like",
+      "vikram_32",
+      "fullhouse_reproduced",
+      "fullhouse_released",
+      "tournament_specialist",
+      "txnujk_32"
+    ],
+    "scores": [
+      47.53905260602973,
+      36.86105712644994,
+      38.90189197855405,
+      60.62578844040799,
+      12.2854428756553,
+      38.786766972902996
+    ],
+    "stacks": [
+      12318,
+      8082,
+      8788,
+      19898,
+      2167,
+      8747
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 315,
+      "seat_4": 239,
+      "seat_5": 333,
+      "seat_0": 277,
+      "seat_1": 222,
+      "seat_2": 298
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 141,
+      "seat_4_fold": 187,
+      "seat_5_fold": 150,
+      "seat_0_fold": 153,
+      "seat_1_fold": 177,
+      "seat_1_raise": 24,
+      "seat_2_fold": 153,
+      "seat_2_call": 45,
+      "seat_3_call": 40,
+      "seat_4_raise": 24,
+      "seat_3_raise": 97,
+      "seat_4_call": 10,
+      "seat_3_check": 36,
+      "seat_4_check": 18,
+      "seat_2_raise": 58,
+      "seat_0_check": 34,
+      "seat_0_call": 43,
+      "seat_0_raise": 47,
+      "seat_5_raise": 84,
+      "seat_2_check": 41,
+      "seat_5_check": 52,
+      "seat_5_call": 46,
+      "seat_1_check": 15,
+      "seat_2_all_in": 1,
+      "seat_5_all_in": 1,
+      "seat_1_call": 6,
+      "seat_3_all_in": 1
+    },
+    "eliminations": [],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "vikram_32",
+      "fullhouse_reproduced",
+      "fullhouse_released",
+      "tournament_specialist",
+      "txnujk_32",
+      "solver_like"
+    ],
+    "scores": [
+      10.0,
+      0.0,
+      77.8008168855344,
+      25.0,
+      40.98102300885786,
+      81.21816010560772
+    ],
+    "stacks": [
+      0,
+      0,
+      27203,
+      0,
+      590,
+      32207
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 79,
+      "seat_4": 387,
+      "seat_5": 266,
+      "seat_0": 77,
+      "seat_1": 67,
+      "seat_2": 378
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 62,
+      "seat_4_fold": 140,
+      "seat_5_fold": 152,
+      "seat_0_fold": 53,
+      "seat_1_call": 10,
+      "seat_2_check": 92,
+      "seat_1_check": 11,
+      "seat_1_raise": 9,
+      "seat_2_fold": 98,
+      "seat_1_fold": 36,
+      "seat_2_raise": 144,
+      "seat_4_call": 83,
+      "seat_4_check": 85,
+      "seat_4_raise": 78,
+      "seat_5_call": 20,
+      "seat_5_raise": 59,
+      "seat_5_check": 34,
+      "seat_0_raise": 12,
+      "seat_2_call": 43,
+      "seat_0_check": 6,
+      "seat_3_raise": 10,
+      "seat_0_call": 5,
+      "seat_3_check": 4,
+      "seat_3_call": 2,
+      "seat_2_all_in": 1,
+      "seat_1_all_in": 1,
+      "seat_4_all_in": 1,
+      "seat_0_all_in": 1,
+      "seat_3_all_in": 1,
+      "seat_5_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          6902,
+          4200,
+          16729,
+          4675,
+          15611,
+          11883
+        ],
+        "after": [
+          6902,
+          0,
+          16679,
+          4575,
+          15311,
+          16533
+        ],
+        "awarded": {
+          "seat_1": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          6752,
+          18033,
+          4025,
+          8610,
+          22580
+        ],
+        "after": [
+          0,
+          18033,
+          3975,
+          15412,
+          22580
+        ],
+        "awarded": {
+          "seat_0": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          18033,
+          3975,
+          15412,
+          22580
+        ],
+        "after": [
+          22158,
+          0,
+          15362,
+          22480
+        ],
+        "awarded": {
+          "seat_3": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_reproduced",
+      "fullhouse_released",
+      "tournament_specialist",
+      "txnujk_32",
+      "solver_like",
+      "vikram_32"
+    ],
+    "scores": [
+      10.0,
+      0.0,
+      25.0,
+      71.1213047025332,
+      56.44923462047698,
+      72.42946067698982
+    ],
+    "stacks": [
+      0,
+      0,
+      0,
+      23641,
+      11299,
+      25060
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 339,
+      "seat_4": 242,
+      "seat_5": 245,
+      "seat_0": 168,
+      "seat_1": 60,
+      "seat_2": 141
+    },
+    "normalizations": {
+      "seat_2_raise_not_reopened_to_call": 1,
+      "seat_3_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 124,
+      "seat_4_fold": 142,
+      "seat_5_fold": 151,
+      "seat_0_fold": 66,
+      "seat_1_raise": 13,
+      "seat_2_fold": 98,
+      "seat_0_call": 29,
+      "seat_1_fold": 32,
+      "seat_3_raise": 84,
+      "seat_4_raise": 51,
+      "seat_3_call": 63,
+      "seat_4_call": 20,
+      "seat_3_check": 68,
+      "seat_4_check": 28,
+      "seat_5_check": 30,
+      "seat_5_call": 15,
+      "seat_2_raise": 14,
+      "seat_0_check": 34,
+      "seat_0_raise": 38,
+      "seat_5_raise": 48,
+      "seat_1_call": 7,
+      "seat_2_call": 10,
+      "seat_1_check": 7,
+      "seat_2_check": 17,
+      "seat_1_all_in": 1,
+      "seat_2_all_in": 2,
+      "seat_0_all_in": 1,
+      "seat_4_all_in": 1,
+      "seat_5_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          12530,
+          4395,
+          11050,
+          8716,
+          15813,
+          7496
+        ],
+        "after": [
+          12180,
+          0,
+          15945,
+          8716,
+          15763,
+          7396
+        ],
+        "awarded": {
+          "seat_1": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          11142,
+          11920,
+          20100,
+          5103,
+          11735
+        ],
+        "after": [
+          0,
+          11870,
+          31292,
+          5103,
+          11735
+        ],
+        "awarded": {
+          "seat_0": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          11570,
+          31442,
+          5353,
+          11635
+        ],
+        "after": [
+          0,
+          43062,
+          5353,
+          11585
+        ],
+        "awarded": {
+          "seat_2": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "solver_like",
+      "tournament_specialist",
+      "fullhouse_released",
+      "txnujk_32",
+      "vikram_32",
+      "fullhouse_reproduced"
+    ],
+    "scores": [
+      0.0,
+      76.02866666666665,
+      83.97133333333332,
+      40.0,
+      10.0,
+      25.0
+    ],
+    "stacks": [
+      0,
+      24043,
+      35957,
+      0,
+      0,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 244,
+      "seat_4": 98,
+      "seat_5": 202,
+      "seat_0": 51,
+      "seat_1": 248,
+      "seat_2": 281
+    },
+    "normalizations": {
+      "seat_0_raise_not_reopened_to_call": 1,
+      "seat_1_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 104,
+      "seat_4_fold": 62,
+      "seat_5_fold": 98,
+      "seat_0_fold": 24,
+      "seat_1_raise": 24,
+      "seat_2_raise": 124,
+      "seat_1_fold": 181,
+      "seat_2_fold": 81,
+      "seat_0_call": 8,
+      "seat_0_raise": 9,
+      "seat_2_call": 32,
+      "seat_0_check": 9,
+      "seat_2_check": 40,
+      "seat_5_raise": 38,
+      "seat_3_raise": 57,
+      "seat_5_call": 31,
+      "seat_5_check": 32,
+      "seat_2_all_in": 4,
+      "seat_3_call": 41,
+      "seat_1_check": 28,
+      "seat_4_call": 8,
+      "seat_4_raise": 17,
+      "seat_3_check": 41,
+      "seat_3_all_in": 1,
+      "seat_0_all_in": 1,
+      "seat_5_all_in": 3,
+      "seat_4_check": 10,
+      "seat_1_call": 13,
+      "seat_1_all_in": 2,
+      "seat_4_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          2122,
+          9200,
+          15162,
+          17950,
+          9741,
+          5825
+        ],
+        "after": [
+          0,
+          9200,
+          15112,
+          20122,
+          9741,
+          5825
+        ],
+        "awarded": {
+          "seat_0": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          7900,
+          13520,
+          26587,
+          6472,
+          5521
+        ],
+        "after": [
+          15097,
+          13470,
+          25912,
+          0,
+          5521
+        ],
+        "awarded": {
+          "seat_4": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          20422,
+          17238,
+          19219,
+          3121
+        ],
+        "after": [
+          23893,
+          17138,
+          18969,
+          0
+        ],
+        "awarded": {
+          "seat_5": 25.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_3"
+        ],
+        "before": [
+          23593,
+          35626,
+          781
+        ],
+        "after": [
+          23593,
+          36407,
+          0
+        ],
+        "awarded": {
+          "seat_3": 40.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "tournament_specialist",
+      "fullhouse_released",
+      "txnujk_32",
+      "vikram_32",
+      "fullhouse_reproduced",
+      "solver_like"
+    ],
+    "scores": [
+      25.0,
+      79.40333333333334,
+      80.59666666666666,
+      40.0,
+      0.0,
+      10.0
+    ],
+    "stacks": [
+      0,
+      29105,
+      30895,
+      0,
+      0,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 139,
+      "seat_4": 53,
+      "seat_5": 61,
+      "seat_0": 112,
+      "seat_1": 340,
+      "seat_2": 375
+    },
+    "normalizations": {
+      "seat_5_raise_not_reopened_to_call": 1,
+      "seat_3_raise_not_reopened_to_call": 2
+    },
+    "actions": {
+      "seat_3_fold": 86,
+      "seat_4_fold": 29,
+      "seat_5_fold": 52,
+      "seat_0_fold": 87,
+      "seat_1_raise": 140,
+      "seat_2_fold": 135,
+      "seat_1_fold": 74,
+      "seat_5_raise": 7,
+      "seat_4_raise": 12,
+      "seat_2_raise": 82,
+      "seat_4_call": 5,
+      "seat_4_check": 5,
+      "seat_2_check": 85,
+      "seat_1_call": 51,
+      "seat_0_call": 6,
+      "seat_0_check": 12,
+      "seat_0_raise": 4,
+      "seat_1_check": 75,
+      "seat_2_call": 72,
+      "seat_2_all_in": 1,
+      "seat_5_all_in": 2,
+      "seat_3_raise": 27,
+      "seat_4_all_in": 2,
+      "seat_3_check": 16,
+      "seat_3_call": 9,
+      "seat_0_all_in": 3,
+      "seat_3_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          10090,
+          10775,
+          17950,
+          10360,
+          10625,
+          200
+        ],
+        "after": [
+          10090,
+          21550,
+          17900,
+          10260,
+          0,
+          200
+        ],
+        "awarded": {
+          "seat_4": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          9640,
+          23259,
+          16412,
+          10639,
+          50
+        ],
+        "after": [
+          9540,
+          23259,
+          16412,
+          10789,
+          0
+        ],
+        "awarded": {
+          "seat_5": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3"
+        ],
+        "before": [
+          130,
+          33140,
+          19700,
+          7030
+        ],
+        "after": [
+          0,
+          33140,
+          19880,
+          6980
+        ],
+        "awarded": {
+          "seat_0": 25.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_3"
+        ],
+        "before": [
+          32640,
+          20830,
+          6530
+        ],
+        "after": [
+          32590,
+          27410,
+          0
+        ],
+        "awarded": {
+          "seat_3": 40.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_released",
+      "txnujk_32",
+      "vikram_32",
+      "fullhouse_reproduced",
+      "solver_like",
+      "tournament_specialist"
+    ],
+    "scores": [
+      97.91666666666666,
+      0.0,
+      10.0,
+      40.0,
+      25.0,
+      62.083333333333336
+    ],
+    "stacks": [
+      56875,
+      0,
+      0,
+      0,
+      0,
+      3125
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 318,
+      "seat_4": 148,
+      "seat_5": 267,
+      "seat_0": 327,
+      "seat_1": 107,
+      "seat_2": 147
+    },
+    "normalizations": {
+      "seat_2_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 132,
+      "seat_4_fold": 102,
+      "seat_5_fold": 177,
+      "seat_0_raise": 125,
+      "seat_1_fold": 59,
+      "seat_2_call": 13,
+      "seat_2_check": 6,
+      "seat_0_check": 60,
+      "seat_2_raise": 37,
+      "seat_0_call": 46,
+      "seat_0_fold": 93,
+      "seat_2_fold": 89,
+      "seat_5_raise": 35,
+      "seat_1_call": 16,
+      "seat_5_check": 30,
+      "seat_1_check": 18,
+      "seat_1_raise": 13,
+      "seat_3_raise": 75,
+      "seat_3_check": 57,
+      "seat_3_call": 51,
+      "seat_5_call": 19,
+      "seat_4_call": 13,
+      "seat_4_check": 9,
+      "seat_4_raise": 23,
+      "seat_0_all_in": 3,
+      "seat_5_all_in": 6,
+      "seat_2_all_in": 2,
+      "seat_3_all_in": 3,
+      "seat_1_all_in": 1,
+      "seat_4_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          25051,
+          3966,
+          8329,
+          11185,
+          9954,
+          1515
+        ],
+        "after": [
+          25051,
+          0,
+          12445,
+          11135,
+          9854,
+          1515
+        ],
+        "awarded": {
+          "seat_1": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          22344,
+          14932,
+          10885,
+          7159,
+          4680
+        ],
+        "after": [
+          37376,
+          0,
+          10785,
+          7159,
+          4680
+        ],
+        "awarded": {
+          "seat_2": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          36726,
+          10935,
+          6859,
+          5480
+        ],
+        "after": [
+          43685,
+          10935,
+          0,
+          5380
+        ],
+        "awarded": {
+          "seat_4": 25.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          46285,
+          9940,
+          3775
+        ],
+        "after": [
+          56275,
+          0,
+          3725
+        ],
+        "awarded": {
+          "seat_3": 40.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "txnujk_32",
+      "vikram_32",
+      "fullhouse_reproduced",
+      "solver_like",
+      "tournament_specialist",
+      "fullhouse_released"
+    ],
+    "scores": [
+      29.343706739621123,
+      57.23625379514811,
+      77.0375097259939,
+      61.38252973923687,
+      10.0,
+      0.0
+    ],
+    "stacks": [
+      1410,
+      12468,
+      30783,
+      15339,
+      0,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 292,
+      "seat_4": 122,
+      "seat_5": 76,
+      "seat_0": 322,
+      "seat_1": 236,
+      "seat_2": 310
+    },
+    "normalizations": {
+      "seat_3_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 157,
+      "seat_4_fold": 96,
+      "seat_5_fold": 30,
+      "seat_0_fold": 135,
+      "seat_1_raise": 46,
+      "seat_2_raise": 61,
+      "seat_1_fold": 156,
+      "seat_0_raise": 73,
+      "seat_2_fold": 149,
+      "seat_0_call": 50,
+      "seat_2_call": 48,
+      "seat_5_check": 16,
+      "seat_5_raise": 18,
+      "seat_0_check": 63,
+      "seat_2_check": 49,
+      "seat_1_call": 13,
+      "seat_1_check": 21,
+      "seat_5_call": 11,
+      "seat_3_call": 39,
+      "seat_3_raise": 60,
+      "seat_3_check": 36,
+      "seat_4_raise": 10,
+      "seat_4_check": 7,
+      "seat_4_call": 4,
+      "seat_5_all_in": 1,
+      "seat_4_all_in": 5,
+      "seat_2_all_in": 3,
+      "seat_0_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          11154,
+          8801,
+          11450,
+          9084,
+          11250,
+          8261
+        ],
+        "after": [
+          11154,
+          8751,
+          20811,
+          9084,
+          10200,
+          0
+        ],
+        "awarded": {
+          "seat_5": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4"
+        ],
+        "before": [
+          17281,
+          10432,
+          21365,
+          10072,
+          850
+        ],
+        "after": [
+          17281,
+          10432,
+          21315,
+          10972,
+          0
+        ],
+        "awarded": {
+          "seat_4": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "vikram_32",
+      "fullhouse_reproduced",
+      "solver_like",
+      "tournament_specialist",
+      "fullhouse_released",
+      "txnujk_32"
+    ],
+    "scores": [
+      81.19767408308994,
+      25.0,
+      62.37773435728482,
+      56.42459155962524,
+      0.0,
+      10.0
+    ],
+    "stacks": [
+      35002,
+      0,
+      14560,
+      10438,
+      0,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 233,
+      "seat_4": 40,
+      "seat_5": 94,
+      "seat_0": 212,
+      "seat_1": 228,
+      "seat_2": 285
+    },
+    "normalizations": {
+      "seat_0_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 161,
+      "seat_4_fold": 22,
+      "seat_5_fold": 40,
+      "seat_0_fold": 135,
+      "seat_1_call": 47,
+      "seat_2_check": 43,
+      "seat_1_raise": 51,
+      "seat_2_call": 38,
+      "seat_2_fold": 150,
+      "seat_5_raise": 21,
+      "seat_5_check": 17,
+      "seat_1_fold": 88,
+      "seat_4_raise": 8,
+      "seat_2_raise": 52,
+      "seat_0_call": 8,
+      "seat_0_raise": 55,
+      "seat_4_call": 5,
+      "seat_0_check": 13,
+      "seat_5_call": 15,
+      "seat_3_check": 26,
+      "seat_3_raise": 29,
+      "seat_4_check": 4,
+      "seat_1_check": 42,
+      "seat_4_all_in": 1,
+      "seat_3_call": 17,
+      "seat_5_all_in": 1,
+      "seat_0_all_in": 1,
+      "seat_2_all_in": 2
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          11051,
+          10165,
+          13269,
+          9000,
+          8856,
+          7659
+        ],
+        "after": [
+          11001,
+          19071,
+          13269,
+          9000,
+          0,
+          7659
+        ],
+        "awarded": {
+          "seat_4": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          11372,
+          15779,
+          11703,
+          11352,
+          9794
+        ],
+        "after": [
+          21166,
+          15779,
+          11703,
+          11352,
+          0
+        ],
+        "awarded": {
+          "seat_5": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3"
+        ],
+        "before": [
+          22109,
+          10040,
+          12229,
+          15622
+        ],
+        "after": [
+          22109,
+          0,
+          22369,
+          15522
+        ],
+        "awarded": {
+          "seat_1": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_reproduced",
+      "solver_like",
+      "tournament_specialist",
+      "fullhouse_released",
+      "txnujk_32",
+      "vikram_32"
+    ],
+    "scores": [
+      81.2311317797236,
+      10.0,
+      0.0,
+      25.0,
+      45.005006730076936,
+      73.76386149019946
+    ],
+    "stacks": [
+      33462,
+      0,
+      0,
+      0,
+      3062,
+      23476
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 188,
+      "seat_4": 392,
+      "seat_5": 295,
+      "seat_0": 375,
+      "seat_1": 99,
+      "seat_2": 65
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_call": 20,
+      "seat_4_raise": 87,
+      "seat_5_fold": 159,
+      "seat_0_fold": 114,
+      "seat_1_raise": 18,
+      "seat_2_fold": 46,
+      "seat_3_fold": 71,
+      "seat_4_fold": 132,
+      "seat_1_fold": 68,
+      "seat_3_raise": 62,
+      "seat_4_call": 83,
+      "seat_4_check": 89,
+      "seat_3_check": 32,
+      "seat_2_raise": 7,
+      "seat_0_call": 82,
+      "seat_0_check": 84,
+      "seat_2_check": 9,
+      "seat_0_raise": 91,
+      "seat_3_all_in": 3,
+      "seat_5_raise": 57,
+      "seat_2_call": 2,
+      "seat_5_call": 29,
+      "seat_5_check": 49,
+      "seat_1_call": 6,
+      "seat_4_all_in": 1,
+      "seat_2_all_in": 1,
+      "seat_1_check": 7,
+      "seat_0_all_in": 4,
+      "seat_5_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          3543,
+          12163,
+          6815,
+          18845,
+          8574,
+          10060
+        ],
+        "after": [
+          3543,
+          12113,
+          0,
+          18845,
+          15439,
+          10060
+        ],
+        "awarded": {
+          "seat_2": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          9800,
+          8669,
+          12134,
+          19783,
+          9614
+        ],
+        "after": [
+          18569,
+          0,
+          12034,
+          19783,
+          9614
+        ],
+        "awarded": {
+          "seat_1": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          19024,
+          4474,
+          21304,
+          15198
+        ],
+        "after": [
+          19024,
+          0,
+          21254,
+          19722
+        ],
+        "awarded": {
+          "seat_3": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "vikram_32",
+      "txnujk_32",
+      "solver_like",
+      "tournament_specialist",
+      "fullhouse_released",
+      "fullhouse_reproduced"
+    ],
+    "scores": [
+      64.03731816834794,
+      27.447913893289126,
+      10.0,
+      62.48481871686121,
+      0.0,
+      71.02994922150174
+    ],
+    "stacks": [
+      17947,
+      853,
+      0,
+      16682,
+      0,
+      24518
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 244,
+      "seat_4": 225,
+      "seat_5": 314,
+      "seat_0": 228,
+      "seat_1": 323,
+      "seat_2": 251
+    },
+    "normalizations": {
+      "seat_4_raise_not_reopened_to_call": 1,
+      "seat_3_raise_not_reopened_to_call": 1,
+      "seat_0_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 170,
+      "seat_4_fold": 117,
+      "seat_5_fold": 153,
+      "seat_0_raise": 37,
+      "seat_1_fold": 149,
+      "seat_2_fold": 157,
+      "seat_0_fold": 176,
+      "seat_1_raise": 67,
+      "seat_4_raise": 59,
+      "seat_3_raise": 28,
+      "seat_5_call": 41,
+      "seat_1_call": 47,
+      "seat_4_check": 20,
+      "seat_5_raise": 68,
+      "seat_5_check": 48,
+      "seat_1_check": 60,
+      "seat_2_raise": 38,
+      "seat_2_check": 30,
+      "seat_4_call": 25,
+      "seat_2_call": 25,
+      "seat_3_check": 34,
+      "seat_3_call": 10,
+      "seat_0_call": 6,
+      "seat_0_check": 9,
+      "seat_4_all_in": 4,
+      "seat_5_all_in": 4,
+      "seat_3_all_in": 2,
+      "seat_2_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          12950,
+          2837,
+          6615,
+          17532,
+          3312,
+          16754
+        ],
+        "after": [
+          16362,
+          2737,
+          6615,
+          17532,
+          0,
+          16754
+        ],
+        "awarded": {
+          "seat_4": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          17847,
+          2092,
+          6161,
+          16882,
+          17018
+        ],
+        "after": [
+          17847,
+          2042,
+          0,
+          16882,
+          23229
+        ],
+        "awarded": {
+          "seat_2": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "txnujk_32",
+      "solver_like",
+      "tournament_specialist",
+      "fullhouse_released",
+      "fullhouse_reproduced",
+      "vikram_32"
+    ],
+    "scores": [
+      71.9641624282268,
+      10.0,
+      30.64009875527895,
+      50.07621134175312,
+      0.0,
+      72.31952747474114
+    ],
+    "stacks": [
+      24779,
+      0,
+      1737,
+      8320,
+      0,
+      25164
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 279,
+      "seat_4": 76,
+      "seat_5": 263,
+      "seat_0": 279,
+      "seat_1": 113,
+      "seat_2": 213
+    },
+    "normalizations": {
+      "seat_0_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_call": 20,
+      "seat_4_fold": 39,
+      "seat_5_fold": 159,
+      "seat_0_raise": 58,
+      "seat_1_fold": 77,
+      "seat_2_fold": 172,
+      "seat_3_check": 53,
+      "seat_0_check": 39,
+      "seat_3_raise": 81,
+      "seat_0_call": 33,
+      "seat_0_fold": 148,
+      "seat_3_fold": 124,
+      "seat_4_raise": 11,
+      "seat_1_raise": 16,
+      "seat_4_call": 11,
+      "seat_5_raise": 57,
+      "seat_4_check": 12,
+      "seat_1_check": 11,
+      "seat_5_check": 24,
+      "seat_2_raise": 15,
+      "seat_5_call": 22,
+      "seat_0_all_in": 1,
+      "seat_2_check": 15,
+      "seat_4_all_in": 3,
+      "seat_1_call": 8,
+      "seat_2_call": 10,
+      "seat_5_all_in": 1,
+      "seat_1_all_in": 1,
+      "seat_3_all_in": 1,
+      "seat_2_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          18491,
+          10979,
+          9279,
+          4986,
+          1287,
+          14978
+        ],
+        "after": [
+          19828,
+          10979,
+          9279,
+          4936,
+          0,
+          14978
+        ],
+        "awarded": {
+          "seat_4": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          17978,
+          8,
+          7265,
+          10221,
+          24528
+        ],
+        "after": [
+          17878,
+          0,
+          7373,
+          10221,
+          24528
+        ],
+        "awarded": {
+          "seat_1": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "solver_like",
+      "tournament_specialist",
+      "fullhouse_released",
+      "fullhouse_reproduced",
+      "vikram_32",
+      "txnujk_32"
+    ],
+    "scores": [
+      63.958666666666666,
+      25.0,
+      96.04133333333334,
+      40.0,
+      10.0,
+      0.0
+    ],
+    "stacks": [
+      5938,
+      0,
+      54062,
+      0,
+      0,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 123,
+      "seat_4": 13,
+      "seat_5": 4,
+      "seat_0": 271,
+      "seat_1": 17,
+      "seat_2": 230
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 57,
+      "seat_4_fold": 6,
+      "seat_5_call": 2,
+      "seat_0_fold": 171,
+      "seat_1_fold": 8,
+      "seat_2_check": 15,
+      "seat_2_raise": 130,
+      "seat_5_raise": 2,
+      "seat_2_all_in": 3,
+      "seat_3_call": 16,
+      "seat_3_check": 12,
+      "seat_3_raise": 36,
+      "seat_2_call": 38,
+      "seat_0_raise": 45,
+      "seat_2_fold": 44,
+      "seat_1_check": 4,
+      "seat_1_call": 1,
+      "seat_4_raise": 3,
+      "seat_4_check": 1,
+      "seat_4_call": 2,
+      "seat_4_all_in": 1,
+      "seat_1_raise": 3,
+      "seat_1_all_in": 1,
+      "seat_0_check": 33,
+      "seat_0_call": 22,
+      "seat_3_all_in": 2
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "after": [
+          10000,
+          9950,
+          20050,
+          10000,
+          10000,
+          0
+        ],
+        "awarded": {
+          "seat_5": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4"
+        ],
+        "before": [
+          10000,
+          9550,
+          13000,
+          17450,
+          10000
+        ],
+        "after": [
+          10000,
+          9550,
+          23050,
+          17400,
+          0
+        ],
+        "awarded": {
+          "seat_4": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3"
+        ],
+        "before": [
+          9750,
+          9450,
+          23050,
+          17750
+        ],
+        "after": [
+          9750,
+          0,
+          32600,
+          17650
+        ],
+        "awarded": {
+          "seat_1": 25.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_3"
+        ],
+        "before": [
+          7992,
+          50983,
+          1025
+        ],
+        "after": [
+          7992,
+          52008,
+          0
+        ],
+        "awarded": {
+          "seat_3": 40.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "tournament_specialist",
+      "fullhouse_released",
+      "fullhouse_reproduced",
+      "vikram_32",
+      "txnujk_32",
+      "solver_like"
+    ],
+    "scores": [
+      35.79834263500261,
+      60.610520287488555,
+      0.0,
+      10.0,
+      57.67652005061247,
+      70.91461702689638
+    ],
+    "stacks": [
+      4023,
+      16344,
+      0,
+      0,
+      14304,
+      25329
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 240,
+      "seat_4": 296,
+      "seat_5": 253,
+      "seat_0": 236,
+      "seat_1": 267,
+      "seat_2": 40
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 171,
+      "seat_4_fold": 145,
+      "seat_5_fold": 153,
+      "seat_0_fold": 176,
+      "seat_1_raise": 86,
+      "seat_2_call": 6,
+      "seat_2_raise": 6,
+      "seat_1_fold": 129,
+      "seat_2_fold": 21,
+      "seat_0_raise": 29,
+      "seat_4_call": 33,
+      "seat_4_check": 35,
+      "seat_3_raise": 23,
+      "seat_4_raise": 83,
+      "seat_5_raise": 50,
+      "seat_1_call": 24,
+      "seat_5_call": 27,
+      "seat_2_check": 5,
+      "seat_5_check": 22,
+      "seat_2_all_in": 2,
+      "seat_3_call": 17,
+      "seat_3_check": 27,
+      "seat_5_all_in": 1,
+      "seat_0_check": 22,
+      "seat_0_call": 8,
+      "seat_0_all_in": 1,
+      "seat_1_check": 28,
+      "seat_3_all_in": 2
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          11662,
+          3981,
+          11550,
+          9928,
+          5448,
+          17431
+        ],
+        "after": [
+          11662,
+          3931,
+          0,
+          9928,
+          5448,
+          29031
+        ],
+        "awarded": {
+          "seat_2": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          4173,
+          21627,
+          7491,
+          9671,
+          17038
+        ],
+        "after": [
+          4073,
+          21627,
+          0,
+          9671,
+          24629
+        ],
+        "awarded": {
+          "seat_3": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_released",
+      "fullhouse_reproduced",
+      "vikram_32",
+      "txnujk_32",
+      "solver_like",
+      "tournament_specialist"
+    ],
+    "scores": [
+      10.0,
+      54.701820400170696,
+      69.43769646809983,
+      58.56848402671929,
+      0.0,
+      42.291999105010156
+    ],
+    "stacks": [
+      0,
+      13073,
+      24477,
+      15553,
+      0,
+      6897
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 322,
+      "seat_4": 93,
+      "seat_5": 228,
+      "seat_0": 175,
+      "seat_1": 289,
+      "seat_2": 264
+    },
+    "normalizations": {
+      "seat_0_raise_not_reopened_to_call": 1,
+      "seat_2_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_raise": 70,
+      "seat_4_fold": 60,
+      "seat_5_fold": 171,
+      "seat_0_fold": 92,
+      "seat_1_fold": 137,
+      "seat_2_fold": 167,
+      "seat_0_raise": 49,
+      "seat_1_call": 44,
+      "seat_3_fold": 136,
+      "seat_0_check": 16,
+      "seat_1_check": 39,
+      "seat_1_raise": 68,
+      "seat_0_call": 14,
+      "seat_4_call": 9,
+      "seat_4_raise": 15,
+      "seat_4_check": 8,
+      "seat_0_all_in": 4,
+      "seat_5_raise": 23,
+      "seat_3_call": 53,
+      "seat_3_check": 63,
+      "seat_5_check": 22,
+      "seat_2_raise": 47,
+      "seat_2_check": 35,
+      "seat_2_call": 14,
+      "seat_5_call": 12,
+      "seat_4_all_in": 1,
+      "seat_1_all_in": 1,
+      "seat_2_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          14315,
+          9682,
+          7251,
+          14260,
+          1207,
+          13285
+        ],
+        "after": [
+          14215,
+          9682,
+          8608,
+          14260,
+          0,
+          13235
+        ],
+        "awarded": {
+          "seat_4": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          6107,
+          8258,
+          19492,
+          15356,
+          10787
+        ],
+        "after": [
+          0,
+          8158,
+          25699,
+          15356,
+          10787
+        ],
+        "awarded": {
+          "seat_0": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_reproduced",
+      "vikram_32",
+      "txnujk_32",
+      "solver_like",
+      "tournament_specialist",
+      "fullhouse_released"
+    ],
+    "scores": [
+      51.17799319102111,
+      10.0,
+      73.41175428758955,
+      55.3744997195043,
+      45.03575280188507,
+      0.0
+    ],
+    "stacks": [
+      10797,
+      0,
+      28175,
+      13168,
+      7860,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 238,
+      "seat_4": 234,
+      "seat_5": 30,
+      "seat_0": 303,
+      "seat_1": 117,
+      "seat_2": 326
+    },
+    "normalizations": {
+      "seat_1_raise_not_reopened_to_call": 1,
+      "seat_2_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_raise": 37,
+      "seat_4_fold": 168,
+      "seat_5_fold": 13,
+      "seat_0_fold": 136,
+      "seat_1_fold": 69,
+      "seat_2_fold": 130,
+      "seat_0_call": 44,
+      "seat_3_check": 38,
+      "seat_0_check": 64,
+      "seat_0_raise": 59,
+      "seat_3_fold": 148,
+      "seat_1_raise": 23,
+      "seat_5_call": 5,
+      "seat_5_check": 6,
+      "seat_5_raise": 5,
+      "seat_1_call": 10,
+      "seat_4_raise": 27,
+      "seat_1_check": 14,
+      "seat_2_call": 56,
+      "seat_2_raise": 69,
+      "seat_4_all_in": 1,
+      "seat_5_all_in": 1,
+      "seat_4_check": 34,
+      "seat_4_call": 4,
+      "seat_2_check": 70,
+      "seat_3_call": 15,
+      "seat_2_all_in": 1,
+      "seat_1_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          8950,
+          12818,
+          9950,
+          10500,
+          10700,
+          7082
+        ],
+        "after": [
+          8900,
+          19950,
+          9950,
+          10500,
+          10700,
+          0
+        ],
+        "awarded": {
+          "seat_5": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4"
+        ],
+        "before": [
+          9202,
+          6098,
+          24260,
+          12900,
+          7540
+        ],
+        "after": [
+          8671,
+          0,
+          30939,
+          12900,
+          7490
+        ],
+        "awarded": {
+          "seat_1": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "vikram_32",
+      "tournament_specialist",
+      "txnujk_32",
+      "solver_like",
+      "fullhouse_reproduced",
+      "fullhouse_released"
+    ],
+    "scores": [
+      74.6,
+      25.0,
+      40.0,
+      0.0,
+      10.0,
+      85.4
+    ],
+    "stacks": [
+      21900,
+      0,
+      0,
+      0,
+      0,
+      38100
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 68,
+      "seat_4": 142,
+      "seat_5": 315,
+      "seat_0": 287,
+      "seat_1": 218,
+      "seat_2": 305
+    },
+    "normalizations": {
+      "seat_5_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 38,
+      "seat_4_fold": 92,
+      "seat_5_fold": 122,
+      "seat_0_raise": 69,
+      "seat_1_fold": 140,
+      "seat_2_fold": 128,
+      "seat_0_fold": 164,
+      "seat_2_raise": 71,
+      "seat_3_call": 11,
+      "seat_1_raise": 28,
+      "seat_0_call": 23,
+      "seat_2_call": 55,
+      "seat_0_all_in": 2,
+      "seat_2_check": 49,
+      "seat_3_check": 8,
+      "seat_5_raise": 103,
+      "seat_3_raise": 10,
+      "seat_2_all_in": 2,
+      "seat_4_raise": 23,
+      "seat_5_call": 44,
+      "seat_5_check": 42,
+      "seat_1_check": 26,
+      "seat_4_call": 15,
+      "seat_4_check": 11,
+      "seat_0_check": 29,
+      "seat_3_all_in": 1,
+      "seat_1_call": 22,
+      "seat_5_all_in": 4,
+      "seat_1_all_in": 2,
+      "seat_4_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          5244,
+          9400,
+          13773,
+          11918,
+          9080,
+          10585
+        ],
+        "after": [
+          5244,
+          9400,
+          25791,
+          0,
+          8980,
+          10585
+        ],
+        "awarded": {
+          "seat_3": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          8041,
+          7840,
+          25662,
+          2557,
+          15900
+        ],
+        "after": [
+          7991,
+          7740,
+          28369,
+          0,
+          15900
+        ],
+        "awarded": {
+          "seat_4": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_5"
+        ],
+        "before": [
+          11364,
+          5736,
+          29457,
+          13443
+        ],
+        "after": [
+          11314,
+          0,
+          29457,
+          19229
+        ],
+        "awarded": {
+          "seat_1": 25.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_5"
+        ],
+        "before": [
+          23374,
+          45,
+          36581
+        ],
+        "after": [
+          23154,
+          0,
+          36846
+        ],
+        "awarded": {
+          "seat_2": 40.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "tournament_specialist",
+      "txnujk_32",
+      "solver_like",
+      "fullhouse_reproduced",
+      "fullhouse_released",
+      "vikram_32"
+    ],
+    "scores": [
+      55.265015251094596,
+      10.0,
+      25.0,
+      0.0,
+      84.15777004934431,
+      60.5772146995611
+    ],
+    "stacks": [
+      9060,
+      0,
+      0,
+      0,
+      38523,
+      12417
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 106,
+      "seat_4": 294,
+      "seat_5": 275,
+      "seat_0": 244,
+      "seat_1": 205,
+      "seat_2": 208
+    },
+    "normalizations": {
+      "seat_4_raise_not_reopened_to_call": 2,
+      "seat_5_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 61,
+      "seat_4_fold": 115,
+      "seat_5_fold": 166,
+      "seat_0_fold": 180,
+      "seat_1_fold": 99,
+      "seat_1_raise": 49,
+      "seat_2_raise": 45,
+      "seat_2_fold": 118,
+      "seat_0_raise": 23,
+      "seat_0_call": 14,
+      "seat_0_check": 26,
+      "seat_2_check": 21,
+      "seat_4_raise": 102,
+      "seat_0_all_in": 1,
+      "seat_2_call": 22,
+      "seat_5_call": 24,
+      "seat_5_raise": 60,
+      "seat_5_check": 24,
+      "seat_3_raise": 12,
+      "seat_3_call": 12,
+      "seat_3_check": 19,
+      "seat_1_check": 27,
+      "seat_1_call": 28,
+      "seat_4_call": 40,
+      "seat_4_check": 34,
+      "seat_4_all_in": 3,
+      "seat_1_all_in": 2,
+      "seat_3_all_in": 2,
+      "seat_5_all_in": 1,
+      "seat_2_all_in": 2
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          13565,
+          11130,
+          5025,
+          5593,
+          11807,
+          12880
+        ],
+        "after": [
+          13565,
+          11130,
+          4975,
+          0,
+          17850,
+          12480
+        ],
+        "awarded": {
+          "seat_3": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          11540,
+          1900,
+          2476,
+          25255,
+          18829
+        ],
+        "after": [
+          11440,
+          0,
+          2476,
+          27305,
+          18779
+        ],
+        "awarded": {
+          "seat_1": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          11160,
+          2022,
+          32690,
+          14128
+        ],
+        "after": [
+          11160,
+          0,
+          32590,
+          16250
+        ],
+        "awarded": {
+          "seat_2": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "txnujk_32",
+      "solver_like",
+      "fullhouse_reproduced",
+      "fullhouse_released",
+      "vikram_32",
+      "tournament_specialist"
+    ],
+    "scores": [
+      25.0,
+      10.0,
+      59.55894040184022,
+      0.0,
+      69.27245087661993,
+      71.16860872153984
+    ],
+    "stacks": [
+      0,
+      0,
+      13791,
+      0,
+      22126,
+      24083
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 208,
+      "seat_4": 296,
+      "seat_5": 261,
+      "seat_0": 307,
+      "seat_1": 233,
+      "seat_2": 311
+    },
+    "normalizations": {
+      "seat_4_raise_not_reopened_to_call": 1,
+      "seat_0_raise_not_reopened_to_call": 2,
+      "seat_2_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 121,
+      "seat_4_fold": 161,
+      "seat_5_fold": 178,
+      "seat_0_call": 51,
+      "seat_1_fold": 130,
+      "seat_2_check": 43,
+      "seat_0_raise": 62,
+      "seat_2_call": 55,
+      "seat_0_check": 60,
+      "seat_2_raise": 68,
+      "seat_0_fold": 131,
+      "seat_3_raise": 39,
+      "seat_1_call": 29,
+      "seat_2_fold": 143,
+      "seat_1_check": 32,
+      "seat_4_raise": 84,
+      "seat_4_call": 17,
+      "seat_3_call": 26,
+      "seat_3_check": 19,
+      "seat_2_all_in": 2,
+      "seat_4_check": 33,
+      "seat_5_raise": 34,
+      "seat_1_raise": 40,
+      "seat_5_check": 29,
+      "seat_5_call": 19,
+      "seat_3_all_in": 3,
+      "seat_0_all_in": 3,
+      "seat_1_all_in": 2,
+      "seat_4_all_in": 1,
+      "seat_5_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          12009,
+          8142,
+          9696,
+          5144,
+          7277,
+          17732
+        ],
+        "after": [
+          17303,
+          8092,
+          9596,
+          0,
+          7277,
+          17732
+        ],
+        "awarded": {
+          "seat_3": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          192,
+          615,
+          10196,
+          15450,
+          33547
+        ],
+        "after": [
+          142,
+          0,
+          10861,
+          15450,
+          33547
+        ],
+        "awarded": {
+          "seat_1": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          142,
+          10861,
+          15450,
+          33547
+        ],
+        "after": [
+          0,
+          10719,
+          15734,
+          33547
+        ],
+        "awarded": {
+          "seat_0": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "solver_like",
+      "fullhouse_reproduced",
+      "fullhouse_released",
+      "vikram_32",
+      "tournament_specialist",
+      "txnujk_32"
+    ],
+    "scores": [
+      25.0,
+      79.76895730605423,
+      0.0,
+      10.0,
+      44.92796572234884,
+      75.30307697159691
+    ],
+    "stacks": [
+      0,
+      31464,
+      0,
+      0,
+      3054,
+      25482
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 165,
+      "seat_4": 260,
+      "seat_5": 306,
+      "seat_0": 227,
+      "seat_1": 320,
+      "seat_2": 199
+    },
+    "normalizations": {
+      "seat_1_raise_not_reopened_to_call": 3
+    },
+    "actions": {
+      "seat_3_fold": 123,
+      "seat_4_fold": 177,
+      "seat_5_call": 42,
+      "seat_0_fold": 141,
+      "seat_1_fold": 123,
+      "seat_2_check": 26,
+      "seat_5_raise": 69,
+      "seat_2_call": 25,
+      "seat_5_check": 51,
+      "seat_2_raise": 43,
+      "seat_5_fold": 144,
+      "seat_1_call": 50,
+      "seat_1_raise": 92,
+      "seat_2_fold": 103,
+      "seat_0_raise": 42,
+      "seat_3_raise": 19,
+      "seat_0_call": 21,
+      "seat_0_check": 21,
+      "seat_3_check": 12,
+      "seat_0_all_in": 2,
+      "seat_2_all_in": 2,
+      "seat_1_check": 48,
+      "seat_3_call": 9,
+      "seat_4_raise": 28,
+      "seat_4_call": 16,
+      "seat_4_check": 32,
+      "seat_1_all_in": 7,
+      "seat_4_all_in": 7,
+      "seat_3_all_in": 2
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          4527,
+          22622,
+          3606,
+          2153,
+          2448,
+          24644
+        ],
+        "after": [
+          4527,
+          26478,
+          0,
+          2153,
+          2448,
+          24394
+        ],
+        "awarded": {
+          "seat_2": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          4377,
+          26323,
+          1503,
+          1928,
+          25869
+        ],
+        "after": [
+          4277,
+          27976,
+          0,
+          1928,
+          25819
+        ],
+        "awarded": {
+          "seat_3": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          1116,
+          25398,
+          1902,
+          31584
+        ],
+        "after": [
+          0,
+          26564,
+          1902,
+          31534
+        ],
+        "awarded": {
+          "seat_0": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_reproduced",
+      "fullhouse_released",
+      "vikram_32",
+      "tournament_specialist",
+      "txnujk_32",
+      "solver_like"
+    ],
+    "scores": [
+      0.0,
+      10.0,
+      73.982,
+      25.0,
+      86.018,
+      40.0
+    ],
+    "stacks": [
+      0,
+      0,
+      20973,
+      0,
+      39027,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 201,
+      "seat_4": 278,
+      "seat_5": 200,
+      "seat_0": 48,
+      "seat_1": 65,
+      "seat_2": 268
+    },
+    "normalizations": {
+      "seat_3_raise_not_reopened_to_call": 1,
+      "seat_5_raise_not_reopened_to_call": 1,
+      "seat_2_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 141,
+      "seat_4_fold": 129,
+      "seat_5_fold": 129,
+      "seat_0_raise": 13,
+      "seat_1_fold": 38,
+      "seat_2_fold": 146,
+      "seat_0_fold": 16,
+      "seat_1_raise": 12,
+      "seat_2_raise": 63,
+      "seat_1_call": 10,
+      "seat_2_call": 29,
+      "seat_2_all_in": 2,
+      "seat_4_call": 50,
+      "seat_0_check": 10,
+      "seat_4_check": 35,
+      "seat_4_raise": 64,
+      "seat_0_call": 6,
+      "seat_0_all_in": 3,
+      "seat_5_raise": 47,
+      "seat_5_check": 9,
+      "seat_5_call": 14,
+      "seat_3_raise": 22,
+      "seat_3_call": 16,
+      "seat_3_check": 19,
+      "seat_1_all_in": 2,
+      "seat_3_all_in": 3,
+      "seat_1_check": 3,
+      "seat_2_check": 28,
+      "seat_5_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          1102,
+          3521,
+          28176,
+          10552,
+          8250,
+          8399
+        ],
+        "after": [
+          0,
+          3521,
+          28176,
+          10502,
+          8150,
+          9651
+        ],
+        "awarded": {
+          "seat_0": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          4271,
+          26535,
+          9503,
+          7475,
+          12216
+        ],
+        "after": [
+          0,
+          26485,
+          9403,
+          11896,
+          12216
+        ],
+        "awarded": {
+          "seat_1": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          23030,
+          1031,
+          34639,
+          1300
+        ],
+        "after": [
+          24211,
+          0,
+          34589,
+          1200
+        ],
+        "awarded": {
+          "seat_3": 25.0
+        }
+      },
+      {
+        "alive": [
+          "seat_2",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          23421,
+          33359,
+          3220
+        ],
+        "after": [
+          23421,
+          36579,
+          0
+        ],
+        "awarded": {
+          "seat_5": 40.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_released",
+      "vikram_32",
+      "tournament_specialist",
+      "txnujk_32",
+      "solver_like",
+      "fullhouse_reproduced"
+    ],
+    "scores": [
+      0.0,
+      72.63843041051615,
+      62.35584186161404,
+      65.00572772786981,
+      25.0,
+      10.0
+    ],
+    "stacks": [
+      0,
+      25766,
+      16011,
+      18223,
+      0,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 291,
+      "seat_4": 84,
+      "seat_5": 55,
+      "seat_0": 14,
+      "seat_1": 248,
+      "seat_2": 231
+    },
+    "normalizations": {
+      "seat_5_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 113,
+      "seat_4_fold": 53,
+      "seat_5_fold": 31,
+      "seat_0_raise": 7,
+      "seat_1_fold": 136,
+      "seat_2_fold": 154,
+      "seat_0_fold": 5,
+      "seat_1_raise": 62,
+      "seat_2_raise": 37,
+      "seat_3_raise": 73,
+      "seat_2_call": 12,
+      "seat_2_check": 27,
+      "seat_0_all_in": 2,
+      "seat_2_all_in": 1,
+      "seat_5_raise": 8,
+      "seat_5_all_in": 4,
+      "seat_4_raise": 9,
+      "seat_4_call": 11,
+      "seat_4_check": 11,
+      "seat_3_check": 57,
+      "seat_3_call": 48,
+      "seat_5_call": 6,
+      "seat_1_call": 16,
+      "seat_1_all_in": 2,
+      "seat_5_check": 6,
+      "seat_1_check": 32
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          1680,
+          9880,
+          19390,
+          9300,
+          9900,
+          9850
+        ],
+        "after": [
+          0,
+          9880,
+          19390,
+          9300,
+          9850,
+          11580
+        ],
+        "awarded": {
+          "seat_0": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          19460,
+          18265,
+          8100,
+          10875,
+          3300
+        ],
+        "after": [
+          22810,
+          18265,
+          8100,
+          10825,
+          0
+        ],
+        "awarded": {
+          "seat_5": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4"
+        ],
+        "before": [
+          21750,
+          11155,
+          16568,
+          10527
+        ],
+        "after": [
+          21521,
+          11155,
+          27324,
+          0
+        ],
+        "awarded": {
+          "seat_4": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "tournament_specialist",
+      "solver_like",
+      "fullhouse_reproduced",
+      "vikram_32",
+      "txnujk_32",
+      "fullhouse_released"
+    ],
+    "scores": [
+      10.0,
+      25.0,
+      0.0,
+      54.63280300682315,
+      60.22625706728381,
+      85.14093992589304
+    ],
+    "stacks": [
+      0,
+      0,
+      0,
+      8435,
+      11847,
+      39718
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 294,
+      "seat_4": 328,
+      "seat_5": 312,
+      "seat_0": 81,
+      "seat_1": 117,
+      "seat_2": 41
+    },
+    "normalizations": {
+      "seat_5_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 152,
+      "seat_4_fold": 126,
+      "seat_5_fold": 108,
+      "seat_0_raise": 6,
+      "seat_1_fold": 72,
+      "seat_2_call": 6,
+      "seat_2_raise": 12,
+      "seat_0_fold": 60,
+      "seat_5_raise": 110,
+      "seat_5_call": 39,
+      "seat_2_check": 5,
+      "seat_5_check": 51,
+      "seat_2_fold": 16,
+      "seat_1_raise": 20,
+      "seat_1_check": 12,
+      "seat_1_call": 13,
+      "seat_3_raise": 75,
+      "seat_3_call": 30,
+      "seat_3_check": 36,
+      "seat_2_all_in": 2,
+      "seat_3_all_in": 1,
+      "seat_4_raise": 77,
+      "seat_4_check": 66,
+      "seat_4_call": 59,
+      "seat_5_all_in": 4,
+      "seat_0_call": 10,
+      "seat_0_check": 3,
+      "seat_0_all_in": 2
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          9550,
+          9633,
+          476,
+          12679,
+          10042,
+          17620
+        ],
+        "after": [
+          9550,
+          9583,
+          0,
+          12679,
+          10042,
+          18146
+        ],
+        "awarded": {
+          "seat_2": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          3374,
+          4330,
+          17190,
+          12595,
+          22511
+        ],
+        "after": [
+          0,
+          4280,
+          17090,
+          12595,
+          26035
+        ],
+        "awarded": {
+          "seat_0": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          2141,
+          16511,
+          18374,
+          22974
+        ],
+        "after": [
+          0,
+          16511,
+          14734,
+          28755
+        ],
+        "awarded": {
+          "seat_1": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "solver_like",
+      "fullhouse_reproduced",
+      "vikram_32",
+      "txnujk_32",
+      "fullhouse_released",
+      "tournament_specialist"
+    ],
+    "scores": [
+      0.0,
+      44.131415424488004,
+      61.6154411317523,
+      10.0,
+      64.9431150163564,
+      54.31002842740331
+    ],
+    "stacks": [
+      0,
+      7929,
+      18115,
+      0,
+      20782,
+      13174
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 154,
+      "seat_4": 300,
+      "seat_5": 237,
+      "seat_0": 100,
+      "seat_1": 374,
+      "seat_2": 279
+    },
+    "normalizations": {
+      "seat_5_raise_not_reopened_to_call": 1,
+      "seat_4_raise_not_reopened_to_call": 1,
+      "seat_2_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 61,
+      "seat_4_fold": 135,
+      "seat_5_fold": 182,
+      "seat_0_raise": 17,
+      "seat_1_fold": 133,
+      "seat_2_fold": 160,
+      "seat_5_raise": 16,
+      "seat_0_fold": 64,
+      "seat_1_raise": 88,
+      "seat_4_call": 37,
+      "seat_4_check": 41,
+      "seat_1_check": 86,
+      "seat_4_raise": 85,
+      "seat_2_raise": 55,
+      "seat_1_call": 62,
+      "seat_2_check": 43,
+      "seat_2_call": 20,
+      "seat_3_raise": 45,
+      "seat_5_call": 16,
+      "seat_5_check": 22,
+      "seat_3_check": 28,
+      "seat_3_call": 19,
+      "seat_0_call": 10,
+      "seat_0_check": 9,
+      "seat_1_all_in": 5,
+      "seat_3_all_in": 1,
+      "seat_5_all_in": 1,
+      "seat_4_all_in": 2,
+      "seat_2_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          8037,
+          8257,
+          9551,
+          5930,
+          17985,
+          10240
+        ],
+        "after": [
+          0,
+          8257,
+          17738,
+          5930,
+          17935,
+          10140
+        ],
+        "awarded": {
+          "seat_0": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          11485,
+          17816,
+          2455,
+          17079,
+          11165
+        ],
+        "after": [
+          11485,
+          17816,
+          0,
+          17029,
+          13670
+        ],
+        "awarded": {
+          "seat_3": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_reproduced",
+      "vikram_32",
+      "txnujk_32",
+      "fullhouse_released",
+      "tournament_specialist",
+      "solver_like"
+    ],
+    "scores": [
+      46.76653333244704,
+      60.39625867366558,
+      10.0,
+      0.0,
+      47.23093644803507,
+      70.60627154585232
+    ],
+    "stacks": [
+      8786,
+      16718,
+      0,
+      0,
+      9003,
+      25493
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 60,
+      "seat_4": 255,
+      "seat_5": 244,
+      "seat_0": 305,
+      "seat_1": 283,
+      "seat_2": 171
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 28,
+      "seat_4_fold": 171,
+      "seat_5_fold": 150,
+      "seat_0_raise": 65,
+      "seat_1_fold": 153,
+      "seat_2_fold": 67,
+      "seat_5_raise": 52,
+      "seat_0_fold": 128,
+      "seat_2_call": 28,
+      "seat_2_check": 36,
+      "seat_5_check": 20,
+      "seat_1_raise": 66,
+      "seat_2_raise": 37,
+      "seat_0_call": 56,
+      "seat_1_check": 42,
+      "seat_0_check": 53,
+      "seat_3_raise": 11,
+      "seat_4_raise": 28,
+      "seat_4_call": 21,
+      "seat_3_call": 7,
+      "seat_3_check": 12,
+      "seat_4_check": 35,
+      "seat_5_call": 22,
+      "seat_1_call": 22,
+      "seat_3_all_in": 2,
+      "seat_0_all_in": 3,
+      "seat_2_all_in": 3
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          12344,
+          17464,
+          11602,
+          4273,
+          7014,
+          7303
+        ],
+        "after": [
+          16667,
+          17464,
+          11552,
+          0,
+          7014,
+          7303
+        ],
+        "awarded": {
+          "seat_3": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          11920,
+          13735,
+          2090,
+          8494,
+          23761
+        ],
+        "after": [
+          11870,
+          13635,
+          0,
+          8494,
+          26001
+        ],
+        "awarded": {
+          "seat_2": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "vikram_32",
+      "txnujk_32",
+      "fullhouse_released",
+      "tournament_specialist",
+      "solver_like",
+      "fullhouse_reproduced"
+    ],
+    "scores": [
+      25.0,
+      70.192052834871,
+      0.0,
+      56.03310379708884,
+      10.0,
+      73.77484336804017
+    ],
+    "stacks": [
+      0,
+      22569,
+      0,
+      10949,
+      0,
+      26482
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 251,
+      "seat_4": 47,
+      "seat_5": 410,
+      "seat_0": 69,
+      "seat_1": 404,
+      "seat_2": 52
+    },
+    "normalizations": {
+      "seat_5_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_fold": 173,
+      "seat_4_fold": 24,
+      "seat_5_fold": 93,
+      "seat_0_raise": 6,
+      "seat_1_fold": 102,
+      "seat_2_call": 8,
+      "seat_2_raise": 16,
+      "seat_0_call": 5,
+      "seat_2_check": 11,
+      "seat_0_check": 7,
+      "seat_5_call": 103,
+      "seat_0_fold": 49,
+      "seat_5_raise": 108,
+      "seat_2_fold": 16,
+      "seat_1_raise": 115,
+      "seat_1_call": 71,
+      "seat_3_raise": 15,
+      "seat_3_check": 45,
+      "seat_3_call": 17,
+      "seat_4_raise": 7,
+      "seat_4_call": 7,
+      "seat_1_check": 115,
+      "seat_4_check": 8,
+      "seat_5_check": 105,
+      "seat_1_all_in": 1,
+      "seat_2_all_in": 1,
+      "seat_4_all_in": 1,
+      "seat_0_all_in": 2,
+      "seat_3_all_in": 1,
+      "seat_5_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          9085,
+          12890,
+          4880,
+          8360,
+          5010,
+          19775
+        ],
+        "after": [
+          9085,
+          12840,
+          0,
+          8360,
+          5010,
+          24705
+        ],
+        "awarded": {
+          "seat_2": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          8735,
+          11840,
+          8160,
+          5060,
+          26205
+        ],
+        "after": [
+          8735,
+          17150,
+          8160,
+          0,
+          25955
+        ],
+        "awarded": {
+          "seat_4": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_3",
+          "seat_5"
+        ],
+        "before": [
+          1216,
+          17325,
+          16049,
+          25410
+        ],
+        "after": [
+          0,
+          17275,
+          15949,
+          26776
+        ],
+        "awarded": {
+          "seat_0": 25.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "txnujk_32",
+      "fullhouse_released",
+      "tournament_specialist",
+      "solver_like",
+      "fullhouse_reproduced",
+      "vikram_32"
+    ],
+    "scores": [
+      50.29460678685126,
+      0.0,
+      38.94960247906272,
+      52.285629406315834,
+      10.0,
+      83.47016132777019
+    ],
+    "stacks": [
+      8282,
+      0,
+      4155,
+      9211,
+      0,
+      38352
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 246,
+      "seat_4": 186,
+      "seat_5": 262,
+      "seat_0": 280,
+      "seat_1": 20,
+      "seat_2": 214
+    },
+    "normalizations": {
+      "seat_5_raise_not_reopened_to_call": 1,
+      "seat_0_raise_not_reopened_to_call": 1
+    },
+    "actions": {
+      "seat_3_raise": 51,
+      "seat_4_fold": 82,
+      "seat_5_fold": 149,
+      "seat_0_fold": 131,
+      "seat_1_fold": 8,
+      "seat_2_fold": 181,
+      "seat_5_raise": 66,
+      "seat_3_fold": 155,
+      "seat_1_raise": 6,
+      "seat_4_call": 27,
+      "seat_4_check": 28,
+      "seat_1_check": 3,
+      "seat_4_raise": 44,
+      "seat_5_call": 20,
+      "seat_5_check": 25,
+      "seat_2_raise": 14,
+      "seat_1_call": 2,
+      "seat_2_check": 10,
+      "seat_2_call": 9,
+      "seat_0_raise": 71,
+      "seat_0_call": 51,
+      "seat_4_all_in": 5,
+      "seat_1_all_in": 1,
+      "seat_3_check": 22,
+      "seat_3_call": 18,
+      "seat_0_check": 26,
+      "seat_5_all_in": 2,
+      "seat_0_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          9400,
+          8100,
+          10900,
+          10500,
+          11350,
+          9750
+        ],
+        "after": [
+          9350,
+          0,
+          10900,
+          10500,
+          19500,
+          9750
+        ],
+        "awarded": {
+          "seat_1": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          4179,
+          5662,
+          13631,
+          1427,
+          35101
+        ],
+        "after": [
+          5706,
+          5662,
+          13631,
+          0,
+          35001
+        ],
+        "awarded": {
+          "seat_4": 10.0
+        }
+      }
+    ],
+    "exceptions": {}
+  },
+  {
+    "roster": [
+      "fullhouse_released",
+      "tournament_specialist",
+      "solver_like",
+      "fullhouse_reproduced",
+      "vikram_32",
+      "txnujk_32"
+    ],
+    "scores": [
+      10.0,
+      40.0,
+      75.218,
+      0.0,
+      84.78200000000001,
+      25.0
+    ],
+    "stacks": [
+      0,
+      0,
+      22827,
+      0,
+      37173,
+      0
+    ],
+    "hands": 200,
+    "decisions": {
+      "seat_3": 29,
+      "seat_4": 233,
+      "seat_5": 203,
+      "seat_0": 109,
+      "seat_1": 159,
+      "seat_2": 245
+    },
+    "normalizations": {},
+    "actions": {
+      "seat_3_fold": 12,
+      "seat_4_fold": 108,
+      "seat_5_fold": 92,
+      "seat_0_raise": 25,
+      "seat_1_fold": 133,
+      "seat_2_fold": 159,
+      "seat_5_raise": 37,
+      "seat_0_fold": 56,
+      "seat_2_call": 17,
+      "seat_2_check": 28,
+      "seat_2_raise": 40,
+      "seat_5_call": 42,
+      "seat_5_check": 32,
+      "seat_3_call": 6,
+      "seat_4_check": 25,
+      "seat_3_check": 4,
+      "seat_4_raise": 81,
+      "seat_1_check": 6,
+      "seat_1_call": 6,
+      "seat_1_raise": 14,
+      "seat_0_call": 11,
+      "seat_3_raise": 5,
+      "seat_0_check": 15,
+      "seat_3_all_in": 2,
+      "seat_4_call": 17,
+      "seat_0_all_in": 2,
+      "seat_4_all_in": 2,
+      "seat_2_all_in": 1
+    },
+    "eliminations": [
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_3",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          8350,
+          9779,
+          11779,
+          1129,
+          9921,
+          19042
+        ],
+        "after": [
+          8350,
+          9729,
+          11679,
+          0,
+          9921,
+          20321
+        ],
+        "awarded": {
+          "seat_3": 0.0
+        }
+      },
+      {
+        "alive": [
+          "seat_0",
+          "seat_1",
+          "seat_2",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          7019,
+          8858,
+          17693,
+          14790,
+          11640
+        ],
+        "after": [
+          0,
+          8858,
+          24862,
+          14740,
+          11540
+        ],
+        "awarded": {
+          "seat_0": 10.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_4",
+          "seat_5"
+        ],
+        "before": [
+          7858,
+          23589,
+          21945,
+          6608
+        ],
+        "after": [
+          7758,
+          23589,
+          28653,
+          0
+        ],
+        "awarded": {
+          "seat_5": 25.0
+        }
+      },
+      {
+        "alive": [
+          "seat_1",
+          "seat_2",
+          "seat_4"
+        ],
+        "before": [
+          7908,
+          23539,
+          28553
+        ],
+        "after": [
+          0,
+          23539,
+          36461
+        ],
+        "awarded": {
+          "seat_1": 40.0
+        }
+      }
+    ],
+    "exceptions": {}
+  }
+]

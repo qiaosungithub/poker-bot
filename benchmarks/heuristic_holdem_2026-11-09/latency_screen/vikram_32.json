@@ -1,0 +1,83 @@
+{
+  "wall": {
+    "n": 400,
+    "p50_ms": 0.476685,
+    "p99_ms": 0.5744460999999983,
+    "p999_ms": 0.88515793,
+    "max_ms": 0.88912,
+    "over_1ms": 0
+  },
+  "cpu": {
+    "n": 400,
+    "p50_ms": 0.477905,
+    "p99_ms": 0.5767062999999982,
+    "p999_ms": 0.8865232399999999,
+    "max_ms": 0.89021,
+    "over_1ms": 0
+  },
+  "by_street": {
+    "preflop": {
+      "n": 100,
+      "p50_ms": 0.0323055,
+      "p99_ms": 0.05014151,
+      "p999_ms": 0.050276051,
+      "max_ms": 0.050291,
+      "over_1ms": 0
+    },
+    "flop": {
+      "n": 100,
+      "p50_ms": 0.48144,
+      "p99_ms": 0.5716593,
+      "p999_ms": 0.57248793,
+      "max_ms": 0.57258,
+      "over_1ms": 0
+    },
+    "turn": {
+      "n": 100,
+      "p50_ms": 0.48572499999999996,
+      "p99_ms": 0.5209813000000002,
+      "p999_ms": 0.5576281299999998,
+      "max_ms": 0.5617,
+      "over_1ms": 0
+    },
+    "river": {
+      "n": 100,
+      "p50_ms": 0.48531,
+      "p99_ms": 0.8792893,
+      "p999_ms": 0.8881369299999999,
+      "max_ms": 0.88912,
+      "over_1ms": 0
+    }
+  },
+  "eligible": true,
+  "exceptions": {},
+  "errors": [],
+  "policy": {
+    "source": "external/fullhouse-vikram/bots/submission_candidate/bot.py",
+    "source_sha256": "eabc9e5b6b207345084f0e4d456d14568a0cf0bf492e42a6dd41b4156f392ac5",
+    "instrumented_code_sha256": "5929f94473ea879a12f780294ca7a9a9b10c557ed213297a8300e13ff87c079c",
+    "sampling_cap": 32,
+    "ast_sampling_edits": [
+      {
+        "function": "_monte_carlo",
+        "assignment": "max_iters",
+        "before": "600",
+        "after": "32"
+      },
+      {
+        "function": "_monte_carlo",
+        "assignment": "max_iters",
+        "before": "700",
+        "after": "32"
+      },
+      {
+        "function": "_monte_carlo",
+        "assignment": "max_iters",
+        "before": "400",
+        "after": "32"
+      }
+    ],
+    "family": "vikram",
+    "learned": false
+  }
+}

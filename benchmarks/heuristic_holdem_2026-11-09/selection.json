@@ -1,0 +1,32 @@
+{
+  "frozen_at_utc": "2026-11-09T01:27:03.482376+00:00",
+  "handwritten": [
+    "txnujk_32",
+    "tournament_specialist",
+    "solver_like",
+    "cfr_lite_32"
+  ],
+  "controls": [
+    "fullhouse_released",
+    "fullhouse_reproduced"
+  ],
+  "final_roster": [
+    "txnujk_32",
+    "tournament_specialist",
+    "solver_like",
+    "cfr_lite_32",
+    "fullhouse_released",
+    "fullhouse_reproduced"
+  ],
+  "screen_blocks": 128,
+  "confirmation_blocks": 2048,
+  "confirmation_seed": 31200000,
+  "confirmation_tables": 12288,
+  "exclusions_after_screen": {
+    "vikram_32": "Sequential real-table timing: river P99 2.522 ms; 715/15475 decisions over 1 ms.",
+    "cfr_lite_64": "Full corpus: 110/30000 calls over 1 ms, above the prespecified 0.1% fraction."
+  },
+  "replacement": "Next eligible version/family by screening score; CFR-Lite-32 substituted after CFR-Lite-64 failed the larger timing filter.",
+  "controls_note": "Both neural controls fail the stricter trajectory tail-frequency filter; retained as strength references, not eligible handwritten recommendations.",
+  "status": "frozen before confirmation"
+}

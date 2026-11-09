@@ -1,0 +1,64 @@
+{
+  "wall": {
+    "n": 400,
+    "p50_ms": 0.02166,
+    "p99_ms": 0.041858699999999985,
+    "p999_ms": 0.09812814999999993,
+    "max_ms": 0.12532,
+    "over_1ms": 0
+  },
+  "cpu": {
+    "n": 400,
+    "p50_ms": 0.022574999999999998,
+    "p99_ms": 0.04304529999999999,
+    "p999_ms": 0.10344242999999993,
+    "max_ms": 0.13314,
+    "over_1ms": 0
+  },
+  "by_street": {
+    "preflop": {
+      "n": 100,
+      "p50_ms": 0.006595,
+      "p99_ms": 0.013399100000000014,
+      "p999_ms": 0.015991909999999988,
+      "max_ms": 0.01628,
+      "over_1ms": 0
+    },
+    "flop": {
+      "n": 100,
+      "p50_ms": 0.028999999999999998,
+      "p99_ms": 0.047884790000000045,
+      "p999_ms": 0.05624147899999996,
+      "max_ms": 0.05717,
+      "over_1ms": 0
+    },
+    "turn": {
+      "n": 100,
+      "p50_ms": 0.023545,
+      "p99_ms": 0.038750300000000015,
+      "p999_ms": 0.04145002999999999,
+      "max_ms": 0.04175,
+      "over_1ms": 0
+    },
+    "river": {
+      "n": 100,
+      "p50_ms": 0.02224,
+      "p99_ms": 0.04267480000000043,
+      "p999_ms": 0.11705547999999967,
+      "max_ms": 0.12532,
+      "over_1ms": 0
+    }
+  },
+  "eligible": true,
+  "exceptions": {},
+  "errors": [],
+  "policy": {
+    "source": "latency-survey/fullhouse-bot/bots/adversarial/solver_like.py",
+    "source_sha256": "76ef638a9a7e9762316ba34d54eca435bd37086afd9bb30433423346282a5240",
+    "instrumented_code_sha256": "a4be13676d060de663032b7737486192b3e3c6a054a6fb160054b6c67c2124ef",
+    "sampling_cap": null,
+    "ast_sampling_edits": [],
+    "family": "solver_like",
+    "learned": false
+  }
+}

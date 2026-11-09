@@ -16,3 +16,12 @@
 [submodule "external/james-nolimit"]
 	path = external/james-nolimit
 	url = https://github.com/JamesGongYC/nolimit-pokerbot.git
+[submodule "external/fullhouse-vikram"]
+	path = external/fullhouse-vikram
+	url = https://github.com/Vikknows/Fullhouse-Hackathon.git
+[submodule "external/fullhouse-lucas"]
+	path = external/fullhouse-lucas
+	url = https://github.com/lucashsu007-create/fullhouse-hackathon-write-up-repo.git
+[submodule "external/fold-equity"]
+	path = external/fold-equity
+	url = https://github.com/HighRiskLowYield/fold-equity.git

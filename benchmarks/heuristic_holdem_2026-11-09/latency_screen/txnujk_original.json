@@ -1,0 +1,64 @@
+{
+  "wall": {
+    "n": 400,
+    "p50_ms": 3.8011049999999997,
+    "p99_ms": 4.66956399,
+    "p999_ms": 5.023391479,
+    "max_ms": 5.029009,
+    "over_1ms": 300
+  },
+  "cpu": {
+    "n": 400,
+    "p50_ms": 3.8025845,
+    "p99_ms": 4.67070589,
+    "p999_ms": 5.02495138,
+    "max_ms": 5.03029,
+    "over_1ms": 300
+  },
+  "by_street": {
+    "preflop": {
+      "n": 100,
+      "p50_ms": 0.0264605,
+      "p99_ms": 0.04321990000000005,
+      "p999_ms": 0.05122998999999997,
+      "max_ms": 0.05212,
+      "over_1ms": 0
+    },
+    "flop": {
+      "n": 100,
+      "p50_ms": 3.97161,
+      "p99_ms": 5.015070789999999,
+      "p999_ms": 5.0276151790000005,
+      "max_ms": 5.029009,
+      "over_1ms": 100
+    },
+    "turn": {
+      "n": 100,
+      "p50_ms": 3.84778,
+      "p99_ms": 4.338972300000002,
+      "p999_ms": 4.637751329999999,
+      "max_ms": 4.670949,
+      "over_1ms": 100
+    },
+    "river": {
+      "n": 100,
+      "p50_ms": 3.7336045,
+      "p99_ms": 4.2914513,
+      "p999_ms": 4.36552013,
+      "max_ms": 4.37375,
+      "over_1ms": 100
+    }
+  },
+  "eligible": false,
+  "exceptions": {},
+  "errors": [],
+  "policy": {
+    "source": "txnujk-bot/bots/floorfix/bot.py",
+    "source_sha256": "e0a95116a2f7ddd56a8264491c095d9bff32b350e320eecea680e4905c40efba",
+    "instrumented_code_sha256": "b80127a2047c4380fc3356807b3e0a8297f155f819685f763c83271c7ffbaea2",
+    "sampling_cap": null,
+    "ast_sampling_edits": [],
+    "family": "txnujk",
+    "learned": false
+  }
+}

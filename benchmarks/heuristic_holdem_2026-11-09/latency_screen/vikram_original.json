@@ -1,0 +1,64 @@
+{
+  "wall": {
+    "n": 400,
+    "p50_ms": 4.569875,
+    "p99_ms": 8.18530319,
+    "p999_ms": 8.362613699,
+    "max_ms": 8.436149,
+    "over_1ms": 297
+  },
+  "cpu": {
+    "n": 400,
+    "p50_ms": 4.572430000000001,
+    "p99_ms": 8.1885645,
+    "p999_ms": 8.366501629,
+    "max_ms": 8.43961,
+    "over_1ms": 297
+  },
+  "by_street": {
+    "preflop": {
+      "n": 100,
+      "p50_ms": 0.0388195,
+      "p99_ms": 0.06232990000000001,
+      "p999_ms": 0.06410298999999998,
+      "max_ms": 0.0643,
+      "over_1ms": 0
+    },
+    "flop": {
+      "n": 100,
+      "p50_ms": 7.159549999999999,
+      "p99_ms": 7.427002400000005,
+      "p999_ms": 8.335234339999996,
+      "max_ms": 8.436149,
+      "over_1ms": 100
+    },
+    "turn": {
+      "n": 100,
+      "p50_ms": 8.027235000000001,
+      "p99_ms": 8.207784109999999,
+      "p999_ms": 8.247443410999999,
+      "max_ms": 8.25185,
+      "over_1ms": 100
+    },
+    "river": {
+      "n": 100,
+      "p50_ms": 4.46762,
+      "p99_ms": 4.6571541000000005,
+      "p999_ms": 4.70652441,
+      "max_ms": 4.71201,
+      "over_1ms": 97
+    }
+  },
+  "eligible": false,
+  "exceptions": {},
+  "errors": [],
+  "policy": {
+    "source": "external/fullhouse-vikram/bots/submission_candidate/bot.py",
+    "source_sha256": "eabc9e5b6b207345084f0e4d456d14568a0cf0bf492e42a6dd41b4156f392ac5",
+    "instrumented_code_sha256": "c82917842943af7e664563e39b70ddb5ab6d8c01c8d78b2e29ff14b73cd0c101",
+    "sampling_cap": null,
+    "ast_sampling_edits": [],
+    "family": "vikram",
+    "learned": false
+  }
+}

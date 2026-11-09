@@ -1,0 +1,9 @@
+{
+  "cpu_model": "AMD EPYC 7B12",
+  "available_cpus": 240,
+  "timing_cpu": 2,
+  "strength_workers": 24,
+  "source_parent_head": "7356b42855031ef96a809b2993ea93d4943c029b",
+  "metadata_writer_python": "3.10.12",
+  "benchmark_python": "3.11.0rc1"
+}

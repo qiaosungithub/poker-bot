@@ -1,7 +1,9 @@
 # Poker bot workspace
 
-Start here when taking over without conversation history. Documentation was
-verified on **2026-11-08**; competition defaults may change at the variant reveal.
+Start here when taking over without conversation history.
+Competition documentation was verified on **2026-11-08**; competition defaults
+may change at the variant reveal. The latest standard Hold'em benchmark is
+dated **2026-11-09**.
 
 ## Read in this order
 
@@ -12,6 +14,7 @@ verified on **2026-11-08**; competition defaults may change at the variant revea
 5. [Git layout, submodules and restoring source](docs/repository.md).
 6. [Bay Area public resources and variant](docs/research/bay-area-2026.md).
 7. [Runnable Bay Area environment and strategy comparison](bay_area/README.md).
+8. [Standard Hold'em handwritten strategies: CPU timing and six-player results](benchmarks/heuristic_holdem_2026-11-09/REPORT.md).
 
 [Source provenance](docs/sources.json) records the official pages and capture
 locations. [human.md](human.md) and [scoring.md](scoring.md) are short Chinese notes.
@@ -39,6 +42,12 @@ locations. [human.md](human.md) and [scoring.md](scoring.md) are short Chinese n
   eight finalists played 4,096 tables together. NC `codex_nc_v7_adapted` had the
   highest mean (13.782 points/table), but the experiment did not identify a
   unique best strategy. See the report for uncertainty and timing scope.
+- The [November 9 standard Hold'em comparison](benchmarks/heuristic_holdem_2026-11-09/REPORT.md)
+  screened nine handwritten families. In 12,288 six-player confirmation tables,
+  TournamentSpecialist scored 45.13 and txnujk-32 scored 44.46 custom ICM points;
+  their difference remains statistically unresolved. TournamentSpecialist had
+  actual-game P99 0.084 ms and zero overruns in the two final timing tests.
+  Released Fullhouse had the highest mean final chips in that same field.
 
 ## Directory map
 
@@ -48,6 +57,8 @@ locations. [human.md](human.md) and [scoring.md](scoring.md) are short Chinese n
 | `docs/research/fullhouse.md` | Reproduction method, result provenance, commands and limitations |
 | `bay_area/`, `external/` | Bay Area environment, SDK arena and pinned public strategy repositories |
 | `benchmarks/bay_area_2026-11-08/` | Variant benchmark protocol, original table records and uncertainty |
+| `heuristic_holdem/` | Standard Hold'em handwritten-policy loaders, timing, arena and independent score audit |
+| `benchmarks/heuristic_holdem_2026-11-09/` | Candidate survey, frozen selection, six-player results, raw timings and source snapshot |
 | `fullhouse-repro/` | Training implementation, checkpoints, evaluations and new latency results |
 | `benchmarks/six_player_2026-11-06/` | Frozen comparison table and exact original protocol; preserve both files |
 | `hu-benchmark/` | Frozen benchmark code, raw games and retained latency state corpus |
@@ -55,7 +66,7 @@ locations. [human.md](human.md) and [scoring.md](scoring.md) are short Chinese n
 | `holdem-ppo/`, `txnujk-bot/` | Other existing research checkouts; not the Fullhouse reproduction |
 | `.runtime/` | Work-local Python environments, caches, temporary files and private portal session |
 
-The top-level directory is a Git repository on `main`. Six upstream
+The top-level directory is a Git repository on `main`. Nine upstream
 checkouts are pinned submodules; the modified training worktree is reconstructed
 from a tracked patch. Models, environments and private login state remain
 outside the parent repository; see [repository boundaries](docs/repository.md).

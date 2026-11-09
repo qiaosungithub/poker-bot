@@ -1,0 +1,424 @@
+{
+  "config": {
+    "mode": "latency",
+    "names": "vikram_32,txnujk_32,tournament_specialist,solver_like,fullhouse_released,fullhouse_reproduced",
+    "output": "benchmarks/heuristic_holdem_2026-11-09/latency_finalists",
+    "cpu": 2,
+    "per_street": 2500,
+    "repeats": 3,
+    "blocks": 128,
+    "seed": 31100000,
+    "hands": 200,
+    "workers": 24
+  },
+  "corpus": "hu-benchmark/multiway_latency_states.jsonl.gz",
+  "corpus_sha256": "bbd903aa73d056ce9e4bff6f4762379b18e23fc6782707db95a43ebc76013d8d",
+  "raw_sha256": "f96cc19bb5ace82e868b706c32ba513501e139d5ac76ed312a4afd53ae41534d",
+  "results": {
+    "vikram_32": {
+      "wall": {
+        "n": 30000,
+        "p50_ms": 0.4726,
+        "p99_ms": 0.5493516999999998,
+        "p999_ms": 0.9032702800000001,
+        "max_ms": 6.71852,
+        "over_1ms": 22
+      },
+      "cpu": {
+        "n": 30000,
+        "p50_ms": 0.4736845,
+        "p99_ms": 0.54986971,
+        "p999_ms": 0.904620111,
+        "max_ms": 6.726331,
+        "over_1ms": 22
+      },
+      "by_street": {
+        "preflop": {
+          "n": 7500,
+          "p50_ms": 0.030949499999999998,
+          "p99_ms": 0.053821100000000024,
+          "p999_ms": 0.08117673100000025,
+          "max_ms": 0.13604,
+          "over_1ms": 0
+        },
+        "flop": {
+          "n": 7500,
+          "p50_ms": 0.47895,
+          "p99_ms": 0.55744079,
+          "p999_ms": 0.73789042,
+          "max_ms": 5.010649,
+          "over_1ms": 4
+        },
+        "turn": {
+          "n": 7500,
+          "p50_ms": 0.4809295,
+          "p99_ms": 0.5505240000000001,
+          "p999_ms": 0.7268209900000012,
+          "max_ms": 6.71852,
+          "over_1ms": 3
+        },
+        "river": {
+          "n": 7500,
+          "p50_ms": 0.48072,
+          "p99_ms": 0.6780322000000001,
+          "p999_ms": 1.7941769900000004,
+          "max_ms": 4.7505,
+          "over_1ms": 15
+        }
+      },
+      "eligible": true,
+      "exceptions": {},
+      "errors": [],
+      "policy": {
+        "source": "external/fullhouse-vikram/bots/submission_candidate/bot.py",
+        "source_sha256": "eabc9e5b6b207345084f0e4d456d14568a0cf0bf492e42a6dd41b4156f392ac5",
+        "instrumented_code_sha256": "5929f94473ea879a12f780294ca7a9a9b10c557ed213297a8300e13ff87c079c",
+        "sampling_cap": 32,
+        "ast_sampling_edits": [
+          {
+            "function": "_monte_carlo",
+            "assignment": "max_iters",
+            "before": "600",
+            "after": "32"
+          },
+          {
+            "function": "_monte_carlo",
+            "assignment": "max_iters",
+            "before": "700",
+            "after": "32"
+          },
+          {
+            "function": "_monte_carlo",
+            "assignment": "max_iters",
+            "before": "400",
+            "after": "32"
+          }
+        ],
+        "family": "vikram",
+        "learned": false
+      }
+    },
+    "txnujk_32": {
+      "wall": {
+        "n": 30000,
+        "p50_ms": 0.3569195,
+        "p99_ms": 0.4329512999999998,
+        "p999_ms": 0.5441106500000001,
+        "max_ms": 5.52757,
+        "over_1ms": 9
+      },
+      "cpu": {
+        "n": 30000,
+        "p50_ms": 0.35822,
+        "p99_ms": 0.43385128999999983,
+        "p999_ms": 0.5425717490000002,
+        "max_ms": 5.533939,
+        "over_1ms": 9
+      },
+      "by_street": {
+        "preflop": {
+          "n": 7500,
+          "p50_ms": 0.02321,
+          "p99_ms": 0.03786,
+          "p999_ms": 0.06885811000000064,
+          "max_ms": 0.176349,
+          "over_1ms": 0
+        },
+        "flop": {
+          "n": 7500,
+          "p50_ms": 0.37752450000000004,
+          "p99_ms": 0.4470354000000001,
+          "p999_ms": 0.5824229000000046,
+          "max_ms": 4.546049,
+          "over_1ms": 4
+        },
+        "turn": {
+          "n": 7500,
+          "p50_ms": 0.37482,
+          "p99_ms": 0.4438388000000002,
+          "p999_ms": 0.568394630000002,
+          "max_ms": 4.31235,
+          "over_1ms": 3
+        },
+        "river": {
+          "n": 7500,
+          "p50_ms": 0.3601,
+          "p99_ms": 0.4246801000000002,
+          "p999_ms": 0.5318553200000011,
+          "max_ms": 5.52757,
+          "over_1ms": 2
+        }
+      },
+      "eligible": true,
+      "exceptions": {},
+      "errors": [],
+      "policy": {
+        "source": "txnujk-bot/bots/floorfix/bot.py",
+        "source_sha256": "e0a95116a2f7ddd56a8264491c095d9bff32b350e320eecea680e4905c40efba",
+        "instrumented_code_sha256": "4b452c23247ec1ccea19a3b29eb56dfb5f96ae30bba7596eba9560070a212fed",
+        "sampling_cap": 32,
+        "ast_sampling_edits": [
+          {
+            "function": "_postflop",
+            "assignment": "samples",
+            "before": "max(180, int(2400 / (n_opp + 1)))",
+            "after": "32"
+          }
+        ],
+        "family": "txnujk",
+        "learned": false
+      }
+    },
+    "tournament_specialist": {
+      "wall": {
+        "n": 30000,
+        "p50_ms": 0.02166,
+        "p99_ms": 0.042269109999999985,
+        "p999_ms": 0.06314015000000003,
+        "max_ms": 0.33673,
+        "over_1ms": 0
+      },
+      "cpu": {
+        "n": 30000,
+        "p50_ms": 0.0226,
+        "p99_ms": 0.043520099999999985,
+        "p999_ms": 0.06426172900000014,
+        "max_ms": 0.3415,
+        "over_1ms": 0
+      },
+      "by_street": {
+        "preflop": {
+          "n": 7500,
+          "p50_ms": 0.010851,
+          "p99_ms": 0.018020300000000006,
+          "p999_ms": 0.03500533100000017,
+          "max_ms": 0.29546,
+          "over_1ms": 0
+        },
+        "flop": {
+          "n": 7500,
+          "p50_ms": 0.027845,
+          "p99_ms": 0.04542211000000005,
+          "p999_ms": 0.06873839000000069,
+          "max_ms": 0.33673,
+          "over_1ms": 0
+        },
+        "turn": {
+          "n": 7500,
+          "p50_ms": 0.02235,
+          "p99_ms": 0.043121500000000035,
+          "p999_ms": 0.06420683000000037,
+          "max_ms": 0.08775,
+          "over_1ms": 0
+        },
+        "river": {
+          "n": 7500,
+          "p50_ms": 0.02312,
+          "p99_ms": 0.04310009,
+          "p999_ms": 0.062276730000000356,
+          "max_ms": 0.1395,
+          "over_1ms": 0
+        }
+      },
+      "eligible": true,
+      "exceptions": {},
+      "errors": [],
+      "policy": {
+        "source": "latency-survey/fullhouse-bot/bots/adversarial/tournament_specialist.py",
+        "source_sha256": "04476804985f2827916b96c0ccbee77d8434ded8dfa10cce5566eaa200246530",
+        "instrumented_code_sha256": "ae7ac9a06211b1c232766e5ab17ff250d131be98bcd3150192b7e8b3e8b59b59",
+        "sampling_cap": null,
+        "ast_sampling_edits": [],
+        "family": "tournament_specialist",
+        "learned": false
+      }
+    },
+    "solver_like": {
+      "wall": {
+        "n": 30000,
+        "p50_ms": 0.02112,
+        "p99_ms": 0.03958039999999993,
+        "p999_ms": 0.06368040000000008,
+        "max_ms": 3.2387,
+        "over_1ms": 1
+      },
+      "cpu": {
+        "n": 30000,
+        "p50_ms": 0.02204,
+        "p99_ms": 0.040770399999999936,
+        "p999_ms": 0.0647394820000001,
+        "max_ms": 3.24121,
+        "over_1ms": 1
+      },
+      "by_street": {
+        "preflop": {
+          "n": 7500,
+          "p50_ms": 0.00612,
+          "p99_ms": 0.010320600000000013,
+          "p999_ms": 0.023125130000000025,
+          "max_ms": 0.05257,
+          "over_1ms": 0
+        },
+        "flop": {
+          "n": 7500,
+          "p50_ms": 0.02611,
+          "p99_ms": 0.04128320000000007,
+          "p999_ms": 0.0696710590000001,
+          "max_ms": 0.12229,
+          "over_1ms": 0
+        },
+        "turn": {
+          "n": 7500,
+          "p50_ms": 0.0213895,
+          "p99_ms": 0.041829420000000006,
+          "p999_ms": 0.07501825000000066,
+          "max_ms": 3.2387,
+          "over_1ms": 1
+        },
+        "river": {
+          "n": 7500,
+          "p50_ms": 0.02225,
+          "p99_ms": 0.03989120000000003,
+          "p999_ms": 0.06004220000000045,
+          "max_ms": 0.16361,
+          "over_1ms": 0
+        }
+      },
+      "eligible": true,
+      "exceptions": {},
+      "errors": [],
+      "policy": {
+        "source": "latency-survey/fullhouse-bot/bots/adversarial/solver_like.py",
+        "source_sha256": "76ef638a9a7e9762316ba34d54eca435bd37086afd9bb30433423346282a5240",
+        "instrumented_code_sha256": "a4be13676d060de663032b7737486192b3e3c6a054a6fb160054b6c67c2124ef",
+        "sampling_cap": null,
+        "ast_sampling_edits": [],
+        "family": "solver_like",
+        "learned": false
+      }
+    },
+    "fullhouse_released": {
+      "wall": {
+        "n": 30000,
+        "p50_ms": 0.22834,
+        "p99_ms": 0.3438523999999996,
+        "p999_ms": 0.3974702310000003,
+        "max_ms": 4.27059,
+        "over_1ms": 8
+      },
+      "cpu": {
+        "n": 30000,
+        "p50_ms": 0.23021,
+        "p99_ms": 0.34599,
+        "p999_ms": 0.39970222900000024,
+        "max_ms": 4.2749,
+        "over_1ms": 8
+      },
+      "by_street": {
+        "preflop": {
+          "n": 7500,
+          "p50_ms": 0.1865705,
+          "p99_ms": 0.2863130100000001,
+          "p999_ms": 0.3469405000000001,
+          "max_ms": 4.27059,
+          "over_1ms": 2
+        },
+        "flop": {
+          "n": 7500,
+          "p50_ms": 0.22745,
+          "p99_ms": 0.33526240000000007,
+          "p999_ms": 0.3898053500000021,
+          "max_ms": 3.76427,
+          "over_1ms": 2
+        },
+        "turn": {
+          "n": 7500,
+          "p50_ms": 0.23296,
+          "p99_ms": 0.35229099,
+          "p999_ms": 0.4483155910000084,
+          "max_ms": 4.11318,
+          "over_1ms": 2
+        },
+        "river": {
+          "n": 7500,
+          "p50_ms": 0.23051,
+          "p99_ms": 0.3505342000000001,
+          "p999_ms": 0.41673722000000146,
+          "max_ms": 4.0391,
+          "over_1ms": 2
+        }
+      },
+      "eligible": true,
+      "exceptions": {},
+      "errors": [],
+      "policy": {
+        "family": "fullhouse_released",
+        "learned": true,
+        "model": "latency-survey/fullhouse_fp32.onnx",
+        "sha256": "7b52be99fbb20806669cba91deac58e3f0a03ec8a2169720e273ac08a67e1ef1"
+      }
+    },
+    "fullhouse_reproduced": {
+      "wall": {
+        "n": 30000,
+        "p50_ms": 0.2304095,
+        "p99_ms": 0.35261139999999974,
+        "p999_ms": 0.4608126100000005,
+        "max_ms": 5.026319,
+        "over_1ms": 7
+      },
+      "cpu": {
+        "n": 30000,
+        "p50_ms": 0.232295,
+        "p99_ms": 0.35459109,
+        "p999_ms": 0.461049840000002,
+        "max_ms": 5.03204,
+        "over_1ms": 7
+      },
+      "by_street": {
+        "preflop": {
+          "n": 7500,
+          "p50_ms": 0.18842,
+          "p99_ms": 0.2927216,
+          "p999_ms": 0.38514399900000074,
+          "max_ms": 4.46333,
+          "over_1ms": 1
+        },
+        "flop": {
+          "n": 7500,
+          "p50_ms": 0.22987,
+          "p99_ms": 0.3460111,
+          "p999_ms": 0.42696355000000175,
+          "max_ms": 4.54997,
+          "over_1ms": 2
+        },
+        "turn": {
+          "n": 7500,
+          "p50_ms": 0.23575,
+          "p99_ms": 0.36365698000000013,
+          "p999_ms": 0.4874160600000012,
+          "max_ms": 5.026319,
+          "over_1ms": 4
+        },
+        "river": {
+          "n": 7500,
+          "p50_ms": 0.2326855,
+          "p99_ms": 0.36092100000000005,
+          "p999_ms": 0.4778866800000095,
+          "max_ms": 0.9045,
+          "over_1ms": 0
+        }
+      },
+      "eligible": true,
+      "exceptions": {},
+      "errors": [],
+      "policy": {
+        "family": "fullhouse_reproduced",
+        "learned": true,
+        "model": "fullhouse-repro/eval/iter_00210.onnx",
+        "sha256": "2f2455adf06f22a3a6d87bef1b330e4ea80438a6567943abfab2762d6cf0db32"
+      }
+    }
+  },
+  "scope": "Complete decision function, warm CPU, GC disabled; no engine, startup, JSON/IPC or RNG isolation."
+}

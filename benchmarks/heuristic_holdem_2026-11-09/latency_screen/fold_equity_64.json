@@ -1,0 +1,68 @@
+{
+  "wall": {
+    "n": 400,
+    "p50_ms": 3.4848845,
+    "p99_ms": 4.2088976,
+    "p999_ms": 4.318088811,
+    "max_ms": 4.3473,
+    "over_1ms": 300
+  },
+  "cpu": {
+    "n": 400,
+    "p50_ms": 3.4867,
+    "p99_ms": 4.2106621,
+    "p999_ms": 4.321018929999999,
+    "max_ms": 4.34932,
+    "over_1ms": 300
+  },
+  "by_street": {
+    "preflop": {
+      "n": 100,
+      "p50_ms": 0.018375000000000002,
+      "p99_ms": 0.03385450000000002,
+      "p999_ms": 0.03692844999999999,
+      "max_ms": 0.03727,
+      "over_1ms": 0
+    },
+    "flop": {
+      "n": 100,
+      "p50_ms": 3.9932645,
+      "p99_ms": 4.27482111,
+      "p999_ms": 4.340052110999999,
+      "max_ms": 4.3473,
+      "over_1ms": 100
+    },
+    "turn": {
+      "n": 100,
+      "p50_ms": 3.8253399999999997,
+      "p99_ms": 4.09739829,
+      "p999_ms": 4.099918929,
+      "max_ms": 4.100199,
+      "over_1ms": 100
+    },
+    "river": {
+      "n": 100,
+      "p50_ms": 3.4644245,
+      "p99_ms": 3.6063075900000006,
+      "p999_ms": 3.6800458589999994,
+      "max_ms": 3.688239,
+      "over_1ms": 100
+    }
+  },
+  "eligible": false,
+  "exceptions": {},
+  "errors": [],
+  "policy": {
+    "source": "external/fold-equity/bot.py",
+    "source_sha256": "4b1537053e3c92d0821e2fd3478c82cc20105dc49e46d4fad13da743d2c4c9f9",
+    "instrumented_code_sha256": "9f1b2421ee71e18bd73f2b65ef1ce964e57d3a2b7ea2c4b7a11df6723330ae58",
+    "sampling_cap": 64,
+    "ast_sampling_edits": [],
+    "family": "fold_equity",
+    "learned": false,
+    "runtime_edits": {
+      "_MC_OPP_HANDS": 64,
+      "_MC_RUNOUTS_PER_HAND": 1
+    }
+  }
+}

@@ -1,0 +1,15 @@
+test_all_sampling_caps (heuristic_holdem.test_benchmark.Tests.test_all_sampling_caps) ... /kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/envs/poker-hu-validation/lib/python3.11/site-packages/eval7/rangestring.py:46: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  results = parser.parseString(s)
+ok
+test_anonymous_inputs_and_hidden_cards (heuristic_holdem.test_benchmark.Tests.test_anonymous_inputs_and_hidden_cards) ... ok
+test_diagnostics_detect_swallowed_exception (heuristic_holdem.test_benchmark.Tests.test_diagnostics_detect_swallowed_exception) ... ok
+test_identical_policy_rotations (heuristic_holdem.test_benchmark.Tests.test_identical_policy_rotations) ... ok
+test_private_memory_and_rng (heuristic_holdem.test_benchmark.Tests.test_private_memory_and_rng) ... ok
+test_same_seed_replay (heuristic_holdem.test_benchmark.Tests.test_same_seed_replay) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 2.346s
+
+OK
+
+Existing engine validation: python -m unittest -q test_multiway; 7 tests passed in 6.282 s, including independent side-pot and ICM controls.

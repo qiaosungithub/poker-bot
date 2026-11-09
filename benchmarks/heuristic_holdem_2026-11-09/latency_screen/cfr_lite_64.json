@@ -1,0 +1,74 @@
+{
+  "wall": {
+    "n": 400,
+    "p50_ms": 0.514095,
+    "p99_ms": 0.6998178999999999,
+    "p999_ms": 0.8757893299999998,
+    "max_ms": 0.9641,
+    "over_1ms": 0
+  },
+  "cpu": {
+    "n": 400,
+    "p50_ms": 0.5159104999999999,
+    "p99_ms": 0.7045525099999999,
+    "p999_ms": 0.8825522209999999,
+    "max_ms": 0.974171,
+    "over_1ms": 0
+  },
+  "by_street": {
+    "preflop": {
+      "n": 100,
+      "p50_ms": 0.027549999999999998,
+      "p99_ms": 0.06063850000000005,
+      "p999_ms": 0.07030584999999996,
+      "max_ms": 0.07138,
+      "over_1ms": 0
+    },
+    "flop": {
+      "n": 100,
+      "p50_ms": 0.5588445,
+      "p99_ms": 0.6517361,
+      "p999_ms": 0.66653561,
+      "max_ms": 0.66818,
+      "over_1ms": 0
+    },
+    "turn": {
+      "n": 100,
+      "p50_ms": 0.5313950000000001,
+      "p99_ms": 0.7381665000000001,
+      "p999_ms": 0.74230965,
+      "max_ms": 0.74277,
+      "over_1ms": 0
+    },
+    "river": {
+      "n": 100,
+      "p50_ms": 0.51596,
+      "p99_ms": 0.7022351000000014,
+      "p999_ms": 0.937913509999999,
+      "max_ms": 0.9641,
+      "over_1ms": 0
+    }
+  },
+  "eligible": true,
+  "exceptions": {},
+  "errors": [],
+  "policy": {
+    "source": "latency-survey/fullhouse-bot/bots/competitors/cfr_lite/bot.py",
+    "source_sha256": "7eb3e3dc75333b2a940fa9784dc130e6c3936f4605f56f7b76bc94b3a6b0d231",
+    "instrumented_code_sha256": "052276d804908745fdad9d890ece8bd903c6d101cb4f2d980ec68932227580dd",
+    "sampling_cap": 64,
+    "ast_sampling_edits": [],
+    "family": "cfr_lite",
+    "learned": false,
+    "runtime_edits": {
+      "CONFIG.equity_iterations": {
+        "flop": 64,
+        "turn": 64,
+        "river": 64,
+        "heads_up_bonus": 0,
+        "multiway_penalty": 0,
+        "multiway_floor": 64
+      }
+    }
+  }
+}

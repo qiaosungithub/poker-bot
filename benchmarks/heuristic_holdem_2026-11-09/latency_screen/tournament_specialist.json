@@ -1,0 +1,64 @@
+{
+  "wall": {
+    "n": 400,
+    "p50_ms": 0.022914999999999998,
+    "p99_ms": 0.05153449999999997,
+    "p999_ms": 0.1348035699999999,
+    "max_ms": 0.17134,
+    "over_1ms": 0
+  },
+  "cpu": {
+    "n": 400,
+    "p50_ms": 0.023905000000000003,
+    "p99_ms": 0.052771599999999974,
+    "p999_ms": 0.1392019099999999,
+    "max_ms": 0.17747,
+    "over_1ms": 0
+  },
+  "by_street": {
+    "preflop": {
+      "n": 100,
+      "p50_ms": 0.0093,
+      "p99_ms": 0.02184100000000001,
+      "p999_ms": 0.023712099999999993,
+      "max_ms": 0.02392,
+      "over_1ms": 0
+    },
+    "flop": {
+      "n": 100,
+      "p50_ms": 0.032684500000000005,
+      "p99_ms": 0.047258400000000166,
+      "p999_ms": 0.07651883999999987,
+      "max_ms": 0.07977,
+      "over_1ms": 0
+    },
+    "turn": {
+      "n": 100,
+      "p50_ms": 0.02534,
+      "p99_ms": 0.05153450000000002,
+      "p999_ms": 0.05460844999999999,
+      "max_ms": 0.05495,
+      "over_1ms": 0
+    },
+    "river": {
+      "n": 100,
+      "p50_ms": 0.023945,
+      "p99_ms": 0.07170640000000052,
+      "p999_ms": 0.16137663999999963,
+      "max_ms": 0.17134,
+      "over_1ms": 0
+    }
+  },
+  "eligible": true,
+  "exceptions": {},
+  "errors": [],
+  "policy": {
+    "source": "latency-survey/fullhouse-bot/bots/adversarial/tournament_specialist.py",
+    "source_sha256": "04476804985f2827916b96c0ccbee77d8434ded8dfa10cce5566eaa200246530",
+    "instrumented_code_sha256": "ae7ac9a06211b1c232766e5ab17ff250d131be98bcd3150192b7e8b3e8b59b59",
+    "sampling_cap": null,
+    "ast_sampling_edits": [],
+    "family": "tournament_specialist",
+    "learned": false
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "wall": {
+    "n": 400,
+    "p50_ms": 0.35458,
+    "p99_ms": 0.40074709999999997,
+    "p999_ms": 0.4780077399999999,
+    "max_ms": 0.5194,
+    "over_1ms": 0
+  },
+  "cpu": {
+    "n": 400,
+    "p50_ms": 0.3556845,
+    "p99_ms": 0.40207709,
+    "p999_ms": 0.4823527899999999,
+    "max_ms": 0.52576,
+    "over_1ms": 0
+  },
+  "by_street": {
+    "preflop": {
+      "n": 100,
+      "p50_ms": 0.02342,
+      "p99_ms": 0.031554290000000006,
+      "p999_ms": 0.031847429,
+      "max_ms": 0.03188,
+      "over_1ms": 0
+    },
+    "flop": {
+      "n": 100,
+      "p50_ms": 0.3760745,
+      "p99_ms": 0.4007966,
+      "p999_ms": 0.40583965999999994,
+      "max_ms": 0.4064,
+      "over_1ms": 0
+    },
+    "turn": {
+      "n": 100,
+      "p50_ms": 0.37131000000000003,
+      "p99_ms": 0.40159210000000006,
+      "p999_ms": 0.4142532099999999,
+      "max_ms": 0.41566,
+      "over_1ms": 0
+    },
+    "river": {
+      "n": 100,
+      "p50_ms": 0.356565,
+      "p99_ms": 0.39740230000000065,
+      "p999_ms": 0.5072002299999995,
+      "max_ms": 0.5194,
+      "over_1ms": 0
+    }
+  },
+  "eligible": true,
+  "exceptions": {},
+  "errors": [],
+  "policy": {
+    "source": "txnujk-bot/bots/floorfix/bot.py",
+    "source_sha256": "e0a95116a2f7ddd56a8264491c095d9bff32b350e320eecea680e4905c40efba",
+    "instrumented_code_sha256": "4b452c23247ec1ccea19a3b29eb56dfb5f96ae30bba7596eba9560070a212fed",
+    "sampling_cap": 32,
+    "ast_sampling_edits": [
+      {
+        "function": "_postflop",
+        "assignment": "samples",
+        "before": "max(180, int(2400 / (n_opp + 1)))",
+        "after": "32"
+      }
+    ],
+    "family": "txnujk",
+    "learned": false
+  }
+}
