@@ -5,6 +5,7 @@
 ## 使用入口
 
 当前候选为 [`selected/agent.py`](selected/agent.py)，对应修正后的 `icm_v2`。
+三阶段拆分与固定下注的拍卖对照见 [PHASE_ANALYSIS.md](PHASE_ANALYSIS.md)。
 上传包为 [`agent.zip`](agent.zip)，包内只有 `agent.py`，大小 3,915 字节。
 策略运行依赖标准库、官方 SDK 和 `eval7==0.1.11`。
 

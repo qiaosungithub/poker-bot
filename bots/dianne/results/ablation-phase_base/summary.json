@@ -1,0 +1,362 @@
+{
+  "phase_base": {
+    "mean_points": 17.87109375,
+    "tables": 512,
+    "blocks": 64,
+    "block_standard_error": 0.8574810874513102,
+    "failures": 0,
+    "decisions": 69790,
+    "timing": {
+      "betting_0": {
+        "calls": 51339,
+        "p50_ms": 0.012792,
+        "p99_ms": 0.03075,
+        "max_ms": 0.701417,
+        "over_1ms": 0
+      },
+      "auction": {
+        "calls": 5854,
+        "p50_ms": 0.071416,
+        "p99_ms": 0.144333,
+        "max_ms": 0.681875,
+        "over_1ms": 0
+      },
+      "betting_3": {
+        "calls": 5874,
+        "p50_ms": 0.019417,
+        "p99_ms": 0.0545,
+        "max_ms": 0.212083,
+        "over_1ms": 0
+      },
+      "betting_4": {
+        "calls": 3727,
+        "p50_ms": 0.019417,
+        "p99_ms": 0.054125,
+        "max_ms": 0.220833,
+        "over_1ms": 0
+      },
+      "betting_5": {
+        "calls": 2996,
+        "p50_ms": 0.016458,
+        "p99_ms": 0.046,
+        "max_ms": 0.136208,
+        "over_1ms": 0
+      }
+    }
+  },
+  "icm_survival": {
+    "mean_points": 15.3515625,
+    "tables": 512,
+    "blocks": 64,
+    "block_standard_error": 0.8902044703021506,
+    "failures": 0,
+    "decisions": 66529,
+    "timing": {
+      "betting_0": {
+        "calls": 48886,
+        "p50_ms": 0.010292,
+        "p99_ms": 0.026875,
+        "max_ms": 0.371541,
+        "over_1ms": 0
+      },
+      "auction": {
+        "calls": 5530,
+        "p50_ms": 0.070958,
+        "p99_ms": 0.148042,
+        "max_ms": 0.423833,
+        "over_1ms": 0
+      },
+      "betting_3": {
+        "calls": 5620,
+        "p50_ms": 0.016917,
+        "p99_ms": 0.044792,
+        "max_ms": 7.803333,
+        "over_1ms": 1
+      },
+      "betting_4": {
+        "calls": 3573,
+        "p50_ms": 0.017083,
+        "p99_ms": 0.051625,
+        "max_ms": 0.984708,
+        "over_1ms": 0
+      },
+      "betting_5": {
+        "calls": 2920,
+        "p50_ms": 0.013958,
+        "p99_ms": 0.045916,
+        "max_ms": 0.112959,
+        "over_1ms": 0
+      }
+    }
+  },
+  "push_fold": {
+    "mean_points": 13.2421875,
+    "tables": 512,
+    "blocks": 64,
+    "block_standard_error": 0.7128916867109946,
+    "failures": 0,
+    "decisions": 62682,
+    "timing": {
+      "betting_0": {
+        "calls": 47038,
+        "p50_ms": 0.008417,
+        "p99_ms": 0.018709,
+        "max_ms": 0.180083,
+        "over_1ms": 0
+      },
+      "auction": {
+        "calls": 5123,
+        "p50_ms": 0.072042,
+        "p99_ms": 0.136292,
+        "max_ms": 7.498334,
+        "over_1ms": 1
+      },
+      "betting_3": {
+        "calls": 4975,
+        "p50_ms": 0.015375,
+        "p99_ms": 0.038667,
+        "max_ms": 0.236458,
+        "over_1ms": 0
+      },
+      "betting_4": {
+        "calls": 3160,
+        "p50_ms": 0.015084,
+        "p99_ms": 0.032959,
+        "max_ms": 0.3565,
+        "over_1ms": 0
+      },
+      "betting_5": {
+        "calls": 2386,
+        "p50_ms": 0.01675,
+        "p99_ms": 0.0375,
+        "max_ms": 0.110416,
+        "over_1ms": 0
+      }
+    }
+  },
+  "value_heuristic": {
+    "mean_points": 12.63671875,
+    "tables": 512,
+    "blocks": 64,
+    "block_standard_error": 0.8536026318548339,
+    "failures": 0,
+    "decisions": 58257,
+    "timing": {
+      "betting_0": {
+        "calls": 41978,
+        "p50_ms": 0.006209,
+        "p99_ms": 0.014625,
+        "max_ms": 1.261583,
+        "over_1ms": 1
+      },
+      "auction": {
+        "calls": 5327,
+        "p50_ms": 0.070584,
+        "p99_ms": 0.14725,
+        "max_ms": 0.625708,
+        "over_1ms": 0
+      },
+      "betting_3": {
+        "calls": 5554,
+        "p50_ms": 0.013125,
+        "p99_ms": 0.034417,
+        "max_ms": 0.105416,
+        "over_1ms": 0
+      },
+      "betting_4": {
+        "calls": 2995,
+        "p50_ms": 0.013333,
+        "p99_ms": 0.040166,
+        "max_ms": 0.347208,
+        "over_1ms": 0
+      },
+      "betting_5": {
+        "calls": 2403,
+        "p50_ms": 0.010375,
+        "p99_ms": 0.024375,
+        "max_ms": 0.085791,
+        "over_1ms": 0
+      }
+    }
+  },
+  "opponent_adaptive": {
+    "mean_points": 12.3046875,
+    "tables": 512,
+    "blocks": 64,
+    "block_standard_error": 0.9433591503479144,
+    "failures": 0,
+    "decisions": 57284,
+    "timing": {
+      "betting_0": {
+        "calls": 39696,
+        "p50_ms": 0.020542,
+        "p99_ms": 0.0515,
+        "max_ms": 0.991417,
+        "over_1ms": 0
+      },
+      "auction": {
+        "calls": 5701,
+        "p50_ms": 0.082916,
+        "p99_ms": 0.170084,
+        "max_ms": 0.708,
+        "over_1ms": 0
+      },
+      "betting_3": {
+        "calls": 5940,
+        "p50_ms": 0.026417,
+        "p99_ms": 0.069416,
+        "max_ms": 0.554125,
+        "over_1ms": 0
+      },
+      "betting_4": {
+        "calls": 3309,
+        "p50_ms": 0.026084,
+        "p99_ms": 0.072291,
+        "max_ms": 8.593416,
+        "over_1ms": 1
+      },
+      "betting_5": {
+        "calls": 2638,
+        "p50_ms": 0.023,
+        "p99_ms": 0.066042,
+        "max_ms": 0.2415,
+        "over_1ms": 0
+      }
+    }
+  },
+  "auction_optimizer": {
+    "mean_points": 11.796875,
+    "tables": 512,
+    "blocks": 64,
+    "block_standard_error": 0.7898215300655957,
+    "failures": 0,
+    "decisions": 50405,
+    "timing": {
+      "betting_0": {
+        "calls": 37303,
+        "p50_ms": 0.006541,
+        "p99_ms": 0.01375,
+        "max_ms": 0.145333,
+        "over_1ms": 0
+      },
+      "auction": {
+        "calls": 4387,
+        "p50_ms": 0.077958,
+        "p99_ms": 0.153958,
+        "max_ms": 0.415917,
+        "over_1ms": 0
+      },
+      "betting_3": {
+        "calls": 4350,
+        "p50_ms": 0.013167,
+        "p99_ms": 0.034625,
+        "max_ms": 0.098292,
+        "over_1ms": 0
+      },
+      "betting_4": {
+        "calls": 2527,
+        "p50_ms": 0.013167,
+        "p99_ms": 0.035834,
+        "max_ms": 0.956625,
+        "over_1ms": 0
+      },
+      "betting_5": {
+        "calls": 1838,
+        "p50_ms": 0.014917,
+        "p99_ms": 0.037584,
+        "max_ms": 0.086792,
+        "over_1ms": 0
+      }
+    }
+  },
+  "range_pressure": {
+    "mean_points": 9.6875,
+    "tables": 512,
+    "blocks": 64,
+    "block_standard_error": 0.6022650697871447,
+    "failures": 0,
+    "decisions": 55787,
+    "timing": {
+      "betting_0": {
+        "calls": 50495,
+        "p50_ms": 0.007875,
+        "p99_ms": 0.017125,
+        "max_ms": 1.22875,
+        "over_1ms": 1
+      },
+      "auction": {
+        "calls": 2135,
+        "p50_ms": 0.1385,
+        "p99_ms": 0.229083,
+        "max_ms": 0.358583,
+        "over_1ms": 0
+      },
+      "betting_3": {
+        "calls": 1527,
+        "p50_ms": 0.108166,
+        "p99_ms": 0.186584,
+        "max_ms": 0.338084,
+        "over_1ms": 0
+      },
+      "betting_4": {
+        "calls": 963,
+        "p50_ms": 0.100042,
+        "p99_ms": 0.181042,
+        "max_ms": 0.280584,
+        "over_1ms": 0
+      },
+      "betting_5": {
+        "calls": 667,
+        "p50_ms": 0.093833,
+        "p99_ms": 0.179292,
+        "max_ms": 0.26625,
+        "over_1ms": 0
+      }
+    }
+  },
+  "equity_sampling": {
+    "mean_points": 7.109375,
+    "tables": 512,
+    "blocks": 64,
+    "block_standard_error": 0.694250655004521,
+    "failures": 0,
+    "decisions": 44257,
+    "timing": {
+      "betting_0": {
+        "calls": 31598,
+        "p50_ms": 0.0065,
+        "p99_ms": 0.013958,
+        "max_ms": 0.1875,
+        "over_1ms": 0
+      },
+      "auction": {
+        "calls": 4180,
+        "p50_ms": 0.153916,
+        "p99_ms": 0.25925,
+        "max_ms": 1.646833,
+        "over_1ms": 1
+      },
+      "betting_3": {
+        "calls": 4276,
+        "p50_ms": 0.091084,
+        "p99_ms": 0.176875,
+        "max_ms": 0.599667,
+        "over_1ms": 0
+      },
+      "betting_4": {
+        "calls": 2475,
+        "p50_ms": 0.083667,
+        "p99_ms": 0.158875,
+        "max_ms": 0.282708,
+        "over_1ms": 0
+      },
+      "betting_5": {
+        "calls": 1728,
+        "p50_ms": 0.077584,
+        "p99_ms": 0.151833,
+        "max_ms": 0.214542,
+        "over_1ms": 0
+      }
+    }
+  }
+}
