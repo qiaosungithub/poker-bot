@@ -1,6 +1,0 @@
-{
-  "supervisor_pid": 3094991,
-  "trainer_pid": 3094992,
-  "started": "2026-11-07T17:05:40.269151+00:00",
-  "config": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/fullhouse-repro/config_main.json"
-}

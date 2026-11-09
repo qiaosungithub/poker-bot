@@ -171,13 +171,13 @@ All paths below are relative to `/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot`
 
 | Path | Use |
 |---|---|
-| `.runtime/envs/poker-fullhouse-train312/bin/python` | Python 3.12 training/export environment, CPU PyTorch plus JAX/TPU backend |
+| `.runtime/envs/poker-fullhouse-train312/bin/python` | Python 3.12 environment of the original TPU training run (CPU PyTorch plus JAX/TPU); its launcher is removed on branch `gpu-training` |
 | `.runtime/envs/poker-hu-validation/bin/python` | Frozen Python 3.11 benchmark environment; not the official Python 3.12 runtime |
-| `fullhouse-repro/runtime_paths.py` | Redirects cache, temporary files, TPU logs and model caches under `.runtime` |
+| `fullhouse-repro/runtime_paths.py` | Redirects cache, temporary files and model caches under `.runtime` (used by the evaluation, export and latency scripts) |
 | `fullhouse-repro/status.json` | Completed run result; safe to inspect without launching training |
 
 Use [Fullhouse commands](../research/fullhouse.md) for evaluation and timing.
-Do not rerun `supervise.py` for a status check. Do not restart training into the
-completed run directory. For new TPU work, first use the workspace's infra
-operations instructions and verify device ownership/live allocation; the old
-run's device choice is not a reservation.
+Do not restart training into the completed run directory. On branch
+`gpu-training` the original TPU launcher (`launch.py`, `supervise.py`) is
+removed; new training uses the 4x A100 trainer in `fullhouse-gpu/` (see its
+`README.md`), and the TPU path remains on `main` at commit `7356b42`.

@@ -1,4 +1,12 @@
-# Fullhouse reproduction and measurements
+# Original Fullhouse reproduction (TPU run): historical results
+
+> **Branch `gpu-training`:** the training and launch code of this run (JAX/TPU
+> fitting backend, `launch.py`, `supervise.py`, its `config_*.json`, launch
+> manifest and source ZIP, backend/resume validation records) was removed on this
+> branch. Training now uses the GPU reproduction in `fullhouse-gpu/`
+> ([fullhouse-gpu.md](fullhouse-gpu.md)). The results, evaluation outputs and
+> latency measurements below are kept as the **reference numbers** the GPU runs are
+> compared against. The complete TPU provenance is on `main` at commit `7356b42`.
 
 Verified 2026-11-08. Training completed on 2026-11-07. This is a research
 reproduction, not an official tournament submission. Read the
@@ -15,7 +23,8 @@ outperforms the released model **in this fixed six-player benchmark**:
 | Reproduction, selected iteration **210** | **60.9397** | **[60.2345, 61.6450]** | **+2.3504**, CI **[+1.5060, +3.1947]** |
 | Reproduction, final iteration 250 | 54.4207 | [53.6839, 55.1574] | -4.1687, CI [-5.0593, -3.2781] |
 
-Use iteration 210. Training was unstable across checkpoints; additional
+Of this run, use iteration 210 (the GPU runs selected iterations 20 and 40; see
+[fullhouse-gpu.md](fullhouse-gpu.md)). Training was unstable across checkpoints; additional
 iterations did not monotonically improve strength. The latest model is not the
 best model. The success criterion was a paired 95% lower confidence bound above
 -2 points; it was declared before the confirmation evaluation.
@@ -91,8 +100,9 @@ It is not a CPU-only training timing.
 
 The logged iteration duration excludes later checkpoint-writing overhead;
 do not multiply it by 250 and label that the full wall time. Timing comes from
-`train.log`, `process.json` and `status.json`. No reproduction training process
-was running when inspected on 2026-11-08.
+`train.log` (server-local, not in Git), `process.json` (on `main` only) and
+`status.json`. No reproduction training process was running when inspected on
+2026-11-08.
 
 ## Fresh CPU decision latency, 2026-11-08
 
@@ -140,11 +150,10 @@ Paths are relative to `poker-bot/`:
 | `fullhouse-repro/runs/main/latest.pt` | Final iteration 250 checkpoint with replay buffers, about 9.20 GB |
 | `fullhouse-repro/status.json` | Authoritative final selection and paired confirmation summary |
 | `fullhouse-repro/objective.json` | Frozen initial plan; its status text is historical, not live |
-| `fullhouse-repro/config_main.json` | Training configuration |
+| `fullhouse-repro/config_main.json` (on `main` only) | Training configuration; the same hyper-parameters are in `fullhouse-gpu/trainer/configs/full.json` |
 | `fullhouse-repro/eval/*_confirmation.json` and `.jsonl` | Summaries and raw seed blocks |
 | `fullhouse-repro/results.jsonl` | 25 selection records and two confirmation records |
-| `fullhouse-repro/launch_manifest.json`, `launch_sources.zip` | Original launch provenance; do not rewrite after later maintenance |
-| `fullhouse-repro/environment312.txt` | Training environment versions |
+| `fullhouse-repro/launch_manifest.json`, `launch_sources.zip`, `environment312.txt` (on `main` only) | Original launch provenance and training environment versions; removed on this branch, unchanged on `main` |
 | `fullhouse-repro/storage_relocation.json` | Verified migration into work-local runtime storage |
 
 Selected NPZ SHA256:
@@ -159,8 +168,9 @@ gradient and optimizer checks, and bit-identical two-iteration uninterrupted vs
 resumed training. The selected ONNX validation used 1,024 states; maximum
 absolute output difference was 1.073e-5. The storage migration also reran 48
 six-player tournaments with zero errors and confirmed unchanged selected weights.
-See `backend_validation.json`, `resume_validation.json`,
-`eval/iter_00210.onnx.validation.json` and `storage_relocation_validation.json`.
+See `eval/iter_00210.onnx.validation.json` and
+`storage_relocation_validation.json`; `backend_validation.json` and
+`resume_validation.json` are on `main` only.
 
 **Resume limitation:** replay state is retained at iteration 250 in `latest.pt`.
 Iteration 210 does not have a full saved replay reservoir. Loading its weights
@@ -200,7 +210,6 @@ without `--onnx` on the same block seeds, predeclare the sample size, and analyz
 paired block differences. Do not tune on confirmation seeds and call them held
 out afterward. No new strength run was needed for the documentation update.
 
-For new training, first verify TPU ownership through workspace infra procedures,
-choose a new run directory and configuration, and smoke-test/restart-test the
-change. `launch.py CONFIG` performs training; `supervise.py` uses the existing
-main configuration and may resume the old run. Neither is a status command.
+For new training, use the GPU trainer and its smoke test described in
+[`fullhouse-gpu/README.md`](../../fullhouse-gpu/README.md). The original
+`launch.py` / `supervise.py` TPU path exists only on `main` (commit `7356b42`).
