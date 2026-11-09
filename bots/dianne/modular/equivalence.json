@@ -1,0 +1,31 @@
+{
+  "tables": 128,
+  "states": 114785,
+  "phase_states": {
+    "preflop": 85913,
+    "auction": 9691,
+    "postflop": 19181
+  },
+  "mismatches": 0,
+  "checked": [
+    "generated_single_file",
+    "native_phase_modules"
+  ],
+  "variant": "flop_auction_holdem",
+  "seed_prefix": "boston-modular-equivalence:",
+  "opponents": [
+    "icm_v2",
+    "value_heuristic",
+    "push_fold",
+    "opponent_adaptive",
+    "range_pressure",
+    "auction_optimizer",
+    "auction_shadow_price",
+    "equity_sampling"
+  ],
+  "seconds": 10.294709916692227,
+  "sources": {
+    "icm_v2": "73ed48b9128862704c8123b0e9c582ab366c4fa3b84206998874154fc4b17f56",
+    "modular": "27a9b620058068a50c8e86670f26dc72c3a205f3f75a0c8164dd838692d02f2c"
+  }
+}
