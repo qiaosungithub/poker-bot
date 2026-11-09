@@ -4,6 +4,10 @@ Read [README.md](README.md) first. It routes to competition rules, runtime and
 infrastructure documentation, and the Fullhouse reproduction report. Consult
 [docs/sources.json](docs/sources.json) for observation dates and provenance.
 
+The human-vs-bot practice website is documented in [poker_web/README.md](poker_web/README.md).
+It runs locally on port 8788 in tmux `poker-web`; access is through SSH forwarding.
+Read its local instructions before changing the server or game adapters.
+
 - The user operates from a server terminal; prefer CLI/SSH workflows. A ChatGPT
   desktop app is not required.
 - Official pages disagree on some defaults. Preserve the distinction between

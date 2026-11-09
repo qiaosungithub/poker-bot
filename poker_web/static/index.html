@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111a1b">
+  <title>RIVER · 扑克练习室</title>
+  <meta name="description" content="和真实扑克策略打一桌。经典德扑与 Bay Area 弃牌亮牌改版。">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <a class="brand" href="/" aria-label="River 扑克练习室"><span class="brand-mark">♠</span><span>RIVER<small>扑克练习室</small></span></a>
+    <div class="header-right"><span class="local-badge"><i></i> 本地练习</span><button class="ghost" id="rules-open">玩法说明 <span>↗</span></button></div>
+  </header>
+  <main class="workspace">
+    <aside class="settings panel" aria-label="牌桌设置">
+      <div class="section-eyebrow">BUILD YOUR TABLE</div>
+      <h1>来打一桌。</h1>
+      <p class="subtle intro">挑好规则与对手，按自己的节奏练习。</p>
+      <fieldset class="mode-switch"><legend class="sr-only">游戏模式</legend>
+        <button type="button" data-mode="classic" class="mode active" aria-pressed="true"><span>♠</span><b>经典德扑</b><small>2 张底牌</small></button>
+        <button type="button" data-mode="bay_area" class="mode" aria-pressed="false"><span>♢</span><b>Bay Area</b><small>弃一张 · 亮一张</small></button>
+      </fieldset>
+      <div id="mode-note" class="mode-note"></div>
+      <div class="setting-pair"><label>你的昵称<input id="player-name" maxlength="20" value="你" autocomplete="off"></label><label>玩家人数<select id="player-count" aria-label="玩家人数"></select></label></div>
+      <div class="lineup-heading"><h2>选择对手</h2><button class="text-button" id="reset-lineup">默认阵容</button></div>
+      <div id="lineup" class="lineup"></div>
+      <button class="primary start-button" id="start-game">入座，开始游戏 <span>→</span></button>
+      <div class="settings-foot"><span>◷</span><p>你的思考时间不限。机器人使用真实策略，练习桌不执行比赛的 1 ms 超时罚则。</p></div>
+    </aside>
+
+    <section class="play-area" aria-label="扑克牌桌">
+      <div class="table-toolbar"><div><span id="game-mode" class="mode-pill">经典德扑</span><span id="table-number" class="subtle">等待入座</span></div><div class="playback"><label for="speed">播放</label><select id="speed"><option value="700">舒适</option><option value="300">快速</option><option value="0">即时</option></select><button class="icon-button" id="pause" title="暂停机器人行动" aria-label="暂停机器人行动" disabled>Ⅱ</button></div></div>
+      <div class="game-meta"><span id="blind-info">盲注 50 / 100</span><span id="stack-info">初始 10,000 筹码</span><span id="level-info">固定盲注</span></div>
+      <div class="table-stage" id="table-stage">
+        <div class="felt"><div class="felt-inner"></div><div class="table-watermark">R I V E R <span>PLAY WITH INTENTION</span></div></div>
+        <div class="board-area"><div id="street-label" class="street-label">YOUR NEXT HAND</div><div id="board" class="board"></div><div class="pot" id="pot"><span class="chip-symbol">◉</span><span>底池 <strong>—</strong></span></div></div>
+        <div id="seats" class="seats"></div>
+        <div id="empty-message" class="empty-message"><span class="empty-spade">♠</span><h2>每一手，都是新的判断。</h2><p>在左侧选择对手，开始你的第一手牌。</p></div>
+      </div>
+      <div id="status" class="status-bar" role="status" aria-live="polite"><span class="status-dot"></span><span>准备好了就入座。</span></div>
+      <section class="action-panel panel" id="action-panel" aria-label="你的操作">
+        <div id="idle-actions" class="idle-actions"><span class="keycap">♧</span><div><strong>在这里决定你的下一步</strong><p>轮到你时，会显示当前可用的动作。</p></div></div>
+        <div id="betting-controls" hidden>
+          <div class="action-heading"><span>轮到你了</span><span id="call-info" class="subtle"></span></div>
+          <div class="bet-builder" id="bet-builder"><div class="bet-input-wrap"><label for="raise-amount">本轮下注至</label><input type="number" id="raise-amount" step="1" inputmode="numeric" aria-label="本轮累计下注金额"><span>筹码</span></div><input type="range" id="raise-slider" aria-label="下注金额滑块"><div class="presets"><button data-bet="min">最小</button><button data-bet="half">½ 底池</button><button data-bet="pot">底池</button><button data-bet="all">全押</button></div></div>
+          <div class="action-buttons"><button class="fold" id="fold">弃牌 <kbd>F</kbd></button><button class="call" id="call">过牌 <kbd>C</kbd></button><button class="primary raise" id="raise">下注 <kbd>R</kbd></button></div>
+        </div>
+        <div id="selection-controls" hidden><div class="action-heading"><span>弃一张，亮一张</span><span class="subtle">所有人选完后才一起亮牌</span></div><p class="selection-help">先选要弃掉的牌，再选一张保留牌公开。另一张保留牌继续隐藏。</p><div id="selection-cards" class="selection-cards"></div><div class="selection-footer"><span id="selection-summary">请选择弃牌和亮牌</span><button class="primary" id="confirm-selection" disabled>锁定选择 →</button></div></div>
+        <div id="hand-result" hidden><div class="result-top"><div><div class="section-eyebrow" id="result-eyebrow">HAND COMPLETE</div><h2 id="result-title">本手结束</h2><p id="result-detail" class="subtle"></p></div><button class="primary" id="next-hand">下一手 →</button></div><div id="result-chips" class="result-chips"></div></div>
+      </section>
+      <div class="table-bottom"><span id="turn-note">♠ 只显示你能看到的牌</span><button class="text-button" id="fast-forward" hidden>快进到你的回合 / 本手结束 →</button></div>
+    </section>
+
+    <aside class="activity panel" aria-label="对局记录"><div class="activity-tabs"><button class="active" data-tab="actions">行动记录</button><button data-tab="session">本桌概览</button></div><div id="actions-tab"><div class="activity-caption" id="history-hand">牌局尚未开始</div><ol id="action-log" class="action-log"><li class="empty-log">下注、公共牌和摊牌结果<br>都会记录在这里。</li></ol></div><div id="session-tab" hidden><div class="activity-caption">筹码与本手结束时积分</div><div id="standings"></div><div class="activity-caption">最近的手牌</div><div id="recent-hands" class="recent-hands"></div></div><div class="activity-foot">不赶时间，想清楚再行动。</div></aside>
+  </main>
+  <div id="toast" class="toast" role="alert" hidden></div>
+  <dialog id="rules-dialog"><div class="dialog-head"><span class="section-eyebrow">HOW TO PLAY</span><button class="icon-button" id="rules-close" aria-label="关闭玩法说明">×</button></div><h2 id="rules-title">玩法说明</h2><ol id="rules-list"></ol><p class="subtle">加注金额是本轮累计下注总额，不是额外增加的筹码。全押时引擎会处理边池和找零。</p><div class="dialog-note">这是与真实策略对打的练习桌，没有真钱交易。机器人与人类都只能获得各自可见的信息。</div></dialog>
+</body>
+</html>

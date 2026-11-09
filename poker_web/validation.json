@@ -1,0 +1,37 @@
+{
+  "checked_at_utc": "2026-11-09T03:26:51.300798+00:00",
+  "verdict": "pass",
+  "python_tests": {
+    "classic_and_http": 5,
+    "bay_area": 3
+  },
+  "browser": {
+    "verdict": "pass",
+    "checks": [
+      "classic six-player play, raise, settlement, hidden cards and refresh resume",
+      "Bay Area eight-player play, six-way selection controls, sealed cards and settlement",
+      "390px mobile layout, eight visible seats and playable controls"
+    ],
+    "page_errors": []
+  },
+  "server": "127.0.0.1:8788; tmux poker-web",
+  "timing_scope": "Interactive practice; no competition deadline enforcement or strength claim",
+  "source_sha256": {
+    "poker_web/__init__.py": "2b54fc617d6bf5c75006ac9f32358065c4c49fd1f38e0a154b1a750a54940d2c",
+    "poker_web/bay.py": "0af77d20c846ffed6701a32bf9e30e5afe6e1715bf8b9d5267607dcb13db5aa7",
+    "poker_web/catalog.py": "926d20dd9bde0a0e7af03cd13803281789e7637999ec54924666c0c6e317ca44",
+    "poker_web/classic.py": "82ebb5ce4b599819612fcf5603bc6a9d88aec9ef246fa0dc9c695821cbfca059",
+    "poker_web/server.py": "040e489707f4aa16b3a639effa6163369207c39237ca15c914f6c4c16d038a01",
+    "poker_web/static/app.js": "64f59e2722039e95b90d577642c975cf20bf9528f25fd0c4ff54453eed950f42",
+    "poker_web/static/favicon.svg": "92fad7843049fc01d244501e4e92f8784ee306745770553fa49e144344140e7a",
+    "poker_web/static/index.html": "99561b8bb5ecb89dbaa1d7ebc8ec30ea4c09ccf30d9dec103f0d95621e24ef1e",
+    "poker_web/static/style.css": "63471e7cf651c07cacb2b409d2944fd9f8c51702a83ca53aaa3c33a100665637",
+    "poker_web/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "poker_web/tests/browser.cjs": "1a2c78183e40f003f2ffc1fa4956f3fb53fb8aacd97e5f035894912df2c2a43a",
+    "poker_web/tests/test_bay.py": "45161a8a475ce49f8d96cb2b36b69510409937f672ff5d645d2b3c091f826c24",
+    "poker_web/tests/test_classic.py": "bc7c1f7730c0267fa816d776339600024fb37ecfcc9dc7d659802cd1e5adc70a",
+    "poker_web/tests/test_server.py": "79092bc614dc72eb441fc9ce9f0e923e04a77590893168698087718a83ca300d",
+    "poker_web/worker.py": "46be2e22f49e89af35832e78af0b97f97628083bcefb348c0f741234620c9a88"
+  },
+  "local_evidence": ".runtime/web/qa/ (ignored browser screenshots and test logs)"
+}
