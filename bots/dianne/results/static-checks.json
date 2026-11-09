@@ -1,0 +1,67 @@
+{
+  "auction_optimizer": {
+    "sha256": "9444d3c2926c1a0d25c6fd09e91e2018fb905ab32a090fcdc7c8acc8d0c9c775",
+    "size_bytes": 8873,
+    "static_check": "passed"
+  },
+  "auction_shadow_price": {
+    "sha256": "80219fbd712160bdb14d2c6904d477bf2968f722fd82af8a7221c00c98610630",
+    "size_bytes": 9656,
+    "static_check": "passed"
+  },
+  "equity_sampling": {
+    "sha256": "829dac6c0b4fb1da8f4386225593b5dd39a69515d9bdfd501b3835f6208ed798",
+    "size_bytes": 7668,
+    "static_check": "passed"
+  },
+  "icm_survival": {
+    "sha256": "da2f77cee3937483a0a699259599e13b1c6752539cde49c3ab1048f3225d44ae",
+    "size_bytes": 11063,
+    "static_check": "passed"
+  },
+  "icm_v2": {
+    "sha256": "73ed48b9128862704c8123b0e9c582ab366c4fa3b84206998874154fc4b17f56",
+    "size_bytes": 12433,
+    "static_check": "passed"
+  },
+  "opponent_adaptive": {
+    "sha256": "75320dc1328cbdb936fc688546201c43bc5bdcf3c5ac4db139a5fdb92a385be3",
+    "size_bytes": 12132,
+    "static_check": "passed"
+  },
+  "push_fold": {
+    "sha256": "f7a8a72fd9b8a46e174b5c17d3d402c358578541c4e89838048ea5ca5b723787",
+    "size_bytes": 9827,
+    "static_check": "passed"
+  },
+  "push_fold_v2": {
+    "sha256": "930d23c6805d51989ad62c16be52d6005178b29829a3ac1951ddc578e181da6f",
+    "size_bytes": 10909,
+    "static_check": "passed"
+  },
+  "range_pressure": {
+    "sha256": "7bef29abba4261e731908e0c0d8eed78be45a2988184b78059816b824e6d7218",
+    "size_bytes": 8518,
+    "static_check": "passed"
+  },
+  "selected": {
+    "sha256": "73ed48b9128862704c8123b0e9c582ab366c4fa3b84206998874154fc4b17f56",
+    "size_bytes": 12433,
+    "static_check": "passed"
+  },
+  "shadow_price_v2": {
+    "sha256": "f25577617af792d0e6c8693f4ebc33175d45069f7433aef02d807df6edafce06",
+    "size_bytes": 10896,
+    "static_check": "passed"
+  },
+  "value_heuristic": {
+    "sha256": "a51294a47d8beb7cb521197f18ccca35c436f6961b75ea326506bc32f3bbe4b5",
+    "size_bytes": 7875,
+    "static_check": "passed"
+  },
+  "archive": {
+    "sha256": "6c93cd97b867feff4929f47df1b5655cbf81aa23f000629c689edd57ffbf9f5c",
+    "size_bytes": 3915,
+    "selected_source_matches": true
+  }
+}

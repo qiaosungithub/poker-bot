@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-11-09T23:30:32.951575+00:00",
+  "variant": "flop_auction_holdem",
+  "seed": "boston-acceptance-like-v2",
+  "blocks": 10,
+  "hand_cap": 20,
+  "mode": "sdk",
+  "python": "3.12.9 (main, Feb 12 2025, 15:09:19) [Clang 19.1.6 ]",
+  "decision_ms": 1,
+  "delivery_grace_ms": 2,
+  "time_bank_ms": 0,
+  "sources": {
+    "selected": "73ed48b9128862704c8123b0e9c582ab366c4fa3b84206998874154fc4b17f56",
+    "check_or_fold": "2914ffface89473f6a1a75ed8a12ec80f0029d26a5411048feb4b967e1c47230"
+  },
+  "timing_scope": "SDK host clock",
+  "runner_sha256": "d5f8a97e3505cf4a2abc0560c9d147368c68fc5c31a784c2cfdeb823464f0359",
+  "elapsed_seconds": 0.6601988752372563,
+  "tables_sha256": "df0c4c8eab54fe2c773bea98df6ef31ca59cde56ba07d5eb932e50366c46a3d5"
+}

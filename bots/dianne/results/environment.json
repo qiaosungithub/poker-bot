@@ -1,0 +1,26 @@
+{
+  "python": "3.12.9",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "torch": "2.14.1",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1",
+    "onnxruntime": "1.30.0",
+    "numba": "0.68.0",
+    "eval7": "0.1.11",
+    "pokerkit": "0.7.6",
+    "poker-agent-sdk": "0.1.0",
+    "poker-agent-protocol": "0.1.0",
+    "poker-engine": "0.1.0"
+  },
+  "kit_files_sha256": {
+    "RULES.md": "ec579b99f3050d8f315c327e92047732159ca94b704024bef1557ab62082fc5b",
+    "requirements.txt": "3398a63fd9391e6e6def20ff4f9144fafd335ef35594f1eae2d049ec42cc4c9f",
+    "sdk/engine/src/poker_engine/variants/flop_auction_holdem.py": "d1b420327800b5166b9f79cf3d72a6c766a2ae32442e3ae5dfbe7cf26d048aa2"
+  },
+  "kit_archive_sha256": "4a461905d7f7ecf3f7f45e7aacf6460ba148bb77335bb271d7a86c864c09412d"
+}

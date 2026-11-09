@@ -15,10 +15,10 @@ VARIANT = "flop_discard_reveal"
 
 
 class BayAreaEnv:
-    def __init__(self, seed: str, *, players=8, hand_cap=250, time_bank_ms=100):
-        self.rules = TableRules(variant=VARIANT, players=players, hand_cap=hand_cap,
+    def __init__(self, seed: str, *, players=8, hand_cap=250, time_bank_ms=100, variant=VARIANT):
+        self.rules = TableRules(variant=variant, players=players, hand_cap=hand_cap,
                                 time_bank_ms=time_bank_ms)
-        self.table = SitAndGo(rules=self.rules, variant=load_variant(VARIANT),
+        self.table = SitAndGo(rules=self.rules, variant=load_variant(variant),
                              table_id=seed, seed=seed)
         self.memory = [b""] * players
         self.failures = [0] * players

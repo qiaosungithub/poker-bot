@@ -1,0 +1,74 @@
+{
+  "auction_optimizer": {
+    "mean_points": 14.375,
+    "tables": 32,
+    "blocks": 4,
+    "block_standard_error": 2.4206145913796355,
+    "failures": 0,
+    "decisions": 3236,
+    "timing": {}
+  },
+  "icm_survival": {
+    "mean_points": 13.75,
+    "tables": 32,
+    "blocks": 4,
+    "block_standard_error": 2.224391302506523,
+    "failures": 0,
+    "decisions": 4078,
+    "timing": {}
+  },
+  "opponent_adaptive": {
+    "mean_points": 13.75,
+    "tables": 32,
+    "blocks": 4,
+    "block_standard_error": 3.3463288342102104,
+    "failures": 0,
+    "decisions": 3558,
+    "timing": {}
+  },
+  "equity_sampling": {
+    "mean_points": 12.8125,
+    "tables": 32,
+    "blocks": 4,
+    "block_standard_error": 2.359323261022109,
+    "failures": 0,
+    "decisions": 2786,
+    "timing": {}
+  },
+  "value_heuristic": {
+    "mean_points": 12.5,
+    "tables": 32,
+    "blocks": 4,
+    "block_standard_error": 3.6443449342783127,
+    "failures": 0,
+    "decisions": 3753,
+    "timing": {}
+  },
+  "push_fold": {
+    "mean_points": 12.5,
+    "tables": 32,
+    "blocks": 4,
+    "block_standard_error": 3.5721725415588015,
+    "failures": 0,
+    "decisions": 4244,
+    "timing": {}
+  },
+  "auction_shadow_price": {
+    "mean_points": 11.5625,
+    "tables": 32,
+    "blocks": 4,
+    "block_standard_error": 1.6437222747978646,
+    "failures": 0,
+    "decisions": 3410,
+    "timing": {}
+  },
+  "range_pressure": {
+    "mean_points": 8.75,
+    "tables": 32,
+    "blocks": 4,
+    "block_standard_error": 1.5309310892394863,
+    "failures": 0,
+    "decisions": 3055,
+    "timing": {}
+  }
+}

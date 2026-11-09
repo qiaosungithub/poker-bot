@@ -1,0 +1,20 @@
+{
+  "selected": {
+    "mean_points": 41.005,
+    "tables": 20,
+    "blocks": 10,
+    "block_standard_error": 0.05385164807134506,
+    "failures": 0,
+    "decisions": 200,
+    "timing": {}
+  },
+  "check_or_fold": {
+    "mean_points": 38.995,
+    "tables": 20,
+    "blocks": 10,
+    "block_standard_error": 0.05385164807134503,
+    "failures": 0,
+    "decisions": 334,
+    "timing": {}
+  }
+}

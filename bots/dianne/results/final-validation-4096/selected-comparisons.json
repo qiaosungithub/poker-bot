@@ -1,0 +1,51 @@
+{
+  "icm_survival": {
+    "selected_minus_comparator": 0.80810546875,
+    "normal_95_interval": [
+      0.0017750957843724047,
+      1.6144358417156277
+    ]
+  },
+  "push_fold": {
+    "selected_minus_comparator": 1.7529296875,
+    "normal_95_interval": [
+      0.9709514654535313,
+      2.534907909546469
+    ]
+  },
+  "push_fold_v2": {
+    "selected_minus_comparator": 1.7822265625,
+    "normal_95_interval": [
+      0.9998661088456829,
+      2.564587016154317
+    ]
+  },
+  "opponent_adaptive": {
+    "selected_minus_comparator": 1.91650390625,
+    "normal_95_interval": [
+      1.0412678663306123,
+      2.791739946169388
+    ]
+  },
+  "value_heuristic": {
+    "selected_minus_comparator": 3.2763671875,
+    "normal_95_interval": [
+      2.42161972991038,
+      4.13111464508962
+    ]
+  },
+  "shadow_price_v2": {
+    "selected_minus_comparator": 3.505859375,
+    "normal_95_interval": [
+      2.6453873642026027,
+      4.366331385797397
+    ]
+  },
+  "auction_shadow_price": {
+    "selected_minus_comparator": 3.5986328125,
+    "normal_95_interval": [
+      2.792252953924743,
+      4.405012671075257
+    ]
+  }
+}

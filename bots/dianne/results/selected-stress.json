@@ -1,0 +1,93 @@
+{
+  "seed": "boston-selected-stress-v2",
+  "tables": 200,
+  "bots": {
+    "selected#0": {
+      "average_points": 29.95,
+      "places": {
+        "1": 90,
+        "2": 47,
+        "3": 4,
+        "4": 58,
+        "5": 1
+      },
+      "failed_decisions": 0
+    },
+    "min_raiser#1": {
+      "average_points": 5.65,
+      "places": {
+        "1": 21,
+        "2": 2,
+        "3": 1,
+        "4": 36,
+        "5": 135,
+        "6": 5
+      },
+      "failed_decisions": 0
+    },
+    "min_raiser#2": {
+      "average_points": 5.25,
+      "places": {
+        "1": 17,
+        "2": 6,
+        "3": 1,
+        "4": 38,
+        "5": 131,
+        "6": 7
+      },
+      "failed_decisions": 0
+    },
+    "min_raiser#3": {
+      "average_points": 6.8,
+      "places": {
+        "1": 25,
+        "2": 3,
+        "3": 1,
+        "4": 31,
+        "5": 137,
+        "6": 3
+      },
+      "failed_decisions": 0
+    },
+    "min_raiser#4": {
+      "average_points": 6.6,
+      "places": {
+        "1": 24,
+        "2": 4,
+        "4": 38,
+        "5": 128,
+        "6": 6
+      },
+      "failed_decisions": 0
+    },
+    "min_raiser#5": {
+      "average_points": 6.2,
+      "places": {
+        "1": 23,
+        "2": 3,
+        "4": 35,
+        "5": 133,
+        "6": 6
+      },
+      "failed_decisions": 0
+    },
+    "check_or_fold#6": {
+      "average_points": 20.55,
+      "places": {
+        "2": 68,
+        "3": 104,
+        "4": 28
+      },
+      "failed_decisions": 0
+    },
+    "check_or_fold#7": {
+      "average_points": 19.0,
+      "places": {
+        "2": 67,
+        "3": 90,
+        "4": 43
+      },
+      "failed_decisions": 0
+    }
+  }
+}
