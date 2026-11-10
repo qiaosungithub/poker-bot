@@ -1,0 +1,15 @@
+{
+  "all_scores_audited": true,
+  "benchmark": "auction-flop-v1",
+  "contrast": "classic_hybrid_v1 minus fragile_both_v1",
+  "interval_scope": "Exploratory post-hoc paired panel-stratified normal 95% interval, not adjusted for candidate selection or multiple comparisons.",
+  "paired": {
+    "ci95": [
+      -0.06772875299051095,
+      1.415385002990511
+    ],
+    "independent_blocks": 512,
+    "mean_points": 0.673828125
+  },
+  "tables_per_candidate": 4096
+}

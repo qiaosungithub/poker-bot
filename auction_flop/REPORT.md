@@ -189,7 +189,10 @@ It scores **17.48047 points/table**, the highest completed mean on v1, over
 
 Intervals adjust for these two comparisons. Versus classic, the change is
 preflop; versus corrected loose, it is the complete postflop policy. The mean
-ranking does not establish superiority over every other candidate. See
+ranking does not establish superiority over every other candidate. An additional
+exploratory comparison to fragile-both gives **+0.67383**, unadjusted paired 95%
+interval **[-0.06773, +1.41539]**, which includes zero even before correcting for
+candidate selection. See the [direct comparison](evidence/hybrid-vs-fragile-v1-comparison.json) and
 [audited comparison](evidence/classic-hybrid-v1-comparison.json). Benchmark v1
 opponents, rules and seeds remain unchanged.
 
