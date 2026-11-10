@@ -1,0 +1,140 @@
+{
+  "base_commit": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+  "configuration": {
+    "base_ref": "7e7aa88",
+    "bindings": [
+      {
+        "function": "choose_preflop",
+        "module": "preflop_price",
+        "target": "preflop_policy.py"
+      }
+    ],
+    "replacements": [
+      {
+        "commit": "2873210",
+        "source": "corrected/corrected_betting_baseline.py",
+        "target": "corrected_betting_baseline.py"
+      },
+      {
+        "commit": "2873210",
+        "source": "corrected/hand_contribution.py",
+        "target": "hand_contribution.py"
+      },
+      {
+        "commit": "2873210",
+        "source": "corrected/pot_accounting.py",
+        "target": "pot_accounting.py"
+      },
+      {
+        "commit": "2873210",
+        "source": "corrected/betting_policy.py",
+        "target": "betting_policy.py"
+      },
+      {
+        "commit": "2873210",
+        "source": "corrected/independent_preflop.py",
+        "target": "independent_preflop.py"
+      },
+      {
+        "commit": "485fae44c3160cd4e219d17fa012843df122237a",
+        "source": "refinements/preflop_price.py",
+        "target": "preflop_price.py"
+      }
+    ]
+  },
+  "sources": {
+    "agent.py": {
+      "commit": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+      "sha256": "ab97f3d27cd875aa31feaccfe4ccdee0734033925407b2bc727f95b037dc7882",
+      "source": "bot/agent.py"
+    },
+    "auction_policy.py": {
+      "commit": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+      "sha256": "8e1aa1654e398e370479ababbc70ef9ad314216ccaa0759e3fa8386e6f8802b5",
+      "source": "bot/auction_policy.py"
+    },
+    "betting_policy.py": {
+      "commit": "28732102faa4121b7e4c7983f6382a83017f3842",
+      "sha256": "c96ffea1064924a35464320c5611798e153d2deaffd2f5f6890e0f5c38353b57",
+      "source": "corrected/betting_policy.py"
+    },
+    "corrected_betting_baseline.py": {
+      "commit": "28732102faa4121b7e4c7983f6382a83017f3842",
+      "sha256": "aa32eb1777db5ca4188d103da92d0e009361e850729b42ce3635591787a96bdf",
+      "source": "corrected/corrected_betting_baseline.py"
+    },
+    "flop_policy.py": {
+      "commit": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+      "sha256": "d57e5895242f51f63d8fc100d1cdf412a92a1c276e9c02f85f4af26a27ea7eb2",
+      "source": "bot/flop_policy.py"
+    },
+    "hand_contribution.py": {
+      "commit": "28732102faa4121b7e4c7983f6382a83017f3842",
+      "sha256": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+      "source": "corrected/hand_contribution.py"
+    },
+    "independent_preflop.py": {
+      "commit": "28732102faa4121b7e4c7983f6382a83017f3842",
+      "sha256": "516b2e41e72430e1e706e483348047bb9330b638a701d279e9a285b5acf51145",
+      "source": "corrected/independent_preflop.py"
+    },
+    "postflop_policy.py": {
+      "commit": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+      "sha256": "786f1e9c21ecfbdca4add1aab7f831631d04e6054187ed36846593d75efa0548",
+      "source": "bot/postflop_policy.py"
+    },
+    "pot_accounting.py": {
+      "commit": "28732102faa4121b7e4c7983f6382a83017f3842",
+      "sha256": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+      "source": "corrected/pot_accounting.py"
+    },
+    "preflop_policy.py": {
+      "binding": {
+        "function": "choose_preflop",
+        "module": "preflop_price",
+        "target": "preflop_policy.py"
+      },
+      "sha256": "9d46f3e72d0e7b0cab74a57825eab5af91a2da186b410116bb27807a59093958"
+    },
+    "preflop_price.py": {
+      "commit": "485fae44c3160cd4e219d17fa012843df122237a",
+      "sha256": "922e122f9a493c49266b42bc113be75a2c0cde340e0cc17e19aee2018a043f01",
+      "source": "refinements/preflop_price.py"
+    },
+    "public_features.py": {
+      "commit": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+      "sha256": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+      "source": "bot/public_features.py"
+    },
+    "river_policy.py": {
+      "commit": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+      "sha256": "0aab2c4b27c9e8385f1179f86f9361f0c7ec7cded9e52ce77bb5a722cd01885f",
+      "source": "bot/river_policy.py"
+    },
+    "tournament_agent.py": {
+      "commit": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+      "sha256": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+      "source": "bot/tournament_agent.py"
+    },
+    "tournament_strategy.py": {
+      "commit": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+      "sha256": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+      "source": "bot/tournament_strategy.py"
+    },
+    "turn_policy.py": {
+      "commit": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+      "sha256": "e572c0410d711bf9e7772fdb2bc2487aad3e21b9237ecb62f52c3aafce9522c4",
+      "source": "bot/turn_policy.py"
+    },
+    "variant_agent.py": {
+      "commit": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+      "sha256": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+      "source": "bot/variant_agent.py"
+    },
+    "variant_auction.py": {
+      "commit": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+      "sha256": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d",
+      "source": "bot/variant_auction.py"
+    }
+  }
+}

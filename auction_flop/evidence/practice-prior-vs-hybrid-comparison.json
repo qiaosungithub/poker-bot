@@ -1,0 +1,68 @@
+{
+  "all_scores_audited": true,
+  "all_sources_match_catalog_and_zip": true,
+  "benchmark": "auction-flop-v1",
+  "comparisons": {
+    "practice_prior_full_v1": {
+      "ci95": [
+        -0.6349839336121768,
+        0.9865464336121768
+      ],
+      "difference_vs_classic_hybrid": 0.17578125,
+      "simultaneous_ci95": [
+        -0.7513877775487032,
+        1.1029502775487032
+      ],
+      "summary": {
+        "all_scores_audited": true,
+        "candidate_decisions": 639605,
+        "candidate_failures": 0,
+        "ci95": [
+          16.97193115857601,
+          18.34056884142399
+        ],
+        "independent_blocks": 512,
+        "mean_chips": 3808.59375,
+        "mean_points": 17.65625,
+        "mean_remaining_flopchips": 213.893310546875,
+        "mean_spent_flopchips": 786.106689453125,
+        "official_score": true,
+        "tables": 4096,
+        "total_failures": 0,
+        "valid": true
+      }
+    },
+    "practice_prior_half_v1": {
+      "ci95": [
+        -0.9826040095657377,
+        0.5089711970657377
+      ],
+      "difference_vs_classic_hybrid": -0.23681640625,
+      "simultaneous_ci95": [
+        -1.0896788390489032,
+        0.6160460265489032
+      ],
+      "summary": {
+        "all_scores_audited": true,
+        "candidate_decisions": 631161,
+        "candidate_failures": 0,
+        "ci95": [
+          16.611384199922004,
+          17.875920487577996
+        ],
+        "independent_blocks": 512,
+        "mean_chips": 3546.875,
+        "mean_points": 17.24365234375,
+        "mean_remaining_flopchips": 215.894287109375,
+        "mean_spent_flopchips": 784.105712890625,
+        "official_score": true,
+        "tables": 4096,
+        "total_failures": 0,
+        "valid": true
+      }
+    }
+  },
+  "interval_scope": "Exploratory paired panel-stratified normal intervals; Bonferroni within these two contrasts only, not adaptive selection.",
+  "prior_source_commit": "7dfcd05f07c11c1cd93e2d1782ac1b71a72c73f8",
+  "source_snapshot_catalog_sha256": "5f16f1362fc28be9dbb8e1b9dffffd3157a03049c0ed8acf4deb963d93399af5"
+}

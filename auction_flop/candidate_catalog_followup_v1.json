@@ -1,0 +1,165 @@
+{
+  "analysis_families": {
+    "followup_four": [
+      "classic_tournament_v1 - classic_hybrid_v1",
+      "classic_tournament_v1 - classic_txnujk32_v1",
+      "classic_flop_value_v1 - corrected_preflop_loose_v2",
+      "preflop_price_v1 - corrected_preflop_loose_v2"
+    ],
+    "hybrid_six": [
+      "price - hybrid",
+      "contribution - hybrid",
+      "both - hybrid",
+      "average price main effect",
+      "average contribution main effect",
+      "interaction"
+    ]
+  },
+  "benchmark": "auction-flop-v1",
+  "candidates": [
+    {
+      "control": "classic_hybrid_v1",
+      "event_revision": "f871e0be42a7a1698a956d644d20ee27552b7e86",
+      "name": "classic_tournament_v1",
+      "package_sha256": "e634c55db44df198ca77e4e40eb1c332a21b43fee6d85932b7b44f11f3c1b872",
+      "path": "candidates/classic_tournament_v1",
+      "results": "evidence/candidate-classic_tournament_v1/summary.json",
+      "sha256": {
+        "agent.py": "a91825210f7a5a9efa321ff6bcaf519b68cc2b750ba66ab792760c399b0f4400",
+        "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+        "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+        "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+        "specialist_policy.py": "b27912f23e7146fb3501743106e7dfcb6de4cbc05d365222fccf68ca8c41d6d2",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb"
+      },
+      "status": "completed_4096_tables_audited"
+    },
+    {
+      "control": "corrected_preflop_loose_v2",
+      "event_revision": "16087777b791b3814c3baf66db932848193b72e3",
+      "name": "classic_flop_value_v1",
+      "package_sha256": "4d8778c7f3f1580e0026e15830c36f2388b029001cdf283e7d3ee43442802f03",
+      "path": "candidates/classic_flop_value_v1",
+      "results": "evidence/candidate-classic_flop_value_v1/summary.json",
+      "sha256": {
+        "agent.py": "ab97f3d27cd875aa31feaccfe4ccdee0734033925407b2bc727f95b037dc7882",
+        "auction_policy.py": "8e1aa1654e398e370479ababbc70ef9ad314216ccaa0759e3fa8386e6f8802b5",
+        "betting_policy.py": "c96ffea1064924a35464320c5611798e153d2deaffd2f5f6890e0f5c38353b57",
+        "corrected_betting_baseline.py": "aa32eb1777db5ca4188d103da92d0e009361e850729b42ce3635591787a96bdf",
+        "flop_policy.py": "ab93b2e0e454ee6db0353f2a69c1f3b803d852567edb9fc3370b53a9ce71d614",
+        "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+        "independent_preflop.py": "516b2e41e72430e1e706e483348047bb9330b638a701d279e9a285b5acf51145",
+        "postflop_policy.py": "786f1e9c21ecfbdca4add1aab7f831631d04e6054187ed36846593d75efa0548",
+        "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+        "preflop_policy.py": "88adb1e87bf95e9973c2e4fbe395a92c380f9162139759a8512e5a75d357c907",
+        "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+        "river_policy.py": "0aab2c4b27c9e8385f1179f86f9361f0c7ec7cded9e52ce77bb5a722cd01885f",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "turn_policy.py": "e572c0410d711bf9e7772fdb2bc2487aad3e21b9237ecb62f52c3aafce9522c4",
+        "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+        "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+      },
+      "status": "completed_4096_tables_audited"
+    },
+    {
+      "composition_manifest": "candidates/manifests/preflop-price-v1.json",
+      "control": "corrected_preflop_loose_v2",
+      "event_revision": "485fae44c3160cd4e219d17fa012843df122237a",
+      "name": "preflop_price_v1",
+      "package_sha256": "8f61dc5181ba7f6a42167abf1696fd5b4d24eb1ca5598d3a9d8aa3054e6c9de6",
+      "path": "candidates/preflop_price_v1",
+      "results": "evidence/candidate-preflop_price_v1/summary.json",
+      "sha256": {
+        "agent.py": "ab97f3d27cd875aa31feaccfe4ccdee0734033925407b2bc727f95b037dc7882",
+        "auction_policy.py": "8e1aa1654e398e370479ababbc70ef9ad314216ccaa0759e3fa8386e6f8802b5",
+        "betting_policy.py": "c96ffea1064924a35464320c5611798e153d2deaffd2f5f6890e0f5c38353b57",
+        "corrected_betting_baseline.py": "aa32eb1777db5ca4188d103da92d0e009361e850729b42ce3635591787a96bdf",
+        "flop_policy.py": "d57e5895242f51f63d8fc100d1cdf412a92a1c276e9c02f85f4af26a27ea7eb2",
+        "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+        "independent_preflop.py": "516b2e41e72430e1e706e483348047bb9330b638a701d279e9a285b5acf51145",
+        "postflop_policy.py": "786f1e9c21ecfbdca4add1aab7f831631d04e6054187ed36846593d75efa0548",
+        "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+        "preflop_policy.py": "9d46f3e72d0e7b0cab74a57825eab5af91a2da186b410116bb27807a59093958",
+        "preflop_price.py": "922e122f9a493c49266b42bc113be75a2c0cde340e0cc17e19aee2018a043f01",
+        "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+        "river_policy.py": "0aab2c4b27c9e8385f1179f86f9361f0c7ec7cded9e52ce77bb5a722cd01885f",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "turn_policy.py": "e572c0410d711bf9e7772fdb2bc2487aad3e21b9237ecb62f52c3aafce9522c4",
+        "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+        "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+      },
+      "status": "completed_4096_tables_audited"
+    },
+    {
+      "control": "classic_hybrid_v1",
+      "event_revision": "0c60de2e0aa5624844e3d0ae5d38e73ded25623c",
+      "name": "hybrid_price",
+      "package_sha256": "f1f11f3def1b4dbcc2a3d1e927c12bb8f0ccda9b9ce65f4b434ef0a189197d13",
+      "path": "candidates/hybrid_price",
+      "results": "evidence/candidate-hybrid_price/summary.json",
+      "sha256": {
+        "agent.py": "8d094193e3b5290302f5f3d7612daf331cc62048c960ebae186bc1311de93a5f",
+        "classic_policy.py": "b94c222ea36950c0205d5e3d89b004230b7e94bf57ca9bd9bd623ff3783a1caf",
+        "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+        "independent_preflop.py": "516b2e41e72430e1e706e483348047bb9330b638a701d279e9a285b5acf51145",
+        "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+        "preflop_table.py": "d3e015114b6bf5c9d3b3e7d577f918d7cdf28ff1979ef5ad19c0cc99e52e9197",
+        "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+        "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+      },
+      "status": "completed_4096_tables_audited"
+    },
+    {
+      "control": "classic_hybrid_v1",
+      "event_revision": "0c60de2e0aa5624844e3d0ae5d38e73ded25623c",
+      "name": "hybrid_contribution",
+      "package_sha256": "a295263d811c724257fe121cf11d75d309bb795db2502524844247e9e1392833",
+      "path": "candidates/hybrid_contribution",
+      "results": "evidence/candidate-hybrid_contribution/summary.json",
+      "sha256": {
+        "agent.py": "87abb6ed0a8f8baebe81a6f88599fd7aff190c4273e3c940fcf2fa44c8b256d9",
+        "classic_policy.py": "b94c222ea36950c0205d5e3d89b004230b7e94bf57ca9bd9bd623ff3783a1caf",
+        "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+        "independent_preflop.py": "516b2e41e72430e1e706e483348047bb9330b638a701d279e9a285b5acf51145",
+        "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+        "preflop_table.py": "d3e015114b6bf5c9d3b3e7d577f918d7cdf28ff1979ef5ad19c0cc99e52e9197",
+        "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+        "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+      },
+      "status": "completed_4096_tables_audited"
+    },
+    {
+      "control": "classic_hybrid_v1",
+      "event_revision": "0c60de2e0aa5624844e3d0ae5d38e73ded25623c",
+      "name": "hybrid_both",
+      "package_sha256": "3d5e6595a3c1f73f5a8ed051a25200609f19a3132487185739661b52a48520ef",
+      "path": "candidates/hybrid_both",
+      "results": "evidence/candidate-hybrid_both/summary.json",
+      "sha256": {
+        "agent.py": "ab379f0717c5ebc4a671d59a2ff9e944f9f802ba997dd35beb95b524d2bdae2b",
+        "classic_policy.py": "b94c222ea36950c0205d5e3d89b004230b7e94bf57ca9bd9bd623ff3783a1caf",
+        "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+        "independent_preflop.py": "516b2e41e72430e1e706e483348047bb9330b638a701d279e9a285b5acf51145",
+        "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+        "preflop_table.py": "d3e015114b6bf5c9d3b3e7d577f918d7cdf28ff1979ef5ad19c0cc99e52e9197",
+        "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+        "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+      },
+      "status": "completed_4096_tables_audited"
+    }
+  ],
+  "control_reuse": "Retained complete runs; hybrid_off is byte-identical to classic_hybrid_v1. No baseline reruns.",
+  "intervals": "Paired panel-stratified normal 95%; Bonferroni within each named family only. Does not correct the ongoing adaptive search."
+}

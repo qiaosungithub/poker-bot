@@ -179,7 +179,7 @@ Reproduce with `python -m auction_flop.benchmark.analyze_fragile`.
 [classic_hybrid_v1](candidate_catalog_classic_hybrid_v1.json) combines corrected
 loose preflop, the complete original classic postflop and the same tournament
 auction. It includes none of the isolated price, contribution or fragile rules.
-It scores **17.48047 points/table**, the highest completed mean on v1, over
+It scores **17.48047 points/table**, the highest mean when this batch completed, over
 4,096 tables and 633,604 decisions with zero failures.
 
 | Comparison | Paired difference | Simultaneous 95% interval |
@@ -225,3 +225,58 @@ Authenticated readback independently confirms submission
 SHA256 is `99bf8e4507533d02c11e69e4f23e961a19e02c05e481d72df9fd3f3f091262bb`.
 The prior validating observation remains historical.
 See the [current submission receipt](evidence/submission-confirmation.json).
+
+## Public opening prior cross-check
+
+The separately committed [Practice 4 prior study](research/practice_preflop_prior/README.md)
+was imported from `7dfcd05`. Independent audit checks each candidate's source,
+ZIP, frozen schedule and all 4,096 raw payouts. Full prior scores **17.65625**;
+half prior scores **17.24365**, both with zero failures. These use corrected
+loose postflop, so their difference from classic hybrid changes multiple
+components and does not isolate the prior on hybrid.
+
+| Candidate minus classic hybrid | Paired difference | Simultaneous 95% interval |
+| --- | ---: | --- |
+| Full prior | +0.17578 | [-0.75139, +1.10295] |
+| Half prior | -0.23682 | [-1.08968, +0.61605] |
+
+The two-comparison adjustment covers only these exploratory contrasts. Neither
+establishes superiority over classic hybrid. See the
+[independent cross-check](evidence/practice-prior-vs-hybrid-comparison.json).
+
+## Six further candidates and reused controls
+
+All six completed the same 4,096-table schedule with zero failures. Their exact
+Git or composition source matches the qualified ZIP and measured snapshot;
+the independent audit checks the raw schedules and payout reconstruction.
+See the [source catalog](candidate_catalog_followup_v1.json) and
+[full comparison](evidence/followup-v1-comparison.json).
+
+| Candidate | Mean points/table | Control | Paired change | Simultaneous 95% interval |
+| --- | ---: | --- | ---: | --- |
+| Classic TournamentSpecialist | 11.89914 | Classic hybrid (17.48047) | -5.58133 | [-6.54178, -4.62087] |
+| Flop top-pair value bet | 16.74072 | Corrected loose (16.62598) | +0.11475 | [-0.35113, +0.58063] |
+| Narrow cheap preflop call | 16.63818 | Corrected loose (16.62598) | +0.01221 | [-0.00978, +0.03419] |
+| Hybrid price protection | 17.51465 | Classic hybrid (17.48047) | +0.03418 | [-0.01308, +0.08144] |
+| Hybrid private contribution | 17.71729 | Classic hybrid (17.48047) | +0.23682 | [+0.03131, +0.44232] |
+| Hybrid both protections | 17.73438 | Classic hybrid (17.48047) | +0.25391 | [+0.04467, +0.46314] |
+
+The first three rows use a four-contrast family, including TournamentSpecialist
+minus the original classic control: -1.71902, interval [-2.61070, -0.82734].
+The hybrid rows use a separate six-contrast 2x2 family. The average price effect
+is +0.02563, interval [-0.01496, +0.06623]; the average contribution effect is
++0.22827, interval [+0.02533, +0.43121]. Interaction is -0.01709, interval
+[-0.04506, +0.01088]. Both protection candidates improve this retained control
+when private contribution is enabled; the incremental price benefit remains
+uncertain. These corrections do not cover the ongoing adaptive search.
+
+TournamentSpecialist is a new candidate with documented API/category/price
+corrections; no legacy source or frozen opponent was replaced. The cheap-call
+rule is deliberately narrow: original fold, heads-up closed all-in, eligible
+price at most 1%, call at most 0.1 BB and 5% of remaining stack. A reported
+40-into-2,040 call is outside that price bound; this result does not establish
+that those Practice 5 anecdotes are fixed. Practice 5 used a different prior
+submission and is not a direct test of the active classic hybrid.
+
+Reproduce the retained-result analysis with
+`python -m auction_flop.benchmark.analyze_followup`. No baseline games were rerun.

@@ -1,0 +1,287 @@
+{
+  "all_scores_audited": true,
+  "all_sources_match_published_catalog": true,
+  "benchmark": "auction-flop-v1",
+  "control_reuse": "Retained complete runs; hybrid_off is byte-identical to classic_hybrid_v1. No baseline reruns.",
+  "followup_four": {
+    "classic_flop_value_v1_minus_corrected_preflop_loose_v2": {
+      "ci95": [
+        -0.2508401100631708,
+        0.4803322975631708
+      ],
+      "difference": 0.11474609375,
+      "simultaneous_ci95": [
+        -0.3511348565733646,
+        0.5806270440733645
+      ]
+    },
+    "classic_tournament_v1_minus_classic_hybrid_v1": {
+      "ci95": [
+        -6.335015481208672,
+        -4.827640768791327
+      ],
+      "difference": -5.581328125,
+      "simultaneous_ci95": [
+        -6.541781714590709,
+        -4.620874535409291
+      ]
+    },
+    "classic_tournament_v1_minus_classic_txnujk32_v1": {
+      "ci95": [
+        -2.4187424143314735,
+        -1.0193044606685269
+      ],
+      "difference": -1.7190234375000002,
+      "simultaneous_ci95": [
+        -2.6107029880011208,
+        -0.8273438869988798
+      ]
+    },
+    "preflop_price_v1_minus_corrected_preflop_loose_v2": {
+      "ci95": [
+        -0.005046094970481984,
+        0.029460157470481984
+      ],
+      "difference": 0.01220703125,
+      "simultaneous_ci95": [
+        -0.009779309470217098,
+        0.0341933719702171
+      ]
+    }
+  },
+  "hybrid_six": {
+    "average_contribution_main_effect": {
+      "ci95": [
+        0.07750258465776683,
+        0.3790403840922332
+      ],
+      "difference": 0.228271484375,
+      "simultaneous_ci95": [
+        0.025329062796899338,
+        0.43121390595310066
+      ]
+    },
+    "average_price_main_effect": {
+      "ci95": [
+        -0.004524036470830828,
+        0.05579356772083083
+      ],
+      "difference": 0.025634765625,
+      "simultaneous_ci95": [
+        -0.014960478756975287,
+        0.06623001000697529
+      ]
+    },
+    "both_minus_control": {
+      "ci95": [
+        0.0984615821699592,
+        0.4093509178300408
+      ],
+      "difference": 0.25390625,
+      "simultaneous_ci95": [
+        0.0446700124868456,
+        0.4631424875131544
+      ]
+    },
+    "contribution_minus_control": {
+      "ci95": [
+        0.08414362603713468,
+        0.38948918646286534
+      ],
+      "difference": 0.23681640625,
+      "simultaneous_ci95": [
+        0.0313112670364748,
+        0.4423215454635252
+      ]
+    },
+    "price_by_contribution_interaction": {
+      "ci95": [
+        -0.03786991449607503,
+        0.0036902269960750293
+      ],
+      "difference": -0.01708984375,
+      "simultaneous_ci95": [
+        -0.04506085027509893,
+        0.01088116277509893
+      ]
+    },
+    "price_minus_control": {
+      "ci95": [
+        -0.000927439468206441,
+        0.06928681446820645
+      ],
+      "difference": 0.0341796875,
+      "simultaneous_ci95": [
+        -0.013076247742215545,
+        0.08143562274221555
+      ]
+    }
+  },
+  "independent_blocks": 512,
+  "interval_method": "Paired panel-stratified normal 95%; Bonferroni within each named family only. Does not correct the ongoing adaptive search.",
+  "summaries": {
+    "classic_flop_value_v1": {
+      "all_scores_audited": true,
+      "candidate_decisions": 623762,
+      "candidate_failures": 0,
+      "ci95": [
+        16.149943022502327,
+        17.331502289997673
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 3296.875,
+      "mean_points": 16.74072265625,
+      "mean_remaining_flopchips": 215.278076171875,
+      "mean_spent_flopchips": 784.721923828125,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    },
+    "classic_hybrid_v1": {
+      "all_scores_audited": true,
+      "candidate_decisions": 633604,
+      "candidate_failures": 0,
+      "ci95": [
+        16.860172721926997,
+        18.100764778073003
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 3468.75,
+      "mean_points": 17.48046875,
+      "mean_remaining_flopchips": 193.21826171875,
+      "mean_spent_flopchips": 806.78173828125,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    },
+    "classic_tournament_v1": {
+      "all_scores_audited": true,
+      "candidate_decisions": 548586,
+      "candidate_failures": 0,
+      "ci95": [
+        11.438865124246814,
+        12.359416125753189
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 521.265625,
+      "mean_points": 11.899140625000001,
+      "mean_remaining_flopchips": 218.866943359375,
+      "mean_spent_flopchips": 781.133056640625,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    },
+    "classic_txnujk32_v1": {
+      "all_scores_audited": true,
+      "candidate_decisions": 655497,
+      "candidate_failures": 0,
+      "ci95": [
+        13.065782269022726,
+        14.170545855977274
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 1949.21875,
+      "mean_points": 13.6181640625,
+      "mean_remaining_flopchips": 192.020751953125,
+      "mean_spent_flopchips": 807.979248046875,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    },
+    "corrected_preflop_loose_v2": {
+      "all_scores_audited": true,
+      "candidate_decisions": 629716,
+      "candidate_failures": 0,
+      "ci95": [
+        16.037144624808192,
+        17.214808500191808
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 3230.46875,
+      "mean_points": 16.6259765625,
+      "mean_remaining_flopchips": 212.77978515625,
+      "mean_spent_flopchips": 787.22021484375,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    },
+    "hybrid_both": {
+      "all_scores_audited": true,
+      "candidate_decisions": 638937,
+      "candidate_failures": 0,
+      "ci95": [
+        17.112843141929353,
+        18.355906858070647
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 3531.25,
+      "mean_points": 17.734375,
+      "mean_remaining_flopchips": 187.345947265625,
+      "mean_spent_flopchips": 812.654052734375,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    },
+    "hybrid_contribution": {
+      "all_scores_audited": true,
+      "candidate_decisions": 638773,
+      "candidate_failures": 0,
+      "ci95": [
+        17.096502023167726,
+        18.338068289332274
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 3523.4375,
+      "mean_points": 17.71728515625,
+      "mean_remaining_flopchips": 187.288818359375,
+      "mean_spent_flopchips": 812.711181640625,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    },
+    "hybrid_price": {
+      "all_scores_audited": true,
+      "candidate_decisions": 634195,
+      "candidate_failures": 0,
+      "ci95": [
+        16.894076341154097,
+        18.135220533845903
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 3476.5625,
+      "mean_points": 17.5146484375,
+      "mean_remaining_flopchips": 192.81884765625,
+      "mean_spent_flopchips": 807.18115234375,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    },
+    "preflop_price_v1": {
+      "all_scores_audited": true,
+      "candidate_decisions": 629730,
+      "candidate_failures": 0,
+      "ci95": [
+        16.0491053742105,
+        17.2272618132895
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 3238.28125,
+      "mean_points": 16.63818359375,
+      "mean_remaining_flopchips": 212.82763671875,
+      "mean_spent_flopchips": 787.17236328125,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    }
+  },
+  "tables_per_candidate": 4096
+}

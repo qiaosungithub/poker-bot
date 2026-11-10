@@ -43,7 +43,7 @@ Two later [corrected v2 candidates](candidate_catalog_corrected_v2.json) fix the
 known shared betting-core defects. `corrected_preflop_loose_v2` scores 16.62598,
 with zero failures across 4,096 tables. The later
 [classic hybrid](candidate_catalog_classic_hybrid_v1.json) scores **17.48047** and the
-[combined fragile-hand refinement](candidate_catalog_fragile_v1.json) at
+[combined fragile-hand refinement](candidate_catalog_fragile_v1.json) scores
 **16.80664**. These are fixed-field results; see the report for paired uncertainty
 and the separately recorded active submission.
 
@@ -55,6 +55,12 @@ has paired gain +1.03027 (95% CI +0.38054 to +1.68001).
 See the [source/package catalog](candidate_catalog_practice_prior_v1.json).
 The full-prior mean exceeds classic hybrid by 0.17578, but its paired interval
 includes zero; the mean ranking does not establish a unique best policy.
+
+The [next six-candidate batch](candidate_catalog_followup_v1.json) is also
+complete. Adding both isolated postflop protections to classic hybrid yields
+**17.73438**, versus its retained control's 17.48047; the six-contrast adjusted
+interval for that gain is [+0.04467, +0.46314]. See the
+[audited follow-up comparisons](evidence/followup-v1-comparison.json).
 The report also records known common betting-core defects; corrected bots must
 be new candidates. The frozen opponents remain unchanged.
 
