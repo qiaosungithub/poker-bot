@@ -1,0 +1,34 @@
+{
+  "platform_adapter": {
+    "qualification": "macOS portability-adapted research run; not Linux qualification",
+    "source_commit": "481d1f0",
+    "adapter": "/Users/dianne/Documents/ChatGPT/Pokerbot/poker-bot/.runtime/main-benchmark-481d1f0/run_macos.py",
+    "adapter_sha256": "62f8fde5b1b195ee70f2ebed88de647335ffd93d4350a63b1805ed8b7963ef26",
+    "patches": [
+      "os.sched_getaffinity: report all logical CPUs",
+      "os.sched_setaffinity: no-op"
+    ],
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.12.9 (main, Feb 12 2025, 15:09:19) [Clang 19.1.6 ]",
+    "logical_cpus": 15,
+    "python_hash_seed": "0",
+    "argv": [
+      "compare",
+      "/Users/dianne/Documents/ChatGPT/Pokerbot/poker-bot/bots/dianne/results/main-benchmark-defend-v7-macos",
+      "/Users/dianne/Documents/ChatGPT/Pokerbot/poker-bot/.runtime/main-benchmark-481d1f0/auction_flop/evidence/calibration-hybrid_tournament_auction"
+    ],
+    "started": "2026-11-10T00:16:48.208851+00:00",
+    "frozen_files_modified": false,
+    "game_rules_seed_or_score_changes": false,
+    "cpu_affinity_enforced": false
+  },
+  "result": {
+    "ci95": [
+      -3.0533876650497627,
+      -1.4290342099502373
+    ],
+    "independent_blocks": 512,
+    "difference_left_minus_right": -2.2412109375,
+    "scope": "One prespecified paired comparison; 95% normal interval over seed blocks."
+  }
+}

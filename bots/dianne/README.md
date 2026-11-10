@@ -4,9 +4,9 @@
 
 ## 使用入口
 
-**当前提交建议：保留 main 的 `preflop_loose`。** SQA 同标 Mac 复现中，
+**当前提交建议：保留 main 的 `preflop_loose`。** SQA 原版 Linux 全量评测中，
 本分支 `icm_defend_v7` 为 12.84668 分，低于 `preflop_loose` 的 16.56250 分；
-不建议用 V7 替换当前最佳版本。Linux 原版全量复核正在进行。
+不建议用 V7 替换该版本。4,096 桌零失败，完整审计通过。
 
 [`selected/agent.py`](selected/agent.py) 是此前本地选型留下的 V7 候选别名，
 不代表统一 benchmark 的优胜版本。

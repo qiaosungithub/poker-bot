@@ -1,0 +1,9 @@
+{
+  "ci95": [
+    -3.0533876650497627,
+    -1.4290342099502373
+  ],
+  "independent_blocks": 512,
+  "difference_left_minus_right": -2.2412109375,
+  "scope": "One prespecified paired comparison; 95% normal interval over seed blocks."
+}

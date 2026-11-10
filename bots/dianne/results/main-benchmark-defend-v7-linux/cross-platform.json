@@ -1,0 +1,11 @@
+{
+  "linux_complete": true,
+  "macos_complete": true,
+  "tables_compared": 4096,
+  "excluded_fields": [
+    "seconds"
+  ],
+  "mismatches": [],
+  "mismatch_count": 0,
+  "method": "Full parsed row equality, retaining every field except elapsed seconds; gzip SHA256 checked against each run manifest."
+}
