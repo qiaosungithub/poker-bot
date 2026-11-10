@@ -1,0 +1,122 @@
+{
+  "analysis": {
+    "intervals": "Paired panel-stratified blocks, Bonferroni normal 95% within these six contrasts only; ongoing search remains exploratory.",
+    "paired_contrasts": [
+      "flush - control",
+      "pair - control",
+      "both - control",
+      "average flush main effect",
+      "average pair main effect",
+      "flush-by-pair interaction"
+    ]
+  },
+  "candidates": [
+    {
+      "control": "corrected_preflop_loose_v2",
+      "directory": "candidates/fragile_flush_v1",
+      "flags": [
+        true,
+        false
+      ],
+      "name": "fragile_flush_v1",
+      "path": "candidates/fragile_flush_v1",
+      "results": "evidence/candidate-fragile_flush_v1/summary.json",
+      "sha256": "00cbee7b69f29d22a60caf649eeb8eb44ca8df09b02c0b1c7ac6c349237f022e",
+      "source_revision": "fdd2430a597824fe0d520add5fd7a5a7f0686266",
+      "sources": {
+        "agent.py": "ab97f3d27cd875aa31feaccfe4ccdee0734033925407b2bc727f95b037dc7882",
+        "auction_policy.py": "8e1aa1654e398e370479ababbc70ef9ad314216ccaa0759e3fa8386e6f8802b5",
+        "betting_policy.py": "c96ffea1064924a35464320c5611798e153d2deaffd2f5f6890e0f5c38353b57",
+        "corrected_betting_baseline.py": "6b6c7885da19b03c2952721ea472a50ba6565f1076717e6a11ae12a877812261",
+        "flop_policy.py": "d57e5895242f51f63d8fc100d1cdf412a92a1c276e9c02f85f4af26a27ea7eb2",
+        "fragile_rules.py": "c4cd17a24ec09a1aa0529c2d850912603f2797402246331dffc34cd158ba04da",
+        "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+        "independent_preflop.py": "516b2e41e72430e1e706e483348047bb9330b638a701d279e9a285b5acf51145",
+        "postflop_policy.py": "786f1e9c21ecfbdca4add1aab7f831631d04e6054187ed36846593d75efa0548",
+        "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+        "preflop_policy.py": "88adb1e87bf95e9973c2e4fbe395a92c380f9162139759a8512e5a75d357c907",
+        "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+        "river_policy.py": "0aab2c4b27c9e8385f1179f86f9361f0c7ec7cded9e52ce77bb5a722cd01885f",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "turn_policy.py": "e572c0410d711bf9e7772fdb2bc2487aad3e21b9237ecb62f52c3aafce9522c4",
+        "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+        "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+      },
+      "status": "completed_4096_tables_audited",
+      "zip": "evidence/fragile_flush_v1.zip"
+    },
+    {
+      "control": "corrected_preflop_loose_v2",
+      "directory": "candidates/fragile_pair_v1",
+      "flags": [
+        false,
+        true
+      ],
+      "name": "fragile_pair_v1",
+      "path": "candidates/fragile_pair_v1",
+      "results": "evidence/candidate-fragile_pair_v1/summary.json",
+      "sha256": "3d8c99e0ae2ab8adcff511c9548605351f6ef1e7c0a68a6f9c06c4c3b63573cb",
+      "source_revision": "fdd2430a597824fe0d520add5fd7a5a7f0686266",
+      "sources": {
+        "agent.py": "ab97f3d27cd875aa31feaccfe4ccdee0734033925407b2bc727f95b037dc7882",
+        "auction_policy.py": "8e1aa1654e398e370479ababbc70ef9ad314216ccaa0759e3fa8386e6f8802b5",
+        "betting_policy.py": "c96ffea1064924a35464320c5611798e153d2deaffd2f5f6890e0f5c38353b57",
+        "corrected_betting_baseline.py": "6b6c7885da19b03c2952721ea472a50ba6565f1076717e6a11ae12a877812261",
+        "flop_policy.py": "d57e5895242f51f63d8fc100d1cdf412a92a1c276e9c02f85f4af26a27ea7eb2",
+        "fragile_rules.py": "2e03ee5cbf1f06cbff86d9dc3da99ee87b206f42be95ddb90017add69cb8958f",
+        "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+        "independent_preflop.py": "516b2e41e72430e1e706e483348047bb9330b638a701d279e9a285b5acf51145",
+        "postflop_policy.py": "786f1e9c21ecfbdca4add1aab7f831631d04e6054187ed36846593d75efa0548",
+        "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+        "preflop_policy.py": "88adb1e87bf95e9973c2e4fbe395a92c380f9162139759a8512e5a75d357c907",
+        "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+        "river_policy.py": "0aab2c4b27c9e8385f1179f86f9361f0c7ec7cded9e52ce77bb5a722cd01885f",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "turn_policy.py": "e572c0410d711bf9e7772fdb2bc2487aad3e21b9237ecb62f52c3aafce9522c4",
+        "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+        "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+      },
+      "status": "completed_4096_tables_audited",
+      "zip": "evidence/fragile_pair_v1.zip"
+    },
+    {
+      "control": "corrected_preflop_loose_v2",
+      "directory": "candidates/fragile_both_v1",
+      "flags": [
+        true,
+        true
+      ],
+      "name": "fragile_both_v1",
+      "path": "candidates/fragile_both_v1",
+      "results": "evidence/candidate-fragile_both_v1/summary.json",
+      "sha256": "87a1e11e8c517ceaac198c77d788d1a1df94afdea6caa0384bb0d5c0e796b3fd",
+      "source_revision": "fdd2430a597824fe0d520add5fd7a5a7f0686266",
+      "sources": {
+        "agent.py": "ab97f3d27cd875aa31feaccfe4ccdee0734033925407b2bc727f95b037dc7882",
+        "auction_policy.py": "8e1aa1654e398e370479ababbc70ef9ad314216ccaa0759e3fa8386e6f8802b5",
+        "betting_policy.py": "c96ffea1064924a35464320c5611798e153d2deaffd2f5f6890e0f5c38353b57",
+        "corrected_betting_baseline.py": "6b6c7885da19b03c2952721ea472a50ba6565f1076717e6a11ae12a877812261",
+        "flop_policy.py": "d57e5895242f51f63d8fc100d1cdf412a92a1c276e9c02f85f4af26a27ea7eb2",
+        "fragile_rules.py": "e1c3463414c7df48f34bc0da9fa863f101e564b22cb7176318df1eb64f51b4aa",
+        "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+        "independent_preflop.py": "516b2e41e72430e1e706e483348047bb9330b638a701d279e9a285b5acf51145",
+        "postflop_policy.py": "786f1e9c21ecfbdca4add1aab7f831631d04e6054187ed36846593d75efa0548",
+        "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+        "preflop_policy.py": "88adb1e87bf95e9973c2e4fbe395a92c380f9162139759a8512e5a75d357c907",
+        "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+        "river_policy.py": "0aab2c4b27c9e8385f1179f86f9361f0c7ec7cded9e52ce77bb5a722cd01885f",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "turn_policy.py": "e572c0410d711bf9e7772fdb2bc2487aad3e21b9237ecb62f52c3aafce9522c4",
+        "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+        "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+      },
+      "status": "completed_4096_tables_audited",
+      "zip": "evidence/fragile_both_v1.zip"
+    }
+  ],
+  "frozen_active_base": "7e7aa88 + corrected core 2873210 / recipe e12d16e",
+  "scope": "No preflop or auction changes; two independently switchable postflop commitment rules"
+}

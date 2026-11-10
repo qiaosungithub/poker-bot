@@ -1,0 +1,32 @@
+{
+  "field_definition": "Nonforfeited teams with at least one table",
+  "field_size": 192,
+  "interpretation": "Different field from auction-flop-v1. The team row does not itself bind the round to a particular submission ZIP.",
+  "provenance": "Team row extracted from the retained official API result artifact; no inference from cross-round changes.",
+  "rank": 97,
+  "source_file": ".runtime/competition-20261109/scored1-results.json",
+  "source_sha256": "ba9e11db6f17dc9db278cbad0e537a29a79bbb77d1d5be352db9851930c4866f",
+  "status": "completed",
+  "team_result": {
+    "average_points": 13.168,
+    "contender": true,
+    "culled_at_look": null,
+    "forfeited": false,
+    "margin_of_error": 0.23882606974252085,
+    "places": [
+      2123.0,
+      3183.0,
+      3086.0,
+      2704.0,
+      2651.0,
+      2378.0,
+      2236.0,
+      1639.0
+    ],
+    "tables": 20000,
+    "team_id": "f570222b-b5b0-4dce-8499-a32476665215",
+    "team_name": "Timothy"
+  },
+  "total_listed_teams": 231,
+  "tournament_id": "690def26-bd84-416e-8c01-9e213aad4bdd"
+}

@@ -1,0 +1,88 @@
+{
+  "all_scores_audited": true,
+  "all_sources_match_published_catalog": true,
+  "benchmark": "auction-flop-v1",
+  "contrasts": {
+    "hybrid_minus_classic_txnujk32_v1": {
+      "ci95": [
+        3.1312664350626545,
+        4.5933429399373455
+      ],
+      "difference": 3.8623046875,
+      "simultaneous_ci95": [
+        3.0263092114813164,
+        4.698300163518684
+      ]
+    },
+    "hybrid_minus_corrected_preflop_loose_v2": {
+      "ci95": [
+        0.11630989477585119,
+        1.5926744802241488
+      ],
+      "difference": 0.8544921875,
+      "simultaneous_ci95": [
+        0.010326981182867345,
+        1.6986573938171325
+      ]
+    }
+  },
+  "interpretation": "Hybrid changes preflop versus classic, and postflop versus corrected loose; frozen tournament auction is shared.",
+  "interval_method": "Paired panel-stratified blocks; Bonferroni normal 95% for these two comparisons only",
+  "summaries": {
+    "classic_hybrid_v1": {
+      "all_scores_audited": true,
+      "candidate_decisions": 633604,
+      "candidate_failures": 0,
+      "ci95": [
+        16.860172721926997,
+        18.100764778073003
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 3468.75,
+      "mean_points": 17.48046875,
+      "mean_remaining_flopchips": 193.21826171875,
+      "mean_spent_flopchips": 806.78173828125,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    },
+    "classic_txnujk32_v1": {
+      "all_scores_audited": true,
+      "candidate_decisions": 655497,
+      "candidate_failures": 0,
+      "ci95": [
+        13.065782269022726,
+        14.170545855977274
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 1949.21875,
+      "mean_points": 13.6181640625,
+      "mean_remaining_flopchips": 192.020751953125,
+      "mean_spent_flopchips": 807.979248046875,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    },
+    "corrected_preflop_loose_v2": {
+      "all_scores_audited": true,
+      "candidate_decisions": 629716,
+      "candidate_failures": 0,
+      "ci95": [
+        16.037144624808192,
+        17.214808500191808
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 3230.46875,
+      "mean_points": 16.6259765625,
+      "mean_remaining_flopchips": 212.77978515625,
+      "mean_spent_flopchips": 787.22021484375,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    }
+  },
+  "tables_per_candidate": 4096
+}

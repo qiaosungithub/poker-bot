@@ -1,0 +1,158 @@
+{
+  "all_scores_audited": true,
+  "all_sources_match_published_catalog": true,
+  "benchmark": "auction-flop-v1",
+  "contrasts": {
+    "average_flush_main_effect": {
+      "ci95": [
+        -0.007151606537732683,
+        0.16340160653773267
+      ],
+      "difference": 0.078125,
+      "simultaneous_ci95": [
+        -0.036661544620198105,
+        0.1929115446201981
+      ]
+    },
+    "average_pair_main_effect": {
+      "ci95": [
+        0.044957276980711294,
+        0.16012084801928872
+      ],
+      "difference": 0.1025390625,
+      "simultaneous_ci95": [
+        0.025031121445897087,
+        0.1800470035541029
+      ]
+    },
+    "both_minus_control": {
+      "ci95": [
+        0.07830831675167338,
+        0.2830198082483266
+      ],
+      "difference": 0.1806640625,
+      "simultaneous_ci95": [
+        0.04288814887619402,
+        0.318439976123806
+      ]
+    },
+    "flush_by_pair_interaction": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "difference": 0.0,
+      "simultaneous_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "flush_minus_control": {
+      "ci95": [
+        -0.007151606537732683,
+        0.16340160653773267
+      ],
+      "difference": 0.078125,
+      "simultaneous_ci95": [
+        -0.036661544620198105,
+        0.1929115446201981
+      ]
+    },
+    "pair_minus_control": {
+      "ci95": [
+        0.044957276980711294,
+        0.16012084801928872
+      ],
+      "difference": 0.1025390625,
+      "simultaneous_ci95": [
+        0.025031121445897087,
+        0.1800470035541029
+      ]
+    }
+  },
+  "control_reused": "corrected_preflop_loose_v2",
+  "independent_blocks": 512,
+  "interval_method": "Paired panel-stratified blocks; Bonferroni normal 95% for six contrasts in this family only, not the ongoing strategy search",
+  "observed_payout_overlap": {
+    "changed_payout_overlap_tables": 0,
+    "flush_changed_payout_tables": 37,
+    "interpretation": "An observed zero interaction and zero empirical interval do not establish zero interaction on unseen deals or other fields.",
+    "nonzero_interaction_tables": 0,
+    "pair_changed_payout_tables": 19
+  },
+  "summaries": {
+    "corrected_preflop_loose_v2": {
+      "all_scores_audited": true,
+      "candidate_decisions": 629716,
+      "candidate_failures": 0,
+      "ci95": [
+        16.037144624808192,
+        17.214808500191808
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 3230.46875,
+      "mean_points": 16.6259765625,
+      "mean_remaining_flopchips": 212.77978515625,
+      "mean_spent_flopchips": 787.22021484375,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    },
+    "fragile_both_v1": {
+      "all_scores_audited": true,
+      "candidate_decisions": 635815,
+      "candidate_failures": 0,
+      "ci95": [
+        16.214193829715217,
+        17.399087420284783
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 3261.71875,
+      "mean_points": 16.806640625,
+      "mean_remaining_flopchips": 205.259765625,
+      "mean_spent_flopchips": 794.740234375,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    },
+    "fragile_flush_v1": {
+      "all_scores_audited": true,
+      "candidate_decisions": 633197,
+      "candidate_failures": 0,
+      "ci95": [
+        16.112061791000603,
+        17.296141333999397
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 3242.1875,
+      "mean_points": 16.7041015625,
+      "mean_remaining_flopchips": 208.528076171875,
+      "mean_spent_flopchips": 791.471923828125,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    },
+    "fragile_pair_v1": {
+      "all_scores_audited": true,
+      "candidate_decisions": 632334,
+      "candidate_failures": 0,
+      "ci95": [
+        16.13918021285296,
+        17.31785103714704
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 3250.0,
+      "mean_points": 16.728515625,
+      "mean_remaining_flopchips": 209.511474609375,
+      "mean_spent_flopchips": 790.488525390625,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    }
+  },
+  "tables_per_candidate": 4096
+}

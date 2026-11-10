@@ -96,7 +96,7 @@ The three documented shared-core defects were repaired in new source versions. B
 | corrected_preflop_loose_v2 | 16.62598 | +0.06348 | [+0.01357, +0.11338] |
 | corrected_baseline_v2 | 15.16113 | +0.07324 | [-0.00552, +0.15200] |
 
-The corrected loose candidate has the highest completed mean: **16.62598**. Its improvement over the original loose version is small, +0.06348 points, with a positive paired normal interval after correcting for these two contrasts. This is evidence within the fixed public seed set, not a new broad population guarantee. Source revisions, package hashes and composition manifests are in [candidate_catalog_corrected_v2.json](candidate_catalog_corrected_v2.json); [raw comparison](evidence/corrected-v2-comparison.json).
+The corrected loose candidate leads this corrected batch at **16.62598**. Its improvement over the original loose version is small, +0.06348 points, with a positive paired normal interval after correcting for these two contrasts. This is evidence within the fixed public seed set, not a new broad population guarantee. Source revisions, package hashes and composition manifests are in [candidate_catalog_corrected_v2.json](candidate_catalog_corrected_v2.json); [raw comparison](evidence/corrected-v2-comparison.json).
 
 ## Conditional history and inference contrasts
 
@@ -149,3 +149,56 @@ The immutable [classic candidate](candidate_catalog_classic_v1.json) continues t
 The paired difference against corrected loose v2 is **-3.00781 points/table**, 95% interval **[-3.81180, -2.20383]**. It is lower in this fixed field. Both complete betting policies differ; this does not identify the effect of any individual rule. [Audited comparison](evidence/classic-v1-comparison.json), [raw run](evidence/candidate-classic_txnujk32_v1/manifest.json).
 
 [Cross-review](research/classic_txnujk32_v1/REVIEW.md) records public-trips commitment and board-only flush-draw concerns, the large-call guard, and isolated refinement hypotheses. Additional helper probes motivated by practice4 confirm that the current corrected loose core still assigns quality 0.91 to `As7c/KcTc5cQsJc` and 0.62 to explicit `6s6h/KdKhAc2c7d`; these are feature outputs, not invented native betting decisions or proof of a correct action. No policy or frozen benchmark source changed during the review.
+
+## Fragile-hand 2x2 on corrected loose
+
+All three candidates preserve corrected loose preflop and tournament auction.
+The flush rule vetoes automatic re-raises with a non-nut one-card flush while
+facing a wager. The pair rule applies the existing large-call one-pair penalty
+to a private underpair plus a public pair. Each completed 4,096 tables with
+zero failures; source packages and raw records passed the independent audit.
+
+| Candidate | Mean points/table | Paired change vs corrected loose | Simultaneous 95% interval |
+| --- | ---: | ---: | --- |
+| Flush only | 16.70410 | +0.07813 | [-0.03666, +0.19291] |
+| Pair only | 16.72852 | +0.10254 | [+0.02503, +0.18005] |
+| Both | 16.80664 | +0.18066 | [+0.04289, +0.31844] |
+
+These intervals adjust for six family contrasts: three comparisons to the
+control, two averaged main effects and the interaction. The observed main
+effects equal the single-rule effects above. The sampled interaction is zero:
+37 tables change payout under the flush rule and 19 under the pair rule, with
+no overlap. This does not establish zero interaction on unseen deals. The
+adjustment covers this family, not all ongoing adaptive strategy search.
+See [source catalog](candidate_catalog_fragile_v1.json) and
+[audited factorial analysis](evidence/fragile-v1-comparison.json).
+Reproduce with `python -m auction_flop.benchmark.analyze_fragile`.
+
+## Classic postflop with corrected loose preflop
+
+[classic_hybrid_v1](candidate_catalog_classic_hybrid_v1.json) combines corrected
+loose preflop, the complete original classic postflop and the same tournament
+auction. It includes none of the isolated price, contribution or fragile rules.
+It scores **17.48047 points/table**, the highest completed mean on v1, over
+4,096 tables and 633,604 decisions with zero failures.
+
+| Comparison | Paired difference | Simultaneous 95% interval |
+| --- | ---: | --- |
+| Hybrid minus classic control | +3.86230 | [+3.02631, +4.69830] |
+| Hybrid minus corrected loose | +0.85449 | [+0.01033, +1.69866] |
+
+Intervals adjust for these two comparisons. Versus classic, the change is
+preflop; versus corrected loose, it is the complete postflop policy. The mean
+ranking does not establish superiority over every other candidate. See
+[audited comparison](evidence/classic-hybrid-v1-comparison.json). Benchmark v1
+opponents, rules and seeds remain unchanged.
+
+## Official scored round 1
+
+The retained official result reports Timothy at **13.168 points/table** over
+20,000 tables, rank **97 of 192** nonforfeited playing teams (231 total listed
+rows). The reported margin of error is 0.238826. This is a different opponent
+field from v1; do not interpret the local fixed-field scores as contest-wide
+strength or attribute changes across rounds to a policy change. The result row
+alone does not identify the submission ZIP used for that round.
+[Team result and source-artifact hash](evidence/official-scored1-team-result.json).
