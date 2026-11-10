@@ -1,11 +1,12 @@
 {
   "comparison": "One predeclared paired comparison against corrected_preflop_loose_v2 on the unchanged full auction-flop-v1 schedule.",
-  "evaluation_status": "Full 4096-table evaluation not started; held for requested cross-review before further development.",
+  "evaluation_status": "Completed and independently audited: full 4096-table frozen auction-flop-v1 schedule, zero failures.",
   "event_revision": "0f84eb45a7501d1cc24c423244b298134c4a4921",
   "name": "classic_txnujk32_v1",
   "package_sha256": "5b349610a9df15e9edbf8322f298b54f436586e521740f73f25e692b31387470",
   "path": "candidates/classic_txnujk32_v1",
   "reference_policy": "txnujk_32 rule continuation with Boston-specific corrections; not identical to upstream classic policy.",
+  "result": "evidence/classic-v1-comparison.json",
   "sha256": {
     "agent.py": "2b067d8b958dee7fe9e7afac25f12abfcb3a4bbbdbce0fbdc45261cc9717ce52",
     "classic_policy.py": "1870615a996678b7f7d8791ee31498a288dd4ee309d0ef33a21b7dc30695cf98",

@@ -2,8 +2,9 @@
 
 Source: event revision `0f84eb45a7501d1cc24c423244b298134c4a4921`.
 Comparator: published `corrected_preflop_loose_v2`. No strategy source was edited.
-The 4,096-table strength run was not started: the latest steering requested
-cross-review before new development and bulk comparisons. A 32-table interface
+At the time of this review the 4,096-table strength run had not started: steering
+requested cross-review before new development and bulk comparisons. The full
+run subsequently completed; see the current REPORT.md for its measured result. A 32-table interface
 smoke completed with 5,395 candidate decisions and zero failed decisions; it is
 not a ranking result.
 

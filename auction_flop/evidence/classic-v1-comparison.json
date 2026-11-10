@@ -1,0 +1,35 @@
+{
+  "all_scores_audited": true,
+  "benchmark": "auction-flop-v1",
+  "event_revision": "0f84eb45a7501d1cc24c423244b298134c4a4921",
+  "interpretation": "Complete betting policies differ; fixed tournament auction alone does not isolate which betting rule explains the score gap.",
+  "interval_scope": "One predeclared paired comparison, panel-stratified independent block means, normal 95% interval.",
+  "package_sha256": "5b349610a9df15e9edbf8322f298b54f436586e521740f73f25e692b31387470",
+  "paired": {
+    "ci95": [
+      -3.811795000279839,
+      -2.203829999720161
+    ],
+    "difference_classic_minus_corrected_loose": -3.0078125,
+    "independent_blocks": 512
+  },
+  "source_bytes_verified": true,
+  "summary": {
+    "all_scores_audited": true,
+    "candidate_decisions": 655497,
+    "candidate_failures": 0,
+    "ci95": [
+      13.065782269022726,
+      14.170545855977274
+    ],
+    "independent_blocks": 512,
+    "mean_chips": 1949.21875,
+    "mean_points": 13.6181640625,
+    "mean_remaining_flopchips": 192.020751953125,
+    "mean_spent_flopchips": 807.979248046875,
+    "official_score": true,
+    "tables": 4096,
+    "total_failures": 0,
+    "valid": true
+  }
+}

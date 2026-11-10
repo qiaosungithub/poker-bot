@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "board": [
+        "Kc",
+        "Tc",
+        "5c",
+        "Qs",
+        "Jc"
+      ],
+      "hole": [
+        "As",
+        "7c"
+      ],
+      "quality_category_draw": [
+        0.91,
+        5,
+        false
+      ]
+    },
+    {
+      "board": [
+        "Kd",
+        "Kh",
+        "Ac",
+        "2c",
+        "7d"
+      ],
+      "hole": [
+        "6s",
+        "6h"
+      ],
+      "quality_category_draw": [
+        0.62,
+        2,
+        false
+      ]
+    }
+  ],
+  "policy": "corrected_preflop_loose_v2",
+  "scope": "Pure helper probes motivated by practice4 feedback about the old hybrid. No native game, range posterior, action or strength claim. The pocket-six case uses explicit suits as shown."
+}

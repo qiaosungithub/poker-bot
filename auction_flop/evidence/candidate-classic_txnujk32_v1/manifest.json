@@ -1,0 +1,267 @@
+{
+  "benchmark": "auction-flop-v1",
+  "benchmark_sha256": "dc6c9f772eabdd0db0b31d011e548d40b8119e872773d58ecd9c077eaaa5eba6",
+  "blocks_per_panel": 128,
+  "candidate": "external",
+  "completed": "2026-11-10T00:25:03.782090+00:00",
+  "dependencies": {
+    "eval7": "0.1.11",
+    "future": "1.0.0",
+    "pokerkit": "0.7.6",
+    "pyparsing": "3.3.3"
+  },
+  "mode": "evaluate",
+  "official_score": true,
+  "panels": [
+    {
+      "blocks": 128,
+      "compare": [
+        "candidate"
+      ],
+      "entries": [
+        {
+          "name": "candidate",
+          "policy": "candidate",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/candidate"
+        },
+        {
+          "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/tournament",
+          "name": "opponent_0",
+          "policy": "hybrid_tournament_auction",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/variant"
+        },
+        {
+          "name": "opponent_1",
+          "policy": "variant",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/variant"
+        },
+        {
+          "name": "opponent_2",
+          "policy": "variant",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/variant"
+        },
+        {
+          "name": "opponent_3",
+          "policy": "tournament",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/tournament"
+        },
+        {
+          "name": "opponent_4",
+          "policy": "tournament",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/tournament"
+        },
+        {
+          "name": "opponent_5",
+          "policy": "ranges",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/ranges"
+        },
+        {
+          "name": "opponent_6",
+          "policy": "ranges",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/ranges"
+        }
+      ],
+      "hand_cap": 250,
+      "seed": "auction-flop-v1-evaluation-20261109-fixed:panel:0"
+    },
+    {
+      "blocks": 128,
+      "compare": [
+        "candidate"
+      ],
+      "entries": [
+        {
+          "name": "candidate",
+          "policy": "candidate",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/candidate"
+        },
+        {
+          "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/tournament",
+          "name": "opponent_0",
+          "policy": "hybrid_tournament_auction",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/variant"
+        },
+        {
+          "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/tournament",
+          "name": "opponent_1",
+          "policy": "hybrid_tournament_auction",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/variant"
+        },
+        {
+          "name": "opponent_2",
+          "policy": "variant",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/variant"
+        },
+        {
+          "name": "opponent_3",
+          "policy": "tournament",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/tournament"
+        },
+        {
+          "name": "opponent_4",
+          "policy": "tournament",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/tournament"
+        },
+        {
+          "name": "opponent_5",
+          "policy": "ranges",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/ranges"
+        },
+        {
+          "name": "opponent_6",
+          "policy": "ranges",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/ranges"
+        }
+      ],
+      "hand_cap": 250,
+      "seed": "auction-flop-v1-evaluation-20261109-fixed:panel:1"
+    },
+    {
+      "blocks": 128,
+      "compare": [
+        "candidate"
+      ],
+      "entries": [
+        {
+          "name": "candidate",
+          "policy": "candidate",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/candidate"
+        },
+        {
+          "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/tournament",
+          "name": "opponent_0",
+          "policy": "hybrid_tournament_auction",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/variant"
+        },
+        {
+          "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/tournament",
+          "name": "opponent_1",
+          "policy": "hybrid_tournament_auction",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/variant"
+        },
+        {
+          "name": "opponent_2",
+          "policy": "variant",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/variant"
+        },
+        {
+          "name": "opponent_3",
+          "policy": "variant",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/variant"
+        },
+        {
+          "name": "opponent_4",
+          "policy": "tournament",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/tournament"
+        },
+        {
+          "name": "opponent_5",
+          "policy": "ranges",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/ranges"
+        },
+        {
+          "name": "opponent_6",
+          "policy": "ranges",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/ranges"
+        }
+      ],
+      "hand_cap": 250,
+      "seed": "auction-flop-v1-evaluation-20261109-fixed:panel:2"
+    },
+    {
+      "blocks": 128,
+      "compare": [
+        "candidate"
+      ],
+      "entries": [
+        {
+          "name": "candidate",
+          "policy": "candidate",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/candidate"
+        },
+        {
+          "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/tournament",
+          "name": "opponent_0",
+          "policy": "hybrid_tournament_auction",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/variant"
+        },
+        {
+          "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/tournament",
+          "name": "opponent_1",
+          "policy": "hybrid_tournament_auction",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/variant"
+        },
+        {
+          "name": "opponent_2",
+          "policy": "variant",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/variant"
+        },
+        {
+          "name": "opponent_3",
+          "policy": "variant",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/variant"
+        },
+        {
+          "name": "opponent_4",
+          "policy": "tournament",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/tournament"
+        },
+        {
+          "name": "opponent_5",
+          "policy": "tournament",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/tournament"
+        },
+        {
+          "name": "opponent_6",
+          "policy": "ranges",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/publish-auction-flop/auction_flop/evidence/candidate-classic_txnujk32_v1/sources/ranges"
+        }
+      ],
+      "hand_cap": 250,
+      "seed": "auction-flop-v1-evaluation-20261109-fixed:panel:3"
+    }
+  ],
+  "python": "3.12.16 (main, Oct 26 2026, 14:08:45) [Clang 23.1.3 ]",
+  "source_hashes": {
+    "candidate": {
+      "agent.py": "2b067d8b958dee7fe9e7afac25f12abfcb3a4bbbdbce0fbdc45261cc9717ce52",
+      "classic_policy.py": "1870615a996678b7f7d8791ee31498a288dd4ee309d0ef33a21b7dc30695cf98",
+      "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+      "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+      "preflop_table.py": "d3e015114b6bf5c9d3b3e7d577f918d7cdf28ff1979ef5ad19c0cc99e52e9197",
+      "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+      "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+      "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb"
+    },
+    "checkfold": {
+      "agent.py": "2914ffface89473f6a1a75ed8a12ec80f0029d26a5411048feb4b967e1c47230"
+    },
+    "equity": {
+      "agent.py": "0d4604e7226e7ea6a070e2f011c1a97ac098252ea9f55264edad3ff582732993",
+      "equity_core.py": "5035fc5e5a516d74986c6614c4732bbb0f7881598b392dc361c66c86e978423b"
+    },
+    "exploit": {
+      "agent.py": "4041c1e83b30f7054b94b7c3fb24264379e91ff60c3ecf32e1f12de8674bc7be",
+      "strategy_core.py": "cdac08df3dafaea5d055b9d4993d2ac6a317dc03ec2136f50d88c1529d896824"
+    },
+    "minraise": {
+      "agent.py": "48f85f7554e3b56abd3ddd4968e28ab92dfe6e89371ed0d7e5842a8b903db369"
+    },
+    "ranges": {
+      "agent.py": "137b3ad368f78899c5a7b9c4e954ec375e2fe69d22408ebb1cf783a1756f2dd4",
+      "range_core.py": "45218351dd8dc18235aef3a1f501df4de3dd44521eb7e30470fae1cbfb58aad2"
+    },
+    "tournament": {
+      "agent.py": "36b65f77e5f1d90cf564d876f448415180a08f92f41b5067e10afe7203dba37e",
+      "strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb"
+    },
+    "variant": {
+      "agent.py": "8367b29f7f6b1f0425bfcd22028ec1966bc013b2eb68d9ef1eb512c18d075751",
+      "auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+    }
+  },
+  "started": "2026-11-10T00:23:33.052670+00:00",
+  "tables_sha256": "2a7b22d398e878dcb29e67982305560ee90222ee638031649e8351f327ce69dd",
+  "timing": "Direct engine; no clock penalties.",
+  "workers": 24
+}

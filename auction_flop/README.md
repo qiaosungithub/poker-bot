@@ -121,6 +121,6 @@ experiments and the fresh 4,096-table selection. It also retains all four
 calibration runs against the new fixed field. Historical manifests preserve
 their original source paths and uncompressed table hashes.
 
-## Classic candidate awaiting strength evaluation
+## Classic control
 
-[classic_txnujk32_v1](candidate_catalog_classic_v1.json) is published with exact source/package hashes, its source-to-rule report and [cross-review](research/classic_txnujk32_v1/REVIEW.md). It passed a 32-table interface smoke; the complete comparison is held for review and has no strength result yet. It does not replace any v1 opponent.
+[classic_txnujk32_v1](candidate_catalog_classic_v1.json) is published with exact source/package hashes, its source-to-rule report and [cross-review](research/classic_txnujk32_v1/REVIEW.md). Its completed 4,096-table score is **13.61816**, versus corrected loose v2's **16.62598**; paired difference **-3.00781**, 95% interval **[-3.81180, -2.20383]**, zero failures. New small refinements can reuse this exact retained control without rerunning it. The v1 opponents remain unchanged.
