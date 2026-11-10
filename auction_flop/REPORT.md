@@ -114,3 +114,7 @@ See [factorial contrasts](evidence/factorial-comparison.json). No additional gam
 ## Submission update observed at 2026-11-10 00:10 UTC
 
 `timothy-preflop-loose-c5ec82a.zip`, submission `7798fc5a-a796-4483-8164-b0cba3c7465e`, was uploaded at 00:09:44 UTC and independently read back as Ready and active. This is the **original** loose candidate scoring 16.56250, not the separately measured corrected v2. Package SHA256: `053507112b6d266c0c2f8c18c6e2f0ef8af9970f609c6bb2bdda776f63844795`.
+
+## Current submitted candidate, observed 2026-11-10T00:15:07.065149+00:00
+
+`timothy-corrected-loose-v2-2873210.zip`, submission `d3e77750-4c00-4716-9458-40ebc4df6915`, is independently confirmed **Ready and active**. It is the corrected loose v2 source measured at **16.62598 points/table** in 4,096 v1 tables with zero failed decisions. The exact package SHA256 is `9d1300e1ebdc4fe580c6543f0dd137a8e49a9cfff2ff958bc49794cccd7affe4`. See [authenticated read-back receipt](evidence/submission-confirmation.json). Earlier submission observations above remain historical; no frozen benchmark files were changed.
