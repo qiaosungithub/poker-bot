@@ -1,0 +1,91 @@
+{
+  "all_scores_audited": true,
+  "all_sources_match_published_catalog": true,
+  "benchmark": "auction-flop-v1",
+  "control_reused": "classic_txnujk32_v1",
+  "independent_blocks": 512,
+  "interval_method": "Paired panel-stratified blocks; Bonferroni normal 95% for these two contrasts only, not the ongoing strategy search",
+  "paired_vs_classic_control": [
+    {
+      "candidate": "classic_price_v1",
+      "ci95": [
+        0.0065768758915172795,
+        0.10084499910848271
+      ],
+      "difference_vs_classic_control": 0.0537109375,
+      "simultaneous_ci95": [
+        -0.0001902942614044542,
+        0.10761216926140446
+      ]
+    },
+    {
+      "candidate": "classic_contribution_v1",
+      "ci95": [
+        0.04173782297171824,
+        0.37330123952828176
+      ],
+      "difference_vs_classic_control": 0.20751953125,
+      "simultaneous_ci95": [
+        0.017936075575536586,
+        0.39710298692446344
+      ]
+    }
+  ],
+  "summaries": {
+    "classic_contribution_v1": {
+      "all_scores_audited": true,
+      "candidate_decisions": 662316,
+      "candidate_failures": 0,
+      "ci95": [
+        13.27428726269523,
+        14.37707992480477
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 1941.40625,
+      "mean_points": 13.82568359375,
+      "mean_remaining_flopchips": 184.635498046875,
+      "mean_spent_flopchips": 815.364501953125,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    },
+    "classic_price_v1": {
+      "all_scores_audited": true,
+      "candidate_decisions": 656412,
+      "candidate_failures": 0,
+      "ci95": [
+        13.119994130122386,
+        14.223755869877614
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 1957.03125,
+      "mean_points": 13.671875,
+      "mean_remaining_flopchips": 191.1298828125,
+      "mean_spent_flopchips": 808.8701171875,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    },
+    "classic_txnujk32_v1": {
+      "all_scores_audited": true,
+      "candidate_decisions": 655497,
+      "candidate_failures": 0,
+      "ci95": [
+        13.065782269022726,
+        14.170545855977274
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 1949.21875,
+      "mean_points": 13.6181640625,
+      "mean_remaining_flopchips": 192.020751953125,
+      "mean_spent_flopchips": 807.979248046875,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    }
+  },
+  "tables_per_candidate": 4096
+}

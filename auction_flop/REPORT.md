@@ -121,6 +121,29 @@ See [factorial contrasts](evidence/factorial-comparison.json). No additional gam
 
 ## Classic txnujk control
 
+### Two isolated follow-up rules
+
+Each refinement completed the same 4,096 tables with zero failures and reused
+the retained classic control. Source bytes, raw scores and schedules were audited.
+
+| Candidate | Mean points/table | Paired change vs classic | Simultaneous 95% interval |
+| --- | ---: | ---: | --- |
+| Classic control | 13.61816 | — | — |
+| Large-call price veto | 13.67188 | +0.05371 | [-0.00019, +0.10761] |
+| Private contribution on public trips | 13.82568 | +0.20752 | [+0.01794, +0.39710] |
+
+Intervals use paired panel-stratified blocks and a Bonferroni adjustment for
+these two comparisons only, not all ongoing strategy exploration. The price
+rule's adjusted interval includes zero. The contribution rule improves this
+classic control in the fixed field; both candidates remain below corrected
+loose v2's mean of 16.62598. Neither result supports replacing the current
+submission. [Audited comparison](evidence/classic-refinements-v1-comparison.json),
+[price source catalog](candidate_catalog_classic_price_v1.json),
+[contribution source catalog](candidate_catalog_classic_contribution_v1.json).
+Reproduce with `python -m auction_flop.benchmark.analyze_classic_refinements`.
+
+### Original control
+
 The immutable [classic candidate](candidate_catalog_classic_v1.json) continues the earlier txnujk-32 decision rules with documented Boston corrections and the same tournament auction. Source/ZIP match event commit `0f84eb45a7501d1cc24c423244b298134c4a4921`. After cross-review, the complete unchanged v1 schedule finished: **13.61816 points/table**, 95% interval **[13.06578, 14.17055]**, 4,096 tables, 655,497 candidate decisions and zero failures.
 
 The paired difference against corrected loose v2 is **-3.00781 points/table**, 95% interval **[-3.81180, -2.20383]**. It is lower in this fixed field. Both complete betting policies differ; this does not identify the effect of any individual rule. [Audited comparison](evidence/classic-v1-comparison.json), [raw run](evidence/candidate-classic_txnujk32_v1/manifest.json).

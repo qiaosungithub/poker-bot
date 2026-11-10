@@ -1,0 +1,22 @@
+{
+  "comparison": "Paired 4096-table fixed-v1 contrast versus retained classic control; label ongoing multi-candidate search separately.",
+  "control": "classic_txnujk32_v1",
+  "event_revision": "7595f42a9f7dbc7bf756aa7427e69d9944fbbdee",
+  "hypothesis": "For large/stack-off calls justified by commitment, require raw sampled equity at least the eligible-pot call price; no added margin or preflop change.",
+  "name": "classic_price_v1",
+  "only_changed_source": "classic_policy.py",
+  "package_sha256": "6a1a9ae56a60cbcbdf02b37fee5243843d712e966627b870ea6b2e8fe1e53cbe",
+  "path": "candidates/classic_price_v1",
+  "results": "evidence/candidate-classic_price_v1/summary.json",
+  "sha256": {
+    "agent.py": "2b067d8b958dee7fe9e7afac25f12abfcb3a4bbbdbce0fbdc45261cc9717ce52",
+    "classic_policy.py": "3f9d0e5f591123a7d1382fd544550969259176549f550737b4912ebdcb969d7d",
+    "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+    "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+    "preflop_table.py": "d3e015114b6bf5c9d3b3e7d577f918d7cdf28ff1979ef5ad19c0cc99e52e9197",
+    "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+    "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+    "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb"
+  },
+  "status": "completed_4096_tables_audited"
+}

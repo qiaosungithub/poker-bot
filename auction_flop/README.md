@@ -124,3 +124,9 @@ their original source paths and uncompressed table hashes.
 ## Classic control
 
 [classic_txnujk32_v1](candidate_catalog_classic_v1.json) is published with exact source/package hashes, its source-to-rule report and [cross-review](research/classic_txnujk32_v1/REVIEW.md). Its completed 4,096-table score is **13.61816**, versus corrected loose v2's **16.62598**; paired difference **-3.00781**, 95% interval **[-3.81180, -2.20383]**, zero failures. New small refinements can reuse this exact retained control without rerunning it. The v1 opponents remain unchanged.
+
+Two isolated classic refinements also completed 4,096 tables each with zero
+failures: price veto **13.67188**, private contribution **13.82568**. The latter
+improves the classic control under the two-comparison adjustment; neither
+exceeds the current corrected loose mean. See the
+[paired analysis](evidence/classic-refinements-v1-comparison.json) and report.
