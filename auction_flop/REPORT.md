@@ -118,3 +118,9 @@ See [factorial contrasts](evidence/factorial-comparison.json). No additional gam
 ## Current submitted candidate, observed 2026-11-10T00:15:07.065149+00:00
 
 `timothy-corrected-loose-v2-2873210.zip`, submission `d3e77750-4c00-4716-9458-40ebc4df6915`, is independently confirmed **Ready and active**. It is the corrected loose v2 source measured at **16.62598 points/table** in 4,096 v1 tables with zero failed decisions. The exact package SHA256 is `9d1300e1ebdc4fe580c6543f0dd137a8e49a9cfff2ff958bc49794cccd7affe4`. See [authenticated read-back receipt](evidence/submission-confirmation.json). Earlier submission observations above remain historical; no frozen benchmark files were changed.
+
+## Unranked classic txnujk candidate
+
+The immutable [classic candidate](candidate_catalog_classic_v1.json) continues the earlier txnujk-32 decision rules with documented Boston corrections and the tournament auction. Its exact source and ZIP match event commit `0f84eb45a7501d1cc24c423244b298134c4a4921`. A 32-table interface smoke completed with 5,395 decisions and zero failures. The full 4,096-table comparison **has not started**, following the request for cross-review before new development. No strength score is assigned.
+
+[Cross-review](research/classic_txnujk32_v1/REVIEW.md) records helper-level public-trips and board-only-flush-draw concerns, the large-call commitment rule, and four isolated refinement hypotheses. No policy or frozen benchmark source changed during this review.

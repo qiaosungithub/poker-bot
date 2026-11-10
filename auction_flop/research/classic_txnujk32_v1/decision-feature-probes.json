@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "best_quality_category_draw": [
+        0.31000000000000005,
+        3,
+        false
+      ],
+      "board": [
+        "7s",
+        "7h",
+        "7d"
+      ],
+      "classic_category_commitment_flushdraw_straightdraw": [
+        3,
+        2,
+        false,
+        false
+      ],
+      "hole": [
+        "2c",
+        "3d"
+      ]
+    },
+    {
+      "best_quality_category_draw": [
+        0.01,
+        0,
+        false
+      ],
+      "board": [
+        "As",
+        "Js",
+        "8s",
+        "4s"
+      ],
+      "classic_category_commitment_flushdraw_straightdraw": [
+        0,
+        0,
+        true,
+        false
+      ],
+      "hole": [
+        "2c",
+        "6d"
+      ]
+    },
+    {
+      "best_quality_category_draw": [
+        0.675,
+        1,
+        false
+      ],
+      "board": [
+        "Ac",
+        "7d",
+        "2s"
+      ],
+      "classic_category_commitment_flushdraw_straightdraw": [
+        2,
+        1,
+        false,
+        false
+      ],
+      "hole": [
+        "Ah",
+        "Kd"
+      ]
+    }
+  ],
+  "scope": "Pure helper probes, not native-game outcomes or strength evidence. Candidate sources unchanged."
+}

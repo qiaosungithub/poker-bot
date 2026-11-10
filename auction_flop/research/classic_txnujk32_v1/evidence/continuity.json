@@ -1,0 +1,39 @@
+{
+  "source_rule_decisions": 32656,
+  "rule_mismatches": 0,
+  "feature_parity_states": 1206,
+  "preflop_classes_equal": 169,
+  "native_tables": 8,
+  "native_decisions": 5037,
+  "illegal_or_failed": 0,
+  "auction_identical_decisions": 458,
+  "max_memory_bytes": 1042,
+  "timing_scope": "process CPU, full Agent.act including observation and memory, excludes IPC; concurrent benchmark load may affect cache",
+  "timings": {
+    "0": {
+      "n": 3355,
+      "p99_ms": 0.246749,
+      "max_ms": 32.98511
+    },
+    "auction": {
+      "n": 458,
+      "p99_ms": 0.51128,
+      "max_ms": 0.99013
+    },
+    "3": {
+      "n": 555,
+      "p99_ms": 0.51804,
+      "max_ms": 0.573669
+    },
+    "4": {
+      "n": 398,
+      "p99_ms": 0.503101,
+      "max_ms": 1.1737
+    },
+    "5": {
+      "n": 271,
+      "p99_ms": 0.840291,
+      "max_ms": 1.0228
+    }
+  }
+}

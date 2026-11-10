@@ -1,0 +1,27 @@
+{
+  "comparison": "One predeclared paired comparison against corrected_preflop_loose_v2 on the unchanged full auction-flop-v1 schedule.",
+  "evaluation_status": "Full 4096-table evaluation not started; held for requested cross-review before further development.",
+  "event_revision": "0f84eb45a7501d1cc24c423244b298134c4a4921",
+  "name": "classic_txnujk32_v1",
+  "package_sha256": "5b349610a9df15e9edbf8322f298b54f436586e521740f73f25e692b31387470",
+  "path": "candidates/classic_txnujk32_v1",
+  "reference_policy": "txnujk_32 rule continuation with Boston-specific corrections; not identical to upstream classic policy.",
+  "sha256": {
+    "agent.py": "2b067d8b958dee7fe9e7afac25f12abfcb3a4bbbdbce0fbdc45261cc9717ce52",
+    "classic_policy.py": "1870615a996678b7f7d8791ee31498a288dd4ee309d0ef33a21b7dc30695cf98",
+    "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+    "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+    "preflop_table.py": "d3e015114b6bf5c9d3b3e7d577f918d7cdf28ff1979ef5ad19c0cc99e52e9197",
+    "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+    "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+    "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb"
+  },
+  "smoke": {
+    "candidate_decisions": 5395,
+    "candidate_failures": 0,
+    "official_score": false,
+    "tables": 32,
+    "total_failures": 0,
+    "valid": true
+  }
+}
