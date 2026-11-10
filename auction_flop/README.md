@@ -40,8 +40,14 @@ tight/loose preflop, and joint ON/OFF. These newer snapshots supplement the earl
 Their 4,096-table fixed-field comparisons are complete in [the report](REPORT.md).
 `preflop_loose` leads that initial batch at 16.56250 points/table; all nine had zero failed decisions.
 Two later [corrected v2 candidates](candidate_catalog_corrected_v2.json) fix the
-known shared betting-core defects. `corrected_preflop_loose_v2` now has the highest
-completed mean, 16.62598, with zero failures across 4,096 tables.
+known shared betting-core defects. `corrected_preflop_loose_v2` scored
+16.62598, with zero failures across 4,096 tables.
+The later [Practice 4 preflop-prior candidates](research/practice_preflop_prior/README.md)
+distill the top ten teams' public opening frequencies into static thresholds.
+The full-prior candidate scored 17.65625 and the half-prior candidate 17.24365,
+each over 4,096 tables with zero failures. Full prior versus corrected loose
+has paired gain +1.03027 (95% CI +0.38054 to +1.68001).
+See the [source/package catalog](candidate_catalog_practice_prior_v1.json).
 The report also records known common betting-core defects; corrected bots must
 be new candidates. The frozen opponents remain unchanged.
 

@@ -1,0 +1,19 @@
+{
+  "method": "Bonferroni 97.5% normal intervals for two predeclared candidate-versus-control comparisons; 512 paired seed blocks each",
+  "arms": {
+    "half": {
+      "gain": 0.61767578125,
+      "ci97_5": [
+        0.008793423450321525,
+        1.2265581390496785
+      ]
+    },
+    "full": {
+      "gain": 1.0302734375,
+      "ci97_5": [
+        0.28725338987295346,
+        1.7732934851270465
+      ]
+    }
+  }
+}

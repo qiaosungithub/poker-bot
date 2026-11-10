@@ -1,0 +1,12 @@
+{
+  "tool": "released poker-agent play",
+  "seed": "practice-prior-sdk-v1",
+  "tables": 8,
+  "players": 8,
+  "decision_ms": 1,
+  "time_bank_ms": 100,
+  "variant": "flop_auction_holdem",
+  "history_saved": false,
+  "scope": "Local SDK/IPC smoke, banked; not zero-bank acceptance or remote qualification",
+  "result_sha256": "1c577a4055dd096ace77edfa2a1a0d75f312dd96b6dac3fe491cfa3674189e3e"
+}
