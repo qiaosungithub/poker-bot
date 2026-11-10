@@ -1,5 +1,11 @@
 # SQA 提交参考
 
+**统一评分结论：保留 main 的 `preflop_loose`，不要用当前 V7 替换它。**
+SQA `auction-flop-v1` 同标 Mac 复现：V7 12.84668 分，4,096 桌零失败；
+main 已发布的 `preflop_loose` 为 16.56250 分。Linux 全量复核仍在运行。
+Mac 只适配 CPU 亲和性接口，已完成的 2,120 桌 Linux 对局与之逐条一致；
+完整平台说明见 `SQA_BENCHMARK.md`。
+
 候选文件：`bots/dianne/icm_defend_v7.zip`，包内只有 `agent.py`。
 `bots/dianne/agent.zip` 与它完全相同。单文件源码在 `icm_defend_v7/agent.py`
 和 `selected/agent.py`，两者 SHA256 均为
@@ -11,7 +17,7 @@
 在默认翻牌已经有利但可能被他人改选时增加有限防守出价。使用公开余额，
 不假设能看见对手逐牌出价。
 
-统一排名使用 sqa 的 `auction-flop-v1`；当前 V7 的同标准评测正在运行。
+统一排名使用 sqa 的 `auction-flop-v1`；V7 的同标准 Mac 复现已完成。
 此前本地对照结果保存在 `OPTIMIZATION.md`，不用于跨分支排名。
 Linux 官方 SDK 零时间储备测试：64 桌、9,017 次 V7 决策，零失败。
 

@@ -1,0 +1,28 @@
+{
+  "adapter": "/Users/dianne/Documents/ChatGPT/Pokerbot/poker-bot/.runtime/main-benchmark-481d1f0/run_macos.py",
+  "adapter_sha256": "62f8fde5b1b195ee70f2ebed88de647335ffd93d4350a63b1805ed8b7963ef26",
+  "argv": [
+    "evaluate",
+    "--candidate",
+    "/Users/dianne/Documents/ChatGPT/Pokerbot/poker-bot/bots/dianne/icm_defend_v7",
+    "--workers",
+    "8",
+    "--out",
+    "/Users/dianne/Documents/ChatGPT/Pokerbot/poker-bot/bots/dianne/results/main-benchmark-defend-v7-macos"
+  ],
+  "cpu_affinity_enforced": false,
+  "finished": "2026-11-10T00:16:21.052962+00:00",
+  "frozen_files_modified": false,
+  "game_rules_seed_or_score_changes": false,
+  "logical_cpus": 15,
+  "patches": [
+    "os.sched_getaffinity: report all logical CPUs",
+    "os.sched_setaffinity: no-op"
+  ],
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.9 (main, Feb 12 2025, 15:09:19) [Clang 19.1.6 ]",
+  "python_hash_seed": "0",
+  "qualification": "macOS portability-adapted research run; not Linux qualification",
+  "source_commit": "481d1f0",
+  "started": "2026-11-10T00:12:52.108516+00:00"
+}

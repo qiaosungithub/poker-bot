@@ -1,0 +1,13 @@
+{
+  "linux_complete": false,
+  "macos_complete": true,
+  "linux_tables": 2120,
+  "macos_tables": 4096,
+  "common_tables": 2120,
+  "mismatches": 0,
+  "example_mismatches": [],
+  "method": "SHA256 of complete canonical JSON rows with only elapsed seconds removed",
+  "linux_source": "~/work/dianne-main-benchmark/result-defend-v7",
+  "linux_digest_sha256": "2e9ba18c36bbfd2bc7fb8f08741dc67f40dd38ff4ae908467ce5ff72bf39b1e6",
+  "macos_digest_sha256": "61033b632248f78a2bdfb91329fd26e5bff9caf34f67e7b87764e8288e7b0ce2"
+}

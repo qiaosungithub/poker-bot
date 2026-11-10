@@ -4,7 +4,12 @@
 
 ## 使用入口
 
-当前待统一评分的候选为 [`selected/agent.py`](selected/agent.py)，对应 `icm_defend_v7`。
+**当前提交建议：保留 main 的 `preflop_loose`。** SQA 同标 Mac 复现中，
+本分支 `icm_defend_v7` 为 12.84668 分，低于 `preflop_loose` 的 16.56250 分；
+不建议用 V7 替换当前最佳版本。Linux 原版全量复核正在进行。
+
+[`selected/agent.py`](selected/agent.py) 是此前本地选型留下的 V7 候选别名，
+不代表统一 benchmark 的优胜版本。
 它组合了价格敏感的翻牌前跟注、修正后的牌面计算，以及保护有利默认翻牌的拍卖。
 **跨分支排名统一使用 sqa 的 `auction-flop-v1` 分数**，进度和结果见
 [SQA_BENCHMARK.md](SQA_BENCHMARK.md)。此前本地固定对手实验作为诊断和回归证据保存。
@@ -12,7 +17,7 @@
 三阶段拆分与固定下注的拍卖对照见 [PHASE_ANALYSIS.md](PHASE_ANALYSIS.md)。
 三个阶段的独立源码及单文件生成方法见 [modular/README.md](modular/README.md)，
 114,785 个官方引擎状态中与原 ICM v2 行为完全一致。
-上传包为 [`icm_defend_v7.zip`](icm_defend_v7.zip)，与 [`agent.zip`](agent.zip)
+保留的候选包为 [`icm_defend_v7.zip`](icm_defend_v7.zip)，与 [`agent.zip`](agent.zip)
 内容一致，包内只有 `agent.py`，大小 5,914 字节。
 策略运行依赖标准库、官方 SDK 和 `eval7==0.1.11`。
 
