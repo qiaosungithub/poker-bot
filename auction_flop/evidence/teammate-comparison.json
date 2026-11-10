@@ -1,0 +1,54 @@
+{
+  "benchmark": "auction-flop-v1",
+  "comparisons": [
+    {
+      "candidate": "submitted_hybrid",
+      "difference_vs_teammate": 4.12109375,
+      "mean_points": 15.087890625,
+      "simultaneous_ci95_two_comparisons": [
+        3.2264250537040877,
+        5.015762446295913
+      ]
+    },
+    {
+      "candidate": "preflop_loose",
+      "difference_vs_teammate": 5.595703125,
+      "mean_points": 16.5625,
+      "simultaneous_ci95_two_comparisons": [
+        4.7606369264830946,
+        6.4307693235169054
+      ]
+    }
+  ],
+  "local_complete_evidence": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/auction-flop-teammate-icm-v2",
+  "source_publication": "Teammate source and complete run snapshots remain on the shared workspace; only comparison statistics are published.",
+  "teammate_source": {
+    "identity_scope": "v2/v3 source copies have identical bytes and match the submitted policy name; the portal does not expose an artifact hash or download, so uploaded-package byte identity is unverified.",
+    "prior_filename": "icm_v2.zip",
+    "prior_submission_id": "f2529a3e-65ab-4077-9ed0-11ddced0a946",
+    "source_host_alias": "no-limit-2026-build",
+    "source_paths": [
+      "/home/ubuntu/work/dianne-boston-test/v2/bots/dianne/icm_v2/agent.py",
+      "/home/ubuntu/work/dianne-boston-test/v3/bots/dianne/icm_v2/agent.py"
+    ],
+    "source_sha256": "73ed48b9128862704c8123b0e9c582ab366c4fa3b84206998874154fc4b17f56"
+  },
+  "teammate_summary": {
+    "all_scores_audited": true,
+    "candidate_decisions": 571739,
+    "candidate_failures": 0,
+    "ci95": [
+      10.451841498182908,
+      11.481752251817092
+    ],
+    "independent_blocks": 512,
+    "mean_chips": 1421.875,
+    "mean_points": 10.966796875,
+    "mean_remaining_flopchips": 511.10498046875,
+    "mean_spent_flopchips": 488.89501953125,
+    "official_score": true,
+    "tables": 4096,
+    "total_failures": 0,
+    "valid": true
+  }
+}

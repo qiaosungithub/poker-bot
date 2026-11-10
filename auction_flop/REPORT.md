@@ -71,3 +71,18 @@ These are untimed strategy scores. They do not determine submission eligibility 
 A separate source audit reproduced three defects in the original variant betting core shared by these candidates: folding a guaranteed tie on a public royal flush; overrating a weak private kicker on public quads; and counting inaccessible side-pot money in short-stack call odds. The audit does not estimate their tournament frequency. Preserve the measured original opponents and v1 hashes; corrected implementations must be new candidates. These results establish comparative scores in this fixed field, not correctness of every betting decision.
 
 Original audit evidence is retained under [research/frozen-core-audit](research/frozen-core-audit/FINDINGS.md).
+
+## Comparison with the teammate's prior named policy
+
+The shared build box contains byte-identical `icm_v2/agent.py` copies in its v2 and v3 directories (SHA256 `73ed48b9128862704c8123b0e9c582ab366c4fa3b84206998874154fc4b17f56`). This source scored **10.96680 points/table** on the same 4,096-table v1 schedule, with zero failed decisions. The old portal submission was named `icm_v2.zip`; its downloadable bytes/hash are unavailable, so exact identity with the uploaded package is not verified.
+
+| Our candidate | Points/table | Difference vs shared icm_v2 | Simultaneous 95% interval |
+| --- | ---: | ---: | --- |
+| submitted_hybrid | 15.08789 | +4.12109 | [+3.22643, +5.01576] |
+| preflop_loose | 16.56250 | +5.59570 | [+4.76064, +6.43077] |
+
+The two paired contrasts use a Bonferroni correction. Full local source snapshots and raw records remain in the shared workspace path recorded in [the comparison artifact](evidence/teammate-comparison.json); teammate source is not republished here. This comparison was completed after the user-requested immediate submission.
+
+## Submission observed at 2026-11-10 00:06 UTC
+
+`timothy-hybrid-7e7aa88.zip`, submission `fabb5704-315f-44f6-99b7-2a2df61992f0`, was uploaded at 00:03:07 UTC. The authenticated API subsequently reported both `ready` and a matching team `active_submission_id`. This is the qualified modular hybrid scoring 15.08789 in v1. `preflop_loose` has a higher measured score; its production qualification/upgrade is separate from the completed strength comparison. Later portal changes do not alter this dated observation.
