@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-11-10T00:40:33.411013+00:00",
+  "submission_id": "50da6a7e-6d6e-4eec-a3d2-5a4db8ce9d89",
+  "filename": "timothy-classic-hybrid-v1-52474ad.zip",
+  "status": "validating",
+  "active_submission_id": "04e8c5f8-42e9-4543-a0d3-bd3dc94d02f1",
+  "package_sha256": "99bf8e4507533d02c11e69e4f23e961a19e02c05e481d72df9fd3f3f091262bb",
+  "candidate": "classic_hybrid_v1",
+  "benchmark": "auction-flop-v1",
+  "mean_points": 17.48046875,
+  "tables": 4096,
+  "created_at": "2026-11-10T00:39:30.917816Z",
+  "note": "Authenticated GET readback; upload accepted, not yet active at this observation."
+}

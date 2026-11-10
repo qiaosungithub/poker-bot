@@ -1,13 +1,13 @@
 {
-  "observed_at": "2026-11-10T00:15:07.065149+00:00",
-  "submission_id": "d3e77750-4c00-4716-9458-40ebc4df6915",
-  "filename": "timothy-corrected-loose-v2-2873210.zip",
+  "observed_at": "2026-11-10T00:39:44.809783+00:00",
+  "active_submission_id": "04e8c5f8-42e9-4543-a0d3-bd3dc94d02f1",
+  "submission_id": "04e8c5f8-42e9-4543-a0d3-bd3dc94d02f1",
+  "filename": "timothy-fragile-both-v1-fdd2430.zip",
   "status": "ready",
-  "active_submission_id": "d3e77750-4c00-4716-9458-40ebc4df6915",
-  "created_at": "2026-11-10T00:13:29.485855Z",
-  "package_sha256": "9d1300e1ebdc4fe580c6543f0dd137a8e49a9cfff2ff958bc49794cccd7affe4",
-  "candidate": "corrected_preflop_loose_v2",
+  "created_at": "2026-11-10T00:37:52.773921Z",
+  "package_sha256": "87a1e11e8c517ceaac198c77d788d1a1df94afdea6caa0384bb0d5c0e796b3fd",
+  "candidate": "fragile_both_v1",
   "benchmark": "auction-flop-v1",
-  "mean_points": 16.6259765625,
+  "mean_points": 16.806640625,
   "tables": 4096
 }

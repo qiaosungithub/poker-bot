@@ -115,9 +115,9 @@ See [factorial contrasts](evidence/factorial-comparison.json). No additional gam
 
 `timothy-preflop-loose-c5ec82a.zip`, submission `7798fc5a-a796-4483-8164-b0cba3c7465e`, was uploaded at 00:09:44 UTC and independently read back as Ready and active. This is the **original** loose candidate scoring 16.56250, not the separately measured corrected v2. Package SHA256: `053507112b6d266c0c2f8c18c6e2f0ef8af9970f609c6bb2bdda776f63844795`.
 
-## Current submitted candidate, observed 2026-11-10T00:15:07.065149+00:00
+## Corrected loose submission, observed 2026-11-10T00:15:07.065149+00:00
 
-`timothy-corrected-loose-v2-2873210.zip`, submission `d3e77750-4c00-4716-9458-40ebc4df6915`, is independently confirmed **Ready and active**. It is the corrected loose v2 source measured at **16.62598 points/table** in 4,096 v1 tables with zero failed decisions. The exact package SHA256 is `9d1300e1ebdc4fe580c6543f0dd137a8e49a9cfff2ff958bc49794cccd7affe4`. See [authenticated read-back receipt](evidence/submission-confirmation.json). Earlier submission observations above remain historical; no frozen benchmark files were changed.
+`timothy-corrected-loose-v2-2873210.zip`, submission `d3e77750-4c00-4716-9458-40ebc4df6915`, was independently confirmed **Ready and active** at this observation. It is the corrected loose v2 source measured at **16.62598 points/table** in 4,096 v1 tables with zero failed decisions. The exact package SHA256 is `9d1300e1ebdc4fe580c6543f0dd137a8e49a9cfff2ff958bc49794cccd7affe4`. See [historical authenticated read-back receipt](evidence/submission-corrected-loose-v2.json). These submission observations remain historical; no frozen benchmark files were changed.
 
 ## Classic txnujk control
 
@@ -205,3 +205,14 @@ field from v1; do not interpret the local fixed-field scores as contest-wide
 strength or attribute changes across rounds to a policy change. The result row
 alone does not identify the submission ZIP used for that round.
 [Team result and source-artifact hash](evidence/official-scored1-team-result.json).
+
+## Submission update observed at 00:40 UTC
+
+The 16.80664-point fragile-both candidate, submission
+`04e8c5f8-42e9-4543-a0d3-bd3dc94d02f1`, was independently confirmed Ready and
+active at 00:39:44 UTC. See the [active receipt](evidence/submission-confirmation.json).
+The highest-mean classic hybrid was uploaded at 00:39:30 UTC as
+`50da6a7e-6d6e-4eec-a3d2-5a4db8ce9d89`; authenticated readback at 00:40:33 UTC
+still reported validating, with fragile-both active. Its source/package SHA
+matches the measured 17.48047 candidate. Upload acceptance is not activation.
+See the [pending receipt](evidence/submission-classic-hybrid-v1-pending.json).
