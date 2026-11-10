@@ -1,0 +1,24 @@
+{
+  "sha256": "2f169ae4f6fd416b3bd9fdaa5698615a5e72d9fdb12bc2d56c1422908bf10efe",
+  "size_bytes": 29050,
+  "files": [
+    "agent.py",
+    "auction_policy.py",
+    "betting_policy.py",
+    "corrected_betting_baseline.py",
+    "distilled_prior.py",
+    "flop_policy.py",
+    "hand_contribution.py",
+    "independent_preflop.py",
+    "postflop_policy.py",
+    "pot_accounting.py",
+    "preflop_policy.py",
+    "public_features.py",
+    "river_policy.py",
+    "tournament_agent.py",
+    "tournament_strategy.py",
+    "turn_policy.py",
+    "variant_agent.py",
+    "variant_auction.py"
+  ]
+}

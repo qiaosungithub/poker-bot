@@ -42,11 +42,19 @@ Their 4,096-table fixed-field comparisons are complete in [the report](REPORT.md
 Two later [corrected v2 candidates](candidate_catalog_corrected_v2.json) fix the
 known shared betting-core defects. `corrected_preflop_loose_v2` scores 16.62598,
 with zero failures across 4,096 tables. The later
-[classic hybrid](candidate_catalog_classic_hybrid_v1.json) has the highest
-completed v1 mean, **17.48047**, followed by the
+[classic hybrid](candidate_catalog_classic_hybrid_v1.json) scores **17.48047** and the
 [combined fragile-hand refinement](candidate_catalog_fragile_v1.json) at
 **16.80664**. These are fixed-field results; see the report for paired uncertainty
 and the separately recorded active submission.
+
+The later [Practice 4 preflop-prior candidates](research/practice_preflop_prior/README.md)
+distill the top ten teams' public opening frequencies into static thresholds.
+The full-prior candidate scored 17.65625 and the half-prior candidate 17.24365,
+each over 4,096 tables with zero failures. Full prior versus corrected loose
+has paired gain +1.03027 (95% CI +0.38054 to +1.68001).
+See the [source/package catalog](candidate_catalog_practice_prior_v1.json).
+The full-prior mean exceeds classic hybrid by 0.17578, but its paired interval
+includes zero; the mean ranking does not establish a unique best policy.
 The report also records known common betting-core defects; corrected bots must
 be new candidates. The frozen opponents remain unchanged.
 
