@@ -1,0 +1,46 @@
+{
+  "benchmark": "auction-flop-v1",
+  "contrasts": [
+    {
+      "a": "history1_inference0",
+      "b": "history0_inference0",
+      "contrast": "history effect at inference=0",
+      "difference": -0.2099609375,
+      "simultaneous_ci95_four_contrasts": [
+        -0.691965601794158,
+        0.272043726794158
+      ]
+    },
+    {
+      "a": "history1_inference1",
+      "b": "history0_inference1",
+      "contrast": "history effect at inference=1",
+      "difference": -0.18798828125,
+      "simultaneous_ci95_four_contrasts": [
+        -0.6674932019030306,
+        0.2915166394030306
+      ]
+    },
+    {
+      "a": "history0_inference1",
+      "b": "history0_inference0",
+      "contrast": "inference effect at history=0",
+      "difference": 0.17578125,
+      "simultaneous_ci95_four_contrasts": [
+        -0.02910870935867843,
+        0.38067120935867843
+      ]
+    },
+    {
+      "a": "history1_inference1",
+      "b": "history1_inference0",
+      "contrast": "inference effect at history=1",
+      "difference": 0.19775390625,
+      "simultaneous_ci95_four_contrasts": [
+        -0.017065088290202313,
+        0.4125729007902023
+      ]
+    }
+  ],
+  "scope": "Exploratory paired contrasts within the fixed 2x2; Bonferroni correction for four contrasts. Losing to the separate hybrid baseline does not identify the effect of history or inference because the auction/value selector also differs."
+}

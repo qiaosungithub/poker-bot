@@ -86,3 +86,31 @@ The two paired contrasts use a Bonferroni correction. Full local source snapshot
 ## Submission observed at 2026-11-10 00:06 UTC
 
 `timothy-hybrid-7e7aa88.zip`, submission `fabb5704-315f-44f6-99b7-2a2df61992f0`, was uploaded at 00:03:07 UTC. The authenticated API subsequently reported both `ready` and a matching team `active_submission_id`. This is the qualified modular hybrid scoring 15.08789 in v1. `preflop_loose` has a higher measured score; its production qualification/upgrade is separate from the completed strength comparison. Later portal changes do not alter this dated observation.
+
+## Corrected v2 candidates
+
+The three documented shared-core defects were repaired in new source versions. Both corrected candidates ran the complete unchanged 4,096-table v1 schedule with zero failed decisions; their file hashes exactly match the separately qualified package bytes. The original benchmark opponents remain untouched.
+
+| Corrected candidate | Points/table | Change from its original | Paired simultaneous 95% interval |
+| --- | ---: | ---: | --- |
+| corrected_preflop_loose_v2 | 16.62598 | +0.06348 | [+0.01357, +0.11338] |
+| corrected_baseline_v2 | 15.16113 | +0.07324 | [-0.00552, +0.15200] |
+
+The corrected loose candidate has the highest completed mean: **16.62598**. Its improvement over the original loose version is small, +0.06348 points, with a positive paired normal interval after correcting for these two contrasts. This is evidence within the fixed public seed set, not a new broad population guarantee. Source revisions, package hashes and composition manifests are in [candidate_catalog_corrected_v2.json](candidate_catalog_corrected_v2.json); [raw comparison](evidence/corrected-v2-comparison.json).
+
+## Conditional history and inference contrasts
+
+The four history/inference arms also change auction/value selection relative to the separate hybrid baseline. Their lower complete-policy scores do not isolate the effect of history. Four exploratory paired contrasts within the controlled 2x2, corrected jointly, all include zero:
+
+| Contrast | Difference | Simultaneous 95% interval |
+| --- | ---: | --- |
+| history effect at inference=0 | -0.20996 | [-0.69197, +0.27204] |
+| history effect at inference=1 | -0.18799 | [-0.66749, +0.29152] |
+| inference effect at history=0 | +0.17578 | [-0.02911, +0.38067] |
+| inference effect at history=1 | +0.19775 | [-0.01707, +0.41257] |
+
+See [factorial contrasts](evidence/factorial-comparison.json). No additional games were used for these contrasts.
+
+## Submission update observed at 2026-11-10 00:10 UTC
+
+`timothy-preflop-loose-c5ec82a.zip`, submission `7798fc5a-a796-4483-8164-b0cba3c7465e`, was uploaded at 00:09:44 UTC and independently read back as Ready and active. This is the **original** loose candidate scoring 16.56250, not the separately measured corrected v2. Package SHA256: `053507112b6d266c0c2f8c18c6e2f0ef8af9970f609c6bb2bdda776f63844795`.

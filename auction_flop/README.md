@@ -38,7 +38,10 @@ Nine later ready-to-run arms are in [candidate_catalog.json](candidate_catalog.j
 tight/loose preflop, and joint ON/OFF. These newer snapshots supplement the earlier
 `research/` capture. Run any one with `--candidate auction_flop/candidates/NAME`.
 Their 4,096-table fixed-field comparisons are complete in [the report](REPORT.md).
-`preflop_loose` leads at 16.56250 points/table; all nine had zero failed decisions.
+`preflop_loose` leads that initial batch at 16.56250 points/table; all nine had zero failed decisions.
+Two later [corrected v2 candidates](candidate_catalog_corrected_v2.json) fix the
+known shared betting-core defects. `corrected_preflop_loose_v2` now has the highest
+completed mean, 16.62598, with zero failures across 4,096 tables.
 The report also records known common betting-core defects; corrected bots must
 be new candidates. The frozen opponents remain unchanged.
 
