@@ -4,10 +4,10 @@
 
 ## 使用入口
 
-当前候选为 [`selected/agent.py`](selected/agent.py)，对应 `icm_defend_v7`。
+当前待统一评分的候选为 [`selected/agent.py`](selected/agent.py)，对应 `icm_defend_v7`。
 它组合了价格敏感的翻牌前跟注、修正后的牌面计算，以及保护有利默认翻牌的拍卖。
-最终独立 4,096 桌对照中平均 18.088 分，原 `icm_v2` 为 15.728 分，
-配对提升 2.361 分，普通 95% 区间 [1.828, 2.894]。
+**跨分支排名统一使用 sqa 的 `auction-flop-v1` 分数**，进度和结果见
+[SQA_BENCHMARK.md](SQA_BENCHMARK.md)。此前本地固定对手实验作为诊断和回归证据保存。
 具体模块、候选取舍和验证见 [OPTIMIZATION.md](OPTIMIZATION.md)。
 三阶段拆分与固定下注的拍卖对照见 [PHASE_ANALYSIS.md](PHASE_ANALYSIS.md)。
 三个阶段的独立源码及单文件生成方法见 [modular/README.md](modular/README.md)，

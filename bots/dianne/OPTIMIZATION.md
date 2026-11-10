@@ -1,5 +1,8 @@
 # ICM 模块优化记录
 
+本文保留本地开发和回归实验；跨分支排名统一使用 sqa 的
+`auction-flop-v1`，见 [SQA_BENCHMARK.md](SQA_BENCHMARK.md)。
+
 原版 `icm_v2` 和所有已测候选保持冻结。三阶段入口为
 `preflop_decision(state, memory)`、`auction_decision(state, memory)`、
 `postflop_decision(state, memory)`，统一返回 `(Action, bytes)`。
