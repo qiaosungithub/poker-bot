@@ -61,6 +61,13 @@ complete. Adding both isolated postflop protections to classic hybrid yields
 **17.73438**, versus its retained control's 17.48047; the six-contrast adjusted
 interval for that gain is [+0.04467, +0.46314]. See the
 [audited follow-up comparisons](evidence/followup-v1-comparison.json).
+
+The later [macro program](research/macro_program/README.md) evaluates complete
+opening, auction and postflop modules. Prior + Hboth scores **19.80713** on v1
+(+2.07275 versus Hboth), with a fresh-seed gain of +1.61377 in the same field.
+Its different-style-field gain is inconclusive, so a general two-point gain
+is not established. The report also records a controlled prize-versus-chip
+objective comparison and separately attributed official-round evidence.
 The report also records known common betting-core defects; corrected bots must
 be new candidates. The frozen opponents remain unchanged.
 
@@ -149,3 +156,9 @@ failures: price veto **13.67188**, private contribution **13.82568**. The latter
 improves the classic control under the two-comparison adjustment; neither
 exceeds the current corrected loose mean. See the
 [paired analysis](evidence/classic-refinements-v1-comparison.json) and report.
+
+Latest retained formal activation (2026-11-10 01:33 UTC): original
+`practice_prior_full_v1`, local v1 **17.65625**, captured by S5. The local-best
+prior + Hboth **19.80713** has not been uploaded. Hboth's official S4 result was
+**10.2705**, rank **143/194**; local gains have not established formal transfer.
+See [current status and evidence](REPORT.md#macro-program-and-transfer-limits).

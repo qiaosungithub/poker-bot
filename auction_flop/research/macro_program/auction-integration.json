@@ -1,0 +1,141 @@
+{
+  "completed_at": "2026-11-10T01:17:10.939179+00:00",
+  "candidate": "macro_auction_value_v1",
+  "assignment_owner": "01a1be2a-508e-7e12-b157-a230ce47378b",
+  "source_revision": "18d76a58f01a161bf15df19ab96db977f9056cbc",
+  "bot_dir": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/integration_next/candidates/macro_auction_value_v1",
+  "source_digest": "db5d475e231b6dc1c76e8826f5ca7ecd05a261d7421e46881a8480f847fdbff4",
+  "source_hashes": {
+    "agent.py": "756e887bf3ffcc45f21fe49129a744102f7d147f64c01e92f5ad04d865e43a5e",
+    "classic_policy.py": "b94c222ea36950c0205d5e3d89b004230b7e94bf57ca9bd9bd623ff3783a1caf",
+    "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+    "independent_preflop.py": "516b2e41e72430e1e706e483348047bb9330b638a701d279e9a285b5acf51145",
+    "marginal_auction.py": "ea86641d4b52ff17e3f42f089bb74b4ff5e3db451e2d255da0619a65805fe112",
+    "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+    "preflop_table.py": "d3e015114b6bf5c9d3b3e7d577f918d7cdf28ff1979ef5ad19c0cc99e52e9197",
+    "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+    "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+    "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+    "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+    "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+  },
+  "zip": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/integration_next/evidence/integration-macro-auction-value-v1/macro-auction-value-v1.zip",
+  "zip_sha256": "8e97824a05aabeab9523cf67219d2a6e82cd2cfc56915b0a2f25bee5a3a9f49a",
+  "zip_bytes": 30867,
+  "local": {
+    "passed": true,
+    "tables": 9,
+    "hero_decisions": 423,
+    "all_failures": 0,
+    "phase_timings": {
+      "betting_0": {
+        "n": 285,
+        "p50_ms": 0.36259996704757214,
+        "p99_ms": 0.7326300255954266,
+        "max_ms": 2.106719883158803,
+        "above_1ms": 1
+      },
+      "auction": {
+        "n": 29,
+        "p50_ms": 1.1359499767422676,
+        "p99_ms": 1.281999982893467,
+        "max_ms": 1.5810399781912565,
+        "above_1ms": 29
+      },
+      "betting_3": {
+        "n": 44,
+        "p50_ms": 0.6251550512388349,
+        "p99_ms": 0.8284000214189291,
+        "max_ms": 0.8501301053911448,
+        "above_1ms": 0
+      },
+      "betting_4": {
+        "n": 33,
+        "p50_ms": 0.5940999835729599,
+        "p99_ms": 0.652410089969635,
+        "max_ms": 0.751859974116087,
+        "above_1ms": 0
+      },
+      "betting_5": {
+        "n": 32,
+        "p50_ms": 0.5640045274049044,
+        "p99_ms": 0.647819833829999,
+        "max_ms": 2.0194898825138807,
+        "above_1ms": 1
+      }
+    },
+    "source_unchanged": true,
+    "scope": "Official BotPool + guest, includes serialization and IPC; ordinary local processes, not production microVM",
+    "protocol": {
+      "decision_ms": 1,
+      "delivery_grace_ms": 2,
+      "acceptance_time_bank_ms": 0,
+      "acceptance_hand_cap": 20,
+      "eight_seat_time_bank_ms": 100,
+      "eight_seat_hand_cap": 100,
+      "worker_copies_per_bot": 2
+    }
+  },
+  "remote": {
+    "passed": true,
+    "tables": 9,
+    "hero_decisions": 423,
+    "all_failures": 0,
+    "phase_timings": {
+      "betting_0": {
+        "n": 285,
+        "p50_ms": 0.2830970042850822,
+        "p99_ms": 0.38686097832396626,
+        "max_ms": 0.40046300273388624,
+        "above_1ms": 0
+      },
+      "auction": {
+        "n": 29,
+        "p50_ms": 0.6962420011404902,
+        "p99_ms": 0.7481049979105592,
+        "max_ms": 0.8104610024020076,
+        "above_1ms": 0
+      },
+      "betting_3": {
+        "n": 44,
+        "p50_ms": 0.43132499558851123,
+        "p99_ms": 0.49517099978402257,
+        "max_ms": 0.5111239734105766,
+        "above_1ms": 0
+      },
+      "betting_4": {
+        "n": 33,
+        "p50_ms": 0.422897981479764,
+        "p99_ms": 0.4619050014298409,
+        "max_ms": 0.46355300582945347,
+        "above_1ms": 0
+      },
+      "betting_5": {
+        "n": 32,
+        "p50_ms": 0.4152254987275228,
+        "p99_ms": 1.204517000587657,
+        "max_ms": 1.2284209951758385,
+        "above_1ms": 2
+      }
+    },
+    "source_unchanged": true,
+    "scope": "Official BotPool + guest, includes serialization and IPC; ordinary local processes, not production microVM",
+    "protocol": {
+      "decision_ms": 1,
+      "delivery_grace_ms": 2,
+      "acceptance_time_bank_ms": 0,
+      "acceptance_hand_cap": 20,
+      "eight_seat_time_bank_ms": 100,
+      "eight_seat_hand_cap": 100,
+      "worker_copies_per_bot": 2
+    }
+  },
+  "remote_host_alias": "no-limit-2026-build",
+  "remote_directory": "/home/ubuntu/work/integration-macro-auction-value-v1-18d76a5",
+  "remote_idle_before_test": true,
+  "matching_local_remote_seeds_decisions_points": true,
+  "all_source_zip_git_qualification_hashes_match": true,
+  "policy_changes_by_integrator": false,
+  "qualification_interpretation": "Official SDK process qualification passed locally and on an idle organizer buildbox. Remote auction P99 .748ms and max .810ms in29samples; two river observations exceeded1ms within2msdeliverygrace. Not a production-microVM hard worst-case guarantee.",
+  "authorization": "Dispatcher authorized ONE full unchanged auction-flop-v1 evaluation after zero-error qualification; no upload."
+}

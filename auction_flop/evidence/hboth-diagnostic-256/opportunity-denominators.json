@@ -1,0 +1,61 @@
+{
+  "unopened_late_all": {
+    "fold": 5109,
+    "raise": 3425,
+    "call": 157
+  },
+  "unopened_late_BTN": {
+    "fold": 1305,
+    "raise": 1167
+  },
+  "unopened_late_late": {
+    "raise": 1169,
+    "fold": 2089
+  },
+  "strong_free_option_all": {
+    "raise": 1582,
+    "check": 746
+  },
+  "strong_free_option_flop": {
+    "raise": 971,
+    "check": 69
+  },
+  "strong_free_option_turn": {
+    "raise": 348,
+    "check": 338
+  },
+  "strong_free_option_river": {
+    "raise": 263,
+    "check": 339
+  },
+  "unopened_late_SB": {
+    "fold": 1715,
+    "raise": 1089,
+    "call": 157
+  },
+  "facing_expensive_all": {
+    "call": 361,
+    "fold": 1867,
+    "raise": 267
+  },
+  "facing_expensive_river": {
+    "call": 94,
+    "fold": 164,
+    "raise": 2
+  },
+  "facing_expensive_turn": {
+    "fold": 156,
+    "call": 83,
+    "raise": 5
+  },
+  "facing_expensive_flop": {
+    "fold": 76,
+    "call": 40,
+    "raise": 1
+  },
+  "facing_expensive_preflop": {
+    "fold": 1471,
+    "raise": 259,
+    "call": 144
+  }
+}

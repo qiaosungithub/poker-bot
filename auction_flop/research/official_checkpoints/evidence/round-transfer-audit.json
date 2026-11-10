@@ -1,0 +1,580 @@
+{
+  "S3_to_S4_payout_change_decomposition": {
+    "top2_component": -0.20699999999999996,
+    "top3_component": -0.4590000000000005,
+    "win_component": -0.2879999999999999
+  },
+  "limits": [
+    "Different rounds change our policy and opponent policies simultaneously; no causal code-change estimate.",
+    "Same team identity is not the same opponent policy; matched-team comparison is descriptive only.",
+    "No S4 hand archive downloaded; only official results, health, metadata and the gzip header were read.",
+    "Local fixed-field scores are not calibrated to the live population."
+  ],
+  "matched_team_comparisons": {
+    "S1->S4": {
+      "common_other_teams": 191,
+      "median_common_peer_change": -0.2944999999999993,
+      "our_score_change": -2.897499999999999,
+      "peers_with_larger_drop_than_ours": 27,
+      "top10_overlap": 5,
+      "top_decliners": [
+        {
+          "after": 15.8465,
+          "before": 21.385,
+          "delta": -5.538500000000001,
+          "rank_after": 39,
+          "rank_before": 7,
+          "team_id": "367d5f66-478f-48a9-9df8-6086d0d9c920",
+          "team_name": "molly tea"
+        },
+        {
+          "after": 15.5605,
+          "before": 21.327,
+          "delta": -5.766500000000002,
+          "rank_after": 43,
+          "rank_before": 9,
+          "team_id": "e9d56d9c-a043-4897-8f0e-5c31e69d6fd9",
+          "team_name": "orz"
+        },
+        {
+          "after": 3.625,
+          "before": 9.458844000000001,
+          "delta": -5.833844000000001,
+          "rank_after": 188,
+          "rank_before": 137,
+          "team_id": "d14ed357-9c2e-42a3-859b-dedf9b659497",
+          "team_name": "Cohomology Class"
+        },
+        {
+          "after": 13.183,
+          "before": 19.2435,
+          "delta": -6.060500000000001,
+          "rank_after": 96,
+          "rank_before": 16,
+          "team_id": "71635a9b-390f-4065-8042-ea9f8ef5b14f",
+          "team_name": "23409m"
+        },
+        {
+          "after": 3.233,
+          "before": 9.735985000000001,
+          "delta": -6.502985000000001,
+          "rank_after": 189,
+          "rank_before": 133,
+          "team_id": "aaed900f-a2df-4758-9e5b-75674a8bedf5",
+          "team_name": "tokenmaxxing"
+        },
+        {
+          "after": 8.7895,
+          "before": 16.779,
+          "delta": -7.9895,
+          "rank_after": 158,
+          "rank_before": 36,
+          "team_id": "123b0fa1-94f8-453f-8b07-dc00e57d5ad5",
+          "team_name": "cj stroud fan club"
+        },
+        {
+          "after": 6.4015,
+          "before": 14.77775,
+          "delta": -8.376249999999999,
+          "rank_after": 178,
+          "rank_before": 69,
+          "team_id": "cbe0931a-debb-4b56-a8b1-3ef537ea35b1",
+          "team_name": "OpenSI"
+        },
+        {
+          "after": 3.8965,
+          "before": 12.540674749999999,
+          "delta": -8.64417475,
+          "rank_after": 184,
+          "rank_before": 103,
+          "team_id": "46240437-3f0b-4aae-aa21-e8f7a563d593",
+          "team_name": "fish"
+        }
+      ],
+      "top_gainers": [
+        {
+          "after": 17.179,
+          "before": 6.015879625,
+          "delta": 11.163120374999998,
+          "rank_after": 18,
+          "rank_before": 171,
+          "team_id": "5592590b-d8c7-46fe-9a21-6418d6609434",
+          "team_name": "The Game Changers"
+        },
+        {
+          "after": 13.6835,
+          "before": 3.6445,
+          "delta": 10.039000000000001,
+          "rank_after": 88,
+          "rank_before": 181,
+          "team_id": "10a00a8d-b0c9-425c-93e8-92b46d4cffbd",
+          "team_name": "Zebra"
+        },
+        {
+          "after": 16.723,
+          "before": 7.1693880000000005,
+          "delta": 9.553611999999998,
+          "rank_after": 24,
+          "rank_before": 164,
+          "team_id": "8aa81f71-9fd1-48c2-ac6b-746af4e7973d",
+          "team_name": "Omega3FihOilSupplem."
+        },
+        {
+          "after": 14.6455,
+          "before": 6.414652875,
+          "delta": 8.230847125,
+          "rank_after": 72,
+          "rank_before": 166,
+          "team_id": "555e498a-5750-4235-bf2f-05a1f7157a54",
+          "team_name": "Mower"
+        },
+        {
+          "after": 11.4015,
+          "before": 3.405,
+          "delta": 7.996500000000001,
+          "rank_after": 126,
+          "rank_before": 187,
+          "team_id": "09f04c0b-158b-436f-abbb-95ee41057ebf",
+          "team_name": "monkiputa"
+        },
+        {
+          "after": 14.8485,
+          "before": 7.309,
+          "delta": 7.539499999999999,
+          "rank_after": 65,
+          "rank_before": 163,
+          "team_id": "2b1a8100-5676-41ff-9668-079940b296b5",
+          "team_name": "situationally unaware"
+        },
+        {
+          "after": 15.1475,
+          "before": 8.535,
+          "delta": 6.612500000000001,
+          "rank_after": 54,
+          "rank_before": 148,
+          "team_id": "96bc56cb-5916-41b0-8935-4b878365de5c",
+          "team_name": "SKD"
+        },
+        {
+          "after": 10.998,
+          "before": 4.5285,
+          "delta": 6.469499999999999,
+          "rank_after": 132,
+          "rank_before": 177,
+          "team_id": "902a2c6a-a9c7-4dab-aebd-b237d8eb612c",
+          "team_name": "ron liu"
+        }
+      ]
+    },
+    "S2->S3": {
+      "common_other_teams": 192,
+      "median_common_peer_change": -0.4393978437500001,
+      "our_score_change": -1.174999999999999,
+      "peers_with_larger_drop_than_ours": 50,
+      "top10_overlap": 8,
+      "top_decliners": [
+        {
+          "after": 15.866,
+          "before": 19.4675,
+          "delta": -3.6015000000000015,
+          "rank_after": 42,
+          "rank_before": 12,
+          "team_id": "e9d56d9c-a043-4897-8f0e-5c31e69d6fd9",
+          "team_name": "orz"
+        },
+        {
+          "after": 14.8095,
+          "before": 18.414,
+          "delta": -3.6045000000000016,
+          "rank_after": 66,
+          "rank_before": 19,
+          "team_id": "71635a9b-390f-4065-8042-ea9f8ef5b14f",
+          "team_name": "23409m"
+        },
+        {
+          "after": 5.906,
+          "before": 9.794,
+          "delta": -3.888000000000001,
+          "rank_after": 175,
+          "rank_before": 134,
+          "team_id": "a4f01753-f240-4e61-a0a5-7419cd966337",
+          "team_name": "Team 170"
+        },
+        {
+          "after": 5.1175,
+          "before": 9.396,
+          "delta": -4.278500000000001,
+          "rank_after": 181,
+          "rank_before": 140,
+          "team_id": "d6369d85-7a40-4b5f-aeee-c946f7f2919f",
+          "team_name": "Interns Plus"
+        },
+        {
+          "after": 9.3875,
+          "before": 13.8225,
+          "delta": -4.4350000000000005,
+          "rank_after": 146,
+          "rank_before": 91,
+          "team_id": "7e5f7efc-7cb2-4e60-b221-038995a4307e",
+          "team_name": "Team 129"
+        },
+        {
+          "after": 9.8765,
+          "before": 15.3095,
+          "delta": -5.433,
+          "rank_after": 143,
+          "rank_before": 56,
+          "team_id": "66ad5759-52ef-4883-a93c-716cf8262aae",
+          "team_name": "Weezu"
+        },
+        {
+          "after": 7.2955,
+          "before": 14.8535,
+          "delta": -7.558000000000001,
+          "rank_after": 168,
+          "rank_before": 67,
+          "team_id": "cbe0931a-debb-4b56-a8b1-3ef537ea35b1",
+          "team_name": "OpenSI"
+        },
+        {
+          "after": 2.80473375,
+          "before": 14.1605,
+          "delta": -11.35576625,
+          "rank_after": 190,
+          "rank_before": 82,
+          "team_id": "6f83747c-7f53-42a7-a40c-2c8c1cc88e09",
+          "team_name": "sad wallabies"
+        }
+      ],
+      "top_gainers": [
+        {
+          "after": 16.802,
+          "before": 6.068,
+          "delta": 10.734,
+          "rank_after": 27,
+          "rank_before": 172,
+          "team_id": "5592590b-d8c7-46fe-9a21-6418d6609434",
+          "team_name": "The Game Changers"
+        },
+        {
+          "after": 11.9315,
+          "before": 3.324,
+          "delta": 8.6075,
+          "rank_after": 120,
+          "rank_before": 187,
+          "team_id": "09f04c0b-158b-436f-abbb-95ee41057ebf",
+          "team_name": "monkiputa"
+        },
+        {
+          "after": 14.87,
+          "before": 6.5848235,
+          "delta": 8.285176499999999,
+          "rank_after": 65,
+          "rank_before": 170,
+          "team_id": "8aa81f71-9fd1-48c2-ac6b-746af4e7973d",
+          "team_name": "Omega3FihOilSupplem."
+        },
+        {
+          "after": 11.139,
+          "before": 3.216,
+          "delta": 7.922999999999999,
+          "rank_after": 130,
+          "rank_before": 188,
+          "team_id": "1ebbbfa6-36c8-453b-9740-a0a7e479439d",
+          "team_name": "EK Bjorn"
+        },
+        {
+          "after": 14.3425,
+          "before": 7.4395,
+          "delta": 6.903,
+          "rank_after": 75,
+          "rank_before": 160,
+          "team_id": "8cb18386-d5a6-488f-8e8f-4fbc755d7d9d",
+          "team_name": "the_fish"
+        },
+        {
+          "after": 12.6175,
+          "before": 5.783969625,
+          "delta": 6.833530375,
+          "rank_after": 113,
+          "rank_before": 177,
+          "team_id": "b5ea9253-c9cc-4b89-aa1a-e97488306424",
+          "team_name": "here for the food"
+        },
+        {
+          "after": 13.674905500000003,
+          "before": 7.073527937499998,
+          "delta": 6.601377562500005,
+          "rank_after": 90,
+          "rank_before": 164,
+          "team_id": "8702a905-fc06-4169-873d-a3818ef3652c",
+          "team_name": "bodke"
+        },
+        {
+          "after": 14.185,
+          "before": 7.981184,
+          "delta": 6.203816000000001,
+          "rank_after": 79,
+          "rank_before": 151,
+          "team_id": "8e262d1a-2c5e-427f-b2a3-5edd2bca29e6",
+          "team_name": "KuzuKuzu"
+        }
+      ]
+    },
+    "S3->S4": {
+      "common_other_teams": 193,
+      "median_common_peer_change": -0.2978071249999994,
+      "our_score_change": -0.9540000000000006,
+      "peers_with_larger_drop_than_ours": 47,
+      "top10_overlap": 9,
+      "top_decliners": [
+        {
+          "after": 13.0655,
+          "before": 15.2145,
+          "delta": -2.148999999999999,
+          "rank_after": 100,
+          "rank_before": 56,
+          "team_id": "582ea534-fcd2-428c-b235-b5cafe4d99c6",
+          "team_name": "Rembrandt"
+        },
+        {
+          "after": 2.4415,
+          "before": 5.101014,
+          "delta": -2.659514,
+          "rank_after": 190,
+          "rank_before": 182,
+          "team_id": "df801000-b93c-4991-8593-4a74775e7c18",
+          "team_name": "Shanghaishark"
+        },
+        {
+          "after": 9.544,
+          "before": 12.665,
+          "delta": -3.1209999999999987,
+          "rank_after": 151,
+          "rank_before": 112,
+          "team_id": "f2264853-2bf5-4664-933e-7bddab2d4729",
+          "team_name": "67 suited"
+        },
+        {
+          "after": 8.675,
+          "before": 12.275624,
+          "delta": -3.600624,
+          "rank_after": 160,
+          "rank_before": 117,
+          "team_id": "1ce568f5-38d6-497d-95e4-6f68e908c236",
+          "team_name": "Skill Issue"
+        },
+        {
+          "after": 9.9765,
+          "before": 13.6845,
+          "delta": -3.708,
+          "rank_after": 147,
+          "rank_before": 89,
+          "team_id": "e38e0442-c4a5-4996-8abc-55430bd57707",
+          "team_name": "a_b"
+        },
+        {
+          "after": 10.0675,
+          "before": 13.793,
+          "delta": -3.7254999999999985,
+          "rank_after": 146,
+          "rank_before": 87,
+          "team_id": "497f299d-c805-4b70-9bb9-cb059d3fb6ac",
+          "team_name": "all in"
+        },
+        {
+          "after": 3.625,
+          "before": 7.918,
+          "delta": -4.293,
+          "rank_after": 188,
+          "rank_before": 159,
+          "team_id": "d14ed357-9c2e-42a3-859b-dedf9b659497",
+          "team_name": "Cohomology Class"
+        },
+        {
+          "after": 8.7895,
+          "before": 15.029735,
+          "delta": -6.240235,
+          "rank_after": 158,
+          "rank_before": 61,
+          "team_id": "123b0fa1-94f8-453f-8b07-dc00e57d5ad5",
+          "team_name": "cj stroud fan club"
+        }
+      ],
+      "top_gainers": [
+        {
+          "after": 17.191,
+          "before": 2.80473375,
+          "delta": 14.386266249999998,
+          "rank_after": 17,
+          "rank_before": 190,
+          "team_id": "6f83747c-7f53-42a7-a40c-2c8c1cc88e09",
+          "team_name": "sad wallabies"
+        },
+        {
+          "after": 11.878,
+          "before": 5.1175,
+          "delta": 6.7605,
+          "rank_after": 117,
+          "rank_before": 181,
+          "team_id": "d6369d85-7a40-4b5f-aeee-c946f7f2919f",
+          "team_name": "Interns Plus"
+        },
+        {
+          "after": 11.97,
+          "before": 5.5245,
+          "delta": 6.445500000000001,
+          "rank_after": 115,
+          "rank_before": 179,
+          "team_id": "c1b2b6c0-57ad-48d0-bbbf-f3b0464dab35",
+          "team_name": "Team A"
+        },
+        {
+          "after": 14.999,
+          "before": 8.9225,
+          "delta": 6.076500000000001,
+          "rank_after": 59,
+          "rank_before": 147,
+          "team_id": "4267f45b-6cf0-4baa-9cb0-c6e8b1e287e5",
+          "team_name": "Bigfish"
+        },
+        {
+          "after": 11.0395,
+          "before": 5.906,
+          "delta": 5.133500000000001,
+          "rank_after": 130,
+          "rank_before": 175,
+          "team_id": "a4f01753-f240-4e61-a0a5-7419cd966337",
+          "team_name": "Team 170"
+        },
+        {
+          "after": 8.1255,
+          "before": 3.129,
+          "delta": 4.996500000000001,
+          "rank_after": 165,
+          "rank_before": 189,
+          "team_id": "aa755265-a97f-4dd3-9f0e-54eacd52bbcd",
+          "team_name": "AI bubble"
+        },
+        {
+          "after": 9.084,
+          "before": 4.2425,
+          "delta": 4.8415,
+          "rank_after": 154,
+          "rank_before": 183,
+          "team_id": "43e2ce6c-323b-4265-8c86-c2ac37784c05",
+          "team_name": "J41"
+        },
+        {
+          "after": 19.152,
+          "before": 14.6615,
+          "delta": 4.490500000000001,
+          "rank_after": 7,
+          "rank_before": 69,
+          "team_id": "70b8c728-b7d3-46b8-85db-2030846c2db1",
+          "team_name": "REspect"
+        }
+      ]
+    }
+  },
+  "observed_at": "2026-11-10T01:30:59.798071+00:00",
+  "rounds": {
+    "P4": {
+      "active_teams": 187,
+      "average_points": 13.745,
+      "decisions": 1470834,
+      "field_median": 12.991,
+      "last_place_rate": 0.0825,
+      "missed": 2,
+      "moe95": 0.3527985706875071,
+      "our_rank": 83,
+      "restarts": 0,
+      "submission_id": "fabb5704-315f-44f6-99b7-2a2df61992f0",
+      "top2_rate": 0.2841,
+      "top3_rate": 0.4179,
+      "tournament_id": "dc16f7e0-94a4-4edd-8cc6-e932965dbcbc",
+      "win_rate": 0.1273
+    },
+    "P5": {
+      "active_teams": 193,
+      "average_points": 13.081,
+      "decisions": 1421820,
+      "field_median": 13.081,
+      "last_place_rate": 0.0821,
+      "missed": 1,
+      "moe95": 0.3361539161035777,
+      "our_rank": 97,
+      "restarts": 2,
+      "submission_id": "d3e77750-4c00-4716-9458-40ebc4df6915",
+      "top2_rate": 0.2627,
+      "top3_rate": 0.4187,
+      "tournament_id": "1ad66b85-ad82-41f3-ad3d-c26e436d5b8c",
+      "win_rate": 0.104
+    },
+    "S1": {
+      "active_teams": 192,
+      "average_points": 13.168,
+      "decisions": 2762564,
+      "field_median": 13.19,
+      "last_place_rate": 0.08195,
+      "missed": 0,
+      "moe95": 0.23882606974252085,
+      "our_rank": 97,
+      "restarts": 0,
+      "submission_id": "d3e77750-4c00-4716-9458-40ebc4df6915",
+      "top2_rate": 0.2653,
+      "top3_rate": 0.4196,
+      "tournament_id": "690def26-bd84-416e-8c01-9e213aad4bdd",
+      "win_rate": 0.10615
+    },
+    "S2": {
+      "active_teams": 193,
+      "average_points": 12.3995,
+      "decisions": 2806026,
+      "field_median": 13.429,
+      "last_place_rate": 0.08465,
+      "missed": 0,
+      "moe95": 0.23011484477553662,
+      "our_rank": 110,
+      "restarts": 0,
+      "submission_id": "d3e77750-4c00-4716-9458-40ebc4df6915",
+      "top2_rate": 0.25015,
+      "top3_rate": 0.40625,
+      "tournament_id": "de7ac5d3-1adf-4cb2-952e-9ed11245f6f7",
+      "win_rate": 0.08865
+    },
+    "S3": {
+      "active_teams": 194,
+      "average_points": 11.2245,
+      "decisions": 2788513,
+      "field_median": 13.4235,
+      "last_place_rate": 0.0705,
+      "missed": 3,
+      "moe95": 0.21872583672159643,
+      "our_rank": 129,
+      "restarts": 0,
+      "submission_id": "50da6a7e-6d6e-4eec-a3d2-5a4db8ce9d89",
+      "top2_rate": 0.21905,
+      "top3_rate": 0.381,
+      "tournament_id": "188fa79b-0cb5-4d2b-a581-96be9dfb08c4",
+      "win_rate": 0.0707
+    },
+    "S4": {
+      "active_teams": 194,
+      "average_points": 10.2705,
+      "decisions": 2715368,
+      "field_median": 13.1555,
+      "last_place_rate": 0.06955,
+      "missed": 0,
+      "moe95": 0.20881276492810455,
+      "our_rank": 143,
+      "restarts": 0,
+      "submission_id": "9bfee42d-d5b5-4f6d-87c0-e45d56aeef43",
+      "top2_rate": 0.19835,
+      "top3_rate": 0.35805,
+      "tournament_id": "516b7309-36de-4231-90b6-72d93d9a3a5b",
+      "win_rate": 0.0563
+    }
+  },
+  "source_sha256": "8f43b6d8b0c6ebc01ff45f18c589a3ea2eb583f1d99ab74eb58bcbca6804becc"
+}

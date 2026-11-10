@@ -1,0 +1,64 @@
+{
+  "historical_intermediate": true,
+  "macro_auction_value_v1": {
+    "paired_vs_hboth": {
+      "ci95": [
+        -2.9966785658598396,
+        -1.5199229966401604
+      ],
+      "independent_blocks": 512,
+      "mean_points": -2.25830078125
+    },
+    "runtime_status": "IPC qualification pending",
+    "sources_and_scores_audited": true,
+    "summary": {
+      "all_scores_audited": true,
+      "candidate_decisions": 635932,
+      "candidate_failures": 0,
+      "ci95": [
+        14.868569164169216,
+        16.083579273330784
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 2851.5625,
+      "mean_points": 15.47607421875,
+      "mean_remaining_flopchips": 329.38330078125,
+      "mean_spent_flopchips": 670.61669921875,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    }
+  },
+  "macro_tournament_utility_v1": {
+    "paired_vs_hboth": {
+      "ci95": [
+        0.3063619981368534,
+        2.1936380018631465
+      ],
+      "independent_blocks": 512,
+      "mean_points": 1.25
+    },
+    "runtime_status": "Untimed hypothesis only; observed full-table preflop about4.68ms, not deployable",
+    "sources_and_scores_audited": true,
+    "summary": {
+      "all_scores_audited": true,
+      "candidate_decisions": 613012,
+      "candidate_failures": 0,
+      "ci95": [
+        18.23215079599869,
+        19.73659920400131
+      ],
+      "independent_blocks": 512,
+      "mean_chips": 4964.84375,
+      "mean_points": 18.984375,
+      "mean_remaining_flopchips": 201.128173828125,
+      "mean_spent_flopchips": 798.871826171875,
+      "official_score": true,
+      "tables": 4096,
+      "total_failures": 0,
+      "valid": true
+    }
+  },
+  "superseded_by": "macro-program-comparison.json"
+}

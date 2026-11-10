@@ -1,0 +1,22 @@
+{
+  "candidate": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/tournament_utility/candidate_v2",
+  "source_hash": "3aadb1bb627750ab0d1b476eba700df8938905d7766e7a9235933dee32dc2094",
+  "sha256": {
+    "agent.py": "2813246b9c590c277fbf090e6cd8a51de7d2fd371b27991155c24f701eaf45fc",
+    "classic_policy.py": "b94c222ea36950c0205d5e3d89b004230b7e94bf57ca9bd9bd623ff3783a1caf",
+    "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+    "independent_preflop.py": "516b2e41e72430e1e706e483348047bb9330b638a701d279e9a285b5acf51145",
+    "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+    "preflop_table.py": "d3e015114b6bf5c9d3b3e7d577f918d7cdf28ff1979ef5ad19c0cc99e52e9197",
+    "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+    "range_equity.py": "580dea49761922982f06a4fee0661d3a0c226079a0ef449557d64c764e13a122",
+    "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+    "tournament_preflop.py": "79ad8dcca0027342f6ed48d0cf211f825772151485c198513523de5b2df93828",
+    "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+    "tournament_utility.py": "9524d53052032f30805991fff71543ba8be0ef34bb5a7053e42a4767b25d31c1",
+    "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+    "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+  },
+  "equivalent_to": "candidate_v1 in all32 smoke table records excluding seconds",
+  "changes": "Exact performance only; grouped ICM, common settlement, invariant outcome cache, reused quadrature and range equity"
+}

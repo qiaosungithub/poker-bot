@@ -1,0 +1,10 @@
+{
+  "ci95": [
+    17.387601578807622,
+    18.681734358692378
+  ],
+  "independent_blocks": 512,
+  "mean_points": 18.03466796875,
+  "tables": 4096,
+  "total_failures": 0
+}

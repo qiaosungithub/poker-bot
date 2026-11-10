@@ -1,0 +1,314 @@
+{
+  "action_parity_tables": 256,
+  "benchmark": "auction-flop-diagnostics-v1",
+  "benchmark_sha256": "dc6c9f772eabdd0db0b31d011e548d40b8119e872773d58ecd9c077eaaa5eba6",
+  "blocks_per_panel": 8,
+  "candidate": "external",
+  "completed": "2026-11-10T01:12:09.774056+00:00",
+  "dependencies": {
+    "eval7": "0.1.11",
+    "future": "1.0.0",
+    "pokerkit": "0.7.6",
+    "pyparsing": "3.3.3"
+  },
+  "diagnostic_only": true,
+  "harness_sha256": {
+    "observe.py": "a78f2a5c5d4c3ba8b2204cce13cd37a116d248fbb63344a7bf8c5b442c5a05e4",
+    "run.py": "f0ba066ca23fd0d8682faefc4a90191c8d24e1f419d082415a0113714fd10719"
+  },
+  "mode": "evaluate",
+  "notes": "Known-seed descriptive replay. No new ranking score or policy change. Intermediate ICM is not reward or causal regret.",
+  "official_score": false,
+  "panels": [
+    {
+      "blocks": 8,
+      "compare": [
+        "candidate"
+      ],
+      "entries": [
+        {
+          "name": "candidate",
+          "policy": "candidate",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/candidate"
+        },
+        {
+          "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/tournament",
+          "name": "opponent_0",
+          "policy": "hybrid_tournament_auction",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/variant"
+        },
+        {
+          "name": "opponent_1",
+          "policy": "variant",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/variant"
+        },
+        {
+          "name": "opponent_2",
+          "policy": "variant",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/variant"
+        },
+        {
+          "name": "opponent_3",
+          "policy": "tournament",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/tournament"
+        },
+        {
+          "name": "opponent_4",
+          "policy": "tournament",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/tournament"
+        },
+        {
+          "name": "opponent_5",
+          "policy": "ranges",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/ranges"
+        },
+        {
+          "name": "opponent_6",
+          "policy": "ranges",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/ranges"
+        }
+      ],
+      "hand_cap": 250,
+      "seed": "auction-flop-v1-evaluation-20261109-fixed:panel:0"
+    },
+    {
+      "blocks": 8,
+      "compare": [
+        "candidate"
+      ],
+      "entries": [
+        {
+          "name": "candidate",
+          "policy": "candidate",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/candidate"
+        },
+        {
+          "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/tournament",
+          "name": "opponent_0",
+          "policy": "hybrid_tournament_auction",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/variant"
+        },
+        {
+          "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/tournament",
+          "name": "opponent_1",
+          "policy": "hybrid_tournament_auction",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/variant"
+        },
+        {
+          "name": "opponent_2",
+          "policy": "variant",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/variant"
+        },
+        {
+          "name": "opponent_3",
+          "policy": "tournament",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/tournament"
+        },
+        {
+          "name": "opponent_4",
+          "policy": "tournament",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/tournament"
+        },
+        {
+          "name": "opponent_5",
+          "policy": "ranges",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/ranges"
+        },
+        {
+          "name": "opponent_6",
+          "policy": "ranges",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/ranges"
+        }
+      ],
+      "hand_cap": 250,
+      "seed": "auction-flop-v1-evaluation-20261109-fixed:panel:1"
+    },
+    {
+      "blocks": 8,
+      "compare": [
+        "candidate"
+      ],
+      "entries": [
+        {
+          "name": "candidate",
+          "policy": "candidate",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/candidate"
+        },
+        {
+          "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/tournament",
+          "name": "opponent_0",
+          "policy": "hybrid_tournament_auction",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/variant"
+        },
+        {
+          "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/tournament",
+          "name": "opponent_1",
+          "policy": "hybrid_tournament_auction",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/variant"
+        },
+        {
+          "name": "opponent_2",
+          "policy": "variant",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/variant"
+        },
+        {
+          "name": "opponent_3",
+          "policy": "variant",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/variant"
+        },
+        {
+          "name": "opponent_4",
+          "policy": "tournament",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/tournament"
+        },
+        {
+          "name": "opponent_5",
+          "policy": "ranges",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/ranges"
+        },
+        {
+          "name": "opponent_6",
+          "policy": "ranges",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/ranges"
+        }
+      ],
+      "hand_cap": 250,
+      "seed": "auction-flop-v1-evaluation-20261109-fixed:panel:2"
+    },
+    {
+      "blocks": 8,
+      "compare": [
+        "candidate"
+      ],
+      "entries": [
+        {
+          "name": "candidate",
+          "policy": "candidate",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/candidate"
+        },
+        {
+          "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/tournament",
+          "name": "opponent_0",
+          "policy": "hybrid_tournament_auction",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/variant"
+        },
+        {
+          "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/tournament",
+          "name": "opponent_1",
+          "policy": "hybrid_tournament_auction",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/variant"
+        },
+        {
+          "name": "opponent_2",
+          "policy": "variant",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/variant"
+        },
+        {
+          "name": "opponent_3",
+          "policy": "variant",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/variant"
+        },
+        {
+          "name": "opponent_4",
+          "policy": "tournament",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/tournament"
+        },
+        {
+          "name": "opponent_5",
+          "policy": "tournament",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/tournament"
+        },
+        {
+          "name": "opponent_6",
+          "policy": "ranges",
+          "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/macro-20261110/hboth-diagnostic-256/sources/ranges"
+        }
+      ],
+      "hand_cap": 250,
+      "seed": "auction-flop-v1-evaluation-20261109-fixed:panel:3"
+    }
+  ],
+  "python": "3.12.16 (main, Oct 26 2026, 14:08:45) [Clang 23.1.3 ]",
+  "reference": "evidence/candidate-hybrid_both",
+  "reference_raw_sha256": "2224b1461ce25f0659b64ddbb8ef55d571b7df6b217fa01bced0c3c105beb994",
+  "retained_table_parity": 256,
+  "source_hashes": {
+    "candidate": {
+      "agent.py": "ab379f0717c5ebc4a671d59a2ff9e944f9f802ba997dd35beb95b524d2bdae2b",
+      "classic_policy.py": "b94c222ea36950c0205d5e3d89b004230b7e94bf57ca9bd9bd623ff3783a1caf",
+      "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+      "independent_preflop.py": "516b2e41e72430e1e706e483348047bb9330b638a701d279e9a285b5acf51145",
+      "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+      "preflop_table.py": "d3e015114b6bf5c9d3b3e7d577f918d7cdf28ff1979ef5ad19c0cc99e52e9197",
+      "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+      "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+      "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+      "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+      "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+    },
+    "checkfold": {
+      "agent.py": "2914ffface89473f6a1a75ed8a12ec80f0029d26a5411048feb4b967e1c47230"
+    },
+    "equity": {
+      "agent.py": "0d4604e7226e7ea6a070e2f011c1a97ac098252ea9f55264edad3ff582732993",
+      "equity_core.py": "5035fc5e5a516d74986c6614c4732bbb0f7881598b392dc361c66c86e978423b"
+    },
+    "exploit": {
+      "agent.py": "4041c1e83b30f7054b94b7c3fb24264379e91ff60c3ecf32e1f12de8674bc7be",
+      "strategy_core.py": "cdac08df3dafaea5d055b9d4993d2ac6a317dc03ec2136f50d88c1529d896824"
+    },
+    "minraise": {
+      "agent.py": "48f85f7554e3b56abd3ddd4968e28ab92dfe6e89371ed0d7e5842a8b903db369"
+    },
+    "ranges": {
+      "agent.py": "137b3ad368f78899c5a7b9c4e954ec375e2fe69d22408ebb1cf783a1756f2dd4",
+      "range_core.py": "45218351dd8dc18235aef3a1f501df4de3dd44521eb7e30470fae1cbfb58aad2"
+    },
+    "tournament": {
+      "agent.py": "36b65f77e5f1d90cf564d876f448415180a08f92f41b5067e10afe7203dba37e",
+      "strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb"
+    },
+    "variant": {
+      "agent.py": "8367b29f7f6b1f0425bfcd22028ec1966bc013b2eb68d9ef1eb512c18d075751",
+      "auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+    }
+  },
+  "started": "2026-11-10T01:11:50.604762+00:00",
+  "tables_sha256": "213265dd217121cefa2c8aa4cc79d6a45532eacf0e4d90ee5afafc6c9bcf5b20",
+  "timing": "Direct engine; no clock penalties.",
+  "trace_sha256": {
+    "panel-0-block-0000.jsonl.gz": "3f40ce9d930fb6aca3e7b4393da2ca078a39c2780076ec1bf035e182346b25dd",
+    "panel-0-block-0001.jsonl.gz": "d561d0f79ac784f6cd5a9127ef19cea7c89c174a881b65e85dcc3c4cc5fb8e17",
+    "panel-0-block-0002.jsonl.gz": "ad7d50eca423d84cb7c5c4aa9946ec79f2e34c44e742a012c212e04cc2e56135",
+    "panel-0-block-0003.jsonl.gz": "2ff297b6cb942cf01ff9fd9f375e194f45c3db80cef8ac8aa5c95083d7685f96",
+    "panel-0-block-0004.jsonl.gz": "dbc0b68c939ebd17e83ad7924a6ab9414e3e033dfd52e7131e903dcc33a36681",
+    "panel-0-block-0005.jsonl.gz": "595583e5e856766add98772da388ed367a3a86e1100c0cfd71429f410bc3865d",
+    "panel-0-block-0006.jsonl.gz": "c76b9897fb2a7ca82a5943412acae96f698147b19d74b44dd923edcd42f5c618",
+    "panel-0-block-0007.jsonl.gz": "3b89bb3720e8748dff4011206ef6edd8feb9702599cf6c9ef55013092088c27d",
+    "panel-1-block-0000.jsonl.gz": "440dea60411985b3c3c2a99ea9512a3d22be00a4b90a57815abb5f7b8d258e86",
+    "panel-1-block-0001.jsonl.gz": "d5204244d879814002580c9693a726c767ced8443a2c71b7b2717936b3945574",
+    "panel-1-block-0002.jsonl.gz": "c25f5bd0ad6aeb6beec1894fca0f3b270e1691e8c8578bbff5b37e823863e4d2",
+    "panel-1-block-0003.jsonl.gz": "f94c153524bba7bdf570d4180d17d802ecbb12fdd8db6557fb0d168c44c99041",
+    "panel-1-block-0004.jsonl.gz": "a00237db194aa5dff4694173b6f98917b93ee51c179fb8bf6a66b9223d54d104",
+    "panel-1-block-0005.jsonl.gz": "ee6b8a188a63ed8a5380482e11e19f19bfca9900742ae4a12fb94fa125d78bc2",
+    "panel-1-block-0006.jsonl.gz": "03676e6d8ec1b262d25cccb2c0af79dfc9f8b3b6d064d8505f6cff9c936223f5",
+    "panel-1-block-0007.jsonl.gz": "387c2ec577cbbfe66dad22b9668a30174fc22b0de0f517a4fee8375b51b72a1f",
+    "panel-2-block-0000.jsonl.gz": "c263064c33bdb860812c3dca7447f4743734f33b58519710463778463c118431",
+    "panel-2-block-0001.jsonl.gz": "c1e18e5a1ce2ff81995827f2aee0f0a45040134bc28ae71849a3427400653532",
+    "panel-2-block-0002.jsonl.gz": "54f3c6de6e921571984d554b0cdb4ba047973393b43f35e9906ee570cdf7595f",
+    "panel-2-block-0003.jsonl.gz": "f84ba641d2e176ac99b482b738c10f211cf8c6c144b6ed943df7bc26d13f19f7",
+    "panel-2-block-0004.jsonl.gz": "37f3f962de65ab6cb466ef83c3c057c75211ae68f8500ecce5f87707b91786e8",
+    "panel-2-block-0005.jsonl.gz": "56492a3b6c98fc5122534b8ced916d5f30993597d0812834c69cf692baa59ab1",
+    "panel-2-block-0006.jsonl.gz": "9db33078ea03b693b31881eb2e05b0aa21fc5e196a8b9d59abe145b32e22a080",
+    "panel-2-block-0007.jsonl.gz": "ffa3183812649e76c3ab57a1d2f06a3fddaf1f0b040082dad27fd988d46abcb3",
+    "panel-3-block-0000.jsonl.gz": "bc568fc9f5fdd6660fe82aaa2e952423b0038ca929a6c84208bce4d62e5c79ad",
+    "panel-3-block-0001.jsonl.gz": "ba37de1eb07b826154080a7908eae9854987b544559c5483baad9c45eeeaa3ac",
+    "panel-3-block-0002.jsonl.gz": "ea140693a82fb98b0092a05482b8dad95c2becc78f3f645845c691b1e836c5eb",
+    "panel-3-block-0003.jsonl.gz": "041e28117e069d29e5e4dfaac5a2d0e47c54b82c5e4b021f4166424ee92ce63d",
+    "panel-3-block-0004.jsonl.gz": "276b6c860645fa20d26229e42a498ef861f5b2df585a8bf25e9900bf95f9cbea",
+    "panel-3-block-0005.jsonl.gz": "897f51622105338bb24249ed61661553743c0cbbd84fb18fcb8baf409bbdf58a",
+    "panel-3-block-0006.jsonl.gz": "c090a1eef3e33ec063360d265bf25fca70dc1b97e347bfd0efebcfe41a7a08e7",
+    "panel-3-block-0007.jsonl.gz": "d4e4ea0e7e1b0bb90c3fc02ac3de4f12b8adaea70e01b524a38412df99bbc6e2"
+  },
+  "workers": 24
+}

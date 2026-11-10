@@ -1,0 +1,25 @@
+{
+  "source_changed_files": [
+    "tournament_utility.py"
+  ],
+  "settlement_and_averaging_byte_identical": true,
+  "utility_formula": "100 * final_hero_normal_chips / total_final_normal_chips",
+  "normalization_constant_across_replay_outcomes": [
+    16000.0
+  ],
+  "utility_leaf_checks": 134541,
+  "zero_chip_leaf_checks": 7527,
+  "retained_states_replayed": 2694,
+  "changed_decisions_vs_icm": 158,
+  "control_actions": {
+    "raise": 1198,
+    "fold": 1251,
+    "call": 236,
+    "check": 9
+  },
+  "negative_control_rejects_icm_as_linear": true,
+  "smoke_tables": 8,
+  "smoke_failures": 0,
+  "smoke_candidate_decisions": 1018,
+  "scope": "Source/objective and legal-action sanity only; no strength inference."
+}

@@ -1,0 +1,78 @@
+{
+  "all_sources_rules_schedules_scores_audited": true,
+  "fields": {
+    "fresh_v1_field": {
+      "ci95": [
+        0.9381500171830001,
+        2.289389045317
+      ],
+      "difference_candidate_minus_control": 1.61376953125,
+      "independent_blocks": 512,
+      "simultaneous_ci95": [
+        0.8411494181617847,
+        2.386389644338215
+      ],
+      "summaries": {
+        "hybrid_both": {
+          "ci95": [
+            17.387601578807622,
+            18.681734358692378
+          ],
+          "independent_blocks": 512,
+          "mean_points": 18.03466796875,
+          "tables": 4096,
+          "total_failures": 0
+        },
+        "prior_hybrid_both_v1": {
+          "ci95": [
+            18.962062208930714,
+            20.334812791069286
+          ],
+          "independent_blocks": 512,
+          "mean_points": 19.6484375,
+          "tables": 4096,
+          "total_failures": 0
+        }
+      }
+    },
+    "style_field": {
+      "ci95": [
+        -0.5093673773374965,
+        0.9195236273374965
+      ],
+      "difference_candidate_minus_control": 0.205078125,
+      "independent_blocks": 512,
+      "simultaneous_ci95": [
+        -0.6119423329920157,
+        1.0220985829920157
+      ],
+      "summaries": {
+        "hybrid_both": {
+          "ci95": [
+            20.08641407273181,
+            21.43702342726819
+          ],
+          "independent_blocks": 512,
+          "mean_points": 20.76171875,
+          "tables": 4096,
+          "total_failures": 0
+        },
+        "prior_hybrid_both_v1": {
+          "ci95": [
+            20.25878445890972,
+            21.67480929109028
+          ],
+          "independent_blocks": 512,
+          "mean_points": 20.966796875,
+          "tables": 4096,
+          "total_failures": 0
+        }
+      }
+    }
+  },
+  "frozen_at": "2026-11-10T01:17:01.762585+00:00",
+  "interpretation": "Paired candidate-minus-control separately in each field; never compare absolute scores across fields. First and only inspection of this protocol for this frozen finalist. No subsequent tuning on these seeds. At most one other finalist may use a new separately frozen seed set.",
+  "intervals": "Report paired normal95% per field and Bonferroni2 simultaneous95% across these two transfer contrasts.",
+  "protocol": "macro-transfer-finalist1-v1",
+  "protocol_sha256": "0363d25ed333b373aefe4d535d489642ef84bd494686e3ad3b41a770a9a5eaec"
+}

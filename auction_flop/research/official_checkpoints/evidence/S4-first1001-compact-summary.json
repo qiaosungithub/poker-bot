@@ -1,0 +1,599 @@
+{
+  "round": "S4",
+  "official": {
+    "tournament_id": "516b7309-36de-4231-90b6-72d93d9a3a5b",
+    "active_teams": 194,
+    "our_rank": 143,
+    "average_points": 10.2705,
+    "moe95": 0.20881276492810455,
+    "submission_id": "9bfee42d-d5b5-4f6d-87c0-e45d56aeef43",
+    "decisions": 2715368,
+    "missed": 0,
+    "restarts": 0,
+    "win_rate": 0.0563,
+    "top2_rate": 0.19835,
+    "top3_rate": 0.35805,
+    "last_place_rate": 0.06955,
+    "field_median": 13.1555,
+    "top10": [
+      {
+        "team_id": "91492758-1622-4a31-86dd-7e3a94efa344",
+        "team_name": "Situational Awareness",
+        "score": 23.0655
+      },
+      {
+        "team_id": "f2009fdc-8ecf-4822-babf-2eb3e3a52d14",
+        "team_name": "Du-o",
+        "score": 22.118
+      },
+      {
+        "team_id": "42ea23fb-7e31-4489-9e76-760b03a24243",
+        "team_name": "Preesh",
+        "score": 20.737
+      },
+      {
+        "team_id": "69c1552d-e90a-4c4e-bb86-56af40950fb0",
+        "team_name": "BHTG",
+        "score": 20.691
+      },
+      {
+        "team_id": "aa37e438-44ca-457c-8ec5-a02c81f6cc50",
+        "team_name": "Magnus RLsen",
+        "score": 19.7065
+      },
+      {
+        "team_id": "4b989d0c-277d-4e0a-a179-73ad8226d219",
+        "team_name": "0_o GTO Slop",
+        "score": 19.622
+      },
+      {
+        "team_id": "70b8c728-b7d3-46b8-85db-2030846c2db1",
+        "team_name": "REspect",
+        "score": 19.152
+      },
+      {
+        "team_id": "288266d5-74bc-4526-99f1-177957d659d7",
+        "team_name": "Hotwheels",
+        "score": 19.0595
+      },
+      {
+        "team_id": "a7c720d6-ce26-4726-ab5a-0c84f72382f8",
+        "team_name": "Golem All in",
+        "score": 18.49
+      },
+      {
+        "team_id": "548d6ce8-2268-4e07-9e19-c8ab88f9adf6",
+        "team_name": "NP Complete",
+        "score": 18.371
+      }
+    ]
+  },
+  "version": "hybrid_both 0c60de2",
+  "sample": {
+    "tables": 1001,
+    "filler_excluded": 34,
+    "iteration_min": 0,
+    "iteration_max": 1000,
+    "overall": {
+      "n": 1001,
+      "denominator": 1001,
+      "metrics": {
+        "auction_chips_left": {
+          "mean": 169.9000999000999,
+          "ci95": [
+            156.69742358170106,
+            183.10277621849872
+          ]
+        },
+        "capped": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "final_points": {
+          "mean": 10.12987012987013,
+          "ci95": [
+            9.198391064850624,
+            11.061349194889635
+          ]
+        },
+        "final_rank": {
+          "mean": 4.395604395604396,
+          "ci95": [
+            4.276323667970221,
+            4.514885123238571
+          ]
+        },
+        "final_stack": {
+          "mean": 927.0729270729271,
+          "ci95": [
+            695.3805103022311,
+            1158.7653438436232
+          ]
+        },
+        "top3": {
+          "mean": 0.3546453546453546,
+          "ci95": [
+            0.3249934612959105,
+            0.38429724799479875
+          ]
+        },
+        "win": {
+          "mean": 0.057942057942057944,
+          "ci95": [
+            0.04346128189388944,
+            0.07242283399022645
+          ]
+        }
+      }
+    },
+    "combined_stages": {
+      "n": 1001,
+      "denominator": 1001,
+      "metrics": {
+        "players2": {
+          "mean": -0.40995494505494523,
+          "ci95": [
+            -0.6302671859461125,
+            -0.18964270416377796
+          ]
+        },
+        "players3": {
+          "mean": -0.31373356643356654,
+          "ci95": [
+            -0.6373198462437191,
+            0.009852713376586053
+          ]
+        },
+        "players4": {
+          "mean": -0.6406840159840158,
+          "ci95": [
+            -1.2019831043497926,
+            -0.0793849276182389
+          ]
+        },
+        "players8to5": {
+          "mean": -1.0057573426573425,
+          "ci95": [
+            -1.7725812190246164,
+            -0.23893346629006862
+          ]
+        }
+      }
+    }
+  },
+  "entry_checkpoints": [
+    {
+      "checkpoint": "first_2_or_fewer",
+      "stratum": "all",
+      "n": 182,
+      "denominator": 182,
+      "metrics": {
+        "auction_chips": {
+          "mean": 161.78021978021977,
+          "ci95": [
+            137.6082348818321,
+            185.95220467860744
+          ]
+        },
+        "auction_chips_left": {
+          "mean": 46.25824175824176,
+          "ci95": [
+            35.888668497999596,
+            56.62781501848392
+          ]
+        },
+        "capped": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "chip_share": {
+          "mean": 0.42042994505494485,
+          "ci95": [
+            0.38599379422048335,
+            0.45486609588940635
+          ]
+        },
+        "effective_bb": {
+          "mean": 14.005340659340662,
+          "ci95": [
+            12.756779738145429,
+            15.253901580535896
+          ]
+        },
+        "expected_rank": {
+          "mean": 1.5795700549450544,
+          "ci95": [
+            1.545133904110593,
+            1.614006205779516
+          ]
+        },
+        "expected_top3": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "final_points": {
+          "mean": 36.15384615384615,
+          "ci95": [
+            34.80905551386667,
+            37.49863679382564
+          ]
+        },
+        "final_rank": {
+          "mean": 1.6923076923076923,
+          "ci95": [
+            1.6250681603087178,
+            1.7595472243066668
+          ]
+        },
+        "final_stack": {
+          "mean": 4923.076923076923,
+          "ci95": [
+            3847.244411093332,
+            5998.909435060514
+          ]
+        },
+        "icm_points": {
+          "mean": 38.40859835164835,
+          "ci95": [
+            37.71987462607426,
+            39.097322077222444
+          ]
+        },
+        "own_bb": {
+          "mean": 20.980435897435896,
+          "ci95": [
+            18.688017463540298,
+            23.272854331331494
+          ]
+        },
+        "points_minus_icm": {
+          "mean": -2.2547521978021985,
+          "ci95": [
+            -3.432297145845137,
+            -1.0772072497592597
+          ]
+        },
+        "rank_minus_icm": {
+          "mean": 0.11273763736263731,
+          "ci95": [
+            0.05386039278883082,
+            0.1716148819364438
+          ]
+        },
+        "top3": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "top3_minus_icm": {
+          "mean": 5.490113858036488e-18,
+          "ci95": [
+            1.5950076134125168e-18,
+            9.38522010266046e-18
+          ]
+        },
+        "win": {
+          "mean": 0.3076923076923077,
+          "ci95": [
+            0.2404527756933333,
+            0.37493183969128213
+          ]
+        },
+        "win_minus_chip_share": {
+          "mean": -0.11273763736263734,
+          "ci95": [
+            -0.17161488193644384,
+            -0.05386039278883085
+          ]
+        }
+      }
+    },
+    {
+      "checkpoint": "first_3_or_fewer",
+      "stratum": "all",
+      "n": 350,
+      "denominator": 350,
+      "metrics": {
+        "auction_chips": {
+          "mean": 283.69142857142856,
+          "ci95": [
+            259.7225711162899,
+            307.66028602656723
+          ]
+        },
+        "auction_chips_left": {
+          "mean": 58.05428571428571,
+          "ci95": [
+            48.80674195133551,
+            67.30182947723591
+          ]
+        },
+        "capped": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "chip_share": {
+          "mean": 0.25238267857142854,
+          "ci95": [
+            0.23554007396931007,
+            0.269225283173547
+          ]
+        },
+        "effective_bb": {
+          "mean": 16.600234523809508,
+          "ci95": [
+            15.351150128371973,
+            17.849318919247043
+          ]
+        },
+        "expected_rank": {
+          "mean": 2.1768363764022114,
+          "ci95": [
+            2.1377117679395923,
+            2.2159609848648305
+          ]
+        },
+        "expected_top3": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "final_points": {
+          "mean": 28.685714285714287,
+          "ci95": [
+            27.581128086956078,
+            29.790300484472496
+          ]
+        },
+        "final_rank": {
+          "mean": 2.297142857142857,
+          "ci95": [
+            2.2200255565445093,
+            2.374260157741205
+          ]
+        },
+        "final_stack": {
+          "mean": 2651.4285714285716,
+          "ci95": [
+            2027.2616934416574,
+            3275.5954494154857
+          ]
+        },
+        "icm_points": {
+          "mean": 30.75546342857143,
+          "ci95": [
+            30.201036517373005,
+            31.309890339769858
+          ]
+        },
+        "own_bb": {
+          "mean": 19.71855761904761,
+          "ci95": [
+            17.8449479675359,
+            21.592167270559315
+          ]
+        },
+        "points_minus_icm": {
+          "mean": -2.0697491428571424,
+          "ci95": [
+            -3.076675556877428,
+            -1.0628227288368568
+          ]
+        },
+        "rank_minus_icm": {
+          "mean": 0.12030648074064684,
+          "ci95": [
+            0.05040655067016167,
+            0.19020641081113202
+          ]
+        },
+        "top3": {
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "top3_minus_icm": {
+          "mean": 1.45915026093592e-17,
+          "ci95": [
+            1.0463688045981883e-17,
+            1.8719317172736516e-17
+          ]
+        },
+        "win": {
+          "mean": 0.1657142857142857,
+          "ci95": [
+            0.12670385584010357,
+            0.20472471558846783
+          ]
+        },
+        "win_minus_chip_share": {
+          "mean": -0.08666839285714285,
+          "ci95": [
+            -0.12338616447201756,
+            -0.04995062124226815
+          ]
+        }
+      }
+    },
+    {
+      "checkpoint": "first_4_or_fewer",
+      "stratum": "all",
+      "n": 536,
+      "denominator": 536,
+      "metrics": {
+        "auction_chips": {
+          "mean": 414.2705223880597,
+          "ci95": [
+            392.44989779103355,
+            436.09114698508586
+          ]
+        },
+        "auction_chips_left": {
+          "mean": 77.26679104477611,
+          "ci95": [
+            68.5411040438921,
+            85.99247804566012
+          ]
+        },
+        "capped": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "chip_share": {
+          "mean": 0.19115671641791024,
+          "ci95": [
+            0.18067733671360894,
+            0.20163609612221153
+          ]
+        },
+        "effective_bb": {
+          "mean": 20.813206623134334,
+          "ci95": [
+            19.41857854557291,
+            22.20783470069576
+          ]
+        },
+        "expected_rank": {
+          "mean": 2.721229330476081,
+          "ci95": [
+            2.6769250138122533,
+            2.7655336471399083
+          ]
+        },
+        "expected_top3": {
+          "mean": 0.6766654411828131,
+          "ci95": [
+            0.6581390058863352,
+            0.695191876479291
+          ]
+        },
+        "final_points": {
+          "mean": 18.917910447761194,
+          "ci95": [
+            17.563303498368917,
+            20.27251739715347
+          ]
+        },
+        "final_rank": {
+          "mean": 2.878731343283582,
+          "ci95": [
+            2.794062938457566,
+            2.963399748109598
+          ]
+        },
+        "final_stack": {
+          "mean": 1731.3432835820895,
+          "ci95": [
+            1310.1685416813318,
+            2152.518025482847
+          ]
+        },
+        "icm_points": {
+          "mean": 21.465927052238808,
+          "ci95": [
+            20.747872687872242,
+            22.183981416605373
+          ]
+        },
+        "own_bb": {
+          "mean": 23.24432431592041,
+          "ci95": [
+            21.414096995369817,
+            25.074551636471
+          ]
+        },
+        "points_minus_icm": {
+          "mean": -2.548016604477611,
+          "ci95": [
+            -3.723336639878003,
+            -1.3726965690772197
+          ]
+        },
+        "rank_minus_icm": {
+          "mean": 0.15750201280750092,
+          "ci95": [
+            0.08395652054968576,
+            0.23104750506531607
+          ]
+        },
+        "top3": {
+          "mean": 0.6623134328358209,
+          "ci95": [
+            0.6222389566294487,
+            0.7023879090421931
+          ]
+        },
+        "top3_minus_icm": {
+          "mean": -0.014352008346992044,
+          "ci95": [
+            -0.04980248358004583,
+            0.02109846688606174
+          ]
+        },
+        "win": {
+          "mean": 0.10820895522388059,
+          "ci95": [
+            0.08188553385508324,
+            0.13453237659267794
+          ]
+        },
+        "win_minus_chip_share": {
+          "mean": -0.08294776119402991,
+          "ci95": [
+            -0.10794494752493664,
+            -0.05795057486312319
+          ]
+        }
+      }
+    }
+  ],
+  "method": {
+    "scored_tables": 1001,
+    "iteration_range_inclusive": [
+      0,
+      1000
+    ],
+    "own_filler_tables_excluded": 34,
+    "API_query": "tables=1000",
+    "source_commit": "4acad8e40e257abe714db3c39bf1b4a7591aa644",
+    "reducer": "auction_flop.research.official_checkpoints.diagnose.reduce_table + summarize",
+    "table_checkpoints_sha256": "899c5ba2a4f911fa1ab8f275cfa2c90c0901c3e98bdf2ca01668f0d5e9320678",
+    "summary_sha256": "fd4733a9f5a6adfc8c343c3c52919f2b41dae64c3046dc4e516e4ced93867919",
+    "intervals": "Pointwise normal 95% over 1001 unique iterations; multiple exploratory strata unadjusted.",
+    "sample_selection": "Official iteration prefix, not outcome-selected and not a random validation holdout.",
+    "features": "Pre-hand public state only; no private or future cards.",
+    "causality": "Stage ICM changes are accounting and include other players actions. Round comparisons confound policy and opponents."
+  },
+  "cross_round_payout_change": {
+    "win_component": -0.2879999999999999,
+    "top2_component": -0.20699999999999996,
+    "top3_component": -0.4590000000000005
+  },
+  "limits": [
+    "Different rounds change our policy and opponent policies simultaneously; no causal code-change estimate.",
+    "Same team identity is not the same opponent policy; matched-team comparison is descriptive only.",
+    "No S4 hand archive downloaded; only official results, health, metadata and the gzip header were read.",
+    "Local fixed-field scores are not calibrated to the live population."
+  ]
+}

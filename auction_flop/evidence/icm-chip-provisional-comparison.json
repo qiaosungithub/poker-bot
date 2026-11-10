@@ -1,0 +1,32 @@
+{
+  "historical_provisional": true,
+  "icm_v1_minus_chip": {
+    "ci95": [
+      1.429665937590273,
+      2.813498124909727
+    ],
+    "difference_left_minus_right": 2.12158203125,
+    "independent_blocks": 512,
+    "scope": "One prespecified paired comparison; 95% normal interval over seed blocks."
+  },
+  "note": "Provisional objective contrast until full v2/v1 retained-outcome equivalence check completes.",
+  "summary": {
+    "all_scores_audited": true,
+    "candidate_decisions": 562513,
+    "candidate_failures": 0,
+    "ci95": [
+      16.148751734306526,
+      17.576834203193474
+    ],
+    "independent_blocks": 512,
+    "mean_chips": 4445.3125,
+    "mean_points": 16.86279296875,
+    "mean_remaining_flopchips": 203.537109375,
+    "mean_spent_flopchips": 796.462890625,
+    "official_score": true,
+    "tables": 4096,
+    "total_failures": 0,
+    "valid": true
+  },
+  "superseded_by": "macro-program-comparison.json"
+}

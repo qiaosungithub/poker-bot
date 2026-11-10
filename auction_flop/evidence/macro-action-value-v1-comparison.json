@@ -1,0 +1,31 @@
+{
+  "paired_vs_hboth": {
+    "ci95": [
+      -8.319606614766085,
+      -6.865940260233915
+    ],
+    "difference_left_minus_right": -7.5927734375,
+    "independent_blocks": 512,
+    "scope": "One prespecified paired comparison; 95% normal interval over seed blocks."
+  },
+  "runtime_status": "Untimed hypothesis only; direct postflop P99 about2ms, production unqualified.",
+  "sources_and_scores_audited": true,
+  "summary": {
+    "all_scores_audited": true,
+    "candidate_decisions": 404043,
+    "candidate_failures": 0,
+    "ci95": [
+      9.58897861260855,
+      10.69422451239145
+    ],
+    "independent_blocks": 512,
+    "mean_chips": 2054.6875,
+    "mean_points": 10.1416015625,
+    "mean_remaining_flopchips": 431.98046875,
+    "mean_spent_flopchips": 568.01953125,
+    "official_score": true,
+    "tables": 4096,
+    "total_failures": 0,
+    "valid": true
+  }
+}

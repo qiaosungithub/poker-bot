@@ -224,7 +224,7 @@ Authenticated readback independently confirms submission
 `classic_hybrid_v1`, measured at 17.48047 on the frozen v1 schedule. Package
 SHA256 is `99bf8e4507533d02c11e69e4f23e961a19e02c05e481d72df9fd3f3f091262bb`.
 The prior validating observation remains historical.
-See the [current submission receipt](evidence/submission-confirmation.json).
+See the [historical submission receipt](evidence/submission-classic-hybrid-v1.json).
 
 ## Public opening prior cross-check
 
@@ -280,3 +280,55 @@ submission and is not a direct test of the active classic hybrid.
 
 Reproduce the retained-result analysis with
 `python -m auction_flop.benchmark.analyze_followup`. No baseline games were rerun.
+
+## Macro program and transfer limits
+
+The separately dispatched macro program has completed four 4,096-table
+hypotheses, an objective ablation and a full performance-equivalence check.
+Prior + Hboth scores **19.80713**, a paired **+2.07275** versus Hboth; tournament
+utility preflop scores **18.98438**, counterfactual auction **15.47607**, and
+action-value postflop **10.14160**. Every run has zero failures and audited
+source/schedule/payout evidence. See the
+[complete macro report](research/macro_program/README.md) and
+[comparison JSON](evidence/macro-program-comparison.json).
+
+Fresh seeds with v1 opponents give the frozen prior + Hboth finalist a paired
+gain of **+1.61377**, two-field adjusted interval **[+0.84115,+2.38639]**. A
+separately frozen four-style field gives **+0.20508**, interval
+**[-0.61194,+1.02210]**. Therefore the observed v1 mean target was reached,
+but a robust two-point gain across styles is not established. No tuning on
+these inspected validation seeds is authorized by this evidence.
+
+In a matched objective ablation, prize ICM utility scores **18.98438** versus
+linear normal-chip utility **16.86279**: paired difference **+2.12158**, 95%
+interval **[+1.42967,+2.81350]**. The compared programs differ in one utility
+file; the optimized ICM version also reproduces all 4,096 original retained
+table records exactly except timing. This is a result within the shared
+approximate preflop model, not a universal claim about ICM or live opponents.
+
+The new [diagnostic harness](diagnostics/README.md) is separate from pinned v1,
+and its 256-table replay matches retained outcomes and complete action streams.
+It records denominators, settled checkpoint ICM, lead conversion and common
+decision classes. [Official checkpoints](research/official_checkpoints/README.md)
+cover 40,000 older scored tables with explicit submission attribution; their
+cross-round differences are not causal estimates of code changes.
+
+The latest retained activation receipt at **01:33:13 UTC** confirms the
+**original `practice_prior_full_v1`** (v1 score **17.65625**), submission
+`62e67012-528e-4510-9fba-0c522262f3fe`, Ready and active. Its source is
+`7dfcd05f07c11c1cd93e2d1782ac1b71a72c73f8`, ZIP SHA256
+`2f169ae4f6fd416b3bd9fdaa5698615a5e72d9fdb12bc2d56c1422908bf10efe`.
+The S5 health snapshot at 01:35:16 UTC explicitly maps round
+`b009537f-a41d-433c-b6b0-f23f68db21d4` to that submission. Performance was not
+yet measured in that snapshot. See the [activation receipt](evidence/submission-confirmation.json)
+and [S5 mapping](evidence/submission-s5-snapshot.json).
+
+This formal experiment combines the public opening prior with the older corrected
+postflop core. It is distinct from the local-best **19.80713 prior + Hboth**, which
+has **not been uploaded**. Hboth's completed S4 official result was **10.2705**,
+rank **143/194**, over 20,000 tables with zero missed decisions. S3 classic hybrid
+scored 11.2245; S2 corrected loose scored 12.3995. Opponents also changed across
+rounds, so these differences do not isolate the causal effect of a policy change.
+They do establish that local v1 scores are not calibrated to the formal field.
+See the [official transfer audit](research/official_checkpoints/evidence/round-transfer-audit.json)
+and [macro report](research/macro_program/README.md#formal-transfer-gap-and-activation).

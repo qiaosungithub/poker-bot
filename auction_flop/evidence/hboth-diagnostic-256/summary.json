@@ -1,0 +1,14 @@
+{
+  "candidate_failures": 0,
+  "ci95": [
+    16.107368021290263,
+    18.892631978709737
+  ],
+  "diagnostic_only": true,
+  "independent_blocks": 32,
+  "mean_points": 17.5,
+  "official_score": false,
+  "retained_table_parity": 256,
+  "tables": 256,
+  "total_failures": 0
+}

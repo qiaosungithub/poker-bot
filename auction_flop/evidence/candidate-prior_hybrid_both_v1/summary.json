@@ -1,0 +1,18 @@
+{
+  "all_scores_audited": true,
+  "candidate_decisions": 654411,
+  "candidate_failures": 0,
+  "ci95": [
+    19.158887454045708,
+    20.455370358454292
+  ],
+  "independent_blocks": 512,
+  "mean_chips": 4421.875,
+  "mean_points": 19.80712890625,
+  "mean_remaining_flopchips": 185.966796875,
+  "mean_spent_flopchips": 814.033203125,
+  "official_score": true,
+  "tables": 4096,
+  "total_failures": 0,
+  "valid": true
+}

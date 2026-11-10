@@ -1,0 +1,39 @@
+{
+  "benchmark": "auction-flop-v1",
+  "candidate": "prior_hybrid_both_v1",
+  "control": "hybrid_both",
+  "event_revision": "13be90cc13dbde5ad1c5bfcd36a4f5de49cb3a3c",
+  "package_sha256": "0c62ece718f9387587ca0f7289932b71eeb17969f3617f316381ad598a6c1273",
+  "paired": {
+    "ci95": [
+      1.4177534702942425,
+      2.7277543422057575
+    ],
+    "difference_left_minus_right": 2.07275390625,
+    "independent_blocks": 512,
+    "scope": "One prespecified paired comparison; 95% normal interval over seed blocks."
+  },
+  "robust_two_point_transfer_established": false,
+  "source_and_scores_audited": true,
+  "summary": {
+    "all_scores_audited": true,
+    "candidate_decisions": 654411,
+    "candidate_failures": 0,
+    "ci95": [
+      19.158887454045708,
+      20.455370358454292
+    ],
+    "independent_blocks": 512,
+    "mean_chips": 4421.875,
+    "mean_points": 19.80712890625,
+    "mean_remaining_flopchips": 185.966796875,
+    "mean_spent_flopchips": 814.033203125,
+    "official_score": true,
+    "tables": 4096,
+    "total_failures": 0,
+    "valid": true
+  },
+  "target_mean": 19.734375,
+  "transfer_evidence": "macro-transfer-finalist1/paired-transfer-comparison.json",
+  "v1_mean_target_achieved": true
+}

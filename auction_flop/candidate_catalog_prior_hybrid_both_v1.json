@@ -1,0 +1,25 @@
+{
+  "control": "hybrid_both",
+  "event_revision": "13be90cc13dbde5ad1c5bfcd36a4f5de49cb3a3c",
+  "name": "prior_hybrid_both_v1",
+  "package_sha256": "0c62ece718f9387587ca0f7289932b71eeb17969f3617f316381ad598a6c1273",
+  "path": "candidates/prior_hybrid_both_v1",
+  "results": "evidence/candidate-prior_hybrid_both_v1/summary.json",
+  "runtime_status": "Exact package passed local and idle organizer SDK/IPC qualification; rare >1ms responses within2ms grace.",
+  "scope": "Frozen public opening prior plus frozen hybrid_both postflop; one dispatcher-authorized complete experiment.",
+  "sha256": {
+    "agent.py": "4c52261d675b4d685629dc84a4d215c482aeb88bcd039775695879a843512c16",
+    "classic_policy.py": "b94c222ea36950c0205d5e3d89b004230b7e94bf57ca9bd9bd623ff3783a1caf",
+    "distilled_prior.py": "b9f62bb8cea52ef0e2a2fd951a874c70317358212e49bf7465e1359a26233dde",
+    "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+    "independent_preflop.py": "cc6844bdccee29679bb8e4c31217b2a5cbf89c1b6b2891f5414bd6db030e92a0",
+    "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+    "preflop_table.py": "d3e015114b6bf5c9d3b3e7d577f918d7cdf28ff1979ef5ad19c0cc99e52e9197",
+    "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+    "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+    "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+    "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+    "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+  },
+  "status": "completed_4096_tables_audited"
+}

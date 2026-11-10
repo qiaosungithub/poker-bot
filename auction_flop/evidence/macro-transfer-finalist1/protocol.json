@@ -1,0 +1,315 @@
+{
+  "blocks_per_panel": 128,
+  "candidate": "prior_hybrid_both_v1",
+  "candidate_event_revision": "13be90cc13dbde5ad1c5bfcd36a4f5de49cb3a3c",
+  "control": "hybrid_both",
+  "engine_rules": {
+    "blinds": [
+      {
+        "ante": 0,
+        "big_blind": 20,
+        "small_blind": 10
+      },
+      {
+        "ante": 0,
+        "big_blind": 40,
+        "small_blind": 20
+      },
+      {
+        "ante": 0,
+        "big_blind": 60,
+        "small_blind": 30
+      },
+      {
+        "ante": 0,
+        "big_blind": 100,
+        "small_blind": 50
+      },
+      {
+        "ante": 0,
+        "big_blind": 160,
+        "small_blind": 80
+      },
+      {
+        "ante": 0,
+        "big_blind": 250,
+        "small_blind": 125
+      },
+      {
+        "ante": 0,
+        "big_blind": 400,
+        "small_blind": 200
+      },
+      {
+        "ante": 0,
+        "big_blind": 600,
+        "small_blind": 300
+      },
+      {
+        "ante": 0,
+        "big_blind": 1000,
+        "small_blind": 500
+      },
+      {
+        "ante": 0,
+        "big_blind": 1600,
+        "small_blind": 800
+      },
+      {
+        "ante": 0,
+        "big_blind": 2400,
+        "small_blind": 1200
+      },
+      {
+        "ante": 0,
+        "big_blind": 4000,
+        "small_blind": 2000
+      }
+    ],
+    "decision_ms": 60000,
+    "hand_cap": 250,
+    "hands_per_level": 20,
+    "icm_luck_correction": false,
+    "icm_luck_correction_mode": "legacy",
+    "memory_bytes": 65536,
+    "payout_total": null,
+    "payouts": [
+      [
+        50,
+        50
+      ],
+      [
+        30,
+        30
+      ],
+      [
+        20,
+        20
+      ]
+    ],
+    "players": 8,
+    "resampling_continuations": 1,
+    "resampling_threshold": 4,
+    "starting_stack": 2000,
+    "time_bank_ms": 0,
+    "variant": "flop_auction_holdem"
+  },
+  "fields": {
+    "fresh_v1_field": {
+      "panels": [
+        [
+          "hybrid_tournament_auction",
+          "variant",
+          "variant",
+          "tournament",
+          "tournament",
+          "ranges",
+          "ranges"
+        ],
+        [
+          "hybrid_tournament_auction",
+          "hybrid_tournament_auction",
+          "variant",
+          "tournament",
+          "tournament",
+          "ranges",
+          "ranges"
+        ],
+        [
+          "hybrid_tournament_auction",
+          "hybrid_tournament_auction",
+          "variant",
+          "variant",
+          "tournament",
+          "ranges",
+          "ranges"
+        ],
+        [
+          "hybrid_tournament_auction",
+          "hybrid_tournament_auction",
+          "variant",
+          "variant",
+          "tournament",
+          "tournament",
+          "ranges"
+        ]
+      ],
+      "seed": "macro-transfer-f1-20261110-cc762ecee2cdf11a:fresh"
+    },
+    "style_field": {
+      "panels": [
+        [
+          "exploit",
+          "equity",
+          "equity",
+          "classic_txnujk32_v1",
+          "classic_txnujk32_v1",
+          "classic_tournament_v1",
+          "classic_tournament_v1"
+        ],
+        [
+          "exploit",
+          "exploit",
+          "equity",
+          "classic_txnujk32_v1",
+          "classic_txnujk32_v1",
+          "classic_tournament_v1",
+          "classic_tournament_v1"
+        ],
+        [
+          "exploit",
+          "exploit",
+          "equity",
+          "equity",
+          "classic_txnujk32_v1",
+          "classic_tournament_v1",
+          "classic_tournament_v1"
+        ],
+        [
+          "exploit",
+          "exploit",
+          "equity",
+          "equity",
+          "classic_txnujk32_v1",
+          "classic_txnujk32_v1",
+          "classic_tournament_v1"
+        ]
+      ],
+      "seed": "macro-transfer-f1-20261110-cc762ecee2cdf11a:style"
+    }
+  },
+  "frozen_at": "2026-11-10T01:17:01.762585+00:00",
+  "id": "macro-transfer-finalist1-v1",
+  "interpretation": "Paired candidate-minus-control separately in each field; never compare absolute scores across fields. First and only inspection of this protocol for this frozen finalist. No subsequent tuning on these seeds. At most one other finalist may use a new separately frozen seed set.",
+  "intervals": "Report paired normal95% per field and Bonferroni2 simultaneous95% across these two transfer contrasts.",
+  "policies": {
+    "classic_tournament_v1": {
+      "betting": "classic_tournament_v1"
+    },
+    "classic_txnujk32_v1": {
+      "betting": "classic_txnujk32_v1"
+    },
+    "equity": {
+      "betting": "equity"
+    },
+    "exploit": {
+      "betting": "exploit"
+    },
+    "hybrid_both": {
+      "betting": "hybrid_both"
+    },
+    "hybrid_tournament_auction": {
+      "auction": "tournament",
+      "betting": "variant"
+    },
+    "prior_hybrid_both_v1": {
+      "betting": "prior_hybrid_both_v1"
+    },
+    "ranges": {
+      "betting": "ranges"
+    },
+    "tournament": {
+      "betting": "tournament"
+    },
+    "variant": {
+      "betting": "variant"
+    }
+  },
+  "sources": {
+    "classic_tournament_v1": {
+      "path": "candidates/classic_tournament_v1",
+      "sha256": {
+        "agent.py": "a91825210f7a5a9efa321ff6bcaf519b68cc2b750ba66ab792760c399b0f4400",
+        "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+        "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+        "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+        "specialist_policy.py": "b27912f23e7146fb3501743106e7dfcb6de4cbc05d365222fccf68ca8c41d6d2",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb"
+      }
+    },
+    "classic_txnujk32_v1": {
+      "path": "candidates/classic_txnujk32_v1",
+      "sha256": {
+        "agent.py": "2b067d8b958dee7fe9e7afac25f12abfcb3a4bbbdbce0fbdc45261cc9717ce52",
+        "classic_policy.py": "1870615a996678b7f7d8791ee31498a288dd4ee309d0ef33a21b7dc30695cf98",
+        "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+        "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+        "preflop_table.py": "d3e015114b6bf5c9d3b3e7d577f918d7cdf28ff1979ef5ad19c0cc99e52e9197",
+        "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb"
+      }
+    },
+    "equity": {
+      "path": "strategies/equity",
+      "sha256": {
+        "agent.py": "0d4604e7226e7ea6a070e2f011c1a97ac098252ea9f55264edad3ff582732993",
+        "equity_core.py": "5035fc5e5a516d74986c6614c4732bbb0f7881598b392dc361c66c86e978423b"
+      }
+    },
+    "exploit": {
+      "path": "strategies/exploit",
+      "sha256": {
+        "agent.py": "4041c1e83b30f7054b94b7c3fb24264379e91ff60c3ecf32e1f12de8674bc7be",
+        "strategy_core.py": "cdac08df3dafaea5d055b9d4993d2ac6a317dc03ec2136f50d88c1529d896824"
+      }
+    },
+    "hybrid_both": {
+      "path": "candidates/hybrid_both",
+      "sha256": {
+        "agent.py": "ab379f0717c5ebc4a671d59a2ff9e944f9f802ba997dd35beb95b524d2bdae2b",
+        "classic_policy.py": "b94c222ea36950c0205d5e3d89b004230b7e94bf57ca9bd9bd623ff3783a1caf",
+        "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+        "independent_preflop.py": "516b2e41e72430e1e706e483348047bb9330b638a701d279e9a285b5acf51145",
+        "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+        "preflop_table.py": "d3e015114b6bf5c9d3b3e7d577f918d7cdf28ff1979ef5ad19c0cc99e52e9197",
+        "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+        "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+      }
+    },
+    "prior_hybrid_both_v1": {
+      "path": "candidates/prior_hybrid_both_v1",
+      "sha256": {
+        "agent.py": "4c52261d675b4d685629dc84a4d215c482aeb88bcd039775695879a843512c16",
+        "classic_policy.py": "b94c222ea36950c0205d5e3d89b004230b7e94bf57ca9bd9bd623ff3783a1caf",
+        "distilled_prior.py": "b9f62bb8cea52ef0e2a2fd951a874c70317358212e49bf7465e1359a26233dde",
+        "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+        "independent_preflop.py": "cc6844bdccee29679bb8e4c31217b2a5cbf89c1b6b2891f5414bd6db030e92a0",
+        "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+        "preflop_table.py": "d3e015114b6bf5c9d3b3e7d577f918d7cdf28ff1979ef5ad19c0cc99e52e9197",
+        "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+        "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+        "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+        "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+        "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+      }
+    },
+    "ranges": {
+      "path": "strategies/ranges",
+      "sha256": {
+        "agent.py": "137b3ad368f78899c5a7b9c4e954ec375e2fe69d22408ebb1cf783a1756f2dd4",
+        "range_core.py": "45218351dd8dc18235aef3a1f501df4de3dd44521eb7e30470fae1cbfb58aad2"
+      }
+    },
+    "tournament": {
+      "path": "strategies/tournament",
+      "sha256": {
+        "agent.py": "36b65f77e5f1d90cf564d876f448415180a08f92f41b5067e10afe7203dba37e",
+        "strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb"
+      }
+    },
+    "variant": {
+      "path": "strategies/variant",
+      "sha256": {
+        "agent.py": "8367b29f7f6b1f0425bfcd22028ec1966bc013b2eb68d9ef1eb512c18d075751",
+        "auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+      }
+    }
+  },
+  "style_selection": "Equal exposure to exploit, equity, classic txnujk and TournamentSpecialist policies excluded from v1 evaluation; no checkfold/minraise easy fillers. Their live-field representativeness is not guaranteed.",
+  "tables_per_candidate_per_field": 4096
+}

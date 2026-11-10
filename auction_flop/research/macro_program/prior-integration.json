@@ -1,0 +1,115 @@
+{
+  "completed_at": "2026-11-10T01:20:22.549580+00:00",
+  "candidate": "prior_hybrid_both_v1",
+  "source_revision": "13be90cc13dbde5ad1c5bfcd36a4f5de49cb3a3c",
+  "bot_dir": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/integration_next/candidates/prior_hybrid_both_v1",
+  "zip": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/integration_next/evidence/integration-prior-hybrid-both-v1/prior-hybrid-both-v1.zip",
+  "zip_sha256": "0c62ece718f9387587ca0f7289932b71eeb17969f3617f316381ad598a6c1273",
+  "zip_bytes": 29267,
+  "source_hashes": {
+    "agent.py": "4c52261d675b4d685629dc84a4d215c482aeb88bcd039775695879a843512c16",
+    "classic_policy.py": "b94c222ea36950c0205d5e3d89b004230b7e94bf57ca9bd9bd623ff3783a1caf",
+    "distilled_prior.py": "b9f62bb8cea52ef0e2a2fd951a874c70317358212e49bf7465e1359a26233dde",
+    "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+    "independent_preflop.py": "cc6844bdccee29679bb8e4c31217b2a5cbf89c1b6b2891f5414bd6db030e92a0",
+    "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+    "preflop_table.py": "d3e015114b6bf5c9d3b3e7d577f918d7cdf28ff1979ef5ad19c0cc99e52e9197",
+    "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+    "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+    "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+    "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+    "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+  },
+  "all_git_zip_local_remote_hashes_match": true,
+  "remote_host_alias": "no-limit-2026-build",
+  "remote_directory": "/home/ubuntu/work/integration-prior-hybrid-both-v1-13be90c",
+  "pretest_idle_load": [
+    0.03564453125,
+    0.01220703125,
+    0.013671875
+  ],
+  "same_local_remote_seeds_decisions_failures_points": true,
+  "remote_qualification": {
+    "passed": true,
+    "tables": 9,
+    "zero_bank_hu_tables": 6,
+    "eight_seat_tables": 3,
+    "hero_decisions": 458,
+    "all_failures": 0,
+    "phase_timings": {
+      "betting_0": {
+        "n": 350,
+        "p50_ms": 0.2872059994842857,
+        "p99_ms": 0.40038800216279924,
+        "max_ms": 1.1696220026351511,
+        "above_1ms": 2
+      },
+      "auction": {
+        "n": 20,
+        "p50_ms": 0.4344784974819049,
+        "p99_ms": 0.4685760068241507,
+        "max_ms": 0.4714239912573248,
+        "above_1ms": 0
+      },
+      "betting_3": {
+        "n": 39,
+        "p50_ms": 0.4301199805922806,
+        "p99_ms": 0.5312419962137938,
+        "max_ms": 0.5469969764817506,
+        "above_1ms": 0
+      },
+      "betting_4": {
+        "n": 23,
+        "p50_ms": 0.4179980023764074,
+        "p99_ms": 0.44627400347962976,
+        "max_ms": 0.5125309980940074,
+        "above_1ms": 0
+      },
+      "betting_5": {
+        "n": 26,
+        "p50_ms": 0.41458049963694066,
+        "p99_ms": 0.42833900079131126,
+        "max_ms": 0.43459399603307247,
+        "above_1ms": 0
+      }
+    },
+    "protocol": {
+      "decision_ms": 1,
+      "delivery_grace_ms": 2,
+      "acceptance_time_bank_ms": 0,
+      "acceptance_hand_cap": 20,
+      "eight_seat_time_bank_ms": 100,
+      "eight_seat_hand_cap": 100,
+      "worker_copies_per_bot": 2
+    },
+    "scope": "Official BotPool + guest, includes serialization and IPC; ordinary local processes, not production microVM"
+  },
+  "over1_observations": {
+    "local": {
+      "betting_0": [
+        {
+          "phase_index": 302,
+          "ms": 1.4211500529199839
+        },
+        {
+          "phase_index": 314,
+          "ms": 1.3855199795216322
+        }
+      ]
+    },
+    "remote": {
+      "betting_0": [
+        {
+          "phase_index": 156,
+          "ms": 1.1696220026351511
+        },
+        {
+          "phase_index": 180,
+          "ms": 1.0580650123301893
+        }
+      ]
+    }
+  },
+  "interpretation": "Passes exact official SDK subprocess qualification on idle organizer buildbox with2msdeliverygrace. Two preflop responses still exceed1ms, maximum1.170ms; no strict per-call1ms guarantee. No strategy/code/package change.",
+  "uploaded": false
+}

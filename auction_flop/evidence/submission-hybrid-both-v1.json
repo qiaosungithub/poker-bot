@@ -1,0 +1,20 @@
+{
+  "active_submission_id": "9bfee42d-d5b5-4f6d-87c0-e45d56aeef43",
+  "artifact_bytes": 27173,
+  "artifact_sha256": "3d5e6595a3c1f73f5a8ed051a25200609f19a3132487185739661b52a48520ef",
+  "benchmark": "auction-flop-v1",
+  "candidate": "hybrid_both",
+  "competition_id": "abb5539f-60ce-48b6-8925-c0c56a3102e3",
+  "created_at": "2026-11-10T00:55:39.020133Z",
+  "filename": "timothy-hybrid-both-v1-0c60de2.zip",
+  "mean_points": 17.734375,
+  "observed_at": "2026-11-10T00:57:27.369243+00:00",
+  "package_sha256": "3d5e6595a3c1f73f5a8ed051a25200609f19a3132487185739661b52a48520ef",
+  "previous_active_submission_id": "50da6a7e-6d6e-4eec-a3d2-5a4db8ce9d89",
+  "source_revision": "0c60de2e0aa5624844e3d0ae5d38e73ded25623c",
+  "status": "ready",
+  "submission_id": "9bfee42d-d5b5-4f6d-87c0-e45d56aeef43",
+  "tables": 4096,
+  "team_id": "f570222b-b5b0-4dce-8499-a32476665215",
+  "verified_ready_and_active": true
+}

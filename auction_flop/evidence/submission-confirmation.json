@@ -1,13 +1,20 @@
 {
-  "observed_at": "2026-11-10T00:46:57.883726+00:00",
-  "active_submission_id": "50da6a7e-6d6e-4eec-a3d2-5a4db8ce9d89",
-  "submission_id": "50da6a7e-6d6e-4eec-a3d2-5a4db8ce9d89",
-  "filename": "timothy-classic-hybrid-v1-52474ad.zip",
-  "status": "ready",
-  "created_at": "2026-11-10T00:39:30.917816Z",
-  "package_sha256": "99bf8e4507533d02c11e69e4f23e961a19e02c05e481d72df9fd3f3f091262bb",
-  "candidate": "classic_hybrid_v1",
-  "benchmark": "auction-flop-v1",
-  "mean_points": 17.48046875,
-  "tables": 4096
+  "verified_at": "2026-11-10T01:33:13.432062+00:00",
+  "team_id": "f570222b-b5b0-4dce-8499-a32476665215",
+  "submission_id": "62e67012-528e-4510-9fba-0c522262f3fe",
+  "filename": "timothy-practice-prior-full-v1-7dfcd05.zip",
+  "source_revision": "7dfcd05f07c11c1cd93e2d1782ac1b71a72c73f8",
+  "zip_sha256": "2f169ae4f6fd416b3bd9fdaa5698615a5e72d9fdb12bc2d56c1422908bf10efe",
+  "size_bytes": 29050,
+  "ready": true,
+  "active": true,
+  "previous_active_submission_id": "9bfee42d-d5b5-4f6d-87c0-e45d56aeef43",
+  "post_created_at": "2026-11-10T01:32:49.411012Z",
+  "strength_benchmark": {
+    "benchmark": "auction-flop-v1",
+    "mean_points": 17.65625,
+    "tables": 4096
+  },
+  "official_strength": "Not yet measured for this exact candidate. This is a reviewed live experiment after weak Hboth formal performance.",
+  "readback_evidence": ".runtime/private-web/prior-hybrid-submit-20261110/original-prior-poll-00.json"
 }

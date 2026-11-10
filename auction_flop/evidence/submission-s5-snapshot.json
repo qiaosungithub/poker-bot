@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-11-10T01:35:16.347639+00:00",
+  "round": {
+    "id": "b009537f-a41d-433c-b6b0-f23f68db21d4",
+    "competition_id": "abb5539f-60ce-48b6-8925-c0c56a3102e3",
+    "kind": "scored",
+    "weight": 5,
+    "score_multiplier": 8.0,
+    "iterations": 20000,
+    "entries": 231,
+    "forfeits": 37,
+    "jobs": 2858,
+    "jobs_done": 0,
+    "jobs_failed": 0,
+    "job_stagger_ms": 0,
+    "worker_tables": null,
+    "icm_luck_correction": false,
+    "icm_luck_correction_mode": null,
+    "culling": null,
+    "created_at": "2026-11-10T01:34:53.750956Z",
+    "completed_at": null,
+    "cancelled_at": null
+  },
+  "health": {
+    "submission_id": "62e67012-528e-4510-9fba-0c522262f3fe",
+    "decisions": 0,
+    "missed": 0,
+    "restarts": 0,
+    "gave_up": false,
+    "error_log": "",
+    "tournament_id": "b009537f-a41d-433c-b6b0-f23f68db21d4",
+    "kind": "scored",
+    "weight": 5,
+    "created_at": "2026-11-10T01:34:53.750956Z"
+  },
+  "expected_submission_id": "62e67012-528e-4510-9fba-0c522262f3fe",
+  "actual_round_submission_verified": true,
+  "scope": "One read-only check. No full archive or private entry header download; health explicitly maps actual round to submission."
+}
