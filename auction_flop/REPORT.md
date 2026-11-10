@@ -210,9 +210,18 @@ alone does not identify the submission ZIP used for that round.
 
 The 16.80664-point fragile-both candidate, submission
 `04e8c5f8-42e9-4543-a0d3-bd3dc94d02f1`, was independently confirmed Ready and
-active at 00:39:44 UTC. See the [active receipt](evidence/submission-confirmation.json).
+active at 00:39:44 UTC. See the [historical receipt](evidence/submission-fragile-both-v1.json).
 The highest-mean classic hybrid was uploaded at 00:39:30 UTC as
 `50da6a7e-6d6e-4eec-a3d2-5a4db8ce9d89`; authenticated readback at 00:40:33 UTC
 still reported validating, with fragile-both active. Its source/package SHA
 matches the measured 17.48047 candidate. Upload acceptance is not activation.
 See the [pending receipt](evidence/submission-classic-hybrid-v1-pending.json).
+
+## Classic hybrid activation verified at 00:46:57 UTC
+
+Authenticated readback independently confirms submission
+`50da6a7e-6d6e-4eec-a3d2-5a4db8ce9d89` is **Ready and active**. This is
+`classic_hybrid_v1`, measured at 17.48047 on the frozen v1 schedule. Package
+SHA256 is `99bf8e4507533d02c11e69e4f23e961a19e02c05e481d72df9fd3f3f091262bb`.
+The prior validating observation remains historical.
+See the [current submission receipt](evidence/submission-confirmation.json).
