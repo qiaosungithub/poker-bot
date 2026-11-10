@@ -1,0 +1,40 @@
+{
+  "baseline": "icm_v2",
+  "seed": "icm-final-holdout-20261109-independent",
+  "blocks": 512,
+  "tables_per_variant": 4096,
+  "opponents": [
+    "icm_survival",
+    "push_fold",
+    "value_heuristic",
+    "opponent_adaptive",
+    "equity_sampling",
+    "range_pressure",
+    "auction_optimizer"
+  ],
+  "note": "Whole-block paired normal intervals; no multiple-comparison correction. Direct engine calls do not enforce deadlines.",
+  "results": {
+    "icm_v2": {
+      "mean_points": 15.7275390625,
+      "standard_error": 0.305880176399455,
+      "paired_difference": 0.0,
+      "normal_95_interval": [
+        0.0,
+        0.0
+      ],
+      "failures": 0,
+      "decisions": 539935
+    },
+    "icm_defend_v7": {
+      "mean_points": 18.08837890625,
+      "standard_error": 0.3253419527687667,
+      "paired_difference": 2.36083984375,
+      "normal_95_interval": [
+        1.827925547505513,
+        2.893754139994487
+      ],
+      "failures": 0,
+      "decisions": 565178
+    }
+  }
+}

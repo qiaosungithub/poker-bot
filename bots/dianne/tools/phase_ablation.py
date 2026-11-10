@@ -20,7 +20,7 @@ def source_node(source, name):
 
 
 def main():
-    base = (BOT_ROOT / "selected/agent.py").read_text()
+    base = (BOT_ROOT / "icm_v2/agent.py").read_text()
     old_auction = source_node(base, "auction_bid")
     shadow = (BOT_ROOT / "auction_shadow_price/agent.py").read_text()
     push = (BOT_ROOT / "push_fold/agent.py").read_text()

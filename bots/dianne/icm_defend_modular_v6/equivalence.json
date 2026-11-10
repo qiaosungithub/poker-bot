@@ -1,0 +1,15 @@
+{
+  "tables": 4,
+  "states": 4160,
+  "phase_states": {
+    "preflop": 2924,
+    "auction": 377,
+    "postflop": 859
+  },
+  "mismatches": 0,
+  "variant": "flop_auction_holdem",
+  "definition_ast_identical": true,
+  "builder_reproduces_bytes": true,
+  "frozen_sha256": "cd06e1dc6fb4d5b7c17b83758051a0c167eefe216cecee7a53ff672f36b5479f",
+  "generated_sha256": "c55dee481b8c57f9c479cbb3bbba9fa181a6ccd9946a60cb775892769bc2b810"
+}

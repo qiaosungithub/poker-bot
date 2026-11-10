@@ -4,15 +4,21 @@
 
 ## 使用入口
 
-当前候选为 [`selected/agent.py`](selected/agent.py)，对应修正后的 `icm_v2`。
+当前候选为 [`selected/agent.py`](selected/agent.py)，对应 `icm_defend_v7`。
+它组合了价格敏感的翻牌前跟注、修正后的牌面计算，以及保护有利默认翻牌的拍卖。
+最终独立 4,096 桌对照中平均 18.088 分，原 `icm_v2` 为 15.728 分，
+配对提升 2.361 分，普通 95% 区间 [1.828, 2.894]。
+具体模块、候选取舍和验证见 [OPTIMIZATION.md](OPTIMIZATION.md)。
 三阶段拆分与固定下注的拍卖对照见 [PHASE_ANALYSIS.md](PHASE_ANALYSIS.md)。
 三个阶段的独立源码及单文件生成方法见 [modular/README.md](modular/README.md)，
 114,785 个官方引擎状态中与原 ICM v2 行为完全一致。
-上传包为 [`agent.zip`](agent.zip)，包内只有 `agent.py`，大小 3,915 字节。
+上传包为 [`icm_defend_v7.zip`](icm_defend_v7.zip)，与 [`agent.zip`](agent.zip)
+内容一致，包内只有 `agent.py`，大小 5,914 字节。
 策略运行依赖标准库、官方 SDK 和 `eval7==0.1.11`。
 
 Python 文件 SHA256 为
-`73ed48b9128862704c8123b0e9c582ab366c4fa3b84206998874154fc4b17f56`。
+`30ba58c895fd2857b6f0b927f746285e5bc06e764a6924a64b52d60c5f729b04`。
+ZIP SHA256 为 `5183c0fc774da2b7e8f5a98bed66a7f24b75cb14d7ecce534e7ede08a8fb26bf`。
 
 在安装 Boston starter kit 的 Python 3.12 环境中，从仓库根目录运行
 
@@ -44,7 +50,9 @@ eval7 的 `.runtime/envs/boston-test`，用于等待完整依赖下载时并行�
 八个方向由八个子代理分批完成，共用当天新写的部分牌力计算逻辑。
 原始候选保持冻结，以便根据结果中的源文件哈希复现比较。
 
-## 当前候选的取舍
+## 原版筛选记录
+
+本节的 `selected` 指此前冻结的 ICM v2，源文件保存在 `icm_v2/agent.py`。
 
 `icm_survival` 在原始八方案的 1,024 桌独立确认中平均 16.816 分，
 `push_fold` 为 13.721 分。按 128 个完整座位轮换块计算，配对差为
@@ -76,6 +84,11 @@ eval7 的 `.runtime/envs/boston-test`，用于等待完整依赖下载时并行�
 每次比较都有不同的对手阵容，分数应在对应场次内解读。
 
 ## 运行验证
+
+最终 V7 在 Linux 官方 SDK 进程路径完成 64 桌、9,017 次自己的决策，
+零漏答／失败。整组 66,342 次决策均零失败，设置为零时间储备，SDK 自带
+2 ms 传输宽限。证据见 `results/linux-sdk-v4`。单文件 ZIP 静态检查通过。
+以下是早期 ICM v2 和原始候选的验证记录。
 
 - 全部原始策略通过静态上传检查和随机拍卖合法性检查。
 - 256 桌初筛、1,024 桌确认和 1,024 桌修正版比较，共 2,132,205 次直接决策，
