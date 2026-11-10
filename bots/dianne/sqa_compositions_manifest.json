@@ -1,0 +1,92 @@
+{
+  "sqa_prior_classic_v1": {
+    "added_files": [
+      "distilled_prior.py"
+    ],
+    "base": "classic_hybrid_v1",
+    "base_hashes": {
+      "agent.py": "4c52261d675b4d685629dc84a4d215c482aeb88bcd039775695879a843512c16",
+      "classic_policy.py": "1870615a996678b7f7d8791ee31498a288dd4ee309d0ef33a21b7dc30695cf98",
+      "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+      "independent_preflop.py": "516b2e41e72430e1e706e483348047bb9330b638a701d279e9a285b5acf51145",
+      "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+      "preflop_table.py": "d3e015114b6bf5c9d3b3e7d577f918d7cdf28ff1979ef5ad19c0cc99e52e9197",
+      "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+      "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+      "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+      "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+      "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+    },
+    "changed_files": [
+      "independent_preflop.py"
+    ],
+    "preflop_donor": "practice_prior_full_v1",
+    "source_hashes": {
+      "agent.py": "4c52261d675b4d685629dc84a4d215c482aeb88bcd039775695879a843512c16",
+      "classic_policy.py": "1870615a996678b7f7d8791ee31498a288dd4ee309d0ef33a21b7dc30695cf98",
+      "distilled_prior.py": "b9f62bb8cea52ef0e2a2fd951a874c70317358212e49bf7465e1359a26233dde",
+      "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+      "independent_preflop.py": "cc6844bdccee29679bb8e4c31217b2a5cbf89c1b6b2891f5414bd6db030e92a0",
+      "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+      "preflop_table.py": "d3e015114b6bf5c9d3b3e7d577f918d7cdf28ff1979ef5ad19c0cc99e52e9197",
+      "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+      "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+      "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+      "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+      "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+    },
+    "source_revision": "c62cdaccb66cec9f0b49adcaa43327b88d2419b8"
+  },
+  "sqa_prior_fragile_v1": {
+    "added_files": [
+      "distilled_prior.py"
+    ],
+    "base": "fragile_both_v1",
+    "base_hashes": {
+      "agent.py": "ab97f3d27cd875aa31feaccfe4ccdee0734033925407b2bc727f95b037dc7882",
+      "auction_policy.py": "8e1aa1654e398e370479ababbc70ef9ad314216ccaa0759e3fa8386e6f8802b5",
+      "betting_policy.py": "c96ffea1064924a35464320c5611798e153d2deaffd2f5f6890e0f5c38353b57",
+      "corrected_betting_baseline.py": "6b6c7885da19b03c2952721ea472a50ba6565f1076717e6a11ae12a877812261",
+      "flop_policy.py": "d57e5895242f51f63d8fc100d1cdf412a92a1c276e9c02f85f4af26a27ea7eb2",
+      "fragile_rules.py": "e1c3463414c7df48f34bc0da9fa863f101e564b22cb7176318df1eb64f51b4aa",
+      "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+      "independent_preflop.py": "516b2e41e72430e1e706e483348047bb9330b638a701d279e9a285b5acf51145",
+      "postflop_policy.py": "786f1e9c21ecfbdca4add1aab7f831631d04e6054187ed36846593d75efa0548",
+      "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+      "preflop_policy.py": "88adb1e87bf95e9973c2e4fbe395a92c380f9162139759a8512e5a75d357c907",
+      "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+      "river_policy.py": "0aab2c4b27c9e8385f1179f86f9361f0c7ec7cded9e52ce77bb5a722cd01885f",
+      "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+      "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+      "turn_policy.py": "e572c0410d711bf9e7772fdb2bc2487aad3e21b9237ecb62f52c3aafce9522c4",
+      "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+      "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+    },
+    "changed_files": [
+      "independent_preflop.py"
+    ],
+    "preflop_donor": "practice_prior_full_v1",
+    "source_hashes": {
+      "agent.py": "ab97f3d27cd875aa31feaccfe4ccdee0734033925407b2bc727f95b037dc7882",
+      "auction_policy.py": "8e1aa1654e398e370479ababbc70ef9ad314216ccaa0759e3fa8386e6f8802b5",
+      "betting_policy.py": "c96ffea1064924a35464320c5611798e153d2deaffd2f5f6890e0f5c38353b57",
+      "corrected_betting_baseline.py": "6b6c7885da19b03c2952721ea472a50ba6565f1076717e6a11ae12a877812261",
+      "distilled_prior.py": "b9f62bb8cea52ef0e2a2fd951a874c70317358212e49bf7465e1359a26233dde",
+      "flop_policy.py": "d57e5895242f51f63d8fc100d1cdf412a92a1c276e9c02f85f4af26a27ea7eb2",
+      "fragile_rules.py": "e1c3463414c7df48f34bc0da9fa863f101e564b22cb7176318df1eb64f51b4aa",
+      "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+      "independent_preflop.py": "cc6844bdccee29679bb8e4c31217b2a5cbf89c1b6b2891f5414bd6db030e92a0",
+      "postflop_policy.py": "786f1e9c21ecfbdca4add1aab7f831631d04e6054187ed36846593d75efa0548",
+      "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+      "preflop_policy.py": "88adb1e87bf95e9973c2e4fbe395a92c380f9162139759a8512e5a75d357c907",
+      "public_features.py": "f761a09fe4311959f65fcf1a81ce3b3e7acdda9556c930a86d3ddcfaaafde5c7",
+      "river_policy.py": "0aab2c4b27c9e8385f1179f86f9361f0c7ec7cded9e52ce77bb5a722cd01885f",
+      "tournament_agent.py": "8e7428a6126558e027bda0aa497630a965c90dc6ea76e26a7146837f579213de",
+      "tournament_strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb",
+      "turn_policy.py": "e572c0410d711bf9e7772fdb2bc2487aad3e21b9237ecb62f52c3aafce9522c4",
+      "variant_agent.py": "91f4d7fe0ebbd8f5c41562e65d8f6c2e8f07e9500b0c93a82e33d34915fc2c63",
+      "variant_auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+    },
+    "source_revision": "c62cdaccb66cec9f0b49adcaa43327b88d2419b8"
+  }
+}

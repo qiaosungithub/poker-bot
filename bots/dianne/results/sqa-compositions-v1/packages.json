@@ -1,0 +1,49 @@
+{
+  "sqa_prior_classic_v1": {
+    "zip": "bots/dianne/sqa_prior_classic_v1.zip",
+    "sha256": "5b329f05fe6b59e7ffaa1c48f9c3dcb2829b7454d7af05028891e92baed742d3",
+    "size_bytes": 28945,
+    "files": [
+      "agent.py",
+      "classic_policy.py",
+      "distilled_prior.py",
+      "hand_contribution.py",
+      "independent_preflop.py",
+      "pot_accounting.py",
+      "preflop_table.py",
+      "public_features.py",
+      "tournament_agent.py",
+      "tournament_strategy.py",
+      "variant_agent.py",
+      "variant_auction.py"
+    ],
+    "official_sdk_static_check_passed": true
+  },
+  "sqa_prior_fragile_v1": {
+    "zip": "bots/dianne/sqa_prior_fragile_v1.zip",
+    "sha256": "9b9a6e8d0e798d857d81a160f92af9e5b4a323789d68b4a488bb91751921663d",
+    "size_bytes": 30200,
+    "files": [
+      "agent.py",
+      "auction_policy.py",
+      "betting_policy.py",
+      "corrected_betting_baseline.py",
+      "distilled_prior.py",
+      "flop_policy.py",
+      "fragile_rules.py",
+      "hand_contribution.py",
+      "independent_preflop.py",
+      "postflop_policy.py",
+      "pot_accounting.py",
+      "preflop_policy.py",
+      "public_features.py",
+      "river_policy.py",
+      "tournament_agent.py",
+      "tournament_strategy.py",
+      "turn_policy.py",
+      "variant_agent.py",
+      "variant_auction.py"
+    ],
+    "official_sdk_static_check_passed": true
+  }
+}

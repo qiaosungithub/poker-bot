@@ -62,8 +62,8 @@ V7 随后补充了一个窄范围回归修复：公共四条且踢脚完全来�
 | 核心组合 V5 | 16.504 | +0.776 | [0.423, 1.130] |
 | 防守拍卖 V7 | 18.088 | +2.361 | [1.828, 2.894] |
 
-当时本地开发阵容选择 `icm_defend_v7`；当前统一评分建议保留 main 的
-`preflop_loose`，详见 `SQA_BENCHMARK.md`。V7 源码 SHA256 为
+当时本地开发阵容选择 `icm_defend_v7`；后续统一评分和最新组合推荐见
+`SQA_COMPOSITION_RESULTS.md`，此处仅保留历史开发结论。V7 源码 SHA256 为
 `30ba58c895fd2857b6f0b927f746285e5bc06e764a6924a64b52d60c5f729b04`。
 原始逐桌记录、源码哈希、配置分别保存在 `icm-final-holdout` 和
 `icm-defense-final-holdout`，共同基准逐桌记录完全相同。

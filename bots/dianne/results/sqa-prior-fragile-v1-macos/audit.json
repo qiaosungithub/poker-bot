@@ -1,0 +1,9 @@
+{
+  "benchmark": "auction-flop-v1",
+  "independent_audit_passed": true,
+  "tables": 4096,
+  "candidate_matches_current_source": true,
+  "tables_sha256": "b23de19f40f1c248c829ac5b676462d02babf2b14d9152c6fe28a49ee2c1adcb",
+  "manifest_sha256": "af7b04b1f1c5bbd414f6906c8e905256401fa187eface805e3befb382745ae4c",
+  "audit_tool": "bots/dianne/tools/analyze_sqa_compositions.py calls frozen auction_flop.benchmark.run.audit"
+}

@@ -3,6 +3,17 @@
 跨分支排名、选型和对外报告统一使用 `auction-flop-v1`。
 此前本目录自有对手阵容的结果只作为开发和回归证据，不与这里的分数比较。
 
+## 最新组合结果
+
+已从 main `c62cdac` 拉取新 prior 与 postflop 模块继续优化，并在完成前
+同步了 `c02b6ba` 新结果。`sqa_prior_classic_v1` 得 **19.43359**，
+`sqa_prior_fragile_v1` 得 **17.90283**；均为同一冻结 v1 的完整 4,096 桌
+Mac 复现，零失败且审计通过。main `c02b6ba` 已发布最高均分为 17.73438。
+两个新候选另通过 Linux SDK 64 桌时限检查，但尚未做完整 Linux 强度复验。
+当前交接候选、配对区间、平台说明见 [最新优化结果](SQA_COMPOSITION_RESULTS.md)。
+
+## 历史 V7 与初版 loose 比较
+
 冻结 benchmark 来自 main 的 `481d1f0`，验证 SHA256：
 `dc6c9f772eabdd0db0b31d011e548d40b8119e872773d58ecd9c077eaaa5eba6`。
 main 后续 `c5ec82a` 公布的 `preflop_loose` 成绩为 16.56250；冻结
@@ -20,7 +31,7 @@ V7 候选源文件 SHA256：
 | 本分支 V7 | 12.84668 | [12.28263, 13.41073] | 原版 Linux 全量 4,096 桌，完整审计通过 |
 
 V7 共 587,991 次自己的决策，零失败，完整轮换计划、源码锁和积分审计通过。
-目前结论是保留 main 的 `preflop_loose`；V7 的局部修正仍可作为后续组合
+当时结论是保留 main 的 `preflop_loose`；V7 的局部修正仍可作为后续组合
 实验的素材，但不能依据另一套对手的分数替换统一 benchmark 的领先版本。
 
 leader 原始来源为
@@ -36,7 +47,7 @@ Mac 复现记录、适配器代码及哈希在 `results/main-benchmark-defend-v7
 
 原版 benchmark 已在团队 Linux 构建机的独立目录完成：
 `~/work/dianne-main-benchmark/result-defend-v7`，`audit` 和 `compare` 均通过。
-此处采用 Linux 结果作为正式统一评分；Mac 结果仅作跨平台复现。
+本节 V7 采用 Linux 结果；对应 V7 Mac 结果仅作跨平台复现。
 
 Mac 复现只适配缺失的 CPU 亲和性接口；冻结策略、引擎、规则、种子和
 评分源码完全未修改，PYTHONHASHSEED 固定为 0。它不能冒充 Linux 运行。

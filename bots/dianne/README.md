@@ -4,9 +4,16 @@
 
 ## 使用入口
 
-**当前提交建议：保留 main 的 `preflop_loose`。** SQA 原版 Linux 全量评测中，
-本分支 `icm_defend_v7` 为 12.84668 分，低于 `preflop_loose` 的 16.56250 分；
-不建议用 V7 替换该版本。4,096 桌零失败，完整审计通过。
+**当前交接候选：[`sqa_prior_classic_v1.zip`](sqa_prior_classic_v1.zip)。**
+拉取 SQA 最新结果后继续组合优化，统一 `auction-flop-v1` 完整 Mac 复现
+得到 **19.43359** 分；截至 main `c02b6ba`，其已发布最高均分为 17.73438。
+新候选 4,096 桌、648,853 次决策零失败，审计通过；Linux SDK 64 桌中
+10,845 次自己的决策零失败。尚未做该候选的完整 Linux 强度复验。
+源码为 [`sqa_prior_classic_v1/`](sqa_prior_classic_v1/)，包哈希、配对区间、
+平台说明和另一组合见 [最新优化结果](SQA_COMPOSITION_RESULTS.md)。
+本次只推分支，比赛上传由 SQA 操作。
+
+## V7 历史记录
 
 [`selected/agent.py`](selected/agent.py) 是此前本地选型留下的 V7 候选别名，
 不代表统一 benchmark 的优胜版本。
@@ -28,8 +35,8 @@ ZIP SHA256 为 `5183c0fc774da2b7e8f5a98bed66a7f24b75cb14d7ecce534e7ede08a8fb26bf
 在安装 Boston starter kit 的 Python 3.12 环境中，从仓库根目录运行
 
 ```sh
-poker-agent check bots/dianne/agent.zip
-poker-agent play bots/dianne/selected \
+poker-agent check bots/dianne/sqa_prior_classic_v1.zip
+poker-agent play bots/dianne/sqa_prior_classic_v1 \
   /path/to/starter-kit/examples/check_or_fold \
   /path/to/starter-kit/examples/min_raiser --tables 200 --no-history
 python -m unittest discover -s bots/dianne/tools -p 'test_*.py'
