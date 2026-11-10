@@ -1,0 +1,104 @@
+{
+  "hybrid": {
+    "commit": "7e7aa88",
+    "findings": {
+      "royal_board": {
+        "quality": [
+          0.12000000000000001,
+          8,
+          false
+        ],
+        "action": "Action(kind='fold', amount=0, cards=())",
+        "exact_hu_showdown_share": 0.5
+      },
+      "public_quads_low_kicker": {
+        "quality": [
+          0.97,
+          7,
+          false
+        ],
+        "action": "Action(kind='raise', amount=400, cards=())",
+        "exact_hu_showdown_share": 0.02823920265780731
+      },
+      "inaccessible_sidepot": {
+        "action_raw_pot": "Action(kind='call', amount=0, cards=())",
+        "action_accessible_pot_control": "Action(kind='fold', amount=0, cards=())",
+        "raw_pot_odds": 0.047619047619047616,
+        "eligible_pot_odds": 0.3333333333333333,
+        "accessible_opponents_contributions": [
+          100,
+          100
+        ],
+        "inaccessible_sidepot": 1800
+      }
+    }
+  },
+  "inference": {
+    "commit": "6d12db2",
+    "findings": {
+      "royal_board": {
+        "quality": [
+          0.12000000000000001,
+          8,
+          false
+        ],
+        "action": "Action(kind='fold', amount=0, cards=())",
+        "exact_hu_showdown_share": 0.5
+      },
+      "public_quads_low_kicker": {
+        "quality": [
+          0.97,
+          7,
+          false
+        ],
+        "action": "Action(kind='raise', amount=400, cards=())",
+        "exact_hu_showdown_share": 0.02823920265780731
+      },
+      "inaccessible_sidepot": {
+        "action_raw_pot": "Action(kind='call', amount=0, cards=())",
+        "action_accessible_pot_control": "Action(kind='fold', amount=0, cards=())",
+        "raw_pot_odds": 0.047619047619047616,
+        "eligible_pot_odds": 0.3333333333333333,
+        "accessible_opponents_contributions": [
+          100,
+          100
+        ],
+        "inaccessible_sidepot": 1800
+      }
+    }
+  },
+  "joint": {
+    "commit": "3a74011",
+    "findings": {
+      "royal_board": {
+        "quality": [
+          0.12000000000000001,
+          8,
+          false
+        ],
+        "action": "Action(kind='fold', amount=0, cards=())",
+        "exact_hu_showdown_share": 0.5
+      },
+      "public_quads_low_kicker": {
+        "quality": [
+          0.97,
+          7,
+          false
+        ],
+        "action": "Action(kind='raise', amount=400, cards=())",
+        "exact_hu_showdown_share": 0.02823920265780731
+      },
+      "inaccessible_sidepot": {
+        "action_raw_pot": "Action(kind='call', amount=0, cards=())",
+        "action_accessible_pot_control": "Action(kind='fold', amount=0, cards=())",
+        "raw_pot_odds": 0.047619047619047616,
+        "eligible_pot_odds": 0.3333333333333333,
+        "accessible_opponents_contributions": [
+          100,
+          100
+        ],
+        "inaccessible_sidepot": 1800
+      }
+    }
+  }
+}

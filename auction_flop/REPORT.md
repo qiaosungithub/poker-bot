@@ -48,4 +48,26 @@ Committed research snapshots preserve the other agent's implementation work thro
 
 ## New candidate batch
 
-Nine later modular candidate arms are published in [candidate_catalog.json](candidate_catalog.json) and `candidates/`, including the modular baseline, history/inference 2x2, tight/loose preflop and joint ON/OFF. Their comparison is pending; they do not replace the fixed opponents or change the calibration above. Exact source commits and final file hashes accompany every arm.
+Nine later modular candidate arms were evaluated against the unchanged v1 opponents and seeds. Each played 4,096 tables, all with zero failed decisions. Every source snapshot matches [the published catalog](candidate_catalog.json).
+
+| Candidate | Points/table | 95% interval |
+| --- | ---: | --- |
+| preflop_loose | 16.56250 | [15.97532, 17.14968] |
+| preflop_tight | 15.66162 | [15.08891, 16.23433] |
+| joint_on | 15.20264 | [14.55748, 15.84780] |
+| joint_off | 15.08789 | [14.46030, 15.71548] |
+| strong_modular_baseline | 15.08789 | [14.46030, 15.71548] |
+| history0_inference1 | 12.70752 | [12.14171, 13.27333] |
+| history0_inference0 | 12.53174 | [11.96461, 13.09887] |
+| history1_inference1 | 12.51953 | [11.94526, 13.09380] |
+| history1_inference0 | 12.32178 | [11.75357, 12.88998] |
+
+The modular baseline and joint-OFF control both exactly reproduce the frozen hybrid score, 15.08789. The highest measured score is **preflop_loose, 16.56250**. The eight prespecified paired contrasts use simultaneous 95% normal intervals with Bonferroni correction; see [complete comparisons](evidence/candidate-comparison.json).
+
+These are untimed strategy scores. They do not determine submission eligibility or SDK/IPC runtime acceptance.
+
+## Known shared betting-core defects
+
+A separate source audit reproduced three defects in the original variant betting core shared by these candidates: folding a guaranteed tie on a public royal flush; overrating a weak private kicker on public quads; and counting inaccessible side-pot money in short-stack call odds. The audit does not estimate their tournament frequency. Preserve the measured original opponents and v1 hashes; corrected implementations must be new candidates. These results establish comparative scores in this fixed field, not correctness of every betting decision.
+
+Original audit evidence is retained under [research/frozen-core-audit](research/frozen-core-audit/FINDINGS.md).

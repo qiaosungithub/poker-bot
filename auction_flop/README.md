@@ -37,7 +37,10 @@ Nine later ready-to-run arms are in [candidate_catalog.json](candidate_catalog.j
 `candidates/`. They include the strong modular baseline, history/inference 2x2,
 tight/loose preflop, and joint ON/OFF. These newer snapshots supplement the earlier
 `research/` capture. Run any one with `--candidate auction_flop/candidates/NAME`.
-Their fixed-field comparison is pending; the frozen opponents remain unchanged.
+Their 4,096-table fixed-field comparisons are complete in [the report](REPORT.md).
+`preflop_loose` leads at 16.56250 points/table; all nine had zero failed decisions.
+The report also records known common betting-core defects; corrected bots must
+be new candidates. The frozen opponents remain unchanged.
 
 ## Run after cloning
 
