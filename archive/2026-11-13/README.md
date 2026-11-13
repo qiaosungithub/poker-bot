@@ -1,7 +1,8 @@
 # November 13 project archive
 
-This closeout preserves the November 9–10 work before retiring the local
-`poker-bot` checkout. No strategy, frozen benchmark definition, opponent, seed
+This closeout preserves the November 9–10 work. The local `poker-bot` checkout
+was deleted after all recovery assets passed verification; see the
+[cleanup receipt](cleanup-receipt.json). No strategy, frozen benchmark definition, opponent, seed
 or historical measurement is changed by the archive operation.
 
 ## Where to start

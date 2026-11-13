@@ -1,0 +1,30 @@
+{
+  "completed_at_utc": "2026-11-13T04:33:01.028655+00:00",
+  "deleted_root": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot",
+  "root_absent": true,
+  "deleted_file_entries": 157520,
+  "allocated_file_bytes_before_cleanup": 22875209728,
+  "elapsed_seconds": 320.21,
+  "removed_compatibility_aliases": [
+    "/tmp/poker-hu-validation",
+    "/tmp/poker-web-audit",
+    "/tmp/poker-candidates-fast",
+    "/tmp/poker-candidates-nn",
+    "/tmp/poker-fullhouse-venv",
+    "/tmp/poker-fullhouse-train312",
+    "/tmp/poker-candidates-existing",
+    "/tmp/poker-fullhouse-train"
+  ],
+  "remote_commit_before_cleanup": "9a6152db35dbedfff5541c6936fa37ca24acaef9",
+  "recovery_release": "https://github.com/qiaosungithub/poker-bot/releases/tag/workspace-archive-2026-11-13",
+  "all_release_assets_download_verified": 13,
+  "temporary_verification_copies": "removed separately after publishing this receipt",
+  "archive_concatenation_validation": {
+    "concatenated_parts_match_authenticated_archive": true,
+    "encrypted_archive_sha256": "f6a90cb54ca019fc530051d91b3e32839578f6b57af59e4bede2a1491eec794b",
+    "size": 5406609749,
+    "parts": 11
+  },
+  "file_manifest_gzip_sha256": "43a0c248d4169aec18ff36aef58b4110f4952ea1f6ebf5452250eefe66e86e66",
+  "private_manifest_location": "/home/sqa/.config/poker-bot-archive/receipts-2026-11-13/final-deletion-manifest.jsonl.gz"
+}
