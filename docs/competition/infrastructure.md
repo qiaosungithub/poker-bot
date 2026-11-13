@@ -3,7 +3,7 @@
 Historical setup observations follow. The starter kit was later released and
 bots were submitted during November 9–10; see the
 [Auction Flop archive](../../auction_flop/README.md). The local project and
-practice services are being retired in the November 13 closeout. Remote build
+practice services were stopped for the November 13 closeout. Remote build
 machine contents and account credentials are outside that cleanup's scope.
 
 Setup verified 2026-11-09. The user runs the agent in a **server terminal**, not a local

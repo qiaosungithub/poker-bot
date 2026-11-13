@@ -3,9 +3,12 @@
 The user authorized public sharing on November 9, 2026 and chose a temporary
 URL after confirming they could not manage the domain's Cloudflare settings.
 
-Current link: **https://portland-bids-classics-anyway.trycloudflare.com**.
+Retired on November 13, 2026: both owned poker tmux sessions and the dedicated
+Quick Tunnel were stopped for project cleanup. The old temporary URL is inactive.
+The components and commands below are historical deployment/recovery guidance.
+See [the archive](../archive/2026-11-13/README.md) to restore artifacts first.
 
-## Running components
+## Historical components
 
 | Component | Location |
 | --- | --- |

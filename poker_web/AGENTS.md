@@ -2,9 +2,10 @@
 
 Read README.md and DEPLOYMENT.md here. The user authorized public sharing on
 November 9, 2026 and selected a temporary URL because DNS management is unavailable.
-Preserve the pinned strategy and benchmark source. The public server and its
-independent Cloudflare tunnel run in tmux `poker-web-public` on 127.0.0.1:8789;
-the original SSH-only server remains in `poker-web` on 127.0.0.1:8788.
+Preserve the pinned strategy and benchmark source. Both deployments were retired on November 13 during project archival.
+Historically the public server and its independent tunnel used tmux
+`poker-web-public` on 127.0.0.1:8789; the SSH-only server used `poker-web`
+on 127.0.0.1:8788. Restore dependencies and artifacts before starting either.
 Do not restart a live service without considering the user's
 in-memory table; static edits load on refresh, engine edits affect new tables.
 

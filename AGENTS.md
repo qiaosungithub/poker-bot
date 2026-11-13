@@ -5,9 +5,10 @@ infrastructure documentation, and the Fullhouse reproduction report. Consult
 [docs/sources.json](docs/sources.json) for observation dates and provenance.
 
 The human-vs-bot practice website is documented in [poker_web/README.md](poker_web/README.md).
-The public deployment runs on port 8789 in tmux `poker-web-public`, via an
-independent temporary Cloudflare tunnel; see [deployment notes](poker_web/DEPLOYMENT.md).
-The original SSH-only instance remains on port 8788 in tmux `poker-web`.
+Both practice deployments were retired on November 13 for project archival;
+see [deployment notes](poker_web/DEPLOYMENT.md) and the
+[archive guide](archive/2026-11-13/README.md). Historically the public/SSH-only
+instances used ports 8789/8788 and tmux `poker-web-public`/`poker-web`.
 Read its local instructions before changing the server or game adapters.
 
 - The user operates from a server terminal; prefer CLI/SSH workflows. A ChatGPT

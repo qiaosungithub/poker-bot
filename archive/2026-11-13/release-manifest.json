@@ -1,0 +1,209 @@
+{
+  "created_at_utc": "2026-11-13T04:25:52.561395+00:00",
+  "state": "backup_uploaded_and_fully_verified_before_local_cleanup",
+  "release_url": "https://github.com/qiaosungithub/poker-bot/releases/tag/workspace-archive-2026-11-13",
+  "source_validation": {
+    "commit": "6ea4eb815597f27e7cbaea0853517a0d623954be",
+    "fresh_remote_clone": true,
+    "frozen_benchmark_verified": true,
+    "public_model_hashes_verified": 5,
+    "event_branches_restored": 22
+  },
+  "local_snapshot_validation": {
+    "authenticated_decryption_passed": true,
+    "all_archived_file_hashes_verified": true,
+    "regular_files": 23907,
+    "symlinks": 10,
+    "payload_bytes": 13748228395,
+    "elapsed_seconds": 54.69
+  },
+  "encryption": {
+    "format": "OpenPGP symmetric AES256 with integrity protection",
+    "passphrase_bits": 256,
+    "key_published": false,
+    "key_location_on_original_server": "/home/sqa/.config/poker-bot-archive/2026-11-13.passphrase"
+  },
+  "inventory": {
+    "files": 157493,
+    "allocated_bytes": 22832017408,
+    "payload_bytes": 13705169677,
+    "owners": {
+      "2020": 157493
+    },
+    "exclude_prefixes": [
+      ".runtime/envs",
+      ".runtime/cache",
+      ".runtime/python",
+      ".runtime/tmp",
+      ".runtime/private-web/cache",
+      ".runtime/private-web/tmp"
+    ],
+    "exclude_directory_names": [
+      "__pycache__",
+      ".pytest_cache"
+    ]
+  },
+  "encrypted_archive_bytes": 5406609749,
+  "parts": [
+    {
+      "name": "poker-bot-workspace.tar.zst.gpg.part-000",
+      "size": 536870912,
+      "sha256": "8f7b0ea510789dfab43d52d0f7979fab8430294da83194486b54044d2b253a56",
+      "download_url": "https://github.com/qiaosungithub/poker-bot/releases/download/workspace-archive-2026-11-13/poker-bot-workspace.tar.zst.gpg.part-000",
+      "asset_id": 742246727,
+      "remote_digest": "sha256:8f7b0ea510789dfab43d52d0f7979fab8430294da83194486b54044d2b253a56",
+      "download_sha256_verified": true
+    },
+    {
+      "name": "poker-bot-workspace.tar.zst.gpg.part-001",
+      "size": 536870912,
+      "sha256": "a9f815a5b8c7ab4ba03448a9fadbb61997d012025142e5ed7f7c788fbee9f68f",
+      "download_url": "https://github.com/qiaosungithub/poker-bot/releases/download/workspace-archive-2026-11-13/poker-bot-workspace.tar.zst.gpg.part-001",
+      "asset_id": 742246728,
+      "remote_digest": "sha256:a9f815a5b8c7ab4ba03448a9fadbb61997d012025142e5ed7f7c788fbee9f68f",
+      "download_sha256_verified": true
+    },
+    {
+      "name": "poker-bot-workspace.tar.zst.gpg.part-002",
+      "size": 536870912,
+      "sha256": "1171464214276e85aba15086ad87ffd13529c388d10afd3b32f2e6b2cb62e0f6",
+      "download_url": "https://github.com/qiaosungithub/poker-bot/releases/download/workspace-archive-2026-11-13/poker-bot-workspace.tar.zst.gpg.part-002",
+      "asset_id": 742246726,
+      "remote_digest": "sha256:1171464214276e85aba15086ad87ffd13529c388d10afd3b32f2e6b2cb62e0f6",
+      "download_sha256_verified": true
+    },
+    {
+      "name": "poker-bot-workspace.tar.zst.gpg.part-003",
+      "size": 536870912,
+      "sha256": "51334e595cb56efad1998b9ce8256d33182c9346932c42e28f13e207246ad321",
+      "download_url": "https://github.com/qiaosungithub/poker-bot/releases/download/workspace-archive-2026-11-13/poker-bot-workspace.tar.zst.gpg.part-003",
+      "asset_id": 742247868,
+      "remote_digest": "sha256:51334e595cb56efad1998b9ce8256d33182c9346932c42e28f13e207246ad321",
+      "download_sha256_verified": true
+    },
+    {
+      "name": "poker-bot-workspace.tar.zst.gpg.part-004",
+      "size": 536870912,
+      "sha256": "d68bf076b2d251f3cc02e2329fdce1370d539cb877848254de42477136ee6d60",
+      "download_url": "https://github.com/qiaosungithub/poker-bot/releases/download/workspace-archive-2026-11-13/poker-bot-workspace.tar.zst.gpg.part-004",
+      "asset_id": 742247939,
+      "remote_digest": "sha256:d68bf076b2d251f3cc02e2329fdce1370d539cb877848254de42477136ee6d60",
+      "download_sha256_verified": true
+    },
+    {
+      "name": "poker-bot-workspace.tar.zst.gpg.part-005",
+      "size": 536870912,
+      "sha256": "22b3812e2088c684eeaa4fa943c038f6528bf8c5c8bb5814f84e23fb29eb1a0b",
+      "download_url": "https://github.com/qiaosungithub/poker-bot/releases/download/workspace-archive-2026-11-13/poker-bot-workspace.tar.zst.gpg.part-005",
+      "asset_id": 742248134,
+      "remote_digest": "sha256:22b3812e2088c684eeaa4fa943c038f6528bf8c5c8bb5814f84e23fb29eb1a0b",
+      "download_sha256_verified": true
+    },
+    {
+      "name": "poker-bot-workspace.tar.zst.gpg.part-006",
+      "size": 536870912,
+      "sha256": "3cdb02fcb02d6c45a4987657cbf9815ab3f21ce440d8f295d39f1f8b9bcbf36b",
+      "download_url": "https://github.com/qiaosungithub/poker-bot/releases/download/workspace-archive-2026-11-13/poker-bot-workspace.tar.zst.gpg.part-006",
+      "asset_id": 742248602,
+      "remote_digest": "sha256:3cdb02fcb02d6c45a4987657cbf9815ab3f21ce440d8f295d39f1f8b9bcbf36b",
+      "download_sha256_verified": true
+    },
+    {
+      "name": "poker-bot-workspace.tar.zst.gpg.part-007",
+      "size": 536870912,
+      "sha256": "6eb5a149a1cce847a3a36a793a3f8626e1763f896059e17f50a022cb10fc0175",
+      "download_url": "https://github.com/qiaosungithub/poker-bot/releases/download/workspace-archive-2026-11-13/poker-bot-workspace.tar.zst.gpg.part-007",
+      "asset_id": 742248736,
+      "remote_digest": "sha256:6eb5a149a1cce847a3a36a793a3f8626e1763f896059e17f50a022cb10fc0175",
+      "download_sha256_verified": true
+    },
+    {
+      "name": "poker-bot-workspace.tar.zst.gpg.part-008",
+      "size": 536870912,
+      "sha256": "6721bff3b945dcf51e57ab020da69172e2570792251af219890297192e062873",
+      "download_url": "https://github.com/qiaosungithub/poker-bot/releases/download/workspace-archive-2026-11-13/poker-bot-workspace.tar.zst.gpg.part-008",
+      "asset_id": 742248876,
+      "remote_digest": "sha256:6721bff3b945dcf51e57ab020da69172e2570792251af219890297192e062873",
+      "download_sha256_verified": true
+    },
+    {
+      "name": "poker-bot-workspace.tar.zst.gpg.part-009",
+      "size": 536870912,
+      "sha256": "72f5f035a558e735d5422ed83baa5310cf2c3d2b1dd04399ad97265b1bde33ff",
+      "download_url": "https://github.com/qiaosungithub/poker-bot/releases/download/workspace-archive-2026-11-13/poker-bot-workspace.tar.zst.gpg.part-009",
+      "asset_id": 742249530,
+      "remote_digest": "sha256:72f5f035a558e735d5422ed83baa5310cf2c3d2b1dd04399ad97265b1bde33ff",
+      "download_sha256_verified": true
+    },
+    {
+      "name": "poker-bot-workspace.tar.zst.gpg.part-010",
+      "size": 37900629,
+      "sha256": "588698127c5f4cf7a5b1762e06f2b7738c7799c0a8eb2ae8e5df123e39164309",
+      "download_url": "https://github.com/qiaosungithub/poker-bot/releases/download/workspace-archive-2026-11-13/poker-bot-workspace.tar.zst.gpg.part-010",
+      "asset_id": 742249713,
+      "remote_digest": "sha256:588698127c5f4cf7a5b1762e06f2b7738c7799c0a8eb2ae8e5df123e39164309",
+      "download_sha256_verified": true
+    }
+  ],
+  "cleanup": {
+    "authorized_root": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot",
+    "practice_services_stopped": [
+      {
+        "session": "poker-web",
+        "pane_pid": 1264310
+      },
+      {
+        "session": "poker-web-public",
+        "pane_pid": 1610445
+      }
+    ],
+    "compatibility_aliases": [
+      {
+        "path": "/tmp/poker-hu-validation",
+        "target": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/envs/poker-hu-validation",
+        "resolved": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/envs/poker-hu-validation"
+      },
+      {
+        "path": "/tmp/poker-web-audit",
+        "target": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/private-web/tmp",
+        "resolved": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/private-web/tmp"
+      },
+      {
+        "path": "/tmp/poker-candidates-fast",
+        "target": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/survey/poker-candidates-fast",
+        "resolved": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/survey/poker-candidates-fast"
+      },
+      {
+        "path": "/tmp/poker-candidates-nn",
+        "target": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/survey/poker-candidates-nn",
+        "resolved": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/survey/poker-candidates-nn"
+      },
+      {
+        "path": "/tmp/poker-fullhouse-venv",
+        "target": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/envs/poker-fullhouse-venv",
+        "resolved": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/envs/poker-fullhouse-venv"
+      },
+      {
+        "path": "/tmp/poker-fullhouse-train312",
+        "target": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/envs/poker-fullhouse-train312",
+        "resolved": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/envs/poker-fullhouse-train312"
+      },
+      {
+        "path": "/tmp/poker-candidates-existing",
+        "target": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/survey/poker-candidates-existing",
+        "resolved": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/survey/poker-candidates-existing"
+      },
+      {
+        "path": "/tmp/poker-fullhouse-train",
+        "target": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/envs/poker-fullhouse-train",
+        "resolved": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/envs/poker-fullhouse-train"
+      }
+    ],
+    "kept_outside_cleanup": [
+      "organizer remote build box",
+      "account SSH configuration",
+      "official API key outside checkout",
+      "archive recovery passphrase and compact receipt"
+    ]
+  }
+}

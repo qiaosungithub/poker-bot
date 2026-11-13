@@ -4,17 +4,13 @@ A Chinese-language poker website using the repository's actual engines and
 policies. Python and model inference run on this research server. Visitors need
 only a browser; no account or local installation is required.
 
-## Public link
+## Deployment retired on November 13, 2026
 
-Open **https://portland-bids-classics-anyway.trycloudflare.com** to play or share
-with teammates. Each browser has an independent human-vs-bots table. Both modes
-and all individually selectable strategies are available.
-
-The public instance runs in tmux `poker-web-public`, with HTTPS through a separate
-Cloudflare Quick Tunnel. Its current URL is also in `.runtime/web/public-url.txt`.
-The address changes when the tunnel is recreated, and the link requires the
-server and tunnel to remain running. See [deployment and recovery](DEPLOYMENT.md).
-The original SSH instance below remains available independently.
+Both local practice servers and the dedicated Quick Tunnel were stopped during
+project archival. The former temporary URL is no longer a live service.
+See the [archive guide](../archive/2026-11-13/README.md) for recovery. The commands
+below describe how to launch a new deployment after restoring source, models
+and dependencies; they do not indicate that a server is currently running.
 
 ## Open from your laptop
 
@@ -44,7 +40,7 @@ its own process using the existing evaluation environment for that mode:
 - Classic: `.runtime/envs/poker-hu-validation/bin/python`.
 - Bay Area: `.runtime/envs/poker-bay-area312/bin/python`.
 
-On the current server the service was started in tmux session **`poker-web`**:
+Historically the service was started in tmux session **`poker-web`**:
 
 ```bash
 tmux attach -t poker-web
