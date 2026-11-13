@@ -1,0 +1,346 @@
+{
+  "started_at": "2026-11-09T02:56:02.120859+00:00",
+  "hostname": "boston-team-95",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "python_config_args": "'--enable-shared' '--prefix=/usr' '--libdir=/usr/lib/x86_64-linux-gnu' '--enable-ipv6' '--enable-loadable-sqlite-extensions' '--with-dbmliborder=bdb:gdbm' '--with-computed-gotos' '--without-ensurepip' '--with-system-expat' '--with-dtrace' '--with-ssl-default-suites=openssl' '--with-wheel-pkg-dir=/usr/share/python-wheels/' 'MKDIR_P=/bin/mkdir -p' 'CC=x86_64-linux-gnu-gcc'",
+  "logical_cpus": 2,
+  "allowed_cpus": [
+    0,
+    1
+  ],
+  "selected_cpu": 0,
+  "selected_cpu_siblings": "0-1",
+  "lscpu": {
+    "lscpu": [
+      {
+        "field": "Architecture:",
+        "data": "x86_64"
+      },
+      {
+        "field": "CPU op-mode(s):",
+        "data": "32-bit, 64-bit"
+      },
+      {
+        "field": "Address sizes:",
+        "data": "46 bits physical, 48 bits virtual"
+      },
+      {
+        "field": "Byte Order:",
+        "data": "Little Endian"
+      },
+      {
+        "field": "CPU(s):",
+        "data": "2"
+      },
+      {
+        "field": "On-line CPU(s) list:",
+        "data": "0,1"
+      },
+      {
+        "field": "Vendor ID:",
+        "data": "GenuineIntel"
+      },
+      {
+        "field": "Model name:",
+        "data": "Intel(R) Xeon(R) Platinum 8488C"
+      },
+      {
+        "field": "CPU family:",
+        "data": "6"
+      },
+      {
+        "field": "Model:",
+        "data": "143"
+      },
+      {
+        "field": "Thread(s) per core:",
+        "data": "2"
+      },
+      {
+        "field": "Core(s) per socket:",
+        "data": "1"
+      },
+      {
+        "field": "Socket(s):",
+        "data": "1"
+      },
+      {
+        "field": "Stepping:",
+        "data": "8"
+      },
+      {
+        "field": "BogoMIPS:",
+        "data": "4800.00"
+      },
+      {
+        "field": "Flags:",
+        "data": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq monitor ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves avx_vnni avx512_bf16 wbnoinvd ida arat avx512vbmi umip pku ospke waitpkg avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq rdpid cldemote movdiri movdir64b md_clear serialize amx_bf16 avx512_fp16 amx_tile amx_int8 flush_l1d arch_capabilities"
+      },
+      {
+        "field": "Hypervisor vendor:",
+        "data": "KVM"
+      },
+      {
+        "field": "Virtualization type:",
+        "data": "full"
+      },
+      {
+        "field": "L1d cache:",
+        "data": "48 KiB (1 instance)"
+      },
+      {
+        "field": "L1i cache:",
+        "data": "32 KiB (1 instance)"
+      },
+      {
+        "field": "L2 cache:",
+        "data": "2 MiB (1 instance)"
+      },
+      {
+        "field": "L3 cache:",
+        "data": "105 MiB (1 instance)"
+      },
+      {
+        "field": "NUMA node(s):",
+        "data": "1"
+      },
+      {
+        "field": "NUMA node0 CPU(s):",
+        "data": "0,1"
+      },
+      {
+        "field": "Vulnerability Gather data sampling:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Ghostwrite:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Indirect target selection:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Itlb multihit:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability L1tf:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Mds:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Meltdown:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Mmio stale data:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Old microcode:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Reg file data sampling:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Retbleed:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Spec rstack overflow:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Spec store bypass:",
+        "data": "Mitigation; Speculative Store Bypass disabled via prctl"
+      },
+      {
+        "field": "Vulnerability Spectre v1:",
+        "data": "Mitigation; usercopy/swapgs barriers and __user pointer sanitization"
+      },
+      {
+        "field": "Vulnerability Spectre v2:",
+        "data": "Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS SW sequence; BHI BHI_DIS_S"
+      },
+      {
+        "field": "Vulnerability Srbds:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Tsa:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Tsx async abort:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Vmscape:",
+        "data": "Not affected"
+      }
+    ]
+  },
+  "memory": [
+    "MemTotal:        7962856 kB",
+    "MemFree:         4556412 kB",
+    "MemAvailable:    7291216 kB"
+  ],
+  "ec2_instance_type": "m7i.large",
+  "cgroup_membership": "0::/user.slice/user-1000.slice/session-186.scope",
+  "cgroup_cpu_max": null,
+  "cgroup_cpu_stat_before": "usage_usec 170798803\nuser_usec 117405529\nsystem_usec 53393273\nnice_usec 8738921\ncore_sched.force_idle_usec 0\nnr_periods 0\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+  "load_before": [
+    0.0,
+    0.01220703125,
+    0.0
+  ],
+  "cpu_times_before": {
+    "cpu": [
+      10866,
+      873,
+      5266,
+      16120331,
+      2261,
+      0,
+      72,
+      106,
+      0,
+      0
+    ],
+    "cpu0": [
+      5689,
+      362,
+      2636,
+      8059966,
+      990,
+      0,
+      49,
+      63,
+      0,
+      0
+    ],
+    "cpu1": [
+      5176,
+      511,
+      2630,
+      8060365,
+      1271,
+      0,
+      22,
+      42,
+      0,
+      0
+    ]
+  },
+  "packages": {
+    "numpy": "2.2.6",
+    "onnxruntime": "1.23.2",
+    "eval7": "0.1.11",
+    "pokerkit": "0.7.7"
+  },
+  "manifest": {
+    "fullhouse-repro/measure_latency.py": {
+      "bytes": 6130,
+      "sha256": "d3d8f9eaed4c35c74f7335238490398e0478619043bd2a48951dde621e1c0b5b"
+    },
+    "fullhouse-repro/runtime_paths.py": {
+      "bytes": 866,
+      "sha256": "b9e72a0241e8d2251f41ac65f60e31e8d030543dcdd1431db5cd51f346186fbe"
+    },
+    "hu-benchmark/run_benchmark.py": {
+      "bytes": 10944,
+      "sha256": "4194d5f0fde1c9abe16fcf8c8f0dc0b41505b03f3100c70b970ca783db384f38"
+    },
+    "hu-benchmark/multiway_latency_states.jsonl.gz": {
+      "bytes": 1311698,
+      "sha256": "bbd903aa73d056ce9e4bff6f4762379b18e23fc6782707db95a43ebc76013d8d"
+    },
+    "latency-survey/fullhouse_onnx.py": {
+      "bytes": 5181,
+      "sha256": "8ada59c184650627a841559edc3b21e65af913e69336bd45f6c6505b68dfb18c"
+    },
+    "latency-survey/fullhouse_fp32.onnx": {
+      "bytes": 588622,
+      "sha256": "7b52be99fbb20806669cba91deac58e3f0a03ec8a2169720e273ac08a67e1ef1"
+    },
+    "latency-survey/fullhouse-bot/bot/bot.py": {
+      "bytes": 9764,
+      "sha256": "f721b16e0cab72d0c40fae2e94d1ec655a94025fc20addfc689c718fb8f10845"
+    },
+    "latency-survey/fullhouse-bot/bot/features.py": {
+      "bytes": 26660,
+      "sha256": "b43361365ed911f358b3588f0c487614029158bf1420c5ffec8260bd427475c8"
+    },
+    "latency-survey/fullhouse-bot/bot/deep_cfr_lookup.py": {
+      "bytes": 6312,
+      "sha256": "9d288877f90d8c7962d7041e9cc2e6fb908009c8884a3d7863c4de1a5e9a4f20"
+    },
+    "latency-survey/fullhouse-bot/data/deep_cfr_model.npz": {
+      "bytes": 590758,
+      "sha256": "1102326b68da95564de147106612df71cb891b42f0726ba0212d3b9a5bcae295"
+    },
+    "latency-survey/fullhouse-bot/data/preflop_equity.npz": {
+      "bytes": 2160,
+      "sha256": "6b3b74778854fcebcd3179753c0252392e5f4118e6b623375c98fafa372863b3"
+    },
+    "fullhouse-repro/eval/iter_00210.onnx": {
+      "bytes": 588622,
+      "sha256": "2f2455adf06f22a3a6d87bef1b330e4ea80438a6567943abfab2762d6cf0db32"
+    }
+  },
+  "wrapper_sha256": "4bab9bb663a62398f7d76abc9b0f49106d34fac564646261b279b31c86fad319",
+  "finished_at": "2026-11-09T02:56:10.435615+00:00",
+  "elapsed_with_startup_seconds": 8.2881264059979,
+  "load_after": [
+    0.15380859375,
+    0.04541015625,
+    0.0107421875
+  ],
+  "cpu_times_after": {
+    "cpu": [
+      11684,
+      873,
+      5277,
+      16121158,
+      2262,
+      0,
+      72,
+      106,
+      0,
+      0
+    ],
+    "cpu0": [
+      6498,
+      362,
+      2645,
+      8059977,
+      990,
+      0,
+      49,
+      63,
+      0,
+      0
+    ],
+    "cpu1": [
+      5186,
+      511,
+      2632,
+      8061181,
+      1272,
+      0,
+      22,
+      42,
+      0,
+      0
+    ]
+  },
+  "cgroup_cpu_stat_after": "usage_usec 179092785\nuser_usec 125588512\nsystem_usec 53504273\nnice_usec 8738921\ncore_sched.force_idle_usec 0\nnr_periods 0\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+  "benchmark_exit_code": 0
+}

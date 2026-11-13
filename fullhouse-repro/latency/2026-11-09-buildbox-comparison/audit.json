@@ -1,0 +1,91 @@
+{
+  "audited_at": "2026-11-09T03:18:37.202079+00:00",
+  "runs": {
+    "local312": {
+      "raw_sha256": "adb48ffccf681ad8162af025d052782afa65dcbbc0e2fe1b30741597f717ac0e",
+      "independent_sorted_array_statistics": {
+        "released_wall": {
+          "n": 30000,
+          "p50_ms": 0.224655,
+          "p99_ms": 0.40861030999999975,
+          "p999_ms": 0.7397876000000057,
+          "max_ms": 8.46573,
+          "over_1ms": 16
+        },
+        "released_thread_cpu": {
+          "n": 30000,
+          "p50_ms": 0.223311,
+          "p99_ms": 0.4062810099999999,
+          "p999_ms": 0.7378367420000057,
+          "max_ms": 8.46308,
+          "over_1ms": 16
+        },
+        "reproduced_iter210_wall": {
+          "n": 30000,
+          "p50_ms": 0.22151,
+          "p99_ms": 0.36302920999999994,
+          "p999_ms": 0.51933012,
+          "max_ms": 4.30487,
+          "over_1ms": 6
+        },
+        "reproduced_iter210_thread_cpu": {
+          "n": 30000,
+          "p50_ms": 0.2202045,
+          "p99_ms": 0.36061069999999984,
+          "p999_ms": 0.5175102500000001,
+          "max_ms": 4.30352,
+          "over_1ms": 6
+        }
+      },
+      "verified_manifest_files": 12
+    },
+    "buildbox312": {
+      "raw_sha256": "df1b223ef0e7c525b3dd38e14d6701b5291fb822dd1441a4ff09c872f6643864",
+      "independent_sorted_array_statistics": {
+        "released_wall": {
+          "n": 30000,
+          "p50_ms": 0.12122,
+          "p99_ms": 0.19542401999999998,
+          "p999_ms": 0.21758412900000001,
+          "max_ms": 0.419378,
+          "over_1ms": 0
+        },
+        "released_thread_cpu": {
+          "n": 30000,
+          "p50_ms": 0.120611,
+          "p99_ms": 0.1946955999999999,
+          "p999_ms": 0.21689807,
+          "max_ms": 0.416651,
+          "over_1ms": 0
+        },
+        "reproduced_iter210_wall": {
+          "n": 30000,
+          "p50_ms": 0.1207565,
+          "p99_ms": 0.195851,
+          "p999_ms": 0.21848125700000007,
+          "max_ms": 0.445762,
+          "over_1ms": 0
+        },
+        "reproduced_iter210_thread_cpu": {
+          "n": 30000,
+          "p50_ms": 0.120154,
+          "p99_ms": 0.19509909999999997,
+          "p999_ms": 0.2166848300000002,
+          "max_ms": 0.442053,
+          "over_1ms": 0
+        }
+      },
+      "verified_manifest_files": 12
+    }
+  },
+  "comparisons": {
+    "released": {
+      "local_divided_by_buildbox_p50": 1.853283286586372,
+      "local_divided_by_buildbox_p99": 2.090890925281344
+    },
+    "reproduced_iter210": {
+      "local_divided_by_buildbox_p50": 1.834352602137359,
+      "local_divided_by_buildbox_p99": 1.8535989604342074
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "auction_budget_matches_old_on_all_random_states": true,
+  "both_auction_implementations_identical": true,
+  "card_helpers_match_donor_verbatim": [
+    "call",
+    "equity",
+    "passive",
+    "raise_to",
+    "random_stream"
+  ],
+  "correctness_helpers_byte_identical": true,
+  "random_bid_states": 1000,
+  "runtime_scope": "Untimed benchmark; 1000 ms SDK wiring. No production 1 ms qualification.",
+  "screen_seconds": 23.322009755065665,
+  "sdk_wiring": {
+    "decision_ms": 1000,
+    "hand_cap": 20,
+    "players": 8,
+    "tables": 2,
+    "total_failed_decisions": 0
+  },
+  "total_strength_seconds": 147.80083875506568,
+  "unit_tests_passed": 8
+}

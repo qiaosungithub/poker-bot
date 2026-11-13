@@ -1,0 +1,13 @@
+{
+  "sha256": "5226ab9a18b2f9afc5c5cb1f9c1668a96d92581b12ed24124888dfbb266a57f0",
+  "size_bytes": 9844,
+  "files": [
+    "agent.py",
+    "classic_postflop.py",
+    "config.py",
+    "hand_contribution.py",
+    "pot_accounting.py",
+    "simple_auction.py",
+    "simple_preflop.py"
+  ]
+}

@@ -71,6 +71,19 @@ objective comparison and separately attributed official-round evidence.
 The report also records known common betting-core defects; corrected bots must
 be new candidates. The frozen opponents remain unchanged.
 
+## Additional archived simple-policy experiments
+
+The [patient-policy cycle](research/patient_loop/RESULTS.md) reached
+13.134765625 points/table on the same frozen v1, improving its own control
+by 1.11083984375. Its fresh-seed paired gain was 0.9765625. This is below the
+macro program's leading candidate and was never submitted. The
+[simple baseline](research/simple_classic_v1/RESULTS.md),
+[parameter screen](research/simple_tuning_v2/RESULTS.md), and
+[patient/key-card comparison](research/patient_value_v1/RESULTS.md) retain
+all candidate sources, rejected arms and raw records. These previously local
+experiments were published during the November 13 closeout; no benchmark
+configuration or historical result was changed.
+
 ## Run after cloning
 
 Use Python 3.12 on Linux and run commands from the repository root. No model,

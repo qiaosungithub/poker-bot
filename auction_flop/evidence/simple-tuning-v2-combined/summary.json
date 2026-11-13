@@ -1,0 +1,24 @@
+{
+  "all_scores_audited": true,
+  "confidence_scope": "Unadjusted descriptive intervals; arm selection is optimistic.",
+  "scores": [
+    {
+      "candidate_decisions": 70048,
+      "ci95": [
+        8.996732464097848,
+        11.550142535902152
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 8.74609375,
+      "mean_points": 10.2734375,
+      "mean_spent_flopchips": 620.205078125,
+      "name": "combined",
+      "table_sha256": "18a0b227e75198e2893b108a490f17d5b30b90441d10a1d23dbc4d6b7b37bccf",
+      "tables": 512,
+      "total_failures": 0
+    }
+  ],
+  "seconds": 18.28455519815907,
+  "selection_only": true,
+  "total_tables": 512
+}

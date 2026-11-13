@@ -1,6 +1,6 @@
 {
-  "documented_at": "2026-11-08T17:42:11.907998+00:00",
-  "scope": "Boston pre-reveal documentation; recheck event configuration before use",
+  "documented_at": "2026-11-09T03:20:13.941606+00:00",
+  "scope": "Boston pre-reveal documentation and authorized remote setup; recheck event configuration before use",
   "sources": [
     {
       "id": "portal_getting_started",
@@ -56,6 +56,43 @@
         "Help desk 16:30 ET; check-in/dinner 17:00-18:00 ET; kickoff 18:00 ET on 2026-11-09.",
         "David Rubenstein Treehouse, Harvard University, 20 Western Ave, Boston, MA 02134."
       ]
+    },
+    {
+      "id": "setup_guide_installed_20261109",
+      "captured_at": "2026-11-09T02:40:47.096431+00:00",
+      "capture_path": ".runtime/private-web/official-setup-current.md",
+      "sha256": "1070831bce7c0df4fc5c8d303ef43106c5b7caec7da4dbd0056ca386cfd1167e",
+      "access": "Public guide installed at /home/sqa/.agents/skills/no-limit-2026-setup/SKILL.md and applied with user authorization",
+      "url": "https://pokerbot.sequoiacap.com/tournament/no-limit-2026-setup/SKILL.md"
+    },
+    {
+      "id": "remote_setup_probe_20261109",
+      "captured_at": "2026-11-09T02:42:47.285820+00:00",
+      "capture_path": ".runtime/private-web/ssh-probe-20261109.txt",
+      "sha256": "b2c51d2652d74cb0dda10957c89794fe783f6b34ae2588b554eee62992d800b1",
+      "access": "SSH readback after authorized configuration; ubuntu, hostname, cloud-init and installed tools; Codex not signed in at probe time"
+    },
+    {
+      "id": "buildbox_latency_20261109",
+      "captured_at": "2026-11-09T02:56:42.310997+00:00",
+      "capture_path": "fullhouse-repro/latency/2026-11-09-buildbox-comparison/buildbox312/result.json",
+      "sha256": "bc5ec5cc95c79590cd127972d55d936be420686c59504d318c3b54a0936196e3",
+      "access": "Authorized research-only latency test on the team build box; no SDK or production IPC"
+    },
+    {
+      "id": "buildbox_host_20261109",
+      "captured_at": "2026-11-09T02:56:42.386003+00:00",
+      "capture_path": "fullhouse-repro/latency/2026-11-09-buildbox-comparison/buildbox312/host.json",
+      "sha256": "712e8bc4b310ba1586bb63e681eb406b36d0cad495e2e595cdcc436f34b2a5ab",
+      "access": "Read-only host probe; EC2 instance type, CPU topology, Python/packages and load counters"
+    },
+    {
+      "id": "starter_kit_status_20261109T031759Z",
+      "captured_at": "2026-11-09T03:17:59.613402+00:00",
+      "capture_path": ".runtime/private-web/kit-check-20261109T031759Z.json",
+      "sha256": "8d7b5737483b9fee9a6c1e7a6584631d7b08f672c859bf7c280174bd8215d6f0",
+      "access": "Authenticated read: no announced Boston variant; API-provided download URL returned HTTP 404"
     }
-  ]
+  ],
+  "archive_note": "2026-11-13: original source observations retained; see archive/2026-11-13/README.md for release and recovery provenance."
 }

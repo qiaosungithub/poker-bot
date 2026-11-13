@@ -1,0 +1,84 @@
+{
+  "all_scores_audited": true,
+  "confidence_scope": "Unadjusted descriptive intervals; arm selection is optimistic.",
+  "scores": [
+    {
+      "candidate_decisions": 77018,
+      "ci95": [
+        12.352060518534964,
+        15.265126981465036
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 10.498046875,
+      "mean_points": 13.80859375,
+      "mean_spent_flopchips": 668.62109375,
+      "name": "patient_shortcall_v2",
+      "table_sha256": "0f1913b1b8811484e5fdbedf87772c02145edf983318ab5e2c9f750e7c5c49d7",
+      "tables": 512,
+      "total_failures": 0
+    },
+    {
+      "candidate_decisions": 74304,
+      "ci95": [
+        12.082241886659517,
+        14.909945613340483
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 8.595703125,
+      "mean_points": 13.49609375,
+      "mean_spent_flopchips": 629.185546875,
+      "name": "patient_huopen_v2",
+      "table_sha256": "c85da4bf6a607c0f7cdf3c12c63812740f9e707614157dc161628a9ca37c2672",
+      "tables": 512,
+      "total_failures": 0
+    },
+    {
+      "candidate_decisions": 72676,
+      "ci95": [
+        11.601407874234411,
+        14.344685875765588
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 8.396484375,
+      "mean_points": 12.973046875,
+      "mean_spent_flopchips": 616.537109375,
+      "name": "patient_price_v2",
+      "table_sha256": "c748b89e616436e1e6006fc21d93d84ffab52b1d7303869580c78fe6d06e861b",
+      "tables": 512,
+      "total_failures": 0
+    },
+    {
+      "candidate_decisions": 73943,
+      "ci95": [
+        11.58012528581073,
+        14.365968464189269
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 8.537109375,
+      "mean_points": 12.973046875,
+      "mean_spent_flopchips": 627.07421875,
+      "name": "patient_value_v1",
+      "table_sha256": "2c3757befff4a08ac7620a4d2440ba1a9168d00230a4acf47557066ebc3da795",
+      "tables": 512,
+      "total_failures": 0
+    },
+    {
+      "candidate_decisions": 74386,
+      "ci95": [
+        11.560324915915922,
+        14.338112584084078
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 9.138671875,
+      "mean_points": 12.94921875,
+      "mean_spent_flopchips": 650.828125,
+      "name": "patient_loose_v2",
+      "table_sha256": "4beab89519c1261483cf02579122f85e294cb23e0db7a0070096956b1f5d5fae",
+      "tables": 512,
+      "total_failures": 0
+    }
+  ],
+  "seconds": 36.66496897418983,
+  "selection_only": true,
+  "total_tables": 2560
+}

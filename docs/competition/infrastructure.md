@@ -1,16 +1,25 @@
 # Infrastructure and terminal workflow
 
-Checked 2026-11-08. The user runs the agent in a **server terminal**, not a local
+Historical setup observations follow. The starter kit was later released and
+bots were submitted during November 9–10; see the
+[Auction Flop archive](../../auction_flop/README.md). The local project and
+practice services are being retired in the November 13 closeout. Remote build
+machine contents and account credentials are outside that cleanup's scope.
+
+Setup verified 2026-11-09. The user runs the agent in a **server terminal**, not a local
 ChatGPT desktop app. There are three different environments:
 
 | Environment | Purpose | Status |
 |---|---|---|
 | This research server and `poker-bot/` | Existing training, benchmarks and documentation | Working; Fullhouse training complete |
-| Organizer EC2 build box | Team development/testing near the production runtime | Offered by portal; not configured or accessed by this agent |
+| Organizer EC2 build box | Team development/testing near the production runtime | Configured; SSH login to `boston-team-95` verified on November 9 |
 | Organizer bot microVMs | Execute submitted bots in scored tables | No access or accepted submission verified |
 
 The build box is described as similar to tournament machines, not proof of an
-identical CPU model. Exact instance/CPU specifications have not been established.
+identical CPU model. On November 9 we verified this box as EC2 `m7i.large`, Intel
+Xeon Platinum 8488C, two logical CPUs (one core with two threads), with about
+7.6 GiB visible RAM. The production bot microVM's CPU and allocation remain
+unverified. See the [Fullhouse host comparison](../../fullhouse-repro/latency/2026-11-09-buildbox-comparison/REPORT.md).
 
 ## Own equipment and GPU training: evidence boundary
 
@@ -45,6 +54,37 @@ On November 8 we authenticated, verified `/api/me`, and rendered Getting started
 and Format. We did not create API keys, register SSH keys, claim credits, connect
 to the EC2 box, upload a bot, or change the active bot. Do not infer that another
 team member has or has not done those things.
+
+### November 9 authorized setup
+
+- Installed the official skill, version `2026-11-05.2`, at
+  `/home/sqa/.agents/skills/no-limit-2026-setup/SKILL.md`. It matches the freshly
+  downloaded organizer source byte-for-byte. Invoke `$no-limit-2026-setup` in
+  Codex to resume after the variant announcement.
+- Created the account's previously absent tournament API key and validated its
+  Boston team association. Its value is stored only in
+  `/home/sqa/.config/no-limit-2026/api-key` (mode 600; parent directory mode 700).
+  Do not print it or copy it to the remote box.
+- Reused `/home/sqa/.ssh/google_compute_engine` and registered only its public
+  half. Verified fingerprint:
+  `SHA256:X9EelZeEdn3n57ktKUXgRIYoyM+FE9lkyafnop5zIMk`.
+- Created `/home/sqa/.ssh/config` with alias `no-limit-2026-build`, host
+  `44.195.21.228`, user `ubuntu`, `IdentitiesOnly yes`,
+  `StrictHostKeyChecking accept-new` and `ForwardAgent no`.
+- An actual SSH probe returned `ubuntu`, hostname `boston-team-95` and
+  `cloud-init` status `done`. Python 3.12.3, pip 24.0, curl, unzip, tmux and
+  `/usr/bin/codex` are installed. The remote `~/work` directory was empty.
+- Codex 0.167.0 was not signed in at the setup probe. Device authorization was
+  started, but completion was not verified. Login is optional and was not needed
+  for the subsequent remote latency tests. Inspect `codex login status` before
+  starting another flow; do not reuse an old device code.
+- The live competition still had no variant, and the API-provided starter-kit
+  URL returned HTTP 404. No kit was installed and no kit smoke test was possible.
+- Credits were not claimed and no bot was uploaded or activated.
+
+Local operational evidence: `.runtime/private-web/setup-20261109.json` and
+`.runtime/private-web/ssh-probe-20261109.txt`. The alias and installed skill are
+local to this server; they are not automatically installed on the user's laptop.
 
 ## Logging in from a server
 
@@ -84,13 +124,13 @@ was needed. These details describe the helper, not tournament requirements.
 ## Official setup guide
 
 The organizer's [setup skill](https://pokerbot.sequoiacap.com/tournament/no-limit-2026-setup/SKILL.md)
-was read as documentation, **not invoked for setup**. Observed version:
-`2026-11-05.2`; re-download before applying it. It can register an SSH public key,
+was installed and used for the authorized November 9 setup. Observed version:
+`2026-11-05.2`; re-download before applying it again. It can register an SSH public key,
 prepare the SSH alias and later install the starter kit. The portal recommends a
 smaller model for this routine setup. Every competitor is offered $50 of OpenAI
 credits; claiming them is a separate account action.
 
-For a future authorized setup, inspect existing configuration before changing
+For later setup runs, inspect existing configuration before changing
 it. Keep private keys and the tournament API key on the connecting machine; only
 the public `.pub` key goes to the organizer. Do not place token values in this
 documentation or shell examples. The guide's normal API base is
@@ -136,10 +176,27 @@ codex
 
 The last Codex sign-in on a shared box replaces the previous one; preserve a
 working team sign-in. The optional desktop-app connection is not needed for this
-terminal workflow. These organizer-documented commands have not yet been tested
-on this team's box.
+terminal workflow. SSH and tool availability were verified on this team's box;
+interactive Codex use requires a separate account sign-in if not already present.
+
+## Installed research latency environment
+
+The standalone Fullhouse benchmark is ready at
+`/home/ubuntu/work/fullhouse-latency`, using its own `.venv` with Python 3.12.3,
+NumPy 2.2.6, ONNX Runtime 1.23.2 and eval7 0.1.11. This environment is separate
+from the future official starter kit; it does not require remote Codex login.
+The selected iteration-210 model measured P99 0.196 ms, maximum 0.446 ms and
+0/30,000 calls over 1 ms for the warm research decision path. Official SDK,
+memory transport and IPC are excluded. See the
+[report and repeat command](../../fullhouse-repro/latency/2026-11-09-buildbox-comparison/REPORT.md)
+for raw results, machine differences and comparison limitations.
 
 ## Starter kit and local verification
+
+At 2026-11-09 03:17:59 UTC the authenticated Boston configuration still had no
+announced variant and the API-provided starter-kit download returned HTTP 404.
+The installed research latency environment is usable while the official kit is
+unavailable.
 
 At reveal, inspect the actual kit's `AGENTS.md`, `CLAUDE.md`, `README.md`,
 `RULES.md` and `requirements.txt`. It contains the protocol, local engine, SDK,

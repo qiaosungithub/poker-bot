@@ -81,10 +81,14 @@ server's absolute paths and need adjustment on a different machine.
   governed by those submodules.
 - Generated logs and Python caches.
 
-Models, environments and private session files remain on disk. Git is **not**
-their backup. In particular, cloning only this repository does not transfer our selected
-iteration-210 weights. The selected model and released reference are identified
-in [the artifact manifest](research/model-artifacts.json).
+As of the November 13 closeout, selected iteration-210 exports, the iteration-250
+comparison export and the released ONNX reference have public copies in
+[`archive/2026-11-13/models/`](../archive/2026-11-13/models/), with original paths
+and SHA-256 hashes in its [manifest](../archive/2026-11-13/model-manifest.json).
+The original [model inventory](research/model-artifacts.json) remains dated
+historical evidence. Full training/resume state and private worktree artifacts
+are covered by the [encrypted recovery archive](../archive/2026-11-13/README.md).
+Environments and caches can be recreated; they are excluded from that archive.
 
 The ignored private browser helpers are also server-local. Their absence after
 a clone does not prevent ordinary browser login or the official CLI setup.

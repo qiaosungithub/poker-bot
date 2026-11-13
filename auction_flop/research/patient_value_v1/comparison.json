@@ -1,0 +1,102 @@
+{
+  "control": "simple_tuned_v2",
+  "control_score": 10.67138671875,
+  "keycard_only_changes_auction": true,
+  "results": {
+    "patient_value_v1": {
+      "comparison": {
+        "bonferroni_ci97_5": [
+          0.7427835185724888,
+          1.9622946064275113
+        ],
+        "ci95": [
+          0.8193368622086808,
+          1.8857412627913193
+        ],
+        "difference": 1.3525390625,
+        "family": "Two declared comparisons versus simple_tuned_v2",
+        "independent_blocks": 512
+      },
+      "first_place_rate": 0.042724609375,
+      "mean_auctions": 8.463623046875,
+      "package_equals_measured_source": true,
+      "seconds": 62.600534,
+      "sole_chip_wins": 175,
+      "source_hashes": {
+        "agent.py": "7e6609e2ae5d06ae52f8df2f8b4d69da44f5e63b82a11676af0a31fa08c1f703",
+        "cards.py": "1480e47bb5355658f1e1ce017f5074344b44d90cb9dd27aec4ced07ab19f2a84",
+        "config.py": "5a74569d70248cf51a1cb54564c2166adf54ba46db12c19edbf73b603398d136",
+        "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+        "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+        "simple_auction.py": "eb196348447da3e8210fe7116481bac13ef8426b6532f6a68abda7d13a431d8c",
+        "simple_preflop.py": "67966cf907c04b3322bf063a1926fa269c426bad8e8d406da2bada14ea671f63",
+        "value_postflop.py": "dbdf2f856819c03b9f3f3dffd0450f3a871e47425594771b29d3c6ef1d9112a7"
+      },
+      "summary": {
+        "all_scores_audited": true,
+        "candidate_decisions": 590220,
+        "candidate_failures": 0,
+        "ci95": [
+          11.549582198407316,
+          12.498269364092684
+        ],
+        "independent_blocks": 512,
+        "mean_chips": 683.59375,
+        "mean_points": 12.02392578125,
+        "mean_remaining_flopchips": 378.2421875,
+        "mean_spent_flopchips": 621.7578125,
+        "official_score": true,
+        "tables": 4096,
+        "total_failures": 0,
+        "valid": true
+      }
+    },
+    "simple_keycard_v1": {
+      "comparison": {
+        "bonferroni_ci97_5": [
+          -0.22621980092663502,
+          0.489657300926635
+        ],
+        "ci95": [
+          -0.18128147578533083,
+          0.4447189757853308
+        ],
+        "difference": 0.13171875,
+        "family": "Two declared comparisons versus simple_tuned_v2",
+        "independent_blocks": 512
+      },
+      "first_place_rate": 0.012451171875,
+      "mean_auctions": 8.766845703125,
+      "package_equals_measured_source": true,
+      "seconds": 61.878295,
+      "sole_chip_wins": 51,
+      "source_hashes": {
+        "agent.py": "8bf92c5122f13dd8d372092f788fac2a36769fd4acd4858bb8ec3da32c5b39c8",
+        "classic_postflop.py": "73af96dbcf5755f4354033bd1238790959b5bec4d4a51183ccd92db8dbfea4ae",
+        "config.py": "c306d8dc7f3c19ed3ad5057b28faf775c63c88ad7d357c946e0d2b1b1792d3bc",
+        "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+        "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+        "simple_auction.py": "eb196348447da3e8210fe7116481bac13ef8426b6532f6a68abda7d13a431d8c",
+        "simple_preflop.py": "5c4395b211b4a18d02893af09c1f268d14f1d2935637a1f42500cfcee0aa1b8f"
+      },
+      "summary": {
+        "all_scores_audited": true,
+        "candidate_decisions": 563586,
+        "candidate_failures": 0,
+        "ci95": [
+          10.380476956933341,
+          11.22573398056666
+        ],
+        "independent_blocks": 512,
+        "mean_chips": 201.078125,
+        "mean_points": 10.803105468750001,
+        "mean_remaining_flopchips": 361.447998046875,
+        "mean_spent_flopchips": 638.552001953125,
+        "official_score": true,
+        "tables": 4096,
+        "total_failures": 0,
+        "valid": true
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "patient_defend_v2",
+  "sha256": "c271c708d90b19be2439dd1f0746479b50bf09cc714573f92cf8561a48f2b834",
+  "size_bytes": 11542,
+  "files": [
+    "agent.py",
+    "cards.py",
+    "config.py",
+    "hand_contribution.py",
+    "pot_accounting.py",
+    "preflop_table.py",
+    "simple_auction.py",
+    "simple_preflop.py",
+    "value_postflop.py"
+  ]
+}

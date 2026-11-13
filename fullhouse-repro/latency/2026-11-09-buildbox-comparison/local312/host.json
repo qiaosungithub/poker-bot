@@ -1,0 +1,556 @@
+{
+  "started_at": "2026-11-09T02:56:01.663882+00:00",
+  "hostname": "t1v-n-21fe7514-w-0",
+  "platform": "Linux-5.19.0-1022-gcp-x86_64-with-glibc2.35",
+  "python": "3.12.16 (main, Oct 26 2026, 14:08:45) [Clang 23.1.3 ]",
+  "python_config_args": "'--build=x86_64-unknown-linux-gnu' '--host=x86_64-unknown-linux-gnu' '--prefix=/install' '--with-openssl=/tools/deps' '--with-system-expat' '--without-ensurepip' '--with-readline=editline' '--with-system-libmpdec' 'MODULE_BUILDTYPE=static' '--enable-loadable-sqlite-extensions' '--enable-static-libpython-for-interpreter' '--enable-shared' '--enable-optimizations' '--enable-bolt' '--with-lto=full' '--with-build-python=/tools/host/bin/python3.12' '--with-dbmliborder=bdb' 'build_alias=x86_64-unknown-linux-gnu' 'host_alias=x86_64-unknown-linux-gnu' 'PKG_CONFIG=pkg-config --static' 'PKG_CONFIG_PATH=/tools/deps/share/pkgconfig:/tools/deps/lib/pkgconfig' 'CC=clang' 'CFLAGS= -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC ' 'LDFLAGS= -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--build-id=sha1 -Wl,--exclude-libs,ALL' 'CPPFLAGS= -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC ' 'PROFILE_TASK=-m test --pgo -j 4' 'BOLT_COMMON_FLAGS=-update-debug-sections -skip-funcs=_Py_trampoline_func_.*,RC4_options/1,sha256_update/.*,sha512_update/.*,PyBlake2_blake2b_compress/.*,PyBlake2_blake2s_compress/.*,update_block.*' 'BOLT_APPLY_FLAGS=-update-debug-sections -skip-funcs=_Py_trampoline_func_.*,RC4_options/1,sha256_update/.*,sha512_update/.*,PyBlake2_blake2b_compress/.*,PyBlake2_blake2s_compress/.*,update_block.* -reorder-blocks=ext-tsp -reorder-functions=cdsort -split-functions -split-strategy=cdsplit -icf=safe -inline-all -split-eh -reorder-functions-use-hot-size -peepholes=none -jump-tables=aggressive -inline-ap -indirect-call-promotion=all -dyno-stats -frame-opt=hot' 'PANEL_CFLAGS=' 'PANEL_LIBS=-lpanelw -lncursesw'",
+  "logical_cpus": 240,
+  "allowed_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239
+  ],
+  "selected_cpu": 1,
+  "selected_cpu_siblings": "1,121",
+  "lscpu": {
+    "lscpu": [
+      {
+        "field": "Architecture:",
+        "data": "x86_64"
+      },
+      {
+        "field": "CPU op-mode(s):",
+        "data": "32-bit, 64-bit"
+      },
+      {
+        "field": "Address sizes:",
+        "data": "48 bits physical, 48 bits virtual"
+      },
+      {
+        "field": "Byte Order:",
+        "data": "Little Endian"
+      },
+      {
+        "field": "CPU(s):",
+        "data": "240"
+      },
+      {
+        "field": "On-line CPU(s) list:",
+        "data": "0-239"
+      },
+      {
+        "field": "Vendor ID:",
+        "data": "AuthenticAMD"
+      },
+      {
+        "field": "Model name:",
+        "data": "AMD EPYC 7B12"
+      },
+      {
+        "field": "CPU family:",
+        "data": "23"
+      },
+      {
+        "field": "Model:",
+        "data": "49"
+      },
+      {
+        "field": "Thread(s) per core:",
+        "data": "2"
+      },
+      {
+        "field": "Core(s) per socket:",
+        "data": "60"
+      },
+      {
+        "field": "Socket(s):",
+        "data": "2"
+      },
+      {
+        "field": "Stepping:",
+        "data": "0"
+      },
+      {
+        "field": "BogoMIPS:",
+        "data": "4500.00"
+      },
+      {
+        "field": "Flags:",
+        "data": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibrs ibpb stibp vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr arat npt nrip_save umip rdpid"
+      },
+      {
+        "field": "Hypervisor vendor:",
+        "data": "KVM"
+      },
+      {
+        "field": "Virtualization type:",
+        "data": "full"
+      },
+      {
+        "field": "L1d cache:",
+        "data": "3.8 MiB (120 instances)"
+      },
+      {
+        "field": "L1i cache:",
+        "data": "3.8 MiB (120 instances)"
+      },
+      {
+        "field": "L2 cache:",
+        "data": "60 MiB (120 instances)"
+      },
+      {
+        "field": "L3 cache:",
+        "data": "480 MiB (30 instances)"
+      },
+      {
+        "field": "NUMA node(s):",
+        "data": "2"
+      },
+      {
+        "field": "NUMA node0 CPU(s):",
+        "data": "0-59,120-179"
+      },
+      {
+        "field": "NUMA node1 CPU(s):",
+        "data": "60-119,180-239"
+      },
+      {
+        "field": "Vulnerability Itlb multihit:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability L1tf:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Mds:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Meltdown:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Mmio stale data:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Retbleed:",
+        "data": "Mitigation; untrained return thunk; SMT enabled with STIBP protection"
+      },
+      {
+        "field": "Vulnerability Spec store bypass:",
+        "data": "Mitigation; Speculative Store Bypass disabled via prctl"
+      },
+      {
+        "field": "Vulnerability Spectre v1:",
+        "data": "Mitigation; usercopy/swapgs barriers and __user pointer sanitization"
+      },
+      {
+        "field": "Vulnerability Spectre v2:",
+        "data": "Mitigation; Retpolines, IBPB conditional, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected"
+      },
+      {
+        "field": "Vulnerability Srbds:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Tsx async abort:",
+        "data": "Not affected"
+      }
+    ]
+  },
+  "memory": [
+    "MemTotal:       419926132 kB",
+    "MemFree:        64826820 kB",
+    "MemAvailable:   341538540 kB"
+  ],
+  "ec2_instance_type": null,
+  "cgroup_membership": "0::/user.slice/user-2020.slice/session-24382.scope",
+  "cgroup_cpu_max": null,
+  "cgroup_cpu_stat_before": "usage_usec 4029773084000\nuser_usec 3467243704000\nsystem_usec 562529380000\nnr_periods 0\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+  "load_before": [
+    67.30322265625,
+    71.31689453125,
+    69.76416015625
+  ],
+  "cpu_times_before": {
+    "cpu": [
+      341772289,
+      4952080,
+      54639869,
+      33070462691,
+      4086991,
+      0,
+      1613068,
+      0,
+      0,
+      0
+    ],
+    "cpu1": [
+      2385318,
+      27212,
+      289142,
+      136640601,
+      109870,
+      0,
+      33091,
+      0,
+      0,
+      0
+    ],
+    "cpu121": [
+      1452076,
+      18572,
+      232050,
+      137796040,
+      12801,
+      0,
+      422,
+      0,
+      0,
+      0
+    ]
+  },
+  "packages": {
+    "numpy": "2.2.6",
+    "onnxruntime": "1.23.2",
+    "eval7": "0.1.11",
+    "pokerkit": "0.7.7"
+  },
+  "manifest": {
+    "fullhouse-repro/measure_latency.py": {
+      "bytes": 6130,
+      "sha256": "d3d8f9eaed4c35c74f7335238490398e0478619043bd2a48951dde621e1c0b5b"
+    },
+    "fullhouse-repro/runtime_paths.py": {
+      "bytes": 866,
+      "sha256": "b9e72a0241e8d2251f41ac65f60e31e8d030543dcdd1431db5cd51f346186fbe"
+    },
+    "hu-benchmark/run_benchmark.py": {
+      "bytes": 10944,
+      "sha256": "4194d5f0fde1c9abe16fcf8c8f0dc0b41505b03f3100c70b970ca783db384f38"
+    },
+    "hu-benchmark/multiway_latency_states.jsonl.gz": {
+      "bytes": 1311698,
+      "sha256": "bbd903aa73d056ce9e4bff6f4762379b18e23fc6782707db95a43ebc76013d8d"
+    },
+    "latency-survey/fullhouse_onnx.py": {
+      "bytes": 5181,
+      "sha256": "8ada59c184650627a841559edc3b21e65af913e69336bd45f6c6505b68dfb18c"
+    },
+    "latency-survey/fullhouse_fp32.onnx": {
+      "bytes": 588622,
+      "sha256": "7b52be99fbb20806669cba91deac58e3f0a03ec8a2169720e273ac08a67e1ef1"
+    },
+    "latency-survey/fullhouse-bot/bot/bot.py": {
+      "bytes": 9764,
+      "sha256": "f721b16e0cab72d0c40fae2e94d1ec655a94025fc20addfc689c718fb8f10845"
+    },
+    "latency-survey/fullhouse-bot/bot/features.py": {
+      "bytes": 26660,
+      "sha256": "b43361365ed911f358b3588f0c487614029158bf1420c5ffec8260bd427475c8"
+    },
+    "latency-survey/fullhouse-bot/bot/deep_cfr_lookup.py": {
+      "bytes": 6312,
+      "sha256": "9d288877f90d8c7962d7041e9cc2e6fb908009c8884a3d7863c4de1a5e9a4f20"
+    },
+    "latency-survey/fullhouse-bot/data/deep_cfr_model.npz": {
+      "bytes": 590758,
+      "sha256": "1102326b68da95564de147106612df71cb891b42f0726ba0212d3b9a5bcae295"
+    },
+    "latency-survey/fullhouse-bot/data/preflop_equity.npz": {
+      "bytes": 2160,
+      "sha256": "6b3b74778854fcebcd3179753c0252392e5f4118e6b623375c98fafa372863b3"
+    },
+    "fullhouse-repro/eval/iter_00210.onnx": {
+      "bytes": 588622,
+      "sha256": "2f2455adf06f22a3a6d87bef1b330e4ea80438a6567943abfab2762d6cf0db32"
+    }
+  },
+  "wrapper_sha256": "4bab9bb663a62398f7d76abc9b0f49106d34fac564646261b279b31c86fad319",
+  "finished_at": "2026-11-09T02:56:17.998200+00:00",
+  "elapsed_with_startup_seconds": 16.226355570135638,
+  "load_after": [
+    67.06884765625,
+    71.0849609375,
+    69.71435546875
+  ],
+  "cpu_times_after": {
+    "cpu": [
+      341870654,
+      4958576,
+      54641051,
+      33070745167,
+      4087025,
+      0,
+      1613115,
+      0,
+      0,
+      0
+    ],
+    "cpu1": [
+      2386878,
+      27212,
+      289162,
+      136640642,
+      109871,
+      0,
+      33091,
+      0,
+      0,
+      0
+    ],
+    "cpu121": [
+      1452479,
+      18572,
+      232055,
+      137797260,
+      12801,
+      0,
+      422,
+      0,
+      0,
+      0
+    ]
+  },
+  "cgroup_cpu_stat_after": "usage_usec 4030834252000\nuser_usec 3468292584000\nsystem_usec 562541668000\nnr_periods 0\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+  "benchmark_exit_code": 0
+}

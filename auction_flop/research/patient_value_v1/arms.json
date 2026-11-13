@@ -1,0 +1,5 @@
+{
+  "control": "candidates/simple_tuned_v2",
+  "keycard": "candidates/simple_keycard_v1",
+  "patient": "candidates/patient_value_v1"
+}

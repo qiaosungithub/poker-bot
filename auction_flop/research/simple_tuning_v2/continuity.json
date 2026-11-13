@@ -1,0 +1,19 @@
+{
+  "native_tables": 16,
+  "identical_decisions_by_phase": {
+    "preflop": 18370,
+    "auction": 697,
+    "flop": 296,
+    "turn": 240,
+    "river": 151
+  },
+  "total_identical_decisions": 19754,
+  "candidate_failures": 0,
+  "corpus": {
+    "preflop": 200,
+    "auction": 200,
+    "flop": 200,
+    "turn": 200,
+    "river": 151
+  }
+}

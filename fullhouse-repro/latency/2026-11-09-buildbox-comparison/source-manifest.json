@@ -1,0 +1,50 @@
+{
+  "fullhouse-repro/measure_latency.py": {
+    "bytes": 6130,
+    "sha256": "d3d8f9eaed4c35c74f7335238490398e0478619043bd2a48951dde621e1c0b5b"
+  },
+  "fullhouse-repro/runtime_paths.py": {
+    "bytes": 866,
+    "sha256": "b9e72a0241e8d2251f41ac65f60e31e8d030543dcdd1431db5cd51f346186fbe"
+  },
+  "hu-benchmark/run_benchmark.py": {
+    "bytes": 10944,
+    "sha256": "4194d5f0fde1c9abe16fcf8c8f0dc0b41505b03f3100c70b970ca783db384f38"
+  },
+  "hu-benchmark/multiway_latency_states.jsonl.gz": {
+    "bytes": 1311698,
+    "sha256": "bbd903aa73d056ce9e4bff6f4762379b18e23fc6782707db95a43ebc76013d8d"
+  },
+  "latency-survey/fullhouse_onnx.py": {
+    "bytes": 5181,
+    "sha256": "8ada59c184650627a841559edc3b21e65af913e69336bd45f6c6505b68dfb18c"
+  },
+  "latency-survey/fullhouse_fp32.onnx": {
+    "bytes": 588622,
+    "sha256": "7b52be99fbb20806669cba91deac58e3f0a03ec8a2169720e273ac08a67e1ef1"
+  },
+  "latency-survey/fullhouse-bot/bot/bot.py": {
+    "bytes": 9764,
+    "sha256": "f721b16e0cab72d0c40fae2e94d1ec655a94025fc20addfc689c718fb8f10845"
+  },
+  "latency-survey/fullhouse-bot/bot/features.py": {
+    "bytes": 26660,
+    "sha256": "b43361365ed911f358b3588f0c487614029158bf1420c5ffec8260bd427475c8"
+  },
+  "latency-survey/fullhouse-bot/bot/deep_cfr_lookup.py": {
+    "bytes": 6312,
+    "sha256": "9d288877f90d8c7962d7041e9cc2e6fb908009c8884a3d7863c4de1a5e9a4f20"
+  },
+  "latency-survey/fullhouse-bot/data/deep_cfr_model.npz": {
+    "bytes": 590758,
+    "sha256": "1102326b68da95564de147106612df71cb891b42f0726ba0212d3b9a5bcae295"
+  },
+  "latency-survey/fullhouse-bot/data/preflop_equity.npz": {
+    "bytes": 2160,
+    "sha256": "6b3b74778854fcebcd3179753c0252392e5f4118e6b623375c98fafa372863b3"
+  },
+  "fullhouse-repro/eval/iter_00210.onnx": {
+    "bytes": 588622,
+    "sha256": "2f2455adf06f22a3a6d87bef1b330e4ea80438a6567943abfab2762d6cf0db32"
+  }
+}

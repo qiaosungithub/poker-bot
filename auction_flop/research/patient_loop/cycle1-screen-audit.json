@@ -1,0 +1,5 @@
+{
+  "audited_arms": 5,
+  "tables": 2560,
+  "corrupt_score_rejected_for_each_arm": true
+}

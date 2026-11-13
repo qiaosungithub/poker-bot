@@ -1,0 +1,24 @@
+{
+  "all_scores_audited": true,
+  "confidence_scope": "Unadjusted descriptive intervals; arm selection is optimistic.",
+  "scores": [
+    {
+      "candidate_decisions": 76735,
+      "ci95": [
+        12.933744760215982,
+        16.08969273978402
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 10.232421875,
+      "mean_points": 14.51171875,
+      "mean_spent_flopchips": 670.037109375,
+      "name": "patient_defend_v2",
+      "table_sha256": "5df065326ba19542e89c5a0239dc5b269165e761e9d937b1e1d43fc1458ad59c",
+      "tables": 512,
+      "total_failures": 0
+    }
+  ],
+  "seconds": 10.915867191040888,
+  "selection_only": true,
+  "total_tables": 512
+}

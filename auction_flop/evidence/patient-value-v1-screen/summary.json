@@ -1,0 +1,54 @@
+{
+  "all_scores_audited": true,
+  "confidence_scope": "Unadjusted descriptive intervals; arm selection is optimistic.",
+  "scores": [
+    {
+      "candidate_decisions": 72641,
+      "ci95": [
+        10.38362152944944,
+        12.46794097055056
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 8.31640625,
+      "mean_points": 11.42578125,
+      "mean_spent_flopchips": 604.138671875,
+      "name": "patient",
+      "table_sha256": "3bf392f589b861a8c90f3076f70990b74d49d17f1eff2ede5ba0da8adb651c0c",
+      "tables": 512,
+      "total_failures": 0
+    },
+    {
+      "candidate_decisions": 70646,
+      "ci95": [
+        9.869177028473134,
+        12.350324924651867
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 8.935546875,
+      "mean_points": 11.1097509765625,
+      "mean_spent_flopchips": 643.51171875,
+      "name": "keycard",
+      "table_sha256": "e04dfddbb6e2e3d7afbfdfa4bc9825e458f924de7616febfad2d34e5916cbf56",
+      "tables": 512,
+      "total_failures": 0
+    },
+    {
+      "candidate_decisions": 70524,
+      "ci95": [
+        9.36392211674565,
+        12.01503296137935
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 8.9609375,
+      "mean_points": 10.6894775390625,
+      "mean_spent_flopchips": 631.51171875,
+      "name": "control",
+      "table_sha256": "2fc3ed5d6f55b1489f4d6f29ab69dfc89ae4065d5f4117c08829de7d1e43ba25",
+      "tables": 512,
+      "total_failures": 0
+    }
+  ],
+  "seconds": 23.322009755065665,
+  "selection_only": true,
+  "total_tables": 1536
+}

@@ -1,0 +1,159 @@
+{
+  "measured_at": "2026-11-09T02:56:10.329220+00:00",
+  "elapsed_seconds": 7.616093680990161,
+  "environment": {
+    "cpu_model": "Intel(R) Xeon(R) Platinum 8488C",
+    "logical_cpu": 0,
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+    "load_average": [
+      0.15380859375,
+      0.04541015625,
+      0.0107421875
+    ],
+    "packages": {
+      "numpy": "2.2.6",
+      "onnxruntime": "1.23.2",
+      "eval7": "0.1.11",
+      "pokerkit": "0.7.7"
+    }
+  },
+  "protocol": {
+    "states": 10000,
+    "street_counts": {
+      "turn": 2500,
+      "river": 2500,
+      "flop": 2500,
+      "preflop": 2500
+    },
+    "repeats": 3,
+    "warmup_per_pass": 200,
+    "gc_enabled_during_timing": false,
+    "ort_intra_threads": 1,
+    "ort_inter_threads": 1,
+    "alternating_model_order": true,
+    "scope": "Warm state-dict to action-dict: feature construction, FP32 inference, policy/action logic. No official SDK, memory serialization, JSON, IPC, startup, game simulation or deadline penalties.",
+    "legality": "Only action-kind validation; the frozen strength adapter handles action bounds. Not an official legality/timeout acceptance test."
+  },
+  "corpus": {
+    "path": "/home/ubuntu/work/fullhouse-latency/hu-benchmark/multiway_latency_states.jsonl.gz",
+    "sha256": "bbd903aa73d056ce9e4bff6f4762379b18e23fc6782707db95a43ebc76013d8d"
+  },
+  "source_hashes": {
+    "/home/ubuntu/work/fullhouse-latency/fullhouse-repro/measure_latency.py": "d3d8f9eaed4c35c74f7335238490398e0478619043bd2a48951dde621e1c0b5b",
+    "/home/ubuntu/work/fullhouse-latency/hu-benchmark/run_benchmark.py": "4194d5f0fde1c9abe16fcf8c8f0dc0b41505b03f3100c70b970ca783db384f38",
+    "/home/ubuntu/work/fullhouse-latency/latency-survey/fullhouse_onnx.py": "8ada59c184650627a841559edc3b21e65af913e69336bd45f6c6505b68dfb18c",
+    "/home/ubuntu/work/fullhouse-latency/latency-survey/fullhouse-bot/bot/bot.py": "f721b16e0cab72d0c40fae2e94d1ec655a94025fc20addfc689c718fb8f10845",
+    "/home/ubuntu/work/fullhouse-latency/latency-survey/fullhouse-bot/bot/features.py": "b43361365ed911f358b3588f0c487614029158bf1420c5ffec8260bd427475c8"
+  },
+  "results": {
+    "released": {
+      "model": "/home/ubuntu/work/fullhouse-latency/latency-survey/fullhouse_fp32.onnx",
+      "model_sha256": "7b52be99fbb20806669cba91deac58e3f0a03ec8a2169720e273ac08a67e1ef1",
+      "wall": {
+        "n": 30000,
+        "p50_ms": 0.12122,
+        "p99_ms": 0.19542401999999998,
+        "p999_ms": 0.21758412900000001,
+        "max_ms": 0.419378,
+        "over_1ms": 0
+      },
+      "thread_cpu": {
+        "n": 30000,
+        "p50_ms": 0.120611,
+        "p99_ms": 0.1946955999999999,
+        "p999_ms": 0.21689807000000003,
+        "max_ms": 0.416651,
+        "over_1ms": 0
+      },
+      "by_street": {
+        "turn": {
+          "n": 7500,
+          "p50_ms": 0.124803,
+          "p99_ms": 0.20009349,
+          "p999_ms": 0.22089366700000024,
+          "max_ms": 0.419378,
+          "over_1ms": 0
+        },
+        "river": {
+          "n": 7500,
+          "p50_ms": 0.121117,
+          "p99_ms": 0.19923916,
+          "p999_ms": 0.21734274200000014,
+          "max_ms": 0.264392,
+          "over_1ms": 0
+        },
+        "flop": {
+          "n": 7500,
+          "p50_ms": 0.1222405,
+          "p99_ms": 0.19194425000000004,
+          "p999_ms": 0.22247349400000113,
+          "max_ms": 0.274861,
+          "over_1ms": 0
+        },
+        "preflop": {
+          "n": 7500,
+          "p50_ms": 0.0954755,
+          "p99_ms": 0.16010256000000006,
+          "p999_ms": 0.1791719880000002,
+          "max_ms": 0.244793,
+          "over_1ms": 0
+        }
+      }
+    },
+    "reproduced_iter210": {
+      "model": "/home/ubuntu/work/fullhouse-latency/fullhouse-repro/eval/iter_00210.onnx",
+      "model_sha256": "2f2455adf06f22a3a6d87bef1b330e4ea80438a6567943abfab2762d6cf0db32",
+      "wall": {
+        "n": 30000,
+        "p50_ms": 0.1207565,
+        "p99_ms": 0.195851,
+        "p999_ms": 0.21848125700000007,
+        "max_ms": 0.445762,
+        "over_1ms": 0
+      },
+      "thread_cpu": {
+        "n": 30000,
+        "p50_ms": 0.120154,
+        "p99_ms": 0.19509909999999997,
+        "p999_ms": 0.21668483000000016,
+        "max_ms": 0.442053,
+        "over_1ms": 0
+      },
+      "by_street": {
+        "turn": {
+          "n": 7500,
+          "p50_ms": 0.12429,
+          "p99_ms": 0.2014213,
+          "p999_ms": 0.22872327800000028,
+          "max_ms": 0.445762,
+          "over_1ms": 0
+        },
+        "river": {
+          "n": 7500,
+          "p50_ms": 0.12083949999999999,
+          "p99_ms": 0.19891232,
+          "p999_ms": 0.21791114200000025,
+          "max_ms": 0.296704,
+          "over_1ms": 0
+        },
+        "flop": {
+          "n": 7500,
+          "p50_ms": 0.1215615,
+          "p99_ms": 0.19277556,
+          "p999_ms": 0.20586087500000028,
+          "max_ms": 0.258355,
+          "over_1ms": 0
+        },
+        "preflop": {
+          "n": 7500,
+          "p50_ms": 0.0951265,
+          "p99_ms": 0.16072428000000002,
+          "p999_ms": 0.18488001500000092,
+          "max_ms": 0.231165,
+          "over_1ms": 0
+        }
+      }
+    }
+  }
+}

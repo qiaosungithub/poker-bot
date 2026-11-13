@@ -1,0 +1,39 @@
+{
+  "all_scores_audited": true,
+  "confidence_scope": "Unadjusted descriptive intervals; arm selection is optimistic.",
+  "scores": [
+    {
+      "candidate_decisions": 149836,
+      "ci95": [
+        11.70916344921335,
+        13.62286780078665
+      ],
+      "independent_blocks": 128,
+      "mean_auctions": 9.81640625,
+      "mean_points": 12.666015625,
+      "mean_spent_flopchips": 641.037109375,
+      "name": "patient_defend_v2",
+      "table_sha256": "14a2d37b75ed11fe3bd552f042dac50fc745b7b1cca3acfeb9c116f021cb4eb7",
+      "tables": 1024,
+      "total_failures": 0
+    },
+    {
+      "candidate_decisions": 144885,
+      "ci95": [
+        10.85450251801453,
+        12.52440373198547
+      ],
+      "independent_blocks": 128,
+      "mean_auctions": 8.2705078125,
+      "mean_points": 11.689453125,
+      "mean_spent_flopchips": 600.0205078125,
+      "name": "patient_value_v1",
+      "table_sha256": "42d8fed57c3c80e6f18a191820324043bf3ce272f9a2b252275e9aba911aa208",
+      "tables": 1024,
+      "total_failures": 0
+    }
+  ],
+  "seconds": 29.087391728069633,
+  "selection_only": true,
+  "total_tables": 2048
+}

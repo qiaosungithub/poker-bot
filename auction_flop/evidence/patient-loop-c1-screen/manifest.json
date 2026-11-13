@@ -1,0 +1,1184 @@
+{
+  "arms": {
+    "patient_huopen_v2": "candidates/patient_huopen_v2",
+    "patient_loose_v2": "candidates/patient_loose_v2",
+    "patient_price_v2": "candidates/patient_price_v2",
+    "patient_shortcall_v2": "candidates/patient_shortcall_v2",
+    "patient_value_v1": "candidates/patient_value_v1"
+  },
+  "benchmark": "auction-flop-v1",
+  "benchmark_sha256": "dc6c9f772eabdd0db0b31d011e548d40b8119e872773d58ecd9c077eaaa5eba6",
+  "blocks": 16,
+  "cpus": [
+    239,
+    88,
+    182,
+    21,
+    229,
+    78,
+    172,
+    11,
+    68,
+    96,
+    58,
+    152,
+    114,
+    76,
+    104,
+    7,
+    199,
+    132,
+    217,
+    160,
+    189,
+    28,
+    56,
+    235,
+    84,
+    179,
+    18,
+    46,
+    74,
+    169,
+    102,
+    5
+  ],
+  "dependencies": {
+    "eval7": "0.1.11",
+    "future": "1.0.0",
+    "pokerkit": "0.7.6",
+    "pyparsing": "3.3.3"
+  },
+  "kind": "tuning screen, not permanent v1 score",
+  "panels": {
+    "patient_huopen_v2": [
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_huopen_v2"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_1",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:0"
+      },
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_huopen_v2"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_1",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:1"
+      },
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_huopen_v2"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_1",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:2"
+      },
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_huopen_v2"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_1",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:3"
+      }
+    ],
+    "patient_loose_v2": [
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_loose_v2"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_1",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:0"
+      },
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_loose_v2"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_1",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:1"
+      },
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_loose_v2"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_1",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:2"
+      },
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_loose_v2"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_1",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:3"
+      }
+    ],
+    "patient_price_v2": [
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_price_v2"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_1",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:0"
+      },
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_price_v2"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_1",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:1"
+      },
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_price_v2"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_1",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:2"
+      },
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_price_v2"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_1",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:3"
+      }
+    ],
+    "patient_shortcall_v2": [
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_shortcall_v2"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_1",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:0"
+      },
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_shortcall_v2"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_1",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:1"
+      },
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_shortcall_v2"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_1",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:2"
+      },
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_shortcall_v2"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_1",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:3"
+      }
+    ],
+    "patient_value_v1": [
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_value_v1"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_1",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:0"
+      },
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_value_v1"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_1",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:1"
+      },
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_value_v1"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_1",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:2"
+      },
+      {
+        "blocks": 16,
+        "compare": [
+          "candidate"
+        ],
+        "entries": [
+          {
+            "name": "candidate",
+            "policy": "candidate",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/candidate_patient_value_v1"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_0",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "auction_snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament",
+            "name": "opponent_1",
+            "policy": "hybrid_tournament_auction",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_2",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_3",
+            "policy": "variant",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/variant"
+          },
+          {
+            "name": "opponent_4",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_5",
+            "policy": "tournament",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/tournament"
+          },
+          {
+            "name": "opponent_6",
+            "policy": "ranges",
+            "snapshot": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/auction_flop/evidence/patient-loop-c1-screen/sources/ranges"
+          }
+        ],
+        "hand_cap": 250,
+        "seed": "patient-loop-c1-screen-20261110:panel:3"
+      }
+    ]
+  },
+  "python": "3.12.16 (main, Oct 26 2026, 14:08:45) [Clang 23.1.3 ]",
+  "runner_sha256": "570b053b6ffbadd06bd797ac48f0b716c6950bbfbb96cf0085839113daf5543d",
+  "source_hashes": {
+    "candidate_patient_huopen_v2": {
+      "agent.py": "7e6609e2ae5d06ae52f8df2f8b4d69da44f5e63b82a11676af0a31fa08c1f703",
+      "cards.py": "1480e47bb5355658f1e1ce017f5074344b44d90cb9dd27aec4ced07ab19f2a84",
+      "config.py": "5a74569d70248cf51a1cb54564c2166adf54ba46db12c19edbf73b603398d136",
+      "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+      "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+      "simple_auction.py": "eb196348447da3e8210fe7116481bac13ef8426b6532f6a68abda7d13a431d8c",
+      "simple_preflop.py": "898af5df70b66a0850801204b7834fcf5c1529c38382c63842f2bb5307501585",
+      "value_postflop.py": "dbdf2f856819c03b9f3f3dffd0450f3a871e47425594771b29d3c6ef1d9112a7"
+    },
+    "candidate_patient_loose_v2": {
+      "agent.py": "7e6609e2ae5d06ae52f8df2f8b4d69da44f5e63b82a11676af0a31fa08c1f703",
+      "cards.py": "1480e47bb5355658f1e1ce017f5074344b44d90cb9dd27aec4ced07ab19f2a84",
+      "config.py": "9c2fc9307969b8a63f2cfed7ec52b094713a719aa6f1da531119905d5806544a",
+      "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+      "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+      "simple_auction.py": "eb196348447da3e8210fe7116481bac13ef8426b6532f6a68abda7d13a431d8c",
+      "simple_preflop.py": "67966cf907c04b3322bf063a1926fa269c426bad8e8d406da2bada14ea671f63",
+      "value_postflop.py": "dbdf2f856819c03b9f3f3dffd0450f3a871e47425594771b29d3c6ef1d9112a7"
+    },
+    "candidate_patient_price_v2": {
+      "agent.py": "7e6609e2ae5d06ae52f8df2f8b4d69da44f5e63b82a11676af0a31fa08c1f703",
+      "cards.py": "1480e47bb5355658f1e1ce017f5074344b44d90cb9dd27aec4ced07ab19f2a84",
+      "config.py": "5a74569d70248cf51a1cb54564c2166adf54ba46db12c19edbf73b603398d136",
+      "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+      "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+      "simple_auction.py": "eb196348447da3e8210fe7116481bac13ef8426b6532f6a68abda7d13a431d8c",
+      "simple_preflop.py": "67966cf907c04b3322bf063a1926fa269c426bad8e8d406da2bada14ea671f63",
+      "value_postflop.py": "e595c7ca9a548e486fe9cf5aff52e102147fd7228327ca5c559994e212eb3ddb"
+    },
+    "candidate_patient_shortcall_v2": {
+      "agent.py": "7e6609e2ae5d06ae52f8df2f8b4d69da44f5e63b82a11676af0a31fa08c1f703",
+      "cards.py": "1480e47bb5355658f1e1ce017f5074344b44d90cb9dd27aec4ced07ab19f2a84",
+      "config.py": "5a74569d70248cf51a1cb54564c2166adf54ba46db12c19edbf73b603398d136",
+      "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+      "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+      "preflop_table.py": "d3e015114b6bf5c9d3b3e7d577f918d7cdf28ff1979ef5ad19c0cc99e52e9197",
+      "simple_auction.py": "eb196348447da3e8210fe7116481bac13ef8426b6532f6a68abda7d13a431d8c",
+      "simple_preflop.py": "969a8a215a93c1fa9ca716331170a48a421c4e1a7a0f96943dd8d30ee65267ce",
+      "value_postflop.py": "dbdf2f856819c03b9f3f3dffd0450f3a871e47425594771b29d3c6ef1d9112a7"
+    },
+    "candidate_patient_value_v1": {
+      "agent.py": "7e6609e2ae5d06ae52f8df2f8b4d69da44f5e63b82a11676af0a31fa08c1f703",
+      "cards.py": "1480e47bb5355658f1e1ce017f5074344b44d90cb9dd27aec4ced07ab19f2a84",
+      "config.py": "5a74569d70248cf51a1cb54564c2166adf54ba46db12c19edbf73b603398d136",
+      "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+      "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+      "simple_auction.py": "eb196348447da3e8210fe7116481bac13ef8426b6532f6a68abda7d13a431d8c",
+      "simple_preflop.py": "67966cf907c04b3322bf063a1926fa269c426bad8e8d406da2bada14ea671f63",
+      "value_postflop.py": "dbdf2f856819c03b9f3f3dffd0450f3a871e47425594771b29d3c6ef1d9112a7"
+    },
+    "checkfold": {
+      "agent.py": "2914ffface89473f6a1a75ed8a12ec80f0029d26a5411048feb4b967e1c47230"
+    },
+    "equity": {
+      "agent.py": "0d4604e7226e7ea6a070e2f011c1a97ac098252ea9f55264edad3ff582732993",
+      "equity_core.py": "5035fc5e5a516d74986c6614c4732bbb0f7881598b392dc361c66c86e978423b"
+    },
+    "exploit": {
+      "agent.py": "4041c1e83b30f7054b94b7c3fb24264379e91ff60c3ecf32e1f12de8674bc7be",
+      "strategy_core.py": "cdac08df3dafaea5d055b9d4993d2ac6a317dc03ec2136f50d88c1529d896824"
+    },
+    "minraise": {
+      "agent.py": "48f85f7554e3b56abd3ddd4968e28ab92dfe6e89371ed0d7e5842a8b903db369"
+    },
+    "ranges": {
+      "agent.py": "137b3ad368f78899c5a7b9c4e954ec375e2fe69d22408ebb1cf783a1756f2dd4",
+      "range_core.py": "45218351dd8dc18235aef3a1f501df4de3dd44521eb7e30470fae1cbfb58aad2"
+    },
+    "tournament": {
+      "agent.py": "36b65f77e5f1d90cf564d876f448415180a08f92f41b5067e10afe7203dba37e",
+      "strategy.py": "3262cf4a260cceb2917a6b6e2dd2231f8fc9c55ded2e1fb98c4a242bacf8e1bb"
+    },
+    "variant": {
+      "agent.py": "8367b29f7f6b1f0425bfcd22028ec1966bc013b2eb68d9ef1eb512c18d075751",
+      "auction.py": "af8a94b4eedf99abff65324cd1c6069ee0356090309434778e1579b9156a2f7d"
+    }
+  },
+  "started": "2026-11-10T01:42:23.973669+00:00",
+  "timing": "Untimed direct engine. Screen arms share the process pool.",
+  "workers": 32
+}

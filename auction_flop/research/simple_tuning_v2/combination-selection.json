@@ -1,0 +1,19 @@
+{
+  "screen_control": 8.41796875,
+  "selected_components": [
+    "bid_60",
+    "loose_open",
+    "call_wider"
+  ],
+  "combined_config": {
+    "BASE_BID": 60.0,
+    "AUCTION_HORIZON": 0,
+    "OPEN_LOOSER": true,
+    "CALL_SCALE": 1.7,
+    "SHOVE_BB": 12,
+    "BET_SCALE": 1.0,
+    "BLUFF_FREQUENCY": 0.5,
+    "EQUITY_SAMPLES": 32
+  },
+  "reason": "Predeclared combination: best auction arm; other axes with mean gain >=0.5."
+}

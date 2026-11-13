@@ -1,9 +1,11 @@
 # Poker bot workspace
 
 Start here when taking over without conversation history.
-Competition documentation was verified on **2026-11-08**; competition defaults
-may change at the variant reveal. The latest standard Hold'em benchmark is
-dated **2026-11-09**.
+The November 9–10 Boston Auction Flop work is archived as of **2026-11-13**.
+Start with [Auction Flop](auction_flop/README.md), the
+[macro experiment results](auction_flop/research/macro_program/README.md), and
+the [archive and recovery guide](archive/2026-11-13/README.md).
+Earlier standard Hold'em and infrastructure reports retain their observation dates.
 
 ## Read in this order
 
@@ -22,10 +24,21 @@ locations. [human.md](human.md) and [scoring.md](scoring.md) are short Chinese n
 ## Current state
 
 - Boston competition: `abb5539f-60ce-48b6-8925-c0c56a3102e3`.
-- Portal login succeeded and Getting started / Format were read. The recorded
-  competition response had no announced variant. Recheck live state before use.
-- The official build box, credits and starter kit have **not been set up or
-  claimed by this agent**. Existing account setup has not been audited.
+- The released variant is **Auction Flop**. Its released SDK, frozen local
+  benchmark and event-time policies are in `auction_flop/`.
+- The strongest retained local v1 result is **19.80713 points/table** for
+  prior + Hboth. Transfer to a different opponent field remains inconclusive;
+  this is not an official score or a production qualification.
+- The last recorded active submission is `practice_prior_full_v1`, a different
+  policy with local v1 score 17.65625. See the dated
+  [submission receipt](auction_flop/evidence/submission-confirmation.json).
+  No current portal status or final standings were queried for this archive.
+- The official build box is configured and SSH login was verified on November 9:
+  `ssh no-limit-2026-build` from this server reaches `boston-team-95` as `ubuntu`.
+  The setup skill is installed, the competition API key is saved privately, and
+  our SSH public key is registered. Remote Codex login is optional and unverified.
+  The November 9 pre-reveal 404 recorded in the infrastructure guide is
+  historical; the starter kit was subsequently released and used.
 - Fullhouse self-play training finished: 250 iterations, 7.5 million traversals,
   2 h 5 min 23 s. Use **iteration 210**, not final iteration 250.
 - On the independent six-player comparison, iteration 210 scored **60.94** versus
@@ -34,6 +47,12 @@ locations. [human.md](human.md) and [scoring.md](scoring.md) are short Chinese n
 - A fresh CPU timing run measured iteration 210 at **0.331 ms P99** for the full
   research decision function. It excludes the official SDK and IPC; one of 30,000
   calls exceeded 1 ms. This is not an official deadline guarantee.
+- The [November 9 build-box test](fullhouse-repro/latency/2026-11-09-buildbox-comparison/REPORT.md)
+  measured iteration 210 at **0.196 ms P99**, **0.446 ms maximum** and zero
+  overruns in 30,000 calls on the supplied Intel Xeon 8488C EC2 `m7i.large`.
+  The matching research-server run had P99 0.363 ms. Both exclude official SDK
+  and IPC; Python builds and load differ. The remote timing environment is ready
+  at `~/work/fullhouse-latency`; that test preceded the starter-kit release.
 - The November 8 organizer email prohibits pre-written code/bots and requires
   event-time coding. Our existing research bot is not a ready-to-submit entry.
   The email does not separately resolve the status of previously trained weights.
@@ -56,6 +75,8 @@ locations. [human.md](human.md) and [scoring.md](scoring.md) are short Chinese n
 
 | Path | Purpose |
 |---|---|
+| `auction_flop/` | Released Boston SDK, immutable v1 benchmark, candidate source and raw evidence |
+| `archive/2026-11-13/` | Closeout index, event Git history, artifact recovery and cleanup provenance |
 | `docs/competition/` | Official rules, runtime and infrastructure handoff |
 | `docs/research/fullhouse.md` | Reproduction method, result provenance, commands and limitations |
 | `bay_area/`, `external/` | Bay Area environment, SDK arena and pinned public strategy repositories |
@@ -72,15 +93,16 @@ locations. [human.md](human.md) and [scoring.md](scoring.md) are short Chinese n
 The top-level directory is a Git repository on `main`. Nine upstream
 checkouts are pinned submodules; the modified training worktree is reconstructed
 from a tracked patch. Models, environments and private login state remain
-outside the parent repository; see [repository boundaries](docs/repository.md).
+outside ordinary Git source; see [repository boundaries](docs/repository.md)
+and the [encrypted recovery archive](archive/2026-11-13/README.md).
 Do not move large artifacts to tidy the layout: existing scripts and frozen
 provenance use these paths.
 
-## Next useful work
+## Resuming this project
 
-Prepare the official SSH build box when requested. At reveal, read the kit's
-`AGENTS.md`, `README.md`, `RULES.md` and pinned requirements, reconcile the rule
-differences, and implement within the event's coding rules. Validate eight-seat
-behavior, exact legal actions, per-table memory and the no-bank upload deadline
-on the official environment. Do not present six-player research results as an
-official eight-player evaluation.
+Clone the repository and follow `auction_flop/README.md` to recreate the local
+benchmark environment. Use new output directories and preserve v1 unchanged.
+The archive guide covers models, unpublished worktree files and private data.
+Recheck the portal and any remote machine before treating historical deployment
+notes as live state. No further experiment or competition submission is part of
+the November 13 archive operation.

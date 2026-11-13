@@ -1,0 +1,159 @@
+{
+  "measured_at": "2026-11-09T02:56:17.731536+00:00",
+  "elapsed_seconds": 14.49618496792391,
+  "environment": {
+    "cpu_model": "AMD EPYC 7B12",
+    "logical_cpu": 1,
+    "python": "3.12.16 (main, Oct 26 2026, 14:08:45) [Clang 23.1.3 ]",
+    "platform": "Linux-5.19.0-1022-gcp-x86_64-with-glibc2.35",
+    "load_average": [
+      67.06884765625,
+      71.0849609375,
+      69.71435546875
+    ],
+    "packages": {
+      "numpy": "2.2.6",
+      "onnxruntime": "1.23.2",
+      "eval7": "0.1.11",
+      "pokerkit": "0.7.7"
+    }
+  },
+  "protocol": {
+    "states": 10000,
+    "street_counts": {
+      "turn": 2500,
+      "river": 2500,
+      "flop": 2500,
+      "preflop": 2500
+    },
+    "repeats": 3,
+    "warmup_per_pass": 200,
+    "gc_enabled_during_timing": false,
+    "ort_intra_threads": 1,
+    "ort_inter_threads": 1,
+    "alternating_model_order": true,
+    "scope": "Warm state-dict to action-dict: feature construction, FP32 inference, policy/action logic. No official SDK, memory serialization, JSON, IPC, startup, game simulation or deadline penalties.",
+    "legality": "Only action-kind validation; the frozen strength adapter handles action bounds. Not an official legality/timeout acceptance test."
+  },
+  "corpus": {
+    "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/fullhouse-buildbox-20261109/source/hu-benchmark/multiway_latency_states.jsonl.gz",
+    "sha256": "bbd903aa73d056ce9e4bff6f4762379b18e23fc6782707db95a43ebc76013d8d"
+  },
+  "source_hashes": {
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/fullhouse-buildbox-20261109/source/fullhouse-repro/measure_latency.py": "d3d8f9eaed4c35c74f7335238490398e0478619043bd2a48951dde621e1c0b5b",
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/fullhouse-buildbox-20261109/source/hu-benchmark/run_benchmark.py": "4194d5f0fde1c9abe16fcf8c8f0dc0b41505b03f3100c70b970ca783db384f38",
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/fullhouse-buildbox-20261109/source/latency-survey/fullhouse_onnx.py": "8ada59c184650627a841559edc3b21e65af913e69336bd45f6c6505b68dfb18c",
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/fullhouse-buildbox-20261109/source/latency-survey/fullhouse-bot/bot/bot.py": "f721b16e0cab72d0c40fae2e94d1ec655a94025fc20addfc689c718fb8f10845",
+    "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/fullhouse-buildbox-20261109/source/latency-survey/fullhouse-bot/bot/features.py": "b43361365ed911f358b3588f0c487614029158bf1420c5ffec8260bd427475c8"
+  },
+  "results": {
+    "released": {
+      "model": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/fullhouse-buildbox-20261109/source/latency-survey/fullhouse_fp32.onnx",
+      "model_sha256": "7b52be99fbb20806669cba91deac58e3f0a03ec8a2169720e273ac08a67e1ef1",
+      "wall": {
+        "n": 30000,
+        "p50_ms": 0.224655,
+        "p99_ms": 0.4086103099999998,
+        "p999_ms": 0.7397876000000055,
+        "max_ms": 8.46573,
+        "over_1ms": 16
+      },
+      "thread_cpu": {
+        "n": 30000,
+        "p50_ms": 0.223311,
+        "p99_ms": 0.40628100999999983,
+        "p999_ms": 0.7378367420000057,
+        "max_ms": 8.46308,
+        "over_1ms": 16
+      },
+      "by_street": {
+        "turn": {
+          "n": 7500,
+          "p50_ms": 0.22957,
+          "p99_ms": 0.4247634000000001,
+          "p999_ms": 0.9381407600000001,
+          "max_ms": 1.70255,
+          "over_1ms": 6
+        },
+        "river": {
+          "n": 7500,
+          "p50_ms": 0.227125,
+          "p99_ms": 0.4212807,
+          "p999_ms": 0.6264129100000017,
+          "max_ms": 1.11622,
+          "over_1ms": 1
+        },
+        "flop": {
+          "n": 7500,
+          "p50_ms": 0.22643000000000002,
+          "p99_ms": 0.41112250000000006,
+          "p999_ms": 0.6952798200000163,
+          "max_ms": 1.26778,
+          "over_1ms": 5
+        },
+        "preflop": {
+          "n": 7500,
+          "p50_ms": 0.1879,
+          "p99_ms": 0.3531931000000001,
+          "p999_ms": 0.7141230300000037,
+          "max_ms": 8.46573,
+          "over_1ms": 4
+        }
+      }
+    },
+    "reproduced_iter210": {
+      "model": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/fullhouse-buildbox-20261109/source/fullhouse-repro/eval/iter_00210.onnx",
+      "model_sha256": "2f2455adf06f22a3a6d87bef1b330e4ea80438a6567943abfab2762d6cf0db32",
+      "wall": {
+        "n": 30000,
+        "p50_ms": 0.22151,
+        "p99_ms": 0.36302920999999994,
+        "p999_ms": 0.51933012,
+        "max_ms": 4.30487,
+        "over_1ms": 6
+      },
+      "thread_cpu": {
+        "n": 30000,
+        "p50_ms": 0.2202045,
+        "p99_ms": 0.3606106999999999,
+        "p999_ms": 0.5175102500000001,
+        "max_ms": 4.30352,
+        "over_1ms": 6
+      },
+      "by_street": {
+        "turn": {
+          "n": 7500,
+          "p50_ms": 0.226105,
+          "p99_ms": 0.3781835000000005,
+          "p999_ms": 0.56498028,
+          "max_ms": 4.30487,
+          "over_1ms": 4
+        },
+        "river": {
+          "n": 7500,
+          "p50_ms": 0.22347,
+          "p99_ms": 0.3682309,
+          "p999_ms": 0.4922771000000014,
+          "max_ms": 0.5518,
+          "over_1ms": 0
+        },
+        "flop": {
+          "n": 7500,
+          "p50_ms": 0.22116,
+          "p99_ms": 0.37451280000000026,
+          "p999_ms": 0.5415364600000013,
+          "max_ms": 3.516649,
+          "over_1ms": 2
+        },
+        "preflop": {
+          "n": 7500,
+          "p50_ms": 0.1856845,
+          "p99_ms": 0.3214403,
+          "p999_ms": 0.3929509900000012,
+          "max_ms": 0.710111,
+          "over_1ms": 0
+        }
+      }
+    }
+  }
+}

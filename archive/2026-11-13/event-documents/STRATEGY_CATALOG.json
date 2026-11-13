@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-11-09T23:52:51.179754+00:00",
+  "git_repository": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/event-20261109",
+  "official_python": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/envs/boston-event312/bin/python",
+  "official_kit": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/starter-kit",
+  "composer": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/modules/compose.py",
+  "composer_documentation": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/modules/README_MODULES.md",
+  "source_core_revision": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+  "benchmark_owner_thread": "01a1c2aa-f5fa-7052-a1ff-ef11cf675d67",
+  "strategy_manager_thread": "01a1c286-8ef8-7b91-a987-018eb882bd32",
+  "policy": "Benchmark owner freezes opponents/seeds; this manager provides immutable candidates and qualifies runtime. No neural training. Only public and own per-table information.",
+  "candidate_groups": [
+    {
+      "name": "strong_modular_baseline",
+      "revision": "7e7aa882ac49a470c9c1cee136e9a433b78300ff",
+      "bot_path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/modules/bot",
+      "composition_config": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/modules/compositions/baseline.json",
+      "package": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/modules/evidence/modular-five-stage-v2.zip",
+      "sha256": "d77705d1afc2b5c1ebf2dc059393ed8e3ef95a86e9d19d16485dcb97fecc58e2",
+      "description": "Variant preflop/flop/turn/river plus tournament auction; shared observer/context. Exact frozen hybrid normal-decision parity."
+    },
+    {
+      "name": "history0_inference0",
+      "composition_config": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/modules/compositions/history-0-inference-0.json",
+      "auction_revision": "1e737eb9f9b04a69ed273d8a03d06458e2d75f10",
+      "betting_revision": "6d12db253c60e0c1b62d954a670546e3f1414331",
+      "description": "Controlled 2x2: same auction value/selector/cost, toggle historical bid-pressure model; same betting core, toggle street-aware public-payment inference."
+    },
+    {
+      "name": "history0_inference1",
+      "composition_config": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/modules/compositions/history-0-inference-1.json",
+      "auction_revision": "1e737eb9f9b04a69ed273d8a03d06458e2d75f10",
+      "betting_revision": "6d12db253c60e0c1b62d954a670546e3f1414331",
+      "description": "Controlled 2x2: same auction value/selector/cost, toggle historical bid-pressure model; same betting core, toggle street-aware public-payment inference."
+    },
+    {
+      "name": "history1_inference0",
+      "composition_config": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/modules/compositions/history-1-inference-0.json",
+      "auction_revision": "1e737eb9f9b04a69ed273d8a03d06458e2d75f10",
+      "betting_revision": "6d12db253c60e0c1b62d954a670546e3f1414331",
+      "description": "Controlled 2x2: same auction value/selector/cost, toggle historical bid-pressure model; same betting core, toggle street-aware public-payment inference."
+    },
+    {
+      "name": "history1_inference1",
+      "composition_config": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/modules/compositions/history-1-inference-1.json",
+      "auction_revision": "1e737eb9f9b04a69ed273d8a03d06458e2d75f10",
+      "betting_revision": "6d12db253c60e0c1b62d954a670546e3f1414331",
+      "description": "Controlled 2x2: same auction value/selector/cost, toggle historical bid-pressure model; same betting core, toggle street-aware public-payment inference."
+    },
+    {
+      "name": "preflop_tight",
+      "revision": "e0aa5dc79c3711c8ce41e54923b450c85d182be2",
+      "composition_config": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/ranges/stage_preflop/compose_tight.json",
+      "bot_path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/ranges/stage_preflop/build-tight",
+      "description": "Only preflop changes; independent of auction budgets. Exact control available in same module."
+    },
+    {
+      "name": "preflop_loose",
+      "revision": "e0aa5dc79c3711c8ce41e54923b450c85d182be2",
+      "composition_config": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/ranges/stage_preflop/compose_loose.json",
+      "bot_path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/ranges/stage_preflop/build-loose",
+      "description": "Only preflop changes; independent of auction budgets. Exact control available in same module."
+    },
+    {
+      "name": "joint_on",
+      "revision": "3a74011f7a75803e2fda8673e767f5df2e17d6ea",
+      "bot_path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/joint/bot",
+      "description": "Same event-time hybrid component sources; bounded cross-stage coordination toggle; own/public information shared. Frozen observer079ab14, malformed-cursor guard is only difference from7e7aa88 core."
+    },
+    {
+      "name": "joint_off",
+      "revision": "3a74011f7a75803e2fda8673e767f5df2e17d6ea",
+      "bot_path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/joint/bot_off",
+      "description": "Same event-time hybrid component sources; bounded cross-stage coordination toggle; own/public information shared. Frozen observer079ab14, malformed-cursor guard is only difference from7e7aa88 core."
+    }
+  ],
+  "existing_evidence": {
+    "five_family_confirmation": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/benchmarks/confirm01-20261109T2326",
+    "auction_decomposition": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/benchmarks/auction01-20261109T2329",
+    "betting_decomposition": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/benchmarks/betting01-20261109T2330",
+    "hybrid_confirmation": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/benchmarks/hybrid-confirm01",
+    "remote_v1_qualification": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/remote-qualification-v1/results"
+  }
+}

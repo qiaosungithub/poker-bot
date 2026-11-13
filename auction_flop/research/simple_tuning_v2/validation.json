@@ -1,0 +1,22 @@
+{
+  "candidate_decisions": 568847,
+  "candidate_failures": 0,
+  "combination_seconds": 18.28455519815907,
+  "confirmation_seconds": 61.274977,
+  "full_tables_per_second": 66.84621032171093,
+  "full_v1_audit": "passed",
+  "independent_raw_mean": 10.67138671875,
+  "parameterization_identical_decisions": 19754,
+  "screen_seconds": 83.32364685903303,
+  "selection_source_equals_final_measured_source_and_zip": true,
+  "source_hashes": {
+    "agent.py": "8bf92c5122f13dd8d372092f788fac2a36769fd4acd4858bb8ec3da32c5b39c8",
+    "classic_postflop.py": "73af96dbcf5755f4354033bd1238790959b5bec4d4a51183ccd92db8dbfea4ae",
+    "config.py": "c306d8dc7f3c19ed3ad5057b28faf775c63c88ad7d357c946e0d2b1b1792d3bc",
+    "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+    "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+    "simple_auction.py": "447a8e09c94eb4b2112a4ca79b7954080900573619565c6cf33cb4184afbcb5c",
+    "simple_preflop.py": "5c4395b211b4a18d02893af09c1f268d14f1d2935637a1f42500cfcee0aa1b8f"
+  },
+  "total_strength_seconds": 162.8831790571921
+}

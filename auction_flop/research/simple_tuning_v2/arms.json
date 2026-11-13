@@ -1,0 +1,14 @@
+{
+  "control": "candidates/simple_classic_v1",
+  "bid_zero": "research/simple_tuning_v2/candidates/bid_zero",
+  "bid_60": "research/simple_tuning_v2/candidates/bid_60",
+  "bid_120": "research/simple_tuning_v2/candidates/bid_120",
+  "duration_10": "research/simple_tuning_v2/candidates/duration_10",
+  "duration_25": "research/simple_tuning_v2/candidates/duration_25",
+  "loose_open": "research/simple_tuning_v2/candidates/loose_open",
+  "call_wider": "research/simple_tuning_v2/candidates/call_wider",
+  "shove_later": "research/simple_tuning_v2/candidates/shove_later",
+  "bet_larger": "research/simple_tuning_v2/candidates/bet_larger",
+  "no_air_bluff": "research/simple_tuning_v2/candidates/no_air_bluff",
+  "samples_16": "research/simple_tuning_v2/candidates/samples_16"
+}

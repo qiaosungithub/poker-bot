@@ -1,0 +1,19 @@
+editables==0.5
+eval7==0.1.11
+future==1.0.0
+hatchling==1.32.4
+iniconfig==2.3.1
+numpy==2.2.6
+packaging==26.3
+pathspec==1.1.1
+pip==26.2.2
+pluggy==1.7.0
+-e git+https://github.com/nnicholas-c/poker_sequoia.git@e6e68a1aa7c71f78fec17bd7ead813687689fc61#egg=poker_agent_protocol&subdirectory=kit/sdk/agent-protocol
+-e git+https://github.com/nnicholas-c/poker_sequoia.git@e6e68a1aa7c71f78fec17bd7ead813687689fc61#egg=poker_agent_sdk&subdirectory=kit/sdk/agent-sdk
+-e git+https://github.com/nnicholas-c/poker_sequoia.git@e6e68a1aa7c71f78fec17bd7ead813687689fc61#egg=poker_engine&subdirectory=kit/sdk/engine
+pokerkit==0.7.6
+Pygments==2.21.0
+pyparsing==3.3.3
+pytest==9.2.0
+tomlkit==0.15.2
+trove-classifiers==2026.9.21.13

@@ -1,0 +1,264 @@
+{
+  "phase": "classic_hybrid_active_controlled_refinements_and_official_trace_audit",
+  "observed_at": "2026-11-10T00:48:22.005481+00:00",
+  "team": "Timothy",
+  "competition_id": "abb5539f-60ce-48b6-8925-c0c56a3102e3",
+  "release_watch_session": 20584,
+  "branch_managers": {
+    "tournament": "/root/tournament_manager",
+    "equity": "/root/equity_manager",
+    "ranges": "/root/ranges_manager",
+    "exploit": "/root/exploit_manager",
+    "variant": "/root/variant_manager",
+    "modules": "/root/modules_manager",
+    "auction_history": "/root/auction_history_manager",
+    "betting_inference": "/root/betting_inference_manager",
+    "joint": "/root/joint_manager",
+    "classic": "/root/classic_manager",
+    "auction_refinement": "/root/auction_refinement_manager"
+  },
+  "max_concurrent_workers": 3,
+  "working_policy": "No neural training; independently written event-time strategies; do not push.",
+  "first_wave": [
+    "tournament",
+    "equity",
+    "variant"
+  ],
+  "second_wave": [
+    "ranges",
+    "exploit"
+  ],
+  "milestones_minutes_after_reveal": [
+    15,
+    25,
+    35,
+    45,
+    60,
+    80,
+    100,
+    120,
+    140,
+    160
+  ],
+  "current_active_submission": "50da6a7e-6d6e-4eec-a3d2-5a4db8ce9d89",
+  "live_weighting": "fibonacci",
+  "rounds_published": false,
+  "ready": {
+    "portal_auth": true,
+    "ssh_buildbox": true,
+    "python312_local": true,
+    "five_worktrees": true,
+    "official_kit_downloaded": true,
+    "local_official_sdk": true,
+    "remote_official_sdk": true,
+    "five_full_v1": true,
+    "first_4096_table_confirmation": true,
+    "auction_betting_decomposition": true
+  },
+  "variant_from_slides": "auction_flop",
+  "portal_reveal_timestamp": "2026-11-09T23:14:42.543801Z",
+  "actual_deadline_unverified": true,
+  "active_implementation": [
+    "hybrid_refine candidates0c60de2 completed; benchmark running",
+    "classic_range_manager bounded CALL-only public-action importance weighting",
+    "prior_hybrid_manager exact public opening-prior transfer and zero-bank qualification",
+    "scored_trace_manager read-only first1000S1 diagnostics"
+  ],
+  "nominal_first_snapshot": "2026-11-10T00:14:42.543801Z",
+  "nominal_final_snapshot": "2026-11-10T01:54:42.543801Z",
+  "local_install_session": 69939,
+  "remote_install_session": 97050,
+  "event_watch_session": 89999,
+  "hybrid_confirm_session": 9668,
+  "remote_qualification_session": 60028,
+  "submission_status": "Posted 00:39:30 UTC, waited in platform validation queue, then Ready and active verified 00:44:08; prior fragile version retained as rollback artifact.",
+  "current_best_whole_bot": "variant-v1 @ 6af47e4",
+  "pending_hypothesis": "historical auction features, street-aware payment inference, independently designed vs joint five-stage rules",
+  "remote_modular_baseline_session": 12561,
+  "actual_stages": [
+    "preflop",
+    "auction",
+    "flop",
+    "turn",
+    "river"
+  ],
+  "current_best_composition": "classic_hybrid_v1 @52474ad: 17.48046875 points/table on frozen auction-flop-v1. Highest independently audited mean; +0.854492 vs corrected-loose, adjusted CI [0.010327,1.698657]. Vs fragile-both +0.673828, exploratory unadjusted CI [-0.067729,1.415385], not clearly superior.",
+  "current_active_filename": "timothy-classic-hybrid-v1-52474ad.zip",
+  "active_submission_observed_at": "2026-11-10T00:44:08Z",
+  "benchmark_owner": "external thread 01a1c2aa-f5fa-7052-a1ff-ef11cf675d67; permanent auction-flop-v1",
+  "submission_writer": "root strategy manager only",
+  "latest_runtime": {
+    "source_revision": "52474ad",
+    "artifact_sha256": "99bf8e4507533d02c11e69e4f23e961a19e02c05e481d72df9fd3f3f091262bb",
+    "local_sdk_pass": true,
+    "tables": 9,
+    "zero_bank_hu_tables": 6,
+    "eight_seat_tables": 3,
+    "hero_decisions": 344,
+    "all_failures": 0,
+    "all_sampled_under_1ms": true,
+    "max_ms": 0.756,
+    "delivery_grace_ms": 2,
+    "remote_exact_qualification": false,
+    "platform_ready": true,
+    "limitations": "Local official SDK includes IPC and 2ms grace; not a strict worst-case deadline guarantee. Exact package passed platform validation."
+  },
+  "latest_official_result": {
+    "round": "690def26-bd84-416e-8c01-9e213aad4bdd",
+    "kind": "scored",
+    "weight": 1,
+    "submission": "d3e77750-4c00-4716-9458-40ebc4df6915",
+    "tables": 20000,
+    "mean_points": 13.168,
+    "reported_margin_of_error": 0.23882606974252085,
+    "rank_nonforfeit": 97,
+    "nonforfeit_teams": 192,
+    "completed_at": "2026-11-10T00:24:04.078466Z",
+    "scope": "Different field/time from Practice4; cannot isolate causal effect of strategy changes."
+  },
+  "pending_candidates": {
+    "classic_txnujk32_v1": {
+      "ref": "0f84eb45a7501d1cc24c423244b298134c4a4921",
+      "zip_sha256": "5b349610a9df15e9edbf8322f298b54f436586e521740f73f25e692b31387470",
+      "status": "full fixed-v1 benchmark requested; independent audit in progress"
+    },
+    "auction_refinement": {
+      "status": "5 isolated candidates planned, immutable corrected-loose base; controls/scales first"
+    }
+  },
+  "user_steering": "Pause all branch development for mutual review, then prioritize at least four independent small refinements of existing Holdem strategies.",
+  "cross_review_completed": true,
+  "paused_old_work": [
+    "auction scaling/gate/future-draw refinement",
+    "additional auction-history/inference/joint work"
+  ],
+  "queued_implementation": [],
+  "classic_restart": {
+    "shared_auction": "Exact tournament auction from 7e7aa88; fixed benchmark unchanged",
+    "branches": [
+      {
+        "name": "strategy/classic_price",
+        "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/classic_price",
+        "base_ref": "0f84eb4"
+      },
+      {
+        "name": "strategy/classic_contribution",
+        "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/classic_contribution",
+        "base_ref": "0f84eb4"
+      },
+      {
+        "name": "strategy/classic_tournament",
+        "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/classic_tournament",
+        "base_ref": "59d2085"
+      },
+      {
+        "name": "strategy/classic_hybrid",
+        "path": "/kmh-nfs-ssd-us-mount/code/qiao/work/poker-bot/.runtime/competition-20261109/branches/classic_hybrid",
+        "base_ref": "0f84eb4"
+      }
+    ],
+    "comparison_contract": "Each change keeps a source-matched control, with source-to-rule mapping; combine only after isolated comparisons. Preserve historical buggy originals as controls, never imply continuity proves correctness.",
+    "reflection_findings": [
+      "Original method-family branches reimplemented scalar scores rather than preserving full classic policies.",
+      "Current score-based postflop usually misses no-draw top-pair value bets; causal online impact unmeasured.",
+      "Classic floorfix has unconditional big-call commitment paths, including weak-kicker public trips.",
+      "Same-family frozen opponents establish a controlled local comparison, not general competition strength.",
+      "Pause new auction complexity; prioritize coherent betting and narrow classical-policy changes."
+    ],
+    "practice_attribution": "Rank83/187 belongs to oldhybrid fabb5704; correctedloose was not the snapshot in that practice.",
+    "practice_feedback": {
+      "provenance": "User-supplied collaborator Mac review relayed by planning thread; full Practice4 traces absent locally; local official aggregates verified separately.",
+      "examples": [
+        {
+          "cards": "As7c",
+          "board": "KcTc5cQsJc",
+          "active_helper_quality": 0.91,
+          "category": "flush",
+          "limitations": "No source hand ID or full betting history. Synthetic action tests only. Uniform-HU equity remains high; action-conditioned risk is the concern."
+        },
+        {
+          "cards": "6s6h",
+          "board": "KdKhAc2c7d",
+          "active_helper_quality": 0.62,
+          "category": "two_pair",
+          "limitations": "Suits are a constructed fixture; no source action history."
+        }
+      ],
+      "priority": [
+        "fragile made hands and expensive escalation",
+        "large calls under sustained pressure",
+        "auction pricing later"
+      ]
+    },
+    "branch_owners": {
+      "classic_price": "/root/classic_price_manager",
+      "classic_contribution": "/root/classic_contribution_manager",
+      "classic_hybrid": "/root/classic_hybrid_manager",
+      "classic_tournament": "/root/classic_tournament_manager",
+      "preflop_price": "/root/preflop_price_manager",
+      "classic_flop_value": "/root/classic_flop_value_manager"
+    },
+    "completed_candidates": {
+      "classic_price_v1": {
+        "ref": "7595f42",
+        "score": 13.671875,
+        "status": "full4096 done,paired audit pending; not a best replacement"
+      },
+      "classic_contribution_v1": {
+        "ref": "c2b346f",
+        "score": 13.825684,
+        "status": "full4096 done,paired audit pending"
+      },
+      "fragile_flush_pair_both": {
+        "ref": "fdd2430",
+        "status": "3qualified packages,full4096 per candidate running"
+      },
+      "classic_hybrid_v1": {
+        "ref": "52474ad",
+        "status": "qualified package,fullbenchmark requested"
+      }
+    }
+  },
+  "agent_health_audit": {
+    "status": "live owners/objectives/committed artifacts verified",
+    "remediation": "New per-branch CURRENT_TASK.json distinguishes inherited historical STATUS/RESULTS from current manager state. Fresh-context C/E/F workers. No evidence of context-related capability loss asserted."
+  },
+  "latest_qualified_contenders": {
+    "classic_tournament_v1": {
+      "ref": "f871e0b",
+      "status": "full4096 benchmark running"
+    },
+    "preflop_price_v1": {
+      "ref": "485fae4",
+      "status": "full4096 benchmark running; rare closed-allin cheap-call exception"
+    },
+    "classic_flop_value_v1": {
+      "ref": "1608777",
+      "status": "full4096 benchmark running; candidate_bot directory"
+    },
+    "hybrid_price_contribution_both": {
+      "ref": "0c60de2",
+      "status": "three full4096 runs active; source-matched OFF=52474ad"
+    },
+    "practice_prior_full_v1": {
+      "owner": "external data/prior thread01a1c2b9",
+      "reported_mean": 17.65625,
+      "status": "Independent source/score audit and zero-bank qualification pending; not yet declared verified best."
+    }
+  },
+  "official_diagnostics": {
+    "scope": "First1000 ownS1 tables in archive order; old corrected-loose d3e source, not current classic hybrid",
+    "path": "../.runtime/competition-20261109/official-diagnostics/scored1-20261110T004153Z/summary.json",
+    "table_hands": 143713,
+    "own_dealt_hands": 101157,
+    "own_betting_decisions": 125481,
+    "automatic": 0,
+    "chip_conservation_errors": 0,
+    "exact_f_scope_actual_checks": 897,
+    "exact_f_scope_decisions": 942,
+    "exact_d_flush_facebet_reraises": 17,
+    "exact_d_pair_expensive_calls": 51,
+    "closed_allin_price_at_most_5pct_folds": 9,
+    "interpretation": "Exposure counts and stakes, not causal EV or guaranteed saved chips."
+  }
+}

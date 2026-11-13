@@ -1,0 +1,68 @@
+{
+  "seed": "simple-classic-sdk-wiring-v1",
+  "tables": 2,
+  "bots": {
+    "simple_classic_v1#0": {
+      "average_points": 13.755,
+      "places": {
+        "2": 1,
+        "5": 1
+      },
+      "failed_decisions": 0
+    },
+    "variant#1": {
+      "average_points": 12.82,
+      "places": {
+        "4": 1,
+        "6": 1
+      },
+      "failed_decisions": 0
+    },
+    "tournament#2": {
+      "average_points": 6.372,
+      "places": {
+        "5": 1,
+        "8": 1
+      },
+      "failed_decisions": 0
+    },
+    "ranges#3": {
+      "average_points": 6.741,
+      "places": {
+        "7": 2
+      },
+      "failed_decisions": 0
+    },
+    "variant#4": {
+      "average_points": 12.934,
+      "places": {
+        "3": 1,
+        "6": 1
+      },
+      "failed_decisions": 0
+    },
+    "tournament#5": {
+      "average_points": 17.415,
+      "places": {
+        "2": 1,
+        "4": 1
+      },
+      "failed_decisions": 0
+    },
+    "ranges#6": {
+      "average_points": 6.915,
+      "places": {
+        "3": 1,
+        "8": 1
+      },
+      "failed_decisions": 0
+    },
+    "tournament#7": {
+      "average_points": 23.049,
+      "places": {
+        "1": 2
+      },
+      "failed_decisions": 0
+    }
+  }
+}

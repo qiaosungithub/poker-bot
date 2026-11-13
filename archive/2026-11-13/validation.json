@@ -1,0 +1,33 @@
+{
+  "observed_at": "2026-11-13",
+  "benchmark_lock_sha256": "dc6c9f772eabdd0db0b31d011e548d40b8119e872773d58ecd9c077eaaa5eba6",
+  "benchmark_verify_passed": true,
+  "candidate_audits": {
+    "patient_defend_v2-audit": {
+      "verified": "auction-flop-v1",
+      "tables": 4096
+    },
+    "patient_value_v1-audit": {
+      "verified": "auction-flop-v1",
+      "tables": 4096
+    },
+    "simple_classic_v1-audit": {
+      "verified": "auction-flop-v1",
+      "tables": 4096
+    },
+    "simple_keycard_v1-audit": {
+      "verified": "auction-flop-v1",
+      "tables": 4096
+    },
+    "simple_tuned_v2-audit": {
+      "verified": "auction-flop-v1",
+      "tables": 4096
+    }
+  },
+  "event_secret_scan": {
+    "objects": 753,
+    "blobs_scanned": 432,
+    "findings": []
+  },
+  "event_bundle_sha256": "b918b3ea441c89ddacac82f1a8602c976ef56a50c1bc08afcd0ad89cb79246b1"
+}

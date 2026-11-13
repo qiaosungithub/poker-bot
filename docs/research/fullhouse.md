@@ -128,6 +128,17 @@ Evidence:
 The original November 6 value of 0.343 ms P99 belongs to the released checkpoint
 on that historical run; it remains unchanged in the frozen benchmark table.
 
+## November 9 build-box latency comparison
+
+An independent environment was installed on the organizer's EC2 `m7i.large`
+build box. On the same retained corpus, source and FP32 models, the selected
+iteration 210 measured median **0.121 ms**, P99 **0.196 ms**, maximum **0.446 ms**,
+and **0/30,000 calls over 1 ms**. A new Python 3.12 research-server run measured
+median 0.222 ms and P99 0.363 ms. Python builds and host load differ; the research
+CPU's sibling became busy during the run. These values describe the measured
+hosts, not isolated CPU speed or guaranteed production timing. Official SDK and
+IPC are excluded. See the [full report and reusable environment](../../fullhouse-repro/latency/2026-11-09-buildbox-comparison/REPORT.md).
+
 ## Artifacts and validation
 
 Paths are relative to `poker-bot/`:

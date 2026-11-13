@@ -1,0 +1,29 @@
+{
+  "patient_value_v1": {
+    "sha256": "af3f7ab64712e632f85ce3531cf32d0de83ae3967b0fadc56e15b6656ca93a15",
+    "size_bytes": 10104,
+    "files": [
+      "agent.py",
+      "cards.py",
+      "config.py",
+      "hand_contribution.py",
+      "pot_accounting.py",
+      "simple_auction.py",
+      "simple_preflop.py",
+      "value_postflop.py"
+    ]
+  },
+  "simple_keycard_v1": {
+    "sha256": "751d7371b1e46a7ce16da8eb7e49db6668485a1855bd990866e83ef0901d0045",
+    "size_bytes": 10110,
+    "files": [
+      "agent.py",
+      "classic_postflop.py",
+      "config.py",
+      "hand_contribution.py",
+      "pot_accounting.py",
+      "simple_auction.py",
+      "simple_preflop.py"
+    ]
+  }
+}

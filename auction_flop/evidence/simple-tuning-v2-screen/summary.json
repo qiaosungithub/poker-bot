@@ -1,0 +1,189 @@
+{
+  "all_scores_audited": true,
+  "confidence_scope": "Unadjusted descriptive intervals; arm selection is optimistic.",
+  "scores": [
+    {
+      "candidate_decisions": 66682,
+      "ci95": [
+        7.731448730604504,
+        10.159176269395497
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 7.908203125,
+      "mean_points": 8.9453125,
+      "mean_spent_flopchips": 192.361328125,
+      "name": "call_wider",
+      "table_sha256": "5a1acd1c87f4ed3091f0dc547c58e9b4872ff8455b99551960cf5820d9cfee47",
+      "tables": 512,
+      "total_failures": 0
+    },
+    {
+      "candidate_decisions": 67417,
+      "ci95": [
+        7.778728437169104,
+        10.111896562830896
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 8.111328125,
+      "mean_points": 8.9453125,
+      "mean_spent_flopchips": 196.43359375,
+      "name": "loose_open",
+      "table_sha256": "f11052e9e3d449a3d656e9e2433eb58d1c65b08634517ab1786ec117e216e8c0",
+      "tables": 512,
+      "total_failures": 0
+    },
+    {
+      "candidate_decisions": 66741,
+      "ci95": [
+        7.5991712315117725,
+        9.783641268488228
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 7.6328125,
+      "mean_points": 8.69140625,
+      "mean_spent_flopchips": 184.537109375,
+      "name": "samples_16",
+      "table_sha256": "ad8f45f4e706044aed1f06493ce8f3d90a32f68eda89fda5189b80852cf71dc1",
+      "tables": 512,
+      "total_failures": 0
+    },
+    {
+      "candidate_decisions": 67413,
+      "ci95": [
+        7.524990780774139,
+        9.74063421922586
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 7.810546875,
+      "mean_points": 8.6328125,
+      "mean_spent_flopchips": 564.625,
+      "name": "bid_60",
+      "table_sha256": "5cab5d7b1ba7a9ef2bf1f1519170acdd2902d0690b960ad54cfd49cfe732d105",
+      "tables": 512,
+      "total_failures": 0
+    },
+    {
+      "candidate_decisions": 67397,
+      "ci95": [
+        7.490588098718667,
+        9.618786901281332
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 7.630859375,
+      "mean_points": 8.5546875,
+      "mean_spent_flopchips": 805.86328125,
+      "name": "bid_120",
+      "table_sha256": "f1c62e56c5f5a3c3ff738a722196bae06b6ecc0abaf48c16fe12db79515a6595",
+      "tables": 512,
+      "total_failures": 0
+    },
+    {
+      "candidate_decisions": 65931,
+      "ci95": [
+        7.333003113993447,
+        9.502934386006553
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 7.5859375,
+      "mean_points": 8.41796875,
+      "mean_spent_flopchips": 182.634765625,
+      "name": "control",
+      "table_sha256": "b1b322b19df70710b0ba8d5073abae2128dbda79adceb1af580f119f2b365e79",
+      "tables": 512,
+      "total_failures": 0
+    },
+    {
+      "candidate_decisions": 67394,
+      "ci95": [
+        7.3163120340356596,
+        9.48056296596434
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 7.78125,
+      "mean_points": 8.3984375,
+      "mean_spent_flopchips": 607.107421875,
+      "name": "duration_10",
+      "table_sha256": "3ea11a185246a23af7ac534968276246f0bc088680f642e67e9973a9e48a7d18",
+      "tables": 512,
+      "total_failures": 0
+    },
+    {
+      "candidate_decisions": 66784,
+      "ci95": [
+        7.293353000379232,
+        9.503521999620768
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 7.68359375,
+      "mean_points": 8.3984375,
+      "mean_spent_flopchips": 309.681640625,
+      "name": "duration_25",
+      "table_sha256": "0b1ae560569000b14f0310e0f0e3047e8b453c5027c9a357739c815182c1b2e3",
+      "tables": 512,
+      "total_failures": 0
+    },
+    {
+      "candidate_decisions": 65862,
+      "ci95": [
+        7.324271696091619,
+        9.35541580390838
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 7.658203125,
+      "mean_points": 8.33984375,
+      "mean_spent_flopchips": 185.421875,
+      "name": "bet_larger",
+      "table_sha256": "636b23f3e5057fe9ccaeb2f5da2aca2e77d07d34cffd80e769f97d251ecae430",
+      "tables": 512,
+      "total_failures": 0
+    },
+    {
+      "candidate_decisions": 66356,
+      "ci95": [
+        7.201958250572055,
+        9.438666749427945
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 7.7734375,
+      "mean_points": 8.3203125,
+      "mean_spent_flopchips": 187.734375,
+      "name": "shove_later",
+      "table_sha256": "3596cfea9521ccdaef37811750dadfe7fb61614d453f897ef4ed9b27396327e8",
+      "tables": 512,
+      "total_failures": 0
+    },
+    {
+      "candidate_decisions": 65627,
+      "ci95": [
+        6.965486233649841,
+        8.893888766350159
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 7.5390625,
+      "mean_points": 7.9296875,
+      "mean_spent_flopchips": 180.37890625,
+      "name": "no_air_bluff",
+      "table_sha256": "6cf77e2e0a419da594712d266dc7ab46d714b039a3265a5a986a72d1b79cf0ce",
+      "tables": 512,
+      "total_failures": 0
+    },
+    {
+      "candidate_decisions": 62344,
+      "ci95": [
+        5.814561992934998,
+        7.857313007065002
+      ],
+      "independent_blocks": 64,
+      "mean_auctions": 6.935546875,
+      "mean_points": 6.8359375,
+      "mean_spent_flopchips": 0.0,
+      "name": "bid_zero",
+      "table_sha256": "fad5b76e37c36e48f151a68b343040690fccb5a90fc6309f903709082693453b",
+      "tables": 512,
+      "total_failures": 0
+    }
+  ],
+  "seconds": 83.32364685903303,
+  "selection_only": true,
+  "total_tables": 6144
+}

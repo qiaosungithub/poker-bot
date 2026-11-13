@@ -33,3 +33,10 @@ venv/
 /fullhouse-repro/source/
 
 # Keep benchmark JSON/JSONL, state corpora and frozen source ZIPs versioned.
+
+# Historical nested event Git repository is preserved in the closeout bundle.
+/event-20261109/
+# Small selected exports intentionally published for model recovery.
+!/archive/2026-11-13/models/*.npz
+!/archive/2026-11-13/models/*.onnx
+!/archive/2026-11-13/models/*.pt

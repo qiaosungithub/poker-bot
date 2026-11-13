@@ -1,0 +1,62 @@
+{
+  "behavioral_tests": {
+    "passed": 7,
+    "random_auction_states": 1000
+  },
+  "native_sdk_wiring": {
+    "tables": 2,
+    "seats": 8,
+    "hand_cap": 20,
+    "decision_ms": 1000,
+    "all_failed_decisions": 0,
+    "result": "sdk-wiring-installed.json",
+    "sdk_files_identical_to_frozen_benchmark": 38,
+    "initial_attempt": "sdk-wiring.json and sdk-wiring.stderr retain a failed guest startup attempt in the benchmark-only environment, which does not install SDK packages; the event environment resolves it."
+  },
+  "benchmark": {
+    "tables": 4096,
+    "candidate_decisions": 536181,
+    "candidate_failures": 0,
+    "total_failures": 0,
+    "phase_counts": {
+      "betting": 504795,
+      "auction": 31386
+    },
+    "raw_mean_recomputed": 8.402371826171875,
+    "mean_auctions_per_table": 7.66259765625,
+    "spent_per_auction": 24.431211368125915,
+    "seconds": 161.558237,
+    "tables_per_second": 25.353086763381803,
+    "workers": 16
+  },
+  "package": {
+    "path": "auction_flop/research/simple_classic_v1/simple_classic_v1.zip",
+    "sha256": "0a3ce82803aa42b1b33ad84919277453009b049770032ac133752f92f8622fbb",
+    "size_bytes": 9589,
+    "sdk_static_check": "passed",
+    "source_equals_measured_snapshot": true
+  },
+  "latency": "No 1 ms production timing qualification; direct benchmark is untimed and SDK wiring used 1000 ms.",
+  "cpu_observation": {
+    "host_model": "AMD EPYC 7B12",
+    "logical_cpus": 240,
+    "physical_cores_visible": 120,
+    "last_panel_worker_affinity": "48-63",
+    "sample_duration_seconds": 2,
+    "worker_cpu_percent_range": [
+      93.4,
+      100.4
+    ],
+    "smt_examples": {
+      "48": [
+        48,
+        168
+      ],
+      "63": [
+        63,
+        183
+      ]
+    },
+    "cloud_inventory": "he-vision-group ordinary running GCE list: kmh-ac-dispatcher, us-central1-a, e2-standard-8, AMD Rome. No remote job launched."
+  }
+}

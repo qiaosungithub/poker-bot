@@ -1,0 +1,14 @@
+coloredlogs==15.0.1
+eval7==0.1.11
+flatbuffers==25.12.19
+future==1.0.0
+humanfriendly==10.0
+mpmath==1.3.0
+numpy==2.2.6
+onnxruntime==1.23.2
+packaging==26.3
+pip==26.2.2
+pokerkit==0.7.7
+protobuf==7.36.2
+pyparsing==3.3.3
+sympy==1.14.0

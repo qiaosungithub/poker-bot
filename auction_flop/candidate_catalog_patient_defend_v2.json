@@ -1,0 +1,22 @@
+{
+  "report": "research/patient_loop/RESULTS.md",
+  "candidates": {
+    "patient_defend_v2": {
+      "path": "candidates/patient_defend_v2",
+      "result": "evidence/candidate-patient_defend_v2/summary.json",
+      "status": "completed_4096_tables_audited_fresh_holdout_confirmed_not_submitted",
+      "sha256": {
+        "agent.py": "7e6609e2ae5d06ae52f8df2f8b4d69da44f5e63b82a11676af0a31fa08c1f703",
+        "cards.py": "1480e47bb5355658f1e1ce017f5074344b44d90cb9dd27aec4ced07ab19f2a84",
+        "config.py": "5a74569d70248cf51a1cb54564c2166adf54ba46db12c19edbf73b603398d136",
+        "hand_contribution.py": "bf75d8f14d90568d5d41ef4d4726093dfecd89c67d3caf012a7b60a6df9aa859",
+        "pot_accounting.py": "f1d788be7be367125d13f04cd92701b2d2c7307b307c75f84726eb15d84cfaee",
+        "preflop_table.py": "d3e015114b6bf5c9d3b3e7d577f918d7cdf28ff1979ef5ad19c0cc99e52e9197",
+        "simple_auction.py": "eb196348447da3e8210fe7116481bac13ef8426b6532f6a68abda7d13a431d8c",
+        "simple_preflop.py": "fb318dcb9a0c8f649080c63e03b8c83785e3e36805f795d2f96f128b51a9cea1",
+        "value_postflop.py": "dbdf2f856819c03b9f3f3dffd0450f3a871e47425594771b29d3c6ef1d9112a7"
+      },
+      "package_sha256": "c271c708d90b19be2439dd1f0746479b50bf09cc714573f92cf8561a48f2b834"
+    }
+  }
+}
